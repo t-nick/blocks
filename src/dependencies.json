@@ -109,7 +109,7 @@
       "block-bg": "darkShadeColor",
       "expanded-menu-bg": "darkShadeColor",
       "icon-color": "lightShadeColor",
-      "media-bg": "darkShadeColor?lighten=15.1",
+      "media-bg": "lightShadeColor?darken=20.0",
       "border-color": "lightShadeColor"
     }
   },
@@ -223,7 +223,7 @@
       "block-bg": "lightShadeColor",
       "expanded-menu-bg": "lightShadeColor",
       "icon-color": "darkShadeColor?lighten=20.9",
-      "media-bg": "lightShadeColor?darken=15.1",
+      "media-bg": "darkShadeColor?lighten=20.9",
       "border-color": "lightShadeColor?darken=3"
     }
   }
