@@ -1,0 +1,11 @@
+{
+  "name": "Lightning yellow",
+  "type": "concept",
+  "colors": {
+    "lightShadeColor": "#ffffff",
+    "lightAccentColor": "#f9b91e",
+    "brandColor": "#f9b91e",
+    "darkAccentColor": "#f9b91e",
+    "darkShadeColor": "#242424"
+  }
+}

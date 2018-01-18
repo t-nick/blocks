@@ -1,0 +1,230 @@
+{
+  "dark": {
+    "base": {
+      "light-shade-color": "lightShadeColor",
+      "light-accent-color": "lightAccentColor",
+      "brand-color": "brandColor",
+      "dark-accent-color": "darkAccentColor",
+      "dark-shade-color": "darkShadeColor"
+    },
+    "typography": {
+      "hero-title-color": "lightShadeColor",
+      "block-title-color": "lightShadeColor",
+      "subtitle-color": "lightShadeColor",
+      "heading-color": "lightShadeColor",
+      "heading-lg-color": "lightShadeColor",
+      "subheading-color": "lightShadeColor",
+      "text-color": "lightShadeColor",
+      "small-color": "lightShadeColor",
+      "quote-color": "lightShadeColor",
+      "caption-color": "lightShadeColor"
+    },
+    "buttons": {
+      "primary": {
+        "default": {
+          "btn-primary-color": "lightShadeColor",
+          "btn-primary-bg": "brandColor",
+          "btn-primary-border-color": "transparent",
+          "btn-primary-shadow-color": "none"
+        },
+        "hover": {
+          "btn-primary-hover-color": "darkShadeColor",
+          "btn-primary-hover-bg": "lightShadeColor",
+          "btn-primary-hover-border-color": "transparent",
+          "btn-primary-hover-shadow-color": "none"
+        },
+        "active": {
+          "btn-primary-active-color": "darkShadeColor",
+          "btn-primary-active-bg": "lightShadeColor",
+          "btn-primary-active-border-color": "transparent",
+          "btn-primary-active-shadow-color": "none"
+        }
+      },
+      "primary-alternative": {
+        "default": {
+          "alt-btn-primary-color": "darkShadeColor",
+          "alt-btn-primary-bg": "lightShadeColor",
+          "alt-btn-primary-border-color": "transparent",
+          "alt-btn-primary-shadow-color": "none"
+        },
+        "hover": {
+          "alt-btn-primary-hover-color": "lightShadeColor",
+          "alt-btn-primary-hover-bg": "brandColor",
+          "alt-btn-primary-hover-border-color": "transparent",
+          "alt-btn-primary-hover-shadow-color": "none"
+        },
+        "active": {
+          "alt-btn-primary-active-color": "lightShadeColor",
+          "alt-btn-primary-active-bg": "brandColor",
+          "alt-btn-primary-active-border-color": "transparent",
+          "alt-btn-primary-active-shadow-color": "none"
+        }
+      },
+      "secondary": {
+        "default": {
+          "btn-secondary-color": "lightShadeColor",
+          "btn-secondary-bg": "transparent",
+          "btn-secondary-border-color": "lightShadeColor",
+          "btn-secondary-shadow-color": "none"
+        },
+        "hover": {
+          "btn-secondary-hover-color": "darkShadeColor",
+          "btn-secondary-hover-bg": "lightShadeColor",
+          "btn-secondary-hover-border-color": "lightShadeColor",
+          "btn-secondary-hover-shadow-color": "none"
+        },
+        "active": {
+          "btn-secondary-active-color": "darkShadeColor",
+          "btn-secondary-active-bg": "lightShadeColor",
+          "btn-secondary-active-border-color": "lightShadeColor",
+          "btn-secondary-active-shadow-color": "none"
+        }
+      },
+      "secondary-alternative": {
+        "default": {
+          "alt-btn-secondary-color": "lightShadeColor",
+          "alt-btn-secondary-bg": "transparent",
+          "alt-btn-secondary-border-color": "brandColor",
+          "alt-btn-secondary-shadow-color": "none"
+        },
+        "hover": {
+          "alt-btn-secondary-hover-color": "lightShadeColor",
+          "alt-btn-secondary-hover-bg": "brandColor",
+          "alt-btn-secondary-hover-border-color": "brandColor",
+          "alt-btn-secondary-hover-shadow-color": "none"
+        },
+        "active": {
+          "alt-btn-secondary-active-color": "lightShadeColor",
+          "alt-btn-secondary-active-bg": "brandColor",
+          "alt-btn-secondary-active-border-color": "brandColor",
+          "alt-btn-secondary-active-shadow-color": "none"
+        }
+      }
+    },
+    "link": {
+      "link-color": "brandColor",
+      "link-hover-color": "brandColor"
+    },
+    "other": {
+      "block-bg": "darkShadeColor",
+      "expanded-menu-bg": "darkShadeColor",
+      "icon-color": "lightShadeColor",
+      "media-bg": "darkShadeColor?lighten=15.1",
+      "border-color": "lightShadeColor"
+    }
+  },
+  "light": {
+    "base": {
+      "light-accent-color": "lightAccentColor",
+      "light-shade-color": "lightShadeColor",
+      "brand-color": "brandColor",
+      "dark-accent-color": "darkAccentColor",
+      "dark-shade-color": "darkShadeColor"
+    },
+    "typography": {
+      "hero-title-color": "darkShadeColor",
+      "block-title-color": "darkShadeColor?lighten=20.9",
+      "subtitle-color": "darkShadeColor?lighten=20.9",
+      "heading-lg-color": "darkShadeColor?lighten=20.9",
+      "heading-color": "darkShadeColor?lighten=20.9",
+      "subheading-color": "darkShadeColor?lighten=20.9",
+      "text-color": "darkShadeColor?lighten=20.9",
+      "small-color": "darkShadeColor?lighten=20.9",
+      "quote-color": "darkShadeColor?lighten=20.9",
+      "caption-color": "darkShadeColor?lighten=20.9"
+    },
+    "buttons": {
+      "primary": {
+        "default": {
+          "btn-primary-color": "lightShadeColor",
+          "btn-primary-bg": "brandColor",
+          "btn-primary-border-color": "transparent",
+          "btn-primary-shadow-color": "none"
+        },
+        "hover": {
+          "btn-primary-hover-color": "lightShadeColor",
+          "btn-primary-hover-bg": "darkShadeColor",
+          "btn-primary-hover-border-color": "transparent",
+          "btn-primary-hover-shadow-color": "none"
+        },
+        "active": {
+          "btn-primary-active-color": "lightShadeColor",
+          "btn-primary-active-bg": "darkShadeColor",
+          "btn-primary-active-border-color": "transparent",
+          "btn-primary-active-shadow-color": "none"
+        }
+      },
+      "primary-alternative": {
+        "default": {
+          "alt-btn-primary-color": "lightShadeColor",
+          "alt-btn-primary-bg": "darkShadeColor",
+          "alt-btn-primary-border-color": "transparent",
+          "alt-btn-primary-shadow-color": "none"
+        },
+        "hover": {
+          "alt-btn-primary-hover-color": "lightShadeColor",
+          "alt-btn-primary-hover-bg": "brandColor",
+          "alt-btn-primary-hover-border-color": "transparent",
+          "alt-btn-primary-hover-shadow-color": "none"
+        },
+        "active": {
+          "alt-btn-primary-active-color": "lightShadeColor",
+          "alt-btn-primary-active-bg": "brandColor",
+          "alt-btn-primary-active-border-color": "transparent",
+          "alt-btn-primary-active-shadow-color": "none"
+        }
+      },
+      "secondary": {
+        "default": {
+          "btn-secondary-color": "darkShadeColor?lighten=20.9",
+          "btn-secondary-bg": "transparent",
+          "btn-secondary-border-color": "darkShadeColor?lighten=20.9",
+          "btn-secondary-shadow-color": "none"
+        },
+        "hover": {
+          "btn-secondary-hover-color": "lightShadeColor",
+          "btn-secondary-hover-bg": "darkShadeColor?lighten=20.9",
+          "btn-secondary-hover-border-color": "darkShadeColor?lighten=20.9",
+          "btn-secondary-hover-shadow-color": "none"
+        },
+        "active": {
+          "btn-secondary-active-color": "lightShadeColor",
+          "btn-secondary-active-bg": "darkShadeColor?lighten=20.9",
+          "btn-secondary-active-border-color": "darkShadeColor?lighten=20.9",
+          "btn-secondary-active-shadow-color": "none"
+        }
+      },
+      "secondary-alternative": {
+        "default": {
+          "alt-btn-secondary-color": "darkShadeColor?lighten=20.9",
+          "alt-btn-secondary-bg": "transparent",
+          "alt-btn-secondary-border-color": "brandColor",
+          "alt-btn-secondary-shadow-color": "none"
+        },
+        "hover": {
+          "alt-btn-secondary-hover-color": "lightShadeColor",
+          "alt-btn-secondary-hover-bg": "brandColor",
+          "alt-btn-secondary-hover-border-color": "brandColor",
+          "alt-btn-secondary-hover-shadow-color": "none"
+        },
+        "active": {
+          "alt-btn-secondary-active-color": "lightShadeColor",
+          "alt-btn-secondary-active-bg": "brandColor",
+          "alt-btn-secondary-active-border-color": "brandColor",
+          "alt-btn-secondary-active-shadow-color": "none"
+        }
+      }
+    },
+    "link": {
+      "link-color": "brandColor",
+      "link-hover-color": "brandColor"
+    },
+    "other": {
+      "block-bg": "lightShadeColor",
+      "expanded-menu-bg": "lightShadeColor",
+      "icon-color": "darkShadeColor?lighten=20.9",
+      "media-bg": "lightShadeColor?darken=15.1",
+      "border-color": "lightShadeColor?darken=3"
+    }
+  }
+}
