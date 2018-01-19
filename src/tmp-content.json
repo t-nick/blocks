@@ -5,7 +5,7 @@
       "id": "8130928a-e7c6-4e26-a3ca-a820fa36380e",
       "title": "America's Most Admired Corporations",
       "picture": {
-        "resourceRef": "1.png",
+        "resourceRef": "01.png",
         "alt": "Award illustration photo"
       }
     },
@@ -13,7 +13,7 @@
       "id": "057c27bf-4977-4b28-bf35-f4a6db60d5aa",
       "title": "100 Best Companies",
       "picture": {
-        "resourceRef": "2.png",
+        "resourceRef": "02.png",
         "alt": "Award illustration photo"
       }
     },
@@ -21,7 +21,7 @@
       "id": "c8e93041-896b-4b78-b8d0-37e21a79070f",
       "title": "Best Places to Work for LGBT Equality",
       "picture": {
-        "resourceRef": "3.png",
+        "resourceRef": "03.png",
         "alt": "Award illustration photo"
       }
     },
@@ -29,7 +29,7 @@
       "id": "3ea9fdda-c0e6-418e-9bfe-7bf1b06a534d",
       "title": "2017 Employer Support Freedom Award",
       "picture": {
-        "resourceRef": "4.png",
+        "resourceRef": "04.png",
         "alt": "Award illustration photo"
       }
     }
