@@ -1,3 +1,29 @@
 @import "wireframe-zapdos-awards/src/style.css";
 
-/* start here */
+.title {
+  font-size: var(--ui-block-title-size);
+  font-family: var(--ui-block-title-font-family);
+  font-weight: var(--ui-block-title-font-weight);
+  line-height: var(--ui-block-title-line-height);
+  text-align: left;
+  letter-spacing: 2px;
+  color: #383837;
+  width: 358px;
+  position: relative;
+}
+
+.title:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 32px;
+  background-color: var(--ui-brand-color);
+  z-index: 0;
+}
+
+.title > span {
+  position: relative;
+  z-index: 1;
+}
