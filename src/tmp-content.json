@@ -1,3 +1,76 @@
 {
-  "title": "Design title"
+  "title": "Our Projects",
+  "projects": [{
+      "id": "e9ec34d7-3cc6-49f3-a9ad-6ea69f59409c",
+      "title": "Their separate existence",
+      "subtitle": "UX DESIGN",
+      "text": "Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words.",
+      "picture": {
+        "src": "img/photo000.jpg",
+        "alt": "Project 1"
+      },
+      "cta": {
+        "actionConfig": {
+          "action": "link",
+          "actions": {
+            "link": {
+              "type": "",
+              "innerPage": "",
+              "url": ""
+            }
+          }
+        },
+        "textValue": "Learn more"
+      }
+    },
+    {
+      "id": "e9ec34d7-3cc6-49f3-a9ad-6ea69f59409c",
+      "title": "Everyone realizes",
+      "subtitle": "",
+      "text": "Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.",
+      "picture": {
+        "src": "img/photo002.jpg",
+        "alt": "Project 1"
+      },
+      "cta": {
+        "actionConfig": {
+          "action": "link",
+          "actions": {
+            "link": {
+              "type": "",
+              "innerPage": "",
+              "url": ""
+            }
+          }
+        },
+        "textValue": "Learn more"
+      }
+    },
+    {
+      "id": "e9ec34d7-3cc6-49f3-a9ad-6ea69f59409c",
+      "title": "The new common language",
+      "subtitle": "UX DESIGN",
+      "text": "The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.",
+      "picture": {
+        "src": "img/photo003.jpg",
+        "alt": "Project 1"
+      },
+      "cta": {
+        "actionConfig": {
+          "action": "link",
+          "actions": {
+            "link": {
+              "type": "",
+              "innerPage": "",
+              "url": ""
+            }
+          }
+        },
+        "textValue": "Learn more"
+      }
+    }
+  ],
+  "cta": {
+    "textValue": "View all"
+  }
 }
