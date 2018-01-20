@@ -124,7 +124,7 @@
   line-height: var(--ui-text-line-height);
   font-weight: var(--ui-text-font-weight);
   word-wrap: break-word;
-  
+
   @media (min-width: 768px) {
     padding: 60px 0;
   }
@@ -253,13 +253,17 @@
 
 .plan__list {
   margin-bottom: 40px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .plan__list-item {
   margin-bottom: 15px;
 }
 
-.plan__list-item:last-child {
+.plan__list-item:last-of-type {
   margin-bottom: 0;
 }
 
@@ -296,6 +300,10 @@
 
 .plan--main .plan__list {
   margin-bottom: 40px;
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .plan--main .plan__button {
@@ -337,4 +345,16 @@
 .link:active,
 .link:focus {
   color: var(--ui-link-hover-color);
+}
+
+.top-icon-wrapper {
+  width: 20px;
+
+  .top-icon {
+    color: var(--ui-brand-color);
+  }
+}
+
+.price-wrapper {
+  background-color: var(--ui-brand-color);
 }
