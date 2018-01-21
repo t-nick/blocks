@@ -1,3 +1,46 @@
 {
-  "title": "Design title"
-}
+  "title": "My Awards",
+ "background": {
+  "type": "image",
+  "position": {
+    "type": "cover",
+    "cover": "50% 50%"
+   },
+  "src": "photo_bg5.jpg"
+ },
+
+ "awards": [
+  {
+    "id": "8130928a-e7c6-4e26-a3ca-a820fa36380e",
+    "title": "Professional Photo Contest 2015",
+    "picture": {
+      "src": "05.png",
+      "alt": "Award illustration photo"
+    }
+  },
+  {
+    "id": "057c27bf-4977-4b28-bf35-f4a6db60d5aa",
+    "title": "Catch The Moment 2015",
+    "picture": {
+      "src": "06.png",
+      "alt": "Award illustration photo"
+    }
+  },
+  {
+    "id": "c8e93041-896b-4b78-b8d0-37e21a79070f",
+    "title": "Catch The Moment 2016",
+    "picture": {
+      "src": "07.png",
+      "alt": "Award illustration photo"
+    }
+  },
+  {
+    "id": "3ea9fdda-c0e6-418e-9bfe-7bf1b06a534d",
+    "title": "Photography Community 2015",
+    "picture": {
+      "src": "08.png",
+      "alt": "Award illustration photo"
+    }
+  }
+]
+ }

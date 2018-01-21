@@ -1,3 +1,66 @@
 @import "wireframe-zapdos-awards/src/style.css";
 
 /* start here */
+.title {
+  display: inline;
+  text-align: left;
+  color: var(--ui-quote-color);
+  letter-spacing: 2px;
+  background-image: linear-gradient(to top, transparent 11px, rgba(255, 238, 166, 0.4) 11px, rgba(255, 238, 166, 0.4) 43px, transparent 32px);
+}
+
+.item,
+.item:first-child {
+  margin-top: 0;
+}
+
+.item__picture-wrapper {
+  transform: scale(0.6);
+}
+
+.item:nth-of-type(2) .item__picture-wrapper {
+  margin-top: -20px;
+}
+
+.item__picture {
+  background-color: transparent;
+  padding-top: 100%;
+}
+
+.item:nth-of-type(2) .item__picture {
+  padding-top: 114%;
+}
+
+.item__title:before {
+  content: " ";
+  width: 30px;
+  height: 4px;
+  background-color: var(--ui-brand-color);
+  display: inline-block;
+  position: absolute;
+  left: 45%;
+  top: -58%;
+}
+
+.item__title {
+  position: relative;
+  margin-top: -13px;
+  padding: 0 10px;
+  color: var(--ui-quote-color);
+  font-size: calc(var(--ui-heading-size) * 0.7272);
+  font-weight: var(--ui-text-font-weight);
+  letter-spacing: 1.1px;
+}
+
+.item:nth-of-type(3) .item__title {
+  padding: 0 35px;
+}
+
+.item:nth-of-type(2) .item__title {
+  padding: 0 35px;
+  margin-top: -30px;
+}
+
+.item__image {
+  object-fit: fill;
+}
