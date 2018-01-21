@@ -9,16 +9,14 @@
 
   .wrap::after {
     position: absolute;
-    top: 0;
+    top: 50px;
     left: 0;
-    z-index: 0;
+    z-index: -1;
     content: "";
     display: inline-block;
     width: 100%;
-    height: 100%;
-    padding: 50px 0 12px;
+    height: 32px;
     background-color: var(--ui-brand-color);
-    background-origin: padding-box;
   }
 }
 
