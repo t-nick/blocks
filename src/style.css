@@ -1,28 +1,23 @@
 @import "wireframe-zapdos-numbers/src/style.css";
 
 /* start here */
-.section__inner {
-  position: relative;
-}
 
 .title {
-  position: relative;
-
-  &::before {
-    position: absolute;
-    top: 40px;
-    left: calc((100% - 525px) / 2);
-    z-index: 0;
-    content: "";
-    display: inline-block;
-    width: 525px;
-    height: 32px;
-    background-color: var(--ui-brand-color);
-  }
-
   span {
     position: relative;
     z-index: 10;
+
+    &::before {
+      position: absolute;
+      top: 40px;
+      left: 0;
+      z-index: 0;
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height: 32px;
+      background-color: var(--ui-brand-color);
+    }
   }
 }
 
@@ -89,12 +84,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .title {
-    &::before {
-      left: 0;
-    }
-  }
-
   .items-wrapper {
     margin-bottom: 120px;
   }
