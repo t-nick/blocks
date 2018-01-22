@@ -1,3 +1,129 @@
 @import "wireframe-zapdos-careers/src/style.css";
 
 /* start here */
+.section {
+  &__inner {
+    position: relative;
+  }
+}
+
+.title {
+  position: relative;
+  letter-spacing: 2px;
+  color: var(--ui-caption-color);
+
+  > span {
+    position: relative;
+    z-index: 10;
+  }
+
+  > span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 249px;
+    height: 32px;
+    top: 38px;
+    left: 0;
+    background-color: var(--ui-brand-color);
+    z-index: -1;
+  }
+}
+
+.content {
+  padding-bottom: 40px;
+
+  &__text {
+    font-size: var(--ui-subtitle-size);
+    font-family: var(--ui-subtitle-font-family);
+    font-weight: var(--ui-subtitle-font-weight);
+    line-height: var(--ui-subtitle-line-height);
+    letter-spacing: 1.1px;
+  }
+}
+
+.list {
+  &__item {
+    &-icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: var(--ui-brand-color);
+    }
+
+    &-text {
+      font-size: var(--ui-subtitle-size);
+      font-family: var(--ui-subtitle-font-family);
+      font-weight: var(--ui-subtitle-font-weight);
+      line-height: var(--ui-subtitle-line-height);
+      letter-spacing: 1.1px;
+      color: var(--ui-text-color);
+
+      > span > b {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .section {
+    position: relative;
+    padding: 115px 0 125px;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 38.803%;
+      height: 660px;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #fafafa;
+    }
+  }
+
+  .title {
+    position: absolute;
+    top: 75px;
+    left: 61.6%;
+    transform: translateX(-50%);
+  }
+
+  .content {
+    &__main {
+      margin-left: 130px;
+      justify-content: space-around;
+    }
+
+    &__text {
+      padding-top: 110px;
+    }
+  }
+
+  .media-wrap {
+    flex-basis: 50%;
+    max-width: 40%;
+    margin-right: 1px;
+  }
+
+  .media {
+    min-height: 580px;
+    padding-top: 0;
+  }
+
+  .list {
+    margin-top: -25px;
+
+    &__item:first-child {
+      margin-top: 25px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .list__item-icon {
+    margin-right: 40px;
+  } 
+}
