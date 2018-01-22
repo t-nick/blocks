@@ -83,6 +83,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .title::after {
+    left: calc((100% - 525px) / 2);
+  }
+
   .items-wrapper {
     margin-bottom: 50px;
 
