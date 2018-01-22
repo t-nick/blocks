@@ -1,12 +1,25 @@
 {
-  "title": "Anna Robinson",
-  "subtitle": "Travel & comercial photographer",
   "background": {
     "type": "image",
     "position": {
       "type": "cover",
       "cover": "50% 50%"
     },
-    "src": "cover-bg.png"
+    "src": "cover-bg.jpg"
+  },
+  "title": "Anna Robinson",
+  "subtitle": "Travel & comercial photographer",
+  "cta-1": {
+    "actionConfig": {
+      "action": "link",
+      "actions": {
+        "link": {
+          "type": "",
+          "innerPage": "",
+          "url": ""
+        }
+      }
+    },
+    "textValue": "Hire me"
   }
 }
