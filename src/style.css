@@ -5,20 +5,22 @@
   position: relative;
 }
 
-.title::after {
-  position: absolute;
-  top: 40px;
-  left: calc((100% - 525px) / 2);
-  z-index: 0;
-  content: "";
-  display: inline-block;
-  width: 525px;
-  height: 32px;
-  background-color: var(--ui-brand-color);
-}
-
 .title {
-  .wrap {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 40px;
+    left: calc((100% - 525px) / 2);
+    z-index: 0;
+    content: "";
+    display: inline-block;
+    width: 525px;
+    height: 32px;
+    background-color: var(--ui-brand-color);
+  }
+
+  span {
     position: relative;
     z-index: 10;
   }
@@ -87,8 +89,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  .title::after {
-    left: 16px;
+  .title {
+    &::before {
+      left: 0;
+    }
   }
 
   .items-wrapper {
