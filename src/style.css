@@ -1,22 +1,26 @@
 @import "wireframe-zapdos-numbers/src/style.css";
 
 /* start here */
+.section__inner {
+  position: relative;
+}
+
+.title::after {
+  position: absolute;
+  top: 40px;
+  left: 16px;
+  z-index: 0;
+  content: "";
+  display: inline-block;
+  width: 525px;
+  height: 32px;
+  background-color: var(--ui-brand-color);
+}
+
 .title {
   .wrap {
     position: relative;
-    z-index: 5;
-  }
-
-  .wrap::after {
-    position: absolute;
-    top: 40px;
-    left: 0;
-    z-index: -1;
-    content: "";
-    display: inline-block;
-    width: 100%;
-    height: 32px;
-    background-color: var(--ui-brand-color);
+    z-index: 10;
   }
 }
 
