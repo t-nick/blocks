@@ -1,3 +1,11 @@
 @import "wireframe-zapdos-cover/src/style.css";
 
 /* start here */
+.section {
+  &__inner {
+    max-width: 625px;
+    border: solid 8px #ffeea6;
+    margin: 0;
+    padding: 80px 0 100px;
+  }
+}

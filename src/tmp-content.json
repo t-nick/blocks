@@ -1,3 +1,12 @@
 {
-  "title": "Design title"
+  "title": "Anna Robinson",
+  "subtitle": "Travel & comercial photographer",
+  "background": {
+    "type": "image",
+    "position": {
+      "type": "cover",
+      "cover": "50% 50%"
+    },
+    "src": "cover-bg.png"
+  }
 }
