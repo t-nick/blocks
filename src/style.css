@@ -8,7 +8,7 @@
 .title::after {
   position: absolute;
   top: 40px;
-  left: 16px;
+  left: calc((100% - 525px) / 2);
   z-index: 0;
   content: "";
   display: inline-block;
@@ -25,54 +25,58 @@
 }
 
 .items-wrapper {
-  margin-bottom: 120px;
+  margin-bottom: 50px;
+}
 
-  .item {
-    &__content {
+.item {
+  &__content {
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 5;
+
+    &__number,
+    &__text {
       position: relative;
-      flex-direction: column;
-      align-items: flex-start;
       z-index: 5;
-
-      &__number,
-      &__text {
-        position: relative;
-        z-index: 5;
-      }
-
-      .item__text {
-        font-size: var(--ui-subtitle-size);
-        line-height: var(--ui-subtitle-line-height);
-        letter-spacing: 1.1px;
-      }
-
-      .item__number {
-        font-size: var(--ui-block-title-size);
-        letter-spacing: 3px;
-      }
     }
+  }
 
-    &__content::after {
-      position: absolute;
-      left: 64px;
-      top: -25px;
-      content: "";
-      display: block;
-      width: 200px;
-      height: 200px;
-      background-color: #fafafa;
-      z-index: -1;
-    }
+  &__text {
+    font-size: var(--ui-subtitle-size);
+    line-height: var(--ui-subtitle-line-height);
+    letter-spacing: 1.1px;
+  }
+
+  &__number {
+    font-size: var(--ui-block-title-size);
+    letter-spacing: 3px;
+  }
+
+  &__content::after {
+    position: absolute;
+    left: 64px;
+    top: -25px;
+    content: "";
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: #fafafa;
+    z-index: -1;
   }
 }
 
 .item:nth-child(2) {
+  margin-top: 70px;
+
   .item__text {
     width: 156px;
   }
 }
 
 .item:nth-child(3) {
+  margin-top: 40px;
+
   .item__text {
     width: 117px;
   }
@@ -82,20 +86,17 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .title::after {
-    left: calc((100% - 525px) / 2);
+    left: 16px;
   }
 
   .items-wrapper {
-    margin-bottom: 50px;
+    margin-bottom: 120px;
+  }
 
-    .item:nth-child(2) {
-      margin-top: 70px;
-    }
-
-    .item:nth-child(3) {
-      margin-top: 40px;
-    }
+  .item:nth-child(2),
+  .item:nth-child(3) {
+    margin-top: 0;
   }
 }
