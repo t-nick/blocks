@@ -1,1 +1,52 @@
-{}
+{
+  "plan-price-count-1" : "450",
+
+  "plan-title-1" : "Simple plan",
+
+  "plan-price-count-3" : "850",
+
+  "plan-title-3" : "Complate plan",
+
+  "plan-list-1" : [
+    {
+      "text" : "Incudes 6 hours of coverage"
+    },
+    {
+      "text" : "High resolution, print ready, digital images without wetermarks"
+    },
+    {
+      "text" : "Online gallery for sharingand downloading"
+    },
+    {
+      "text" : "print release"
+    },
+    {
+      "text" : "Complementary enggagement session"
+    }
+  ],
+   "plan-list-3" : [
+    {
+      "text" : "Incudes 8 hours of coverage"
+    },
+    {
+      "text" : "High resolution, print ready, digital images without wetermarks"
+    },
+    {
+      "text" : "Online gallery for sharingand downloading"
+    },
+    {
+      "text" : "print release"
+    },
+    {
+      "text" : "Complementary enggagement session"
+    }
+  ],
+  "background": {
+    "type": "image",
+    "position": {
+    "type": "cover",
+    "cover": "50% 50%"
+  },
+  "src": "gray_bg.png"
+  }
+}
