@@ -3,8 +3,6 @@
 /* start here */
 
 .footer {
-  background-color: var(--ui-dark-shade-color);
-
   &__main {
     display: flex;
     justify-content: flex-start;
@@ -14,6 +12,10 @@
     border-top: 0;
     margin-top: 0;
     padding-bottom: 17px;
+  }
+
+  &__meta {
+    font-size: var(--ui-text-size);
   }
 }
 
@@ -37,6 +39,7 @@
       color: var(--ui-light-shade-color);
       opacity: 0.6;
       transition: opacity 0.2s ease-in, color 0.2s ease-in;
+      font-size: var(--ui-text-size);
 
       &:hover {
         opacity: 1;
@@ -47,10 +50,10 @@
 
 @media (max-width: 992px) {
   .footer__main {
-    justify-content: center;
+    display: block;
   }
 
-  .logo {
-    margin: 0 0 30px;
+  .logo__title {
+    margin-right: 0;
   }
 }
