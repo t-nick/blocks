@@ -1,3 +1,10 @@
 {
-  "title": "Design title"
+  "title": "Design title",
+  "logo": {
+    "text": {
+      "value": "asam."
+    }
+  },
+  "copyright": "Reproduced by Weblium.com. All rights Reserved",
+  "additional": "Demo preview for Asam."
 }
