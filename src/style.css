@@ -32,34 +32,32 @@
     align-items: flex-start;
     z-index: 5;
 
-    &__number,
-    &__text {
-      position: relative;
-      z-index: 5;
+    &::before {
+      position: absolute;
+      left: 64px;
+      top: -25px;
+      content: "";
+      display: block;
+      width: 200px;
+      height: 200px;
+      background-color: #fafafa;
+      z-index: -1;
     }
   }
 
   &__text {
+    position: relative;
+    z-index: 5;
     font-size: var(--ui-subtitle-size);
     line-height: var(--ui-subtitle-line-height);
     letter-spacing: 1.1px;
   }
 
   &__number {
+    position: relative;
+    z-index: 5;
     font-size: var(--ui-block-title-size);
     letter-spacing: 3px;
-  }
-
-  &__content::after {
-    position: absolute;
-    left: 64px;
-    top: -25px;
-    content: "";
-    display: block;
-    width: 200px;
-    height: 200px;
-    background-color: #fafafa;
-    z-index: -1;
   }
 }
 
