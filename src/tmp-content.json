@@ -1,3 +1,80 @@
 {
-  "title": "Design title"
+  "title": "My Blog",
+  "blog": [
+    {
+      "id": "21a46d6e-0354-4a96-9af0-928ddae32095",
+      "title": "The new common language",
+      "description":
+      "To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.",
+      "category": "Creative Process",
+      "date": "12 september 2017",
+      "picture": {
+        "src": "phototo3.jpg",
+        "alt": "Article illustration photo"
+      },
+      "cta": {
+        "actionConfig": {
+          "action": "link",
+          "actions": {
+            "link": {
+              "type": "",
+              "innerPage": "",
+              "url": ""
+            }
+          }
+        },
+        "textValue": "Read more"
+      }
+    },
+    {
+      "id": "41db0c4f-46b3-4835-8e77-062de63d018a",
+      "title": "The European languages are members of the same family",
+      "description":
+      "To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.",
+      "category": "Creative Process",
+      "date": "9 september 2017",
+      "picture": {
+        "src": "phototo2.jpg",
+        "alt": "Article illustration photo"
+      },
+      "cta": {
+        "actionConfig": {
+          "action": "link",
+          "actions": {
+            "link": {
+              "type": "",
+              "innerPage": "",
+              "url": ""
+            }
+          }
+        },
+        "textValue": "Read more"
+      }
+    },
+    {
+      "id": "fff4b459-6e4f-4645-901e-4c1b1aa94e51",
+      "title": "If several languages coalesce",
+      "description":
+      "To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.",
+      "category": "Creative Process",
+      "date": "3 september 2017",
+      "picture": {
+        "src": "phototo1.jpg",
+        "alt": "Article illustration photo"
+      },
+      "cta": {
+        "actionConfig": {
+          "action": "link",
+          "actions": {
+          "link": {
+            "type": "",
+            "innerPage": "",
+            "url": ""
+            }
+          }
+        },
+        "textValue": "Read more"
+      }
+    }
+  ]
 }
