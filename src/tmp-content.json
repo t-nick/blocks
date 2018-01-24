@@ -1,3 +1,113 @@
 {
-  "title": "Design title"
+  "logo": {
+    "picture": {
+      "src": "logo.png",
+      "alt": "Company Logo"
+    }
+  },
+  "menu": [
+    {
+      "id": "home",
+      "metadata": {
+        "displayName": "Home",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "about-me",
+      "metadata": {
+        "displayName": "About Me",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "portfolio",
+      "metadata": {
+        "displayName": "Portfolio",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "services",
+      "metadata": {
+        "displayName": "Services",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "pricing",
+      "metadata": {
+        "displayName": "Pricing",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "contacts",
+      "metadata": {
+        "displayName": "Contacts",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    }
+  ],
+  "cta": {
+    "actionConfig": {
+      "action": "link",
+      "actions": {
+        "link": {
+          "type": "",
+          "innerPage": "",
+          "url": ""
+        }
+      }
+    },
+    "textValue": "Request a quote"
+  }
 }
