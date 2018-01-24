@@ -1,3 +1,8 @@
 {
-  "some-modifier": true
+  "some-modifier": true,
+  "id": "picture",
+  "type": "hidden",
+  "label": "Picture",
+  "defaultValue": true,
+  "picture": true
 }

@@ -1,3 +1,10 @@
 {
-  "title": "Design title"
+  "title": "Want to work with me?",
+  "picture": {
+    "src": "photo222.jpg",
+    "alt": "Illustration photo"
+  },
+  "cta": {
+    "textValue": "hire me"
+  }
 }
