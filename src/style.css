@@ -1,3 +1,141 @@
 @import "wireframe-zapdos-why/src/style.css";
 
 /* start here */
+.section {
+  padding: 75px 0;
+  background-color: #fff;
+}
+
+.title {
+  margin-bottom: 37px;
+  letter-spacing: 1px;
+
+  > span > span {
+    color: var(--ui-brand-color);
+  }
+}
+
+.items-wrapper {
+  position: relative;
+  margin-bottom: 30px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -86px;
+    width: 100%;
+    height: 1px;
+    background-color: var(--ui-brand-color);
+  }
+}
+
+.item {
+  margin-top: 75px;
+
+  &:nth-child(2) {
+    .item__icon {
+      margin-top: 5px;
+
+      &::after {
+        bottom: -22px;
+      }
+    }
+  }
+
+  &__icon {
+    position: relative;
+    width: 65px;
+    min-height: 73px;
+    margin-bottom: 45px;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -25px;
+      width: 33px;
+      height: 1px;
+      background-color: var(--ui-brand-color);
+    }
+  }
+
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__desc {
+    padding: 0 25px;
+  }
+}
+
+@media (min-width: 320px) {
+  .item {
+    margin: 25px 0;
+
+    &:nth-child(2) {
+      .item__icon::after {
+        bottom: -17px;
+      }
+    }
+
+    &__icon {
+      margin-bottom: 35px;
+
+      &::after {
+        bottom: -20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .item {
+    margin: 40px 0;
+
+    &:nth-child(2) {
+      .item__icon::after {
+        bottom: -22px;
+      }
+    }
+
+    &__icon {
+      margin-bottom: 45px;
+
+      &::after {
+        bottom: -25px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .item {
+    margin-bottom: 70px;
+
+    &:nth-child(1) {
+      padding: 0 25px 0 5px;
+    }
+
+    &:nth-child(2) {
+      .item__icon {
+        margin-bottom: 62px;
+      }
+    }
+
+    &:nth-child(3) {
+      padding: 0 2px 0 28px;
+    }
+
+    &__icon {
+      margin-bottom: 67px;
+    }
+
+    &__desc {
+      padding: 0 32px;
+    }
+  }
+}
