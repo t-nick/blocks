@@ -1,3 +1,36 @@
 {
-  "title": "Design title"
+  "title": "Services",
+
+  "services": [
+    {
+      "id": "900aa334-14f2-4c05-b078-78099a5725e5",
+      "title": "design",
+      "description":
+        "Multipurpose assistance for online stores and offline retail businesses.",
+      "picture": {
+        "resourceRef": "img_01.png",
+        "alt": "Service illustration photo"
+      }
+    },
+    {
+      "id": "cfb2c56d-7708-4459-bdf2-6780f4ba62b9",
+      "title": "typography",
+      "description":
+        "Developing marketing and business strategy to help company grow fast.",
+      "picture": {
+        "resourceRef": "img_02.png",
+        "alt": "Service illustration photo"
+      }
+    },
+    {
+      "id": "eea21546-b56e-406b-8cba-18a5a5ec1820",
+      "title": "animation",
+      "description":
+        "Building brand awareness for micro and small businesses. ",
+      "picture": {
+        "resourceRef": "img_03.png",
+        "alt": "Service illustration photo"
+      }
+    }
+  ]
 }
