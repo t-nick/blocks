@@ -1,3 +1,108 @@
 {
-  "title": "Design title"
+  "title": "Design title",
+  "background": {
+    "type": "color",
+    "color": "#f6f6f6"
+  },
+  "logo": {
+    "text": false,
+    "image": {
+      "resourceRef": "logo_img.png",
+      "alt": "Company logo"
+    }
+  },
+  "copyright": "Produced by Weblium.com. All rights Reserved",
+  "additional": "Demo Preview for Andrew Jefferson Photographer Concept",
+  "menu": [
+    {
+      "id": "10d06b47-6c3d-8ad1-d9d5-617301dd948c",
+      "metadata": {
+        "displayName": "Home",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "10c06b19-6e0d-4ad1-b1d5-213501dd321c",
+      "metadata": {
+        "displayName": "About Me",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "29f03a3e-117d-490e-963c-ace78d85258f",
+      "metadata": {
+        "displayName": "Portfolio",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "8914ae89-ca69-4b81-8d70-68fefdb22f49",
+      "metadata": {
+        "displayName": "Services",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "2bf3b2aa-061b-42af-afd2-48301733a536",
+      "metadata": {
+        "displayName": "Pricing",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "a24bbd34-4a84-451d-82bf-929f35264e2d",
+      "metadata": {
+        "displayName": "Contacts",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    }
+  ]
 }
