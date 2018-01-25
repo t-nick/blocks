@@ -1,8 +1,8 @@
 {
   "logo": {
-    "picture": {
-      "src": "logo.png",
-      "alt": "Company Logo"
+    "image": {
+      "resourceRef": "logo.png",
+      "alt": "logo"
     }
   },
   "menu": [
