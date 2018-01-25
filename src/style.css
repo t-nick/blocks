@@ -1,9 +1,6 @@
 @import "wireframe-zapdos-team/src/style.css";
 
 /* start here */
-.socials {
-  display: none;
-}
 
 .title {
   font-size: var(--ui-block-title-size);
@@ -39,8 +36,19 @@
     position: relative;
     padding-left: 120px;
     text-align: left;
-    border-bottom: 4px solid #eee;
     padding-bottom: 22px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 0;
+      border-bottom: 4px solid var(--ui-dark-shade-color);
+      opacity: 0.15;
+    }
   }
 
   &__pic-link {
