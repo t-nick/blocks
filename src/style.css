@@ -1,3 +1,80 @@
 @import "wireframe-zapdos-blog/src/style.css";
 
 /* start here */
+.title {
+  text-align: left;
+  padding-left: 100px;
+  color: var(--ui-heading-color);
+
+  span {
+    background: linear-gradient(180deg, var(--ui-light-shade-color) 52%, var(--ui-light-accent-color) 48%);
+  }
+}
+
+.article {
+  position: relative;
+
+  &__picture-wrapper {
+    margin-bottom: 0;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: calc(100% - 30px);
+    background-color: var(--ui-media-bg );
+    position: absolute;
+    bottom: 0;
+  }
+
+  &__meta {
+    background-color: var(--ui-brand-color);
+    padding: 10px 15px;
+    top: -44px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+
+    span {
+      font-weight: normal;
+      font-size: var(--ui-text-size);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    span:first-child {
+      display: none;
+    }
+  }
+
+  &__title {
+
+    @media (min-width: 768px) {
+      min-height: 60px;
+    }
+
+    letter-spacing: 1.6px;
+    margin-top: -10px;
+    line-height: var(--ui-sub-heading-line-height);
+  }
+
+  &__text {
+    margin-left: 40px;
+    letter-spacing: 1.1px;
+    font-size: calc(var(--ui-text-size)* 1.14);
+    line-height: calc(var(--ui-text-line-height) * 1.08);
+    color: var(--ui-dark-shade-color) ;
+  }
+}
+
+.link {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ui-link-color);
+  font-weight: 600;
+  margin: 0 0 30px 40px;
+  letter-spacing: 1.4px;
+}
