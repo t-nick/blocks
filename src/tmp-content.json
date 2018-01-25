@@ -1,3 +1,14 @@
 {
-  "title": "Design title"
+  "title": "About <span>Me</span>",
+  "text": "Hi! I’m a creative freelance artist dedicated to the highest standards in professional photography. <span> I love to stop the time and capture life moments, sincere feelings, and emotions that will last a lifetime. So whatever your special occasion, I am ready to perform the highest quality photography services. </span>",
+  "picture": {
+    "src": "photographer.png"
+  },
+  "button": {
+    "textValue": "Learn more "
+  },
+  "background": {
+    "type": "color",
+    "color": "#ffffff"
+  }
 }
