@@ -1,7 +1,5 @@
 @import "wireframe-zapdos-numbers/src/style.css";
 
-/* start here */
-
 .title {
   span {
     position: relative;
@@ -40,7 +38,7 @@
       display: block;
       width: 200px;
       height: 200px;
-      background-color: #fafafa;
+      background-color: var(--ui-media-bg);
       z-index: -1;
     }
   }
@@ -63,18 +61,10 @@
 
 .item:nth-child(2) {
   margin-top: 70px;
-
-  .item__text {
-    width: 156px;
-  }
 }
 
 .item:nth-child(3) {
   margin-top: 40px;
-
-  .item__text {
-    width: 117px;
-  }
 
   .item__number {
     max-width: 225px;
