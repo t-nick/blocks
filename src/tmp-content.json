@@ -1,3 +1,15 @@
 {
-  "title": "Design title"
+  "title": "Want to work with me?",
+  "theme": "dark",
+  "background": {
+    "type": "image",
+    "position": {
+      "type": "cover",
+      "cover": "50% 50%"
+    },
+    "src": "Photo111.jpg"
+  },
+  "cta": {
+    "textValue": "hire me"
+}
 }
