@@ -1,3 +1,27 @@
 {
-  "title": "Design title"
+  "title": "Professional",
+
+  "subtitle": "Photography",
+
+  "cta-1": {
+
+    "textValue":"Send a request"
+
+  },
+
+  "background": {
+
+    "type": "image",
+
+    "position": {
+
+      "type": "cover",
+
+      "cover": "50% 50%"
+    },
+
+    "src": "photography_bg.jpg"
+
+  }
+
 }

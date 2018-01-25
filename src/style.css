@@ -1,3 +1,42 @@
 @import "wireframe-zapdos-cover/src/style.css";
 
 /* start here */
+
+.title {
+  color: #fff;
+  font-size: var(--ui-hero-title-size);
+  font-family: var(--ui-hero-title-font-family);
+  font-weight: var(--ui-hero-title-font-weight);
+  line-height: var(--ui-hero-title-line-height);
+  margin-bottom: 0;
+}
+
+.subtitle {
+  color: #fff;
+  font-size: var(--ui-subtitle-size);
+  font-family: var(--ui-subtitle-font-family);
+  font-weight: var(--ui-subtitle-font-weight);
+  line-height: var(--ui-subtitle-line-height);
+}
+
+.btns-group {
+  margin-top: 10px;
+}
+
+.button {
+  color: var(--ui-btn-primary-color);
+  font-size: var(--ui-caption-size);
+  font-family: var(--ui-caption-font-family);
+  font-weight: var(--ui-caption-font-weight);
+  line-height: var(--ui-caption-line-height);
+  background-color: var(--ui-btn-primary-bg);
+  border-color: var(--ui-btn-primary-border-color);
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.button:hover {
+  text-decoration: none;
+  background-color: var(--ui-btn-primary-hover-bg);
+  color: var(--ui-btn-primary-hover-color);
+}
