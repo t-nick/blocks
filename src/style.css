@@ -1,17 +1,19 @@
 @import "wireframe-zapdos-about/src/style.css";
 
 /* start here */
-.article__picture {
-  background: white;
+.article {
+  &__picture {
+    background: white;
 
-  img {
-    object-fit: contain;
+    img {
+      object-fit: contain;
+    }
   }
-}
 
-.article__text span span {
-  display: block;
-  margin-top: 29px;
+  &__text span span {
+    display: block;
+    margin-top: 29px;
+  }
 }
 
 .button--primary {
@@ -25,28 +27,20 @@
 @media (min-width: 768px) {
   .article {
     min-height: 619px;
-  }
 
-  .article__content {
-    padding-left: 53px;
-    justify-content: flex-start;
-    padding-top: 113px;
-  }
-
-  .article__text {
-    margin-bottom: 16px;
-    margin-top: 18px;
-  }
-
-  .article__picture {
-    background: white;
-
-    img {
-      object-fit: contain;
+    &__content {
+      padding-left: 53px;
+      justify-content: flex-start;
+      padding-top: 113px;
     }
-  }
 
-  .article__title span span {
-    color: var(--ui-brand-color);
+    &__text {
+      margin-bottom: 16px;
+      margin-top: 18px;
+    }
+
+    &__title span span {
+      color: var(--ui-brand-color);
+    }
   }
 }
