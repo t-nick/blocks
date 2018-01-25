@@ -1,3 +1,4 @@
 {
-  "some-modifier": true
+  "button-secondary": false,
+  "link": false
 }

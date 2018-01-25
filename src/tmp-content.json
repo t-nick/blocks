@@ -1,3 +1,143 @@
 {
-  "title": "Design title"
+  "title": "My <span>Services<span>",
+  "services": [
+    {
+      "id": "900aa334-14f2-4c05-b078-78099a5725e5",
+      "title": "Wedding Photography",
+      "description":
+        "from $1200",
+      "picture": {
+        "src": "services1.png",
+        "alt": "Service illustration photo"
+      },
+      "cta": {
+        "actionConfig": {
+          "action": "link",
+          "actions": {
+            "link": {
+              "type": "",
+              "innerPage": "",
+              "url": ""
+            }
+          }
+        },
+        "textValue": "Learn more"
+      }
+    },
+    {
+      "id": "cfb2c56d-7708-4459-bdf2-6780f4ba62b9",
+      "title": "Family Portraits",
+      "description":
+        "from $1200",
+      "picture": {
+        "src": "services2.png",
+        "alt": "Service illustration photo"
+      },
+      "cta": {
+        "actionConfig": {
+          "action": "link",
+          "actions": {
+            "link": {
+              "type": "",
+              "innerPage": "",
+              "url": ""
+            }
+          }
+        },
+        "textValue": "Learn more"
+      }
+    },
+    {
+      "id": "eea21546-b56e-406b-8cba-18a5a5ec1820",
+      "title": "Child Photos",
+      "description":
+        "from $1200",
+      "picture": {
+        "src": "services3.png",
+        "alt": "Service illustration photo"
+      },
+      "cta": {
+        "actionConfig": {
+          "action": "link",
+          "actions": {
+            "link": {
+              "type": "",
+              "innerPage": "",
+              "url": ""
+            }
+          }
+        },
+        "textValue": "Learn more"
+      }
+    },
+    {
+      "id": "aa5d3a04-43b7-4bb3-9c7a-00e1986f359e",
+      "title": "Love Stories",
+      "description":
+        "from $1200",
+      "picture": {
+        "src": "services4.png",
+        "alt": "Service illustration photo"
+      },
+      "cta": {
+        "actionConfig": {
+          "action": "link",
+          "actions": {
+            "link": {
+              "type": "",
+              "innerPage": "",
+              "url": ""
+            }
+          }
+        },
+        "textValue": "Learn more"
+      }
+    },
+    {
+      "id": "aa5d3a04-43b7-4bb3-9c7a-00e1986fg567",
+      "title": "Commercial Photography",
+      "description":
+        "from $1000",
+      "picture": {
+        "src": "services5.png",
+        "alt": "Service illustration photo"
+      },
+      "cta": {
+        "actionConfig": {
+          "action": "link",
+          "actions": {
+            "link": {
+              "type": "",
+              "innerPage": "",
+              "url": ""
+            }
+          }
+        },
+        "textValue": "Learn more"
+      }
+    },
+    {
+      "id": "90ghti44-14f2-4c05-b078-78099a5725e5",
+      "title": "Event Photography",
+      "description":
+        "from $700",
+      "picture": {
+        "src": "services6.png",
+        "alt": "Service illustration photo"
+      },
+      "cta": {
+        "actionConfig": {
+          "action": "link",
+          "actions": {
+            "link": {
+              "type": "",
+              "innerPage": "",
+              "url": ""
+            }
+          }
+        },
+        "textValue": "Learn more"
+      }
+    }
+  ]
 }
