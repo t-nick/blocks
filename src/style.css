@@ -15,7 +15,7 @@
 }
 
 .logo__title {
-  color: var(--ui-light-shade-color);
+  color: var(--ui-hero-title-color);
   font-size: var(--ui-hero-title-size);
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -34,7 +34,7 @@
 }
 
 .footer__meta {
-  color: var(--ui-light-shade-color);
+  color: var(--ui-text-color);
   font-size: var(--ui-text-size);
   font-weight: var(--ui-text-font-weight);
   line-height: var(--ui-subtitle-line-height);
@@ -51,7 +51,7 @@
 
 .nav-list__link {
   line-height: calc(var(--ui-subtitle-line-height) * 1.145);
-  color: var(--ui-light-shade-color);
+  color: var(--ui-text-color);
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1.4px;
