@@ -16,8 +16,16 @@
 
 .logo__title {
   color: var(--ui-light-shade-color);
+  font-size: var(--ui-hero-title-size);
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+.footer__main {
+
+  @media (min-width: 992px) {
+    display: flex;
+  }
 }
 
 .footer__bottom {
