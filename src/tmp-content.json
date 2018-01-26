@@ -1,16 +1,1 @@
-{
-  "logo": {
-    "text": {
-      "value": "Ar"
-    }
-  },
-  "copyright": "Produced by Weblium.com. All rights Reserved.",
-  "background": {
-    "type": "image",
-    "position": {
-      "type": "cover",
-      "cover": "50% 50%"
-    },
-    "src": "bg_photo22.jpg"
-  }
-}
+{}
