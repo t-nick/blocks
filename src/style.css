@@ -33,17 +33,18 @@
   position: relative;
   min-width: 442px;
   padding: 50px 0 50px 20px;
-  margin: 98px 0 112px;
-  background: var(--ui-light-shade-color);
+  margin: 80px 0 100px;
+  background: var(--ui-media-bg);
   text-align: left;
 
   @media (min-width: 992px) {
-    padding: 50px 0;
+    padding: 90px 25px;
+    min-width: 500px;
   }
 }
 
 .title {
-  color: #383837;
+  color: var(--ui-heading-color);
   letter-spacing: 2px;
   line-height: var(--ui-sub-heading-line-height);
 }
@@ -62,6 +63,7 @@
 
   @media (min-width: 992px) {
     padding: 80px 0;
+    margin-left: 0;
   }
 }
 
