@@ -3,15 +3,15 @@
 /* start here */
 
 .title {
-  text-align: left;
   font-size: var(--ui-hero-title-size);
   font-family: var(--ui-hero-title-font-family);
   color: var(--ui-heading-color);
-  margin-bottom: 15px;
-  z-index: 1;
+  margin-bottom: 40px;
+  letter-spacing: 4px;
 
   span {
     position: relative;
+    z-index: 1;
 
     &::after {
       content: "";
@@ -23,6 +23,10 @@
       background: var(--ui-brand-color);
       z-index: -1;
     }
+  }
+
+  @media (min-width: 768px) {
+    text-align: left;
   }
 }
 
@@ -37,15 +41,37 @@
 
 .item {
   margin-top: 0;
-  padding: 60px 90px;
-  text-align: left;
-
-  &:nth-child(2) {
-    border-left: 1px solid #eee;
-    border-right: 1px solid #eee;
-  }
+  padding: 30px 20px;
 
   &__top-element {
-    margin: 0;
+    margin: 0 auto 40px;
+  }
+
+  p {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 480px) {
+    padding: 40px 65px 40px 80px;
+  }
+
+  @media (min-width: 768px) {
+    text-align: left;
+    padding: 60px 65px 60px 80px;
+
+    &:nth-child(2) {
+      border-left: 1px solid #eee;
+    }
+
+    &__top-element {
+      margin: 0 0 40px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    &:nth-child(2) {
+      border-right: 1px solid #eee;
+    }
   }
 }
