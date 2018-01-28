@@ -7,7 +7,7 @@
       "description":
         "from $1200",
       "picture": {
-        "src": "services1.png",
+        "resourceRef": "services1.png",
         "alt": "Service illustration photo"
       },
       "cta": {
@@ -30,7 +30,7 @@
       "description":
         "from $1200",
       "picture": {
-        "src": "services2.png",
+        "resourceRef": "services2.png",
         "alt": "Service illustration photo"
       },
       "cta": {
@@ -53,7 +53,7 @@
       "description":
         "from $1200",
       "picture": {
-        "src": "services3.png",
+        "resourceRef": "services3.png",
         "alt": "Service illustration photo"
       },
       "cta": {
@@ -76,7 +76,7 @@
       "description":
         "from $1200",
       "picture": {
-        "src": "services4.png",
+        "resourceRef": "services4.png",
         "alt": "Service illustration photo"
       },
       "cta": {
@@ -99,7 +99,7 @@
       "description":
         "from $1000",
       "picture": {
-        "src": "services5.png",
+        "resourceRef": "services5.png",
         "alt": "Service illustration photo"
       },
       "cta": {
@@ -122,7 +122,7 @@
       "description":
         "from $700",
       "picture": {
-        "src": "services6.png",
+        "resourceRef": "services6.png",
         "alt": "Service illustration photo"
       },
       "cta": {

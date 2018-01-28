@@ -27,6 +27,14 @@
     max-width: 33.333%;
   }
 
+  &__title {
+    font-size: var(--ui-sub-heading-size);
+
+    @media (min-width: 480px) {
+      font-size: var(--ui-heading-size);
+    }
+  }
+
   &__picture {
     &-wrapper {
       margin-bottom: 40px;
@@ -40,6 +48,12 @@
 }
 
 .title {
+  font-size: var(--ui-subtitle-size);
+
+  @media (min-width: 480px) {
+    font-size: var(--ui-block-title-size);
+  }
+
   span {
     span {
       color: var(--ui-brand-color);
