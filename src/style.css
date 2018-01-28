@@ -1,7 +1,7 @@
 @import "wireframe-zapdos-team/src/style.css";
 
 .items-wrapper {
-  width: 100%;
+  max-width: 1170px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
