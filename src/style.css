@@ -102,7 +102,7 @@
   }
 
   &__price {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 
     span {
       span {
@@ -125,7 +125,7 @@
   }
 
   &__list {
-    margin-bottom: 52px;
+    margin-bottom: 50px;
 
     &-item {
       font-size: calc(var(--ui-small-text-size) * 1.166);

@@ -11,7 +11,7 @@
       "type": "cover",
       "cover": "50% 50%"
     },
-    "src": "bg_pricing.jpg"
+    "resourceRef": "bg_pricing.jpg"
   },
   "plan-price-text-1": "For all <br>period",
   "plan-price-text-2": "for <br>month",
