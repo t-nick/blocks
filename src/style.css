@@ -1,3 +1,144 @@
 @import "wireframe-zapdos-pricing/src/style.css";
 
 /* start here */
+.section {
+  padding-bottom: 165px;
+}
+
+.top-icon {
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+  background-color: var(--ui-light-shade-color);
+  border-radius: 50%;
+}
+
+.title {
+  margin-bottom: 24px;
+  letter-spacing: 1.8px;
+  margin-top: 30px;
+
+  span {
+    span {
+      color: var(--ui-brand-color);
+    }
+  }
+}
+
+.subtitle {
+  line-height: 1.75;
+  letter-spacing: 1.8px;
+}
+
+.plans {
+  &-wrapper {
+
+    @media (min-width: 768px) {
+      margin-top: 102px;
+    }
+  }
+}
+
+.plan {
+  background-color: var(--ui-light-shade-color);
+  box-shadow: 0 2px 12px 0 rgba(33, 67, 71, 0.08);
+  border-radius: 3px;
+  z-index: 1;
+
+  @media (min-width: 768px) {
+    max-height: 435px;
+  }
+
+  &--main {
+    box-shadow: 0 2px 12px 0 rgba(33, 67, 71, 0.08);
+    padding-top: 60px;
+    border-radius: 3px;
+    z-index: 2;
+
+    @media (min-width: 768px) {
+      margin-top: -40px;
+      margin-bottom: -40px;
+      max-height: 520px;
+      max-width: 370px;
+    }
+
+    .plan {
+      &__title {
+        font-weight: 700;
+        margin-bottom: 40px;
+      }
+
+      &__icon {
+        &-wrapper {
+          width: 60px;
+          height: 60px;
+        }
+      }
+
+      &__button {
+        margin-top: 0;
+      }
+    }
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+
+  &__icon {
+    &-wrapper {
+      width: 50px;
+      height: 50px;
+      padding: 0;
+      margin-bottom: 28px;
+
+      svg {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  &__price {
+    margin-bottom: 24px;
+
+    span {
+      span {
+        text-transform: uppercase;
+        font-size: var(--ui-small-text-size);
+        color: var(--ui-text-color);
+        font-weight: 700;
+        letter-spacing: 0.5px;
+      }
+    }
+
+    &-count {
+      line-height: 1.78;
+      letter-spacing: 0.8px;
+      font-family: var(--ui-heading-large-font-family);
+      font-size: var(--ui-sub-heading-size);
+      font-weight: var(--ui-heading-large-font-weight);
+      color: var(--ui-heading-lg-color);
+    }
+  }
+
+  &__list {
+    margin-bottom: 52px;
+
+    &-item {
+      font-size: calc(var(--ui-small-text-size) * 1.166);
+      font-family: var(--ui-text-font-family);
+      font-weight: var(--ui-text-font-weight);
+      line-height: 2;
+      letter-spacing: 1.5px;
+      margin-bottom: 3px;
+    }
+  }
+}
+
+.button {
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
