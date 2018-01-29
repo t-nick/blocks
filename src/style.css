@@ -156,3 +156,16 @@
     }
   }
 }
+
+@media screen and (max-width:639px) {
+  .article {
+    &__content {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  .title {
+    padding-left: 10px;
+  }
+}
