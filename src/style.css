@@ -43,8 +43,24 @@
   margin-top: 0;
   padding: 30px 20px;
 
-  &__top-element {
-    margin: 0 auto 40px;
+  &__icon-text {
+    font-size: calc( var(--ui-sub-heading-size) * 1.909);
+    line-heigth: var(--ui-sub-heading-line-height);
+    font-family: var(--ui-sub-heading-font-family);
+    position: relative;
+    color: var(--ui-heading-lg-color);
+    line-height: 1;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      right: -7px;
+      bottom: 8px;
+      background: var(--ui-brand-color);
+      border-radius: 100%;
+    }
   }
 
   p {
@@ -58,14 +74,14 @@
 
   @media (min-width: 768px) {
     text-align: left;
-    padding: 60px 65px 60px 80px;
+    padding: 70px 65px 60px 80px;
 
     &:nth-child(2) {
       border-left: 1px solid #eee;
     }
 
     &__top-element {
-      margin: 0 0 40px;
+      margin: 0 0 24px;
     }
   }
 
