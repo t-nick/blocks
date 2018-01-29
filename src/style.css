@@ -42,11 +42,10 @@
   }
 
   &__image {
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 
     &:hover {
-      top: -8px;
-      left: -8px;
+      transform: translateY(-8px) translateX(-8px);
       cursor: pointer;
     }
   }
