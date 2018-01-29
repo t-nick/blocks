@@ -36,7 +36,7 @@
 
 .items-wrapper {
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.08);
-  border: solid 1px #eee;
+  border: solid 1px var(--ui-media-bg);
 }
 
 .item {
@@ -45,7 +45,6 @@
 
   &__icon-text {
     font-size: calc( var(--ui-sub-heading-size) * 1.909);
-    line-heigth: var(--ui-sub-heading-line-height);
     font-family: var(--ui-sub-heading-font-family);
     position: relative;
     color: var(--ui-heading-lg-color);
@@ -76,8 +75,8 @@
     text-align: left;
     padding: 70px 65px 60px 80px;
 
-    &:nth-child(2) {
-      border-left: 1px solid #eee;
+    &:nth-of-type(2n) {
+      border-left: 1px solid var(--ui-media-bg);
     }
 
     &__top-element {
@@ -86,8 +85,8 @@
   }
 
   @media (min-width: 992px) {
-    &:nth-child(2) {
-      border-right: 1px solid #eee;
+    &:nth-of-type(2n) {
+      border-right: 1px solid var(--ui-media-bg);
     }
   }
 }
