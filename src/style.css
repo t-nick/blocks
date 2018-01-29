@@ -42,17 +42,25 @@
 
 .plan {
   background-color: var(--ui-light-shade-color);
-  box-shadow: 0 2px 12px 0 rgba(33, 67, 71, 0.08);
-  border-radius: 3px;
+  box-shadow: 0 2px 12px 0 var(--ui-media-bg);
   z-index: 1;
 
   @media (min-width: 768px) {
     max-height: 435px;
   }
 
+  &:nth-of-type(1) {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+
+  &:nth-of-type(3) {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+
   &--main {
-    box-shadow: 0 2px 12px 0 rgba(33, 67, 71, 0.08);
-    padding-top: 60px;
+    box-shadow: 0 2px 12px 0 var(--ui-media-bg);
     border-radius: 3px;
     z-index: 2;
 
