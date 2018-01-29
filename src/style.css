@@ -65,7 +65,7 @@
 @media (min-width: 768px) {
   .list__item-icon {
     margin-right: 40px;
-  } 
+  }
 }
 
 @media (min-width: 992px) {
@@ -89,8 +89,7 @@
   .title {
     position: absolute;
     top: 75px;
-    left: 61.6%;
-    transform: translateX(-50%);
+    right: 23%;
   }
 
   .content {
@@ -125,5 +124,11 @@
         max-width: calc(100% - 180px);
       }
     }
+  }
+}
+
+@media (min-width: 992px) {
+  .title {
+    right: 28%;
   }
 }
