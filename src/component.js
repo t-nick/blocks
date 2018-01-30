@@ -3,84 +3,31 @@ import $editor from 'weblium/editor'
 class Block extends React.Component {
   static propTypes = {
     components: PropTypes.object.isRequired,
-    $block: PropTypes.object.isRequired,
     style: PropTypes.object.isRequired,
   }
 
-  getModifierValue = path => _.get(['modifier', path], this.props.$block)
-
-  getOptionValue = (path, defaultValue = false) =>
-    _.getOr(defaultValue, ['options', path], this.props.$block)
-
-  getImageSize = fullWidth =>
-    fullWidth
-      ? {'min-width: 320px': 480, 'min-width: 480px': 768, 'min-width: 768px': 1170}
-      : {'min-width: 320px': 480, 'min-width: 480px': 768, 'min-width: 768px': 570}
-
-  wrapImage = Component => <div className={this.props.style.image__wrapper}>{Component}</div>
 
   render() {
-    const {components: {Text, Image, Button, SocialIcons}, style: css} = this.props
-    const columnLayout = !(
-      this.getModifierValue('title') ||
-      this.getModifierValue('subtitle') ||
-      this.getModifierValue('text') ||
-      this.getModifierValue('socialIcons')
-    )
-    const showButtonGroups = this.getModifierValue('link') || this.getModifierValue('button')
-    const ImageComponent = (
-      <Image
-        pictureClassName={css.article__picture}
-        bind="picture"
-        size={this.getImageSize(columnLayout)}
-      />
-    )
+    const {components: {Text}, style} = this.props
+
     return (
-      <section className={classNames(css.section, {[css['section--column']]: columnLayout})}>
-        <div className={css.section__inner}>
-          <article className={css.article}>
-            {this.getOptionValue('image_wrapper')
-              ? this.wrapImage(ImageComponent)
-              : ImageComponent}
-            <div className={css.article__content}>
-              {this.getModifierValue('title') && (
-                <h1 className={css.article__title}>
-                  <Text bind="title" />
-                </h1>
-              )}
-              {this.getModifierValue('subtitle') && (
-                <p className={css.article__subtitle}>
-                  <Text bind="subtitle" />
-                </p>
-              )}
-              {this.getModifierValue('text') && (
-                <p className={css.article__text}>
-                  <Text bind="text" />
-                </p>
-              )}
-              {this.getModifierValue('socialIcons') && (
-                <div className={css.article__socials}>
-                  <h2 className={css['social-title']}>Follow us: </h2>
-                  <SocialIcons bind="socialIcons" />
-                </div>
-              )}
-              {showButtonGroups && (
-                <div className={css['btns-group']}>
-                  {this.getModifierValue('link') && <Button className={css.link} bind="link" />}
-                  {this.getModifierValue('button') && (
-                    <Button
-                      className={classNames(
-                        css.button,
-                        css['button--primary'],
-                        css['button--size-md'],
-                      )}
-                      bind="button"
-                    />
-                  )}
-                </div>
-              )}
-            </div>
-          </article>
+      <section className={style.section}>
+        <div className={style.section__inner}>
+          <h1 className={style['hero-title']}>
+            <Text bind="heroTitle" />
+          </h1>
+          <h2 className={style.title}>
+            <Text bind="title" />
+          </h2>
+          <h3 className={style['heading-lg']}>
+            <Text bind="headingLarge" />
+          </h3>
+          <h4 className={style.heading}>
+            <Text bind="heading" />
+          </h4>
+          <p className={style.subtitle}>
+            <Text bind="title" />
+          </p>
         </div>
       </section>
     )
@@ -90,10 +37,11 @@ class Block extends React.Component {
 Block.components = _.pick(['Text', 'Image', 'Button', 'SocialIcons'])($editor.components)
 
 Block.defaultContent = {
-  title: 'About The Company',
-  'text-1': 'Follow us:',
-  subtitle:
-    'Our Company is the world’s leading manufacturer. We are also a leading financial services provider.',
+  heroTitle: 'Hero title',
+  title: 'Title',
+  subtitle: 'Subtitle',
+  headingLarge: 'Heading large',
+  heading: 'Heading',
   text:
     'We are in it for the long haul—for our customers and for our world. Our customers can be found in virtually every corner of the earth, and we realize our success comes directly from helping our customers be successful. We take seriously our responsibility to give back to the communities in which we work and live.',
   picture: {
