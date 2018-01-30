@@ -1,6 +1,6 @@
 {
-  "name": "Gengar",
+  "name": "Wireframe 1",
   "version": "1.0.0",
-  "description": "gengar ui kit",
-  "main": "src/index.js"
+  "description": "wireframe 1 ui kit",
+  "main": "src"
 }
