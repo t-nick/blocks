@@ -39,13 +39,9 @@
   }
 }
 
-.item ul {
-  margin-top: -10px;
-}
-
 .item:nth-child(1) {
   ul {
-    margin-top: -25px;
+    margin-top: -15px;
   }
 }
 
