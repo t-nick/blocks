@@ -1,0 +1,101 @@
+{
+  "name": "Buttons 1",
+  "text": {
+    "fontFamily": "'Lato', sans-serif"
+  },
+  "size": {
+    "sm": {
+      "padding": "10px 16px",
+      "borderRadius": 0,
+      "fontSize": "14px"
+    },
+    "md": {
+      "padding": "14px 40px",
+      "borderRadius": 0,
+      "fontSize": "14px"
+    },
+    "lg": {
+      "padding": "20px 56px",
+      "borderRadius": 0,
+      "fontSize": "16px"
+    }
+  },
+  "settings": {
+    "primary": {
+      "default": {
+        "bg": {
+          "color": ["brand"]
+        },
+        "color": ["lightShade"],
+        "border": {
+          "width": "1px",
+          "style": "solid",
+          "color": ["transparent"]
+        }
+      },
+      "hover": {
+        "bg": {
+          "color": ["darkShade", "lightShade"]
+        },
+        "color": ["lightShade", "darkShade"]
+      }
+    },
+    "primaryAlt": {
+      "default": {
+        "bg": {
+          "color": ["darkShade", "lightShade"]
+        },
+        "color": ["lightShade", "darkShade"],
+        "border": {
+          "width": "1px",
+          "style": "solid",
+          "color": ["transparent"]
+        }
+      },
+      "hover": {
+        "bg": {
+          "color": ["brand"]
+        },
+        "color": ["lightShade"]
+      }
+    },
+    "secondary": {
+      "default": {
+        "bg": {
+          "color": ["transparent"]
+        },
+        "color": ["darkShade?lighten=20.9", "lightShade"],
+        "border": {
+          "width": "1px",
+          "style": "solid",
+          "color": ["darkShade?lighten=20.9", "lightShade"]
+        }
+      },
+      "hover": {
+        "bg": {
+          "color": ["darkShade?lighten=20.9", "lightShade"]
+        },
+        "color": ["lightShade", "darkShade"]
+      }
+    },
+    "secondaryAlt": {
+      "default": {
+        "bg": {
+          "color": ["transparent"]
+        },
+        "color": ["darkShade?lighten=20.9", "lightShade"],
+        "border": {
+          "width": "1px",
+          "style": "solid",
+          "color": ["brand", "lightShade"]
+        }
+      },
+      "hover": {
+        "bg": {
+          "color": ["brand", "lightShade"]
+        },
+        "color": ["lightShade", "darkShade"]
+      }
+    }
+  }
+}
