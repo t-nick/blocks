@@ -2,7 +2,7 @@
   "name": "Buttons 2",
   "general": {
     "fontFamily": "'Montserrat', sans-serif",
-    "border-width": "1px"
+    "borderWidth": "1px"
   },
   "size": {
     "sm": {
