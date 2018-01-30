@@ -19,6 +19,7 @@
   }
 
   &__position {
+    margin-bottom: 0;
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
@@ -39,10 +40,13 @@
   }
 }
 
-.item:nth-child(1) {
-  ul {
-    margin-top: -15px;
-  }
+.item__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  margin-top: auto;
 }
 
 .top-icon {
