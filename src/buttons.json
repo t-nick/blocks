@@ -2,7 +2,8 @@
   "name": "Forks",
   "general": {
     "fontFamily": "'Montserrat', sans-serif",
-    "borderWidth": "2px"
+    "borderWidth": "2px",
+    "letterSpacing": "3px"
   },
   "size": {
     "sm": {
