@@ -2,74 +2,74 @@
   "name": "Typography 1",
   "settings": {
     "heroTitle": {
-      "size": "70px",
-      "lineHeight": 1.2857,
-      "fontFamily": "'Montserrat', sans-serif",
+      "size": "80px",
+      "lineHeight": 1.125,
+      "fontFamily": "'Roboto Slab', serif",
       "fontWeight": 400,
-      "color": ["darkShade", "lightShade"]
+      "color": ["darkShadeColor", "lightShadeColor"]
     },
     "blockTitle": {
-      "size": "46px",
-      "lineHeight": 1.3043,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "34px",
+      "lineHeight": 1.3529,
+      "fontFamily": "'Roboto Slab', serif",
+      "fontWeight": 700,
+      "color": ["darkShadeColor", "lightShadeColor"]
     },
     "subtitle": {
-      "size": "18px",
-      "lineHeight": 1.7777,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "20px",
+      "lineHeight": 1.5,
+      "fontFamily": "'Roboto Slab', serif",
+      "fontWeight": 400,
+      "color": ["darkShadeColor", "lightShadeColor"]
     },
     "headingLarge": {
-      "size": "36px",
-      "lineHeight": 1.5555,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "28px",
+      "lineHeight": 1.4285,
+      "fontFamily": "'Roboto Slab', serif",
+      "fontWeight": 700,
+      "color": ["darkShadeColor", "lightShadeColor"]
     },
     "heading": {
-      "size": "24px",
-      "lineHeight": 1.4166,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "26px",
+      "lineHeight": 1.3076,
+      "fontFamily": "'Roboto Slab', serif",
+      "fontWeight": 400,
+      "color": ["darkShadeColor", "lightShadeColor"]
     },
     "subHeading": {
-      "size": "20px",
-      "lineHeight": 1.5555,
-      "fontFamily": "'Montserrat', sans-serif",
+      "size": "24px",
+      "lineHeight": 1.4166,
+      "fontFamily": "'Roboto Slab', serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "color": ["darkShadeColor", "lightShadeColor"]
     },
     "text": {
       "size": "16px",
-      "lineHeight": 1.5,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "lineHeight": 1.625,
+      "fontFamily": "'Roboto Slab', serif",
+      "fontWeight": 300,
+      "color": ["darkShadeColor?lighten=24.3", "darkShadeColor?lighten=24.3"]
     },
     "smallText": {
-      "size": "12px",
-      "lineHeight": 1.6666,
-      "fontFamily": "'Lato', sans-serif",
+      "size": "11px",
+      "lineHeight": 1.8181,
+      "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "color": ["lightShadeColor?darken=29", "lightShadeColor"]
     },
     "quote": {
       "size": "14px",
       "lineHeight": 1.2,
-      "fontFamily": "'Lato', sans-serif",
+      "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "color": ["darkShadeColor?lighten=12", "lightShadeColor"]
     },
     "caption": {
-      "size": "14px",
-      "lineHeight": 1.7142,
-      "fontFamily": "'Lato', sans-serif",
+      "size": "11px",
+      "lineHeight": 1.8181,
+      "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "color": ["lightShadeColor?darken=29", "lightShadeColor"]
     }
   }
 }

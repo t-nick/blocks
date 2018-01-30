@@ -1,10 +1,10 @@
 {
-  "name": "Lightning yellow",
+  "name": "Red ribbon",
   "color": {
     "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
+    "lightAccent": "#d70044",
+    "brand": "#d70044",
+    "darkAccent": "#d70044",
+    "darkShade": "#323435"
   }
 }
