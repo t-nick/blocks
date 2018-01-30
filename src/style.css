@@ -49,6 +49,10 @@
       height: 60px;
       border-radius: 50%;
       background-color: var(--ui-brand-color);
+
+      &::before {
+        content: "";
+      }
     }
 
     &-text {
@@ -86,12 +90,6 @@
     }
   }
 
-  .title {
-    position: absolute;
-    top: 75px;
-    right: 23%;
-  }
-
   .content {
     padding-top: 45px;
 
@@ -124,11 +122,5 @@
         max-width: calc(100% - 180px);
       }
     }
-  }
-}
-
-@media (min-width: 992px) {
-  .title {
-    right: 28%;
   }
 }
