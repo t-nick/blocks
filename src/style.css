@@ -2,7 +2,6 @@
 
 /* start here */
 .section {
-  padding-bottom: 0;
 
   @media (min-width: 768px) {
     padding-bottom: 165px;
@@ -10,6 +9,7 @@
 }
 
 .top-icon {
+  display: block;
   margin: 0 auto;
   width: 60px;
   height: 60px;
@@ -23,12 +23,6 @@
   margin-bottom: 24px;
   letter-spacing: 1.8px;
   margin-top: 30px;
-
-  span {
-    span {
-      color: var(--ui-brand-color);
-    }
-  }
 }
 
 .subtitle {
@@ -117,15 +111,12 @@
   &__price {
     margin-bottom: 20px;
 
-    span {
-      span {
-        text-transform: uppercase;
-        font-size: var(--ui-small-text-size);
-        color: var(--ui-text-color);
-        font-weight: 700;
-        letter-spacing: 0.5px;
-      }
-    }
+    text-transform: uppercase;
+    font-size: var(--ui-small-text-size);
+    color: var(--ui-text-color);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: var(--ui-heading-line-height);
 
     &-count {
       line-height: 1.78;
