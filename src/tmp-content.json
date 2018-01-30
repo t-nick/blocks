@@ -1,3 +1,73 @@
 {
-  "title": "Design title"
+  "title": "Gallery",
+  "subtitle": "Our Company is the world’s leading manufacturer. We are also a leading financial services provider.",
+  "cta": {
+    "actionConfig": {
+      "action": "link",
+      "actions": {
+        "link": {
+          "type": "",
+          "innerPage": "",
+          "url": ""
+        }
+      }
+    },
+    "textValue": "Learn More"
+  },
+  "gallery": [
+    {
+      "title": "Alice was beginning to get very tired",
+      "picture": {
+        "src": "depositphotos-175355778-original.png",
+        "alt": "Bakery image description",
+        "galleryId": "gallery"
+      },
+      "id": "ce744570-02be-4080-b3f2-740d628ccb52"
+    },
+    {
+      "title": "Alice was beginning to get very tired",
+      "picture": {
+        "src": "depositphotos-136880276-original.png",
+        "alt": "Bakery image description",
+        "galleryId": "gallery"
+      },
+      "id": "a980742f-2b78-40b0-9fed-247e71056797"
+    },
+    {
+      "title": "Alice was beginning to get very tired",
+      "picture": {
+        "src": "depositphotos-70448571-original.png",
+        "alt": "Bakery image description",
+        "galleryId": "gallery"
+      },
+      "id": "cb6bbbcc-1980-4575-af5c-0f46e33d6d1e"
+    },
+    {
+      "title": "Alice was beginning to get very tired",
+      "picture": {
+        "src": "depositphotos-174413834-original.png",
+        "alt": "Bakery image description",
+        "galleryId": "gallery"
+      },
+      "id": "3e7b03a6-54fb-4d5c-8735-ddfd27f0c8fa"
+    },
+    {
+      "title": "Alice was beginning to get very tired",
+      "picture": {
+        "src": "depositphotos-84293460-original.png",
+        "alt": "Bakery image description",
+        "galleryId": "gallery"
+      },
+      "id": "d6741c92-36d7-4495-93cc-ba77ce79f2bb"
+    },
+    {
+      "title": "Alice was beginning to get very tired",
+      "picture": {
+        "src": "depositphotos-175973490-original.png",
+        "alt": "Bakery image description",
+        "galleryId": "gallery"
+      },
+      "id": "529f880a-60f0-4c8f-9fc3-8c9f482051bb"
+    }
+  ]
 }
