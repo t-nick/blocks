@@ -1,78 +1,78 @@
 {
-  "name": "Typography 1",
+  "name": "Asam",
   "settings": {
     "heroTitle": {
-      "size": "70px",
-      "lineHeight": 1.2857,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade", "lightShade"]
+      "size": "62px",
+      "lineHeight": "normal",
+      "fontFamily": "'Lato', sans-serif",
+      "fontWeight": 300,
+      "color": ["darkShade?lighten=5.88&desaturate=1.83", "lightShade"]
     },
     "blockTitle": {
-      "size": "46px",
-      "lineHeight": 1.3043,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "42px",
+      "lineHeight": "normal",
+      "fontFamily": "'Lato', serif",
+      "fontWeight": 400,
+      "color": ["darkShade?lighten=5.88&desaturate=1.83", "lightShade"]
     },
     "subtitle": {
-      "size": "18px",
-      "lineHeight": 1.7777,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "16px",
+      "lineHeight": 1.75,
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontWeight": 400,
+      "color": ["darkShade?lighten=35.29&desaturate=9.52", "lightShade?darken=4.51&saturate=30.43&spin=206"]
     },
     "headingLarge": {
-      "size": "36px",
-      "lineHeight": 1.5555,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "22px",
+      "lineHeight": 1.4545,
+      "fontFamily": "'Lato', sans-serif",
+      "fontWeight": 700,
+      "color": ["darkShade?lighten=5.88&desaturate=1.83", "lightShade"]
     },
     "heading": {
-      "size": "24px",
-      "lineHeight": 1.4166,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "22px",
+      "lineHeight": 1.4545,
+      "fontFamily": "'Lato', sans-serif",
+      "fontWeight": 700,
+      "color": ["darkShade?lighten=5.88&desaturate=1.83", "lightShade"]
     },
     "subHeading": {
-      "size": "20px",
-      "lineHeight": 1.5555,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "18px",
+      "lineHeight": 2,
+      "fontFamily": "'Lato', sans-serif",
+      "fontWeight": 700,
+      "color": ["darkShade?lighten=5.88&desaturate=1.83", "lightShade?darken=4.51&saturate=30.43&spin=206"]
     },
     "text": {
       "size": "16px",
-      "lineHeight": 1.5,
-      "fontFamily": "'Lato', sans-serif",
+      "lineHeight": 2,
+      "fontFamily": "'Open Sans', serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "color": ["darkShade?lighten=35.29&desaturate=9.52", "lightShade?darken=4.51&saturate=30.43&spin=206"]
     },
     "smallText": {
       "size": "12px",
-      "lineHeight": 1.6666,
-      "fontFamily": "'Lato', sans-serif",
+      "lineHeight": "normal",
+      "fontFamily": "'Open Sans', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "color": ["darkShade?lighten=35.29&desaturate=9.52", "lightShade?darken=4.51&saturate=30.43&spin=206"]
     },
     "quote": {
-      "size": "14px",
-      "lineHeight": 1.2,
+      "size": "26px",
+      "lineHeight": 1.4615,
       "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "fontWeight": 700,
+      "color": ["darkShade?lighten=35.29&desaturate=9.52", "lightShade"]
     },
     "caption": {
-      "size": "14px",
-      "lineHeight": 1.7142,
+      "size": "12px",
+      "lineHeight": "normal",
       "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "fontWeight": 700,
+      "color": ["darkShade?lighten=35.29&desaturate=9.52", "lightShade?darken=4.51&saturate=30.43&spin=206"]
     },
     "link": {
-      "color": ["lightShade"],
+      "color": ["lightShade?darken=29", "lightShade"],
       "hover": {
         "color": ["brand"]
       }

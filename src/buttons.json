@@ -1,8 +1,8 @@
 {
-  "name": "Buttons 1",
+  "name": "Asam butons",
   "general": {
     "fontFamily": "'Lato', sans-serif",
-    "border-width": "1px"
+    "borderWidth": "1px"
   },
   "size": {
     "sm": {
@@ -30,64 +30,97 @@
         "color": ["lightShade"],
         "border": {
           "color": ["transparent"]
+        },
+        "shadow": {
+          "color": ["darkShade?darken=19.41&setAlpha=0.5", "none"]
         }
       },
       "hover": {
         "bg": {
-          "color": ["darkShade", "lightShade"]
-        },
-        "color": ["lightShade", "darkShade"]
+          "color": ["brand?lighten=4.71&saturate=5.19"]
+        }
       }
     },
     "primaryAlt": {
       "default": {
         "bg": {
-          "color": ["darkShade", "lightShade"]
+          "color": ["brand"]
         },
-        "color": ["lightShade", "darkShade"],
+        "color": ["lightShade"],
         "border": {
           "color": ["transparent"]
+        },
+        "shadow": {
+          "color": ["darkShade?darken=19.41&setAlpha=0.5", "none"]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand"]
-        },
-        "color": ["lightShade"]
+          "color": ["brand?lighten=4.71&saturate=5.19"]
+        }
       }
     },
     "secondary": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": ["lightAccent", "transparent"]
         },
-        "color": ["darkShade?lighten=20.9", "lightShade"],
+        "color": ["lightShade", "brand"],
         "border": {
-          "color": ["darkShade?lighten=20.9", "lightShade"]
+          "color": ["transparent", "lightShade?darken=4.51&saturate=30.43&spin=206"]
+        },
+        "shadow": {
+          "color": ["darkShade?darken=19.41&setAlpha=0.5", "none"]
         }
       },
       "hover": {
         "bg": {
-          "color": ["darkShade?lighten=20.9", "lightShade"]
+          "color": ["lightAccent?lighten=4.71&saturate=5.19", "transparent"]
         },
-        "color": ["lightShade", "darkShade"]
+        "color": ["lightShade", "brand"],
+        "border": {
+          "color": ["transparent", "brand"]
+        }
+      },
+      "active": {
+        "bg": {
+          "color": ["lightAccent?lighten=4.71&saturate=5.19", "brand"]
+        },
+        "color": ["lightShade", "lightShade"],
+        "border": {
+          "color": ["transparent"]
+        }
       }
     },
     "secondaryAlt": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": ["darkAccent", "transparent"]
         },
-        "color": ["darkShade?lighten=20.9", "lightShade"],
+        "color": ["lightShade", "brand"],
         "border": {
-          "color": ["brand", "lightShade"]
+          "color": ["transparent", "lightShade?darken=4.51&saturate=30.43&spin=206"]
+        },
+        "shadow": {
+          "color": ["darkShade?darken=19.41&setAlpha=0.5", "none"]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand", "lightShade"]
+          "color": ["darkAccent?lighten=4.71&saturate=5.19", "transparent"]
         },
-        "color": ["lightShade", "darkShade"]
+        "border": {
+          "color": ["transparent", "brand"]
+        }
+      },
+      "active": {
+        "bg": {
+          "color": ["darkAccent?lighten=4.71&saturate=5.19", "brand"]
+        },
+        "color": ["lightShade"],
+        "border": {
+          "color": ["transparent"]
+        }
       }
     }
   }

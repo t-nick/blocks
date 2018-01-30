@@ -1,10 +1,10 @@
 {
-  "name": "Lightning yellow",
+  "name": "Asam",
   "color": {
     "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
+    "lightAccent": "#b940aa",
+    "brand": "#32bbcb",
+    "darkAccent": "#4748d6",
+    "darkShade": "#272f3c"
   }
 }
