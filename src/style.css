@@ -34,8 +34,8 @@
     margin-bottom: 20px;
     font-size: calc(var(--ui-heading-size) * 1.0909);
   }
-  
-  p {
+
+  &__desc {
     max-width: 310px;
     margin: 0 auto;
   }
