@@ -70,6 +70,12 @@
       "fontFamily": "'Lato', sans-serif",
       "fontWeight": 400,
       "color": ["darkShade?lighten=20.9", "lightShade"]
+    },
+    "link": {
+      "color": ["lightShade"],
+      "hover": {
+        "color": ["brandColor"]
+      }
     }
   }
 }

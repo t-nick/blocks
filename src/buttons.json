@@ -29,8 +29,6 @@
         },
         "color": ["lightShade"],
         "border": {
-          "width": "1px",
-          "style": "solid",
           "color": ["transparent"]
         }
       },
@@ -48,8 +46,6 @@
         },
         "color": ["lightShade", "darkShade"],
         "border": {
-          "width": "1px",
-          "style": "solid",
           "color": ["transparent"]
         }
       },
@@ -67,8 +63,6 @@
         },
         "color": ["darkShade?lighten=20.9", "lightShade"],
         "border": {
-          "width": "1px",
-          "style": "solid",
           "color": ["darkShade?lighten=20.9", "lightShade"]
         }
       },
@@ -86,8 +80,6 @@
         },
         "color": ["darkShade?lighten=20.9", "lightShade"],
         "border": {
-          "width": "1px",
-          "style": "solid",
           "color": ["brand", "lightShade"]
         }
       },
