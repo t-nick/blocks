@@ -70,6 +70,12 @@
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
       "color": ["lightShadeColor?darken=29", "lightShadeColor"]
+    },
+    "link": {
+      "color": ["lightShade?darken=29", "lightShade"],
+      "hover": {
+        "color": "brandColor"
+      }
     }
   }
 }
