@@ -18,7 +18,7 @@
     {
       "title": "Alice was beginning to get very tired",
       "picture": {
-        "src": "depositphotos-175355778-original.png",
+        "resourceRef": "depositphotos-175355778-original@3x.png",
         "alt": "Bakery image description",
         "galleryId": "gallery"
       },
@@ -27,7 +27,7 @@
     {
       "title": "Alice was beginning to get very tired",
       "picture": {
-        "src": "depositphotos-136880276-original.png",
+        "resourceRef": "depositphotos-136880276-original@3x.png",
         "alt": "Bakery image description",
         "galleryId": "gallery"
       },
@@ -36,7 +36,7 @@
     {
       "title": "Alice was beginning to get very tired",
       "picture": {
-        "src": "depositphotos-70448571-original.png",
+        "resourceRef": "depositphotos-70448571-original@3x.png",
         "alt": "Bakery image description",
         "galleryId": "gallery"
       },
@@ -45,7 +45,7 @@
     {
       "title": "Alice was beginning to get very tired",
       "picture": {
-        "src": "depositphotos-174413834-original.png",
+        "resourceRef": "depositphotos-174413834-original@3x.png",
         "alt": "Bakery image description",
         "galleryId": "gallery"
       },
@@ -54,7 +54,7 @@
     {
       "title": "Alice was beginning to get very tired",
       "picture": {
-        "src": "depositphotos-84293460-original.png",
+        "resourceRef": "depositphotos-84293460-original@3x.png",
         "alt": "Bakery image description",
         "galleryId": "gallery"
       },
@@ -63,7 +63,7 @@
     {
       "title": "Alice was beginning to get very tired",
       "picture": {
-        "src": "depositphotos-175973490-original.png",
+        "resourceRef": "depositphotos-175973490-original@3x.png",
         "alt": "Bakery image description",
         "galleryId": "gallery"
       },
