@@ -1,7 +1,60 @@
 @import "wireframe-zapdos-cover/src/style.css";
 
 /* start here */
+
+.title {
+  color: var(--ui-heading-color);
+  position: relative;
+  z-index: 1;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  letter-spacing: 2.4px;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 100px;
+    display: block;
+    width: 305px;
+    height: 32px;
+    background-color: var(--ui-brand-color);
+  }
+
+  @media (max-width: 768px) {
+    &:before {
+      top: -38px;
+      content: "";
+      left: 0;
+      display: block;
+      width: 252px;
+      height: 20px;
+    }
+  }
+}
+
 .section {
   min-height: 820px;
   text-align: left;
+  position: relative;
+
+  &__inner {
+    padding: 80px 0;
+    position: absolute;
+    left: 50%;
+    max-width: 625px;
+    bottom: 50%;
+    transform: translateY(50%);
+    margin-left: -600px;
+    border: solid 8px var(--ui-brand-color);
+
+    @media (max-width: 1215px) {
+      position: static;
+      margin-left: 0;
+      transform: none;
+    }
+  }
 }
