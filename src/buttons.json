@@ -2,7 +2,7 @@
   "name": "Buttons 1",
   "general": {
     "fontFamily": "'Lato', sans-serif",
-    "border-width": "1px"
+    "borderWidth": "1px"
   },
   "size": {
     "sm": {
