@@ -125,7 +125,7 @@
         },
         "color": ["darkShade", "lightAccent"],
         "border": {
-          "color": "transparent"
+          "color": ["transparent"]
         }
       },
       "active": {
