@@ -1,3 +1,42 @@
 {
-  "title": "Design title"
+  "title": "AWARDS",
+  "subtitle": "Our Company is the world’s leading manufacturer. We are also a leading financial services provider.",
+  "awards": [
+    {
+      "id": "8130928a-e7c6-4e26-a3ca-a820fa36380e",
+      "title": "The Baking Industry Awards 2017",
+      "picture": {
+        "src": "/img-1.png",
+        "alt": "The Baking Industry Awards 2017"
+      }
+    },
+    {
+      "id": "8130928a-e7c6-4e26-a3ca-a820fa36380e1",
+      "title": "Best Places to Work for LGBT Equality",
+      "picture": {
+        "src": "/img-2.png",
+        "alt": "Best Places to Work for LGBT Equality"
+      }
+    },
+    {
+      "id": "8130928a-e7c6-4e26-a3ca-a820fa36380e2",
+      "title": "2017 Employer Support Freedom Award",
+      "picture": {
+        "src": "/img-3.png",
+        "alt": "2017 Employer Support Freedom Award"
+      }
+    },
+    {
+      "id": "8130928a-e7c6-4e26-a3ca-a820fa36380e3",
+      "title": "America's Most Admired Corporations",
+      "picture": {
+        "src": "/img-4.png",
+        "alt": "America's Most Admired Corporations"
+      }
+    }
+  ],
+  "background": {
+    "type": "color",
+    "color": "#988378"
+  }
 }

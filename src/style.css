@@ -1,3 +1,44 @@
 @import "wireframe-zapdos-awards/src/style.css";
 
 /* start here */
+.item {
+  &__image {
+    object-fit: contain;
+  }
+
+  &__picture {
+    padding-top: 28%;
+    background: var(--ui-brand-color);
+  }
+
+  &__title {
+    color: var(--ui-light-shade-color);
+    font-family: var(--ui-text-font-family);
+    font-size: var(--ui-sub-heading-size);
+    font-weight: var(--ui-text-font-weight);
+  }
+}
+
+.title {
+  color: var(--ui-light-shade-color);
+}
+
+.subtitle {
+  color: var(--ui-light-shade-color);
+}
+
+@media (min-width: 480px) {
+  .item {
+    margin-top: 45px;
+  }
+
+  .item:first-of-type {
+    margin-top: 45px;
+  }
+}
+
+/* On phone background not for the whole section */
+
+.section {
+  background: var(--ui-brand-color);
+}
