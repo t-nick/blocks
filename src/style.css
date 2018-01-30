@@ -1,3 +1,55 @@
 @import "wireframe-zapdos-careers/src/style.css";
 
 /* start here */
+
+.title {
+  font-family: var(--ui-block-title-font-family);
+  text-transform: uppercase;
+  font-size: var(--ui-block-title-size);
+  font-weight: var(--ui-hero-title-font-weight);
+}
+
+.subtitle {
+  font-family: var(--ui-subtitle-font-family);
+  font-size: var(--ui-subtitle-size);
+}
+
+.media {
+  box-shadow: 0 15px 59px 0 rgba(0, 0, 0, 0.26);
+}
+
+.list {
+  &__item {
+    &-icon {
+      color: var(--ui-light-accent-color);
+      background-color: transparent;
+
+      span {
+        color: inherit;
+      }
+    }
+
+    &-text {
+      font-family: var(--ui-block-title-font-family);
+      font-weight: var(--ui-block-title-font-weight);
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .subtitle {
+    max-width: 637px;
+  }
+
+  .media {
+    min-height: 450px;
+  }
+
+  .list__item .list__item-icon + .list__item-text {
+    max-width: 205px;
+  }
+
+  .content__main {
+    padding-left: 35px;
+  }
+}
