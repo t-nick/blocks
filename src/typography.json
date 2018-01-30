@@ -1,44 +1,44 @@
 {
-  "name": "Typography 1",
+  "name": "Typography 2",
   "settings": {
     "heroTitle": {
-      "size": "70px",
-      "lineHeight": 1.2857,
+      "size": "40px",
+      "lineHeight": 1.4,
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade", "lightShade"]
+      "fontWeight": 700,
+      "color": ["darkShade"]
     },
     "blockTitle": {
-      "size": "46px",
-      "lineHeight": 1.3043,
+      "size": "32px",
+      "lineHeight": 1.4375,
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
+      "fontWeight": 400,
       "color": ["darkShade?lighten=20.9", "lightShade"]
     },
     "subtitle": {
-      "size": "18px",
-      "lineHeight": 1.7777,
+      "size": "20px",
+      "lineHeight": 1.5,
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
+      "fontWeight": 400,
       "color": ["darkShade?lighten=20.9", "lightShade"]
     },
     "headingLarge": {
-      "size": "36px",
-      "lineHeight": 1.5555,
+      "size": "28px",
+      "lineHeight": 1.4285,
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
       "color": ["darkShade?lighten=20.9", "lightShade"]
     },
     "heading": {
       "size": "24px",
-      "lineHeight": 1.4166,
+      "lineHeight": 1.5,
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
+      "fontWeight": 400,
       "color": ["darkShade?lighten=20.9", "lightShade"]
     },
     "subHeading": {
-      "size": "20px",
-      "lineHeight": 1.5555,
+      "size": "18px",
+      "lineHeight": 1.4444,
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
       "color": ["darkShade?lighten=20.9", "lightShade"]
@@ -46,30 +46,36 @@
     "text": {
       "size": "16px",
       "lineHeight": 1.5,
-      "fontFamily": "'Lato', sans-serif",
+      "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
       "color": ["darkShade?lighten=20.9", "lightShade"]
     },
     "smallText": {
-      "size": "12px",
-      "lineHeight": 1.6666,
-      "fontFamily": "'Lato', sans-serif",
+      "size": "10px",
+      "lineHeight": 1.4,
+      "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
       "color": ["darkShade?lighten=20.9", "lightShade"]
     },
     "quote": {
-      "size": "14px",
-      "lineHeight": 1.2,
-      "fontFamily": "'Lato', sans-serif",
+      "size": "22px",
+      "lineHeight": 1.4545,
+      "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
       "color": ["darkShade?lighten=20.9", "lightShade"]
     },
     "caption": {
       "size": "14px",
-      "lineHeight": 1.7142,
-      "fontFamily": "'Lato', sans-serif",
+      "lineHeight": 1.4285,
+      "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
       "color": ["darkShade?lighten=20.9", "lightShade"]
+    },
+    "link": {
+      "color": ["lightShade"],
+      "hover": {
+        "color": ["brand"]
+      }
     }
   }
 }

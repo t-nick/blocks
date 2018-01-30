@@ -1,23 +1,23 @@
 {
-  "name": "Buttons 1",
+  "name": "Buttons 2",
   "general": {
-    "fontFamily": "'Lato', sans-serif",
+    "fontFamily": "'Montserrat', sans-serif",
     "border-width": "1px"
   },
   "size": {
     "sm": {
       "padding": "10px 16px",
-      "borderRadius": 0,
+      "borderRadius": 5,
       "fontSize": "14px"
     },
     "md": {
-      "padding": "14px 40px",
-      "borderRadius": 0,
+      "padding": "14px 20px",
+      "borderRadius": 5,
       "fontSize": "14px"
     },
     "lg": {
-      "padding": "20px 56px",
-      "borderRadius": 0,
+      "padding": "18px 30px",
+      "borderRadius": 5,
       "fontSize": "16px"
     }
   },
@@ -29,8 +29,6 @@
         },
         "color": ["lightShade"],
         "border": {
-          "width": "1px",
-          "style": "solid",
           "color": ["transparent"]
         }
       },
@@ -48,8 +46,6 @@
         },
         "color": ["lightShade", "darkShade"],
         "border": {
-          "width": "1px",
-          "style": "solid",
           "color": ["transparent"]
         }
       },
@@ -67,8 +63,6 @@
         },
         "color": ["darkShade?lighten=20.9", "lightShade"],
         "border": {
-          "width": "1px",
-          "style": "solid",
           "color": ["darkShade?lighten=20.9", "lightShade"]
         }
       },
@@ -86,16 +80,14 @@
         },
         "color": ["darkShade?lighten=20.9", "lightShade"],
         "border": {
-          "width": "1px",
-          "style": "solid",
-          "color": ["brand", "lightShade"]
+          "color": ["brand"]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand", "lightShade"]
+          "color": ["brand"]
         },
-        "color": ["lightShade", "darkShade"]
+        "color": ["lightShade"]
       }
     }
   }
