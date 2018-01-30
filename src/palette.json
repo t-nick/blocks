@@ -1,10 +1,10 @@
 {
-  "name": "Lightning yellow",
+  "name": "Forks",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
+    "lightShade": "#fafafa",
+    "lightAccent": "#fff",
+    "brand": "#1F1E1D",
+    "darkAccent": "#6A6A6A",
+    "darkShade": "#000"
   }
 }
