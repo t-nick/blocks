@@ -74,7 +74,7 @@
     "link": {
       "color": ["lightShade"],
       "hover": {
-        "color": ["brandColor"]
+        "color": ["brand"]
       }
     }
   }
