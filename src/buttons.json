@@ -25,7 +25,13 @@
     "primary": {
       "default": {
         "bg": {
-          "color": ["brand"]
+          "color": ["brand"],
+          "gradient": {
+            "angle": "90deg",
+            "colors": [
+              ["brand?lighten=7.65", "brand?darken=8.63&desaturate=1.17"]
+            ]
+          }
         },
         "color": ["lightShade"],
         "border": {
@@ -36,7 +42,13 @@
       },
       "hover": {
         "bg": {
-          "color": ["brand"]
+          "color": ["brand"],
+          "gradient": {
+            "angle": "90deg",
+            "colors": [
+              ["brand?lighten=7.65", "brand?darken=8.63&desaturate=1.17"]
+            ]
+          }
         },
         "color": ["lightShade"],
         "shadow": {
@@ -51,7 +63,13 @@
     "primaryAlt": {
       "default": {
         "bg": {
-          "color": ["brand"]
+          "color": ["brand"],
+          "gradient": {
+            "angle": "90deg",
+            "colors": [
+              ["brand?lighten=7.65", "brand?darken=8.63&desaturate=1.17"]
+            ]
+          }
         },
         "color": ["lightShade"],
         "border": {
@@ -62,7 +80,13 @@
       },
       "hover": {
         "bg": {
-          "color": ["brand"]
+          "color": ["brand"],
+          "gradient": {
+            "angle": "90deg",
+            "colors": [
+              ["brand?lighten=7.65", "brand?darken=8.63&desaturate=1.17"]
+            ]
+          }
         },
         "color": ["lightShade"]
       }
@@ -70,7 +94,13 @@
     "secondary": {
       "default": {
         "bg": {
-          "color": ["transparent", "lightShade"]
+          "color": ["transparent", "lightShade"],
+          "gradient": {
+            "angle": "90deg",
+            "colors": [
+              ["brand?lighten=7.65", "brand?darken=8.63&desaturate=1.17"]
+            ]
+          }
         },
         "color": ["darkShade?lighten=38.8", "darkShade"],
         "border": {
@@ -81,7 +111,13 @@
       },
       "hover": {
         "bg": {
-          "color": ["lightShade?darken=7", "lightShade?setAlpha=0.2"]
+          "color": ["lightShade?darken=7", "lightShade?setAlpha=0.2"],
+          "gradient": {
+            "angle": "90deg",
+            "colors": [
+              ["brand?lighten=7.65", "brand?darken=8.63&desaturate=1.17"]
+            ]
+          }
         },
         "color": ["darkShade?lighten=38.8", "lightShade"]
       }
@@ -89,7 +125,13 @@
     "secondaryAlt": {
       "default": {
         "bg": {
-          "color": ["transparent", "lightShade"]
+          "color": ["transparent", "lightShade"],
+          "gradient": {
+            "angle": "90deg",
+            "colors": [
+              ["brand?lighten=7.65", "brand?darken=8.63&desaturate=1.17"]
+            ]
+          }
         },
         "color": ["darkShade?lighten=38.8", "darkShade"],
         "border": {
@@ -100,7 +142,13 @@
       },
       "hover": {
         "bg": {
-          "color": ["lightShade?darken=7", "lightShade?setAlpha=0.2"]
+          "color": ["lightShade?darken=7", "lightShade?setAlpha=0.2"],
+          "gradient": {
+            "angle": "90deg",
+            "colors": [
+              ["brand?lighten=7.65", "brand?darken=8.63&desaturate=1.17"]
+            ]
+          }
         },
         "color": ["darkShade?lighten=38.8", "lightShade"]
       }
