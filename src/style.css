@@ -1,3 +1,67 @@
 @import "wireframe-zapdos-team/src/style.css";
 
 /* start here */
+
+.section {
+  background: var(--ui-light-accent-color);
+}
+
+.title {
+  font-size: var(--ui-block-title-size);
+  font-family: var(--ui-block-title-font-family);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--ui-light-shade-color);
+}
+
+.subtitle {
+  font-size: var(--ui-subtitle-size);
+  line-height: var(--ui-subtitle-line-height);
+  font-family: var(--ui-subtitle-font-family);
+  font-weight: var(--ui-subtitle-font-weight);
+  color: var(--ui-light-shade-color);
+}
+
+.item {
+  &__inner {
+    background-color: var(--ui-light-shade-color);
+  }
+
+  &__title {
+    font-size: var(--ui-heading-size);
+    line-height: var(--ui-heading-line-height);
+    font-family: var(--ui-heading-font-family);
+    font-weight: var(--ui-heading-font-weight);
+  }
+
+  &__position {
+    font-size: var(item__position);
+    line-height: var(--ui-caption-line-height);
+    font-family: var(--ui-hero-title-font-family);
+  }
+
+  &__desc {
+    font-size: var(--ui-text-size);
+    line-height: var(--ui-text-line-height);
+    font-family: var(--ui-text-font-family);
+    font-weight: var(--ui-text-font-weight);
+  }
+
+  .link {
+    font-size: var(--ui-text-size);
+    line-height: var(--ui-text-line-height);
+    font-family: var(--ui-text-font-family);
+    font-weight: var(--ui-text-font-weight);
+    color: var(--ui-dark-accent-color);
+    text-decoration: underline;
+  }
+
+  &__email {
+    font-size: var(--ui-caption-size);
+    line-height: var(--ui-caption-line-height);
+    font-family: var(--ui-caption-font-family);
+    font-weight: var(--ui-text-font-weight);
+    color: var(--ui-caption-color);
+
+  }
+}
