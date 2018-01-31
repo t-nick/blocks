@@ -1,10 +1,10 @@
 {
-  "name": "Lightning yellow",
+  "name": "Photographer 2",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
+    "lightShade": "#f8fcff",
+    "lightAccent": "#fe0042",
+    "brand": "#fe0042",
+    "darkAccent": "#fe0042",
+    "darkShade": "#1f2020"
   }
 }
