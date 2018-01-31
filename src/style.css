@@ -1,6 +1,12 @@
 @import "wireframe-zapdos-contacts/src/style.css";
 
 /* start here */
+.section__main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 .map-wrapper {
   order: 1;
   border-radius: 11px;
