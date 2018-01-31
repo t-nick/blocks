@@ -61,14 +61,14 @@
         "bg": {
           "color": ["transparent"]
         },
-        "color": ["darkShade?lighten=20.9", "lightShade"],
+        "color": ["darkShade?lighten=32.55", "lightShade"],
         "border": {
-          "color": ["darkShade?lighten=20.9", "lightShade"]
+          "color": ["darkShade?lighten=32.55", "lightShade"]
         }
       },
       "hover": {
         "bg": {
-          "color": ["darkShade?lighten=20.9", "lightShade"]
+          "color": ["darkShade?lighten=32.55", "lightShade"]
         },
         "color": ["lightShade", "darkShade"]
       }
@@ -78,7 +78,7 @@
         "bg": {
           "color": ["transparent"]
         },
-        "color": ["darkShade?lighten=20.9", "lightShade"],
+        "color": ["darkShade?lighten=32.55", "lightShade"],
         "border": {
           "color": ["brand"]
         }

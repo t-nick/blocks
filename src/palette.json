@@ -1,10 +1,10 @@
 {
   "name": "Lightning yellow (Wireframe)",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
+    "lightShade": "#fff",
+    "lightAccent": "#d8d8d8",
+    "brand": "#000",
+    "darkAccent": "#676767",
+    "darkShade": "#141414"
   }
 }
