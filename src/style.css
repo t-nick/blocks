@@ -1,3 +1,69 @@
 @import "wireframe-zapdos-cover/src/style.css";
 
 /* start here */
+
+.section {
+  position: relative;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.title {
+  max-width: 570px;
+  padding: 0;
+  font-size: calc( var(--ui-hero-title-size) * 0.5 );
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  max-width: 570px;
+  padding: 0;
+  font-size: calc( var(--ui-subtitle-size) * 0.8 );
+  line-height: calc( var(--ui-sub-heading-line-height) * 1.78/1.8 );
+  letter-spacing: 0.9px;
+}
+
+.caption-decorator {
+  font-size: var(--ui-caption-size);
+  font-weight: var(--ui-caption-font-weight);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.btns-group {
+  margin-top: 13px;
+  padding: 0;
+}
+
+@media(min-height: 320px) {
+  .section {
+    padding: 10vh 0;
+  }
+}
+
+@media (min-height: 600px) {
+  .section-inner {
+    padding-top: 6vh;
+  }
+}
+
+@media (min-width: 480px) and (min-height: 520px) {
+  .caption-decorator {
+    margin-bottom: 10px;
+  }
+
+  .title {
+    margin-bottom: 24px;
+    font-size: calc( var(--ui-hero-title-size) * 0.75 );
+  }
+
+  .subtitle {
+    font-size: var(--ui-subtitle-size);
+  }
+}
+
+@media (min-width: 768px) and (min-height: 520px) {
+  .title {
+    font-size: var(--ui-hero-title-size);
+  }
+}
