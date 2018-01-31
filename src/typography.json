@@ -22,7 +22,7 @@
       "fontWeight": 400,
       "color": ["darkShade", "lightShade?darken=6.67"]
     },
-    "headingLarge": {
+    "headingLg": {
       "size": "22px",
       "lineHeight": 1.545,
       "fontFamily": "'Noto Sans', sans-serif",
@@ -36,7 +36,7 @@
       "fontWeight": 700,
       "color": ["darkShade?darken=19.41&saturate=0.1", "lightShade"]
     },
-    "subHeading": {
+    "subheading": {
       "size": "22px",
       "lineHeight": "normal",
       "fontFamily": "'Rozha One', serif",
@@ -50,7 +50,7 @@
       "fontWeight": 400,
       "color": ["darkShade", "lightShade?darken=6.67"]
     },
-    "smallText": {
+    "small": {
       "size": "32px",
       "lineHeight": "normal",
       "fontFamily": "'Noto Sans', sans-serif",
