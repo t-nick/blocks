@@ -1,10 +1,10 @@
 {
-  "name": "Photographer",
+  "name": "Asam",
   "color": {
-    "lightShade": "#f8fcff",
-    "lightAccent": "#0fcbe1",
-    "brand": "#fe0042",
-    "darkAccent": "#fe0042",
-    "darkShade": "#1f2020"
+    "lightShade": "#ffffff",
+    "lightAccent": "#b940aa",
+    "brand": "#32bbcb",
+    "darkAccent": "#4748d6",
+    "darkShade": "#272f3c"
   }
 }

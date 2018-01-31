@@ -2,5 +2,9 @@
   "name": "Gengar",
   "version": "1.0.0",
   "description": "gengar ui kit",
-  "main": "src"
+  "main": "src",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.4"
+  }
 }
