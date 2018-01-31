@@ -22,7 +22,7 @@
       "fontWeight": 400,
       "color": ["darkAccent", "lightShade?darken=7.06"]
     },
-    "headingLarge": {
+    "headingLg": {
       "size": "32px",
       "lineHeight": 1.1875,
       "fontFamily": "'Montserrat', sans-serif",
@@ -36,7 +36,7 @@
       "fontWeight": 600,
       "color": ["darkShade", "lightAccent"]
     },
-    "subHeading": {
+    "subheading": {
       "size": "18px",
       "lineHeight": 2,
       "fontFamily": "'Raleway', sans-serif",
@@ -50,7 +50,7 @@
       "fontWeight": 400,
       "color": ["darkAccent", "lightShade?darken=7.06"]
     },
-    "smallText": {
+    "small": {
       "size": "12px",
       "lineHeight": 2,
       "fontFamily": "'Raleway', sans-serif",
