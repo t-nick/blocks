@@ -43,11 +43,37 @@
     }
   ],
   "background": {
-   "type": "image",
-   "position": {
-     "type": "cover",
-     "cover": "50% 50%"
+    "type": "image",
+    "position": {
+      "type": "cover",
+      "cover": "50% 50%"
     },
-   "src": "bg.jpg"
+    "src": "bg.jpg"
+  },
+  "button-1": {
+    "actionConfig": {
+      "action": "link",
+      "actions": {
+        "link": {
+          "type": "",
+          "innerPage": "",
+          "url": ""
+        }
+      }
+    },
+    "textValue": "Learn more"
+  },
+  "button-2": {
+    "actionConfig": {
+      "action": "link",
+      "actions": {
+        "link": {
+          "type": "",
+          "innerPage": "",
+          "url": ""
+        }
+      }
+    },
+    "textValue": "Learn more"
   }
 }
