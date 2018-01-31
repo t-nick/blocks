@@ -8,47 +8,116 @@ class Block extends React.Component {
 
 
   render() {
-    const {components: {Text}, style} = this.props
+    const {components: {Text, Button}, style} = this.props
 
     return (
       <section className={style.section}>
+        <h1 className={style.visuallyHidden}>UI Kit</h1>
         <div className={style.section__inner}>
-          <h1 className={style['hero-title']}>
-            <Text bind="heroTitle" />
-          </h1>
-          <h2 className={style.title}>
-            <Text bind="title" />
-          </h2>
-          <h3 className={style['heading-lg']}>
-            <Text bind="headingLarge" />
-          </h3>
-          <h4 className={style.heading}>
-            <Text bind="heading" />
-          </h4>
-          <p className={style.subtitle}>
-            <Text bind="title" />
-          </p>
+          <section className={style.column}>
+            <h1 className={style.visuallyHidden}>Light</h1>
+            <p className={classNames(style.heroTitle, style.item)}>
+              <Text bind="heroTitle" />
+            </p>
+            <p className={classNames(style.blockTitle, style.item)}>
+              <Text bind="blockTitle" />
+            </p>
+            <p className={classNames(style.subTitle, style.item)}>
+              <Text bind="subTitle" />
+            </p>
+            <p className={classNames(style.headingLg, style.item)}>
+              <Text bind="headingLg" />
+            </p>
+            <p className={classNames(style.heading, style.item)}>
+              <Text bind="heading" />
+            </p>
+            <p className={classNames(style.subHeading, style.item)}>
+              <Text bind="subHeading" />
+            </p>
+            <p className={classNames(style.text, style.item)}>
+              <Text bind="text" />
+            </p>
+            <p className={classNames(style.smallText, style.item)}>
+              <Text bind="smallText" />
+            </p>
+            <p className={classNames(style.quote, style.item)}>
+              <Text bind="quote" />
+            </p>
+            <p className={classNames(style.caption, style.item)}>
+              <Text bind="caption" />
+            </p>
+            <Button className={style.item} bind="primary" />
+            <br/>
+            <Button className={style.item} bind="primaryAlt" />
+            <br/>
+            <Button className={style.item} bind="secondary" />
+            <br/>
+            <Button className={style.item} bind="secondaryAlt" />
+            <br/>
+            <Button className={style.item} bind="link" />
+          </section>
+          <section className={classNames(style.column, style.dark, 'ui-kit-dark')}>
+            <h1 className={style.visuallyHidden}>Dark</h1>
+            <p className={classNames(style.heroTitle, style.item)}>
+              <Text bind="heroTitle" />
+            </p>
+            <p className={classNames(style.blockTitle, style.item)}>
+              <Text bind="blockTitle" />
+            </p>
+            <p className={classNames(style.subTitle, style.item)}>
+              <Text bind="subTitle" />
+            </p>
+            <p className={classNames(style.headingLg, style.item)}>
+              <Text bind="headingLg" />
+            </p>
+            <p className={classNames(style.heading, style.item)}>
+              <Text bind="heading" />
+            </p>
+            <p className={classNames(style.subHeading, style.item)}>
+              <Text bind="subHeading" />
+            </p>
+            <p className={classNames(style.text, style.item)}>
+              <Text bind="text" />
+            </p>
+            <p className={classNames(style.smallText, style.item)}>
+              <Text bind="smallText" />
+            </p>
+            <p className={classNames(style.quote, style.item)}>
+              <Text bind="quote" />
+            </p>
+            <p className={classNames(style.caption, style.item)}>
+              <Text bind="caption" />
+            </p>
+            <Button className={style.item} bind="primary" />
+            <br/>
+            <Button className={style.item} bind="primaryAlt" />
+            <br/>
+            <Button className={style.item} bind="secondary" />
+            <br/>
+            <Button className={style.item} bind="secondaryAlt" />
+            <br/>
+            <Button className={style.item} bind="link" />
+          </section>
         </div>
       </section>
     )
   }
 }
 
-Block.components = _.pick(['Text', 'Image', 'Button', 'SocialIcons'])($editor.components)
+Block.components = _.pick(['Text', 'Button',])($editor.components)
 
 Block.defaultContent = {
-  heroTitle: 'Hero title',
-  title: 'Title',
-  subtitle: 'Subtitle',
-  headingLarge: 'Heading large',
-  heading: 'Heading',
-  text:
-    'We are in it for the long haul—for our customers and for our world. Our customers can be found in virtually every corner of the earth, and we realize our success comes directly from helping our customers be successful. We take seriously our responsibility to give back to the communities in which we work and live.',
-  picture: {
-    src: 'https://www.vms.ro/wp-content/uploads/2015/04/mobius-placeholder-2.png',
-    alt: 'Picture about the company',
-  },
-  button: {
+  heroTitle: 'HEROTITLE',
+  blockTitle: 'BLOCKTITLE',
+  subTitle: 'SUBTITLE',
+  headingLg: 'HEADING LARGE',
+  heading: 'HEADING',
+  subHeading: 'SUB HEADING',
+  text: 'TEXT',
+  smallText: 'SMALL TEXT',
+  quote: 'QUOTE',
+  caption: 'CAPTION',
+  primary: {
     actionConfig: {
       action: 'link',
       actions: {
@@ -59,7 +128,50 @@ Block.defaultContent = {
         },
       },
     },
-    textValue: 'Contact us',
+    textValue: 'Primary',
+    type: 'primary',
+  },
+  primaryAlt: {
+    actionConfig: {
+      action: 'link',
+      actions: {
+        link: {
+          type: '',
+          innerPage: '',
+          url: '',
+        },
+      },
+    },
+    textValue: 'Primary Alternative',
+    type: 'primary-alt',
+  },
+  secondary: {
+    actionConfig: {
+      action: 'link',
+      actions: {
+        link: {
+          type: '',
+          innerPage: '',
+          url: '',
+        },
+      },
+    },
+    textValue: 'Secondary',
+    type: 'secondary',
+  },
+  secondaryAlt: {
+    actionConfig: {
+      action: 'link',
+      actions: {
+        link: {
+          type: '',
+          innerPage: '',
+          url: '',
+        },
+      },
+    },
+    textValue: 'Secondary Alternative',
+    type: 'secondary-alt',
   },
   link: {
     actionConfig: {
@@ -72,36 +184,8 @@ Block.defaultContent = {
         },
       },
     },
-    textValue: 'More about us',
-  },
-  socialIcons: {
-    networks: [
-      {
-        id: 'facebook',
-        name: 'Facebook',
-        url: 'http://facebook.com/',
-      },
-      {
-        id: 'instagram',
-        name: 'Instagram',
-        url: 'http://instagram.com/',
-      },
-      {
-        id: 'youtube',
-        name: 'YouTube',
-        url: 'http://youtube.com/',
-      },
-    ],
-    target: '_blank',
-    design: {
-      border: 'circle',
-      innerFill: true,
-      preset: 'preset001',
-      padding: 20,
-      color: '',
-      sizes: [10, 20, 30, 40],
-      size: '40px',
-    },
+    textValue: 'Button link',
+    type: 'link'
   },
 }
 
