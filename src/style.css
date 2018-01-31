@@ -35,26 +35,75 @@
   margin-bottom: 20px;
 }
 
-.title {
-  width: 100%;
-  margin-bottom: 10px;
-  font-family: var(--ui-block-title-font-family);
-  font-size: var(--ui-block-title-size);
-  font-weight: var(--ui-block-title-font-weight);
-  line-height: var(--ui-block-title-line-height);
-  color: var(--ui-block-title-color);
-  text-align: left;
+.heroTitle {
+  font-size: var(--ui-hero-title-size);
+  color: var(--ui-hero-title-color );
+  line-height: var(--ui-hero-title-line-height );
+  font-family: var(--ui-hero-title-font-family );
+  font-weight: var(--ui-hero-title-font-weight);
 }
-
-.subtitle {
-  width: 100%;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  font-family: var(--ui-subtitle-font-family);
+.blockTitle {
+  font-size: var(--ui-block-title-size);
+  color: var(--ui-block-title-color );
+  line-height: var(--ui-block-title-line-height );
+  font-family: var(--ui-block-title-font-family );
+  font-weight: var(--ui-block-title-font-weight);
+}
+.subTitle {
   font-size: var(--ui-subtitle-size);
+  color: var(--ui-subtitle-color );
+  line-height: var(--ui-subtitle-line-height );
+  font-family: var(--ui-subtitle-font-family );
   font-weight: var(--ui-subtitle-font-weight);
-  line-height: var(--ui-subtitle-line-height);
-  color: var(--ui-subtitle-color);
+}
+.headingLg {
+  font-size: var(--ui-heading-lg-size);
+  color: var(--ui-heading-lg-color);
+  line-height: var(--ui-heading-lg-line-height);
+  font-family: var(--ui-heading-lg-font-family);
+  font-weight: var(--ui-heading-lg-font-weight);
+}
+.heading {
+  font-size: var(--ui-heading-size);
+  color: var(--ui-heading-color );
+  line-height: var(--ui-heading-line-height );
+  font-family: var(--ui-heading-font-family );
+  font-weight: var(--ui-heading-font-weight);
+}
+.subHeading {
+  font-size: var(--ui-subheading-size);
+  color: var(--ui-subheading-color );
+  line-height: var(--ui-subheading-line-height );
+  font-family: var(--ui-subheading-font-family );
+  font-weight: var(--ui-subheading-font-weight);
+}
+.text {
+  font-size: var(--ui-text-size);
+  color: var(--ui-text-color);
+  line-height: var(--ui-text-line-height);
+  font-family: var(--ui-text-font-family);
+  font-weight: var(--ui-text-font-weight);
+}
+.smallText {
+  font-size: var(--ui-small-size);
+  color: var(--ui-small-color);
+  line-height: var(--ui-small-line-height);
+  font-family: var(--ui-small-font-family);
+  font-weight: var(--ui-small-font-weight);
+}
+.quote {
+  font-size: var(--ui-quote-size);
+  color: var(--ui-quote-color);
+  line-height: var(--ui-quote-line-height);
+  font-family: var(--ui-quote-font-family);
+  font-weight: var(--ui-quote-font-weight);
+}
+.caption {
+  font-size: var(--ui-caption-size);
+  color: var(--ui-caption-color);
+  line-height: var(--ui-caption-line-height);
+  font-family: var(--ui-caption-font-family);
+  font-weight: var(--ui-caption-font-weight);
 }
 
 .link {
