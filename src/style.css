@@ -1,3 +1,68 @@
-@import "wireframe-default-master/src/style.css";
+@import "wireframe-zapdos-blog/src/style.css";
 
 /* start here */
+
+.title {
+  color: var(--ui-block-title-color);
+  font-size: var(--ui-block-title-size);
+  font-family: var(--ui-block-title-font-family);
+  font-weight: var(--ui-block-title-font-weight);
+  line-height: var(--ui-block-title-line-height);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  max-width: 570px;
+  margin: auto;
+}
+
+.text {
+  color: var(--ui-subtitle-color);
+  font-size: var(--ui-subtitle-size);
+  font-family: var(--ui-subtitle-font-famil);
+  font-weight: var(--ui-subtitle-font-weight);
+  line-height: var(--ui-subtitle-line-height);
+}
+
+.article {
+  margin-top: 70px;
+  text-align: left;
+}
+
+.article__picture {
+  height: 240px;
+}
+
+.article__meta {
+  color: var(--ui-small-color);
+  font-size: var(--ui-small-text-size);
+  font-family: var(--ui-small-text-font-family);
+  font-weight: var(--ui-small-text-font-weight);
+  line-height: var(--ui-small-text-line-height);
+}
+
+.article__title {
+  color: var(--ui-heading-color);
+  font-size: var(--ui-heading-size);
+  font-family: var(--ui-heading-font-family);
+  font-weight: var(--ui-heading-font-weight);
+  line-height: var(--ui-heading-line-height);
+}
+
+.article__text {
+  color: var(--ui-text-color);
+  font-size: var(--ui-text-size);
+  font-family: var(--ui-text-font-family);
+  font-weight: var(--ui-text-font-weight);
+  line-height: var(--ui-text-line-height);
+}
+
+.link {
+  color: var(--ui-brand-color);
+  text-align: left;
+  padding-left: 0;
+  text-decoration: underline;
+  text-transform: capitalize;
+}

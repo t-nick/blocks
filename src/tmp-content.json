@@ -1,3 +1,76 @@
 {
-  "title": "Design title"
+  "title": "Blog",
+
+  "subtitle": "Our Company is the world’s leading manufacturer. We are also a leading financial services provider.",
+
+  "blog":[{
+
+    "category": "Creative Process",
+
+    "date":"September 22, 2017",
+
+    "picture": {
+
+      "src": "bakery-pic-1.jpg"
+    },
+
+    "title": "The two most important questions when scoping your MVP",
+
+    "description": "This is a dedicated team that strives to achieve the impossible with every cake design and project bigger and better than the last.",
+
+    "cta":{
+
+      "textValue": "Learn more"
+    }
+
+  },
+  {
+
+    "category": "Creative Process",
+
+    "date":"September 22, 2017",
+
+    "picture": {
+
+      "src": "bakery-pic-2.jpg"
+    },
+
+    "title": "The two most important questions when scoping your MVP",
+
+    "description": "This is a dedicated team that strives to achieve the impossible with every cake design and project bigger and better than the last.",
+
+    "cta":{
+
+      "textValue": "Learn more"
+    }
+
+  },
+  {
+
+    "category": "Creative Process",
+
+    "date":"September 22, 2017",
+
+    "picture": {
+
+      "src": "bakery-pic-3.jpg"
+    },
+
+    "title": "The two most important questions when scoping your MVP",
+
+    "description": "This is a dedicated team that strives to achieve the impossible with every cake design and project bigger and better than the last.",
+
+    "cta":{
+
+      "textValue": "Learn more"
+    }
+
+  }],
+
+  "cta": {
+
+    "textValue": "Learn More"
+
+  }
+
 }
