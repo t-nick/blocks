@@ -37,6 +37,9 @@ class Block extends React.Component {
             <p className={classNames(style.text, style.item)}>
               <Text bind="text" />
             </p>
+            <p className={classNames(style.text, style.item)}>
+              <Text bind="linkText" />
+            </p>
             <p className={classNames(style.smallText, style.item)}>
               <Text bind="smallText" />
             </p>
@@ -55,6 +58,12 @@ class Block extends React.Component {
             <Button className={style.item} bind="secondaryAlt" />
             <br/>
             <Button className={style.item} bind="link" />
+            <br/>
+            <Button className={style.item} bind="primarySm" />
+            <br/>
+            <Button className={style.item} bind="primaryMd" />
+            <br/>
+            <Button className={style.item} bind="primaryLg" />
           </section>
           <section className={classNames(style.column, style.dark, 'ui-kit-dark')}>
             <h1 className={style.visuallyHidden}>Dark</h1>
@@ -79,6 +88,9 @@ class Block extends React.Component {
             <p className={classNames(style.text, style.item)}>
               <Text bind="text" />
             </p>
+            <p className={classNames(style.text, style.item)}>
+              <Text bind="linkText" />
+            </p>
             <p className={classNames(style.smallText, style.item)}>
               <Text bind="smallText" />
             </p>
@@ -97,6 +109,14 @@ class Block extends React.Component {
             <Button className={style.item} bind="secondaryAlt" />
             <br/>
             <Button className={style.item} bind="link" />
+            <br/>
+            <Button className={style.item} bind="link" />
+            <br/>
+            <Button className={style.item} bind="primarySm" />
+            <br/>
+            <Button className={style.item} bind="primaryMd" />
+            <br/>
+            <Button className={style.item} bind="primaryLg" />
           </section>
         </div>
       </section>
@@ -114,6 +134,7 @@ Block.defaultContent = {
   heading: 'HEADING',
   subHeading: 'SUB HEADING',
   text: 'TEXT',
+  linkText: 'Lorem ipsum <a href="https://google.com">dolor sit amet,</a> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   smallText: 'SMALL TEXT',
   quote: 'QUOTE',
   caption: 'CAPTION',
@@ -186,6 +207,51 @@ Block.defaultContent = {
     },
     textValue: 'Button link',
     type: 'link'
+  },
+  primarySm: {
+    actionConfig: {
+      action: 'link',
+      actions: {
+        link: {
+          type: '',
+          innerPage: '',
+          url: '',
+        },
+      },
+    },
+    textValue: 'Primary',
+    type: 'primary',
+    size: 'sm',
+  },
+  primaryMd: {
+    actionConfig: {
+      action: 'link',
+      actions: {
+        link: {
+          type: '',
+          innerPage: '',
+          url: '',
+        },
+      },
+    },
+    textValue: 'Primary',
+    type: 'primary',
+    size: 'md',
+  },
+  primaryLg: {
+    actionConfig: {
+      action: 'link',
+      actions: {
+        link: {
+          type: '',
+          innerPage: '',
+          url: '',
+        },
+      },
+    },
+    textValue: 'Primary',
+    type: 'primary',
+    size: 'lg',
   },
 }
 
