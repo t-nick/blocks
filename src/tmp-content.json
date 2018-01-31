@@ -1,3 +1,100 @@
 {
-  "title": "Design title"
+  "logo": {
+    "text": {
+      "value": "Uros",
+      "tagName": "h2"
+    }
+  },
+  "menu": [
+    {
+      "id": "about-us",
+      "metadata": {
+        "displayName": "About us",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "services",
+      "metadata": {
+        "displayName": "Services",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "projects",
+      "metadata": {
+        "displayName": "Projects",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "testimonials",
+      "metadata": {
+        "displayName": "Testimonials",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "Videos",
+      "metadata": {
+        "displayName": "Videos",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "Contact",
+      "metadata": {
+        "displayName": "Contact",
+        "actionConfig": {
+          "action": "page",
+          "target": "_self",
+          "actions": {
+            "page": "",
+            "link": "",
+            "block": ""
+          }
+        }
+      }
+    }
+  ]
 }
