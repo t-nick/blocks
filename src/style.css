@@ -8,7 +8,7 @@
 
 .title {
   font-size: var(--ui-block-title-size);
-  font-family: var(--ui-block-title-font-family);
+  font-family: var(--ui-hero-title-font-family);
   text-transform: uppercase;
   font-weight: 700;
   color: var(--ui-light-shade-color);
@@ -24,7 +24,17 @@
 
 .item {
   &__inner {
-    background-color: var(--ui-light-shade-color);
+    background-color: var(--ui-media-bg);
+    padding: 30px 15px;
+
+    @media (min-width: 480px) {
+      padding: 50px 30px 30px;
+    }
+  }
+
+  &__pic {
+    width: 100px;
+    height: 100px;
   }
 
   &__title {
@@ -45,23 +55,25 @@
     line-height: var(--ui-text-line-height);
     font-family: var(--ui-text-font-family);
     font-weight: var(--ui-text-font-weight);
+    margin-bottom: 4px;
   }
 
   .link {
     font-size: var(--ui-text-size);
-    line-height: var(--ui-text-line-height);
+    line-height: var(--ui-heading-line-height);
     font-family: var(--ui-text-font-family);
     font-weight: var(--ui-text-font-weight);
     color: var(--ui-dark-accent-color);
     text-decoration: underline;
+    margin-bottom: 1px;
   }
 
   &__email {
     font-size: var(--ui-caption-size);
-    line-height: var(--ui-caption-line-height);
+    line-height: var(--ui-heading-line-height);
     font-family: var(--ui-caption-font-family);
     font-weight: var(--ui-text-font-weight);
     color: var(--ui-caption-color);
-
+    margin-bottom: 1px;
   }
 }

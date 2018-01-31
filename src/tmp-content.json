@@ -55,13 +55,13 @@
         ],
         "target": "_blank",
         "design": {
-          "border": "circle",
+          "border": null,
           "innerFill": true,
           "preset": "preset001",
           "marginRight": 15,
-          "color": "",
+          "color": "#ac8670",
           "sizes": [15, 25, 35, 45],
-          "size": "25px"
+          "size": "35px"
         }
       }
     },
@@ -119,13 +119,13 @@
         ],
         "target": "_blank",
         "design": {
-          "border": "circle",
+          "border": null,
           "innerFill": true,
           "preset": "preset001",
           "marginRight": 15,
-          "color": "",
+          "color": "#ac8670",
           "sizes": [15, 25, 35, 45],
-          "size": "25px"
+          "size": "35px"
         }
       }
     },
@@ -183,13 +183,13 @@
         ],
         "target": "_blank",
         "design": {
-          "border": "circle",
+          "border": null,
           "innerFill": true,
           "preset": "preset001",
           "marginRight": 15,
-          "color": "",
+          "color": "#ac8670",
           "sizes": [15, 25, 35, 45],
-          "size": "25px"
+          "size": "35px"
         }
       }
     }
