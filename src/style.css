@@ -1,3 +1,77 @@
 @import "wireframe-zapdos-contacts/src/style.css";
 
 /* start here */
+.map-wrapper {
+  order: 1;
+  border-radius: 11px;
+
+  @media (min-width: 992px) {
+    width: 66%;
+  }
+}
+
+@media (min-width: 768px) {
+  .map {
+    padding-top: 67%;
+  }
+}
+
+.contacts {
+
+  @media (min-width: 992px) {
+    width: 34%;
+  }
+
+  &__desc {
+    font-size: var(--ui-text-size);
+
+    a {
+      text-align: left;
+      padding: 0;
+    }
+  }
+
+  &-list__item {
+    margin-bottom: 20px;
+  }
+}
+
+.title {
+  text-align: left;
+  letter-spacing: 2px;
+  font-weight: calc(var(--ui-block-title-font-weight) * 0.7);
+  line-height: calc(var(--ui-block-title-line-height) * 0.98);
+
+  span {
+    position: relative;
+    padding-bottom: 20px;
+
+    &::after {
+      content: "";
+      display: block;
+      height: 2px;
+      width: 66%;
+      background-color: var(--ui-brand-color);
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+    }
+  }
+}
+
+.button--size-md {
+  font-size: calc(var(--ui-btn-md-size)*0.2);
+}
+
+.wrapper {
+  color: var(--ui-icon-color);
+}
+
+.text {
+  letter-spacing: 1.1px;
+}
+
+.social_icons {
+  margin-right: 20px;
+}
+
