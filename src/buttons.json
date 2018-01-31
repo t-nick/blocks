@@ -86,7 +86,14 @@
             ]
           }
         },
-        "color": ["lightShade"]
+        "color": ["lightShade"],
+        "shadow": {
+          "x": 0,
+          "y": "7px",
+          "blur": "20px",
+          "spread": 0,
+          "color": ["brand?lighten=6&setAlpha=0.5"]
+        }
       }
     },
     "secondary": {
@@ -133,7 +140,7 @@
         "color": ["darkShade?lighten=38.8", "darkShade"],
         "border": {
           "style": "solid",
-          "color": ["brand", "darkShade?lighten=38.8"]
+          "color": ["darkShade?lighten=38.8", "lightShade"]
         }
       },
       "hover": {
