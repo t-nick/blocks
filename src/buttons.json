@@ -1,22 +1,22 @@
 {
-  "name": "Buttons 1",
+  "name": "photographer",
   "general": {
-    "fontFamily": "'Lato', sans-serif",
-    "border-width": "1px"
+    "fontFamily": "'WorkSans', sans-serif",
+    "borderWidth": 0
   },
   "size": {
     "sm": {
-      "padding": "10px 16px",
-      "borderRadius": 0,
-      "fontSize": "14px"
-    },
-    "md": {
       "padding": "14px 40px",
       "borderRadius": 0,
       "fontSize": "14px"
     },
+    "md": {
+      "padding": "18px 37px",
+      "borderRadius": 0,
+      "fontSize": "14px"
+    },
     "lg": {
-      "padding": "20px 56px",
+      "padding": "27px 60px",
       "borderRadius": 0,
       "fontSize": "16px"
     }
@@ -24,70 +24,255 @@
   "settings": {
     "primary": {
       "default": {
+        "color": [
+          "darkShade"
+        ],
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "transparent",
+            "brand"
+          ]
         },
-        "color": ["lightShade"],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "brand",
+            "transparent"
+          ]
+        },
+        "shadow": {
+          "color": [
+            "none"
+          ]
         }
       },
       "hover": {
+        "color": [
+          "darkShade"
+        ],
         "bg": {
-          "color": ["darkShade", "lightShade"]
+          "color": [
+            "lightAccent"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
+        "border": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "shadow": {
+          "color": [
+            "none"
+          ]
+        }
+      },
+      "active": {
+        "color": [
+          "darkShade"
+        ],
+        "bg": {
+          "color": [
+            "darkAccent"
+          ]
+        },
+        "border": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "shadow": {
+          "color": [
+            "none"
+          ]
+        }
       }
     },
     "primaryAlt": {
       "default": {
+        "color": [
+          "darkShade"
+        ],
         "bg": {
-          "color": ["darkShade", "lightShade"]
+          "color": [
+            "transparent",
+            "brand"
+          ]
         },
-        "color": ["lightShade", "darkShade"],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "brand",
+            "transparent"
+          ]
+        },
+        "shadow": {
+          "color": [
+            "none"
+          ]
         }
       },
       "hover": {
+        "color": [
+          "darkShade"
+        ],
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "lightAccent"
+          ]
         },
-        "color": ["lightShade"]
+        "border": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "shadow": {
+          "color": [
+            "none"
+          ]
+        }
+      },
+      "active": {
+        "color": [
+          "darkShade"
+        ],
+        "bg": {
+          "color": [
+            "darkAccent"
+          ]
+        },
+        "border": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "shadow": {
+          "color": [
+            "none"
+          ]
+        }
       }
     },
     "secondary": {
       "default": {
+        "color": [
+          "darkShade"
+        ],
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent",
+            "brand"
+          ]
         },
-        "color": ["darkShade?lighten=20.9", "lightShade"],
         "border": {
-          "color": ["darkShade?lighten=20.9", "lightShade"]
+          "color": [
+            "brand",
+            "transparent"
+          ]
+        },
+        "shadow": {
+          "color": [
+            "none"
+          ]
         }
       },
       "hover": {
+        "color": [
+          "darkShade"
+        ],
         "bg": {
-          "color": ["darkShade?lighten=20.9", "lightShade"]
+          "color": [
+            "lightAccent"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
+        "border": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "shadow": {
+          "color": [
+            "none"
+          ]
+        }
+      },
+      "active": {
+        "color": [
+          "darkShade"
+        ],
+        "bg": {
+          "color": [
+            "darkAccent"
+          ]
+        },
+        "border": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "shadow": {
+          "color": [
+            "none"
+          ]
+        }
       }
     },
     "secondaryAlt": {
       "default": {
+        "color": [
+          "darkShade"
+        ],
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent",
+            "brand"
+          ]
         },
-        "color": ["darkShade?lighten=20.9", "lightShade"],
         "border": {
-          "color": ["brand", "lightShade"]
+          "color": [
+            "brand",
+            "transparent"
+          ]
+        },
+        "shadow": {
+          "color": [
+            "none"
+          ]
         }
       },
       "hover": {
+        "color": [
+          "darkShade"
+        ],
         "bg": {
-          "color": ["brand", "lightShade"]
+          "color": [
+            "lightAccent"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
+        "border": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "shadow": {
+          "color": [
+            "none"
+          ]
+        }
+      },
+      "active": {
+        "bg": {
+          "color": [
+            "darkAccent"
+          ]
+        },
+        "border": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "shadow": {
+          "color": [
+            "none"
+          ]
+        }
       }
     }
   }

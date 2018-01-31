@@ -2,5 +2,9 @@
   "name": "Clefable",
   "version": "1.0.0",
   "description": "clefable ui kit",
-  "main": "src/index.js"
+  "main": "src/index.js",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.4"
+  }
 }
