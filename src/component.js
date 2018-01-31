@@ -110,8 +110,6 @@ class Block extends React.Component {
             <br/>
             <Button className={style.item} bind="link" />
             <br/>
-            <Button className={style.item} bind="link" />
-            <br/>
             <Button className={style.item} bind="primarySm" />
             <br/>
             <Button className={style.item} bind="primaryMd" />
