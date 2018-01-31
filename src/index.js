@@ -93,7 +93,7 @@ ExtendedWireframe.defaultContent = {
       marginRight: 20,
       color: 'var(--ui-icon-color)',
       sizes: [10, 20, 30, 40],
-      size: '30',
+      size: '30px',
     },
   },
   topIcon: {
