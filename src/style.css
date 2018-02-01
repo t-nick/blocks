@@ -1,3 +1,47 @@
 @import "wireframe-zapdos-faq/src/style.css";
 
 /* start here */
+.title {
+  text-align: left;
+  position: relative;
+  color: var(--ui-heading-color);
+  letter-spacing: 2px;
+
+  &::after {
+    content: "";
+    width: 132px;
+    height: 31px;
+    background: var(--ui-brand-color);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+}
+
+.item__icon {
+  right: inherit;
+  left: 0;
+  top: 20px;
+}
+
+.item__title,
+.item__content {
+  padding: 5px 15px 15px 50px;
+}
+
+.item__title {
+  letter-spacing: 1.6px;
+}
+
+.item__content {
+  line-height: var(--ui-subtitle-line-height);
+  letter-spacing: 1.1px;
+}
+
+@media (min-width: 992px) {
+  .item__title,
+  .item__content {
+    padding: 10px 20px 15px 55px;
+  }
+}
