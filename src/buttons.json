@@ -198,11 +198,13 @@
         ],
         "bg": {
           "color": [
+            "transparent",
             "transparent"
           ]
         },
         "border": {
           "color": [
+            "darkShade?lighten=49.22",
             "darkShade?lighten=49.22"
           ]
         },
@@ -265,11 +267,13 @@
         ],
         "bg": {
           "color": [
+            "transparent",
             "transparent"
           ]
         },
         "border": {
           "color": [
+            "darkShade?lighten=49.22",
             "darkShade?lighten=49.22"
           ]
         },
