@@ -1,10 +1,10 @@
 {
-  "name": "Lightning yellow",
+  "name": "Uros",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
+    "lightShade": "#f0f2f7",
+    "lightAccent": "#ff667a",
+    "brand": "#f0576b",
+    "darkAccent": "#d65d5f",
+    "darkShade": "#253557"
   }
 }
