@@ -28,6 +28,7 @@
         "color": [
           "lightShade"
         ],
+        "fonWeight": 600,
         "bg": {
           "color": [
             "brand"
@@ -102,6 +103,7 @@
           "darkShade",
           "lightShade"
         ],
+        "fonWeight": 600,
         "bg": {
           "color": [
             "transparent"
@@ -164,18 +166,18 @@
     "secondary": {
       "default": {
         "color": [
-          "darkShade?lighten=38.8",
-          "darkShade"
+          "darkShade",
+          "lightShade"
         ],
+        "fonWeight": 600,
         "bg": {
           "color": [
-            "transparent",
-            "lightShade"
+            "transparent"
           ]
         },
         "border": {
           "color": [
-            "darkShade?lighten=38.8",
+            "darkShade?lighten=38.8&setAlpha=0.2",
             "darkShade?lighten=43.92&desaturate=9.46"
           ]
         },
@@ -237,6 +239,7 @@
         "color": [
           "darkShade"
         ],
+        "fonWeight": 600,
         "bg": {
           "color": [
             "darkShade?lighten=68.04&desaturate=17.25",
@@ -268,7 +271,7 @@
         "border": {
           "color": [
             "transparent",
-            "lightShade?setAlpha=0.2"
+            "transparent"
           ]
         },
         "shadow": {
@@ -291,7 +294,7 @@
         "border": {
           "color": [
             "transparent",
-            "lightShade?setAlpha=0.2"
+            "transparent"
           ]
         },
         "shadow": {

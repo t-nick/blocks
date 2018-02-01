@@ -31,7 +31,7 @@
         "darkShade?lighten=43.92&desaturate=9.46"
       ]
     },
-    "headingLarge": {
+    "headingLg": {
       "size": "26px",
       "lineHeight": "normal",
       "fontFamily": "'Poppins', sans-serif",
@@ -51,7 +51,7 @@
         "lightShade"
       ]
     },
-    "subHeading": {
+    "subheading": {
       "size": "20px",
       "lineHeight": 1.8,
       "fontFamily": "'Poppins', sans-serif",
@@ -71,7 +71,7 @@
         "darkShade?lighten=43.92&desaturate=9.46"
       ]
     },
-    "smallText": {
+    "small": {
       "size": "14px",
       "lineHeight": 2.286,
       "fontFamily": "'Poppins', sans-serif",
