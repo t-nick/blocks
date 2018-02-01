@@ -1,3 +1,7 @@
 {
-  "showSubtitle": true
+  "showSubtitle": true,
+  "toogle-item-controls": true,
+  "different-icons": false,
+  "open-icon": "<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' viewBox='0 0 19 19' ><path fill='var(--ui-brand-color)' d='M1414,431v-1h19v1h-19Zm9-10h1v19h-1V421Z' transform='translate(-1414 -421)'/></svg>",
+  "close-icon": "<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' viewBox='0 0 14.12 14.125' ><path fill='var(--ui-brand-color)' d='M1419.43,265.136l0.71-.707,13.43,13.435-0.71.707Zm13.43-.707,0.71,0.707-13.43,13.435-0.71-.707Z'/></svg>"
 }

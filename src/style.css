@@ -1,3 +1,66 @@
 @import "wireframe-zapdos-faq/src/style.css";
 
 /* start here */
+
+.section {
+
+  @media (min-width: 992px) {
+    padding: 110px 0;
+  }
+}
+
+.title {
+  font-family: var(--ui-block-title-font-family);
+  font-size: var(--ui-block-title-size);
+  font-weight: 700;
+}
+
+.subtitle {
+  margin: 22px auto 0;
+  font-family: var(--ui-subtitle-font-family);
+  font-weight: 400;
+  max-width: 630px;
+
+  @media (min-width: 768px) {
+    font-size: var(--ui-subtitle-size);
+    margin-bottom: 40px;
+  }
+}
+
+.item {
+
+  @media (min-width: 992px) {
+    margin-top: 0;
+  }
+
+  &__title {
+    border-bottom: 1px solid var(--ui-media-bg);
+    font-weight: 600;
+    font-family: var(--ui-heading-font-family);
+
+    @media (min-width: 992px) {
+      padding-left: 0;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      font-size: var(--ui-heading-size);
+    }
+  }
+
+  &__button {
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__content {
+
+    @media (min-width: 992px) {
+      padding-left: 0;
+      padding-right: 100px;
+    }
+  }
+}
+
+.button {
+  font-weight: 700;
+}
