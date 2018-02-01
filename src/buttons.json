@@ -1,5 +1,5 @@
 {
-  "name": "Forks",
+  "name": "Buttons 3",
   "general": {
     "fontFamily": "'Montserrat', sans-serif",
     "borderWidth": "2px",
@@ -26,116 +26,220 @@
     "primary": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade", "lightAccent"],
+        "color": [
+          "darkShade",
+          "lightAccent"
+        ],
         "border": {
-          "color": ["darkShade", "lightAccent"]
+          "color": [
+            "darkShade",
+            "lightAccent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["darkShade", "lightAccent"]
+          "color": [
+            "darkShade",
+            "lightAccent"
+          ]
         },
-        "color": ["lightShade", "darkShade"],
+        "color": [
+          "lightShade",
+          "darkShade"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent",
+            "transparent"
+          ]
         }
       },
       "active": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent",
+            "transparent"
+          ]
         },
-        "color": ["darkShade", "lightAccent"],
+        "color": [
+          "darkShade",
+          "lightAccent"
+        ],
         "border": {
-          "color": ["darkShade", "lightAccent"]
+          "color": [
+            "darkShade",
+            "lightAccent"
+          ]
         }
       }
     },
     "primaryAlt": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade", "lightAccent"],
+        "color": [
+          "darkShade",
+          "lightAccent"
+        ],
         "border": {
-          "color": ["darkShade", "lightAccent"]
+          "color": [
+            "darkShade",
+            "lightAccent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["lightAccent"]
+          "color": [
+            "darkShade",
+            "lightAccent"
+          ]
         },
-        "color": ["lightShade", "darkShade"],
+        "color": [
+          "lightShade",
+          "darkShade"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent",
+            "transparent"
+          ]
         }
       },
       "active": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent",
+            "transparent"
+          ]
         },
-        "color": ["darkShade", "lightAccent"],
+        "color": [
+          "darkShade",
+          "lightAccent"
+        ],
         "border": {
-          "color": ["darkShade", "lightAccent"]
+          "color": [
+            "darkShade",
+            "lightAccent"
+          ]
         }
       }
     },
     "secondary": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade", "lightAccent"],
+        "color": [
+          "darkShade",
+          "lightAccent"
+        ],
         "border": {
-          "color": ["lightAccent?darken=10.2", "darkShade?lighten=10.2"]
+          "color": [
+            "lightAccent?darken=10.2",
+            "darkShade?lighten=10.2"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["lightAccent?darken=10.2", "darkShade?lighten=10.2"]
+          "color": [
+            "lightAccent?darken=10.2",
+            "darkShade?lighten=10.2"
+          ]
         },
-        "color": ["darkShade", "lightAccent"],
+        "color": [
+          "darkShade",
+          "lightAccent"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent",
+            "transparent"
+          ]
         }
       },
       "active": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent",
+            "transparent"
+          ]
         },
-        "color": ["darkShade", "lightAccent"],
+        "color": [
+          "darkShade",
+          "lightAccent"
+        ],
         "border": {
-          "color": ["lightAccent?darken=10.2", "darkShade?lighten=10.2"]
+          "color": [
+            "lightAccent?darken=10.2",
+            "darkShade?lighten=10.2"
+          ]
         }
       }
     },
     "secondaryAlt": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade", "lightAccent"],
+        "color": [
+          "darkShade",
+          "lightAccent"
+        ],
         "border": {
-          "color": ["lightAccent?darken=10.2", "darkShade?lighten=10.2"]
+          "color": [
+            "lightAccent?darken=10.2",
+            "darkShade?lighten=10.2"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["lightAccent?darken=10.2", "darkShade?lighten=10.2"]
+          "color": [
+            "lightAccent?darken=10.2",
+            "darkShade?lighten=10.2"
+          ]
         },
-        "color": ["darkShade", "lightAccent"],
+        "color": [
+          "darkShade",
+          "lightAccent"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent",
+            "transparent"
+          ]
         }
       },
       "active": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent",
+            "transparent"
+          ]
         },
-        "color": ["darkShade", "lightAccent"],
+        "color": [
+          "darkShade",
+          "lightAccent"
+        ],
         "border": {
-          "color": ["lightAccent?darken=10.2", "darkShade?lighten=10.2"]
+          "color": [
+            "lightAccent?darken=10.2",
+            "darkShade?lighten=10.2"
+          ]
         }
       }
     }
