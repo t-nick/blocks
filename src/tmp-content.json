@@ -1,3 +1,39 @@
 {
-  "title": "Design title"
+  "title": "Events",
+  "events":
+  [
+    {
+      "title": "Dude You Re Getting A Telescope",
+      "date": "October 14, 2017",
+      "badge": "members only",
+      "time": "10:30am - 1:30pm",
+      "location": "Lectorium 2",
+      "picture": {
+        "resourceRef": "ev1.jpg",
+        "alt": "Digital marketing workshop illustration"
+      },
+      "cta": {
+        "textValue": "Know more",
+        "type": "link"
+      },
+      "id": "b1de1229-0f5f-4da8-8e5f-1d875b2bdd5e1"
+    },
+
+    {
+      "title": "Make Sure Your Ice Is Safe And Clean",
+      "date": "October 14, 2017",
+      "badge": "members only",
+      "time": "10:30am - 1:30pm",
+      "location": "Lectorium 2",
+      "picture": {
+        "resourceRef": "ev2.jpg",
+        "alt": "Digital marketing workshop illustration"
+      },
+      "cta": {
+        "textValue": "Know more",
+        "type": "link"
+      },
+      "id": "b1de1229-0f5f-4da8-8e5f-1d875b2bdd5e22"
+    }
+  ]
 }
