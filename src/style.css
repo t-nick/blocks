@@ -40,11 +40,11 @@
 }
 
 .plan {
+  position: relative;
   background-color: var(--ui-light-shade-color);
   z-index: 1;
 
   @media (min-width: 768px) {
-    max-height: 435px;
     box-shadow: 0 2px 20px -6px var(--ui-link-color);
   }
 
@@ -59,13 +59,13 @@
   }
 
   &--main {
+    padding-bottom: 39px;
     border-radius: 3px;
     z-index: 2;
 
     @media (min-width: 768px) {
       margin-top: -40px;
       margin-bottom: -40px;
-      max-height: 520px;
       max-width: 370px;
       box-shadow: 0 2px 20px -6px var(--ui-link-color);
     }
@@ -85,6 +85,11 @@
 
       &__button {
         margin-top: 0;
+
+        @media (min-width: 768px) {
+          position: static;
+          transform: none;
+        }
       }
     }
   }
@@ -138,6 +143,16 @@
       line-height: 2;
       letter-spacing: 1.5px;
       margin-bottom: 3px;
+    }
+  }
+
+  &__button {
+
+    @media (min-width: 768px) {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 50%);
     }
   }
 }

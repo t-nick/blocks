@@ -94,6 +94,8 @@ ExtendedWireframe.defaultContent = {
   'plan-price-count-2': '$50',
   'plan-price-count-3': '$100',
   'plan-cta-1': {
+    type: 'primary',
+    size: 'sm',
     actionConfig: {
       action: 'link',
       actions: {
@@ -107,6 +109,8 @@ ExtendedWireframe.defaultContent = {
     textValue: 'Main button (S)',
   },
   'plan-cta-2': {
+    type: 'secondary',
+    size: 'sm',
     actionConfig: {
       action: 'link',
       actions: {
@@ -120,6 +124,8 @@ ExtendedWireframe.defaultContent = {
     textValue: 'Main button (M)',
   },
   'plan-cta-3': {
+    type: 'secondary-alt',
+    size: 'sm',
     actionConfig: {
       action: 'link',
       actions: {
