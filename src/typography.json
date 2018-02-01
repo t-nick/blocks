@@ -1,80 +1,115 @@
 {
-  "name": "Typography 1",
+  "name": "Photographer 2",
   "settings": {
     "heroTitle": {
       "size": "70px",
-      "lineHeight": 1.2857,
+      "lineHeight": 1.1429,
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade", "lightShade"]
+      "fontWeight": 700,
+      "color": [
+        "darkShade",
+        "lightShade?lighten=1.37"
+      ]
     },
     "blockTitle": {
-      "size": "46px",
-      "lineHeight": 1.3043,
+      "size": "42px",
+      "lineHeight": 1.19,
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "fontWeight": 700,
+      "color": [
+        "darkShade",
+        "lightShade?lighten=1.37"
+      ]
     },
     "subtitle": {
-      "size": "18px",
-      "lineHeight": 1.7777,
+      "size": "20px",
+      "lineHeight": 1.5,
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 500,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "color": [
+        "darkShade?lighten=32.75",
+        "darkShade?lighten=32.75"
+      ]
     },
     "headingLarge": {
-      "size": "36px",
-      "lineHeight": 1.5555,
+      "size": "34px",
+      "lineHeight": 1.294,
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "fontWeight": 700,
+      "color": [
+        "darkShade",
+        "lightShade?lighten=1.37"
+      ]
     },
     "heading": {
-      "size": "24px",
-      "lineHeight": 1.4166,
+      "size": "26px",
+      "lineHeight": 1.384,
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "fontWeight": 700,
+      "color": [
+        "darkShade",
+        "lightShade?lighten=1.37"
+      ]
     },
     "subHeading": {
-      "size": "20px",
-      "lineHeight": 1.5555,
+      "size": "22px",
+      "lineHeight": 1.4545,
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "fontWeight": 700,
+      "color": [
+        "darkShade",
+        "lightShade?lighten=1.37"
+      ]
     },
     "text": {
-      "size": "16px",
-      "lineHeight": 1.5,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "15px",
+      "lineHeight": 1.667,
+      "fontFamily": "'Montserrat', sans-serif",
+      "fontWeight": 300,
+      "color": [
+        "darkShade?lighten=24.3",
+        "lightShade?lighten=1.37"
+      ]
     },
     "smallText": {
-      "size": "12px",
-      "lineHeight": 1.6666,
-      "fontFamily": "'Lato', sans-serif",
+      "size": "11px",
+      "lineHeight": 1.8181,
+      "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "color": [
+        "darkShade",
+        "lightShade?lighten=1.37"
+      ]
     },
     "quote": {
-      "size": "14px",
-      "lineHeight": 1.2,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "15px",
+      "lineHeight": 1.667,
+      "fontFamily": "'Montserrat', sans-serif",
+      "fontWeight": 300,
+      "color": [
+        "darkShade",
+        "lightShade?lighten=1.37"
+      ]
     },
     "caption": {
-      "size": "14px",
-      "lineHeight": 1.7142,
-      "fontFamily": "'Lato', sans-serif",
+      "size": "11px",
+      "lineHeight": 1.8181,
+      "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "color": [
+        "darkShade",
+        "lightShade?lighten=1.37"
+      ]
     },
     "link": {
-      "color": ["lightShade"],
+      "color": [
+        "darkShade",
+        "lightShade?lighten=1.37"
+      ],
       "hover": {
-        "color": ["brand"]
+        "color": [
+          "brand"
+        ]
       }
     }
   }
