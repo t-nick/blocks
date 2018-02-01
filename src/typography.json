@@ -3,78 +3,114 @@
   "settings": {
     "heroTitle": {
       "size": "62px",
-      "lineHeight": "normal",
+      "lineHeight": 1,
       "fontFamily": "'Lato', sans-serif",
       "fontWeight": 300,
-      "color": ["darkShade?lighten=5.88&desaturate=1.83", "lightShade"]
+      "color": [
+        "darkShade?lighten=5.88&desaturate=1.83",
+        "lightShade"
+      ]
     },
     "blockTitle": {
       "size": "42px",
-      "lineHeight": "normal",
+      "lineHeight": 1,
       "fontFamily": "'Lato', serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=5.88&desaturate=1.83", "lightShade"]
+      "color": [
+        "darkShade?lighten=5.88&desaturate=1.83",
+        "lightShade"
+      ]
     },
     "subtitle": {
       "size": "16px",
       "lineHeight": 1.75,
       "fontFamily": "'Open Sans', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=35.29&desaturate=9.52", "lightShade?darken=4.51&saturate=30.43&spin=206"]
+      "color": [
+        "darkShade?lighten=35.29&desaturate=9.52",
+        "lightShade?darken=4.51&saturate=30.43&spin=206"
+      ]
     },
     "headingLg": {
       "size": "22px",
       "lineHeight": 1.4545,
       "fontFamily": "'Lato', sans-serif",
       "fontWeight": 700,
-      "color": ["darkShade?lighten=5.88&desaturate=1.83", "lightShade"]
+      "color": [
+        "darkShade?lighten=5.88&desaturate=1.83",
+        "lightShade"
+      ]
     },
     "heading": {
       "size": "22px",
       "lineHeight": 1.4545,
       "fontFamily": "'Lato', sans-serif",
       "fontWeight": 700,
-      "color": ["darkShade?lighten=5.88&desaturate=1.83", "lightShade"]
+      "color": [
+        "darkShade?lighten=5.88&desaturate=1.83",
+        "lightShade"
+      ]
     },
     "subheading": {
       "size": "18px",
       "lineHeight": 2,
       "fontFamily": "'Lato', sans-serif",
       "fontWeight": 700,
-      "color": ["darkShade?lighten=5.88&desaturate=1.83", "lightShade?darken=4.51&saturate=30.43&spin=206"]
+      "color": [
+        "darkShade?lighten=5.88&desaturate=1.83",
+        "lightShade?darken=4.51&saturate=30.43&spin=206"
+      ]
     },
     "text": {
       "size": "16px",
       "lineHeight": 2,
       "fontFamily": "'Open Sans', serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=35.29&desaturate=9.52", "lightShade?darken=4.51&saturate=30.43&spin=206"]
+      "color": [
+        "darkShade?lighten=35.29&desaturate=9.52",
+        "lightShade?darken=4.51&saturate=30.43&spin=206"
+      ]
     },
     "small": {
       "size": "12px",
-      "lineHeight": "normal",
+      "lineHeight": 1,
       "fontFamily": "'Open Sans', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=35.29&desaturate=9.52", "lightShade?darken=4.51&saturate=30.43&spin=206"]
+      "color": [
+        "darkShade?lighten=35.29&desaturate=9.52",
+        "lightShade?darken=4.51&saturate=30.43&spin=206"
+      ]
     },
     "quote": {
       "size": "26px",
       "lineHeight": 1.4615,
       "fontFamily": "'Lato', sans-serif",
       "fontWeight": 700,
-      "color": ["darkShade?lighten=35.29&desaturate=9.52", "lightShade"]
+      "color": [
+        "darkShade?lighten=35.29&desaturate=9.52",
+        "lightShade"
+      ]
     },
     "caption": {
       "size": "12px",
-      "lineHeight": "normal",
+      "lineHeight": 1,
       "fontFamily": "'Lato', sans-serif",
       "fontWeight": 700,
-      "color": ["darkShade?lighten=35.29&desaturate=9.52", "lightShade?darken=4.51&saturate=30.43&spin=206"]
+      "color": [
+        "darkShade?lighten=35.29&desaturate=9.52",
+        "lightShade?darken=4.51&saturate=30.43&spin=206"
+      ]
     },
     "link": {
-      "color": ["lightShade?darken=29", "lightShade"],
+      "color": [
+        "lightShade?darken=29",
+        "lightShade"
+      ],
       "hover": {
-        "color": ["brand"]
+        "color": [
+          "brand",
+          "brand"
+        ]
       }
     }
   }
