@@ -7,17 +7,17 @@
   "size": {
     "sm": {
       "padding": "10px 16px",
-      "borderRadius": 5,
+      "borderRadius": "5px",
       "fontSize": "14px"
     },
     "md": {
       "padding": "14px 20px",
-      "borderRadius": 5,
+      "borderRadius": "5px",
       "fontSize": "14px"
     },
     "lg": {
       "padding": "18px 30px",
-      "borderRadius": 5,
+      "borderRadius": "5px",
       "fontSize": "16px"
     }
   },
