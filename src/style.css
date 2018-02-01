@@ -43,6 +43,24 @@
   }
 }
 
+.article:nth-child(2),
+.article:nth-child(3) {
+  position: relative;
+  z-index: 1;
+}
+
+.article:nth-child(2):before {
+  content: "";
+  display: block;
+  width: 100%;
+  top: -40px;
+  left: 45px;
+  background-color: #fafafa;
+  z-index: -1;
+  position: absolute;
+  bottom: -60px;
+}
+
 .text {
   letter-spacing: 0.9px;
   line-height: 2;
@@ -55,4 +73,10 @@
   font-size: var(--ui-heading-size);
   font-family: var(--ui-hero-title-font-family);
   content: counter(steps, decimal-leading-zero);
+}
+
+@media screen and (max-width: 992px) {
+  .article:nth-child(2):before {
+    content: none;
+  }
 }
