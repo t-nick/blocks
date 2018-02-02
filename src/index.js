@@ -36,6 +36,8 @@ ExtendedWireframe.defaultContent = {
     },
   ],
   cta: {
+    type: 'secondary',
+    size: 'lg',
     actionConfig: {
       action: 'link',
       actions: {
