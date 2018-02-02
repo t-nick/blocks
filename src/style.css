@@ -20,12 +20,6 @@
   margin-bottom: 34px;
 }
 
-.button {
-  margin-left: 8px;
-  padding: 8px 18px;
-  border-radius: 0;
-}
-
 @media (min-width: 992px) {
   .subtitle {
     max-width: 618px;

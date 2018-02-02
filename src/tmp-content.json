@@ -12,7 +12,9 @@
         }
       }
     },
-    "textValue": "Learn More"
+    "textValue": "Learn More",
+    "type": "secondary",
+    "size": "md"
   },
   "gallery": [
     {
