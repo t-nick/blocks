@@ -25,7 +25,6 @@
   "settings": {
     "primary": {
       "default": {
-        "fontWeight": 600,
         "bg": {
           "color": [
             "transparent"
@@ -81,7 +80,6 @@
     },
     "primaryAlt": {
       "default": {
-        "fontWeight": 600,
         "bg": {
           "color": [
             "transparent"
@@ -137,7 +135,6 @@
     },
     "secondary": {
       "default": {
-        "fontWeight": 600,
         "bg": {
           "color": [
             "transparent"
@@ -193,7 +190,6 @@
     },
     "secondaryAlt": {
       "default": {
-        "fontWeight": 600,
         "bg": {
           "color": [
             "transparent"
