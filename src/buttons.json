@@ -1,5 +1,5 @@
 {
-  "name": "Buttons 1",
+  "name": "Buttons 2",
   "general": {
     "fontFamily": "'Montserrat', sans-serif",
     "borderWidth": "1px"
@@ -25,135 +25,219 @@
     "primary": {
       "default": {
         "bg": {
-          "color": ["brand"],
+          "color": [
+            "brand"
+          ],
           "gradient": {
             "angle": "90deg",
             "colors": [
-              ["brand?lighten=7.65", "brand?darken=8.63&desaturate=1.17"]
+              [
+                "brand?lighten=7.65",
+                "brand?darken=8.63&desaturate=1.17"
+              ]
             ]
           }
         },
-        "color": ["lightShade"],
+        "color": [
+          "lightShade"
+        ],
         "border": {
           "style": "solid",
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand"],
+          "color": [
+            "brand",
+            "brand"
+          ],
           "gradient": {
             "angle": "90deg",
             "colors": [
-              ["brand?lighten=7.65", "brand?darken=8.63&desaturate=1.17"]
+              [
+                "brand?lighten=7.65",
+                "brand?darken=8.63&desaturate=1.17"
+              ]
             ]
           }
         },
-        "color": ["lightShade"],
+        "color": [
+          "lightShade",
+          "lightShade"
+        ],
         "shadow": {
           "x": 0,
           "y": "7px",
           "blur": "20px",
           "spread": 0,
-          "color": ["brand?lighten=6&setAlpha=0.5"]
+          "color": [
+            "brand?lighten=6&setAlpha=0.5",
+            "brand?lighten=6&setAlpha=0.5"
+          ]
         }
       }
     },
     "primaryAlt": {
       "default": {
         "bg": {
-          "color": ["brand"],
+          "color": [
+            "brand"
+          ],
           "gradient": {
             "angle": "90deg",
             "colors": [
-              ["brand?lighten=7.65", "brand?darken=8.63&desaturate=1.17"]
+              [
+                "brand?lighten=7.65",
+                "brand?darken=8.63&desaturate=1.17"
+              ]
             ]
           }
         },
-        "color": ["lightShade"],
+        "color": [
+          "lightShade"
+        ],
         "border": {
           "style": "solid",
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand"],
+          "color": [
+            "brand",
+            "brand"
+          ],
           "gradient": {
             "angle": "90deg",
             "colors": [
-              ["brand?lighten=7.65", "brand?darken=8.63&desaturate=1.17"]
+              [
+                "brand?lighten=7.65",
+                "brand?darken=8.63&desaturate=1.17"
+              ]
             ]
           }
         },
-        "color": ["lightShade"],
+        "color": [
+          "lightShade",
+          "lightShade"
+        ],
         "shadow": {
           "x": 0,
           "y": "7px",
           "blur": "20px",
           "spread": 0,
-          "color": ["brand?lighten=6&setAlpha=0.5"]
+          "color": [
+            "brand?lighten=6&setAlpha=0.5",
+            "brand?lighten=6&setAlpha=0.5"
+          ]
         }
       }
     },
     "secondary": {
       "default": {
         "bg": {
-          "color": ["transparent", "lightShade"],
+          "color": [
+            "transparent",
+            "lightShade"
+          ],
           "gradient": {
             "angle": "90deg",
             "colors": [
-              ["brand?lighten=7.65", "brand?darken=8.63&desaturate=1.17"]
+              [
+                "brand?lighten=7.65",
+                "brand?darken=8.63&desaturate=1.17"
+              ]
             ]
           }
         },
-        "color": ["darkShade?lighten=38.8", "darkShade"],
+        "color": [
+          "darkShade?lighten=38.8",
+          "darkShade"
+        ],
         "border": {
           "style": "solid",
-          "color": ["darkShade?lighten=38.8", "lightShade"]
+          "color": [
+            "darkShade?lighten=38.8",
+            "lightShade"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["lightShade?darken=7", "lightShade?setAlpha=0.2"],
+          "color": [
+            "lightShade?darken=7",
+            "lightShade?setAlpha=0.2"
+          ],
           "gradient": {
             "angle": "90deg",
             "colors": [
-              ["brand?lighten=7.65", "brand?darken=8.63&desaturate=1.17"]
+              [
+                "brand?lighten=7.65",
+                "brand?darken=8.63&desaturate=1.17"
+              ]
             ]
           }
         },
-        "color": ["darkShade?lighten=38.8", "lightShade"]
+        "color": [
+          "darkShade?lighten=38.8",
+          "lightShade"
+        ]
       }
     },
     "secondaryAlt": {
       "default": {
         "bg": {
-          "color": ["transparent", "lightShade"],
+          "color": [
+            "transparent",
+            "lightShade"
+          ],
           "gradient": {
             "angle": "90deg",
             "colors": [
-              ["brand?lighten=7.65", "brand?darken=8.63&desaturate=1.17"]
+              [
+                "brand?lighten=7.65",
+                "brand?darken=8.63&desaturate=1.17"
+              ]
             ]
           }
         },
-        "color": ["darkShade?lighten=38.8", "darkShade"],
+        "color": [
+          "darkShade?lighten=38.8",
+          "darkShade"
+        ],
         "border": {
           "style": "solid",
-          "color": ["darkShade?lighten=38.8", "lightShade"]
+          "color": [
+            "darkShade?lighten=38.8",
+            "lightShade"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["lightShade?darken=7", "lightShade?setAlpha=0.2"],
+          "color": [
+            "lightShade?darken=7",
+            "lightShade?setAlpha=0.2"
+          ],
           "gradient": {
             "angle": "90deg",
             "colors": [
-              ["brand?lighten=7.65", "brand?darken=8.63&desaturate=1.17"]
+              [
+                "brand?lighten=7.65",
+                "brand?darken=8.63&desaturate=1.17"
+              ]
             ]
           }
         },
-        "color": ["darkShade?lighten=38.8", "lightShade"]
+        "color": [
+          "darkShade?lighten=38.8",
+          "lightShade"
+        ]
       }
     }
   }
