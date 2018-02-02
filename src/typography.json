@@ -31,7 +31,7 @@
         "darkShade?lighten=32.75"
       ]
     },
-    "headingLarge": {
+    "headingLg": {
       "size": "34px",
       "lineHeight": 1.294,
       "fontFamily": "'Montserrat', sans-serif",
@@ -51,7 +51,7 @@
         "lightShade?lighten=1.37"
       ]
     },
-    "subHeading": {
+    "subheading": {
       "size": "22px",
       "lineHeight": 1.4545,
       "fontFamily": "'Montserrat', sans-serif",
@@ -71,7 +71,7 @@
         "lightShade?lighten=1.37"
       ]
     },
-    "smallText": {
+    "small": {
       "size": "11px",
       "lineHeight": 1.8181,
       "fontFamily": "'Montserrat', sans-serif",

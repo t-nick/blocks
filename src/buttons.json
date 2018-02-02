@@ -2,7 +2,8 @@
   "name": "photographer-2",
   "general": {
     "fontFamily": "'Montserrat', sans-serif",
-    "borderWidth": 0
+    "borderWidth": "1px",
+    "textTransform": "uppercase"
   },
   "size": {
     "sm": {
@@ -175,7 +176,7 @@
         ],
         "bg": {
           "color": [
-            "darkShade=16.27",
+            "darkShade?lighten=16.27",
             "lightShade?setAlpha=0.2"
           ]
         },
@@ -244,7 +245,7 @@
         ],
         "bg": {
           "color": [
-            "darkShade=16.27",
+            "darkShade?lighten=16.27",
             "lightShade?setAlpha=0.2"
           ]
         },
