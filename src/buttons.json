@@ -2,7 +2,9 @@
   "name": "photographer",
   "general": {
     "fontFamily": "'WorkSans', sans-serif",
-    "borderWidth": 0
+    "borderWidth": 0,
+    "textTransform": "uppercase",
+    "letterSpacing": "2.3px"
   },
   "size": {
     "sm": {
@@ -24,6 +26,7 @@
   "settings": {
     "primary": {
       "default": {
+        "fontWeight": 600,
         "color": [
           "darkShade"
         ],
@@ -86,6 +89,7 @@
     },
     "primaryAlt": {
       "default": {
+        "fontWeight": 600,
         "color": [
           "darkShade"
         ],
@@ -148,6 +152,7 @@
     },
     "secondary": {
       "default": {
+        "fontWeight": 600,
         "color": [
           "darkShade"
         ],
@@ -210,6 +215,7 @@
     },
     "secondaryAlt": {
       "default": {
+        "fontWeight": 600,
         "color": [
           "darkShade"
         ],
