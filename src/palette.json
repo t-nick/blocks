@@ -1,10 +1,10 @@
 {
-  "name": "Asam",
+  "name": "Red ribbon",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#b940aa",
-    "brand": "#32bbcb",
-    "darkAccent": "#4748d6",
-    "darkShade": "#272f3c"
+    "lightShade": "#fff",
+    "lightAccent": "#ffc534",
+    "brand": "#ffc534",
+    "darkAccent": "#ffc534",
+    "darkShade": "#2d2d2d"
   }
 }

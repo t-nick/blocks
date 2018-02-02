@@ -1,109 +1,109 @@
 {
-  "name": "Asam",
+  "name": "Photographer studio",
   "settings": {
     "heroTitle": {
-      "size": "62px",
-      "lineHeight": "normal",
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 300,
+      "size": "110px",
+      "lineHeight": 1.091,
+      "fontFamily": "'Poppins', sans-serif",
+      "fontWeight": 600,
       "color": [
-        "darkShade?lighten=5.88&desaturate=1.83",
+        "darkShade",
         "lightShade"
       ]
     },
     "blockTitle": {
-      "size": "42px",
-      "lineHeight": "normal",
-      "fontFamily": "'Lato', serif",
-      "fontWeight": 400,
+      "size": "50px",
+      "lineHeight": 1.2,
+      "fontFamily": "'Poppins', sans-serif",
+      "fontWeight": 600,
       "color": [
-        "darkShade?lighten=5.88&desaturate=1.83",
+        "darkShade",
         "lightShade"
       ]
     },
     "subtitle": {
-      "size": "16px",
-      "lineHeight": 1.75,
-      "fontFamily": "'Open Sans', sans-serif",
-      "fontWeight": 400,
+      "size": "35px",
+      "lineHeight": 1.5,
+      "fontFamily": "'Poppins', sans-serif",
+      "fontWeight": 600,
       "color": [
-        "darkShade?lighten=35.29&desaturate=9.52",
-        "lightShade?darken=4.51&saturate=30.43&spin=206"
+        "darkShade",
+        "lightShade"
       ]
     },
-    "headingLarge": {
-      "size": "22px",
-      "lineHeight": 1.4545,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 700,
+    "headingLg": {
+      "size": "40px",
+      "lineHeight": 1.25,
+      "fontFamily": "'Poppins', sans-serif",
+      "fontWeight": 600,
       "color": [
-        "darkShade?lighten=5.88&desaturate=1.83",
+        "darkShade",
         "lightShade"
       ]
     },
     "heading": {
-      "size": "22px",
-      "lineHeight": 1.4545,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 700,
+      "size": "24px",
+      "lineHeight": 1.3333,
+      "fontFamily": "'Poppins', sans-serif",
+      "fontWeight": 600,
       "color": [
-        "darkShade?lighten=5.88&desaturate=1.83",
+        "darkShade",
         "lightShade"
       ]
     },
-    "subHeading": {
-      "size": "18px",
-      "lineHeight": 2,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 700,
+    "subheading": {
+      "size": "20px",
+      "lineHeight": 1.5,
+      "fontFamily": "'Poppins', sans-serif",
+      "fontWeight": 600,
       "color": [
-        "darkShade?lighten=5.88&desaturate=1.83",
-        "lightShade?darken=4.51&saturate=30.43&spin=206"
+        "darkShade",
+        "lightShade"
       ]
     },
     "text": {
-      "size": "16px",
-      "lineHeight": 2,
-      "fontFamily": "'Open Sans', serif",
-      "fontWeight": 400,
+      "size": "17px",
+      "lineHeight": 1.647,
+      "fontFamily": "'Poppins', sans-serif",
+      "fontWeight": 300,
       "color": [
-        "darkShade?lighten=35.29&desaturate=9.52",
-        "lightShade?darken=4.51&saturate=30.43&spin=206"
+        "darkShade",
+        "darkShade?lighten=49.8"
       ]
     },
-    "smallText": {
-      "size": "12px",
-      "lineHeight": "normal",
-      "fontFamily": "'Open Sans', sans-serif",
+    "small": {
+      "size": "14px",
+      "lineHeight": 1.857,
+      "fontFamily": "'Poppins', sans-serif",
       "fontWeight": 400,
       "color": [
-        "darkShade?lighten=35.29&desaturate=9.52",
-        "lightShade?darken=4.51&saturate=30.43&spin=206"
+        "darkShade",
+        "darkShade?lighten=49.8"
       ]
     },
     "quote": {
-      "size": "26px",
-      "lineHeight": 1.4615,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 700,
+      "size": "20px",
+      "lineHeight": 1.5,
+      "fontFamily": "'Poppins', sans-serif",
+      "fontWeight": 300,
       "color": [
-        "darkShade?lighten=35.29&desaturate=9.52",
+        "darkShade",
         "lightShade"
       ]
     },
     "caption": {
-      "size": "12px",
-      "lineHeight": "normal",
-      "fontFamily": "'Lato', sans-serif",
+      "size": "13px",
+      "lineHeight": 1.692,
+      "fontFamily": "'Poppins', sans-serif",
       "fontWeight": 700,
       "color": [
-        "darkShade?lighten=35.29&desaturate=9.52",
-        "lightShade?darken=4.51&saturate=30.43&spin=206"
+        "darkShade",
+        "lightShade"
       ]
     },
     "link": {
       "color": [
-        "lightShade?darken=29",
+        "darkShade",
         "lightShade"
       ],
       "hover": {
