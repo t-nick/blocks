@@ -1,10 +1,10 @@
 {
-  "name": "Asam",
+  "name": "Bakery",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#b940aa",
-    "brand": "#32bbcb",
-    "darkAccent": "#4748d6",
-    "darkShade": "#272f3c"
+    "lightShade": "#fff",
+    "lightAccent": "#988378",
+    "brand": "#988378",
+    "darkAccent": "#988378",
+    "darkShade": "#27292b"
   }
 }

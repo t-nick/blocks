@@ -1,22 +1,22 @@
 {
-  "name": "asam",
+  "name": "bakery",
   "general": {
-    "fontFamily": "'Lato', sans-serif",
-    "borderWidth": "1px"
+    "fontFamily": "'Libre Baskerville'', serif",
+    "borderWidth": "2px"
   },
   "size": {
     "sm": {
-      "padding": "10px 16px",
+      "padding": "12px 17px",
       "borderRadius": 0,
       "fontSize": "14px"
     },
     "md": {
-      "padding": "14px 40px",
+      "padding": "14px 19px",
       "borderRadius": 0,
       "fontSize": "14px"
     },
     "lg": {
-      "padding": "20px 56px",
+      "padding": "20px 30px",
       "borderRadius": 0,
       "fontSize": "16px"
     }
@@ -29,6 +29,7 @@
         ],
         "bg": {
           "color": [
+            "brand?darken=0.78&saturate=0.6",
             "brand"
           ]
         },
@@ -39,7 +40,6 @@
         },
         "shadow": {
           "color": [
-            "darkShade?darken=19.41&setAlpha=0.5",
             "none"
           ]
         }
@@ -50,17 +50,18 @@
         ],
         "bg": {
           "color": [
-            "brand?lighten=4.71&saturate=5.19"
+            "brand?darken=0.78&saturate=0.6",
+            "brand?darken=0.78&saturate=0.6"
           ]
         },
         "border": {
           "color": [
-            "transparent"
+            "brand?lighten=13.92&saturate=12.3",
+            "brand?lighten=13.92&saturate=12.3"
           ]
         },
         "shadow": {
           "color": [
-            "darkShade?darken=19.41&setAlpha=0.5",
             "none"
           ]
         }
@@ -71,17 +72,18 @@
         ],
         "bg": {
           "color": [
-            "brand?lighten=4.71&saturate=5.19"
+            "brand?lighten=13.92&saturate=12.3",
+            "brand?lighten=13.92&saturate=12.3"
           ]
         },
         "border": {
           "color": [
+            "transparent",
             "transparent"
           ]
         },
         "shadow": {
           "color": [
-            "darkShade?darken=19.41&setAlpha=0.5",
             "none"
           ]
         }
@@ -90,11 +92,13 @@
     "primaryAlt": {
       "default": {
         "color": [
-          "lightShade"
+          "lightShade",
+          "darkShade"
         ],
         "bg": {
           "color": [
-            "brand"
+            "darkShade",
+            "lightShade?darken=3.92"
           ]
         },
         "border": {
@@ -104,49 +108,52 @@
         },
         "shadow": {
           "color": [
-            "darkShade?darken=19.41&setAlpha=0.5",
             "none"
           ]
         }
       },
       "hover": {
         "color": [
+          "lightShade",
           "lightShade"
         ],
         "bg": {
           "color": [
-            "brand?lighten=4.71&saturate=5.19"
+            "darkShade",
+            "darkShade?lighten=31.76"
           ]
         },
         "border": {
           "color": [
+            "darkShade?lighten=31.76",
             "transparent"
           ]
         },
         "shadow": {
           "color": [
-            "darkShade?darken=19.41&setAlpha=0.5",
             "none"
           ]
         }
       },
       "active": {
         "color": [
+          "lightShade",
           "lightShade"
         ],
         "bg": {
           "color": [
-            "brand?lighten=4.71&saturate=5.19"
+            "darkShade",
+            "darkShade?lighten=15.88"
           ]
         },
         "border": {
           "color": [
+            "transparent",
             "transparent"
           ]
         },
         "shadow": {
           "color": [
-            "darkShade?darken=19.41&setAlpha=0.5",
             "none"
           ]
         }
@@ -155,70 +162,67 @@
     "secondary": {
       "default": {
         "color": [
-          "lightShade",
-          "brand"
+          "darkShade",
+          "lightShade"
         ],
         "bg": {
           "color": [
-            "lightAccent",
             "transparent"
           ]
         },
         "border": {
           "color": [
-            "transparent",
-            "lightShade?darken=4.51&saturate=30.43&spin=206"
+            "brand?lighten=28.82&saturate=44.8",
+            "lightShade"
           ]
         },
         "shadow": {
           "color": [
-            "darkShade?darken=19.41&setAlpha=0.5",
             "none"
           ]
         }
       },
       "hover": {
         "color": [
-          "lightShade",
-          "brand"
+          "darkShade",
+          "lightShade"
         ],
         "bg": {
           "color": [
-            "lightAccent?lighten=4.71&saturate=5.19",
             "transparent"
           ]
         },
         "border": {
           "color": [
-            "transparent",
-            "brand"
+            "brand?lighten=13.92&saturate=12.3",
+            "brand?lighten=28.82&saturate=44.8"
           ]
         },
         "shadow": {
           "color": [
-            "darkShade?darken=19.41&setAlpha=0.5",
             "none"
           ]
         }
       },
       "active": {
         "color": [
+          "darkShade",
           "lightShade"
         ],
         "bg": {
           "color": [
-            "lightAccent?lighten=4.71&saturate=5.19",
-            "brand"
+            "transparent",
+            "lightShade?setAlpha=0.2"
           ]
         },
         "border": {
           "color": [
-            "transparent"
+            "brand?darken=0.78&saturate=0.6",
+            "brand?darken=0.78&saturate=0.6"
           ]
         },
         "shadow": {
           "color": [
-            "darkShade?darken=19.41&setAlpha=0.5",
             "none"
           ]
         }
@@ -227,70 +231,69 @@
     "secondaryAlt": {
       "default": {
         "color": [
-          "lightShade",
-          "brand"
+          "darkShade",
+          "lightShade"
         ],
         "bg": {
           "color": [
-            "darkAccent",
+            "lightShade?darken=3.92",
             "transparent"
           ]
         },
         "border": {
           "color": [
             "transparent",
-            "lightShade?darken=4.51&saturate=30.43&spin=206"
+            "brand?darken=0.78&saturate=0.6"
           ]
         },
         "shadow": {
           "color": [
-            "darkShade?darken=19.41&setAlpha=0.5",
             "none"
           ]
         }
       },
       "hover": {
         "color": [
-          "lightShade",
-          "brand"
+          "darkShade",
+          "lightShade"
         ],
         "bg": {
           "color": [
-            "darkAccent?lighten=4.71&saturate=5.19",
+            "lightShade?darken=7.84",
             "transparent"
           ]
         },
         "border": {
           "color": [
             "transparent",
-            "brand"
+            "brand?lighten=28.82&saturate=44.8"
           ]
         },
         "shadow": {
           "color": [
-            "darkShade?darken=19.41&setAlpha=0.5",
             "none"
           ]
         }
       },
       "active": {
         "color": [
+          "lightShade",
           "lightShade"
         ],
         "bg": {
           "color": [
-            "darkAccent?lighten=4.71&saturate=5.19",
-            "brand"
+            "darkShade",
+            "transparent"
           ]
         },
         "border": {
           "color": [
-            "transparent"
+            "transparent",
+            "brand?darken=0.78&saturate=0.6"
           ]
         },
         "shadow": {
           "color": [
-            "darkShade?darken=19.41&setAlpha=0.5",
             "none"
           ]
         }

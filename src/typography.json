@@ -1,110 +1,110 @@
 {
-  "name": "Asam",
+  "name": "Bakery",
   "settings": {
     "heroTitle": {
-      "size": "62px",
-      "lineHeight": "normal",
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 300,
+      "size": "92px",
+      "lineHeight": 0.783,
+      "fontFamily": "'Rokkitt', sans-serif",
+      "fontWeight": 800,
       "color": [
-        "darkShade?lighten=5.88&desaturate=1.83",
+        "darkShade",
         "lightShade"
       ]
     },
     "blockTitle": {
-      "size": "42px",
-      "lineHeight": "normal",
-      "fontFamily": "'Lato', serif",
-      "fontWeight": 400,
+      "size": "28px",
+      "lineHeight": 1.107,
+      "fontFamily": "'Rokkitt', sans-serif",
+      "fontWeight": 800,
       "color": [
-        "darkShade?lighten=5.88&desaturate=1.83",
+        "darkShade",
         "lightShade"
       ]
     },
     "subtitle": {
-      "size": "16px",
-      "lineHeight": 1.75,
-      "fontFamily": "'Open Sans', sans-serif",
+      "size": "20px",
+      "lineHeight": 1.5,
+      "fontFamily": "'Libre Baskerville', sans-serif",
       "fontWeight": 400,
       "color": [
-        "darkShade?lighten=35.29&desaturate=9.52",
-        "lightShade?darken=4.51&saturate=30.43&spin=206"
+        "brand?darken=9.41&desaturate=12.55",
+        "lightShade"
       ]
     },
-    "headingLarge": {
-      "size": "22px",
-      "lineHeight": 1.4545,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 700,
+    "headingLg": {
+      "size": "24px",
+      "lineHeight": 1.167,
+      "fontFamily": "'Rokkitt', sans-serif",
+      "fontWeight": 600,
       "color": [
-        "darkShade?lighten=5.88&desaturate=1.83",
+        "darkShade",
         "lightShade"
       ]
     },
     "heading": {
       "size": "22px",
-      "lineHeight": 1.4545,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 700,
+      "lineHeight": 1.091,
+      "fontFamily": "'Rokkitt', sans-serif",
+      "fontWeight": 600,
       "color": [
-        "darkShade?lighten=5.88&desaturate=1.83",
+        "darkShade",
         "lightShade"
       ]
     },
-    "subHeading": {
-      "size": "18px",
-      "lineHeight": 2,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 700,
+    "subheading": {
+      "size": "20px",
+      "lineHeight": 1.1,
+      "fontFamily": "'Rokkitt', sans-serif",
+      "fontWeight": 600,
       "color": [
-        "darkShade?lighten=5.88&desaturate=1.83",
-        "lightShade?darken=4.51&saturate=30.43&spin=206"
+        "darkShade",
+        "lightShade"
       ]
     },
     "text": {
       "size": "16px",
-      "lineHeight": 2,
-      "fontFamily": "'Open Sans', serif",
+      "lineHeight": 1.5,
+      "fontFamily": "'Libre Baskerville', sans-serif",
       "fontWeight": 400,
       "color": [
-        "darkShade?lighten=35.29&desaturate=9.52",
-        "lightShade?darken=4.51&saturate=30.43&spin=206"
+        "brand?darken=9.41&desaturate=12.55",
+        "darkShade?lighten=47.65&saturate=3.23"
       ]
     },
-    "smallText": {
-      "size": "12px",
-      "lineHeight": "normal",
-      "fontFamily": "'Open Sans', sans-serif",
+    "small": {
+      "size": "14px",
+      "lineHeight": 1.714,
+      "fontFamily": "'Libre Baskerville', sans-serif",
       "fontWeight": 400,
       "color": [
-        "darkShade?lighten=35.29&desaturate=9.52",
-        "lightShade?darken=4.51&saturate=30.43&spin=206"
+        "brand?darken=9.41&desaturate=12.55",
+        "darkShade?lighten=47.65&saturate=3.23"
       ]
     },
     "quote": {
-      "size": "26px",
-      "lineHeight": 1.4615,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 700,
+      "size": "16px",
+      "lineHeight": 1.5,
+      "fontFamily": "'Libre Baskerville', sans-serif",
+      "fontWeight": 400,
       "color": [
-        "darkShade?lighten=35.29&desaturate=9.52",
+        "brand?lighten=12.94&desaturate=11.12",
         "lightShade"
       ]
     },
     "caption": {
-      "size": "12px",
-      "lineHeight": "normal",
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 700,
+      "size": "14px",
+      "lineHeight": 1.714,
+      "fontFamily": "'Libre Baskerville', sans-serif",
+      "fontWeight": 400,
       "color": [
-        "darkShade?lighten=35.29&desaturate=9.52",
-        "lightShade?darken=4.51&saturate=30.43&spin=206"
+        "brand?darken=9.41&desaturate=12.55",
+        "darkShade?lighten=47.65&saturate=3.23"
       ]
     },
     "link": {
       "color": [
-        "lightShade?darken=29",
-        "lightShade"
+        "brand?darken=6.5",
+        "brand?lighten=3.73"
       ],
       "hover": {
         "color": [
