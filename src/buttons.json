@@ -1,5 +1,5 @@
 {
-  "name": "Buttons 2",
+  "name": "Wireframe buttons",
   "general": {
     "fontFamily": "'Montserrat', sans-serif",
     "borderWidth": "1px"
@@ -25,69 +25,122 @@
     "primary": {
       "default": {
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "brand"
+          ]
         },
-        "color": ["lightShade"],
+        "color": [
+          "lightShade"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["darkShade", "lightShade"]
+          "color": [
+            "darkShade",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
+        "color": [
+          "lightShade",
+          "darkShade"
+        ]
       }
     },
     "primaryAlt": {
       "default": {
         "bg": {
-          "color": ["darkShade", "lightShade"]
+          "color": [
+            "darkShade",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade", "darkShade"],
+        "color": [
+          "lightShade",
+          "darkShade"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "brand",
+            "brand"
+          ]
         },
-        "color": ["lightShade"]
+        "color": [
+          "lightShade",
+          "lightShade"
+        ]
       }
     },
     "secondary": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade?lighten=32.55", "lightShade"],
+        "color": [
+          "darkShade?lighten=32.55",
+          "lightShade"
+        ],
         "border": {
-          "color": ["darkShade?lighten=32.55", "lightShade"]
+          "color": [
+            "darkShade?lighten=32.55",
+            "lightShade"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["darkShade?lighten=32.55", "lightShade"]
+          "color": [
+            "darkShade?lighten=32.55",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
+        "color": [
+          "lightShade",
+          "darkShade"
+        ]
       }
     },
     "secondaryAlt": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade?lighten=32.55", "lightShade"],
+        "color": [
+          "darkShade?lighten=32.55",
+          "lightShade"
+        ],
         "border": {
-          "color": ["brand"]
+          "color": [
+            "brand"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "brand",
+            "brand"
+          ]
         },
-        "color": ["lightShade"]
+        "color": [
+          "lightShade",
+          "lightShade"
+        ]
       }
     }
   }
