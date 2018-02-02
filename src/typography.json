@@ -1,113 +1,113 @@
 {
-  "name": "Asam",
+  "name": "Tatoo",
   "settings": {
     "heroTitle": {
-      "size": "62px",
-      "lineHeight": "normal",
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 300,
+      "size": "72px",
+      "lineHeight": 1,
+      "fontFamily": "'Teko', sans-serif",
+      "fontWeight": 400,
       "color": [
-        "darkShade?lighten=5.88&desaturate=1.83",
-        "lightShade"
+        "brand"
       ]
     },
     "blockTitle": {
-      "size": "42px",
-      "lineHeight": "normal",
-      "fontFamily": "'Lato', serif",
+      "size": "30px",
+      "lineHeight": 1,
+      "fontFamily": "'Teko', sans-serif",
       "fontWeight": 400,
       "color": [
-        "darkShade?lighten=5.88&desaturate=1.83",
+        "darkShade",
         "lightShade"
       ]
     },
     "subtitle": {
-      "size": "16px",
-      "lineHeight": 1.75,
-      "fontFamily": "'Open Sans', sans-serif",
+      "size": "18px",
+      "lineHeight": 1.67,
+      "fontFamily": "'Libre Baskerville'', serif",
       "fontWeight": 400,
       "color": [
-        "darkShade?lighten=35.29&desaturate=9.52",
-        "lightShade?darken=4.51&saturate=30.43&spin=206"
+        "darkShade?lighten=42&desaturate=45.1",
+        "lightShade"
       ]
     },
-    "headingLarge": {
-      "size": "22px",
-      "lineHeight": 1.4545,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 700,
+    "headingLg": {
+      "size": "48px",
+      "lineHeight": 1,
+      "fontFamily": "'Teko', sans-serif",
+      "fontWeight": 600,
       "color": [
-        "darkShade?lighten=5.88&desaturate=1.83",
-        "lightShade"
+        "brand"
       ]
     },
     "heading": {
-      "size": "22px",
-      "lineHeight": 1.4545,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 700,
+      "size": "26px",
+      "lineHeight": 1.3076,
+      "fontFamily": "'Teko', sans-serif",
+      "fontWeight": 400,
       "color": [
-        "darkShade?lighten=5.88&desaturate=1.83",
+        "darkShade",
         "lightShade"
       ]
     },
-    "subHeading": {
-      "size": "18px",
-      "lineHeight": 2,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 700,
+    "subheading": {
+      "size": "24px",
+      "lineHeight": 1.25,
+      "fontFamily": "'Libre Baskerville'', serif",
+      "fontStyle": "italic",
+      "fontWeight": 400,
       "color": [
-        "darkShade?lighten=5.88&desaturate=1.83",
-        "lightShade?darken=4.51&saturate=30.43&spin=206"
+        "brand",
+        "lightShade"
       ]
     },
     "text": {
       "size": "16px",
-      "lineHeight": 2,
-      "fontFamily": "'Open Sans', serif",
+      "lineHeight": 1.5,
+      "fontFamily": "'Libre Baskerville'', serif",
       "fontWeight": 400,
       "color": [
-        "darkShade?lighten=35.29&desaturate=9.52",
-        "lightShade?darken=4.51&saturate=30.43&spin=206"
+        "darkShade?lighten=42&desaturate=45.1"
       ]
     },
-    "smallText": {
-      "size": "12px",
-      "lineHeight": "normal",
-      "fontFamily": "'Open Sans', sans-serif",
+    "small": {
+      "size": "16px",
+      "lineHeight": 1,
+      "fontFamily": "'Teko', sans-serif",
       "fontWeight": 400,
       "color": [
-        "darkShade?lighten=35.29&desaturate=9.52",
-        "lightShade?darken=4.51&saturate=30.43&spin=206"
+        "brand",
+        "lightShade"
       ]
     },
     "quote": {
-      "size": "26px",
-      "lineHeight": 1.4615,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 700,
+      "size": "16px",
+      "lineHeight": 1.5,
+      "fontFamily": "'Libre Baskerville'', serif",
+      "fontWeight": 400,
       "color": [
-        "darkShade?lighten=35.29&desaturate=9.52",
+        "darkShade?lighten=42&desaturate=45.1",
         "lightShade"
       ]
     },
     "caption": {
-      "size": "12px",
-      "lineHeight": "normal",
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 700,
+      "size": "16px",
+      "lineHeight": 1.8,
+      "fontFamily": "'Montserrat', sans-serif",
+      "fontWeight": 400,
+      "fontStyle": "italic",
       "color": [
-        "darkShade?lighten=35.29&desaturate=9.52",
-        "lightShade?darken=4.51&saturate=30.43&spin=206"
+        "brand",
+        "darkShade?lighten=42&desaturate=45.1"
       ]
     },
     "link": {
       "color": [
-        "lightShade?darken=29",
+        "darkShade",
         "lightShade"
       ],
       "hover": {
         "color": [
+          "brand",
           "brand"
         ]
       }

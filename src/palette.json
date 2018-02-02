@@ -1,10 +1,10 @@
 {
-  "name": "Asam",
+  "name": "Tatoo",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#b940aa",
-    "brand": "#32bbcb",
-    "darkAccent": "#4748d6",
-    "darkShade": "#272f3c"
+    "lightShade": "#fff",
+    "lightAccent": "#d33245",
+    "brand": "#d33245",
+    "darkAccent": "#d33245",
+    "darkShade": "#0c1526"
   }
 }
