@@ -8,7 +8,7 @@
     "sm": {
       "padding": "12px 20px",
       "borderRadius": "100px",
-      "fontSize": "14px"
+      "fontSize": "12px"
     },
     "md": {
       "padding": "16px 25px",
