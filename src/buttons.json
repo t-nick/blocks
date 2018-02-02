@@ -2,7 +2,7 @@
   "name": "Asam buttons",
   "general": {
     "fontFamily": "'Lato', sans-serif",
-    "borderWidth": "1px"
+    "borderWidth": "2px"
   },
   "size": {
     "sm": {
@@ -38,9 +38,13 @@
           ]
         },
         "shadow": {
+          "x": 0,
+          "y": "4px",
+          "blur": "12px",
+          "spread": 0,
           "color": [
             "darkShade?darken=19.41&setAlpha=0.5",
-            "none"
+            "darkShade?darken=19.41&setAlpha=0.5"
           ]
         }
       },
@@ -49,6 +53,18 @@
           "color": [
             "brand?lighten=4.71&saturate=5.19",
             "brand?lighten=4.71&saturate=5.19"
+          ]
+        }
+      },
+      "active": {
+        "shadow": {
+          "x": 0,
+          "y": "2px",
+          "blur": "4px",
+          "spread": 0,
+          "color": [
+            "darkShade?darken=19.41&setAlpha=0.5",
+            "darkShade?darken=19.41&setAlpha=0.5"
           ]
         }
       }
@@ -69,9 +85,13 @@
           ]
         },
         "shadow": {
+          "x": 0,
+          "y": "4px",
+          "blur": "12px",
+          "spread": 0,
           "color": [
             "darkShade?darken=19.41&setAlpha=0.5",
-            "none"
+            "darkShade?darken=19.41&setAlpha=0.5"
           ]
         }
       },
@@ -82,23 +102,33 @@
             "brand?lighten=4.71&saturate=5.19"
           ]
         }
+      },
+      "active": {
+        "shadow": {
+          "x": 0,
+          "y": "2px",
+          "blur": "4px",
+          "spread": 0,
+          "color": [
+            "darkShade?darken=19.41&setAlpha=0.5",
+            "darkShade?darken=19.41&setAlpha=0.5"
+          ]
+        }
       }
     },
     "secondary": {
       "default": {
         "bg": {
           "color": [
-            "lightAccent",
             "transparent"
           ]
         },
         "color": [
-          "lightShade",
           "brand"
         ],
         "border": {
           "color": [
-            "transparent",
+            "lightShade?darken=4.51&saturate=30.43&spin=206",
             "lightShade?darken=4.51&saturate=30.43&spin=206"
           ]
         },
@@ -110,19 +140,9 @@
         }
       },
       "hover": {
-        "bg": {
-          "color": [
-            "lightAccent?lighten=4.71&saturate=5.19",
-            "transparent"
-          ]
-        },
-        "color": [
-          "lightShade",
-          "brand"
-        ],
         "border": {
           "color": [
-            "transparent",
+            "brand",
             "brand"
           ]
         }
@@ -130,7 +150,7 @@
       "active": {
         "bg": {
           "color": [
-            "lightAccent?lighten=4.71&saturate=5.19",
+            "brand",
             "brand"
           ]
         },
@@ -140,8 +160,8 @@
         ],
         "border": {
           "color": [
-            "transparent",
-            "transparent"
+            "brand",
+            "brand"
           ]
         }
       }
@@ -150,17 +170,15 @@
       "default": {
         "bg": {
           "color": [
-            "darkAccent",
             "transparent"
           ]
         },
         "color": [
-          "lightShade",
           "brand"
         ],
         "border": {
           "color": [
-            "transparent",
+            "lightShade?darken=4.51&saturate=30.43&spin=206",
             "lightShade?darken=4.51&saturate=30.43&spin=206"
           ]
         },
@@ -172,15 +190,9 @@
         }
       },
       "hover": {
-        "bg": {
-          "color": [
-            "darkAccent?lighten=4.71&saturate=5.19",
-            "transparent"
-          ]
-        },
         "border": {
           "color": [
-            "transparent",
+            "brand",
             "brand"
           ]
         }
@@ -188,7 +200,7 @@
       "active": {
         "bg": {
           "color": [
-            "darkAccent?lighten=4.71&saturate=5.19",
+            "brand",
             "brand"
           ]
         },
@@ -198,8 +210,8 @@
         ],
         "border": {
           "color": [
-            "transparent",
-            "transparent"
+            "brand",
+            "brand"
           ]
         }
       }
