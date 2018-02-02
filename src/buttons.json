@@ -29,13 +29,11 @@
         ],
         "bg": {
           "color": [
-            "transparent",
             "brand"
           ]
         },
         "border": {
           "color": [
-            "brand",
             "transparent"
           ]
         },
@@ -93,13 +91,11 @@
         ],
         "bg": {
           "color": [
-            "transparent",
             "brand"
           ]
         },
         "border": {
           "color": [
-            "brand",
             "transparent"
           ]
         },
@@ -157,13 +153,11 @@
         ],
         "bg": {
           "color": [
-            "transparent",
             "brand"
           ]
         },
         "border": {
           "color": [
-            "brand",
             "transparent"
           ]
         },
@@ -221,13 +215,11 @@
         ],
         "bg": {
           "color": [
-            "transparent",
             "brand"
           ]
         },
         "border": {
           "color": [
-            "brand",
             "transparent"
           ]
         },

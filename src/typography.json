@@ -22,7 +22,7 @@
       ]
     },
     "subtitle": {
-      "size": "16px",
+      "size": "32px",
       "lineHeight": 2,
       "fontFamily": "'Noto Sans', serif",
       "fontWeight": 400,
@@ -31,8 +31,8 @@
         "lightShade?darken=6.67"
       ]
     },
-    "headingLarge": {
-      "size": "22px",
+    "headingLg": {
+      "size": "34px",
       "lineHeight": 1.545,
       "fontFamily": "'Noto Sans', sans-serif",
       "fontWeight": 700,
@@ -51,7 +51,7 @@
         "lightShade"
       ]
     },
-    "subHeading": {
+    "subheading": {
       "size": "22px",
       "lineHeight": "normal",
       "fontFamily": "'Rozha One', serif",
@@ -71,11 +71,11 @@
         "lightShade?darken=6.67"
       ]
     },
-    "smallText": {
-      "size": "32px",
+    "small": {
+      "size": "14px",
       "lineHeight": "normal",
       "fontFamily": "'Noto Sans', sans-serif",
-      "fontWeight": 700,
+      "fontWeight": 400,
       "color": [
         "darkShade",
         "lightShade?darken=6.67"
@@ -87,7 +87,7 @@
       "fontFamily": "'Rozha One', serif",
       "fontWeight": 400,
       "color": [
-        "lightShade",
+        "darkShade",
         "lightShade"
       ]
     },
