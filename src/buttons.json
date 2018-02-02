@@ -45,40 +45,48 @@
       },
       "hover": {
         "color": [
+          "lightShade?lighten=1.37",
           "lightShade?lighten=1.37"
         ],
         "bg": {
           "color": [
+            "brand?darken=16.67",
             "brand?darken=16.67"
           ]
         },
         "border": {
           "color": [
+            "transparent",
             "transparent"
           ]
         },
         "shadow": {
           "color": [
+            "none",
             "none"
           ]
         }
       },
       "active": {
         "color": [
+          "lightShade?lighten=1.37",
           "lightShade?lighten=1.37"
         ],
         "bg": {
           "color": [
+            "brand",
             "brand"
           ]
         },
         "border": {
           "color": [
+            "transparent",
             "transparent"
           ]
         },
         "shadow": {
           "color": [
+            "none",
             "none"
           ]
         }
@@ -107,40 +115,48 @@
       },
       "hover": {
         "color": [
+          "lightShade?lighten=1.37",
           "lightShade?lighten=1.37"
         ],
         "bg": {
           "color": [
+            "brand?darken=16.67",
             "brand?darken=16.67"
           ]
         },
         "border": {
           "color": [
+            "transparent",
             "transparent"
           ]
         },
         "shadow": {
           "color": [
+            "none",
             "none"
           ]
         }
       },
       "active": {
         "color": [
+          "lightShade?lighten=1.37",
           "lightShade?lighten=1.37"
         ],
         "bg": {
           "color": [
+            "brand",
             "brand"
           ]
         },
         "border": {
           "color": [
+            "transparent",
             "transparent"
           ]
         },
         "shadow": {
           "color": [
+            "none",
             "none"
           ]
         }
@@ -187,6 +203,7 @@
         },
         "shadow": {
           "color": [
+            "none",
             "none"
           ]
         }
@@ -210,6 +227,7 @@
         },
         "shadow": {
           "color": [
+            "none",
             "none"
           ]
         }
@@ -256,6 +274,7 @@
         },
         "shadow": {
           "color": [
+            "none",
             "none"
           ]
         }
@@ -279,6 +298,7 @@
         },
         "shadow": {
           "color": [
+            "none",
             "none"
           ]
         }
