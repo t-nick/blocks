@@ -1,10 +1,10 @@
 {
-  "name": "Photographer 2",
+  "name": "YBD",
   "color": {
-    "lightShade": "#f8fcff",
-    "lightAccent": "#fe0042",
-    "brand": "#fe0042",
-    "darkAccent": "#fe0042",
-    "darkShade": "#1f2020"
+    "lightShade": "#ffffff",
+    "lightAccent": "#d81b60",
+    "brand": "#d81b60",
+    "darkAccent": "#d81b60",
+    "darkShade": "#363636"
   }
 }
