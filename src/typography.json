@@ -23,7 +23,7 @@
     "subtitle": {
       "size": "18px",
       "lineHeight": 1.67,
-      "fontFamily": "'Libre Baskerville'', serif",
+      "fontFamily": "'Libre Baskerville', serif",
       "fontWeight": 400,
       "color": [
         "darkShade?lighten=42&desaturate=45.1",
@@ -52,7 +52,7 @@
     "subheading": {
       "size": "24px",
       "lineHeight": 1.25,
-      "fontFamily": "'Libre Baskerville'', serif",
+      "fontFamily": "'Libre Baskerville', serif",
       "fontStyle": "italic",
       "fontWeight": 400,
       "color": [
@@ -63,7 +63,7 @@
     "text": {
       "size": "16px",
       "lineHeight": 1.5,
-      "fontFamily": "'Libre Baskerville'', serif",
+      "fontFamily": "'Libre Baskerville', serif",
       "fontWeight": 400,
       "color": [
         "darkShade?lighten=42&desaturate=45.1"
@@ -82,7 +82,7 @@
     "quote": {
       "size": "16px",
       "lineHeight": 1.5,
-      "fontFamily": "'Libre Baskerville'', serif",
+      "fontFamily": "'Libre Baskerville', serif",
       "fontWeight": 400,
       "color": [
         "darkShade?lighten=42&desaturate=45.1",
