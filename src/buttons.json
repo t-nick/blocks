@@ -100,7 +100,7 @@
         "bg": {
           "color": [
             "darkShade",
-            "darkShade?lighten=42&desaturate=45.1"
+            "brand"
           ]
         },
         "border": {
