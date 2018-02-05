@@ -156,6 +156,10 @@ ExtendedWireframe.defaultContent = {
     textValue: 'Learn more',
     type: 'secondary',
   },
+  background: {
+    type: 'color',
+    color: '#0c1526',
+  },
 }
 
 ExtendedWireframe.modifierScheme = [
