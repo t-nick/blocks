@@ -1,3 +1,93 @@
 @import "wireframe-zapdos-blog/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding: 90px 0;
+  }
+}
+
+.title {
+  margin-bottom: 45px;
+  text-transform: uppercase;
+}
+
+.article {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  @media (min-width: 768px) {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+  }
+
+  &__picture {
+    &-wrapper {
+      order: 1;
+      width: 100%;
+    }
+  }
+
+  &__meta {
+    order: 3;
+    font-size: calc(var(--ui-text-size) * 0.87);
+    font-family: var(--ui-text-font-family);
+    color: var(--ui-brand-color);
+
+    @media(min-width: 480px) {
+      font-size: var(--ui-text-size);
+    }
+
+    @media(min-width: 768px) {
+      font-size: calc(var(--ui-text-size) * 0.687);
+    }
+
+    @media(min-width: 992px) {
+      font-size: calc(var(--ui-text-size) * 0.93);
+    }
+
+    @media(min-width: 1200px) {
+      font-size: var(--ui-text-size);
+    }
+
+    span {
+      font-style: italic;
+    }
+  }
+
+  &__title {
+    order: 2;
+    text-transform: uppercase;
+    font-size: calc(var(--ui-subheading-size) * 0.83);
+
+    @media(min-width: 480px) {
+      font-size: var(--ui-heading-size);
+    }
+
+    @media(min-width: 768px) {
+      font-size: var(--ui-text-size);
+    }
+
+    @media(min-width: 992px) {
+      font-size: calc(var(--ui-subheading-size) * 0.87);
+    }
+
+    @media(min-width: 1200px) {
+      font-size: var(--ui-heading-size);
+    }
+  }
+
+  &__text {
+    order: 4;
+  }
+
+  &__link {
+    order: 5;
+    font-family: var(--ui-small-font-family);
+    font-size: calc(var(--ui-small-size) * 0.88);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+}
