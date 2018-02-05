@@ -1,3 +1,55 @@
 {
-  "title": "Design title"
+  "title": "our products",
+  "background": {
+    "type": "color",
+    "color": "#151f30"
+  },
+
+  "services": [
+    {
+      "id": "900aa334-14f2-4c05-b078-78099a5725e51",
+      "title": "'the barbarian' tee by al boy",
+      "description":
+        "$20",
+      "picture": {
+        "resourceRef": "image1.png",
+        "alt": "Service illustration photo"
+      },
+      "link": {
+        "textValue": "More details >"
+      }
+    },
+    {
+      "id": "cfb2c56d-7708-4459-bdf2-6780f4ba62b92",
+      "title": "Snake Enamel Pin",
+      "description":
+        "$20",
+      "picture": {
+        "resourceRef": "image2.png",
+        "alt": "Service illustration photo"
+      },
+      "link": {
+        "textValue": "More details >"
+      }
+    },
+    {
+      "id": "eea21546-b56e-406b-8cba-18a5a5ec18203",
+      "title": "GOKSisDEAD Red Panda Patch",
+      "description":
+        "$10",
+      "picture": {
+        "resourceRef": "image3.png",
+        "alt": "Service illustration photo"
+      },
+      "link": {
+        "textValue": "More details >"
+      }
+    }
+  ],
+  "button-2": {
+    "textValue": "All products",
+    "size": "sm",
+    "type": "secondary"
+  },
+  "theme": "dark"
 }
