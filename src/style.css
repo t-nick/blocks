@@ -1,3 +1,90 @@
 @import "wireframe-zapdos-projects/src/style.css";
 
 /* start here */
+.section {
+  &__header {
+    margin-bottom: 40px;
+  }
+}
+
+.title {
+  margin-bottom: 34px;
+}
+
+.subtitle {
+  margin-bottom: 40px;
+}
+
+.article {
+  margin-bottom: 54px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+
+    &__picture-wrapper {
+      max-width: 50%;
+      flex-basis: 50%;
+    }
+
+    &:nth-child(odd) .article__picture-wrapper,
+    &:nth-child(even) .article__content {
+      order: 2;
+    }
+
+    &:nth-child(odd) .article__content,
+    &:nth-child(even) .article__picture-wrapper {
+      order: 1;
+    }
+
+    &:nth-child(even) .article__content {
+      padding-left: 50px;
+      padding-right: 0;
+    }
+
+    &:nth-child(odd) .article__content {
+      padding-right: 50px;
+      padding-left: 0;
+    }
+  }
+
+  @media (min-width: 992px) {
+    &__picture-wrapper {
+      max-width: 32.5%;
+      flex-basis: 32.5%;
+    }
+  }
+
+  &__picture {
+    padding-top: 63.2%;
+  }
+
+  &__title {
+    display: flex;
+    order: 1;
+    font-size: calc(var(--ui-heading-size) * 0.923);
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+
+  &__text {
+    display: flex;
+    order: 3;
+  }
+
+  &__content {
+    padding: 26px 0 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    @media (min-width: 768px) {
+      padding: 32px 0;
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+
+    @media (min-width: 992px) {
+      flex-basis: 70%;
+      max-width: 70%;
+    }
+  }
+}
