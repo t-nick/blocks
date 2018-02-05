@@ -19,11 +19,12 @@
     "fill": "#32BBCB"
   },
   "button": {
+    "type": "link",
     "actionConfig": {
       "action": "link",
       "actions": {
         "link": {
-          "type": "",
+          "type": "link",
           "innerPage": "",
           "url": ""
         }
