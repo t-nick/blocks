@@ -1,3 +1,32 @@
 {
-  "title": "Design title"
+  "background": {
+    "type": "image",
+    "position": {
+      "type": "cover",
+      "cover": "50% 50%"
+    },
+    "src": "bg.png"
+    },
+  "title": "Want to work with us?",
+  "description":
+    "Join 13000 clients who already worked with us. <br> Request a quote to get best solutions in your area.",
+  "cta": {
+    "actionConfig": {
+      "action": "link",
+      "actions": {
+        "link": {
+          "type": "",
+          "innerPage": "",
+          "url": ""
+        }
+      }
+    },
+    "textValue": "Request a quote",
+    "type": "primary",
+    "size": "lg"
+  },
+  "picture": {
+    "src": "https://www.vms.ro/wp-content/uploads/2015/04/mobius-placeholder-2.png",
+    "alt": "Illustration photo"
+  }
 }
