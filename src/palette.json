@@ -1,10 +1,10 @@
 {
-  "name": "Lightning yellow",
+  "name": "Architect",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
+    "lightShade": "#fff",
+    "lightAccent": "#01a6e2",
+    "brand": "#91cc3d",
+    "darkAccent": "#91cc3d",
+    "darkShade": "#1d1d1d"
   }
 }
