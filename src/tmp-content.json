@@ -1,3 +1,33 @@
 {
-  "title": "Design title"
+  "title": "Have any additional questions?",
+  "description": "Get in touch with us and we’ll answer any of your<br /> tattoo-related concerns!",
+  "theme": "dark",
+  "cta": {
+    "actionConfig": {
+      "action": "link",
+      "actions": {
+        "link": {
+          "type": "",
+          "innerPage": "",
+          "url": ""
+        }
+      }
+    },
+    "textValue": "Contact Us",
+    "type": "primary",
+    "size": "md"
+  },
+	"background": {
+	 "type": "image",
+	 "position": {
+	   "type": "cover",
+	   "cover": "50% 50%"
+	  },
+	 "resourceRef": "Depositphotos_7579571_original.jpg",
+		"overlay": {
+		    "type": "color",
+		    "color": "var(--ui-dark-shade-color)",
+		    "opacity": 0.87
+		  }
+	}
 }
