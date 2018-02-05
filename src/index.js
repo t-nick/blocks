@@ -79,6 +79,10 @@ ExtendedWireframe.defaultContent = {
     type: 'secondary',
     size: 'sm',
   },
+  background: {
+    type: 'color',
+    color: '#0c1526',
+  },
 }
 
 ExtendedWireframe.modifierScheme = [
