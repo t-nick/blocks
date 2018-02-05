@@ -1,3 +1,50 @@
 {
-  "title": "Design title"
+  "title": "piercing",
+  "background": {
+    "type": "color",
+    "color": "#0c1526"
+  },
+  "theme": "dark",
+  "services": [
+    {
+      "id": "900aa334-14f2-4c05-b078-78099a5725e512",
+      "title": "Traditional ear piercing",
+      "description":
+        "$20 each",
+      "picture": {
+        "resourceRef": "img1.png",
+        "alt": "Service illustration photo"
+      }
+    },
+    {
+      "id": "cfb2c56d-7708-4459-bdf2-6780f4ba62b922",
+      "title": "General body piercing",
+      "description":
+        "$40 each",
+      "picture": {
+        "resourceRef": "img2.png",
+        "alt": "Service illustration photo"
+      }
+    },
+    {
+      "id": "eea21546-b56e-406b-8cba-18a5a5ec182033",
+      "title": "Genital piercing",
+      "description":
+        "$80 each",
+      "picture": {
+        "resourceRef": "img3.png",
+        "alt": "Service illustration photo"
+      }
+    },
+    {
+      "id": "aa5d3a04-43b7-4bb3-9c7a-00e1986f359e44",
+      "title": "jewelry insertion",
+      "description":
+        "$80 each",
+        "picture": {
+          "resourceRef": "img4.png",
+          "alt": "Service illustration photo"
+        }
+    }
+  ]
 }
