@@ -34,43 +34,15 @@ ExtendedWireframe.defaultContent = {
   title: 'Our Process',
 }
 
-ExtendedWireframe.modifierScheme = [
-  {
-    id: 'title',
-    type: 'checkbox',
-    label: 'Block title',
-    defaultValue: true,
-  },
-  {
-    id: 'subtitle',
-    type: 'checkbox',
-    label: 'Process description',
-    defaultValue: false,
-  },
-  {
-    id: 'icon',
-    type: 'checkbox',
-    label: 'Step icon',
-    defaultValue: true,
-  },
-  {
-    id: 'heading',
-    type: 'checkbox',
-    label: 'Step title',
-    defaultValue: true,
-  },
-  {
-    id: 'body',
-    type: 'checkbox',
-    label: 'Step main text',
-    defaultValue: true,
-  },
-  {
-    id: 'button',
-    type: 'checkbox',
-    label: 'Button',
-    defaultValue: false,
-  },
-]
+ExtendedWireframe.modifierScheme = {
+  ...Component.modifierScheme,
+  body: {defaultValue: true, label: 'Step main text', type: 'checkbox'},
+  button: {defaultValue: false, label: 'Button', type: 'checkbox'},
+  heading: {defaultValue: true, label: 'Step title', type: 'checkbox'},
+  icon: {defaultValue: true, label: 'Step icon', type: 'checkbox'},
+  subtitle: {defaultValue: false, label: 'Process description', type: 'checkbox'},
+  title: {defaultValue: true, label: 'Block title', type: 'checkbox'},
+}
+
 
 export default ExtendedWireframe
