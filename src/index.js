@@ -39,19 +39,15 @@ ExtendedWireframe.defaultContent = {
   title: 'tattoo Prices',
 }
 
-ExtendedWireframe.modifierScheme = [
-  {
-    id: 'title',
-    type: 'checkbox',
-    label: 'Block title',
+ExtendedWireframe.modifierScheme = {
+  ...Component.modifierScheme,
+  'number-title': {
     defaultValue: true,
-  },
-  {
-    id: 'number-title',
-    type: 'checkbox',
     label: 'Additional information on numbers',
-    defaultValue: true,
+    type: 'checkbox',
   },
-]
+  title: {defaultValue: true, label: 'Block title', type: 'checkbox'},
+}
+
 
 export default ExtendedWireframe
