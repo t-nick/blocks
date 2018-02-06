@@ -2,10 +2,10 @@
 
 /* start here */
 .section {
+  font-family: var(--ui-block-title-font-family);
 
   @media (min-width: 992px) {
     padding: 90px 0;
-    font-family: var(--ui-block-title-font-family);
   }
 }
 
