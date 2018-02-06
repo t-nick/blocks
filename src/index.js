@@ -14,11 +14,11 @@ ExtendedWireframe.defaultContent = {
   team: [
     {
       id: '06567442-178b-46ab-a822-661218143093',
-      name: 'Kyle',
-      position: 'Tattooist: Traditional Style',
+      name: 'Raphael',
+      position: 'Head of piercing',
       picture: {
         src: 'img-1.png',
-        alt: 'Kyle photo',
+        alt: 'Raphael photo',
       },
       more: {
         actionConfig: {
@@ -71,11 +71,11 @@ ExtendedWireframe.defaultContent = {
     },
     {
       id: 'd7b368a3-75c8-4039-80ef-15c783140026',
-      name: 'Michael',
-      position: 'Tattoist: Neo-Traditional Style',
+      name: 'Roni',
+      position: 'Piercer',
       picture: {
         src: 'img-2.png',
-        alt: 'Michael photo',
+        alt: 'Roni photo',
       },
       more: {
         actionConfig: {
@@ -128,11 +128,11 @@ ExtendedWireframe.defaultContent = {
     },
     {
       id: 'b29ef90b-8d5c-4fd9-b6e4-64e248da29db',
-      name: 'Sarah',
-      position: 'Professional Body Piercer',
+      name: 'Sarita',
+      position: 'Piercer',
       picture: {
         src: 'img-3.png',
-        alt: 'Sarah photo',
+        alt: 'Sarita photo',
       },
       more: {
         actionConfig: {
