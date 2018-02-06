@@ -162,37 +162,14 @@ ExtendedWireframe.defaultContent = {
   },
 }
 
-ExtendedWireframe.modifierScheme = [
-  {
-    id: 'subtitle',
-    type: 'checkbox',
-    label: 'Block subtitle',
-    defaultValue: true,
-  },
-  {
-    id: 'title',
-    type: 'checkbox',
-    label: 'Block title',
-    defaultValue: true,
-  },
-  {
-    id: 'project-category',
-    type: 'checkbox',
-    label: 'Project category',
-    defaultValue: false,
-  },
-  {
-    id: 'project-description',
-    type: 'checkbox',
-    label: 'Project description',
-    defaultValue: true,
-  },
-  {
-    id: 'block-button',
-    type: 'checkbox',
-    label: 'Button',
-    defaultValue: false,
-  },
-]
+ExtendedWireframe.modifierScheme = {
+  ...Component.modifierScheme,
+  'block-button': {defaultValue: false, label: 'Button', type: 'checkbox'},
+  'project-category': {defaultValue: false, label: 'Project category', type: 'checkbox'},
+  'project-description': {defaultValue: true, label: 'Project description', type: 'checkbox'},
+  subtitle: {defaultValue: true, label: 'Block subtitle', type: 'checkbox'},
+  title: {defaultValue: true, label: 'Block title', type: 'checkbox'},
+}
+
 
 export default ExtendedWireframe
