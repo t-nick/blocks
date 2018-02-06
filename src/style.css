@@ -1,3 +1,163 @@
 @import "wireframe-zapdos-pricing/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 768px) {
+    padding-bottom: 165px;
+  }
+}
+
+.top-icon {
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+  background-color: var(--ui-light-shade-color);
+  border-radius: 50%;
+  box-shadow: 0 2px 20px -6px var(--ui-link-color);
+}
+
+.title {
+  margin-bottom: 24px;
+  letter-spacing: 1.8px;
+  margin-top: 30px;
+}
+
+.subtitle {
+  line-height: 1.75;
+  letter-spacing: 1.8px;
+}
+
+.plans {
+  &-wrapper {
+
+    @media (min-width: 768px) {
+      margin-top: 102px;
+    }
+  }
+}
+
+.plan {
+  position: relative;
+  background-color: var(--ui-light-shade-color);
+  z-index: 1;
+
+  @media (min-width: 768px) {
+    box-shadow: 0 2px 20px -6px var(--ui-link-color);
+  }
+
+  &:nth-of-type(1) {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+
+  &:nth-of-type(3) {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+
+  &--main {
+    padding-bottom: 39px;
+    border-radius: 3px;
+    z-index: 2;
+
+    @media (min-width: 768px) {
+      margin-top: -40px;
+      margin-bottom: -40px;
+      max-width: 370px;
+      box-shadow: 0 2px 20px -6px var(--ui-link-color);
+    }
+
+    .plan {
+      &__title {
+        font-weight: 700;
+        margin-bottom: 40px;
+      }
+
+      &__icon {
+        &-wrapper {
+          width: 60px;
+          height: 60px;
+        }
+      }
+
+      &__button {
+        margin-top: 0;
+
+        @media (min-width: 768px) {
+          position: static;
+          transform: none;
+        }
+      }
+    }
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+
+  &__icon {
+    &-wrapper {
+      width: 50px;
+      height: 50px;
+      padding: 0;
+      margin-bottom: 28px;
+
+      svg {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  &__price {
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+    font-size: var(--ui-small-text-size);
+    color: var(--ui-text-color);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: var(--ui-heading-line-height);
+
+    &-count {
+      line-height: 1.78;
+      letter-spacing: 0.8px;
+      font-family: var(--ui-heading-large-font-family);
+      font-size: var(--ui-sub-heading-size);
+      font-weight: var(--ui-heading-large-font-weight);
+      color: var(--ui-heading-lg-color);
+    }
+  }
+
+  &__list {
+    margin-bottom: 50px;
+
+    &-item {
+      font-size: calc(var(--ui-small-text-size) * 1.166);
+      font-family: var(--ui-text-font-family);
+      font-weight: var(--ui-text-font-weight);
+      line-height: 2;
+      letter-spacing: 1.5px;
+      margin-bottom: 3px;
+    }
+  }
+
+  &__button {
+
+    @media (min-width: 768px) {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 50%);
+    }
+  }
+}
+
+.button {
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
