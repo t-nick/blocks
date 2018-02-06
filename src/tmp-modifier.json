@@ -1,3 +1,7 @@
 {
-  "some-modifier": true
+  "subtitle": false,
+  "block-button": false,
+  "member-social": true,
+  "member-email": false,
+  "member-desc": false
 }
