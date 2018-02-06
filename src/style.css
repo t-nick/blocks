@@ -1,3 +1,26 @@
 @import "wireframe-zapdos-about/src/style.css";
 
 /* start here */
+.article {
+  &__title {
+    text-transform: uppercase;
+    font-size: var(--ui-block-title-size);
+    color: var(--ui-light-shade-color);
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    font-size: calc(var(--ui-text-size)*1.125);
+    color: var(--ui-light-shade-color);
+  }
+
+  &__picture {
+    background-color: transparent;
+    min-height: auto;
+
+    img {
+      height: auto;
+    }
+  }
+}
+
