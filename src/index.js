@@ -38,13 +38,14 @@ ExtendedWireframe.defaultContent = {
   ],
 }
 
-ExtendedWireframe.modifierScheme = [
-  {
-    id: 'number-title',
-    type: 'checkbox',
-    label: 'Additional information on numbers',
+ExtendedWireframe.modifierScheme = {
+  ...Component.modifierScheme,
+  'number-title': {
     defaultValue: true,
+    label: 'Additional information on numbers',
+    type: 'checkbox',
   },
-]
+}
+
 
 export default ExtendedWireframe
