@@ -72,7 +72,10 @@
       "color": ["lightShade?darken=36.47", "darkShade?lighten=35.69"]
     },
     "link": {
-      "color": ["brand"]
+      "color": ["brand"],
+      "hover": {
+        "color": ["brand"]
+      }
     }
   }
 }
