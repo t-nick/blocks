@@ -1,3 +1,42 @@
 @import "wireframe-zapdos-numbers/src/style.css";
 
 /* start here */
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.items-wrapper {
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.items-wrapper > span {
+  display: none;
+}
+
+.item {
+  text-align: center;
+  background: #151f30;
+  border: 1px solid #212938;
+  padding: 32px 0;
+
+  &__title {
+    font-size: var(--ui-subheading-size);
+    text-transform: uppercase;
+    font-family: var(--ui-hero-title-font-family);
+  }
+
+  &__number {
+    margin: 0 auto;
+    color: var(--ui-light-accent-color);
+    font-weight: var(--ui-heading-lg-font-weight);
+    font-size: var(--ui-heading-lg-size);
+  }
+
+  @media (min-width: 768px) {
+    max-width: 31%;
+  }
+}
