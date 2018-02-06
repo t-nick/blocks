@@ -2,6 +2,7 @@
 
 /* start here */
 .section {
+  font-family: var(--ui-block-title-font-family);
 
   @media (min-width: 992px) {
     padding: 120px 0;
@@ -91,4 +92,8 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
   }
+}
+
+.button {
+  text-transform: uppercase;
 }
