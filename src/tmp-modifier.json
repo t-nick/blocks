@@ -1,3 +1,5 @@
 {
-  "some-modifier": true
+  "subtitle": false,
+  "block-button": true,
+  "member-social": true
 }
