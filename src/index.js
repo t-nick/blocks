@@ -201,7 +201,7 @@ ExtendedWireframe.defaultContent = {
   },
   background: {
     type: 'color',
-    color: '#151f30',
+    color: '#0c1526',
   },
 }
 
