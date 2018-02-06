@@ -1,3 +1,49 @@
 {
-  "title": "Design title"
+  "theme": "dark",
+
+  "logo": {
+
+    "text": {
+       "value": "Company Logo"
+    }
+  },
+
+  "menu": [
+    {
+      "id":"10c06b19-6e0d-4ad1-b1d5-213501dd321c",
+      "metadata": {
+        "displayName": "About us"
+      }
+    },
+    {
+      "id":"29f03a3e-117d-490e-963c-ace78d85258f",
+      "metadata": {
+        "displayName": "Services"
+      }
+    },
+    {
+      "id":"8914ae89-ca69-4b81-8d70-68fefdb22f49",
+      "metadata": {
+        "displayName": "Projects"
+      }
+    },
+    {
+      "id":"2bf3b2aa-061b-42af-afd2-48301733a536",
+      "metadata": {
+        "displayName": "Testimonials"
+      }
+    },
+    {
+      "id":"a24bbd34-4a84-451d-82bf-929fffweee2d1",
+      "metadata": {
+        "displayName": "Development"
+      }
+    },
+    {
+      "id":"a24bbd34-4a84-451d-82bf-929f35264e2d",
+      "metadata": {
+        "displayName": "Contact us"
+      }
+    }
+  ]
 }
