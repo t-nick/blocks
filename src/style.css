@@ -1,3 +1,88 @@
 @import "wireframe-zapdos-team/src/style.css";
 
 /* start here */
+
+.title {
+  font-size: var(--ui-block-title-size);
+  line-height: var(--ui-block-title-line-height);
+  font-family: var(--ui-block-title-font-family);
+  font-weight: var(--ui-block-title-font-weight);
+  text-align: left;
+  color: var(--ui-heading-color);
+  text-transform: capitalize;
+
+  span {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+
+    &::after {
+      content: "";
+      position: absolute;
+      display: inline-block;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 50%;
+      background-color: var(--ui-brand-color);
+      z-index: -1;
+    }
+  }
+}
+
+.item {
+  &__inner {
+    padding: 0;
+    position: relative;
+    padding-left: 120px;
+    text-align: left;
+    padding-bottom: 22px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 0;
+      border-bottom: 4px solid var(--ui-dark-shade-color);
+      opacity: 0.15;
+    }
+  }
+
+  &__pic-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &__pic {
+    width: 90px;
+    height: 90px;
+  }
+
+  &__title {
+    font-size: var(--ui-heading-size);
+    font-family: var(--ui-heading-font-family);
+    font-weight: var(--ui-heading-font-weight);
+    line-height: var(--ui-heading-line-height);
+    color: var(--ui-heading-color);
+    letter-spacing: 2.2px;
+  }
+
+  &__position {
+    font-size: var(--ui-text-size);
+    font-family: var(--ui-text-font-family);
+    color: var(--ui-text-color);
+    letter-spacing: 2px;
+  }
+
+  &__desc {
+    font-size: var(--ui-text-size);
+    font-family: var(--ui-text-font-family);
+    line-height: var(--ui-text-line-height);
+    color: var(--ui-text-color);
+    letter-spacing: 0.9px;
+  }
+}
