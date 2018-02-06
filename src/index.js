@@ -226,49 +226,16 @@ ExtendedWireframe.defaultContent = {
   },
 }
 
-ExtendedWireframe.modifierScheme = [
-  {
-    id: 'subtitle',
-    type: 'hidden',
-    label: 'Team description',
-    defaultValue: false,
-  },
-  {
-    id: 'block-button',
-    type: 'hidden',
-    label: 'Block button',
-    defaultValue: false,
-  },
-  {
-    id: 'member-link',
-    type: 'hidden',
-    label: 'Team member link',
-    defaultValue: false,
-  },
-  {
-    id: 'member-desc',
-    type: 'checkbox',
-    label: 'Team member bio',
-    defaultValue: true,
-  },
-  {
-    id: 'member-email',
-    type: 'hidden',
-    label: 'Team member email',
-    defaultValue: false,
-  },
-  {
-    id: 'member-social',
-    type: 'hidden',
-    label: 'Team social buttons',
-    defaultValue: false,
-  },
-  {
-    id: 'top-icon',
-    type: 'hidden',
-    label: 'Top icon decorator',
-    defaultValue: false,
-  },
-]
+ExtendedWireframe.modifierScheme = {
+  ...Component.modifierScheme,
+  'block-button': {defaultValue: false, label: 'Block button', type: 'hidden'},
+  'member-desc': {defaultValue: true, label: 'Team member bio', type: 'checkbox'},
+  'member-email': {defaultValue: false, label: 'Team member email', type: 'hidden'},
+  'member-link': {defaultValue: false, label: 'Team member link', type: 'hidden'},
+  'member-social': {defaultValue: false, label: 'Team social buttons', type: 'hidden'},
+  subtitle: {defaultValue: false, label: 'Team description', type: 'hidden'},
+  'top-icon': {defaultValue: false, label: 'Top icon decorator', type: 'hidden'},
+}
+
 
 export default ExtendedWireframe
