@@ -9,15 +9,8 @@
   }
 }
 
-.title {
-  font-family: var(--ui-block-title-font-family);
-  font-size: var(--ui-block-title-size);
-  font-weight: 700;
-}
-
 .subtitle {
   margin: 22px auto 0;
-  font-family: var(--ui-subtitle-font-family);
   font-weight: 400;
   max-width: 630px;
 
@@ -35,20 +28,12 @@
 
   &__title {
     border-bottom: 1px solid var(--ui-media-bg);
-    font-weight: 600;
+    font-weight: 800;
     font-family: var(--ui-heading-font-family);
 
     @media (min-width: 992px) {
-      padding-left: 0;
-      padding-bottom: 20px;
-      padding-top: 20px;
+      padding: 20px 20px 20px 0;
       font-size: var(--ui-heading-size);
-    }
-  }
-
-  &__button {
-    &:focus {
-      outline: none;
     }
   }
 
