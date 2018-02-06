@@ -26,9 +26,19 @@
   }
 }
 
+.section {
+  &__main {
+    justify-content: center;
+  }
+}
+
 .map-wrapper {
   width: 670px;
   height: 410px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
 
 .contacts {
