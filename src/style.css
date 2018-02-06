@@ -8,10 +8,6 @@
   }
 }
 
-.title {
-  display: none;
-}
-
 .subtitle {
 
   @media (min-width: 768px) {
