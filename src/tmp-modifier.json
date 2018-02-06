@@ -1,5 +1,9 @@
 {
   "subtitle": true,
   "button-secondary": true,
-  "button-primary": true
+  "button-primary": true,
+  "title": true,
+  "item-icon": true,
+  "item-description": true,
+  "item-heading": true
 }
