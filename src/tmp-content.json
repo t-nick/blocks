@@ -1,3 +1,88 @@
 {
-  "title": "Design title"
+  "services": [
+    {
+      "id": "900aa334-14f2-4c05-b078-78099a5725e511",
+      "title": "Small Tattoo Gift Certificate",
+      "description":
+        "$100",
+      "picture": {
+        "resourceRef": "image-1.png",
+        "alt": "Service illustration photo"
+      },
+      "link": {
+        "textValue": "More details >"
+      }
+    },
+    {
+      "id": "cfb2c56d-7708-4459-bdf2-6780f4ba62b922",
+      "title": "Medium Tattoo Gift Certificate",
+      "description":
+        "$200",
+      "picture": {
+        "resourceRef": "image-2.png",
+        "alt": "Service illustration photo"
+      },
+      "link": {
+        "textValue": "More details >"
+      }
+    },
+    {
+      "id": "eea21546-b56e-406b-8cba-18a5a5ec182033",
+      "title": "Big Tattoo Gift Certificate",
+      "description":
+        "$300",
+      "picture": {
+        "resourceRef": "image-3.png",
+        "alt": "Service illustration photo"
+      },
+      "link": {
+        "textValue": "More details >"
+      }
+    },
+    {
+      "id": "eea21546-b56e-406b-8cba-18a5a5ec182044",
+      "title": "Small Piercing Gift Certificate",
+      "description":
+        "$60",
+      "picture": {
+        "resourceRef": "image-4.png",
+        "alt": "Service illustration photo"
+      },
+      "link": {
+        "textValue": "More details >"
+      }
+    },
+    {
+      "id": "eea21546-b56e-406b-8cba-18a5a5ec1820355",
+      "title": "Medium Piercing Gift Certificate",
+      "description":
+        "$120",
+      "picture": {
+        "resourceRef": "image-5.png",
+        "alt": "Service illustration photo"
+      },
+      "link": {
+        "textValue": "More details >"
+      }
+    },{
+      "id": "eea21546-b56e-406b-8cba-18a5a5ec1820366",
+      "title": "Big Tattoo & piercing Gift Certificate",
+      "description":
+        "$180",
+      "picture": {
+        "resourceRef": "image-6.png",
+        "alt": "Service illustration photo"
+      },
+      "link": {
+        "textValue": "More details >"
+      }
+    }
+  ],
+  "title": "gift certificates",
+  "description": "Make a great gift to your friends — Tattoo gift certificates for tattoo or piercing sessions, Small, Medium or Big versions available.",
+  "background": {
+    "type": "color",
+    "color": "#0c1526"
+  },
+  "theme": "dark"
 }
