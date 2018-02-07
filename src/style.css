@@ -7,12 +7,11 @@
   font-size: var(--ui-block-title-size);
   font-family: var(--ui-block-title-font-family);
   font-weight: var(--ui-block-title-font-weight);
-  line-height: var(--ui-block-title-line-height);
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 
-p {
+.subtitle {
   text-align: center;
   max-width: 570px;
   margin: auto;
@@ -23,7 +22,7 @@ p {
   font-size: var(--ui-subtitle-size);
   font-family: var(--ui-subtitle-font-famil);
   font-weight: var(--ui-subtitle-font-weight);
-  line-height: var(--ui-subtitle-line-height);
+
 }
 
 .article {
@@ -40,7 +39,7 @@ p {
   font-size: var(--ui-small-text-size);
   font-family: var(--ui-small-text-font-family);
   font-weight: var(--ui-small-text-font-weight);
-  line-height: var(--ui-small-text-line-height);
+
 }
 
 .article__title {
@@ -48,7 +47,6 @@ p {
   font-size: var(--ui-heading-size);
   font-family: var(--ui-heading-font-family);
   font-weight: var(--ui-heading-font-weight);
-  line-height: var(--ui-heading-line-height);
 }
 
 .article__text {
@@ -56,7 +54,6 @@ p {
   font-size: var(--ui-text-size);
   font-family: var(--ui-text-font-family);
   font-weight: var(--ui-text-font-weight);
-  line-height: var(--ui-text-line-height);
 }
 
 .link {
