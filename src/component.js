@@ -22,7 +22,11 @@ class Block extends React.Component {
             imgClassName={style.article__image}
             bind={`blog[${itemNumber}].picture`}
             size={{'min-width: 320px': 480, 'min-width: 480px': 768, 'min-width: 768px': 570}}
-          />
+          >
+            {this.getOptionValue('image-child') &&
+              <span className={style['article__picture-hover-decorator']} dangerouslySetInnerHTML={{__html: this.getOptionValue('picture-decorator')}} />
+            }
+          </Image>
         </div>
       ),
       this.getModifierValue('post-publish-date') && (
