@@ -1,5 +1,10 @@
 {
   "title": "team",
+  "theme": "dark",
+  "background": {
+    "type": "color",
+    "color": "#927c6f"
+  },
   "team": [
     {
       "id": "06567442-178b-46ab-a822-661218143093",

@@ -2,29 +2,13 @@
 
 /* start here */
 
-.section {
-  background: var(--ui-light-accent-color);
-}
-
 .title {
-  font-size: var(--ui-block-title-size);
-  font-family: var(--ui-hero-title-font-family);
   text-transform: uppercase;
-  font-weight: 700;
-  color: var(--ui-light-shade-color);
-}
-
-.subtitle {
-  font-size: var(--ui-subtitle-size);
-  line-height: var(--ui-subtitle-line-height);
-  font-family: var(--ui-subtitle-font-family);
-  font-weight: var(--ui-subtitle-font-weight);
-  color: var(--ui-light-shade-color);
 }
 
 .item {
   &__inner {
-    background-color: var(--ui-media-bg);
+    background-color: var(--ui-light-shade-color);
     padding: 30px 15px;
 
     @media (min-width: 480px) {
@@ -42,12 +26,14 @@
     line-height: var(--ui-heading-line-height);
     font-family: var(--ui-heading-font-family);
     font-weight: var(--ui-heading-font-weight);
+    color: var(--ui-dark-shade-color);
   }
 
   &__position {
-    font-size: var(item__position);
+    font-size: var(--ui-caption-size);
     line-height: var(--ui-caption-line-height);
     font-family: var(--ui-hero-title-font-family);
+    color: var(--ui-dark-shade-color);
   }
 
   &__desc {
@@ -55,10 +41,11 @@
     line-height: var(--ui-text-line-height);
     font-family: var(--ui-text-font-family);
     font-weight: var(--ui-text-font-weight);
+    color: var(--ui-dark-shade-color);
     margin-bottom: 4px;
   }
 
-  .link {
+  .button {
     font-size: var(--ui-text-size);
     line-height: var(--ui-heading-line-height);
     font-family: var(--ui-text-font-family);
