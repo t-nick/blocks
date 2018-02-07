@@ -1,8 +1,6 @@
 @import "wireframe-zapdos-gallery/src/style.css";
 
 .section {
-  background-color: var(--ui-media-bg);
-  
   &__header {
     margin-top: 30px;
     margin-bottom: 38px;
