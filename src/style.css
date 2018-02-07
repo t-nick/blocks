@@ -27,7 +27,7 @@
 
   &__subtitle {
     font-style: var(--ui-caption-font-style);
-    color: var(--ui-light-accent-color);
+    color: var(--ui-brand-color);
     margin-top: 0;
   }
 
