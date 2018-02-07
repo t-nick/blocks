@@ -20,7 +20,7 @@ ExtendedWireframe.defaultContent = {
       title: '2nd Parlor Opens in Phoenix!',
       description:
         'After 16 years of successful business operations, we’ve…',
-      category: ' ',
+      category: '',
       date: 'September 11, 2017',
       picture: {
         resourceRef: 'blog_2_home_img1.png',
@@ -46,7 +46,7 @@ ExtendedWireframe.defaultContent = {
       title: 'We’ve Got a New Artist!',
       description:
         'Already featuring a dozen of super talented and creative artists in our team, we’re extremely glad to…',
-      category: ' ',
+      category: '',
       date: 'September 08, 2017',
       picture: {
         resourceRef: 'blog_2_home_img2.png',
@@ -72,7 +72,7 @@ ExtendedWireframe.defaultContent = {
       title: 'Here’s Our Big Data Stats for the Last Year',
       description:
         'Talking about a nice yearly report, we’ve got one for 2016!',
-      category: ' ',
+      category: '',
       date: 'September 06, 2017',
       picture: {
         resourceRef: 'blog_2_home_img3.png',
