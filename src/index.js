@@ -16,7 +16,7 @@ ExtendedWireframe.defaultContent = {
       id: '900aa334-14f2-4c05-b078-78099a5725e5',
       title: 'Organic cotton leggins',
       description:
-        'Multipurpose assistance for online stores and offline retail businesses.',
+        '$25',
       picture: {
         src: 'foto-1.png',
         alt: 'Service illustration photo',
@@ -40,7 +40,7 @@ ExtendedWireframe.defaultContent = {
       id: 'cfb2c56d-7708-4459-bdf2-6780f4ba62b9',
       title: 'ATTA cotton T-shirt',
       description:
-        'Developing marketing and business strategy to help company grow fast.',
+        '$15',
       picture: {
         src: 'foto-2.png',
         alt: 'Service illustration photo',
@@ -64,7 +64,7 @@ ExtendedWireframe.defaultContent = {
       id: 'eea21546-b56e-406b-8cba-18a5a5ec1820',
       title: 'ATTA hammock belt',
       description:
-        'Building brand awareness for micro and small businesses. ',
+        '$35',
       picture: {
         src: 'foto-3.png',
         alt: 'Service illustration photo',
@@ -142,8 +142,9 @@ ExtendedWireframe.defaultContent = {
         },
       },
     },
-    textValue: 'Learn more',
+    textValue: 'View All Products',
     type: 'secondary',
+    size: 'md',
   },
 }
 

@@ -9,7 +9,7 @@
   }
 
   &__picture {
-    padding-top: 100%;
+    padding-top: 120%;
   }
 
   &__title {
@@ -17,6 +17,13 @@
   }
 
   &__text {
-    display: none;
+    font-weight: calc(var(--ui-text-font-weight) + 100);
+    text-align: center;
+    color: var(--ui-brand-color);
+
   }
+}
+
+.button {
+  font-size: var(--ui-small-size);
 }
