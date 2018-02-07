@@ -8,8 +8,11 @@
     "src": "bg.png"
   },
   "title": "Want to work with us?",
-  "description": "Our Company is the world's leading manufacturer. <br> We are also a leading financial services provider.",
+  "description":
+    "Our Company is the world's leading manufacturer. <br> We are also a leading financial services provider.",
   "cta": {
+    "type": "secondary-alt",
+    "size": "sm",
     "actionConfig": {
       "action": "link",
       "actions": {

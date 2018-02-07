@@ -1,9 +1,7 @@
 @import "wireframe-zapdos-cta/src/style.css";
 
 .title {
-  font-family: var(--ui-block-title-font-family);
   text-transform: uppercase;
-  line-height: calc(var(--ui-block-title-line-height) * 0.968);
   color: var(--ui-light-shade-color);
 }
 
