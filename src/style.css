@@ -1,3 +1,90 @@
 @import "wireframe-zapdos-awards/src/style.css";
 
-/* start here */
+.section {
+  background-color: var(--ui-dark-shade-color);
+}
+
+.title {
+  letter-spacing: -0.7px;
+}
+
+.item {
+  &s-wrapper {
+    margin-top: 30px;
+  }
+
+  &__picture {
+    position: relative;
+    margin: 0 auto;
+    width: 102.6px;
+    padding-top: 102.6px;
+    background-color: #2b2b2b;
+    border: 16.4px solid #444;
+    border-left-color: var(--ui-dark-shade-color);
+    border-bottom-color: var(--ui-dark-shade-color);
+    border-radius: 50%;
+    box-sizing: content-box;
+    transform: rotate(45deg);
+
+    &::before,
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+    }
+
+    &::before {
+      width: 135.4px;
+      height: 135.4px;
+      top: -17px;
+      left: -17px;
+    }
+
+    &::after {
+      width: 166.6px;
+      height: 166.6px;
+      top: -33px;
+      left: -33px;
+    }
+  }
+
+  &__image {
+    width: 50px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    object-fit: contain;
+  }
+
+  &__title {
+    max-width: 185px;
+    font-size: calc(var(--ui-heading-size) * 0.77);
+    line-height: calc(var(--ui-heading-line-height) * 1.06);
+    letter-spacing: -0.7px;
+    margin: 8px auto 20px;
+  }
+}
+
+.button {
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+  .section {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+
+  .subtitle {
+    margin-top: 5px;
+  }
+
+  .item {
+    &__title {
+      margin: 18px auto 0;
+    }
+  }
+}
