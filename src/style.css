@@ -3,10 +3,7 @@
 /* start here */
 
 .title {
-  font-family: var(--ui-block-title-font-family);
   text-transform: uppercase;
-  font-size: var(--ui-block-title-size);
-  font-weight: var(--ui-hero-title-font-weight);
 }
 
 .subtitle {
@@ -21,12 +18,7 @@
 .list {
   &__item {
     &-icon {
-      color: var(--ui-light-accent-color);
       background-color: transparent;
-
-      span {
-        color: inherit;
-      }
     }
 
     &-text {
