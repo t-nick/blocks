@@ -1,3 +1,17 @@
 @import "wireframe-zapdos-cover/src/style.css";
 
 /* start here */
+
+.title {
+  text-transform: uppercase;
+  color: var(--ui-light-accent-color);
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  text-transform: uppercase;
+}
+
+.btns-group {
+  margin-top: 30px;
+}

@@ -11,10 +11,23 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  theme: 'dark',
+  title: 'ticket sale online',
+  background: {
+    type: 'image',
+    position: {
+      type: 'cover',
+      cover: '50% 50%',
+    },
+    resourceRef: 'Depositphotos_147759809_original.jpg',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  'secondary-btn': {
+    defaultValue: false,
+  },
 }
 
 export default ExtendedWireframe
