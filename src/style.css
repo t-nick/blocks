@@ -1,3 +1,42 @@
 @import "wireframe-series-1-quote/src/style.css";
 
-/* start here */
+.section {
+  padding: 102px 0;
+}
+
+.blockquote {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  font-style: italic;
+  font-family: var(--ui-quote-font-family);
+  max-width: 800px;
+
+  &::before {
+    display: none;
+  }
+
+  &__line {
+    order: 1;
+    margin-top: 0;
+
+    &::before,
+    &::after {
+      width: 41%;
+      opacity: 0.1;
+      background-color: var(--ui-dark-shade-color);
+    }
+  }
+
+  >span {
+    order: 2;
+    margin-top: 40px;
+  }
+}
+
+.author {
+  font-family: var(--ui-text-font-family);
+  font-weight: var(--ui-text-font-weight);
+  line-height: var(--ui-text-line-height);
+  color: var(--ui-brand-color);
+}
