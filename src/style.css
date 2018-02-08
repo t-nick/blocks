@@ -2,10 +2,19 @@
 
 /* start here */
 
+.section {
+  text-align: center;
+
+  @media (min-width: 992px) {
+    text-align: left;
+  }
+}
+
 .title {
   text-transform: uppercase;
   color: var(--ui-light-accent-color);
   margin-bottom: 20px;
+
 }
 
 .subtitle {
