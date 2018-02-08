@@ -1,3 +1,33 @@
 @import "wireframe-series-1-quote/src/style.css";
 
-/* start here */
+.blockquote {
+  max-width: 82%;
+  margin: 0;
+  text-align: left;
+  letter-spacing: 1.2px;
+
+  &::before {
+    display: none;
+  }
+
+  &__line {
+    display: none;
+  }
+}
+
+.author {
+  margin-left: 0;
+  margin-right: 0;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: calc(var(--ui-text-size) * 0.75);
+  letter-spacing: 1.6px;
+  color: var(--ui-quote-color);
+}
+
+@media (min-width: 992px) {
+  .section {
+    padding-top: 137px;
+    padding-bottom: 158px;
+  }
+}
