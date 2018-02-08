@@ -1,4 +1,9 @@
 {
-  "plan-additional-info": false,
-  "plan-button": false
+  "some-modifier": true,
+  "plan-price": true,
+  "plan-price-text-1": false,
+  "plan-button": false,
+  "plan-description": true,
+  "plan-icon": false,
+  "additional-btn": false
 }

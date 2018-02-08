@@ -1,10 +1,12 @@
 import $editor from 'weblium/editor'
 
-import Component from './component'
+import Component from 'wireframe-zapdos-pricing/src/component'
 import style from './style.css'
+
+import options from './options.json'
 
 const {enhancers: {withProps}, hoistStatics} = $editor
 
-const Wireframe = hoistStatics(withProps({style}))(Component)
+const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _.set('$block.options', options))))(Component)
 
-export default Wireframe
+export default ExtendedWireframe
