@@ -1,10 +1,10 @@
 {
   "name": "Lightning yellow",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
+    "lightShade": "#fff",
+    "lightAccent": "#ffbf45",
+    "brand": "#ec5353",
     "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
+    "darkShade": "#2b2c2f"
   }
 }
