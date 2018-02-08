@@ -20,6 +20,11 @@ ExtendedWireframe.defaultContent = {
       cover: '50% 50%',
     },
     resourceRef: 'Depositphotos_147759809_original.jpg',
+    overlay: {
+      type: 'color',
+      color: '#000',
+      opacity: 0.6,
+    },
   },
 }
 
