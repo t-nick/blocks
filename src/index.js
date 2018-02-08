@@ -11,10 +11,7 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
-  background: {
-    type: 'color',
-    color: '#0c1526',
-  },
+  theme: 'dark',
   description: 'When it comes to something as creative as tattoos or piercings, the price tag applies based on every specific size, difficulty, and colors of any given body artwork piece.',
   services: [
     {
@@ -116,19 +113,9 @@ ExtendedWireframe.defaultContent = {
   ],
 }
 
-ExtendedWireframe.modifierScheme = [
-  {
-    id: 'subtitle',
-    type: 'checkbox',
-    label: 'Services description',
-    defaultValue: true,
-  },
-  {
-    id: 'heading',
-    type: 'checkbox',
-    label: 'Service title',
-    defaultValue: true,
-  },
-]
+ExtendedWireframe.modifierScheme = {
+  subtitle: {defaultValue: true, label: 'Services description', type: 'checkbox'},
+  heading: {defaultValue: true, label: 'Service title', type: 'checkbox'},
+}
 
 export default ExtendedWireframe

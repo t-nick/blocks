@@ -27,6 +27,19 @@
 }
 
 .article {
+  position: relative;
+
+  &::after {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--ui-light-shade-color);
+    opacity: 0.05;
+  }
 
   @media (min-width: 768px) {
     border: 1px solid #212938;
@@ -35,7 +48,6 @@
     max-width: 23.07%;
     display: flex;
     flex-direction: column-reverse;
-    background-color: #101a2d;
     margin-top: 0;
   }
 
