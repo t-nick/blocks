@@ -11,11 +11,11 @@
 
 .title {
   font-family: var(--ui-hero-title-font-family);
-  font-size: calc(var(--ui-block-title-size)*1.195);
+  font-size: calc(var(--ui-block-title-size) * 1.195);
   font-style: var(--ui-hero-title-font-style);
   font-weight: var(--ui-hero-title-font-weight);
   color: var(--ui-light-accent-color);
-  line-height: calc(var(--ui-block-title-line-height)*0.9);
+  line-height: calc(var(--ui-block-title-line-height) * 0.9);
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 35px;

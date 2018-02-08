@@ -20,23 +20,6 @@ ExtendedWireframe.defaultContent = {
     resourceRef: 'image.jpg',
   },
   theme: 'dark',
-  title: 'sanwich day <br/> $3.99',
-  description: 'Sanwich Salad Drink',
-  cta: {
-    actionConfig: {
-      action: 'link',
-      actions: {
-        link: {
-          type: '',
-          innerPage: '',
-          url: '',
-        },
-      },
-    },
-    textValue: 'order online',
-    type: 'primary',
-    size: 'lg',
-  },
 }
 
 ExtendedWireframe.modifierScheme = {
