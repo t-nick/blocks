@@ -8,7 +8,7 @@ class Block extends React.Component {
 
 
   render() {
-    const {components: {Text, Button}, style} = this.props
+    const {components: {Text, Button, ContactForm}, style} = this.props
 
     return (
       <section className={style.section}>
@@ -64,6 +64,16 @@ class Block extends React.Component {
             <Button className={style.item} bind="primaryMd" />
             <br/>
             <Button className={style.item} bind="primaryLg" />
+            <ContactForm
+              bind="contactForm"
+              className={style.form}
+              labelClassName={style.form__item}
+              fieldClassName={style.form__field}
+              button={{
+                type: 'primary',
+                className: style.form__button,
+              }}
+            />
           </section>
           <section className={classNames(style.column, style.dark, 'ui-kit-dark')}>
             <h1 className={style.visuallyHidden}>Dark</h1>
@@ -115,6 +125,16 @@ class Block extends React.Component {
             <Button className={style.item} bind="primaryMd" />
             <br/>
             <Button className={style.item} bind="primaryLg" />
+            <ContactForm
+              bind="contactForm"
+              className={style.form}
+              labelClassName={style.form__item}
+              fieldClassName={style.form__field}
+              button={{
+                type: 'secondary',
+                className: style.form__button,
+              }}
+            />
           </section>
         </div>
       </section>
@@ -122,7 +142,7 @@ class Block extends React.Component {
   }
 }
 
-Block.components = _.pick(['Text', 'Button',])($editor.components)
+Block.components = _.pick(['Text', 'Button', 'ContactForm'])($editor.components)
 
 Block.defaultContent = {
   heroTitle: 'HEROTITLE',
@@ -250,6 +270,36 @@ Block.defaultContent = {
     textValue: 'Primary',
     type: 'primary',
     size: 'lg',
+  },
+  contactForm: {
+    fields: [
+      {
+        type: 'text',
+        id: 'contactForm_name',
+        title: 'Name',
+        placeholder: '',
+        required: true,
+      },
+      {
+        type: 'phone',
+        id: 'contactForm_phoneNumber ',
+        title: 'Phone number ',
+        placeholder: '',
+        required: true,
+      },
+      {
+        type: 'email',
+        id: 'contactForm_email',
+        title: 'Email',
+        placeholder: '',
+        required: true,
+      },
+    ],
+    submitButton: {
+      title: 'Request a quote',
+      type: 'primary',
+    },
+    className: 'form',
   },
 }
 
