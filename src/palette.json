@@ -1,10 +1,10 @@
 {
-  "name": "Lightning yellow",
+  "name": "Midnight Apple",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
+    "lightShade": "#fff",
+    "lightAccent": "#ff2327",
+    "brand": "#ff2327",
+    "darkAccent": "#ff2327",
+    "darkShade": "#110c30"
   }
 }
