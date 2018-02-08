@@ -20,9 +20,9 @@ ExtendedWireframe.defaultContent = {
     },
     resourceRef: 'background.png',
   },
-  title: 'Fast Delivery <p>Enjoy our free, fast, and reliable delivery service.</p>',
+  title: 'Fast Delivery',
   description:
-    '',
+    'Enjoy our free, fast, and reliable delivery service.',
   cta: {
     actionConfig: {
       action: 'link',
@@ -36,14 +36,14 @@ ExtendedWireframe.defaultContent = {
     },
     textValue: 'read more',
     type: 'secondary',
-    size: 'md',
+    size: 'lg',
   },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   picture: {defaultValue: false, label: 'Picture', type: 'hidden'},
-  subtitle: {defaultValue: false, label: 'Title description', type: 'checkbox'},
+  subtitle: {defaultValue: true, label: 'Title description', type: 'checkbox'},
   title: {defaultValue: true, label: 'Block title', type: 'checkbox'},
 }
 

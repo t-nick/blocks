@@ -1,18 +1,50 @@
 @import "wireframe-zapdos-cta/src/style.css";
 
 /* start here */
-.button {
-  text-transform: uppercase;
+.section {
+
+  @media (min-width: 992px) {
+    padding: 100px 0;
+  }
+
+  &__inner {
+    max-width: 790px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
 }
 
-.section {
-  &__inner {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+.content-wrapper {
+  background-color: transparent;
+  margin-bottom: 30px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 0;
   }
 }
 
 .title {
-  text-align: left;
+  text-align: center;
+  font-size: calc(var(--ui-block-title-size) * 0.783);
+
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+.description {
+  font-size: var(--ui-subtitle-size);
+  margin-bottom: 0;
+}
+
+.button {
+  text-transform: uppercase;
+  font-weight: 700;
 }
