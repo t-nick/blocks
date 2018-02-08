@@ -117,6 +117,9 @@ ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   heading: {defaultValue: true, label: 'Service title', type: 'checkbox'},
   subtitle: {defaultValue: true, label: 'Services description', type: 'checkbox'},
+  'button-secondary': {defaultValue: false, label: 'Button', type: 'checkbox'},
+  link: {defaultValue: false, label: 'Link', type: 'checkbox'},
+  body: {defaultValue: false, label: 'Service main text', type: 'checkbox'},
 }
 
 
