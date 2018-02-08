@@ -42,8 +42,8 @@ ExtendedWireframe.defaultContent = {
   description:
     'Our Company is the world’s leading manufacturer. We are also a leading financial services provider.',
   cta: {
-    type: '',
-    size: '',
+    type: 'secondary',
+    size: 'md',
     actionConfig: {
       action: 'link',
       actions: {
