@@ -18,7 +18,7 @@
 .article {
   position: relative;
   z-index: 2;
-  padding: 15px 45px 55px;
+  padding: 0 45px 55px;
   width: 95%;
 
   &::after {
@@ -34,21 +34,18 @@
   }
 
   &__meta {
-    position: relative;
-    margin-bottom: 40px;
+    position: absolute;
+    top: -36px;
   }
 
   &__category {
     font-family: var(--ui-heading-font-family);
     font-size: calc(var(--ui-hero-title-size) * 0.75);
     font-weight: var(--ui-heading-font-weight);
-    position: absolute;
-    left: 0;
-    bottom: -20px;
   }
 
   &__date {
-    padding-left: 80px;
+    padding-left: 0;
 
     &::after {
       display: none;
@@ -56,6 +53,7 @@
   }
 
   &__title {
+    margin-top: 60px;
     text-transform: uppercase;
   }
 }
