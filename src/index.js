@@ -15,9 +15,9 @@ ExtendedWireframe.defaultContent = {
   'address-title': 'New York',
   'phone-title': ' ',
   'email-title': ' ',
-  'address-content': '8108 Vada Estates | Brooklyn, NY 11211 ',
-  'phone-link': 'Monday - Sunday: 6 a.m. - 11 p.m.',
-  'email-link': '<a href="mailto:atta@a.weblium.com">atta@a.weblium.com</a><p><a href="tel:(000) 111 22 33">(000) 111 22 33</a></p>',
+  'address-content': '8108 Vada Estates | Brooklyn, NY 11211 <br> <br> Monday - Sunday: 6 a.m. - 11 p.m.',
+  'phone-link': '<a href="tel:(000) 111 22 33">(000) 111 22 33</a>',
+  'email-link': '<a href="mailto:atta@a.weblium.com">atta@a.weblium.com</a>',
   map: {
     preset: 'silver',
     height: '100%',
