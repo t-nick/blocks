@@ -84,30 +84,6 @@ ExtendedWireframe.defaultContent = {
         type: 'link',
       },
     },
-    {
-      id: 'aa5d3a04-43b7-4bb3-9c7a-00e1986f359e',
-      title: 'Service 4',
-      description:
-        'Aftersales support in marketing, sales, and staff training.',
-      picture: {
-        src: 'https://www.vms.ro/wp-content/uploads/2015/04/mobius-placeholder-2.png',
-        alt: 'Service illustration photo',
-      },
-      link: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Learn more',
-        type: 'link',
-      },
-    },
   ],
   topIcon: {
     svg:
