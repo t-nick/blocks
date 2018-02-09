@@ -68,7 +68,7 @@ ExtendedWireframe.defaultContent = {
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
-  'item-description': false,
+  'item-description': {defaultValue: false, label: 'Advantages description', type: 'hidden'},
 }
 
 export default ExtendedWireframe
