@@ -1,0 +1,146 @@
+[33mcommit 7d73d1ea87f6db0bb7adead4e555ca754f39dd4d[m
+Author: Sabina <sabina.mamedova90@gmail.com>
+Date:   Wed Feb 7 00:30:58 2018 +0200
+
+    add style
+
+[33mcommit fe91715ce3dca0682a0491d3c2136e650e988b56[m
+Author: Sabina <sabina.mamedova90@gmail.com>
+Date:   Tue Feb 6 23:15:00 2018 +0200
+
+    init d/accelgor/careers
+
+[33mcommit 480dfb5a3e73362687ac74dc06a00521f8016d43[m
+Merge: 5352008 e196694
+Author: Artem Vasilkin <artemvasilkin@users.noreply.github.com>
+Date:   Mon Jan 29 12:25:02 2018 +0200
+
+    Merge pull request #83 from webliumteam/d/default/master/dev
+    
+    ch3812
+
+[33mcommit e196694fc5c7d6ee73a556b161ec389a23414736[m
+Author: zhtbcgtw <ivanov.i@weblium.com>
+Date:   Mon Jan 29 12:02:55 2018 +0200
+
+    ch3812
+
+[33mcommit 5352008b5ef35f98a7a7674c3747c80e2320192f[m
+Author: zhtbcgtw <ivanov.i@weblium.com>
+Date:   Fri Jan 19 12:52:26 2018 +0200
+
+    update wireframe paths
+
+[33mcommit fde22a56d906af07eac2b2c3c806c61829cb146c[m
+Merge: 61781d3 dc35e18
+Author: Efimenko <Efimenko@users.noreply.github.com>
+Date:   Wed Jan 17 11:51:12 2018 +0200
+
+    Merge pull request #10 from webliumteam/d/master-eslint-update
+    
+    D/master eslint update
+
+[33mcommit dc35e18d397dc40cc2b0f7d1eae55bee82721e38[m
+Author: artemvasilkin <artemvasilkin14@gmail.com>
+Date:   Wed Jan 17 11:42:59 2018 +0200
+
+    --fix
+
+[33mcommit 61781d3005861ced2b43ffe5b0a5a906191d074d[m
+Merge: e83e2dc 1e59a63
+Author: Marina <marina.zadoyanchuk@gmail.com>
+Date:   Tue Jan 16 20:16:18 2018 +0200
+
+    Merge pull request #7 from webliumteam/d/master--lint-staged-update
+    
+    remove --fix flag from precommit scripts
+
+[33mcommit 1e59a63eb3d46af160cddbddf56384f91974627e[m
+Author: artemvasilkin <artemvasilkin14@gmail.com>
+Date:   Tue Jan 16 19:00:03 2018 +0200
+
+    remove --fix flag from precommit scripts
+
+[33mcommit e83e2dc987d59dc2d4687879bb3837fe503d53e0[m
+Merge: bf9422b 0447de9
+Author: Artem Vasilkin <artemvasilkin@users.noreply.github.com>
+Date:   Tue Jan 16 11:19:45 2018 +0200
+
+    Merge pull request #5 from webliumteam/d/master-new-deps
+    
+    D/master new deps
+
+[33mcommit 0447de9f90d50b0b6116eb862fe9fea16a190d0c[m
+Author: artemvasilkin <artemvasilkin14@gmail.com>
+Date:   Tue Jan 16 11:19:53 2018 +0200
+
+    update
+
+[33mcommit 23c4b725f49ca35e85ecf08f9550fb8050f1cd73[m
+Author: artemvasilkin <artemvasilkin14@gmail.com>
+Date:   Tue Jan 16 11:01:02 2018 +0200
+
+    add new deps
+
+[33mcommit bf9422bbd33abcfdb3105c059f05d4dce5653d8b[m
+Author: zhtbcgtw <ivanov.i@weblium.com>
+Date:   Mon Jan 15 16:35:41 2018 +0200
+
+    add precommit
+
+[33mcommit d630cc25853c6b57ffcc8b8eb5f833d903a8ee3c[m
+Merge: 2fb0468 0333a92
+Author: Efimenko <Efimenko@users.noreply.github.com>
+Date:   Mon Jan 15 15:16:09 2018 +0200
+
+    Merge pull request #2 from webliumteam/design-configs
+    
+    Add configs
+
+[33mcommit 0333a92bb2cc5851f9df0f558129d4e465e2c587[m
+Author: artemvasilkin <artemvasilkin14@gmail.com>
+Date:   Mon Jan 15 15:02:39 2018 +0200
+
+    Add configs
+
+[33mcommit 2fb0468346436efd1ab8a4c5730fea33c9d35fb1[m
+Author: zhtbcgtw <ivanov.i@weblium.com>
+Date:   Mon Jan 15 14:37:31 2018 +0200
+
+    rename mods to options
+
+[33mcommit 8ba10939a7f7b853de9447ad42c8f0823d9f894c[m
+Author: zhtbcgtw <ivanov.i@weblium.com>
+Date:   Fri Jan 12 11:45:33 2018 +0200
+
+    add modifier/content
+
+[33mcommit 2c12cdae680f7e2a5d7a5077f4c58ecc5ce4c5d9[m
+Author: zhtbcgtw <ivanov.i@weblium.com>
+Date:   Thu Jan 11 12:21:42 2018 +0200
+
+    add mods
+
+[33mcommit 5129a88ebdf4f74078428903ceb3b7781596decf[m
+Author: zhtbcgtw <ivanov.i@weblium.com>
+Date:   Wed Jan 10 18:53:35 2018 +0200
+
+    add wireframe extend
+
+[33mcommit 0336a9bc770584460968b13faf74a51afc6f497d[m
+Author: zhtbcgtw <ivanov.i@weblium.com>
+Date:   Wed Jan 10 17:07:04 2018 +0200
+
+    project structure
+
+[33mcommit 4a87c071f7e08b878427d411c4a63115d3934ffb[m
+Author: zhtbcgtw <ivanov.i@weblium.com>
+Date:   Wed Jan 10 16:55:23 2018 +0200
+
+    project structure
+
+[33mcommit 9c59313159c61e8482b5d0717a5db0991497ee9b[m
+Author: zhtbcgtw <ivanov.i@weblium.com>
+Date:   Wed Jan 10 16:33:53 2018 +0200
+
+    initial
