@@ -7,19 +7,19 @@
   },
   "size": {
     "sm": {
-      "padding": "15px 27px",
+      "padding": "4px 27px",
       "borderRadius": "21px",
       "fontSize": "14px",
       "fontWeight": 600
     },
     "md": {
-      "padding": "20px 37px",
+      "padding": "6px 37px",
       "borderRadius": "25px",
       "fontSize": "14px",
       "fontWeight": 600
     },
     "lg": {
-      "padding": "24px 50px",
+      "padding": "9px 50px",
       "borderRadius": "30px",
       "fontSize": "16px",
       "fontWeight": 600
