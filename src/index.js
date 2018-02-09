@@ -180,12 +180,32 @@ ExtendedWireframe.defaultContent = {
       },
     },
   ],
+  cta: {
+    actionConfig: {
+      action: 'link',
+      actions: {
+        link: {
+          type: '',
+          innerPage: '',
+          url: '',
+        },
+      },
+    },
+    textValue: 'Medium button',
+    type: 'secondary',
+    // size: 'md'
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  'block-button': {defaultValue: true, label: 'Button', type: 'checkbox'},
   'member-desc': {defaultValue: true, label: 'Team member bio', type: 'checkbox'},
+  'member-email': {defaultValue: false, label: 'Team member email', type: 'checkbox'},
+  'member-link': {defaultValue: false, label: 'Team member link', type: 'checkbox'},
+  'member-social': {defaultValue: false, label: 'Team social buttons', type: 'checkbox'},
   subtitle: {defaultValue: false, label: 'Team description', type: 'checkbox'},
+  'top-icon': {defaultValue: false, label: 'Top icon decorator', type: 'hidden'},
 }
 
 export default ExtendedWireframe
