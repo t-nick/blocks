@@ -90,7 +90,7 @@ Block.defaultContent = {
   },
   subTitle: {
     content: 'SUBTITLE',
-    type: 'subTitle',
+    type: 'subtitle',
   },
   headingLg: {
     content: 'HEADING LARGE',
@@ -102,7 +102,7 @@ Block.defaultContent = {
   },
   subHeading: {
     content: 'SUB HEADING',
-    type: 'subHeading',
+    type: 'subheading',
   },
   text: {
     content: 'TEXT',
@@ -110,11 +110,11 @@ Block.defaultContent = {
   },
   linkText: {
     content: 'Lorem ipsum <a href="https://google.com">dolor sit amet,</a> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-    type: 'linkText',
+    type: 'text',
   },
   smallText: {
     content: 'SMALL TEXT',
-    type: 'smallText',
+    type: 'small',
   },
   quote: {
     content: 'QUOTE',
