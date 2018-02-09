@@ -20,9 +20,6 @@ ExtendedWireframe.defaultContent = {
     },
     resourceRef: 'background.png',
   },
-  title: 'Fast Delivery',
-  description:
-    'Enjoy our free, fast, and reliable delivery service.',
   cta: {
     actionConfig: {
       action: 'link',
@@ -34,7 +31,7 @@ ExtendedWireframe.defaultContent = {
         },
       },
     },
-    textValue: 'read more',
+    textValue: 'Request a quote',
     type: 'secondary',
     size: 'lg',
   },
