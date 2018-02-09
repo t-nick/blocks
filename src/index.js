@@ -13,6 +13,16 @@ ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
 }
 
-ExtendedWireframe.modifierScheme = []
+ExtendedWireframe.modifierScheme = {
+  ...Component.modifierScheme,
+  'article-picture': {defaultValue: true, label: 'Article picture', type: 'hidden'},
+  button: {defaultValue: true, label: 'Button', type: 'checkbox'},
+  'additional-button': {defaultValue: false, label: 'Additional button', type: 'hidden'},
+  socialIcons: {defaultValue: false, label: 'Social media buttons', type: 'checkbox'},
+  subtitle: {defaultValue: false, label: 'Subtitle', type: 'checkbox'},
+  text: {defaultValue: true, label: 'Company main text', type: 'checkbox'},
+  title: {defaultValue: true, label: 'Block title', type: 'checkbox'},
+  'top-icon': {defaultValue: false, label: 'Top icon decorator', type: 'hidden'},
+}
 
 export default ExtendedWireframe
