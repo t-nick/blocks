@@ -25,7 +25,7 @@
 .item {
   padding-top: 100px;
 
-  &:nth-child(1) {
+  &:nth-child(1n) {
     .item {
       &__inner {
         background-color: var(--ui-dark-shade-color);
@@ -41,13 +41,13 @@
     }
   }
 
-  &:nth-child(2) {
+  &:nth-child(2n) {
     .item__inner {
       background-color: var(--ui-dark-accent-color);
     }
   }
 
-  &:nth-child(3) {
+  &:nth-child(3n) {
     .item__inner {
       background-color: var(--ui-light-accent-color);
     }
@@ -71,6 +71,7 @@
   &__pic {
     width: 200px;
     height: 200px;
+    border: 15px solid var(--ui-light-shade-color);
   }
 
   &__title {
