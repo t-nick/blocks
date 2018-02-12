@@ -33,7 +33,7 @@
     },
     "headingLg": {
       "size": "26px",
-      "lineHeight": "normal",
+      "lineHeight": 1,
       "fontFamily": "'Poppins', sans-serif",
       "fontWeight": 600,
       "color": [
@@ -43,7 +43,7 @@
     },
     "heading": {
       "size": "22px",
-      "lineHeight": "normal",
+      "lineHeight": 1,
       "fontFamily": "'Poppins', sans-serif",
       "fontWeight": 600,
       "color": [
@@ -83,7 +83,7 @@
     },
     "quote": {
       "size": "20px",
-      "lineHeight": "normal",
+      "lineHeight": 1,
       "fontFamily": "'Poppins', sans-serif",
       "fontWeight": 500,
       "color": [
@@ -93,7 +93,7 @@
     },
     "caption": {
       "size": "12px",
-      "lineHeight": "normal",
+      "lineHeight": 1,
       "fontFamily": "'Poppins', sans-serif",
       "fontWeight": 600,
       "color": [
