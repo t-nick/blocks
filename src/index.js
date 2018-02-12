@@ -11,8 +11,12 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   background: {
-    type: 'color',
-    color: '#f0f0f0',
+    type: 'image',
+    position: {
+      type: 'cover',
+      cover: '50% 50%',
+    },
+    resourceRef: 'gori.jpg',
   },
   blockquote:
     'The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.',
