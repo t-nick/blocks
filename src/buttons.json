@@ -2,24 +2,26 @@
   "name": "Architecture",
   "general": {
     "fontFamily": "'Montserrat', sans-serif",
-    "borderWidth": "1px",
     "textTransform": "uppercase"
   },
   "size": {
     "sm": {
       "padding": "15px 17px",
       "borderRadius": 0,
-      "fontSize": "12px"
+      "fontSize": "12px",
+      "borderWidth": "1px"
     },
     "md": {
       "padding": "19px 21px",
       "borderRadius": 0,
-      "fontSize": "12px"
+      "fontSize": "12px",
+      "borderWidth": "1px"
     },
     "lg": {
       "padding": "24px 31px",
       "borderRadius": 0,
-      "fontSize": "12px"
+      "fontSize": "12px",
+      "borderWidth": "1px"
     }
   },
   "settings": {
