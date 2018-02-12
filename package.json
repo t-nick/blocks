@@ -1,7 +1,7 @@
 {
-  "name": "Gengar",
+  "name": "Kadabra",
   "version": "1.0.0",
-  "description": "gengar ui kit",
+  "description": "kadabra ui kit",
   "main": "src",
   "devDependencies": {
     "fs": "0.0.1-security",
