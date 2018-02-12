@@ -1,7 +1,7 @@
 {
-  "some-modifier": true,
-  "title": true,
   "subtitle": true,
-  "description": true,
-  "picture": true
+
+  "link":true,
+
+  "picture": false
 }

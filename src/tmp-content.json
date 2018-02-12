@@ -1,4 +1,33 @@
 {
-  "title": "Design title",
-  "subtitle": "ddddd"
+  "title": "We believe Yoga is for everyone!",
+
+  "subtitle":"10 yoga classes at $125",
+
+  "description": " 10 yoga classes at $125 Only 12 dollars per class The excellent way to recognize what style suits you Get relaxed with yoga",
+
+  "cta":{
+
+    "textValue": "Start yoga today",
+
+    "type": "primary",
+
+    "size": "lg"
+
+  },
+
+  "background": {
+
+    "type": "image",
+
+    "position": {
+
+      "type": "cover",
+
+      "cover": "50% 50%"
+
+    },
+
+    "resourceRef": "fitnes_bg.jpg"
+  }
+
 }
