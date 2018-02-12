@@ -28,7 +28,7 @@
         "color": [
           "lightShade"
         ],
-        "fonWeight": 600,
+        "fontWeight": 600,
         "bg": {
           "color": [
             "brand"
@@ -103,7 +103,7 @@
           "darkShade",
           "lightShade"
         ],
-        "fonWeight": 600,
+        "fontWeight": 600,
         "bg": {
           "color": [
             "transparent"
@@ -169,7 +169,7 @@
           "darkShade",
           "lightShade"
         ],
-        "fonWeight": 600,
+        "fontWeight": 600,
         "bg": {
           "color": [
             "transparent"
@@ -239,7 +239,7 @@
         "color": [
           "darkShade"
         ],
-        "fonWeight": 600,
+        "fontWeight": 600,
         "bg": {
           "color": [
             "darkShade?lighten=68.04&desaturate=17.25",
