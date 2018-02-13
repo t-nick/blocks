@@ -1,24 +1,26 @@
 {
   "name": "Asam buttons",
   "general": {
-    "fontFamily": "'Lato', sans-serif",
-    "borderWidth": "2px"
+    "fontFamily": "'Lato', sans-serif"
   },
   "size": {
     "sm": {
       "padding": "10px 16px",
       "borderRadius": 0,
-      "fontSize": "14px"
+      "fontSize": "14px",
+      "borderWidth": "2px"
     },
     "md": {
       "padding": "14px 40px",
       "borderRadius": 0,
-      "fontSize": "14px"
+      "fontSize": "14px",
+      "borderWidth": "2px"
     },
     "lg": {
       "padding": "20px 56px",
       "borderRadius": 0,
-      "fontSize": "16px"
+      "fontSize": "16px",
+      "borderWidth": "2px"
     }
   },
   "settings": {
