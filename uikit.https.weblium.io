@@ -14,5 +14,8 @@
     "src": "buttons.json",
     "__v": 7
   },
-  "templateId": "5a83197924c2ea0018ca4dc9"
+  "template": {
+    "id": "5a831b9b24c2ea0018ca4dd1",
+    "__v": 0
+  }
 }
