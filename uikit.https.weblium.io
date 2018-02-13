@@ -1,16 +1,16 @@
 {
   "palette": {
-    "id": "5a82e1d624c2ea0018ca4629",
+    "id": "5a83256a24c2ea0018ca4dfd",
     "src": "palette.json",
     "__v": 0
   },
   "typography": {
-    "id": "5a82e1d624c2ea0018ca462a",
+    "id": "5a83256a24c2ea0018ca4dfe",
     "src": "typography.json",
     "__v": 0
   },
   "button": {
-    "id": "5a82e1d624c2ea0018ca462b",
+    "id": "5a83256a24c2ea0018ca4dff",
     "src": "buttons.json",
     "__v": 0
   }
