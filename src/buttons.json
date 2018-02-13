@@ -1,24 +1,26 @@
 {
   "name": "bakery",
   "general": {
-    "fontFamily": "'Libre Baskerville'', serif",
-    "borderWidth": "2px"
+    "fontFamily": "'Libre Baskerville'', serif"
   },
   "size": {
     "sm": {
       "padding": "12px 17px",
       "borderRadius": 0,
-      "fontSize": "14px"
+      "fontSize": "14px",
+      "borderWidth": "2px"
     },
     "md": {
       "padding": "14px 19px",
       "borderRadius": 0,
-      "fontSize": "14px"
+      "fontSize": "14px",
+      "borderWidth": "2px"
     },
     "lg": {
       "padding": "20px 30px",
       "borderRadius": 0,
-      "fontSize": "16px"
+      "fontSize": "16px",
+      "borderWidth": "2px"
     }
   },
   "settings": {
