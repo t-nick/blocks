@@ -2,7 +2,6 @@
   "name": "tatoo",
   "general": {
     "fontFamily": "'Teko', sans-serif",
-    "borderWidth": "1px",
     "letterSpacing": "1.4px",
     "textTransform": "uppercase"
   },
@@ -10,17 +9,20 @@
     "sm": {
       "padding": "12px 30px",
       "borderRadius": 0,
-      "fontSize": "14px"
+      "fontSize": "14px",
+      "borderWidth": "1px"
     },
     "md": {
       "padding": "16px 36px",
       "borderRadius": 0,
-      "fontSize": "14px"
+      "fontSize": "14px",
+      "borderWidth": "1px"
     },
     "lg": {
       "padding": "21px 40px",
       "borderRadius": 0,
-      "fontSize": "14px"
+      "fontSize": "14px",
+      "borderWidth": "1px"
     }
   },
   "settings": {
