@@ -2,24 +2,26 @@
   "name": "photographer-2",
   "general": {
     "fontFamily": "'Montserrat', sans-serif",
-    "borderWidth": "1px",
     "textTransform": "uppercase"
   },
   "size": {
     "sm": {
       "padding": "10px 19px",
       "borderRadius": 0,
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "borderWidth": "1px"
     },
     "md": {
       "padding": "12px 29px",
       "borderRadius": 0,
-      "fontSize": "11px"
+      "fontSize": "11px",
+      "borderWidth": "1px"
     },
     "lg": {
       "padding": "22px 29px",
       "borderRadius": 0,
-      "fontSize": "11px"
+      "fontSize": "11px",
+      "borderWidth": "1px"
     }
   },
   "settings": {
