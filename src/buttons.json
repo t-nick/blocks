@@ -2,7 +2,6 @@
   "name": "Buttons 1",
   "general": {
     "fontFamily": "'Lato', sans-serif",
-    "borderWidth": "2px",
     "textTransform": "uppercase"
   },
   "size": {
@@ -10,114 +9,183 @@
       "padding": "4px 27px",
       "borderRadius": "21px",
       "fontSize": "14px",
-      "fontWeight": 600
+      "fontWeight": 600,
+      "borderWidth": "2px"
     },
     "md": {
       "padding": "6px 37px",
       "borderRadius": "25px",
       "fontSize": "14px",
-      "fontWeight": 600
+      "fontWeight": 600,
+      "borderWidth": "2px"
     },
     "lg": {
       "padding": "9px 50px",
       "borderRadius": "30px",
       "fontSize": "16px",
-      "fontWeight": 600
+      "fontWeight": 600,
+      "borderWidth": "2px"
     }
   },
   "settings": {
     "primary": {
       "default": {
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "brand"
+          ]
         },
-        "color": ["lightShade"],
+        "color": [
+          "lightShade"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand?darken=11.37&desaturate=29.9"]
+          "color": [
+            "brand?darken=11.37&desaturate=29.9"
+          ]
         }
       },
       "active": {
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "brand"
+          ]
         }
       }
     },
     "primaryAlt": {
       "default": {
         "bg": {
-          "color": ["lightShade?darken=39.22"]
+          "color": [
+            "lightShade?darken=39.22"
+          ]
         },
-        "color": ["lightShade"],
+        "color": [
+          "lightShade"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["darkShade?lighten=31.96"]
+          "color": [
+            "darkShade?lighten=31.96"
+          ]
         }
       },
       "active": {
         "bg": {
-          "color": ["lightShade?darken=39.22"]
+          "color": [
+            "lightShade?darken=39.22"
+          ]
         }
       }
     },
     "secondary": {
       "default": {
         "bg": {
-          "color": ["lightAccent", "transparent"]
+          "color": [
+            "lightAccent",
+            "transparent"
+          ]
         },
-        "color": ["lightShade"],
+        "color": [
+          "lightShade"
+        ],
         "border": {
-          "color": ["transparent", "lightShade"]
+          "color": [
+            "transparent",
+            "lightShade"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["lightAccent?darken=10.59&desaturate=35.83", "transparent"]
+          "color": [
+            "lightAccent?darken=10.59&desaturate=35.83",
+            "transparent"
+          ]
         },
-        "color": ["lightShade", "lightAccent"],
+        "color": [
+          "lightShade",
+          "lightAccent"
+        ],
         "border": {
-          "color": ["transparent", "lightAccent"]
+          "color": [
+            "transparent",
+            "lightAccent"
+          ]
         }
       },
       "active": {
         "bg": {
-          "color": ["lightAccent", "transparent"]
+          "color": [
+            "lightAccent",
+            "transparent"
+          ]
         },
-        "color": ["lightShade", "lightShade"],
+        "color": [
+          "lightShade",
+          "lightShade"
+        ],
         "border": {
-          "color": ["transparent", "lightShade"]
+          "color": [
+            "transparent",
+            "lightShade"
+          ]
         }
       }
     },
     "secondaryAlt": {
       "default": {
         "bg": {
-          "color": ["darkShade", "lightShade"]
+          "color": [
+            "darkShade",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade", "darkShade"],
+        "color": [
+          "lightShade",
+          "darkShade"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["darkShade?darken=16.08&desaturate=4.44", "lightShade?darken=39.22"]
+          "color": [
+            "darkShade?darken=16.08&desaturate=4.44",
+            "lightShade?darken=39.22"
+          ]
         },
-        "color": ["lightShade", "lightShade"]
+        "color": [
+          "lightShade",
+          "lightShade"
+        ]
       },
       "active": {
         "bg": {
-          "color": ["darkShade", "lightShade"]
+          "color": [
+            "darkShade",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
+        "color": [
+          "lightShade",
+          "darkShade"
+        ]
       }
     }
   }
