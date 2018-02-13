@@ -144,16 +144,7 @@
           "color": [
             "transparent",
             "lightShade"
-          ],
-          "gradient": {
-            "angle": "90deg",
-            "colors": [
-              [
-                "brand?lighten=7.65",
-                "brand?darken=8.63&desaturate=1.17"
-              ]
-            ]
-          }
+          ]
         },
         "color": [
           "darkShade?lighten=38.8",
@@ -172,16 +163,7 @@
           "color": [
             "lightShade?darken=7",
             "lightShade?setAlpha=0.2"
-          ],
-          "gradient": {
-            "angle": "90deg",
-            "colors": [
-              [
-                "brand?lighten=7.65",
-                "brand?darken=8.63&desaturate=1.17"
-              ]
-            ]
-          }
+          ]
         },
         "color": [
           "darkShade?lighten=38.8",
