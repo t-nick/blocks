@@ -53,7 +53,7 @@
     },
     "subheading": {
       "size": "22px",
-      "lineHeight": 1,
+      "lineHeight": "normal",
       "fontFamily": "'Rozha One', serif",
       "fontWeight": 400,
       "color": [
@@ -73,7 +73,7 @@
     },
     "small": {
       "size": "14px",
-      "lineHeight": 1,
+      "lineHeight": "normal",
       "fontFamily": "'Noto Sans', sans-serif",
       "fontWeight": 400,
       "color": [
@@ -93,7 +93,7 @@
     },
     "caption": {
       "size": "18px",
-      "lineHeight": 1,
+      "lineHeight": "normal",
       "fontFamily": "'Noto Sans', sans-serif",
       "fontWeight": 700,
       "color": [
