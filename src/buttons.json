@@ -2,24 +2,26 @@
   "name": "uros",
   "general": {
     "fontFamily": "'Poppins', sans-serif",
-    "letterSpacing": "1.8px",
-    "borderWidth": "2px"
+    "letterSpacing": "1.8px"
   },
   "size": {
     "sm": {
       "padding": "16px 62px",
       "borderRadius": "7px",
-      "fontSize": "14px"
+      "fontSize": "14px",
+      "borderWidth": "2px"
     },
     "md": {
       "padding": "16px 62px",
       "borderRadius": "7px",
-      "fontSize": "14px"
+      "fontSize": "14px",
+      "borderWidth": "2px"
     },
     "lg": {
       "padding": "16px 62px",
       "borderRadius": "7px",
-      "fontSize": "14px"
+      "fontSize": "14px",
+      "borderWidth": "2px"
     }
   },
   "settings": {
