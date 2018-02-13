@@ -2,7 +2,6 @@
   "name": "Buttons 3",
   "general": {
     "fontFamily": "'Montserrat', sans-serif",
-    "borderWidth": "2px",
     "letterSpacing": "3.2px",
     "textTransform": "uppercase"
   },
@@ -10,17 +9,20 @@
     "sm": {
       "padding": "17px 46px",
       "borderRadius": 0,
-      "fontSize": "11px"
+      "fontSize": "11px",
+      "borderWidth": "2px"
     },
     "md": {
       "padding": "17px 46px",
       "borderRadius": 0,
-      "fontSize": "11px"
+      "fontSize": "11px",
+      "borderWidth": "2px"
     },
     "lg": {
       "padding": "17px 46px",
       "borderRadius": 0,
-      "fontSize": "11px"
+      "fontSize": "11px",
+      "borderWidth": "2px"
     }
   },
   "settings": {
