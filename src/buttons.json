@@ -1,24 +1,26 @@
 {
   "name": "YBD",
   "general": {
-    "fontFamily": "'Open Sans', sans-serif",
-    "borderWidth": "1px"
+    "fontFamily": "'Open Sans', sans-serif"
   },
   "size": {
     "sm": {
       "padding": "12px 20px",
       "borderRadius": "100px",
-      "fontSize": "12px"
+      "fontSize": "12px",
+      "borderWidth": "1px"
     },
     "md": {
       "padding": "16px 25px",
       "borderRadius": "100px",
-      "fontSize": "14px"
+      "fontSize": "14px",
+      "borderWidth": "1px"
     },
     "lg": {
       "padding": "16px 25px",
       "borderRadius": "100px",
-      "fontSize": "14px"
+      "fontSize": "14px",
+      "borderWidth": "1px"
     }
   },
   "settings": {
