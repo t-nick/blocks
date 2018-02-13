@@ -2,24 +2,26 @@
   "name": "photographerStudio",
   "general": {
     "fontFamily": "'Poppins', sans-serif",
-    "borderWidth": "2px",
     "textTransform": "uppercase"
   },
   "size": {
     "sm": {
       "padding": "17px 30px",
       "borderRadius": "10px",
-      "fontSize": "13px"
+      "fontSize": "13px",
+      "borderWidth": "2px"
     },
     "md": {
       "padding": "20px 30px",
       "borderRadius": "10px",
-      "fontSize": "13px"
+      "fontSize": "13px",
+      "borderWidth": "2px"
     },
     "lg": {
       "padding": "23px 30px",
       "borderRadius": "10px",
-      "fontSize": "13px"
+      "fontSize": "13px",
+      "borderWidth": "2px"
     }
   },
   "settings": {
