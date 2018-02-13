@@ -6,7 +6,6 @@ class Block extends React.Component {
     style: PropTypes.object.isRequired,
   }
 
-
   render() {
     const {components: {Text, Button, ContactForm, Icon}, style} = this.props
 
@@ -16,39 +15,17 @@ class Block extends React.Component {
         <div className={style.section__inner}>
           <section className={style.column}>
             <h1 className={style.visuallyHidden}>Light</h1>
-            <p className={classNames(style.heroTitle, style.item)}>
-              <Text bind="heroTitle" />
-            </p>
-            <p className={classNames(style.blockTitle, style.item)}>
-              <Text bind="blockTitle" />
-            </p>
-            <p className={classNames(style.subTitle, style.item)}>
-              <Text bind="subTitle" />
-            </p>
-            <p className={classNames(style.headingLg, style.item)}>
-              <Text bind="headingLg" />
-            </p>
-            <p className={classNames(style.heading, style.item)}>
-              <Text bind="heading" />
-            </p>
-            <p className={classNames(style.subHeading, style.item)}>
-              <Text bind="subHeading" />
-            </p>
-            <p className={classNames(style.text, style.item)}>
-              <Text bind="text" />
-            </p>
-            <p className={classNames(style.text, style.item)}>
-              <Text bind="linkText" />
-            </p>
-            <p className={classNames(style.smallText, style.item)}>
-              <Text bind="smallText" />
-            </p>
-            <p className={classNames(style.quote, style.item)}>
-              <Text bind="quote" />
-            </p>
-            <p className={classNames(style.caption, style.item)}>
-              <Text bind="caption" />
-            </p>
+            <Text tagName="p" className={style.item} bind="heroTitle" />
+            <Text tagName="p" className={style.item} bind="blockTitle" />
+            <Text tagName="p" className={style.item} bind="subTitle" />
+            <Text tagName="p" className={style.item} bind="headingLg" />
+            <Text tagName="p" className={style.item} bind="heading" />
+            <Text tagName="p" className={style.item} bind="subHeading" />
+            <Text tagName="p" className={style.item} bind="text" />
+            <Text tagName="p" className={style.item} bind="linkText" />
+            <Text tagName="p" className={style.item} bind="smallText" />
+            <Text tagName="p" className={style.item} bind="quote" />
+            <Text tagName="p" className={style.item} bind="caption" />
             <Button className={style.item} bind="primary" />
             <br/>
             <Button className={style.item} bind="primaryAlt" />
@@ -78,39 +55,17 @@ class Block extends React.Component {
           </section>
           <section className={classNames(style.column, style.dark, 'ui-kit-dark')}>
             <h1 className={style.visuallyHidden}>Dark</h1>
-            <p className={classNames(style.heroTitle, style.item)}>
-              <Text bind="heroTitle" />
-            </p>
-            <p className={classNames(style.blockTitle, style.item)}>
-              <Text bind="blockTitle" />
-            </p>
-            <p className={classNames(style.subTitle, style.item)}>
-              <Text bind="subTitle" />
-            </p>
-            <p className={classNames(style.headingLg, style.item)}>
-              <Text bind="headingLg" />
-            </p>
-            <p className={classNames(style.heading, style.item)}>
-              <Text bind="heading" />
-            </p>
-            <p className={classNames(style.subHeading, style.item)}>
-              <Text bind="subHeading" />
-            </p>
-            <p className={classNames(style.text, style.item)}>
-              <Text bind="text" />
-            </p>
-            <p className={classNames(style.text, style.item)}>
-              <Text bind="linkText" />
-            </p>
-            <p className={classNames(style.smallText, style.item)}>
-              <Text bind="smallText" />
-            </p>
-            <p className={classNames(style.quote, style.item)}>
-              <Text bind="quote" />
-            </p>
-            <p className={classNames(style.caption, style.item)}>
-              <Text bind="caption" />
-            </p>
+            <Text tagName="p" className={style.item} bind="heroTitle" />
+            <Text tagName="p" className={style.item} bind="blockTitle" />
+            <Text tagName="p" className={style.item} bind="subTitle" />
+            <Text tagName="p" className={style.item} bind="headingLg" />
+            <Text tagName="p" className={style.item} bind="heading" />
+            <Text tagName="p" className={style.item} bind="subHeading" />
+            <Text tagName="p" className={style.item} bind="text" />
+            <Text tagName="p" className={style.item} bind="linkText" />
+            <Text tagName="p" className={style.item} bind="smallText" />
+            <Text tagName="p" className={style.item} bind="quote" />
+            <Text tagName="p" className={style.item} bind="caption" />
             <Button className={style.item} bind="primary" />
             <br/>
             <Button className={style.item} bind="primaryAlt" />
@@ -147,17 +102,50 @@ class Block extends React.Component {
 Block.components = _.pick(['Text', 'Button', 'ContactForm', 'Icon'])($editor.components)
 
 Block.defaultContent = {
-  heroTitle: 'HEROTITLE',
-  blockTitle: 'BLOCKTITLE',
-  subTitle: 'SUBTITLE',
-  headingLg: 'HEADING LARGE',
-  heading: 'HEADING',
-  subHeading: 'SUB HEADING',
-  text: 'TEXT',
-  linkText: 'Lorem ipsum <a href="https://google.com">dolor sit amet,</a> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-  smallText: 'SMALL TEXT',
-  quote: 'QUOTE',
-  caption: 'CAPTION',
+  heroTitle: {
+    content: 'HEROTITLE',
+    type: 'heroTitle',
+  },
+  blockTitle: {
+    content: 'BLOCKTITLE',
+    type: 'blockTitle',
+  },
+  subTitle: {
+    content: 'SUBTITLE',
+    type: 'subtitle',
+  },
+  headingLg: {
+    content: 'HEADING LARGE',
+    type: 'headingLg',
+  },
+  heading: {
+    content: 'HEADING',
+    type: 'heading',
+  },
+  subHeading: {
+    content: 'SUB HEADING',
+    type: 'subheading',
+  },
+  text: {
+    content: 'TEXT',
+    type: 'text',
+  },
+  linkText: {
+    content: 'Lorem ipsum <a href="https://google.com">dolor sit amet,</a> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    type: 'text',
+  },
+  smallText: {
+    content: 'SMALL TEXT',
+    type: 'small',
+  },
+  quote: {
+    content: 'QUOTE',
+    type: 'quote',
+  },
+  caption: {
+    content: 'CAPTION',
+    type: 'caption',
+  },
   primary: {
     actionConfig: {
       action: 'link',
