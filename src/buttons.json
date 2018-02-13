@@ -1,24 +1,26 @@
 {
   "name": "Buttons 2",
   "general": {
-    "fontFamily": "'Montserrat', sans-serif",
-    "borderWidth": "1px"
+    "fontFamily": "'Montserrat', sans-serif"
   },
   "size": {
     "sm": {
       "padding": "8px 15px",
       "borderRadius": "5px",
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "borderWidth": "1px"
     },
     "md": {
       "padding": "11px 20px",
       "borderRadius": "5px",
-      "fontSize": "11px"
+      "fontSize": "11px",
+      "borderWidth": "1px"
     },
     "lg": {
       "padding": "21px 30px",
       "borderRadius": "5px",
-      "fontSize": "11px"
+      "fontSize": "11px",
+      "borderWidth": "1px"
     }
   },
   "settings": {
