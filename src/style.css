@@ -1,3 +1,49 @@
 @import "wireframe-zapdos-about/src/style.css";
 
 /* start here */
+.article {
+  justify-content: flex-end;
+
+  &__picture {
+    padding-top: 0;
+
+    img {
+      width: 50%;
+    }
+
+    @media screen and (max-width: 767px) {
+      background-color: transparent;
+
+      img {
+        width: 100%;
+        position: static;
+      }
+    }
+  }
+
+  &__content {
+    max-width: 43%;
+  }
+
+  &__title {
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    color: var(--ui-brand-color);
+    font-weight: var(--ui-text-font-weight);
+    font-family: Georgia;
+    margin-bottom: 23px;
+  }
+
+  &__text {
+    color: #716f6f;
+    font-family: Georgia;
+    margin-bottom: 35px;
+  }
+
+  &__socials {
+    margin-left: -20px;
+  }
+}
+
