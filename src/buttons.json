@@ -2,110 +2,171 @@
   "name": "Rodrigez",
   "general": {
     "fontFamily": "'Lato', sans-serif",
-    "borderWidth": "2px",
     "textTransform": "uppercase"
   },
   "size": {
     "sm": {
       "padding": "6px 30px",
       "borderRadius": 0,
-      "fontSize": "13px"
+      "fontSize": "13px",
+      "borderWidth": "2px"
     },
     "md": {
       "padding": "8px 35px",
       "borderRadius": 0,
-      "fontSize": "15px"
+      "fontSize": "15px",
+      "borderWidth": "2px"
     },
     "lg": {
       "padding": "9px 35px",
       "borderRadius": 0,
-      "fontSize": "15px"
+      "fontSize": "15px",
+      "borderWidth": "2px"
     }
   },
   "settings": {
     "primary": {
       "default": {
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "brand"
+          ]
         },
-        "color": ["lightShade"],
+        "color": [
+          "lightShade"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["darkShade?lighten=4.71&desaturate=60", "brand?darken=19.02&desaturate=23.83"]
+          "color": [
+            "darkShade?lighten=4.71&desaturate=60",
+            "brand?darken=19.02&desaturate=23.83"
+          ]
         }
       },
       "active": {
         "bg": {
-          "color": ["brand", "brand"]
+          "color": [
+            "brand",
+            "brand"
+          ]
         }
       }
     },
     "primaryAlt": {
       "default": {
         "bg": {
-          "color": ["lightShade?darken=6.27", "lightShade"]
+          "color": [
+            "lightShade?darken=6.27",
+            "lightShade"
+          ]
         },
-        "color": ["darkShade?lighten=4.71&desaturate=60", "darkShade"],
+        "color": [
+          "darkShade?lighten=4.71&desaturate=60",
+          "darkShade"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand", "darkShade?lighten=10.39"]
+          "color": [
+            "brand",
+            "darkShade?lighten=10.39"
+          ]
         },
-        "color": ["lightShade", "lightShade"]
+        "color": [
+          "lightShade",
+          "lightShade"
+        ]
       },
       "active": {
         "bg": {
-          "color": ["lightShade?darken=6.27", "lightShade"]
+          "color": [
+            "lightShade?darken=6.27",
+            "lightShade"
+          ]
         },
-        "color": ["darkShade?lighten=4.71&desaturate=60", "darkShade"]
+        "color": [
+          "darkShade?lighten=4.71&desaturate=60",
+          "darkShade"
+        ]
       }
     },
     "secondary": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade?lighten=4.71&desaturate=60", "lightShade"],
+        "color": [
+          "darkShade?lighten=4.71&desaturate=60",
+          "lightShade"
+        ],
         "border": {
-          "color": ["brand"]
+          "color": [
+            "brand"
+          ]
         }
       },
       "hover": {
         "border": {
-          "color": ["darkShade?lighten=4.71&desaturate=60", "lightShade"]
+          "color": [
+            "darkShade?lighten=4.71&desaturate=60",
+            "lightShade"
+          ]
         }
       },
       "active": {
         "border": {
-          "color": ["brand", "brand"]
+          "color": [
+            "brand",
+            "brand"
+          ]
         }
       }
     },
     "secondaryAlt": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade?lighten=4.71&desaturate=60", "lightShade"],
+        "color": [
+          "darkShade?lighten=4.71&desaturate=60",
+          "lightShade"
+        ],
         "border": {
-          "color": ["darkShade?lighten=4.71&desaturate=60", "lightShade"]
+          "color": [
+            "darkShade?lighten=4.71&desaturate=60",
+            "lightShade"
+          ]
         }
       },
       "hover": {
         "border": {
-          "color": ["brand", "brand"]
+          "color": [
+            "brand",
+            "brand"
+          ]
         }
       },
       "active": {
         "border": {
-          "color": ["darkShade?lighten=4.71&desaturate=60", "lightShade"]
+          "color": [
+            "darkShade?lighten=4.71&desaturate=60",
+            "lightShade"
+          ]
         }
       }
     }
