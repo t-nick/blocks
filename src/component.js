@@ -27,19 +27,19 @@ class Block extends React.Component {
             <Text tagName="p" className={style.item} bind="quote" />
             <Text tagName="p" className={style.item} bind="caption" />
             <Button className={style.item} bind="primary" />
-            <br/>
+            <br />
             <Button className={style.item} bind="primaryAlt" />
-            <br/>
+            <br />
             <Button className={style.item} bind="secondary" />
-            <br/>
+            <br />
             <Button className={style.item} bind="secondaryAlt" />
-            <br/>
+            <br />
             <Button className={style.item} bind="link" />
-            <br/>
+            <br />
             <Button className={style.item} bind="primarySm" />
-            <br/>
+            <br />
             <Button className={style.item} bind="primaryMd" />
-            <br/>
+            <br />
             <Button className={style.item} bind="primaryLg" />
             <ContactForm
               bind="contactForm"
@@ -51,7 +51,7 @@ class Block extends React.Component {
                 className: style.form__button,
               }}
             />
-            <Icon bind="icon"/>
+            <Icon bind="icon" className={style.icon} />
           </section>
           <section className={classNames(style.column, style.dark, 'ui-kit-dark')}>
             <h1 className={style.visuallyHidden}>Dark</h1>
@@ -67,19 +67,19 @@ class Block extends React.Component {
             <Text tagName="p" className={style.item} bind="quote" />
             <Text tagName="p" className={style.item} bind="caption" />
             <Button className={style.item} bind="primary" />
-            <br/>
+            <br />
             <Button className={style.item} bind="primaryAlt" />
-            <br/>
+            <br />
             <Button className={style.item} bind="secondary" />
-            <br/>
+            <br />
             <Button className={style.item} bind="secondaryAlt" />
-            <br/>
+            <br />
             <Button className={style.item} bind="link" />
-            <br/>
+            <br />
             <Button className={style.item} bind="primarySm" />
-            <br/>
+            <br />
             <Button className={style.item} bind="primaryMd" />
-            <br/>
+            <br />
             <Button className={style.item} bind="primaryLg" />
             <ContactForm
               bind="contactForm"
@@ -91,7 +91,7 @@ class Block extends React.Component {
                 className: style.form__button,
               }}
             />
-            <Icon bind="icon"/>
+            <Icon bind="icon" className={style.icon} />
           </section>
         </div>
       </section>
@@ -214,7 +214,7 @@ Block.defaultContent = {
       },
     },
     textValue: 'Button link',
-    type: 'link'
+    type: 'link',
   },
   primarySm: {
     actionConfig: {
@@ -292,9 +292,9 @@ Block.defaultContent = {
     className: 'form',
   },
   icon: {
-    svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42"><path d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"/></svg>',
-    fill: 'light-shade-color?darken=20'
-  }
+    svg: '<svg viewBox="0 0 25 16" id="icon-logo-ico" width="100%" height="100%"><path d="M22.48 1.054L5.808 12.977 3.245 4.833l3.055 2.1c.437.297 1.02.262 1.416-.083l4.803-4.186 2.45 2.072 1.93-1.374L13.256.274A1.162 1.162 0 0 0 11.75.28l-4.88 4.255-5.06-3.475a1.162 1.162 0 0 0-1.34.014c-.396.29-.563.801-.417 1.271l4.026 12.828a1.161 1.161 0 0 0 1.777.594L21.231 4.771l-2.103 8.179-3.415-2.356-1.986 1.423 5.456 3.758c.306.214.701.262 1.056.131.354-.13.617-.428.715-.787L24.25 2.284c.118-.463-.07-.96-.465-1.23a1.18 1.18 0 0 0-1.305 0z"></path></svg>',
+    fill: 'light-shade-color?darken=20',
+  },
 }
 
 Block.modifierScheme = [
