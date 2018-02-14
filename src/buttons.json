@@ -1,7 +1,7 @@
 {
   "name": "bakery",
   "general": {
-    "fontFamily": "'Libre Baskerville'', serif"
+    "fontFamily": "'Libre Baskerville', serif"
   },
   "size": {
     "sm": {
