@@ -1,10 +1,10 @@
 {
-  "name": "Lightning yellow",
+  "name": "Descent green",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
+    "lightShade": "#fff",
+    "lightAccent": "#f8f8f8",
+    "brand": "#31d457",
+    "darkAccent": "#27a946",
+    "darkShade": "#18181a"
   }
 }
