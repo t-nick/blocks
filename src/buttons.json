@@ -1,7 +1,8 @@
 {
   "name": "Buttons 2",
   "general": {
-    "fontFamily": "'Montserrat', sans-serif"
+    "fontFamily": "'Montserrat', sans-serif",
+    "textTransform": "uppercase"
   },
   "size": {
     "sm": {
