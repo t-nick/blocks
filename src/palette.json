@@ -1,10 +1,10 @@
 {
-  "name": "Lightning yellow",
+  "name": "Cloudy Field",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
+    "lightShade": "#e7ecf1",
+    "lightAccent": "#b3d04d",
+    "brand": "#5aafff",
+    "darkAccent": "#5aafff",
+    "darkShade": "#33383e"
   }
 }

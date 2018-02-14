@@ -1,80 +1,80 @@
 {
-  "name": "Typography 1",
+  "name": "Kneel",
   "settings": {
     "heroTitle": {
-      "size": "70px",
-      "lineHeight": 1.2857,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
+      "size": "90px",
+      "lineHeight": 0.98,
+      "fontFamily": "'Hind', sans-serif",
+      "fontWeight": 700,
       "color": ["darkShade", "lightShade"]
     },
     "blockTitle": {
-      "size": "46px",
-      "lineHeight": 1.3043,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "55px",
+      "lineHeight": 1.25,
+      "fontFamily": "'Hind', sans-serif",
+      "fontWeight": 700,
+      "color": ["darkShade", "lightShade"]
     },
     "subtitle": {
-      "size": "18px",
-      "lineHeight": 1.7777,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "19px",
+      "lineHeight": 1.84,
+      "fontFamily": "'Poppins', sans-serif",
+      "fontWeight": 300,
+      "color": ["darkShade?lighten=30.39&saturate=1.01", "lightShade?darken=16.47&desaturate=19.76"]
     },
     "headingLg": {
       "size": "36px",
-      "lineHeight": 1.5555,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "lineHeight": 1.19,
+      "fontFamily": "'Hind', sans-serif",
+      "fontWeight": 700,
+      "color": ["darkShade", "lightShade?lighten=7.45&desaturate=26.32"]
     },
     "heading": {
-      "size": "24px",
-      "lineHeight": 1.4166,
-      "fontFamily": "'Montserrat', sans-serif",
+      "size": "28px",
+      "lineHeight": 1.21,
+      "fontFamily": "'Hind', sans-serif",
       "fontWeight": 500,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "color": ["darkShade", "lightShade"]
     },
     "subheading": {
-      "size": "20px",
-      "lineHeight": 1.5555,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "24px",
+      "lineHeight": 1,
+      "fontFamily": "'Hind', sans-serif",
+      "fontWeight": 600,
+      "color": ["darkShade", "lightShade"]
     },
     "text": {
-      "size": "16px",
-      "lineHeight": 1.5,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "15px",
+      "lineHeight": 1.73,
+      "fontFamily": "'Poppins', sans-serif",
+      "fontWeight": 300,
+      "color": ["darkShade?lighten=30.39&saturate=1.01", "lightShade"]
     },
     "small": {
-      "size": "12px",
-      "lineHeight": 1.6666,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "15px",
+      "lineHeight": 1.73,
+      "fontFamily": "'Poppins', sans-serif",
+      "fontWeight": 300,
+      "color": ["darkShade?lighten=30.39&saturate=1.01", "lightShade?darken=37.65&desaturate=26.32"]
     },
     "quote": {
-      "size": "14px",
-      "lineHeight": 1.2,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "19px",
+      "lineHeight": 1.84,
+      "fontFamily": "'Poppins', sans-serif",
+      "fontWeight": 300,
+      "color": ["darkShade?lighten=30.39&saturate=1.01", "lightShade?lighten=7.45&desaturate=26.32"]
     },
     "caption": {
-      "size": "14px",
-      "lineHeight": 1.7142,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "size": "15px",
+      "lineHeight": 1.73,
+      "fontFamily": "'Poppins', sans-serif",
+      "fontWeight": 300,
+      "color": ["darkShade?lighten=30.39&saturate=1.01", "lightShade?lighten=7.45&desaturate=26.32"]
     },
     "link": {
-      "color": ["lightShade"],
+      "color": ["lightAccent", "brand"],
       "hover": {
-        "color": ["brand"]
+        "color": ["lightAccent?lighten=15", "brand?lighten=15"]
       }
     }
   }
