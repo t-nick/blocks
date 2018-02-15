@@ -1,3 +1,32 @@
 @import "wireframe-zapdos-faq/src/style.css";
 
 /* start here */
+
+.title {
+  font-size: var(--ui-block-title-size);
+  color: var(--ui-hero-title-color);
+  font-weight: var(--ui-block-title-font-weight);
+  font-family: var(--ui-block-title-font-family);
+}
+
+.item {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  &__title {
+    color: var(--ui-brand-color);
+    font-family: var(--ui-text-font-family);
+    font-weight: var(--ui-heading-lg-font-weight);
+  }
+
+  &__content {
+    color: var(--ui-dark-shade-color);
+    font-family: var(--ui-text-font-family);
+    font-size: var(--ui-text-size);
+  }
+
+}
