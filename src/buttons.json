@@ -87,7 +87,8 @@
       "default": {
         "bg": {
           "color": [
-            "brand"
+            "brand",
+            "lightShade"
           ],
           "gradient": {
             "angle": "90deg",
@@ -95,12 +96,14 @@
               [
                 "brand?lighten=7.65",
                 "brand?darken=8.63&desaturate=1.17"
-              ]
+              ],
+              []
             ]
           }
         },
         "color": [
-          "lightShade"
+          "lightShade",
+          "darkShade"
         ],
         "border": {
           "style": "solid",
@@ -113,7 +116,7 @@
         "bg": {
           "color": [
             "brand",
-            "brand"
+            "lightShade?setAlpha=0.2"
           ],
           "gradient": {
             "angle": "90deg",
@@ -121,7 +124,8 @@
               [
                 "brand?lighten=7.65",
                 "brand?darken=8.63&desaturate=1.17"
-              ]
+              ],
+              []
             ]
           }
         },
@@ -136,7 +140,7 @@
           "spread": 0,
           "color": [
             "brand?lighten=6&setAlpha=0.5",
-            "brand?lighten=6&setAlpha=0.5"
+            "transparent"
           ]
         }
       }
