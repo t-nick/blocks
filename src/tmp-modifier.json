@@ -1,3 +1,4 @@
 {
-  "some-modifier": true
+  "secondary-btn": false,
+  "subtitle": true
 }

@@ -1,3 +1,17 @@
 @import "wireframe-zapdos-cover/src/style.css";
 
 /* start here */
+
+.title {
+  color: var(--ui-light-shade-color);
+  font-family: var(--ui-hero-title-font-family);
+  font-weight: var(--ui-hero-title-font-weight);
+}
+
+.subtitle {
+  color: var(--ui-light-shade-color);
+  font-size: var(--ui-subtitle-size);
+  font-family: var(--ui-subtitle-font-family);
+  font-weight: var(--ui-subtitle-font-weight);
+  line-height: var(--ui-subtitle-line-height);
+}
