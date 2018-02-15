@@ -1,3 +1,7 @@
 @import "wireframe-zapdos-why/src/style.css";
 
-/* start here */
+.item {
+  &__title {
+    text-align: left;
+  }
+}
