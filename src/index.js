@@ -11,6 +11,11 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  theme: 'light',
+  background: {
+    type: 'color',
+    color: '#ffffff',
+  },
   title: {
     content: 'Thank you for applying for a job!',
     type: 'blockTitle',
@@ -19,7 +24,6 @@ ExtendedWireframe.defaultContent = {
     content: 'We will contact you shortly',
     type: 'text',
   },
-  theme: 'light',
   cta: {
     actionConfig: {
       action: 'link',
