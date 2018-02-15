@@ -11,6 +11,10 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  description: {
+    content: "The page you are looking for couldn't be found",
+    type: 'text',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {

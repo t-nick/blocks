@@ -1,3 +1,22 @@
 @import "wireframe-zapdos-cta/src/style.css";
 
 /* start here */
+.section {
+  background-color: #fff;
+}
+
+.title {
+  font-size: var(--ui-hero-title-size);
+  font-weight: var(--ui-hero-title-font-weight);
+  letter-spacing: var(--ui-hero-title-letter-spacing);
+  line-height: var(--ui-hero-title-line-height);
+  font-family: var(--ui-hero-title-font-family);
+  color: var(--ui-subtitle-color);
+}
+
+.description {
+  font-size: var(--ui-heading-size);
+  color: var(--ui-heading-color);
+  font-weight: var(--ui-heading-lg-font-weight);
+
+}
