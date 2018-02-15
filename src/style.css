@@ -50,4 +50,8 @@
     letter-spacing: -0.56px;
     margin-bottom: 10px;
   }
+
+  &__text {
+    letter-spacing: 0.13px;
+  }
 }
