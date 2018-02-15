@@ -3,7 +3,7 @@
 /* start here */
 
 .article {
-  max-width: 1070px;
+  max-width: 1060px;
   margin: 0 auto;
 
   &__picture {
@@ -20,8 +20,10 @@
   &__content {
 
     @media (min-width: 768px) {
+      flex-basis: 56%;
       max-width: 56%;
       padding-left: 0;
+      justify-content: flex-start;
     }
   }
 
@@ -30,10 +32,7 @@
     font-family: var(--ui-block-title-font-family);
     font-size: var(--ui-block-title-size);
     text-align: center;
-
-    @media (min-width: 768px) {
-      text-align: left;
-    }
+    margin-bottom: 55px;
   }
 
   &__text {
