@@ -1,3 +1,27 @@
 @import "wireframe-zapdos-about/src/style.css";
 
 /* start here */
+
+.article {
+  flex-direction: row-reverse;
+
+  &__subtitle {
+    font-size: var(--ui-subtitle-size);
+    font-family: var(--ui-subtitle-font-family);
+    font-weight: var(--ui-subtitle-font-weight);
+    letter-spacing: var(--ui-subtitle-letter-spacing);
+    line-height: var(--ui-subtitle-line-height);
+  }
+}
+
+@media (min-width: 992px) {
+  &__picture-wrapper {
+    box-sizing: border-box;
+    margin-left: 15px;
+  }
+
+  &__content {
+    box-sizing: border-box;
+    padding-right: 100px;
+  }
+}
