@@ -1,3 +1,67 @@
 @import "wireframe-zapdos-awards/src/style.css";
 
-/* start here */
+.section {
+  border-bottom: 1px solid var(--ui-light-shade-color);
+
+  @media (min-width: 1200px) {
+    padding-bottom: 93px;
+  }
+
+  &__inner {
+    
+    @media (min-width: 1200px) {
+      max-width: 1670px;
+    }
+  }
+}
+
+.title {
+  letter-spacing: -1.1px;
+
+  @media (min-width: 1200px) {
+    margin-top: 62px;
+  }
+}
+
+.item {
+  &s-wrapper {
+
+    @media (min-width: 1200px) {
+      flex-wrap: nowrap;
+    }
+  }
+
+  &__picture {
+    background-color: var(--ui-brand-color);
+    border-radius: 24px;
+    padding-top: 100%;
+  }
+
+  &__image {
+    padding: 21.5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+  }
+  
+  &:nth-child(3) {
+    .item__image {
+      padding: 20.5%;
+    }
+  }
+
+  &:nth-child(5) {
+    .item__image {
+      padding: 17%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    margin-top: 50px;
+
+    &:first-of-type {
+      margin-top: 50px;
+    }
+  }
+}
