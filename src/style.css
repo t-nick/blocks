@@ -1,3 +1,50 @@
 @import "wireframe-zapdos-about/src/style.css";
 
 /* start here */
+
+.article {
+  max-width: 1070px;
+  margin: 0 auto;
+
+  &__picture {
+    padding-top: 0;
+    min-height: 0;
+    background: transparent;
+    width: 80%;
+
+    @media (min-width: 768px) {
+      width: 39%;
+    }
+  }
+
+  &__content {
+
+    @media (min-width: 768px) {
+      max-width: 56%;
+      padding-left: 0;
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    font-family: var(--ui-block-title-font-family);
+    font-size: var(--ui-block-title-size);
+    text-align: center;
+
+    @media (min-width: 768px) {
+      text-align: left;
+    }
+  }
+
+  &__text {
+    font-weight: 300;
+    font-family: var(--ui-text-font-family);
+    font-size: var(--ui-text-size );
+    line-height: var(--ui-text-line-height);
+  }
+}
+
+.article__picture img {
+  position: static;
+}
+
