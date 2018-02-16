@@ -1,3 +1,94 @@
 @import "wireframe-zapdos-team/src/style.css";
 
 /* start here */
+
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 125px;
+    padding-bottom: 90px;
+  }
+}
+
+.title {
+  font-size: calc( var(--ui-block-title-size) * 0.8 );
+  letter-spacing: -1.1px;
+
+  @media (min-width: 992px) {
+    font-size: var(--ui-block-title-size);
+    line-height: calc( var(--ui-block-title-line-height) * 88/68.75 );
+  }
+}
+
+.title + .items-wrapper {
+  margin-top: 40px;
+}
+
+.item:nth-last-of-type(4):first-child,
+.item:nth-last-of-type(4):first-child ~ .item {
+
+  @media (min-width: 992px) {
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+}
+
+.items-wrapper {
+
+  @media (min-width: 992px) {
+    margin-top: 40px;
+  }
+}
+
+.item {
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    border: 0;
+  }
+
+  &__pic-link {
+    order: 1;
+    margin-bottom: 36px;
+  }
+
+  &__pic {
+    max-width: 270px;
+    max-height: 270px;
+    width: 100%;
+    height: auto;
+    border-radius: 23px;
+    background-color: transparent;
+  }
+
+  &__title {
+    order: 2;
+    margin-bottom: 10px;
+    font-weight: var(--ui-heading-lg-font-weight);
+    letter-spacing: -0.56px;
+  }
+
+  &__position {
+    margin-bottom: 18px;
+    order: 3;
+    letter-spacing: 0.13px;
+  }
+
+  &__desc {
+    order: 5;
+    max-width: 260px;
+    margin-bottom: 0;
+    letter-spacing: 0.13px;
+    white-space: pre-wrap;
+
+    @media (min-width: 992px) {
+      max-wdith: 100%;
+    }
+  }
+}
+
+.socials {
+  order: 4;
+}
