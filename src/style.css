@@ -61,7 +61,7 @@
 .form {
   background-color: #fff;
   border-radius: 30px;
-  padding: 52px 32px 46px;
+  padding: 30px 20px 28px;
 
   @media (min-width: 768px) {
     display: flex;
@@ -71,6 +71,7 @@
     max-height: 316px;
     flex-direction: column;
     margin: 0 15px 0 auto;
+    padding: 52px 32px 46px;
   }
 
   &__item {
