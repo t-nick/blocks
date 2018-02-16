@@ -1,3 +1,105 @@
 @import "wireframe-series-2-cta/src/style.css";
 
 /* start here */
+.section {
+  text-align: left;
+  background-color: #46aeff;
+  padding: 50px 0;
+
+  &__inner {
+    background: none;
+    padding: 0 15px;
+
+    @media (min-width: 768px) {
+      max-width: 1200px;
+      border-radius: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__header {
+    padding: 0;
+
+    @media (min-width: 768px) {
+      display: flex;
+      max-width: 50%;
+      padding: 0 15px;
+      margin: 4px 0 0;
+      flex: 50%;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
+
+.title {
+  font-size: calc(var(--ui-block-title-size) * 0.9);
+  color: #fff;
+  margin-bottom: 14px;
+
+  @media (min-width: 768px) {
+    font-size: calc(var(--ui-block-title-size) * 1.036);
+  }
+
+  strong {
+    font-size: calc(var(--ui-block-title-size) * 0.763);
+    display: block;
+
+    @media (min-width: 768px) {
+      margin-top: 14px;
+    }
+  }
+}
+
+.subtitle {
+  font-size: var(--ui-subtitle-size);
+  color: #fff;
+}
+
+.form {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 52px 32px 46px;
+
+  @media (min-width: 768px) {
+    display: flex;
+    max-width: 370px;
+    flex: 370px;
+    width: 100%;
+    max-height: 316px;
+    flex-direction: column;
+    margin: 0 15px 0 auto;
+  }
+
+  &__item {
+    width: 100%;
+    font-size: 0;
+  }
+
+  &__field {
+    font-size: calc(var(--ui-text-size) * 1.06);
+    font-family: var(--ui-heading-font-family);
+    font-weight: 600;
+    background-color: var(--ui-light-shade-color);
+    border-radius: 30px;
+    color: #7d848d;
+    padding: 12px 30px;
+    height: 58px;
+    margin-top: 0;
+    outline: none;
+
+    @media (min-width: 768px) {
+      max-height: 316px;
+    }
+
+    &::placeholder {
+      color: currentColor;
+    }
+  }
+
+  &__button {
+    margin-top: 0;
+  }
+}
