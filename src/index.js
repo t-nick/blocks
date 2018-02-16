@@ -147,6 +147,10 @@ ExtendedWireframe.defaultContent = {
     textValue: 'Show more',
     type: 'secondary',
   },
+  background: {
+    type: 'color',
+    color: '#fff',
+  },
 }
 
 export default ExtendedWireframe
