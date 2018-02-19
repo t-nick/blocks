@@ -1,3 +1,85 @@
 @import "wireframe-series-2-cta/src/style.css";
 
-/* start here */
+.section {
+  padding: 100px 0;
+
+  @media screen and (max-width: 1199px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.section__inner {
+  border: 0;
+  background: none;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: minmax(320px, 570px) minmax(320px, 470px);
+  grid-column-gap: 130px;
+  align-items: end;
+
+  @media screen and (max-width: 991px) {
+    grid-column-gap: 50px;
+  }
+
+  @media screen and (max-width: 767px) {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 30px;
+  }
+}
+
+.section__header {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  font-weight: var(--ui-hero-title-font-weight);
+  font-family: var(--ui-hero-title-font-family);
+  font-size: var(--ui-hero-title-size);
+  letter-spacing: var(--ui-hero-title-letter-spacing);
+  line-height: var(--ui-hero-title-line-height);
+  color: var(--ui-light-shade-color);
+  text-align: left;
+
+  @media screen and (max-width: 767px) {
+    font-size: 37px;
+  }
+}
+
+.subtitle {
+  font-weight: var(--ui-subtitle-font-weight);
+  font-family: var(--ui-subtitle-font-family);
+  font-size: var(--ui-subtitle-size);
+  line-height: var(--ui-subtitle-line-height);
+  color: var(--ui-subtitle-color);
+  margin: 0;
+  text-align: left;
+  max-width: 435px;
+}
+
+.form {
+  padding: 0;
+}
+
+.form__item {
+  font-family: var(--ui-text-font-family);
+  font-weight: 400;
+  font-size: calc(var(--ui-text-size) * 0.88);
+  margin-bottom: 10px;
+}
+
+.form__field {
+  height: 45px;
+  border: 1px solid var(--ui-subtitle-color);
+  background-color: transparent;
+}
+
+.form__button {
+  text-transform: uppercase;
+  color: var(--ui-light-shade-color);
+  font-family: var(--ui-caption-font-family);
+  font-weight: var(--ui-caption-font-weight);
+  font-size: calc(var(--ui-caption-size) * 0.92);
+}
