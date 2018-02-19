@@ -6,16 +6,8 @@
   @media (min-width: 992px) {
     justify-content: flex-end;
     padding-bottom: 70px;
-  }
 
-  &__inner {
-    display: flex;
-    flex-direction: column;
-  }
-
-  &--center {
-
-    @media (min-width: 992px) {
+    &--center {
       .section__inner {
         align-items: center;
       }
@@ -28,11 +20,8 @@
         text-align: center;
       }
     }
-  }
 
-  &--right {
-
-    @media (min-width: 992px) {
+    &--right {
       .section__inner {
         align-items: flex-end;
       }
@@ -45,6 +34,11 @@
         text-align: right;
       }
     }
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
   }
 }
 
