@@ -1,3 +1,54 @@
 @import "wireframe-zapdos-blog/src/style.css";
 
 /* start here */
+
+.title {
+  font-size: var(--ui-block-title-size);
+  font-family: var(--ui-block-title-font-family);
+  font-weight: var(--ui-block-title-font-weight);
+  letter-spacing: var(--ui-block-title-letter-spacitng);
+  line-height: var(--ui-block-title-line-height);
+}
+
+.article {
+  &__date {
+    text-transform: uppercase;
+  }
+
+  &__picture {
+    padding-top: 104%;
+  }
+
+  &__picture-wrapper {
+    background: var(--ui-light-accent-color);
+    margin: 0;
+    padding-bottom: 20px;
+  }
+
+  &__meta {
+    background: var(--ui-light-accent-color);
+    margin: 0;
+    padding-bottom: 16px;
+  }
+
+  &__title {
+    margin-bottom: 0;
+    padding: 0 0 10px;
+    background: var(--ui-light-accent-color);
+  }
+
+  &__text {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    background: var(--ui-light-accent-color);
+  }
+}
+
+.link {
+  text-transform: uppercase;
+  font-size: calc(var(--ui-small-size) * 0.9166);
+}
+
+.button {
+  text-transform: uppercase;
+}
