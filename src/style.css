@@ -1,3 +1,65 @@
 @import "wireframe-series-1-partners/src/style.css";
 
 /* start here */
+.section {
+  &__header {
+    margin-bottom: 22px;
+  }
+
+  &__inner {
+    max-width: 1740px;
+  }
+}
+
+.items-wrapper {
+  display: flex;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &--only-logo:last-child {
+    margin-bottom: -30;
+
+    @media (min-width: 992px) {
+      margin-bottom: -30px;
+    }
+  }
+}
+
+.item {
+  flex-basis: 50%;
+  width: 50%;
+  padding: 0 15px;
+  margin: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  outline: none;
+  border: 0;
+
+  @media (min-width: 768px) {
+    flex-basis: 33.33%;
+    width: 33.33%;
+    margin-bottom: 30px;
+  }
+
+  @media (min-width: 1170px) {
+    flex-basis: 16.66%;
+    width: 16.66%;
+  }
+
+  &__picture {
+    min-height: 60px;
+  }
+
+  &__image {
+    width: 100%;
+  }
+}
+
+.item--logo .item__picture-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 170px;
+}
