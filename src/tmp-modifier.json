@@ -1,3 +1,8 @@
 {
-  "some-modifier": true
+  "some-modifier": true,
+  "button": false,
+  "link": false,
+  "body": false,
+  "heading": false,
+  "subtitle": true
 }
