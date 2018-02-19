@@ -11,24 +11,24 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(transparent 20%, rgba(0, 0, 0, 0.65) 60%, rgba(0, 0, 0, 0.95) 100%);
+    background: linear-gradient(transparent 20%, rgba(0, 0, 0, 0.65) 60%, rgba(0, 0, 0, 0.95) 90%);
     z-index: -1;
   }
 
   @media (min-width: 992px) {
     padding-top: 323px;
-    padding-bottom: 117px;
+    padding-bottom: 116px;
   }
 }
 
 .title {
   font-weight: 600;
-  letter-spacing: -1.2px;
+  line-height: 1;
+  letter-spacing: -2.2px;
 
   @media (min-width: 992px) {
     margin-bottom: 40px;
     font-size: calc(var(--ui-block-title-size) * 2);
-    line-height: calc(var(--ui-block-title-line-height) * 0.66);
   }
 }
 
