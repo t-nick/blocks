@@ -67,8 +67,8 @@
       "fontFamily": "'Roboto Slab', serif",
       "fontWeight": 300,
       "color": [
-        "darkShade?lighten=24.3",
-        "lightShade"
+        "darkShade?lighten=33.33",
+        "darkShade?lighten=33.33"
       ]
     },
     "small": {
@@ -77,7 +77,7 @@
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
       "color": [
-        "lightShade?darken=29",
+        "darkShade",
         "lightShade"
       ]
     },
@@ -87,7 +87,7 @@
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
       "color": [
-        "darkShade?lighten=12",
+        "darkShade",
         "lightShade"
       ]
     },
@@ -97,13 +97,13 @@
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
       "color": [
-        "lightShade?darken=29",
+        "darkShade",
         "lightShade"
       ]
     },
     "link": {
       "color": [
-        "lightShade?darken=29",
+        "darkShade",
         "lightShade"
       ],
       "hover": {
