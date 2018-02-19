@@ -3,7 +3,9 @@
 /* start here */
 
 .article {
+  display: flex;
   flex-direction: row-reverse;
+  flex-wrap: wrap;
 
   &__subtitle {
     font-size: var(--ui-subtitle-size);
@@ -11,6 +13,10 @@
     font-weight: var(--ui-subtitle-font-weight);
     letter-spacing: var(--ui-subtitle-letter-spacing);
     line-height: var(--ui-subtitle-line-height);
+  }
+
+  &__content {
+    padding-right: 30px;
   }
 }
 
