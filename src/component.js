@@ -52,6 +52,7 @@ class Block extends React.Component {
               }}
             />
             <Icon bind="icon" className={style.icon} />
+            <Text tagName="p" className={style.item} bind="textCutomColor" />
           </section>
           <section className={classNames(style.column, style.dark, 'ui-kit-dark')}>
             <h1 className={style.visuallyHidden}>Dark</h1>
@@ -92,6 +93,7 @@ class Block extends React.Component {
               }}
             />
             <Icon bind="icon" className={style.icon} />
+            <Text tagName="p" className={style.item} bind="textCutomColor" />
           </section>
         </div>
       </section>
@@ -293,7 +295,12 @@ Block.defaultContent = {
   },
   icon: {
     svg: '<svg viewBox="0 0 25 16" id="icon-logo-ico" width="100%" height="100%"><path d="M22.48 1.054L5.808 12.977 3.245 4.833l3.055 2.1c.437.297 1.02.262 1.416-.083l4.803-4.186 2.45 2.072 1.93-1.374L13.256.274A1.162 1.162 0 0 0 11.75.28l-4.88 4.255-5.06-3.475a1.162 1.162 0 0 0-1.34.014c-.396.29-.563.801-.417 1.271l4.026 12.828a1.161 1.161 0 0 0 1.777.594L21.231 4.771l-2.103 8.179-3.415-2.356-1.986 1.423 5.456 3.758c.306.214.701.262 1.056.131.354-.13.617-.428.715-.787L24.25 2.284c.118-.463-.07-.96-.465-1.23a1.18 1.18 0 0 0-1.305 0z"></path></svg>',
-    fill: 'light-shade-color?darken=20',
+    fill: 'brand-color?spin=200',
+  },
+  textCutomColor: {
+    content: 'TEXT WITH CUSTOM COLOR',
+    type: 'headingLg',
+    color: 'brand-color?spin=100',
   },
 }
 
