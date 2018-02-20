@@ -1,3 +1,22 @@
 @import "wireframe-zapdos-services/src/style.css";
 
 /* start here */
+
+.article {
+  text-align: center;
+
+  &__title {
+    font-weight: 700;
+  }
+
+  &__link {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: var(--ui-small-size);
+  }
+}
+
+.button {
+  text-transform: uppercase;
+  font-weight: 700;
+}
