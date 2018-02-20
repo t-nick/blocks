@@ -19,9 +19,13 @@ ExtendedWireframe.defaultContent = {
     },
     resourceRef: 'layer-204.jpg',
     overlay: {
-      type: 'color',
-      color: 'var(--ui-dark-shade-color)',
-      opacity: 0.25,
+      type: 'gradient',
+      gradient: {
+        angle: 180,
+        firstColor: 'transparent',
+        secondColor: '#000',
+      },
+      opacity: 1,
     },
   },
   title: {
