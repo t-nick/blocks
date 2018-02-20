@@ -25,7 +25,7 @@ ExtendedWireframe.defaultContent = {
     },
   },
   title: {
-    content: 'Want to Get a Consultation that Can <br/>Help Your Business Grow?',
+    content: 'Want to Get a Consultation that Can Help Your Business Grow?',
     type: 'blockTitle',
   },
   description: {
