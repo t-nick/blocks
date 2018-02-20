@@ -25,11 +25,11 @@ ExtendedWireframe.defaultContent = {
     },
   },
   title: {
-    content: 'We Start the Next Course <br />in December 2017',
+    content: 'We Start the Next Course in December 2017',
     type: 'blockTitle',
   },
   description: {
-    content: 'We’re opening for registration in December for just 10 days, so register<br /> your details and we will start working on your business.',
+    content: 'We’re opening for registration in December for just 10 days, so register your details and we will start working on your business.',
     type: 'text',
   },
   cta: {
