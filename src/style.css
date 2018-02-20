@@ -1,3 +1,21 @@
 @import "wireframe-zapdos-cta/src/style.css";
 
 /* start here */
+
+.section {
+  padding: 322px 0 105px;
+}
+
+.title {
+  max-width: 770px;
+  margin: 0 auto 30px;
+  font-size: calc(var(--ui-block-title-size)*2);
+  font-weight: 700;
+  line-height: var(--ui-hero-title-line-height);
+  letter-spacing: var(--ui-hero-title-letter-spacing);
+}
+
+.button {
+  text-transform: uppercase;
+  font-weight: var(--ui-block-title-font-weight);
+}
