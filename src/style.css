@@ -1,3 +1,16 @@
 @import "wireframe-zapdos-process/src/style.css";
 
 /* start here */
+
+.article__content::before {
+  background-color: transparent;
+}
+
+.article__title {
+  font-size: var(--ui-subheading-size);
+  font-weight: bold;
+}
+
+.text {
+  font-size: var(--ui-subheading-size);
+}
