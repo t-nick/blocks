@@ -1,3 +1,4 @@
 {
-  "some-modifier": true
+  "subtitle": true,
+  "label": false
 }
