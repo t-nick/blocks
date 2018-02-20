@@ -1,5 +1,10 @@
 @import "wireframe-zapdos-cta/src/style.css";
 
+.title {
+  font-weight: calc(var(--ui-block-title-font-weight) + 100);
+  letter-spacing: calc(var(--ui-block-title-letter-spacitng) - 0.9px);
+}
+
 .description {
   font-family: var(--ui-subtitle-font-family);
   font-size: var(--ui-subtitle-size);
