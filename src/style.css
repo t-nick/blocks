@@ -6,7 +6,7 @@
   font-size: calc(var(--ui-hero-title-size)* 2);
   letter-spacing: var(--ui-hero-title-letter-spacing);
   line-height: var(--ui-hero-title-line-height);
-  color: #a7a7a7;
+  color: var(--ui-subtitle-color);
 }
 
 .description {
@@ -15,7 +15,7 @@
   font-size: var(--ui-block-title-size);
   line-height: var(--ui-block-title-line-height);
   letter-spacing: var(--ui-block-title-letter-spacing);
-  color: #252629;
+  color: var(--ui-dark-shade-color);
 }
 
 .button {
