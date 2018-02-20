@@ -11,6 +11,19 @@
 
 .section {
   padding-top: 320px;
+  position: relative;
+  z-index: 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent 20%, rgba(0, 0, 0, 0.65) 60%, rgba(0, 0, 0, 0.95) 90%);
+    z-index: -1;
+  }
 
   &__inner {
 
