@@ -12,7 +12,10 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   theme: 'dark',
-  description: 'When it comes to something as creative as tattoos or piercings, the price tag applies based on every specific size, difficulty, and colors of any given body artwork piece.',
+  subtitle: {
+    content: 'When it comes to something as creative as tattoos or piercings, the price tag applies based on every specific size, difficulty, and colors of any given body artwork piece.',
+    type: 'subtitle',
+  },
   services: [
     {
       id: '900aa334-14f2-4c05-b078-78099a5725e5',
