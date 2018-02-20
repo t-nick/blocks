@@ -1,3 +1,12 @@
 @import "wireframe-zapdos-services/src/style.css";
 
 /* start here */
+.section__header {
+  color: var(--ui-block-title-color);
+  font-size: var(--ui-block-title-size);
+  font-family: var(--ui-block-title-font-family);
+}
+
+.article__picture {
+  padding-top: 100%;
+}
