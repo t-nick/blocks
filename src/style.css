@@ -1,3 +1,58 @@
 @import "wireframe-zapdos-services/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding: 66px 0;
+  }
+
+  &__header {
+    padding-top: 10px;
+  }
+}
+
+.title {
+  font-weight: 700;
+}
+
+.article {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+
+  &:nth-last-of-type(1) {
+    &:first-child {
+
+      @media (min-width: 768px) {
+        flex-basis: 100%;
+        max-width: 100%;
+      }
+
+      @media (min-width: 992px) {
+        flex-basis: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+
+  &__picture {
+    padding-top: 44%;
+
+    &-wrapper {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__text {
+    max-width: 920px;
+    letter-spacing: -0.3px;
+    font-weight: 500;
+    font-family: var(--ui-small-font-family);
+
+    @media (min-width: 992px) {
+      font-size: calc(var(--ui-text-size) * 1.125);
+    }
+  }
+}
