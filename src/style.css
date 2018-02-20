@@ -5,7 +5,8 @@
 
   @media (min-width: 992px) {
     justify-content: flex-end;
-    padding-bottom: 70px;
+    padding-bottom: 3.64%;
+    padding-top: 31.77%;
 
     &--center {
       .section__inner {
