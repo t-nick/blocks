@@ -43,7 +43,7 @@ ExtendedWireframe.defaultContent = {
         },
       },
     },
-    textValue: 'LEARN MORE',
+    textValue: 'Learn more',
     type: 'primary-alt',
     size: 'lg',
   },
