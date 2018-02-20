@@ -11,10 +11,23 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  title: {
+    content: 'Resources',
+    type: 'blockTitle',
+  },
+  text: {
+    content: 'Free resources to grow your business — boost your sales, profits, and productivity!',
+    type: 'text',
+  },
+  picture: {
+    src: 'bg.png',
+    alt: 'Picture about the company',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  button: false,
 }
 
 export default ExtendedWireframe
