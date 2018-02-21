@@ -66,14 +66,18 @@
 .form__item {
   font-family: var(--ui-text-font-family);
   font-weight: 400;
-  font-size: calc(var(--ui-text-size) * 0.88);
+  font-size: 0;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .form__field {
   height: 45px;
   border: 1px solid var(--ui-subtitle-color);
   background-color: transparent;
+  font-size: calc(var(--ui-text-size) * 0.88);
+  text-align: center;
+  color: var(--ui-small-color);
 }
 
 .form__button {
