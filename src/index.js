@@ -145,7 +145,7 @@ ExtendedWireframe.modifierScheme = {
   'button-secondary': {defaultValue: true, label: 'Button', type: 'checkbox'},
   heading: {defaultValue: true, label: 'Service title', type: 'checkbox'},
   link: {defaultValue: true, label: 'Link', type: 'checkbox'},
-  subtitle: {defaultValue: false, label: 'Services description', type: 'checkbox'},
+  subtitle: {defaultValue: true, label: 'Services description', type: 'checkbox'},
   'top-icon': {defaultValue: false, label: 'Top icon decorator', type: 'hidden'},
 }
 

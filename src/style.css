@@ -2,11 +2,36 @@
 
 /* start here */
 .section__header {
-  color: var(--ui-block-title-color);
-  font-size: var(--ui-block-title-size);
   font-family: var(--ui-block-title-font-family);
+  text-align: center;
 }
 
-.article__picture {
-  padding-top: 100%;
+.title {
+  color: var(--ui-block-title-color);
+  font-weight: var(--ui-block-title-font-weight);
+  font-size: var(--ui-block-title-size);
+}
+
+.subtitle {
+  font-size: var(--ui-subtitle-size);
+  font-weight: var(--ui-subtitle-font-weight);
+  max-width: 570px;
+}
+
+.article {
+  &__picture {
+    padding-top: 100%;
+  }
+
+  &__link {
+    display: block;
+  }
+
+  &__title {
+    color: var(--ui-heading-color);
+    font-size: var(--ui-heading-size);
+    font-weight: calc(var(--ui-heading-font-weight)*1.15);
+    text-align: center;
+  }
+
 }
