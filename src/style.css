@@ -12,6 +12,9 @@
 .title {
   margin-bottom: 45px;
   text-transform: uppercase;
+  font-family: var(--ui-block-title-font-family);
+  font-size: var(--ui-block-title-size);
+  color: var(--ui-block-title-color);
 }
 
 .article {
@@ -28,16 +31,20 @@
     &-wrapper {
       order: 1;
       width: 100%;
+      margin-bottom: 25px;
     }
   }
 
   &__title {
     order: 2;
     text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: var(--ui-heading-font-family);
+    color: var(--ui-heading-color);
     font-size: calc(var(--ui-subheading-size) * 0.83);
 
     @media(min-width: 480px) {
-      font-size: var(--ui-heading-size);
+      font-size: var(--ui-subheading-size);
     }
 
     @media(min-width: 768px) {
@@ -45,16 +52,13 @@
     }
 
     @media(min-width: 992px) {
-      font-size: calc(var(--ui-subheading-size) * 0.87);
-    }
-
-    @media(min-width: 1200px) {
-      font-size: var(--ui-heading-size);
+      font-size: var(--ui-subheading-size);
     }
   }
 
   &__meta {
     order: 3;
+    margin-bottom: 18px;
     font-size: calc(var(--ui-text-size) * 0.87);
     font-family: var(--ui-text-font-family);
     color: var(--ui-brand-color);
@@ -82,6 +86,12 @@
 
   &__text {
     order: 4;
+    margin-bottom: 22px;
+    font-family: var(--ui-text-font-family);
+    color: var(--ui-text-color);
+    font-size: var(--ui-text-size);
+    line-height: var(--ui-text-line-height);
+    font-weight: var(--ui-text-font-weight);
   }
 
   &__link {
