@@ -95,7 +95,7 @@ ExtendedWireframe.defaultContent = {
     },
     {
       id: 'fff4b459-6e4f-4645-901e-4c1b1dfhu451',
-      title: 'Harden Walker Finishes His  25 Years Long Career',
+      title: 'Harden Walker Finishes His  25 Years <br> Long Career',
       description:
         'Harden, an incredibly talented and passionate artist, has been…',
       category: ' ',
@@ -121,7 +121,7 @@ ExtendedWireframe.defaultContent = {
     },
     {
       id: 'aeruhj459-6e4f-4645-901e-4c1b1dfhu451',
-      title: 'Welcome Our New Artist, Chris Alcerro!',
+      title: 'Welcome Our New Artist, Chris <br> Alcerro!',
       description:
         'We are pleased to announce that we have a new tattoo artist at R & R.',
       category: ' ',
@@ -147,7 +147,7 @@ ExtendedWireframe.defaultContent = {
     },
     {
       id: 'aeruhj459-6e4f-4645-901e-4c1ghiedu451',
-      title: 'Animal Ink: Exploring The World’s Wildlife',
+      title: 'Animal Ink: Exploring The World’s <br> Wildlife',
       description:
         'This new book is a feast for the eyes and is brimming with inspiration from some of...',
       category: ' ',
