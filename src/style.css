@@ -13,14 +13,18 @@
 
 .article {
   background-color: var(--ui-light-accent-color);
-  padding: 0 25px 40px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 40px;
   display: flex;
 
   &__picture {
     padding-top: 90%;
 
     &-wrapper {
-      margin: 0 -25px 20px;
+      margin-right: -25px;
+      margin-left: -25px;
+      margin-bottom: 20px;
       order: -1;
     }
   }
@@ -53,6 +57,11 @@
       right: 0;
       left: auto;
     }
+  }
+
+  >a {
+    padding-left: 0;
+    text-align: left;
   }
 }
 
