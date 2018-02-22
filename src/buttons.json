@@ -9,26 +9,24 @@
       "padding": "10px 19px",
       "borderRadius": 0,
       "fontSize": "10px",
-      "borderWidth": "1px",
-      "fontWeight": 600
+      "borderWidth": "1px"
     },
     "md": {
       "padding": "12px 29px",
       "borderRadius": 0,
       "fontSize": "11px",
-      "borderWidth": "1px",
-      "fontWeight": 600
+      "borderWidth": "1px"
     },
     "lg": {
       "padding": "22px 29px",
       "borderRadius": 0,
       "fontSize": "11px",
-      "borderWidth": "1px",
-      "fontWeight": 600
+      "borderWidth": "1px"
     }
   },
   "settings": {
     "primary": {
+      "fontWeight": 600,
       "default": {
         "color": [
           "lightShade?lighten=1.37"
@@ -91,6 +89,7 @@
       }
     },
     "primaryAlt": {
+      "fontWeight": 600,
       "default": {
         "color": [
           "lightShade?lighten=1.37"
@@ -153,6 +152,7 @@
       }
     },
     "secondary": {
+      "fontWeight": 600,
       "default": {
         "color": [
           "darkShade?lighten=32.75",
@@ -222,6 +222,7 @@
       }
     },
     "secondaryAlt": {
+      "fontWeight": 600,
       "default": {
         "color": [
           "darkShade?lighten=32.75",
