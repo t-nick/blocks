@@ -7,39 +7,12 @@
     justify-content: flex-end;
     padding-bottom: 3.64%;
     padding-top: 31.77%;
-
-    &--center {
-      .section__inner {
-        align-items: center;
-      }
-
-      .title {
-        text-align: center;
-      }
-
-      .subtitle {
-        text-align: center;
-      }
-    }
-
-    &--right {
-      .section__inner {
-        align-items: flex-end;
-      }
-
-      .title {
-        text-align: right;
-      }
-
-      .subtitle {
-        text-align: right;
-      }
-    }
   }
 
   &__inner {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -60,6 +33,9 @@
   @media (min-width: 992px) {
     max-width: 530px;
     padding: 0;
+  }
+
+  @media (min-width: 768px) {
     font-size: var(--ui-subtitle-size);
   }
 }
