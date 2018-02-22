@@ -26,8 +26,8 @@
   },
   "settings": {
     "primary": {
-      "fontWeight": 600,
       "default": {
+        "fontWeight": 600,
         "color": [
           "lightShade?lighten=1.37"
         ],
@@ -89,8 +89,8 @@
       }
     },
     "primaryAlt": {
-      "fontWeight": 600,
       "default": {
+        "fontWeight": 600,
         "color": [
           "lightShade?lighten=1.37"
         ],
@@ -152,8 +152,8 @@
       }
     },
     "secondary": {
-      "fontWeight": 600,
       "default": {
+        "fontWeight": 600,
         "color": [
           "darkShade?lighten=32.75",
           "lightShade?lighten=1.37"
@@ -222,8 +222,8 @@
       }
     },
     "secondaryAlt": {
-      "fontWeight": 600,
       "default": {
+        "fontWeight": 600,
         "color": [
           "darkShade?lighten=32.75",
           "lightShade?lighten=1.37"
