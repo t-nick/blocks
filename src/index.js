@@ -11,7 +11,7 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
-
+  theme: 'dark',
   background: {
     type: 'image',
     position: {
@@ -19,156 +19,51 @@ ExtendedWireframe.defaultContent = {
       cover: '50% 50%',
     },
     resourceRef: 'bg.png',
-  },
-  title: {
-    content: 'Partners',
-    type: 'blockTitle',
+    overlay: {
+      type: 'color',
+      color: 'brand-color',
+      opacity: 0.92,
+    },
   },
   subtitle: {
-    content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     type: 'subtitle',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
   partners: [
     {
       picture: {
+        ...Component.defaultContent.partners[0].picture,
         resourceRef: '1.png',
-        alt: 'Samsung logo',
-        size: {'min-width: 320px': 90, 'min-width: 992px': 130},
-      },
-      title: {
-        content: 'Samsung',
-        type: 'heading',
-      },
-      desc: {
-        content: 'Back in 1995, we started cooperation with this brand. Samsung became our main supplier of high-quality tech products. Today, Samsung is our main partner who supports each initiative and actively participates in company development.',
-        type: 'text',
-      },
-      button: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Partner’s website',
-        type: 'link',
       },
     },
     {
       picture: {
+        ...Component.defaultContent.partners[1].picture,
         resourceRef: '2.png',
-        alt: 'Ford logo',
-        size: {'min-width: 320px': 90, 'min-width: 992px': 130},
-      },
-      title: {
-        content: 'Ford ',
-        type: 'heading',
-      },
-      desc: {
-        content: 'The company that has always put reliability first. We started to work with Ford in 2002, and now this is one of the partners who’ve been with us for more than 15 years! We believe that this partnership is one of the achievements we can be proud of.',
-        type: 'text',
-      },
-      button: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Partner’s website',
-        type: 'link',
       },
     },
     {
       picture: {
+        ...Component.defaultContent.partners[2].picture,
         resourceRef: '3.png',
-        alt: 'Medical Family logo',
-        size: {'min-width: 320px': 90, 'min-width: 992px': 130},
-      },
-      title: {
-        content: 'Medical Family',
-        type: 'heading',
-      },
-      desc: {
-        content: 'Health of our team members is a top priority for us. Therefore, we work with the best clinics only, like Medical Family. We entrust our health to them and we entrust our business as well.',
-        type: 'text',
-      },
-      button: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Partner’s website',
-        type: 'link',
       },
     },
     {
       picture: {
+        ...Component.defaultContent.partners[3].picture,
         resourceRef: '4.png',
-        alt: 'Coffee Break Now',
-        size: {'min-width: 320px': 90, 'min-width: 992px': 130},
-      },
-      title: {
-        content: 'Coffee Break Now',
-        type: 'heading',
-      },
-      desc: {
-        content: 'Coffee and cakes won’t sell themselves. Whenever we are hungry or just need to restore energy, Coffee Break Now saves us. Also, they cater all our events, starting workshops and seminars, and up to everyday meal for our team members.',
-        type: 'text',
-      },
-      button: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Partner’s website',
-        type: 'link',
       },
     },
   ],
-  button: {
-    actionConfig: {
-      action: 'link',
-      actions: {
-        link: {
-          type: '',
-          innerPage: '',
-          url: '',
-        },
-      },
-    },
-    textValue: 'Learn more',
-    type: 'secondary',
-  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
-  subtitle: {defaultValue: false, label: 'Partner description', type: 'checkbox'},
-  heading: {defaultValue: true, label: 'Partner title', type: 'checkbox'},
-  body: {defaultValue: true, label: 'About partner', type: 'checkbox'},
-  link: {defaultValue: true, label: 'Partner link', type: 'checkbox'},
-  button: {defaultValue: true, label: 'Button', type: 'checkbox'},
+  subtitle: {defaultValue: true, label: 'Partner description', type: 'checkbox'},
+  heading: {defaultValue: false, label: 'Partner title', type: 'hidden'},
+  body: {defaultValue: false, label: 'About partner', type: 'hidden'},
+  link: {defaultValue: false, label: 'Partner link', type: 'hidden'},
+  button: {defaultValue: false, label: 'Button', type: 'hidden'},
 }
 
 export default ExtendedWireframe

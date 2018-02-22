@@ -1,36 +1,13 @@
 @import "wireframe-series-1-partners/src/style.css";
 
-.section {
-  position: relative;
-}
-
-.section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--ui-brand-color);
-  opacity: .92;
-}
-
-.section__inner {
-  position: relative;
-}
-
 .section__header {
   margin-bottom: 35px;
 }
 
 .title {
-  font-weight: 600;
-  font-family: var(--ui-block-title-font-family);
-  font-size: var(--ui-block-title-size);
-  letter-spacing: var(--ui-block-title-letter-spacing);
-  line-height: var(--ui-block-title-line-height);
-  color: var(--ui-light-shade-color);
   position: relative;
+  margin-bottom: 45px;
+  font-weight: 600;
 }
 
 .title::before {
@@ -41,76 +18,35 @@
   transform: translateX(-50%);
   width: 45px;
   height: 2px;
-  background: var(--ui-light-shade-color);
+  background-color: var(--ui-block-title-color);
 }
 
 .subtitle {
   font-family: var(--ui-text-font-family);
   font-weight: 400;
-  color: var(--ui-light-shade-color);
-  letter-spacing: var(--ui-subtitle-letter-spacing);
-  line-height: var(--ui-subtitle-line-height);
   max-width: 570px;
-  padding-top: 20px;
 }
 
-.items-wrapper--only-logo:last-child {
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  max-width: 1170px;
-  grid-column-gap: 60px;
-
-  @media screen and (max-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 80px);
-    grid-row-gap: 15px;
-  }
+.items-wrapper {
+  align-content: center;
 }
 
 .item {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  grid-template-columns: 1fr;
-  margin: 0;
-  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
   border: 0;
-}
 
-.item__image {
-  margin: 0 auto;
-  width: inherit;
-  display: block;
-  max-width: 100%;
-  height: 100%;
-}
-
-.item__picture {
-  margin: 0;
-  height: 100%;
-
-  @media screen and (max-width: 992px) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  @media (min-width: 768px) {
+    flex-basis: 25%;
+    width: 25%;
   }
 
-  @media screen and (max-width: 768px) {
-    height: auto;
+  &__picture-wrapper {
+    width: 100%;
+    text-align: center;
   }
 
-}
-
-.item__picture-wrapper {
-  width: 100%;
-  margin: 0;
-  height: 100%;
-
-  @media screen and (max-width: 768px) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  &__image {
+    display: inline-block;
   }
-
 }
