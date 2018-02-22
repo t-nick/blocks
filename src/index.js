@@ -104,7 +104,7 @@ ExtendedWireframe.defaultContent = {
     },
   ],
   title: {
-    content: '8 sales and marketing modules delivered in 9 weeks',
+    content: '8 sales and marketing modules <br> delivered in 9 weeks',
     type: 'blockTitle',
   },
 }
@@ -112,6 +112,7 @@ ExtendedWireframe.defaultContent = {
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   subtitle: {defaultValue: false, label: 'Process description', type: 'checkbox'},
+  button: {defaultValue: false, label: 'Button', type: 'checkbox'},
 }
 
 export default ExtendedWireframe

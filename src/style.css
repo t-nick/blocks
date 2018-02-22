@@ -2,13 +2,25 @@
 
 /* start here */
 
-.article__content::before {
-  background-color: transparent;
+.title {
+  font-weight: bold;
 }
 
-.article__title {
-  font-size: var(--ui-subheading-size);
-  font-weight: bold;
+.article {
+  &__content {
+    padding-left: 46px;
+  }
+
+  &__content::before {
+    background-color: transparent;
+    color: var(--ui-text-color);
+    font-size: var(--ui-heading-size);
+  }
+
+  &__title {
+    font-size: var(--ui-heading-lg-size);
+    font-weight: var(--ui-heading-lg-font-weight);
+  }
 }
 
 .text {
