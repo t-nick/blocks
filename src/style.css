@@ -17,6 +17,8 @@
 .logo__title {
   color: var(--ui-hero-title-color);
   font-size: var(--ui-hero-title-size);
+  font-family: var(--ui-hero-title-font-family);
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -31,6 +33,10 @@
 .footer__bottom {
   border-top: 0;
   margin-top: 60px;
+
+  &::before {
+    content: none;
+  }
 }
 
 .footer__meta {
