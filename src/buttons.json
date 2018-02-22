@@ -92,11 +92,13 @@
       "default": {
         "fontWeight": 600,
         "color": [
-          "lightShade?lighten=1.37"
+          "lightShade?lighten=1.37",
+          "darkShade?lighten=16.27"
         ],
         "bg": {
           "color": [
-            "brand"
+            "darkShade?lighten=16.27",
+            "lightShade?lighten=1.37"
           ]
         },
         "border": {
@@ -112,16 +114,19 @@
       },
       "hover": {
         "color": [
+          "darkShade?lighten=16.27",
           "lightShade?lighten=1.37"
         ],
         "bg": {
           "color": [
-            "brand?darken=16.67"
+            "lightShade?lighten=1.37",
+            "darkShade?lighten=16.27"
           ]
         },
         "border": {
           "color": [
-            "transparent"
+            "darkShade?lighten=16.27",
+            "lightShade?lighten=1.37"
           ]
         },
         "shadow": {
@@ -132,15 +137,18 @@
       },
       "active": {
         "color": [
-          "lightShade?lighten=1.37"
+          "lightShade?lighten=1.37",
+          "darkShade?lighten=16.27"
         ],
         "bg": {
           "color": [
-            "brand"
+            "darkShade?lighten=16.27",
+            "lightShade?lighten=1.37"
           ]
         },
         "border": {
           "color": [
+            "transparent",
             "transparent"
           ]
         },
