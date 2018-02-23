@@ -49,7 +49,7 @@ ExtendedWireframe.defaultContent = {
       },
     },
     textValue: 'buy on amazon',
-    type: 'primary-alt',
+    type: 'primary',
     size: 'lg',
   },
 
