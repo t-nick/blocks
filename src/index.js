@@ -26,6 +26,7 @@ ExtendedWireframe.defaultContent = {
         firstColor: 'transparent',
         secondColor: 'var(--ui-dark-shade-color)',
       },
+      opacity: 1,
     },
   },
   title: {
