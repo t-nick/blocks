@@ -233,17 +233,18 @@
       "default": {
         "fontWeight": 600,
         "color": [
-          "darkShade?lighten=32.75",
-          "lightShade?lighten=1.37"
+          "lightShade?lighten=1.37",
+          "darkShade?lighten=16.27"
         ],
         "bg": {
           "color": [
-            "transparent"
+            "darkShade?lighten=16.27",
+            "lightShade?lighten=1.37"
           ]
         },
         "border": {
           "color": [
-            "darkShade?lighten=49.22"
+            "transparent"
           ]
         },
         "shadow": {
@@ -254,19 +255,19 @@
       },
       "hover": {
         "color": [
-          "lightShade?lighten=1.37",
-          "lightShade"
+          "darkShade?lighten=16.27",
+          "lightShade?lighten=1.37"
         ],
         "bg": {
           "color": [
-            "darkShade?lighten=16.27",
-            "lightShade?setAlpha=0.2"
+            "lightShade?lighten=1.37",
+            "darkShade?lighten=16.27"
           ]
         },
         "border": {
           "color": [
-            "transparent",
-            "lightShade?setAlpha=0.2"
+            "darkShade?lighten=16.27",
+            "lightShade?lighten=1.37"
           ]
         },
         "shadow": {
@@ -277,19 +278,19 @@
       },
       "active": {
         "color": [
-          "darkShade?lighten=32.75",
-          "lightShade?lighten=1.37"
+          "lightShade?lighten=1.37",
+          "darkShade?lighten=16.27"
         ],
         "bg": {
           "color": [
-            "transparent",
-            "transparent"
+            "darkShade?lighten=16.27",
+            "lightShade?lighten=1.37"
           ]
         },
         "border": {
           "color": [
-            "darkShade?lighten=49.22",
-            "darkShade?lighten=49.22"
+            "transparent",
+            "transparent"
           ]
         },
         "shadow": {
