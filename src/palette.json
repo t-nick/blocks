@@ -1,10 +1,10 @@
 {
-  "name": "Lightning yellow",
+  "name": "Natu",
   "color": {
     "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
+    "lightAccent": "#ee7b67",
+    "brand": "#2095f4",
+    "darkAccent": "#d944fb",
+    "darkShade": "#323435"
   }
 }
