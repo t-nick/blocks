@@ -3,7 +3,7 @@
 /* start here */
 .title {
   font-size: var(--ui-hero-title-size);
-  letter-spacing: calc(var(--ui-hero-title-letter-spacing)*1.6);
+  letter-spacing: calc(var(--ui-hero-title-letter-spacing) * 1.6);
   line-height: var(--ui-hero-title-line-height);
   font-weight: var(--ui-hero-title-font-weight);
   margin-bottom: 38px;
