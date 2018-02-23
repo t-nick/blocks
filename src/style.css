@@ -62,6 +62,7 @@
   >a {
     padding-left: 0;
     text-align: left;
+    text-transform: uppercase;
   }
 }
 
