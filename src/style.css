@@ -12,11 +12,11 @@
   max-width: 575px;
   margin-right: auto;
   margin-left: auto;
+  font-weight: 600;
   font-size: calc(var(--ui-block-title-size) * 1.5);
-  font-weight: var(--ui-hero-title-font-weight);
   line-height: var(--ui-hero-title-line-height);
   letter-spacing: calc(var(--ui-hero-title-letter-spacing) * 1.4);
-  
+
   @media (min-width: 992px) {
     max-width: 100%;
     margin-bottom: 38px;
@@ -28,9 +28,9 @@
   max-width: 640px;
   margin-right: auto;
   margin-left: auto;
+  font-weight: 500;
   font-family: var(--ui-subtitle-font-family);
   font-size: var(--ui-subtitle-size);
-  font-weight: var(--ui-subtitle-font-weight);
   line-height: var(--ui-subtitle-line-height);
   letter-spacing: -0.3px;
 }

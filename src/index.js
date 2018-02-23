@@ -23,7 +23,7 @@ ExtendedWireframe.defaultContent = {
       gradient: {
         angle: 180,
         firstColor: 'transparent',
-        secondColor: '#000',
+        secondColor: 'var(--ui-dark-shade-color)',
       },
       opacity: 1,
     },
