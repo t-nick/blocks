@@ -48,7 +48,7 @@ ExtendedWireframe.defaultContent = {
       },
     },
     textValue: 'Subscribe',
-    type: 'primary-alt',
+    type: 'primary',
     size: 'lg',
   },
 }
