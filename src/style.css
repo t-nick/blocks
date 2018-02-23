@@ -3,7 +3,7 @@
 .title {
   font-weight: var(--ui-hero-title-font-weight);
   font-family: var(--ui-hero-title-font-family);
-  font-size: calc(var(--ui-hero-title-size)* 2);
+  font-size: calc(var(--ui-hero-title-size) * 2);
   letter-spacing: var(--ui-hero-title-letter-spacing);
   line-height: var(--ui-hero-title-line-height);
   color: var(--ui-subtitle-color);
