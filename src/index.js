@@ -44,12 +44,14 @@ ExtendedWireframe.defaultContent = {
       picture: {
         ...Component.defaultContent.partners[2].picture,
         resourceRef: '3.png',
+        size: {'min-width: 320px': 150, 'min-width: 992px': 250},
       },
     },
     {
       picture: {
         ...Component.defaultContent.partners[3].picture,
         resourceRef: '4.png',
+        size: {'min-width: 320px': 150, 'min-width: 992px': 250},
       },
     },
   ],
