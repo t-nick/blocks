@@ -30,12 +30,14 @@ ExtendedWireframe.defaultContent = {
       picture: {
         ...Component.defaultContent.partners[0].picture,
         resourceRef: '1.png',
+        size: {'min-width: 320px': 150, 'min-width: 992px': 250},
       },
     },
     {
       picture: {
         ...Component.defaultContent.partners[1].picture,
         resourceRef: '2.png',
+        size: {'min-width: 320px': 150, 'min-width: 992px': 250},
       },
     },
     {
