@@ -12,11 +12,11 @@
   max-width: 575px;
   margin-right: auto;
   margin-left: auto;
+  font-weight: 600;
   font-size: calc(var(--ui-block-title-size) * 1.5);
-  font-weight: var(--ui-hero-title-font-weight);
   line-height: var(--ui-hero-title-line-height);
   letter-spacing: calc(var(--ui-hero-title-letter-spacing) * 1.7);
-  
+
   @media (min-width: 992px) {
     max-width: 770px;
     margin-bottom: 38px;
