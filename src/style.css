@@ -19,9 +19,5 @@
 }
 
 .button {
-  font-weight: var(--ui-caption-font-weight);
-  font-family: var(--ui-caption-font-family);
-  font-size: var(--ui-caption-size);
-  color: var(--ui-light-shade-color);
   text-transform: uppercase;
 }
