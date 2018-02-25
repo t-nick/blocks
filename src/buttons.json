@@ -2,7 +2,8 @@
   "name": "Rubick's Leaves",
   "general": {
     "fontFamily": "'Montserrat', sans-serif",
-    "borderWidth": "1px"
+    "borderWidth": "1px",
+    "textTransform": "uppercase"
   },
   "size": {
     "sm": {
