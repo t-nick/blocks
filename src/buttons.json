@@ -1,97 +1,126 @@
 {
-  "name": "Mantyke",
+  "name": "Klink",
   "general": {
-    "fontFamily": "'Merriweather', sans-serif",
-    "borderWidth": "1px",
-    "textTransform": "uppercase"
+    "fontFamily": "'Open Sans', sans-serif",
+    "borderWidth": "2px",
+    "textTransform": "uppercase",
+    "letterSpacing": 0.3
   },
   "size": {
     "sm": {
-      "padding": "8.5px 21px",
-      "borderRadius": "17px",
+      "padding": "13.5px 40px",
+      "borderRadius": "23px",
       "fontSize": "11px"
     },
     "md": {
-      "padding": "10.5px 33px",
-      "borderRadius": "19px",
-      "fontSize": "11px"
+      "padding": "16px 49px",
+      "borderRadius": "25px",
+      "fontSize": "13px"
     },
     "lg": {
-      "padding": "20.5px 31px",
-      "borderRadius": "29px",
-      "fontSize": "11px"
+      "padding": "18px 69px",
+      "borderRadius": "27px",
+      "fontSize": "13px"
     }
   },
   "settings": {
     "primary": {
       "default": {
+        "fontWeight": 600,
         "bg": {
-          "color": ["brand"]
+          "color": ["brand"],
+          "gradient": {
+            "angle": "90deg",
+            "colors": [
+              [
+                "brand",
+                "darkAccent"
+              ]
+            ]
+          }
         },
         "color": ["lightShade"],
         "border": {
           "color": ["transparent"]
+        },
+        "shadow": {
+          "x": 0,
+          "y": "10px",
+          "blur": "23.8px",
+          "spread": "1.2px",
+          "color": [
+            "brand?setAlpha=0.3",
+            "brand?setAlpha=0.5"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand?darken=9.8&desaturate=7.37"]
+          "color": ["brand"],
+          "gradient": {
+            "angle": "90deg",
+            "colors": [
+              [
+                "brand?darken=10.98&desaturate=16.33",
+                "darkAccent?darken=12.35&desaturate=26.38"
+              ]
+            ]
+          }
         }
       }
     },
     "primaryAlt": {
       "default": {
+        "fontWeight": 600,
         "bg": {
-          "color": ["brand"]
+          "color": ["brand", "lightShade"]
         },
-        "color": ["lightShade"],
+        "color": ["lightShade", "darkShade?lighten=28.24&desaturate=2.6&spin=355"],
         "border": {
           "color": ["transparent"]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand?darken=9.8&desaturate=7.37"]
-        }
+          "color": ["darkAccent"]
+        },
+        "color": [
+          "lightShade", "brand"
+        ]
       }
     },
     "secondary": {
       "default": {
+        "fontWeight": 600,
         "bg": {
           "color": ["transparent"]
         },
-        "color": ["darkShade", "lightShade"],
+        "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade"],
         "border": {
-          "color": ["lightShade?darken=20", "darkShade?lighten=16.27&saturate=0.33"]
+          "color": ["brand"]
         }
       },
       "hover": {
-        "color": ["lightShade"],
-        "bg": {
-          "color": ["darkShade?lighten=16.27&saturate=0.33", "darkShade?lighten=16.27&saturate=0.33"]
-        },
         "border": {
-          "color": ["transparent", "transparent"]
+          "color": ["brand?darken=10.98&desaturate=16.33"]
         }
       }
     },
     "secondaryAlt": {
       "default": {
+        "fontWeight": 600,
         "bg": {
           "color": ["transparent"]
         },
-        "color": ["darkShade", "lightShade"],
+        "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade"],
         "border": {
-          "color": ["lightShade?darken=20", "darkShade?lighten=16.27&saturate=0.33"]
+          "color": ["brand", "lightShade"]
         }
       },
       "hover": {
-        "color": ["lightShade"],
-        "bg": {
-          "color": ["darkShade?lighten=16.27&saturate=0.33", "darkShade?lighten=16.27&saturate=0.33"]
-        },
+        "color": ["lightShade", "darkShade"],
         "border": {
-          "color": ["transparent", "transparent"]
+          "color": ["brand?darken=10.98&desaturate=16.33", "transparent"]
         }
       }
     }

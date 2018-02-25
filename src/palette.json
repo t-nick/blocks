@@ -1,10 +1,10 @@
 {
-  "name": "Mantyke",
+  "name": "Klink",
   "color": {
     "lightShade": "#fff",
-    "lightAccent": "#28a8e3",
-    "brand": "#28a8e3",
-    "darkAccent": "#28a8e3",
-    "darkShade": "#202222"
+    "lightAccent": "#4b4fe9",
+    "brand": "#1e61f9",
+    "darkAccent": "#4b4fe9",
+    "darkShade": "#222328"
   }
 }
