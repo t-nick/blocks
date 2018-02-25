@@ -1,0 +1,82 @@
+{
+  "name": "Klink",
+  "settings": {
+    "heroTitle": {
+      "size": "90px",
+      "lineHeight": 1.11,
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontWeight": 400,
+      "color": ["darkShade", "lightShade"]
+    },
+    "blockTitle": {
+      "size": "50px",
+      "lineHeight": 1.2,
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontWeight": 400,
+      "color": ["darkShade", "lightShade"]
+    },
+    "subtitle": {
+      "size": "17px",
+      "lineHeight": 1.65,
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontWeight": 400,
+      "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade"]
+    },
+    "headingLg": {
+      "size": "30px",
+      "lineHeight": 1.33,
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontWeight": 400,
+      "color": ["darkAccent", "lightShade"]
+    },
+    "heading": {
+      "size": "21px",
+      "lineHeight": 1.43,
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontWeight": 400,
+      "color": ["darkShade", "lightShade"]
+    },
+    "subheading": {
+      "size": "19px",
+      "lineHeight": 1.58,
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontWeight": 400,
+      "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade"]
+    },
+    "text": {
+      "size": "15px",
+      "lineHeight": 1.73,
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontWeight": 400,
+      "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade"]
+    },
+    "small": {
+      "size": "11px",
+      "lineHeight": 1.82,
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontWeight": 400,
+      "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade?darken=10.2&saturate=30.77&spin=210"]
+    },
+    "quote": {
+      "size": "21px",
+      "lineHeight": 1.43,
+      "fontFamily": "'Poppins', sans-serif",
+      "fontWeight": 400,
+      "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade"],
+      "fontStyle": "italic"
+    },
+    "caption": {
+      "size": "13px",
+      "lineHeight": 1.85,
+      "fontFamily": "'Open Sans', sans-serif",
+      "fontWeight": 400,
+      "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade?darken=10.2&saturate=30.77&spin=210"]
+    },
+    "link": {
+      "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade"],
+      "hover": {
+        "color": ["brand", "brand"]
+      }
+    }
+  }
+}
