@@ -1,10 +1,10 @@
 {
-  "name": "Metapod",
+  "name": "Manectric",
   "color": {
     "lightShade": "#fff",
-    "lightAccent": "#988378",
-    "brand": "#988378",
-    "darkAccent": "#988378",
-    "darkShade": "#27292b"
+    "lightAccent": "#4d56ab",
+    "brand": "#e14454",
+    "darkAccent": "#4d56ab",
+    "darkShade": "#2e3336"
   }
 }
