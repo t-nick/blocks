@@ -1,25 +1,24 @@
 {
-  "name": "Rubick's Leaves",
+  "name": "Metapod",
   "general": {
-    "fontFamily": "'Montserrat', sans-serif",
-    "borderWidth": "1px",
-    "textTransform": "uppercase"
+    "fontFamily": "'Geogia', sans-serif",
+    "borderWidth": "2px"
   },
   "size": {
     "sm": {
-      "padding": "12px 30px",
+      "padding": "6px 17px",
       "borderRadius": 0,
-      "fontSize": "11px"
+      "fontSize": "14px"
     },
     "md": {
-      "padding": "16px 35px",
+      "padding": "16px 19px",
       "borderRadius": 0,
-      "fontSize": "11px"
+      "fontSize": "14px"
     },
     "lg": {
-      "padding": "24px 40px",
+      "padding": "24px 30px",
       "borderRadius": 0,
-      "fontSize": "12px"
+      "fontSize": "16px"
     }
   },
   "settings": {
@@ -34,88 +33,89 @@
         }
       },
       "hover": {
-        "bg": {
-          "color": ["darkAccent"]
+        "border": {
+          "color": ["brand?lighten=13.82&saturate=12.3"]
         }
       },
       "active": {
         "bg": {
-          "color": ["brand"]
+          "color": ["brand?lighten=13.82&saturate=12.3"]
         }
       }
     },
     "primaryAlt": {
       "default": {
         "bg": {
-          "color": ["darkAccent"]
+          "color": ["darkShade", "lightShade"]
         },
-        "color": ["lightShade"],
+        "color": ["lightShade", "darkShade"],
         "border": {
           "color": ["transparent"]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand"]
+          "color": ["brand", "darkShade?lighten=31,76"]
+        },
+        "color": ["lightShade", "lightShade"],
+        "border": {
+          "color": ["darkShade?lighten=31,76", "transparent"]
         }
       },
       "active": {
         "bg": {
-          "color": ["darkAccent"]
+          "color": ["darkShade?lighten=15.88&desaturate=0.58&spin=356"]
+        },
+        "border": {
+          "color": ["transparent", "transparent"]
         }
       }
     },
     "secondary": {
       "default": {
         "bg": {
-          "color": ["lightAccent?darken=2.35", "darkShade?lighten=40.39&desaturate=4"]
+          "color": ["transparent"]
         },
         "color": ["darkShade", "lightShade"],
         "border": {
-          "color": ["transparent"]
+          "color": ["brand?lighten=28.82&saturate=44.8&spin=1", "lightShade"]
         }
       },
       "hover": {
-        "bg": {
-          "color": ["transparent", "transparent"]
-        },
         "border": {
-          "color": ["lightAccent?darken=11.76"]
+          "color": ["brand?lighten=13.82&saturate=12.3", "brand?lighten=28.82&saturate=44.8&spin=1"]
         }
       },
       "active": {
-        "bg": {
-          "color": ["lightAccent?darken=2.35", "darkShade?lighten=40.39&desaturate=4"]
-        },
         "border": {
-          "color": ["transparent"]
+          "color": ["brand", "brand"]
         }
       }
     },
     "secondaryAlt": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": ["lightShade?darken=3.92", "transparent"]
         },
         "color": ["darkShade", "lightShade"],
         "border": {
-          "color": ["lightAccent?darken=11.76"]
+          "color": ["transparent", "brand"]
         }
       },
       "hover": {
         "bg": {
-          "color": ["lightAccent?darken=2.35", "darkShade?lighten=40.39&desaturate=4"]
+          "color": ["lightShade?darken=7.84", "transparent"]
         },
         "border": {
-          "color": ["transparent"]
+          "color": ["transparent", "brand?lighten=28.82&saturate=44.8&spin=1"]
         }
       },
       "active": {
         "bg": {
-          "color": ["transparent", "transparent"]
+          "color": ["lightShade", "transparent"]
         },
         "border": {
-          "color": ["lightAccent?darken=11.76"]
+          "color": ["transparent", "brand"]
         }
       }
     }

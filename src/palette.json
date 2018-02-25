@@ -1,10 +1,10 @@
 {
-  "name": "Descent green",
+  "name": "Metapod",
   "color": {
     "lightShade": "#fff",
-    "lightAccent": "#f8f8f8",
-    "brand": "#31d457",
-    "darkAccent": "#27a946",
-    "darkShade": "#18181a"
+    "lightAccent": "#988378",
+    "brand": "#988378",
+    "darkAccent": "#988378",
+    "darkShade": "#27292b"
   }
 }
