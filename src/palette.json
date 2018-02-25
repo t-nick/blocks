@@ -1,10 +1,10 @@
 {
-  "name": "Manectric",
+  "name": "Mantyke",
   "color": {
     "lightShade": "#fff",
-    "lightAccent": "#4d56ab",
-    "brand": "#e14454",
-    "darkAccent": "#4d56ab",
-    "darkShade": "#2e3336"
+    "lightAccent": "#28a8e3",
+    "brand": "#28a8e3",
+    "darkAccent": "#28a8e3",
+    "darkShade": "#202222"
   }
 }

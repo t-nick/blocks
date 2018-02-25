@@ -1,80 +1,81 @@
 {
-  "name": "Manectric",
+  "name": "Mantyke",
   "settings": {
     "heroTitle": {
-      "size": "98px",
-      "lineHeight": 0.92,
-      "fontFamily": "'Lato', sans-serif",
+      "size": "120px",
+      "lineHeight": 1.08,
+      "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 700,
       "color": ["darkShade", "lightShade"]
     },
     "blockTitle": {
-      "size": "14px",
-      "lineHeight": 1.79,
-      "fontFamily": "'Lato', sans-serif",
+      "size": "35px",
+      "lineHeight": 1.29,
+      "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 700,
-      "color": ["darkShade?lighten=30.78&saturate=1.09&spin=358", "lightShade"]
+      "color": ["darkShade", "lightShade"]
     },
     "subtitle": {
       "size": "20px",
       "lineHeight": 1.5,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 300,
+      "fontFamily": "'Montserrat', sans-serif",
+      "fontWeight": 400,
       "color": ["darkAccent", "lightShade"]
     },
     "headingLg": {
-      "size": "22px",
-      "lineHeight": 1.36,
-      "fontFamily": "'Lato', sans-serif",
+      "size": "32px",
+      "lineHeight": 1.31,
+      "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 700,
-      "color": ["darkShade", "lightShade"]
+      "color": ["darkAccent", "lightShade"]
     },
     "heading": {
-      "size": "22px",
-      "lineHeight": 1.36,
-      "fontFamily": "'Lato', sans-serif",
+      "size": "26px",
+      "lineHeight": 1.38,
+      "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 700,
       "color": ["darkShade", "lightShade"]
     },
     "subheading": {
-      "size": "20px",
-      "lineHeight": 1.5,
-      "fontFamily": "'Lato', sans-serif",
+      "size": "22px",
+      "lineHeight": 1.45,
+      "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 300,
       "color": ["darkAccent", "lightShade"]
     },
     "text": {
       "size": "16px",
-      "lineHeight": 1.5,
-      "fontFamily": "'Lato', sans-serif",
+      "lineHeight": 1.56,
+      "fontFamily": "'Merriweather', sans-serif",
       "fontWeight": 300,
       "color": ["darkShade", "lightShade"]
     },
     "small": {
-      "size": "12px",
-      "lineHeight": 2,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=30.78&saturate=0.3", "lightShade"]
-    },
-    "quote": {
-      "size": "16px",
-      "lineHeight": 1.5,
-      "fontFamily": "'Lato', sans-serif",
+      "size": "11px",
+      "lineHeight": 1.82,
+      "fontFamily": "'Merriweather', sans-serif",
       "fontWeight": 300,
       "color": ["darkShade", "lightShade"]
     },
+    "quote": {
+      "size": "18px",
+      "lineHeight": 1.56,
+      "fontFamily": "'Montserrat', sans-serif",
+      "fontWeight": 300,
+      "color": ["darkShade", "lightShade"],
+      "fontStyle": "italic"
+    },
     "caption": {
-      "size": "16px",
-      "lineHeight": 1.5,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=30.78&saturate=0.3", "lightShade"]
+      "size": "11px",
+      "lineHeight": 1.82,
+      "fontFamily": "'Merriweather', sans-serif",
+      "fontWeight": 300,
+      "color": ["darkShade", "lightShade"]
     },
     "link": {
-      "color": ["darkAccent", "lightShade"],
+      "color": ["brand"],
       "hover": {
-        "color": ["darkAccent", "lightShade"]
+        "color": ["darkShade", "lightShade"]
       }
     }
   }

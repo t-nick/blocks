@@ -1,24 +1,25 @@
 {
-  "name": "Manectric",
+  "name": "Mantyke",
   "general": {
-    "fontFamily": "'Lato', sans-serif",
-    "borderWidth": "1px"
+    "fontFamily": "'Merriweather', sans-serif",
+    "borderWidth": "1px",
+    "textTransform": "uppercase"
   },
   "size": {
     "sm": {
-      "padding": "6.5px 16px",
-      "borderRadius": "4px",
-      "fontSize": "14px"
+      "padding": "8.5px 21px",
+      "borderRadius": "17px",
+      "fontSize": "11px"
     },
     "md": {
-      "padding": "9.5px 20px",
-      "borderRadius": "4px",
-      "fontSize": "14px"
+      "padding": "10.5px 33px",
+      "borderRadius": "19px",
+      "fontSize": "11px"
     },
     "lg": {
-      "padding": "15px 30px",
-      "borderRadius": "4px",
-      "fontSize": "16px"
+      "padding": "20.5px 31px",
+      "borderRadius": "29px",
+      "fontSize": "11px"
     }
   },
   "settings": {
@@ -34,40 +35,23 @@
       },
       "hover": {
         "bg": {
-          "color": ["brand?darken=10.89&desaturate=18.76"]
-        }
-      },
-      "active": {
-        "bg": {
-          "color": ["brand"]
-        },
-        "border": {
-          "color": ["brand?setAlpha=0.78"]
+          "color": ["brand?darken=9.8&desaturate=7.37"]
         }
       }
     },
     "primaryAlt": {
       "default": {
         "bg": {
-          "color": ["darkAccent", "lightShade"]
+          "color": ["brand"]
         },
-        "color": ["lightShade", "darkShade"],
+        "color": ["lightShade"],
         "border": {
           "color": ["transparent"]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand?darken=12.16&desaturate=0.27", "darkShade?lighten=15.29&desaturate=0.13"]
-        },
-        "color": ["lightShade", "lightShade"]
-      },
-      "active": {
-        "bg": {
-          "color": ["brand"]
-        },
-        "border": {
-          "color": ["brand?setAlpha=0.78", "darkShade?lighten=15.29&desaturate=0.13?setAlpha=0.78"]
+          "color": ["brand?darken=9.8&desaturate=7.37"]
         }
       }
     },
@@ -78,41 +62,36 @@
         },
         "color": ["darkShade", "lightShade"],
         "border": {
-          "color": ["darkShade?lighten=44.51&desaturate=7.45&spin=38", "lightShade"]
+          "color": ["lightShade?darken=20", "darkShade?lighten=16.27&saturate=0.33"]
         }
       },
       "hover": {
+        "color": ["lightShade"],
+        "bg": {
+          "color": ["darkShade?lighten=16.27&saturate=0.33", "darkShade?lighten=16.27&saturate=0.33"]
+        },
         "border": {
-          "color": ["brand", "brand"]
-        }
-      },
-      "active": {
-        "border": {
-          "color": ["brand?darken=21.76&desaturate=18.5", "darkShade?lighten=30.78&saturate=0.3"]
+          "color": ["transparent", "transparent"]
         }
       }
     },
     "secondaryAlt": {
       "default": {
         "bg": {
-          "color": ["transparent", "lightShade"]
+          "color": ["transparent"]
         },
-        "color": ["darkShade"],
+        "color": ["darkShade", "lightShade"],
         "border": {
-          "color": ["brand", "transparent"]
+          "color": ["lightShade?darken=20", "darkShade?lighten=16.27&saturate=0.33"]
         }
       },
       "hover": {
+        "color": ["lightShade"],
         "bg": {
-          "color": ["transparent", "transparent"]
+          "color": ["darkShade?lighten=16.27&saturate=0.33", "darkShade?lighten=16.27&saturate=0.33"]
         },
         "border": {
-          "color": ["darkShade?lighten=44.51&desaturate=7.45&spin=38", "transparent"]
-        }
-      },
-      "active": {
-        "border": {
-          "color": ["darkSHade", "lightShade"]
+          "color": ["transparent", "transparent"]
         }
       }
     }
