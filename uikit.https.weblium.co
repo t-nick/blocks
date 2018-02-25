@@ -1,0 +1,21 @@
+{
+  "palette": {
+    "id": "5a9311e28e75e20019fe28d9",
+    "src": "palette.json",
+    "__v": 1
+  },
+  "typography": {
+    "id": "5a9311e28e75e20019fe28da",
+    "src": "typography.json",
+    "__v": 1
+  },
+  "button": {
+    "id": "5a9311e28e75e20019fe28db",
+    "src": "buttons.json",
+    "__v": 1
+  },
+  "template": {
+    "id": "5a9311fa8e75e20019fe28dc",
+    "__v": 0
+  }
+}
