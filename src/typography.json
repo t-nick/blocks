@@ -6,7 +6,7 @@
       "lineHeight": 1,
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 500,
-      "letterSpacing": "-1.2px",
+      "letterSpacing": -1.2,
       "color": ["darkShade", "lightShade"]
     },
     "blockTitle": {
@@ -14,7 +14,7 @@
       "lineHeight": 1.5,
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 500,
-      "letterSpacitng": "-0.6px",
+      "letterSpacing": 0.6,
       "color": ["darkShade", "lightShade"]
     },
     "subtitle": {
@@ -22,7 +22,7 @@
       "lineHeight": 1.67,
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
-      "letterSpacitng": "-0.4px",
+      "letterSpacing": 0.4,
       "color": ["darkShade?lighten=40.39&desaturate=4"]
     },
     "headingLg": {
@@ -37,7 +37,7 @@
       "lineHeight": 1.5,
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
-      "letterSpacitng": "-0.4px",
+      "letterSpacing": 0.4,
       "color": ["darkShade", "lightShade"]
     },
     "subheading": {
@@ -45,7 +45,7 @@
       "lineHeight": 1.65,
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
-      "letterSpacitng": "-0.3px",
+      "letterSpacing": 0.3,
       "color": ["darkShade?lighten=20.9", "lightShade"]
     },
     "text": {
