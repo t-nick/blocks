@@ -4,7 +4,7 @@
     "fontFamily": "'Open Sans', sans-serif",
     "borderWidth": "2px",
     "textTransform": "uppercase",
-    "letterSpacing": 0.3
+    "letterSpacing": "0.3px"
   },
   "size": {
     "sm": {
