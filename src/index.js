@@ -26,7 +26,8 @@ ExtendedWireframe.defaultContent = {
       id: 'a2479bf5-0f0a-4bda-9f47-1d804ef11b60',
     },
     {
-      title: 'It had no pictures or conversations in it, \'and what is the use of a book,\'  thought Alice  \'without pictures or conversation?\'',
+      title:
+        "It had no pictures or conversations in it, 'and what is the use of a book,'  thought Alice  'without pictures or conversation?'",
       description:
         'Our Bakery is a fast-growing company committed to hiring the best bakers, cake decorators, sales and support staff. We are expanding every day due to the hard work and dedication of each and every staff member. This is a dedicated team that strives to achieve the impossible with every cake design and project bigger and better than the last',
       id: 'a2479bf5-0f0a-4bda-9f47-1d804ef11b61',
@@ -42,8 +43,8 @@ ExtendedWireframe.defaultContent = {
   description:
     'Our Company is the world’s leading manufacturer. We are also a leading financial services provider.',
   cta: {
-    type: '',
-    size: '',
+    type: 'secondary',
+    size: 'md',
     actionConfig: {
       action: 'link',
       actions: {
