@@ -22,7 +22,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: 'Due to the shifting demand and high pressure of the rival business environment nowadays, <br> I offer my clients a coaching program that can help ease this pressure, as well as improve the managers\' required skills and strategies to lead their organizations to the highest level of success.',
+        content:
+          "Due to the shifting demand and high pressure of the rival business environment nowadays, <br> I offer my clients a coaching program that can help ease this pressure, as well as improve the managers' required skills and strategies to lead their organizations to the highest level of success.",
         type: 'text',
       },
       picture: {
