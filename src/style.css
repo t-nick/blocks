@@ -7,6 +7,10 @@
   }
 }
 
+.title {
+  font-weight: 600;
+}
+
 .items-wrapper {
   display: flex;
   margin: 0 -15px;
