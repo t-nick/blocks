@@ -1,3 +1,52 @@
-@import "wireframe-default-master/src/style.css";
+@import "wireframe-zapdos-blog/src/style.css";
 
 /* start here */
+
+.section__inner {
+  max-width: none;
+}
+
+.title {
+  font-size: var(--ui-block-title-size);
+  font-family: var(--ui-block-title-font-family);
+  font-weight: var(--ui-block-title-font-weight);
+  letter-spacing: var(--ui-block-title-letter-spacitng);
+  line-height: var(--ui-block-title-line-height);
+}
+
+.article {
+  padding: 0;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+
+  &__picture-wrapper {
+    order: 1;
+  }
+
+  &__meta {
+    text-transform: uppercase;
+    order: 3;
+  }
+
+  &__title {
+    order: 2;
+  }
+
+  &__text {
+    padding: 0 15px;
+    max-width: 690px;
+    margin: 0 auto 20px;
+    order: 4;
+  }
+
+  &__link {
+    text-transform: uppercase;
+    font-size: calc(var(--ui-small-size) * 0.9166);
+    order: 5;
+  }
+}
+
+.button {
+  text-transform: uppercase;
+}
