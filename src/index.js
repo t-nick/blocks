@@ -16,7 +16,8 @@ ExtendedWireframe.defaultContent = {
     type: 'blockTitle',
   },
   text: {
-    content: 'Roy Hale is a progressive business keynote speaker who fascinates audiences with interactive, no fluff, high-value content. Born in San Francisco to become an accidental Millionaire by the age 29, Roy motivates ordinary entrepreneurs to make an exceptional impact.',
+    content:
+      'Roy Hale is a progressive business keynote speaker who fascinates audiences with interactive, no fluff, high-value content. Born in San Francisco to become an accidental Millionaire by the age 29, Roy motivates ordinary entrepreneurs to make an exceptional impact.',
     type: 'text',
   },
   picture: {
