@@ -18,7 +18,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: 'Study a new, drastically rational model for money and take under control your money earning.',
+        content:
+          'Study a new, drastically rational model for money and take under control your money earning.',
         type: 'text',
       },
     },
@@ -28,7 +29,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: 'Draw your values into your messaging, branding, customer service, and operations to stand out from the crowd.',
+        content:
+          'Draw your values into your messaging, branding, customer service, and operations to stand out from the crowd.',
         type: 'text',
       },
     },
@@ -38,7 +40,7 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: 'Get inside your ideal clients\' heads to bind your story and their stories.',
+        content: "Get inside your ideal clients' heads to bind your story and their stories.",
         type: 'text',
       },
     },
@@ -48,7 +50,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: 'How to create a booming business, increase your productivity, earn more money, grow, and succeed.',
+        content:
+          'How to create a booming business, increase your productivity, earn more money, grow, and succeed.',
         type: 'text',
       },
     },
@@ -78,7 +81,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: 'Build power, create thorough plans, and deal with oscillating confidence, uncertainty, and change.',
+        content:
+          'Build power, create thorough plans, and deal with oscillating confidence, uncertainty, and change.',
         type: 'text',
       },
     },
@@ -88,7 +92,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: 'Learn how to best control your own objective, competitiveness, expectations, and productivity.',
+        content:
+          'Learn how to best control your own objective, competitiveness, expectations, and productivity.',
         type: 'text',
       },
     },
@@ -98,7 +103,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: 'This week enables you to catch-up on any lessons, experiment, test, iterate, and refine. Or take a rest.',
+        content:
+          'This week enables you to catch-up on any lessons, experiment, test, iterate, and refine. Or take a rest.',
         type: 'text',
       },
     },
