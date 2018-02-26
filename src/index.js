@@ -38,7 +38,8 @@ ExtendedWireframe.defaultContent = {
     },
     {
       description: {
-        content: 'Episode 8: How the community is important to build your private practice with Jason Green',
+        content:
+          'Episode 8: How the community is important to build your private practice with Jason Green',
         type: 'text',
       },
       picture: {
@@ -234,7 +235,8 @@ ExtendedWireframe.defaultContent = {
     type: 'blockTitle',
   },
   subtitle: {
-    content: 'Podcast for entrepreneurs who need some tips and strategies to strengthen their businesses.',
+    content:
+      'Podcast for entrepreneurs who need some tips and strategies to strengthen their businesses.',
     type: 'subtitle',
   },
 }
