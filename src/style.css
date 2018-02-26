@@ -1,24 +1,34 @@
 @import "wireframe-zapdos-services/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 2.588%;
+    padding-bottom: 2.588%;
+  }
+}
+
 .section__header {
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     margin-bottom: 51px;
+    padding-top: 0;
   }
 }
 
 .subtitle {
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     font-size: var(--ui-subtitle-size);
     max-width: 580px;
+    margin-top: 0;
   }
 }
 
 .articles-wrapper {
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     justify-content: space-between;
     max-width: 1170px;
     margin: 0 auto;
@@ -27,21 +37,36 @@
 }
 
 .article {
+  position: relative;
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
+    &::after {
+      display: block;
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: var(--ui-light-shade-color);
+      opacity: 0.05;
+    }
+  }
+
+  @media (min-width: 992px) {
     border: 1px solid #212938;
     padding: 20px;
     flex-basis: 23.07%;
     max-width: 23.07%;
     display: flex;
     flex-direction: column-reverse;
-    background-color: #101a2d;
     margin-top: 0;
+    margin-bottom: 0;
   }
 
   &__picture-wrapper {
 
-    @media (min-width: 768px) {
+    @media (min-width: 992px) {
       margin-bottom: 0;
     }
     position: relative;
@@ -79,7 +104,7 @@
 
 .fake {
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     display: none;
   }
 }
