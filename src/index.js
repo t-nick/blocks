@@ -16,7 +16,8 @@ ExtendedWireframe.defaultContent = {
     type: 'blockTitle',
   },
   text: {
-    content: 'Roy hosts regular workshops on subjects such as business planning and strategy, goal setting & action plans, sales for small businesses, and much more. Check out our workshop calendar or get in touch to register for the next workshop presentation.',
+    content:
+      'Roy hosts regular workshops on subjects such as business planning and strategy, goal setting & action plans, sales for small businesses, and much more. Check out our workshop calendar or get in touch to register for the next workshop presentation.',
     type: 'text',
   },
   picture: {
