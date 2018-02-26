@@ -4,6 +4,7 @@
 
 .title {
   font-weight: var(--ui-block-title-font-weight);
+  margin-bottom: 27px;
 }
 
 .section__inner {
@@ -16,6 +17,8 @@
   display: flex;
 
   &__picture {
+    padding-top: 53%;
+
     &-wrapper {
       order: -1;
     }
@@ -24,7 +27,11 @@
   &__title {
     font-weight: 600;
     order: -1;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
+  }
+
+  &__meta {
+    margin-bottom: 11px;
   }
 
   &__date {
