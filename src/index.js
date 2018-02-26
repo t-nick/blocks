@@ -12,6 +12,7 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   theme: 'dark',
+  background: {type: 'color', color: 'dark-shade-color'},
   title: 'Why Choose Us',
   articles: [
     {
@@ -27,8 +28,7 @@ ExtendedWireframe.defaultContent = {
         resourceRef: 'icon-1.png',
         alt: 'Item icon',
       },
-      description:
-        'Imaginative, experienced & skilled artists',
+      description: 'Imaginative, experienced & skilled artists',
     },
     {
       id: '18ce5632-46d1-4c9e-b249-ca0e37f665c2',
@@ -43,8 +43,7 @@ ExtendedWireframe.defaultContent = {
         resourceRef: 'icon-2.png',
         alt: 'Item icon',
       },
-      description:
-        'Years upon years of successful operation',
+      description: 'Years upon years of successful operation',
     },
     {
       id: '7986b4e0-751f-48f6-8861-5ace080e284b',
@@ -59,8 +58,7 @@ ExtendedWireframe.defaultContent = {
         resourceRef: 'icon-3.png',
         alt: 'Item icon',
       },
-      description:
-        'The most affordable tattoo & piercing parlor',
+      description: 'The most affordable tattoo & piercing parlor',
     },
   ],
 }
