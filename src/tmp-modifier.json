@@ -1,3 +1,10 @@
 {
-  "some-modifier": true
+  "some-modifier": true,
+  "title": true,
+  "subtitle": true,
+  "text": true,
+  "socialIcons": true,
+  "button": true,
+  "article-picture": true,
+  "picture": true
 }
