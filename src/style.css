@@ -27,11 +27,13 @@
     display: block;
   }
 
-  &__title {
-    color: var(--ui-heading-color);
-    font-size: var(--ui-heading-size);
-    font-weight: calc(var(--ui-heading-font-weight)*1.15);
+  &__text {
+    color: var(--ui-dark-shade-color);
+    font-size: calc(var(--ui-text-size)*1.25);
+    font-weight: calc(var(--ui-text-font-weight)*1.667);
+    font-family: var(--ui-hero-title-font-family);
     text-align: center;
+    padding: 0 25px;
   }
 
 }

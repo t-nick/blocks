@@ -102,11 +102,11 @@ ExtendedWireframe.defaultContent = {
     fill: 'red',
   },
   title: {
-    content: 'Services We Provide',
+    content: '“Kickstart Your Business Today” podcast',
     type: 'blockTitle',
   },
   subtitle: {
-    content: 'We deliver all kind of services that support small and micro businesses. Here are some of them:',
+    content: 'Podcast for entrepreneurs who need some tips and strategies to strengthen their businesses.',
     type: 'subtitle',
   },
   'button-1': {
@@ -143,7 +143,7 @@ ExtendedWireframe.modifierScheme = {
   body: {defaultValue: true, label: 'Service main text', type: 'checkbox'},
   'button-primary': {defaultValue: false, label: 'Additional button', type: 'checkbox'},
   'button-secondary': {defaultValue: true, label: 'Button', type: 'checkbox'},
-  heading: {defaultValue: true, label: 'Service title', type: 'checkbox'},
+  heading: {defaultValue: false, label: 'Service title', type: 'checkbox'},
   link: {defaultValue: true, label: 'Link', type: 'checkbox'},
   subtitle: {defaultValue: true, label: 'Services description', type: 'checkbox'},
   'top-icon': {defaultValue: false, label: 'Top icon decorator', type: 'hidden'},
