@@ -13,13 +13,13 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   theme: 'dark',
+  background: {type: 'color', color: 'dark-shade-color'},
   title: 'News',
   blog: [
     {
       id: '21a46d6e-0354-4a96-9af0-928ddae32095',
       title: 'Tattoo Prodigies 2',
-      description:
-        'With so many exciting news happening the last year, we…',
+      description: 'With so many exciting news happening the last year, we…',
       category: ' ',
       date: 'September 11, 2017',
       picture: {
@@ -44,8 +44,7 @@ ExtendedWireframe.defaultContent = {
     {
       id: '41db0c4f-46b3-4835-8e77-062de63d018a',
       title: 'Tattoo Fest 2017',
-      description:
-        'Tattoo Fest 2017 will be the most important industry event in SF this weekend.',
+      description: 'Tattoo Fest 2017 will be the most important industry event in SF this weekend.',
       category: ' ',
       date: 'September 08, 2017',
       picture: {
@@ -71,7 +70,7 @@ ExtendedWireframe.defaultContent = {
       id: 'fff4b459-6e4f-4645-901e-4c1b1aa94e51',
       title: 'Wedding Ring Tattoos',
       description:
-        'Let\'s start with stating the fact, that the finger tattoos are totally a thing now.',
+        "Let's start with stating the fact, that the finger tattoos are totally a thing now.",
       category: ' ',
       date: 'September 06, 2017',
       picture: {
@@ -96,8 +95,7 @@ ExtendedWireframe.defaultContent = {
     {
       id: 'fff4b459-6e4f-4645-901e-4c1b1dfhu451',
       title: 'Harden Walker Finishes His  25 Years <br> Long Career',
-      description:
-        'Harden, an incredibly talented and passionate artist, has been…',
+      description: 'Harden, an incredibly talented and passionate artist, has been…',
       category: ' ',
       date: 'September 4, 2017',
       picture: {
@@ -122,8 +120,7 @@ ExtendedWireframe.defaultContent = {
     {
       id: 'aeruhj459-6e4f-4645-901e-4c1b1dfhu451',
       title: 'Welcome Our New Artist, Chris <br> Alcerro!',
-      description:
-        'We are pleased to announce that we have a new tattoo artist at R & R.',
+      description: 'We are pleased to announce that we have a new tattoo artist at R & R.',
       category: ' ',
       date: 'September 01, 2017',
       picture: {
@@ -174,8 +171,7 @@ ExtendedWireframe.defaultContent = {
     {
       id: '21a46d6e-0354-4a96-9af0-928ddfhdkr95',
       title: 'Cranial Visions Soft Cover  Edition',
-      description:
-        'The book Cranial Visions is now also available in a Softcover Edition!',
+      description: 'The book Cranial Visions is now also available in a Softcover Edition!',
       category: ' ',
       date: 'August 01, 2017',
       picture: {
