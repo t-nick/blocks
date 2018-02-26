@@ -16,7 +16,8 @@ ExtendedWireframe.defaultContent = {
     type: 'blockTitle',
   },
   text: {
-    content: 'If you are ready to new perspectives, if you are dedicated to your self-growth, and you are ready for things to be changed, here is the best way to reach your aspired results.',
+    content:
+      'If you are ready to new perspectives, if you are dedicated to your self-growth, and you are ready for things to be changed, here is the best way to reach your aspired results.',
     type: 'text',
   },
   picture: {
