@@ -34,7 +34,8 @@ ExtendedWireframe.defaultContent = {
     type: 'blockTitle',
   },
   description: {
-    content: 'Take charge of your business, dominate your market, and achieve the kind of effective results that you’ve only dreamed of.',
+    content:
+      'Take charge of your business, dominate your market, and achieve the kind of effective results that you’ve only dreamed of.',
     type: 'text',
   },
   cta: {
@@ -52,7 +53,6 @@ ExtendedWireframe.defaultContent = {
     type: 'primary',
     size: 'lg',
   },
-
 }
 
 ExtendedWireframe.modifierScheme = {
