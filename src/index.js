@@ -13,14 +13,14 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   theme: 'dark',
+  background: {type: 'color', color: 'dark-shade-color'},
   title: 'Company News',
   blog: [
     {
       id: '21a46d6e-0354-4a96-9af0-928ddae32095',
       title: '2nd Parlor Opens in Phoenix!',
-      description:
-        'After 16 years of successful business operations, we’ve…',
-      category: ' ',
+      description: 'After 16 years of successful business operations, we’ve…',
+      category: '',
       date: 'September 11, 2017',
       picture: {
         resourceRef: 'blog_2_home_img1.png',
@@ -46,7 +46,7 @@ ExtendedWireframe.defaultContent = {
       title: 'We’ve Got a New Artist!',
       description:
         'Already featuring a dozen of super talented and creative artists in our team, we’re extremely glad to…',
-      category: ' ',
+      category: '',
       date: 'September 08, 2017',
       picture: {
         resourceRef: 'blog_2_home_img2.png',
@@ -70,9 +70,8 @@ ExtendedWireframe.defaultContent = {
     {
       id: 'fff4b459-6e4f-4645-901e-4c1b1aa94e51',
       title: 'Here’s Our Big Data Stats for the Last Year',
-      description:
-        'Talking about a nice yearly report, we’ve got one for 2016!',
-      category: ' ',
+      description: 'Talking about a nice yearly report, we’ve got one for 2016!',
+      category: '',
       date: 'September 06, 2017',
       picture: {
         resourceRef: 'blog_2_home_img3.png',
