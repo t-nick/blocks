@@ -31,6 +31,7 @@
     line-height: var(--ui-heading-lg-line-height);
     letter-spacing: -0.8px;
     margin-bottom: 18px;
+    color: var(--ui-block-title-color);
   }
 
   &__link {
