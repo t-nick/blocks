@@ -13,6 +13,7 @@ ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   title: 'Works gallery',
   theme: 'dark',
+  background: {type: 'color', color: 'dark-shade-color'},
   gallery: [
     {
       title: 'Quantum CEO & our partners',
