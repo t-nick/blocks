@@ -24,7 +24,8 @@ ExtendedWireframe.defaultContent = {
     type: 'blockTitle',
   },
   subtitle: {
-    content: 'Receive our weekly business coaching useful tips and latest news right into your inbox.',
+    content:
+      'Receive our weekly business coaching useful tips and latest news right into your inbox.',
     type: 'subtitle',
   },
   contactForm: {
