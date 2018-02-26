@@ -12,82 +12,40 @@ class Block extends React.Component {
   getOptionValue = (path, defaultValue = false) =>
     _.getOr(defaultValue, ['options', path], this.props.$block)
 
-  getImageSize = fullWidth =>
-    fullWidth
-      ? {'min-width: 320px': 480, 'min-width: 480px': 768, 'min-width: 768px': 1170}
-      : {'min-width: 320px': 480, 'min-width: 480px': 768, 'min-width: 768px': 570}
-
-  wrapImage = Component => <div className={this.props.style.image__wrapper}>{Component}</div>
-
   render() {
-    const {components: {Text, Image, Button, SocialIcons}, style: css} = this.props
-    const columnLayout = !(
-      this.getModifierValue('title') ||
-      this.getModifierValue('subtitle') ||
-      this.getModifierValue('text') ||
-      this.getModifierValue('socialIcons')
-    )
-    const showButtonGroups = this.getModifierValue('link') || this.getModifierValue('button')
-    const ImageComponent = (
-      <Image
-        pictureClassName={css.article__picture}
-        bind="picture"
-        size={this.getImageSize(columnLayout)}
-      />
-    )
+    const {components: {Text, Counter, Button}, style: css} = this.props
+
     return (
-      <section className={classNames(css.section, {[css['section--column']]: columnLayout})}>
+      <section className={css.section}>
         <div className={css.section__inner}>
-          <article className={css.article}>
-            {this.getOptionValue('image_wrapper')
-              ? this.wrapImage(ImageComponent)
-              : ImageComponent}
-            <div className={css.article__content}>
-              {this.getModifierValue('title') && (
-                <h1 className={css.article__title}>
-                  <Text bind="title" />
-                </h1>
-              )}
-              {this.getModifierValue('subtitle') && (
-                <p className={css.article__subtitle}>
-                  <Text bind="subtitle" />
-                </p>
-              )}
-              {this.getModifierValue('text') && (
-                <p className={css.article__text}>
-                  <Text bind="text" />
-                </p>
-              )}
-              {this.getModifierValue('socialIcons') && (
-                <div className={css.article__socials}>
-                  <h2 className={css['social-title']}>Follow us: </h2>
-                  <SocialIcons bind="socialIcons" />
-                </div>
-              )}
-              {showButtonGroups && (
-                <div className={css['btns-group']}>
-                  {this.getModifierValue('link') && <Button className={css.link} bind="link" />}
-                  {this.getModifierValue('button') && (
-                    <Button
-                      className={classNames(
-                        css.button,
-                        css['button--primary'],
-                        css['button--size-md'],
-                      )}
-                      bind="button"
-                    />
-                  )}
-                </div>
-              )}
+          <Text tagName="h1" className={css.title} bind="title" />
+          <Counter bind="counter">
+            {date => ['days', 'hours', 'seconds', 'minutes'].map((type, index) => (
+              <div className={css.counter__item}>
+                <Text tagName="strong" value={{content: date[type], type: 'blockTitle'}} />
+                {/* <strong className={css.counter__number}>{date[type]}</strong> */}
+                <Text tagName="p" className={css.counter__text} bind={`items[${index}].text`} />
+              </div>))}
+          </Counter>
+          <div className="content">
+            <div className="content__inner">
+              <Text tagName="h2" className="content__title" bind="heading" />
+              <Text tagName="p" className="content__text" bind="subtitle" />
+              <Button
+                buttonClassName="button"
+                linkClassName="link"
+                bind="cta"
+              />
             </div>
-          </article>
+          </div>
         </div>
       </section>
     )
   }
 }
 
-Block.components = _.pick(['Text', 'Image', 'Button', 'SocialIcons'])($editor.components)
+Block.components = _.pick(['Text', 'Counter', 'Button'])($editor.components)
+
 
 Block.defaultContent = {
   title: 'About The Company',
@@ -100,6 +58,36 @@ Block.defaultContent = {
     src: 'https://www.vms.ro/wp-content/uploads/2015/04/mobius-placeholder-2.png',
     alt: 'Picture about the company',
   },
+  counter: {
+    futureDate: new Date(2018, 1, 28),
+    type: 'blockTitle',
+  },
+  items: [
+    {
+      text: {
+        type: 'text',
+        content: 'days',
+      },
+    },
+    {
+      text: {
+        type: 'text',
+        content: 'hours',
+      },
+    },
+    {
+      text: {
+        type: 'text',
+        content: 'minutes',
+      },
+    },
+    {
+      text: {
+        type: 'text',
+        content: 'seconds',
+      },
+    },
+  ],
   button: {
     actionConfig: {
       action: 'link',
