@@ -12,6 +12,7 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   theme: 'dark',
+  background: {type: 'color', color: 'dark-shade-color'},
   title: 'Safe piercing process',
   articles: [
     {
@@ -43,8 +44,7 @@ ExtendedWireframe.defaultContent = {
         resourceRef: 'icon-2.png',
         alt: 'Item icon',
       },
-      description:
-        'Each needle and tube set is individually packaged, dated and sealed',
+      description: 'Each needle and tube set is individually packaged, dated and sealed',
     },
     {
       id: '7986b4e0-751f-48f6-8861-5ace080e284b',
@@ -59,8 +59,7 @@ ExtendedWireframe.defaultContent = {
         resourceRef: 'icon-3.png',
         alt: 'Item icon',
       },
-      description:
-        'Single use disposable razor is used to shave body hair',
+      description: 'Single use disposable razor is used to shave body hair',
     },
     {
       id: 'fdv54xv87-b3e2-432d-a03e-689dv62fb302',
@@ -75,8 +74,7 @@ ExtendedWireframe.defaultContent = {
         resourceRef: 'icon-4.png',
         alt: 'Item icon',
       },
-      description:
-        'The artists are always in gloves during the tattooing procedure',
+      description: 'The artists are always in gloves during the tattooing procedure',
     },
     {
       id: '18csdsdv2-46d1-4c9e-b2dv9-ca0e37912612',
@@ -91,8 +89,7 @@ ExtendedWireframe.defaultContent = {
         resourceRef: 'icon-5.png',
         alt: 'Item icon',
       },
-      description:
-        'Sterile disposable needles are used while tattooing',
+      description: 'Sterile disposable needles are used while tattooing',
     },
     {
       id: '7986sdfs650-751f-48f6-8361-5sfvd080e284b',
@@ -107,8 +104,7 @@ ExtendedWireframe.defaultContent = {
         resourceRef: 'icon-6.png',
         alt: 'Item icon',
       },
-      description:
-        'We adhere to the required sterilization procedures',
+      description: 'We adhere to the required sterilization procedures',
     },
   ],
 }
