@@ -22,35 +22,40 @@ ExtendedWireframe.defaultContent = {
     {
       id: '18ce5632-46d1-4c9e-b249-ca0e37f665c2',
       description: {
-        content: 'How to better recognize and attract perfect clients, make your marketing more effective and targeted.',
+        content:
+          'How to better recognize and attract perfect clients, make your marketing more effective and targeted.',
         type: 'text',
       },
     },
     {
       id: '7986b4e0-751f-48f6-8861-5ace080e284b',
       description: {
-        content: 'How to save all your business balls in the air without losing sagacity and sleep (and without working on weekends).',
+        content:
+          'How to save all your business balls in the air without losing sagacity and sleep (and without working on weekends).',
         type: 'text',
       },
     },
     {
       id: 'f822d787-b3e2-432d-a03e-689c8728fb302',
       description: {
-        content: 'How to stop procrastination, indecision, and self-doubt so that you get way more done in far less time.',
+        content:
+          'How to stop procrastination, indecision, and self-doubt so that you get way more done in far less time.',
         type: 'text',
       },
     },
     {
       id: '18ce5632-46d1-4c9e-b249-ca0e2725f665c2',
       description: {
-        content: 'How to overwhelm competitors with class and kindness so that you’re no longer wasting your energy and time thinking about them.',
+        content:
+          'How to overwhelm competitors with class and kindness so that you’re no longer wasting your energy and time thinking about them.',
         type: 'text',
       },
     },
     {
       id: '7986b4e0-751f-48f6-8861-5ace0257e284b',
       description: {
-        content: 'How to build your professional reputation to engage far more possibilities so that you can start having a bigger impact with your work.',
+        content:
+          'How to build your professional reputation to engage far more possibilities so that you can start having a bigger impact with your work.',
         type: 'text',
       },
     },
@@ -59,8 +64,6 @@ ExtendedWireframe.defaultContent = {
     content: 'Marketing SOS coaching course will teach you:',
     type: 'blockTitle',
   },
-
-
 }
 
 ExtendedWireframe.modifierScheme = {
