@@ -20,7 +20,8 @@ ExtendedWireframe.defaultContent = {
     type: 'subtitle',
   },
   text: {
-    content: 'This intensive Business Plan Workshop Series is created to increase business owners’ knowledge, reliability, and skills necessary for high performance. Together we\'ll develop a complete business plan in over a few weeks with the help of Roy Hale from the Roy Hale Business coaching and Sam Brown, Managing Director of The Small Business Lounge. <br><br>This workshop is created mainly for aspiring entrepreneurs, small business owners, and start-up companies. A thorough business plan is crucial for your business as it performs the organizational structure of your business, including titles of officers or directors and each employee’s individual duties and roles. It will act as a management tool to assist in keeping your business on course with meeting its projected goals, targets, and milestones.',
+    content:
+      "This intensive Business Plan Workshop Series is created to increase business owners’ knowledge, reliability, and skills necessary for high performance. Together we'll develop a complete business plan in over a few weeks with the help of Roy Hale from the Roy Hale Business coaching and Sam Brown, Managing Director of The Small Business Lounge. <br><br>This workshop is created mainly for aspiring entrepreneurs, small business owners, and start-up companies. A thorough business plan is crucial for your business as it performs the organizational structure of your business, including titles of officers or directors and each employee’s individual duties and roles. It will act as a management tool to assist in keeping your business on course with meeting its projected goals, targets, and milestones.",
     type: 'text',
   },
   picture: {
