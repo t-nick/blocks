@@ -25,7 +25,8 @@ ExtendedWireframe.defaultContent = {
     type: 'blockTitle',
   },
   subtitle: {
-    content: 'Too many entrepreneurs are afraid of sales calls. Learn how to make the sale, always.',
+    content:
+      'Too many entrepreneurs are afraid of sales calls. Learn how to make the sale, always.',
     type: 'subtitle',
   },
   contactForm: {
