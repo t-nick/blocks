@@ -18,7 +18,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: "After your first free session, I use the info you've given me about youself and your business, what's standing in your way, and what your business goals are.",
+        content:
+          "After your first free session, I use the info you've given me about youself and your business, what's standing in your way, and what your business goals are.",
         type: 'text',
       },
     },
@@ -28,7 +29,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: "During the in-depth conversation about the current condition of your business and your financial potential,I'll offer you tools to solve your causes of frustrations.",
+        content:
+          "During the in-depth conversation about the current condition of your business and your financial potential,I'll offer you tools to solve your causes of frustrations.",
         type: 'text',
       },
     },
@@ -38,7 +40,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: "Through my coaching, you'll improve your skills as an Entrepreneur and as a Manager, become the leader of your business, and achieve long-term results.",
+        content:
+          "Through my coaching, you'll improve your skills as an Entrepreneur and as a Manager, become the leader of your business, and achieve long-term results.",
         type: 'text',
       },
     },
@@ -48,7 +51,8 @@ ExtendedWireframe.defaultContent = {
     type: 'blockTitle',
   },
   subtitle: {
-    content: 'We are guided by clear and simple cooperation with clients. Here’s how you can order our online products:',
+    content:
+      'We are guided by clear and simple cooperation with clients. Here’s how you can order our online products:',
     type: 'subtitle',
   },
   'cta-1': {
