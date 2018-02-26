@@ -1,3 +1,38 @@
-@import "wireframe-default-master/src/style.css";
+@import "wireframe-zapdos-why/src/style.css";
 
 /* start here */
+
+.title {
+  margin-bottom: 0;
+}
+
+.item {
+  margin-top: 30px;
+  
+  &__desc {
+    background-color: var(--ui-light-accent-color);
+    padding: 20px;
+    font-weight: var(--ui-block-title-font-weight);
+    font-size: var(--ui-subtitle-size);
+    
+    @media (min-width: 992px) {
+      padding: 0 60px;
+      display: table-cell;
+      vertical-align: middle;
+      height: 163px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    flex-basis: 50%;
+    max-width: 50%;
+    
+    &:nth-child(odd) {
+      padding-left: 0;
+    }
+    
+    &:nth-child(even) {
+      padding-right: 0;
+    }
+  }
+}
