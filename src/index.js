@@ -20,7 +20,8 @@ ExtendedWireframe.defaultContent = {
     type: 'subtitle',
   },
   text: {
-    content: 'Most service business owners are shocked to realize that running a service business can be an expensive, exhausting battle. But it doesn’t have to be. You don’t have to donate your money, your time with family, and your health.<br><br>In The 10 Pillars of Business Mastery, Roy Hale shares how you can take charge of your business, dominate your market, and achieve the kind of effective results that you’ve only dreamed of.',
+    content:
+      'Most service business owners are shocked to realize that running a service business can be an expensive, exhausting battle. But it doesn’t have to be. You don’t have to donate your money, your time with family, and your health.<br><br>In The 10 Pillars of Business Mastery, Roy Hale shares how you can take charge of your business, dominate your market, and achieve the kind of effective results that you’ve only dreamed of.',
     type: 'text',
   },
   picture: {
