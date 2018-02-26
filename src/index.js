@@ -12,6 +12,7 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   theme: 'dark',
+  background: {type: 'color', color: 'dark-shade-color'},
   title: 'Chris Pippen',
   subtitle: 'Founder: Japanese, Neo-Traditional Style',
   picture: {
@@ -47,19 +48,16 @@ ExtendedWireframe.defaultContent = {
       size: '35px',
     },
   },
-  text: 'Growing up in a family of sailors in North Carolina, Chris has been exposed to the art of tattoos his whole life. Naturally, he chose it as his day job!',
-
+  text:
+    'Growing up in a family of sailors in North Carolina, Chris has been exposed to the art of tattoos his whole life. Naturally, he chose it as his day job!',
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   'article-picture': {defaultValue: true, label: 'Article picture', type: 'hidden'},
-  button: {defaultValue: true, label: 'Button', type: 'checkbox'},
-  socialIcons: {defaultValue: false, label: 'Social media buttons', type: 'checkbox'},
-  subtitle: {defaultValue: false, label: 'Subtitle', type: 'checkbox'},
-  text: {defaultValue: true, label: 'Company main text', type: 'checkbox'},
-  title: {defaultValue: true, label: 'Block title', type: 'checkbox'},
-  'top-icon': {defaultValue: false, label: 'Top icon decorator', type: 'hidden'},
+  button: {defaultValue: false, label: 'Button', type: 'hidden'},
+  socialIcons: {defaultValue: true, label: 'Social media buttons', type: 'checkbox'},
+  subtitle: {defaultValue: true, label: 'Subtitle', type: 'checkbox'},
 }
 
 
