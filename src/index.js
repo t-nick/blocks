@@ -12,6 +12,7 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   theme: 'dark',
+  background: {type: 'color', color: 'dark-shade-color'},
   title: 'Chris Pippen',
   subtitle: 'Founder: Japanese, Neo-Traditional Style',
   picture: {
@@ -47,8 +48,8 @@ ExtendedWireframe.defaultContent = {
       size: '35px',
     },
   },
-  text: 'Growing up in a family of sailors in North Carolina, Chris has been exposed to the art of tattoos his whole life. Naturally, he chose it as his day job!',
-
+  text:
+    'Growing up in a family of sailors in North Carolina, Chris has been exposed to the art of tattoos his whole life. Naturally, he chose it as his day job!',
 }
 
 ExtendedWireframe.modifierScheme = {
