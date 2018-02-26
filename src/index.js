@@ -12,7 +12,8 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 ExtendedWireframe.defaultContent = {
   title: 'About me',
   'text-1': 'Follow us:',
-  subtitle: 'Our Company is the world’s leading manufacturer. We are also a leading financial services provider.',
+  subtitle:
+    'Our Company is the world’s leading manufacturer. We are also a leading financial services provider.',
   text:
     'Our Company is the world’s leading manufacturer. We are also a leading financial services provider. \n We are in it for the long haul—for our customers and for our world. Our customers can be found in virtually every corner of the earth, and we realize our success comes directly from helping our customers be successful. \n We take seriously our responsibility to give back to the communities in which we work and live. ',
   picture: {
