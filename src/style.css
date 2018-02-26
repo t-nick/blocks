@@ -1,7 +1,7 @@
 @import "wireframe-zapdos-cta/src/style.css";
 
 .title {
-  font-weight: var(--ui-hero-title-font-weight);
+  font-weight: 600;
   font-family: var(--ui-hero-title-font-family);
   font-size: calc(var(--ui-hero-title-size) * 2);
   letter-spacing: var(--ui-hero-title-letter-spacing);
@@ -15,7 +15,7 @@
   font-size: var(--ui-block-title-size);
   line-height: var(--ui-block-title-line-height);
   letter-spacing: var(--ui-block-title-letter-spacing);
-  color: var(--ui-dark-shade-color);
+  color: var(--ui-block-title-color);
 }
 
 .button {
