@@ -19,7 +19,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: 'Our HR Director shares his experience how to fill positions with the best candidates, where to find talents, and how to attract professionals to your business. ',
+        content:
+          'Our HR Director shares his experience how to fill positions with the best candidates, where to find talents, and how to attract professionals to your business. ',
         type: 'text',
       },
       category: {
@@ -55,7 +56,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: 'Do you want to achieve higher profits this year? Our new product will help you get what you want. In this article, you will find out how to use it to get more benefits.',
+        content:
+          'Do you want to achieve higher profits this year? Our new product will help you get what you want. In this article, you will find out how to use it to get more benefits.',
         type: 'text',
       },
       category: {
