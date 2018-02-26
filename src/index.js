@@ -15,10 +15,11 @@ const {
 const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _.set('$block.options', options))))(Component)
 
 ExtendedWireframe.defaultContent = {
-
   title: 'Our Text Title',
-  subtitle: 'Our Company is the world’s leading manufacturer. We are also a leading financial services provider.',
-  text: 'We want to share that passion with our customers who come far and wide to enjoy the food we have spent sleepless nights thinking up, testing and producing at the very highest standard possible. ',
+  subtitle:
+    'Our Company is the world’s leading manufacturer. We are also a leading financial services provider.',
+  text:
+    'We want to share that passion with our customers who come far and wide to enjoy the food we have spent sleepless nights thinking up, testing and producing at the very highest standard possible. ',
   background: {
     type: 'image',
     position: {
