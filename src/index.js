@@ -22,7 +22,7 @@ ExtendedWireframe.defaultContent = {
       title: 'Founder',
       subtitle: 'Chris Pippen',
       text:
-            'After almost a decade spent as a deck master on a cargo ocean shipping line, Chris decided to finally do what he loved the most - painting art on other people.',
+        'After almost a decade spent as a deck master on a cargo ocean shipping line, Chris decided to finally do what he loved the most - painting art on other people.',
       picture: {
         resourceRef: '2.jpg',
         alt: 'Project 1',
@@ -47,7 +47,7 @@ ExtendedWireframe.defaultContent = {
       title: 'Co-Founder',
       subtitle: 'Karin Pippen',
       text:
-            "Chris's wife, Karin spent almost 12 years in law enforcement and DEA, but eventually quit to go full-time with her hobby - namely the art of piercing.",
+        "Chris's wife, Karin spent almost 12 years in law enforcement and DEA, but eventually quit to go full-time with her hobby - namely the art of piercing.",
       picture: {
         resourceRef: '1.jpg',
         alt: 'Project 2',
@@ -69,12 +69,12 @@ ExtendedWireframe.defaultContent = {
     },
   ],
   topIcon: {
-    svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42"><path d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"/></svg>',
+    svg:
+      '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42"><path d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"/></svg>',
     fill: 'red',
   },
   title: 'Our team',
-  subtitle:
-'Each month, we usefully close our projects. Here is the list of our recent ones:',
+  subtitle: 'Each month, we usefully close our projects. Here is the list of our recent ones:',
   cta: {
     actionConfig: {
       action: 'link',
