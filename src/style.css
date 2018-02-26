@@ -1,6 +1,7 @@
 @import "wireframe-series-2-cta/src/style.css";
 
 /* start here */
+
 .title {
   color: var(--ui-dark-shade-color);
   font-size: var(--ui-block-title-size);
