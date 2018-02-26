@@ -22,7 +22,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: 'Whatever you want to change in your life and business, I can assist you to deal with this process. Working together we will determine what matters to you most, what has been restricting you, and we\'ll develop a personalized plan to help you grow.',
+        content:
+          "Whatever you want to change in your life and business, I can assist you to deal with this process. Working together we will determine what matters to you most, what has been restricting you, and we'll develop a personalized plan to help you grow.",
         type: 'text',
       },
       picture: {
