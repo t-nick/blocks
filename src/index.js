@@ -33,7 +33,8 @@ ExtendedWireframe.defaultContent = {
     type: 'blockTitle',
   },
   description: {
-    content: 'We’re opening for registration in December for just 10 days, so register your details and we will start working on your business.',
+    content:
+      'We’re opening for registration in December for just 10 days, so register your details and we will start working on your business.',
     type: 'text',
   },
   cta: {
