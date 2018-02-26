@@ -19,7 +19,7 @@ ExtendedWireframe.defaultContent = {
       },
       description: {
         content:
-          'Our HR Director shares his experience how to fill positions with the best candidates, where to find talents, and how to attract professionals to your business. ',
+          'One of the things I love most about my job is that I often find I learn…',
         type: 'text',
       },
       category: {
@@ -56,7 +56,7 @@ ExtendedWireframe.defaultContent = {
       },
       description: {
         content:
-          'Do you want to achieve higher profits this year? Our new product will help you get what you want. In this article, you will find out how to use it to get more benefits.',
+          'If there is one thing businesses want and need today is getting found in…',
         type: 'text',
       },
       category: {
@@ -93,7 +93,7 @@ ExtendedWireframe.defaultContent = {
       },
       description: {
         content:
-          'You engineers can bring you better results! Get to know how to improve engineering department to make a new step for your company growth. ',
+          "You're thinking of jumping ship. Maybe it's your job, a relationship…",
         type: 'text',
       },
       category: {
