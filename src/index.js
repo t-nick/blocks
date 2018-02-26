@@ -25,7 +25,8 @@ ExtendedWireframe.defaultContent = {
     type: 'heroTitle',
   },
   subtitle: {
-    content: 'I\'ve helped my clients grow their businesses by 50% in under 12 months. Now it\'s your turn!',
+    content:
+      "I've helped my clients grow their businesses by 50% in under 12 months. Now it's your turn!",
     type: 'subtitle',
   },
   'cta-1': {
