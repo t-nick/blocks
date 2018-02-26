@@ -29,6 +29,7 @@ ExtendedWireframe.defaultContent = {
     size: 'sm',
   },
   theme: 'dark',
+  background: {type: 'color', color: 'dark-shade-color'},
 }
 
 ExtendedWireframe.modifierScheme = [{
