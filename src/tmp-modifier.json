@@ -1,3 +1,37 @@
 {
-  "some-modifier": true
+  "address": {
+    "defaultValue": true,
+    "label": "Address text block",
+    "type": "checkbox"
+  },
+  "email": {
+    "defaultValue": true,
+    "label": "E-mail text block",
+    "type": "checkbox"
+  },
+  "map": {
+    "defaultValue": true,
+    "label": "Map",
+    "type": "checkbox"
+  },
+  "phone": {
+    "defaultValue": true,
+    "label": "Phone text block",
+    "type": "checkbox"
+  },
+  "social": {
+    "defaultValue": true,
+    "label": "Social Media Buttons",
+    "type": "checkbox"
+  },
+  "top-icon": {
+    "defaultValue": true,
+    "label": "Top icon decorator",
+    "type": "checkbox"
+  },
+  "subtitle": {
+    "defaultValue": true,
+    "label": "Block description",
+    "type": "checkbox"
+  }
 }
