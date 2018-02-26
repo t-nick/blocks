@@ -12,6 +12,7 @@
   font-weight: var(--ui-block-title-font-weight);
   letter-spacing: var(--ui-block-title-letter-spacitng);
   line-height: var(--ui-block-title-line-height);
+  margin-bottom: 25px;
 }
 
 .article {
@@ -19,6 +20,10 @@
   text-align: center;
   display: inline-flex;
   flex-direction: column;
+
+  &__picture {
+    padding-top: 48%;
+  }
 
   &__picture-wrapper {
     order: 1;

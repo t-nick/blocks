@@ -19,8 +19,7 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content:
-          'Our HR Director shares his experience how to fill positions with the best candidates, where to find talents, and how to attract professionals to your business. ',
+        content: "This intensive Business Plan Workshop Series is created to increase business owners’ knowledge, reliability, and skills necessary for high performance. Together we'll develop a complete business plan in over a few weeks.",
         type: 'text',
       },
       category: {
@@ -28,7 +27,7 @@ ExtendedWireframe.defaultContent = {
         type: 'caption',
       },
       date: {
-        content: 'September 22, 2017',
+        content: 'Sep. 28, 2017 – Oct. 11, 2017 - 18:30',
         type: 'caption',
       },
       picture: {
@@ -56,8 +55,7 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content:
-          'Do you want to achieve higher profits this year? Our new product will help you get what you want. In this article, you will find out how to use it to get more benefits.',
+        content: "Are you an aspiring entrepreneur or a small business owner? If you are not sure how to create your marketing messages and sales, present a valuable offer to your potential clients, we'll teach you how to understand your customersand gain success.",
         type: 'text',
       },
       category: {
@@ -65,7 +63,7 @@ ExtendedWireframe.defaultContent = {
         type: 'caption',
       },
       date: {
-        content: 'September 22, 2017',
+        content: 'Oct. 28, 2017 - 18:30',
         type: 'caption',
       },
       picture: {
