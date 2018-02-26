@@ -1,25 +1,26 @@
 {
-  "name": "Mantyke",
+  "name": "Rattata",
   "general": {
-    "fontFamily": "'Merriweather', sans-serif",
-    "borderWidth": "1px",
-    "textTransform": "uppercase"
+    "fontFamily": "'Rubik', sans-serif",
+    "borderWidth": "2px",
+    "textTransform": "uppercase",
+    "letterSpacing": "1.6px"
   },
   "size": {
     "sm": {
-      "padding": "8.5px 21px",
-      "borderRadius": "17px",
+      "padding": "8.5px 42px",
+      "borderRadius": 0,
       "fontSize": "11px"
     },
     "md": {
-      "padding": "10.5px 33px",
-      "borderRadius": "19px",
-      "fontSize": "11px"
+      "padding": "10.5px 42.5px",
+      "borderRadius": 0,
+      "fontSize": "13px"    
     },
     "lg": {
-      "padding": "20.5px 31px",
-      "borderRadius": "29px",
-      "fontSize": "11px"
+      "padding": "20.5px 50.5px",
+      "borderRadius": 0,
+      "fontSize": "14px"
     }
   },
   "settings": {
@@ -35,7 +36,17 @@
       },
       "hover": {
         "bg": {
-          "color": ["brand?darken=9.8&desaturate=7.37"]
+          "color": ["brand?lighten=4.12&saturate=17.16"]
+        },
+        "color": []
+      },
+      "active": {
+        "color": ["brand"],
+        "bg": {
+          "color": ["darkShade"]
+        },
+        "border": {
+          "color": ["brand"]
         }
       }
     },
@@ -51,7 +62,16 @@
       },
       "hover": {
         "bg": {
-          "color": ["brand?darken=9.8&desaturate=7.37"]
+          "color": ["brand?lighten=4.12&saturate=17.16"]
+        }
+      },
+      "active": {
+        "color": ["brand"],
+        "bg": {
+          "color": ["darkShade"]
+        },
+        "border": {
+          "color": ["brand"]
         }
       }
     },
@@ -62,14 +82,17 @@
         },
         "color": ["darkShade", "lightShade"],
         "border": {
-          "color": ["lightShade?darken=20", "darkShade?lighten=16.27&saturate=0.33"]
+          "color": ["lightShade?darken=4.71&saturate=16.67&spin=225", "lightShade?darken=13.92&saturate=4.23&spin=220"]
         }
       },
       "hover": {
-        "color": ["lightShade"],
+        "color": ["brand", "brand"]
+      },
+      "active": {
         "bg": {
-          "color": ["darkShade?lighten=16.27&saturate=0.33", "darkShade?lighten=16.27&saturate=0.33"]
+          "color": ["lightShade?darken=4.71&saturate=16.67&spin=225", "lightShade?darken=13.92&saturate=4.23&spin=220"]
         },
+        "color": ["darkShade", "lightShade"],
         "border": {
           "color": ["transparent", "transparent"]
         }
@@ -82,14 +105,17 @@
         },
         "color": ["darkShade", "lightShade"],
         "border": {
-          "color": ["lightShade?darken=20", "darkShade?lighten=16.27&saturate=0.33"]
+          "color": ["lightShade?darken=4.71&saturate=16.67&spin=225", "lightShade?darken=13.92&saturate=4.23&spin=220"]
         }
       },
       "hover": {
-        "color": ["lightShade"],
+        "color": ["brand", "brand"]
+      },
+      "active": {
         "bg": {
-          "color": ["darkShade?lighten=16.27&saturate=0.33", "darkShade?lighten=16.27&saturate=0.33"]
+          "color": ["lightShade?darken=4.71&saturate=16.67&spin=225", "lightShade?darken=13.92&saturate=4.23&spin=220"]
         },
+        "color": ["darkShade", "lightShade"],
         "border": {
           "color": ["transparent", "transparent"]
         }

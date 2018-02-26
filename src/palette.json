@@ -1,10 +1,10 @@
 {
-  "name": "Mantyke",
+  "name": "Rattata",
   "color": {
     "lightShade": "#fff",
-    "lightAccent": "#28a8e3",
-    "brand": "#28a8e3",
-    "darkAccent": "#28a8e3",
-    "darkShade": "#202222"
+    "lightAccent": "#dadbdd",
+    "brand": "#ecbf78",
+    "darkAccent": "#8b8e95",
+    "darkShade": "#484a56"
   }
 }
