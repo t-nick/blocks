@@ -1,3 +1,61 @@
-@import "wireframe-default-master/src/style.css";
+@import "wireframe-zapdos-careers/src/style.css";
 
 /* start here */
+
+.title {
+  color: var(--ui-light-shade-color);
+}
+
+.list {
+  &__item-icon {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    position: relative;
+    border: 1px solid var(--ui-media-bg);
+    background-color: var(--ui-dark-shade-color);
+
+    &::before,
+    &::after {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 80px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: var(--ui-brand-color);
+      background-color: var(--ui-brand-color);
+      border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      z-index: 1;
+    }
+
+    &::after {
+      content: "";
+      border-radius: 100% 0 0 100% / 50% 0 0 50%;
+      border-color: var(--ui-media-bg);
+      border-right-color: transparent;
+      background-color: var(--ui-media-bg);
+      left: 10px;
+      right: inherit;
+    }
+
+    > span {
+      position: relative;
+      z-index: 2;
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      display: block;
+      background-color: var(--ui-dark-shade-color);
+      padding: 10px;
+    }
+  }
+
+  &__item-text {
+    color: var(--ui-light-shade-color);
+    font-size: calc(var(--ui-heading-size) * 0.615);
+  }
+}
