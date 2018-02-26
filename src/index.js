@@ -21,7 +21,7 @@ ExtendedWireframe.defaultContent = {
   },
   text: {
     content:
-     'Hi, I\'m Roy Hale, a head coach at Roy Hale Business Coaching. If you are ready for changes, let’s build a profitable business. \n\nBuilding and running any business is not an easy task. It\'s rather expensive and it takes all your time and efforts. Hiring a business coach can help you create a more successful organization. \n\nLet me show you how I can develop a great strategy and help you achieve your dream of a profitable company.',
+      "Hi, I'm Roy Hale, a head coach at Roy Hale Business Coaching. If you are ready for changes, let’s build a profitable business. \n\nBuilding and running any business is not an easy task. It's rather expensive and it takes all your time and efforts. Hiring a business coach can help you create a more successful organization. \n\nLet me show you how I can develop a great strategy and help you achieve your dream of a profitable company.",
     type: 'text',
   },
   picture: {
