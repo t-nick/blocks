@@ -13,6 +13,7 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   theme: 'dark',
+  background: {type: 'color', color: 'dark-shade-color'},
   title: 'Recent Blog Entries',
   subtitle: 'Subtitle here',
   cta: {
@@ -34,8 +35,7 @@ ExtendedWireframe.defaultContent = {
     {
       id: '21a46d6e-0354-4a96-9af0-928ddae32095',
       title: 'Meet the Best Modern Tattoo Artists',
-      description:
-        'With the industry booming and thousands of young artists…',
+      description: 'With the industry booming and thousands of young artists…',
       category: 'September 11, 2017',
       date: 'Keely Rutherford',
       picture: {
@@ -60,8 +60,7 @@ ExtendedWireframe.defaultContent = {
     {
       id: '41db0c4f-46b3-4835-8e77-062de63d018a',
       title: 'Tattoo Fest 2017',
-      description:
-        'Tattoo Fest 2017 will be the most important industry event in SF...',
+      description: 'Tattoo Fest 2017 will be the most important industry event in SF...',
       category: 'September 08, 2017',
       date: 'Mike Tattooer',
       picture: {
@@ -86,8 +85,7 @@ ExtendedWireframe.defaultContent = {
     {
       id: 'fff4b459-6e4f-4645-901e-4c1b1aa94e51',
       title: 'The Most Popular Types of Tattoos in the US',
-      description:
-        'Considering there are hundreds of varieties and types of this…',
+      description: 'Considering there are hundreds of varieties and types of this…',
       category: 'September 06, 2017',
       date: 'Mike Tattooer',
       picture: {
