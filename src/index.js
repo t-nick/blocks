@@ -17,12 +17,12 @@ ExtendedWireframe.defaultContent = {
     color: '#ffffff',
   },
   title: {
-    content: 'Thank you for applying for a job!',
+    content: 'Thanks for your message!',
     type: 'blockTitle',
   },
   description: {
     content: 'We will get in touch with you ASAP',
-    type: 'text',
+    type: 'subheading',
   },
   cta: {
     actionConfig: {
