@@ -11,6 +11,28 @@
     padding-left: 35px;
   }
 
+  &:nth-of-type(2) {
+    .article__content {
+
+      @media (min-width: 992px) {
+        padding-top: 170px;
+        padding-bottom: 170px;
+        padding-right: 35px;
+      }
+    }
+  }
+
+  &:nth-of-type(3) {
+    .article__content {
+
+      @media (min-width: 992px) {
+        padding-top: 160px;
+        padding-bottom: 130px;
+        padding-right: 25px;
+      }
+    }
+  }
+
   &__title {
     margin-bottom: 18px;
     order: -1;
