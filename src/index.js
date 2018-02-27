@@ -13,7 +13,7 @@ ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   background: {
     type: 'color',
-    color: '#f8f8f8',
+    color: 'var(--ui-light-accent-color)',
   },
   title: {
     content: 'Speaking',
