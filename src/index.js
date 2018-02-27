@@ -11,14 +11,30 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
-  title: 'Executive managers',
+  title: {
+    content: 'Executive managers',
+    type: 'blockTitle',
+  },
+  background: {
+    type: 'color',
+    color: '#fff',
+  },
   team: [
     {
       id: '06567442-178b-46ab-a822-661218143093',
-      name: 'Ann',
-      position: 'Founder and CEO',
-      description:
-        'My work is to set the strategy\n and vision for ShinyHouse and\n then to hire extremely\n capable, devoted people to\n deliver it.',
+      name: {
+        content: 'Ann',
+        type: 'heading',
+      },
+      position: {
+        content: 'Founder and CEO',
+        type: 'caption',
+      },
+      description: {
+        content:
+          'My work is to set the strategy\n and vision for ShinyHouse and\n then to hire extremely\n capable, devoted pople to\n deliver it.',
+        type: 'text',
+      },
       picture: {
         resourceRef: 'item-1.png',
         alt: 'Ann photo',
@@ -70,10 +86,19 @@ ExtendedWireframe.defaultContent = {
     },
     {
       id: 'd7b368a3-75c8-4039-80ef-15c783140026',
-      name: 'Lisa',
-      position: 'Head of Operations',
-      description:
-        'I’m responsible for structuring\n & managing our Ops team to\n provide the exceptional\n service to our respectful\n clients.',
+      name: {
+        content: 'Lisa',
+        type: 'heading',
+      },
+      position: {
+        content: 'Head of Operations',
+        type: 'caption',
+      },
+      description: {
+        content:
+          'I’m responsible for structuring\n & managing our Ops team to\n provide the exceptional\n service to our respectful\n clients.',
+        type: 'text',
+      },
       picture: {
         resourceRef: 'item-2.png',
         alt: 'Lisa photo',
@@ -125,10 +150,19 @@ ExtendedWireframe.defaultContent = {
     },
     {
       id: 'b29ef90b-8d5c-4fd9-b6e4-64e248da29db',
-      name: 'Lindsey',
-      position: 'Recruitment Manager',
-      description:
-        'My job is to find 5-star\n housekeepers and to make\n sure they have got the\n highest quality cleaning\n experience.',
+      name: {
+        content: 'Lindsey',
+        type: 'heading',
+      },
+      position: {
+        content: 'Recruitment Manager',
+        type: 'caption',
+      },
+      description: {
+        content:
+          'My job is to find 5-star\n housekeepers and to make\n sure they have got the\n highest quality cleaning\n experience.',
+        type: 'text',
+      },
       picture: {
         resourceRef: 'item-3.png',
         alt: 'Lindsey photo',
@@ -180,10 +214,19 @@ ExtendedWireframe.defaultContent = {
     },
     {
       id: 'b29ef90b-8d5c-4fd9-b6e4-64e248da29da',
-      name: 'Liam',
-      position: 'Senior Digital Marketing Manager',
-      description:
-        'I attract new clients and strive to make them regular. I always try to advance the product and experience for both housekeepers and clients.',
+      name: {
+        content: 'Liam',
+        type: 'heading',
+      },
+      position: {
+        content: 'Senior Digital Marketing Manager',
+        type: 'caption',
+      },
+      description: {
+        content:
+          'I attract new clients and strive to make them regular. I always try to advance the product and experience for both housekeepers and clients.',
+        type: 'text',
+      },
       picture: {
         resourceRef: 'item-4.png',
         alt: 'Liam photo',
