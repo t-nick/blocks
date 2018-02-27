@@ -13,12 +13,12 @@
       "fontSize": "11px"
     },
     "md": {
-      "padding": "16px 49px",
+      "padding": "14px 49px",
       "borderRadius": "25px",
       "fontSize": "13px"
     },
     "lg": {
-      "padding": "18px 69px",
+      "padding": "16px 69px",
       "borderRadius": "27px",
       "fontSize": "13px"
     }
