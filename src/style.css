@@ -2,10 +2,6 @@
 
 /* start here */
 
-.title {
-  font-weight: bold;
-}
-
 .article {
   &__content {
     padding-left: 46px;
@@ -25,4 +21,10 @@
 
 .text {
   font-size: var(--ui-subheading-size);
+}
+
+@media (min-width: 768px) {
+  .article {
+    margin-top: 20px;
+  }
 }
