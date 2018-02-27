@@ -27,10 +27,6 @@
   padding: 20px;
 }
 
-.dark {
-  background-color: var(--ui-dark-shade-color);
-}
-
 .item {
   margin-bottom: 20px;
 }

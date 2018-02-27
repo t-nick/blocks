@@ -7,7 +7,7 @@ class Block extends React.Component {
   }
 
   render() {
-    const {components: {Text, Button, ContactForm, Icon}, style} = this.props
+    const {components: {Text, Button, ContactForm, Icon, Background}, style} = this.props
 
     return (
       <section className={style.section}>
@@ -54,7 +54,7 @@ class Block extends React.Component {
             <Icon bind="icon" className={style.icon} />
             <Text tagName="p" className={style.item} bind="textCutomColor" />
           </section>
-          <section className={classNames(style.column, style.dark, 'ui-kit-dark')}>
+          <Background className={style.column} bind="darkBg" tagName="section">
             <h1 className={style.visuallyHidden}>Dark</h1>
             <Text tagName="p" className={style.item} bind="heroTitle" />
             <Text tagName="p" className={style.item} bind="blockTitle" />
@@ -94,14 +94,14 @@ class Block extends React.Component {
             />
             <Icon bind="icon" className={style.icon} />
             <Text tagName="p" className={style.item} bind="textCutomColor" />
-          </section>
+          </Background>
         </div>
       </section>
     )
   }
 }
 
-Block.components = _.pick(['Text', 'Button', 'ContactForm', 'Icon'])($editor.components)
+Block.components = _.pick(['Text', 'Button', 'ContactForm', 'Icon', 'Background'])($editor.components)
 
 Block.defaultContent = {
   heroTitle: {
@@ -301,6 +301,10 @@ Block.defaultContent = {
     content: 'TEXT WITH CUSTOM COLOR',
     type: 'headingLg',
     color: 'brand-color?spin=100',
+  },
+  darkBg: {
+    type: 'color',
+    color: 'dark-shade-color',
   },
 }
 
