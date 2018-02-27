@@ -6,17 +6,17 @@
   },
   "size": {
     "sm": {
-      "padding": "6px 17px",
+      "padding": "4.5px 17px",
       "borderRadius": 0,
       "fontSize": "14px"
     },
     "md": {
-      "padding": "16px 19px",
+      "padding": "7.5px 19px",
       "borderRadius": 0,
       "fontSize": "14px"
     },
     "lg": {
-      "padding": "24px 30px",
+      "padding": "13px 30px",
       "borderRadius": 0,
       "fontSize": "16px"
     }
