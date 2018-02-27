@@ -34,7 +34,7 @@
       "color": ["darkAccent", "lightShade"]
     },
     "heading": {
-      "size": "27px",
+      "size": "22px",
       "lineHeight": 1.45,
       "fontFamily": "'Rubik', sans-serif",
       "fontWeight": 500,
