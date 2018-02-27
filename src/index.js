@@ -22,7 +22,7 @@ ExtendedWireframe.defaultContent = {
   },
   description: {
     content: 'We will contact you shortly',
-    type: 'text',
+    type: 'subheading',
   },
   cta: {
     actionConfig: {
