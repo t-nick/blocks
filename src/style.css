@@ -5,6 +5,10 @@
 .article {
   &__content {
     padding-left: 46px;
+
+    @media (min-width: 768px) {
+      margin-top: 20px;
+    }
   }
 
   &__content::before {
@@ -21,10 +25,4 @@
 
 .text {
   font-size: var(--ui-subheading-size);
-}
-
-@media (min-width: 768px) {
-  .article {
-    margin-top: 20px;
-  }
 }
