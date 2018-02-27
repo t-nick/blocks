@@ -4,16 +4,21 @@
 .section {
 
   @media (min-width: 992px) {
-    padding: 66px 0;
+    padding: 50px 0 66px;
   }
 
   &__header {
     padding-top: 10px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+    }
   }
 }
 
 .title {
   font-weight: 700;
+  letter-spacing: -1.2px;
 }
 
 .article {
@@ -41,7 +46,7 @@
 
     &-wrapper {
       width: 100%;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
     }
   }
 
@@ -50,6 +55,7 @@
     letter-spacing: -0.3px;
     font-weight: 500;
     font-family: var(--ui-small-font-family);
+    text-align: center;
 
     @media (min-width: 992px) {
       font-size: calc(var(--ui-text-size) * 1.125);
