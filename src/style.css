@@ -7,8 +7,11 @@
 
 .article {
   &__content {
-    padding: 23px 0;
-    padding-left: 35px;
+
+    @media (min-width: 992px) {
+      padding: 23px 0;
+      padding-left: 35px;
+    }
   }
 
   &:nth-of-type(2) {
