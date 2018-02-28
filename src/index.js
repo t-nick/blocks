@@ -61,7 +61,10 @@ ExtendedWireframe.defaultContent = {
       },
     },
   ],
-  title: 'Certificates',
+  title: {
+    content: 'Certificates',
+    type: 'blockTitle',
+  },
   background: {
     type: 'image',
     position: {
