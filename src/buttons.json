@@ -118,7 +118,10 @@
         }
       },
       "hover": {
-        "color": ["lightShade", "darkShade"],
+        "color": ["darkShade", "darkShade"],
+        "bg": {
+          "color": ["transparent", "lightShade"]
+        },
         "border": {
           "color": ["brand?darken=10.98&desaturate=16.33", "transparent"]
         }
