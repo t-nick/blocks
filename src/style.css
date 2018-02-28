@@ -3,11 +3,17 @@
 .title {
   margin: 0;
   letter-spacing: -1px;
+  font-size: calc(var(--ui-block-title-size) * 0.5);
+
+  @media (min-width: 768px) {
+    font-size: var(--ui-block-title-size);
+  }
 }
 
 .item {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0;
 
   &__top-element {
@@ -17,8 +23,12 @@
 
   &__title {
     text-align: left;
-    font-size: var(--ui-subheading-size);
+    font-size: var(--ui-text-size);
     font-weight: var(--ui-subheading-font-weight);
+
+    @media (min-width: 768px) {
+      font-size: var(--ui-subheading-size);
+    }
   }
 }
 
