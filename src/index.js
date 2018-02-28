@@ -15,7 +15,10 @@ ExtendedWireframe.defaultContent = {
     type: 'color',
     color: '#fff',
   },
-  title: 'Certificates',
+  title: {
+    content: 'Certificates',
+    type: 'blockTitle',
+  },
   awards: [
     {
       id: '8130928a-e7c6-4e26-a3ca-a820fa36380e',
