@@ -1,10 +1,1 @@
-{
-  "name": "Vanilla Outdoors",
-  "color": {
-    "lightShade": "#fff",
-    "lightAccent": "#fff3bf",
-    "brand": "#ffeea6",
-    "darkAccent": "#ffea8c",
-    "darkShade": "#696969"
-  }
-}
+{"name":"Vanilla Outdoors","color":{"lightShade":"#fff","lightAccent":"#fff3bf","brand":"#ffeea6","darkAccent":"#ffea8c","darkShade":"#696969"}}
