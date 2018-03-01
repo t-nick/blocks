@@ -1,3 +1,61 @@
 @import "wireframe-series-2-cta/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  &__inner {
+
+    @media (min-width: 768px) {
+      min-width: 570px;
+    }
+  }
+
+  &__header {
+    margin-bottom: 67px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.form {
+  padding-left: 5%;
+  padding-right: 5%;
+
+  @media (min-width: 992px) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  &__item {
+    margin-bottom: 14px;
+    position: relative;
+
+    &::before {
+      content: " ";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-width: 1px;
+      border-style: solid;
+      border-color: var(--ui-dark-shade-color);
+      opacity: 0.2;
+    }
+  }
+
+  &__button {
+    margin-top: 0;
+  }
+
+  input {
+    background-color: var(--ui-light-shade-color);
+  }
+}
