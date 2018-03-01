@@ -10,7 +10,7 @@ const {enhancers: {withProps}, hoistStatics} = $editor
 const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _.set('$block.options', options))))(Component)
 
 ExtendedWireframe.defaultContent = {
-  theme: 'light',
+  ...Component.defaultContent,
   background: {
     type: 'image',
     position: {
@@ -18,14 +18,19 @@ ExtendedWireframe.defaultContent = {
       cover: '50% 50%',
     },
     resourceRef: 'cover-bg.jpg',
+    overlay: {
+      type: 'color',
+      color: 'dark-shade-color',
+      opacity: 0.2,
+    },
   },
   title: {
-    content: 'Quantum Company',
+    content: 'Test our passion for cleaning!',
     type: 'heroTitle',
   },
   subtitle: {
-    content: 'We can execute even the most unpredictable ideas! ',
-    type: 'subtitle',
+    content: 'Take some rest and leave all your home or office mess to cleaning professionals!',
+    type: 'text',
   },
   'cta-1': {
     actionConfig: {
@@ -39,43 +44,14 @@ ExtendedWireframe.defaultContent = {
       },
     },
     textValue: 'Request a quote',
-    type: 'primary',
+    type: 'primary-alt',
     size: 'lg',
   },
-  'cta-2': {
-    actionConfig: {
-      action: 'link',
-      actions: {
-        link: {
-          type: '',
-          innerPage: '',
-          url: '',
-        },
-      },
-    },
-    textValue: 'Learn more',
-    type: 'secondary',
-    size: 'lg',
-  },
-  topCaption: 'welcome',
 }
 
 ExtendedWireframe.modifierScheme = {
-  align: {
-    children: [
-      {id: 'left', label: 'left'},
-      {id: 'center', label: 'center'},
-      {id: 'right', label: 'right'},
-    ],
-    defaultValue: 'left',
-    name: 'Aligning',
-    type: 'radio-button-group',
-  },
-  'caption-decorator': {defaultValue: false, label: 'Pretitle', type: 'hidden'},
-  'primary-btn': {defaultValue: true, label: 'Button', type: 'checkbox'},
-  'secondary-btn': {defaultValue: true, label: 'Additional button', type: 'checkbox'},
-  subtitle: {defaultValue: true, label: 'Title description', type: 'checkbox'},
-  undefined: {type: 'separator'},
+  ...Component.modifierScheme,
+  'secondary-btn': {defaultValue: false, label: 'Additional button', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
