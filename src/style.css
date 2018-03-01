@@ -39,6 +39,10 @@
     margin-bottom: 14px;
     position: relative;
 
+    span {
+      display: none;
+    }
+
     &::before {
       content: " ";
       position: absolute;
@@ -58,4 +62,5 @@
   input {
     background-color: var(--ui-light-shade-color);
   }
+
 }
