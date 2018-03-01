@@ -30,6 +30,10 @@
   max-width: 760px;
   color: #a6d2f5;/* in psd */
 
+  &:nth-child(2) {
+    color: #f2c3fd;
+  }
+
   @media (min-width: 768px) {
     margin-bottom: 70px;
   }
