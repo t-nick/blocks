@@ -1,3 +1,104 @@
 @import "wireframe-zapdos-blog/src/style.css";
 
-/* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 90px;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+
+  @media (min-width: 992px) {
+    margin-bottom: 70px;
+  }
+}
+
+.article {
+  display: flex;
+  align-items: flex-start;
+
+  &__picture {
+    order: 1;
+
+    @media (min-width: 992px) {
+      padding-top: 74%;
+    }
+    
+    &-wrapper {
+      width: 100%;
+
+      @media (min-width: 992px) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  &__meta {
+    display: flex;
+    flex-direction: row;
+    order: 3;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+
+  &__category {
+    position: relative;
+    order: 1;
+    padding-left: 12px;
+    padding-right: 0;
+    
+    &::before {
+      content: "|";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+    }
+    
+  }
+
+  &__date {
+    padding-right: 5px;
+    padding-left: 0;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  &__title {
+    order: 2;
+
+    @media (min-width: 992px) {
+      max-width: 250px;
+      margin-bottom: 15px;
+    }
+  }
+
+  &__text {
+    order: 4;
+
+    @media (min-width: 992px) {
+      max-width: 275px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.btns-group {
+  padding-top: 20px;
+}
+
+.link {
+  order: 5;
+  font-family: var(--ui-heading-font-family);
+  font-size: calc(var(--ui-text-size) * 0.94);
+}
+
+.button {
+  line-height: 1.7;
+  letter-spacing: 0.6px;
+}
