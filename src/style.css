@@ -39,10 +39,6 @@
     margin-bottom: 14px;
     position: relative;
 
-    span {
-      display: none;
-    }
-
     &::before {
       content: " ";
       position: absolute;
@@ -52,6 +48,10 @@
       border-style: solid;
       border-color: var(--ui-dark-shade-color);
       opacity: 0.2;
+    }
+
+    span {
+      display: none;
     }
   }
 
