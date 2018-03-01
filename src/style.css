@@ -49,6 +49,7 @@
 
     @media (min-width: 992px) {
       padding-left: 50px;
+      padding-bottom: 10px;
     }
   }
 
@@ -61,12 +62,5 @@
     @media (min-width: 992px) {
       line-height: calc(var(--ui-text-line-height) * 1.03);
     }
-  }
-}
-
-.button {
-
-  @media (min-width: 992px) {
-    margin-top: 0;
   }
 }
