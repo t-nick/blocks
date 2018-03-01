@@ -27,10 +27,7 @@
   &__picture {
     overflow: hidden;
     border-radius: 25px;
-
-    @media (min-width: 992px) {
-      padding-top: 84%;
-    }
+    padding-top: 84%;
 
     &-wrapper {
       order: 1;
@@ -40,7 +37,6 @@
 
   &__text {
     order: 4;
-    color: #7d848d;
     margin-bottom: 40px;
   }
 
@@ -53,23 +49,14 @@
   &__link {
     order: 5;
     text-align: left;
-    font-size: calc(var(--ui-text-size) * 1.066);
-    font-weight: var(--ui-hero-title-font-weight);
   }
 }
 
 .article__date {
   padding-left: 0;
   padding-right: 7px;
-  color: #b6c0cd;
 }
 
 .article__category + .article__date::after {
   display: none;
-}
-
-@media (min-width: 992px) {
-  .article__picture {
-    padding-top: 84%;
-  }
 }
