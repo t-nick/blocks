@@ -1,10 +1,1 @@
-{
-  "name": "Bakery",
-  "color": {
-    "lightShade": "#fff",
-    "lightAccent": "#988378",
-    "brand": "#988378",
-    "darkAccent": "#988378",
-    "darkShade": "#27292b"
-  }
-}
+{"name":"Bakery","color":{"lightShade":"#fff","lightAccent":"#988378","brand":"#988378","darkAccent":"#988378","darkShade":"#27292b"}}
