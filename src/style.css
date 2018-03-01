@@ -1,3 +1,59 @@
 @import "wireframe-zapdos-contacts/src/style.css";
 
 /* start here */
+.section {
+  &__inner {
+    max-width: 800px;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 36px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 68px;
+  }
+}
+
+@media (min-width: 992px) {
+  .map-wrapper {
+    width: 61.2%;
+  }
+}
+
+.contacts {
+
+  @media (min-width: 768px) {
+    padding-left: 48px;
+  }
+
+  @media (min-width: 992px) {
+    width: 38%;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__desc {
+
+    @media (min-width: 1200px) {
+      font-size: var(--ui-text-size);
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .contacts-list {
+    &__item {
+      margin-bottom: 36px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .map {
+    padding-top: 73.2%;
+  }
+}
