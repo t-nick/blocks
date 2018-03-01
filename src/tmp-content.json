@@ -1,1 +1,67 @@
-{}
+[
+  {},
+  {
+    "title": {
+      "content": "Skydiving Services",
+      "type": "blockTitle"
+    },
+    "services": [
+      {
+        "title": {
+          "content": "Tandem skydiving",
+          "type": "heading"
+        },
+        "description": {
+          "content": "Tandem skydiving is the ideal flight method for the beginners without previous skydiving experience. You don't have to worry because you will be strapped to our expert tandem coach.",
+          "type": "text"
+        },
+        "picture": {
+          "resourceRef": "Depositphotos_18935439_original.jpg",
+          "alt": "Service illustration photo"
+        }
+      },
+      {
+        "title": {
+          "content": "Become a skydiver",
+          "type": "heading"
+        },
+        "description": {
+          "content": "We proudly offer Accelerated Freefall (AFF) and Instructor Assisted Deployment (IAD) that are our main methods of skydive training. In any case, we'll help you become a qualified licensed skydiver!",
+          "type": "text"
+        },
+        "picture": {
+          "resourceRef": "Depositphotos_87875846_original.jpg",
+          "alt": "Service illustration photo"
+        }
+      },
+      {
+        "title": {
+          "content":"Experienced skydivers",
+          "type": "heading"
+        },
+        "description": {
+          "content": "Get to know why SkydiveBirds is a home to World Champions! Stay informed of services, events, facilities, FAQ, prices, accommodation, and much more.",
+          "type": "text"
+        },
+        "picture": {
+          "resourceRef": "Depositphotos_116117114_original.jpg",
+          "alt": "Service illustration photo"
+        }
+      },
+      {
+        "title": {
+          "content": "Film production",
+          "type": "heading"
+        },
+        "description": {
+          "content": "We offer film production services to help you capture all the beauty of the spectacular views during the flight.",
+          "type": "text"
+        },
+        "picture": {
+          "resourceRef": "Depositphotos_43608453_original.png",
+          "alt": "Service illustration photo"
+        }
+      }
+    ]
+  }
+]
