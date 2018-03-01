@@ -57,5 +57,16 @@
     @media (min-width: 768px) {
       max-width: 420px;
     }
+
+    @media (min-width: 992px) {
+      line-height: calc(var(--ui-text-line-height) * 1.03);
+    }
+  }
+}
+
+.button {
+
+  @media (min-width: 992px) {
+    margin-top: 0;
   }
 }
