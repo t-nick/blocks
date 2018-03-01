@@ -5,6 +5,12 @@
 .article {
   flex-wrap: wrap;
 
+  &__title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+
   &__picture-wrapper {
     max-width: 100%;
     max-height: 470px;
