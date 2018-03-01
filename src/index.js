@@ -13,7 +13,7 @@ ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   background: {
     type: 'color',
-    color: '#ffffff',
+    color: 'light-shade-color',
   },
   title: {
     content: 'Thank you for the message!',
