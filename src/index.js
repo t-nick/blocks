@@ -21,10 +21,6 @@ ExtendedWireframe.defaultContent = {
         content: 'Now we can clean carpets to make your home ambiance more…',
         type: 'text',
       },
-      category: {
-        content: 'Kate Johnson',
-        type: 'caption',
-      },
       date: {
         content: 'September 11th, 2017',
         type: 'caption',
@@ -56,10 +52,6 @@ ExtendedWireframe.defaultContent = {
       description: {
         content: 'We are always in search of new cleaners. If you are interested...',
         type: 'text',
-      },
-      category: {
-        content: 'Ren Tinker',
-        type: 'caption',
       },
       date: {
         content: 'September 8th, 2017',
@@ -93,10 +85,6 @@ ExtendedWireframe.defaultContent = {
         content: 'We are going to start a new promo this week. Don\'t miss out your...',
         type: 'text',
       },
-      category: {
-        content: 'Kate Johnson',
-        type: 'caption',
-      },
       date: {
         content: 'September 6th, 2017',
         type: 'caption',
@@ -128,10 +116,6 @@ ExtendedWireframe.defaultContent = {
       description: {
         content: 'October’s pink campaign has achieved its awareness goal…',
         type: 'text',
-      },
-      category: {
-        content: 'Kate Johnson',
-        type: 'caption',
       },
       date: {
         content: 'September 4th, 2017',
@@ -165,10 +149,6 @@ ExtendedWireframe.defaultContent = {
         content: 'There are many things we pride ourselves here, at ShinyHouse. ',
         type: 'text',
       },
-      category: {
-        content: 'Kate Johnson',
-        type: 'caption',
-      },
       date: {
         content: 'September 1st, 2017',
         type: 'caption',
@@ -200,10 +180,6 @@ ExtendedWireframe.defaultContent = {
       description: {
         content: 'Enjoy a great opportunity to give a special gift to your loved one...',
         type: 'text',
-      },
-      category: {
-        content: 'Kate Johnson',
-        type: 'caption',
       },
       date: {
         content: 'August 15th, 2017',
@@ -237,10 +213,6 @@ ExtendedWireframe.defaultContent = {
         content: 'Listen to Rebecca Lopez, who works at ShinyHouse from the…',
         type: 'text',
       },
-      category: {
-        content: 'Kate Johnson',
-        type: 'caption',
-      },
       date: {
         content: 'August 1st, 2017',
         type: 'caption',
@@ -273,10 +245,6 @@ ExtendedWireframe.defaultContent = {
         content: 'In three short years with ShinyHouse, Veronica Madera… ',
         type: 'text',
       },
-      category: {
-        content: 'Kate Johnson',
-        type: 'caption',
-      },
       date: {
         content: 'July 21st, 2017',
         type: 'caption',
@@ -308,10 +276,6 @@ ExtendedWireframe.defaultContent = {
       description: {
         content: 'As a Franchise of the Year, ShinyHouse of Chicago received… ',
         type: 'text',
-      },
-      category: {
-        content: 'Kate Johnson',
-        type: 'caption',
       },
       date: {
         content: 'July 14th, 2017',

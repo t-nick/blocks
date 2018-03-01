@@ -1,9 +1,14 @@
 @import "wireframe-zapdos-blog/src/style.css";
 
 /* start here */
+.title {
+  margin-bottom: 50px;
+}
+
 .article {
   display: flex;
   justify-content: flex-start;
+  margin-bottom: 70px;
 
   &__title {
     order: 2;
@@ -23,14 +28,20 @@
     overflow: hidden;
     border-radius: 25px;
 
+    @media (min-width: 992px) {
+      padding-top: 84%;
+    }
+
     &-wrapper {
       order: 1;
+      margin-bottom: 35px;
     }
   }
 
   &__text {
     order: 4;
     color: #7d848d;
+    margin-bottom: 40px;
   }
 
   &__category {
