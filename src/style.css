@@ -1,3 +1,17 @@
 @import "wireframe-zapdos-cta/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding: 90px 0;
+  }
+}
+
+.title {
+  margin-bottom: 70px;
+}
+
+.description {
+  margin-bottom: 45px;
+}

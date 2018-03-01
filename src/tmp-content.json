@@ -1,1 +1,33 @@
-{}
+[
+  {},
+  {
+    "title": {
+      "content": "Thanks for your request!",
+      "type": "blockTitle"
+    },
+    "description": {
+      "content": "We will get in touch with you ASAP",
+      "type": "subheading"
+    }
+  },
+  {
+    "title": {
+      "content": "404",
+      "type": "blockTitle"
+    },
+    "description": {
+      "content": "The page you're looking for could not be found",
+      "type": "subheading"
+    }
+  },
+  {
+    "title": {
+      "content": "Thank you for the booking!",
+      "type": "blockTitle"
+    },
+    "description": {
+      "content": "The page you're looking for could not be found",
+      "type": "subheading"
+    }
+  }
+]
