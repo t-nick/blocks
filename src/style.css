@@ -53,16 +53,16 @@
   &__date {
     order: 1;
     padding-left: 0;
-
-    &:before {
-      display: none;
-    }
   }
 
   &__text {
     order: 4;
     margin-bottom: 19px;
   }
+}
+
+.article__category + .article__date::after {
+  display: none;
 }
 
 .link {
