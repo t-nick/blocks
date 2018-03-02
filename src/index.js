@@ -42,6 +42,20 @@ ExtendedWireframe.defaultContent = {
         placeholder: 'Phone number',
         required: true,
       },
+      {
+        type: 'text',
+        id: 'contactForm_date',
+        title: 'Date',
+        placeholder: 'Skydiving date',
+        required: true,
+      },
+      {
+        type: 'text',
+        id: 'contactForm_charity',
+        title: 'Date',
+        placeholder: 'Charity you are interested in',
+        required: true,
+      },
     ],
     submitButton: {
       title: 'Book a skydive now',
