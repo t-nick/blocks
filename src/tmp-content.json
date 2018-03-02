@@ -18,6 +18,20 @@
         "picture": {
           "resourceRef": "Depositphotos_18935439_original.jpg",
           "alt": "Service illustration photo"
+        },
+        "link": {
+          "actionConfig": {
+            "action": "link",
+            "actions": {
+              "link": {
+                "type": "",
+                "innerPage": "",
+                "url": ""
+              }
+            }
+          },
+          "textValue": "Learn more",
+          "type": "link"
         }
       },
       {
@@ -32,6 +46,20 @@
         "picture": {
           "resourceRef": "Depositphotos_87875846_original.jpg",
           "alt": "Service illustration photo"
+        },
+        "link": {
+          "actionConfig": {
+            "action": "link",
+            "actions": {
+              "link": {
+                "type": "",
+                "innerPage": "",
+                "url": ""
+              }
+            }
+          },
+          "textValue": "Learn more",
+          "type": "link"
         }
       },
       {
@@ -46,6 +74,20 @@
         "picture": {
           "resourceRef": "Depositphotos_116117114_original.jpg",
           "alt": "Service illustration photo"
+        },
+        "link": {
+          "actionConfig": {
+            "action": "link",
+            "actions": {
+              "link": {
+                "type": "",
+                "innerPage": "",
+                "url": ""
+              }
+            }
+          },
+          "textValue": "Learn more",
+          "type": "link"
         }
       },
       {
@@ -60,6 +102,20 @@
         "picture": {
           "resourceRef": "Depositphotos_43608453_original.png",
           "alt": "Service illustration photo"
+        },
+        "link": {
+          "actionConfig": {
+            "action": "link",
+            "actions": {
+              "link": {
+                "type": "",
+                "innerPage": "",
+                "url": ""
+              }
+            }
+          },
+          "textValue": "Learn more",
+          "type": "link"
         }
       }
     ]
