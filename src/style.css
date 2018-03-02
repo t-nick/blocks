@@ -1,3 +1,38 @@
 @import "wireframe-zapdos-services/src/style.css";
 
 /* start here */
+.title {
+  text-transform: uppercase;
+}
+
+.subtitle {
+
+  @media (min-width: 768px) {
+    max-width: 925px;
+    margin-top: 60px;
+  }
+}
+
+.section__header {
+
+  @media (min-width: 768px) {
+    padding-top: 47px;
+  }
+}
+
+.article {
+  &__picture {
+    padding-top: 75%;
+  }
+
+  &__title {
+
+    @media (min-width: 768px) {
+      margin-top: 28px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    margin-top: 50px;
+  }
+}
