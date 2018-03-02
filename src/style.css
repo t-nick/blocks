@@ -1,3 +1,7 @@
 @import "wireframe-zapdos-gallery/src/style.css";
 
 /* start here */
+
+.title {
+  text-transform: uppercase;
+}

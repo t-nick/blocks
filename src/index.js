@@ -11,6 +11,27 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  title: {
+    content: 'Photos',
+    type: 'blockTitle',
+  },
+  gallery: [
+    {
+      title: {
+        content: 'Quantum CEO & our partners',
+        type: 'text',
+      },
+      picture: {
+        src: 'https://www.vms.ro/wp-content/uploads/2015/04/mobius-placeholder-2.png',
+        alt: 'Quantum CEO & our partners',
+        galleryId: 'gallery',
+      },
+      caption: {
+        content: 'Design & build',
+        type: 'caption',
+      },
+    },
+  ],
 }
 
 ExtendedWireframe.modifierScheme = {
