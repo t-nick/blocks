@@ -84,42 +84,6 @@ ExtendedWireframe.defaultContent = {
         type: 'link',
       },
     },
-    {
-      title: {
-        content: 'Top 5 Tips to Improve Your Engineering Department.',
-        type: 'heading',
-      },
-      description: {
-        content: 'You engineers can bring you better results! Get to know how to improve engineering department to make a new step for your company growth. ',
-        type: 'text',
-      },
-      category: {
-        content: 'Creative Process',
-        type: 'caption',
-      },
-      date: {
-        content: 'September 22, 2017',
-        type: 'caption',
-      },
-      picture: {
-        src: 'https://www.vms.ro/wp-content/uploads/2015/04/mobius-placeholder-2.png',
-        alt: 'Article illustration photo',
-      },
-      link: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Learn more',
-        type: 'link',
-      },
-    },
   ],
   title: {
     content: 'related posts',
