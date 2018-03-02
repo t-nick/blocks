@@ -11,10 +11,50 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  background: {
+    type: 'color',
+    color: '#fff',
+  },
+  title: {
+    content: 'Book a charity skydive',
+    type: 'blockTitle',
+  },
+  contactForm: {
+    fields: [
+      {
+        type: 'text',
+        id: 'contactForm_name',
+        title: 'Name',
+        placeholder: 'Your name',
+        required: true,
+      },
+      {
+        type: 'phone',
+        id: 'contactForm_phoneNumber ',
+        title: 'Phone number ',
+        placeholder: 'Email',
+        required: true,
+      },
+      {
+        type: 'email',
+        id: 'contactForm_email',
+        title: 'Email',
+        placeholder: 'Phone number',
+        required: true,
+      },
+    ],
+    submitButton: {
+      title: 'Book a skydive now',
+      type: 'primary',
+    },
+    className: 'form',
+    buttonClassName: 'button button--size-md button--primary form__button',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  subtitle: {defaultValue: false, label: 'Title description', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
