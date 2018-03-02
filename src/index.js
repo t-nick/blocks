@@ -17,18 +17,87 @@ ExtendedWireframe.defaultContent = {
   },
   gallery: [
     {
-      title: {
-        content: 'Quantum CEO & our partners',
-        type: 'text',
-      },
       picture: {
-        src: 'https://www.vms.ro/wp-content/uploads/2015/04/mobius-placeholder-2.png',
+        resourceRef: 'photo_1.jpg',
         alt: 'Quantum CEO & our partners',
         galleryId: 'gallery',
       },
-      caption: {
-        content: 'Design & build',
-        type: 'caption',
+    },
+    {
+      picture: {
+        resourceRef: 'photo_2.jpg',
+        alt: 'Quantum CEO & our partners',
+        galleryId: 'gallery',
+      },
+    },
+    {
+      picture: {
+        resourceRef: 'photo_3.jpg',
+        alt: 'Quantum CEO & our partners',
+        galleryId: 'gallery',
+      },
+    },
+    {
+      picture: {
+        resourceRef: 'photo_4.jpg',
+        alt: 'Quantum CEO & our partners',
+        galleryId: 'gallery',
+      },
+    },
+    {
+      picture: {
+        resourceRef: 'photo_5.jpg',
+        alt: 'Quantum CEO & our partners',
+        galleryId: 'gallery',
+      },
+    },
+    {
+      picture: {
+        resourceRef: 'photo_6.jpg',
+        alt: 'Quantum CEO & our partners',
+        galleryId: 'gallery',
+      },
+    },
+    {
+      picture: {
+        resourceRef: 'photo_7.jpg',
+        alt: 'Quantum CEO & our partners',
+        galleryId: 'gallery',
+      },
+    },
+    {
+      picture: {
+        resourceRef: 'photo_8.jpg',
+        alt: 'Quantum CEO & our partners',
+        galleryId: 'gallery',
+      },
+    },
+    {
+      picture: {
+        resourceRef: 'photo_9.jpg',
+        alt: 'Quantum CEO & our partners',
+        galleryId: 'gallery',
+      },
+    },
+    {
+      picture: {
+        resourceRef: 'photo_10.jpg',
+        alt: 'Quantum CEO & our partners',
+        galleryId: 'gallery',
+      },
+    },
+    {
+      picture: {
+        resourceRef: 'photo_11.jpg',
+        alt: 'Quantum CEO & our partners',
+        galleryId: 'gallery',
+      },
+    },
+    {
+      picture: {
+        resourceRef: 'photo_12.jpg',
+        alt: 'Quantum CEO & our partners',
+        galleryId: 'gallery',
       },
     },
   ],
