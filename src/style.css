@@ -1,3 +1,18 @@
 @import "wireframe-zapdos-cta/src/style.css";
 
 /* start here */
+.section__inner {
+  max-width: 865px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: calc(var(--ui-block-title-size) * 1.75);
+  margin-bottom: 60px;
+  line-height: calc(var(--ui-block-title-line-height) * 0.8);
+}
+
+.description {
+  font-size: calc(var(--ui-text-size) * 1.125);
+  opacity: 0.7;
+}
