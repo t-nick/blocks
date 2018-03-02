@@ -1,3 +1,12 @@
 @import "wireframe-zapdos-text/src/style.css";
 
 /* start here */
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 65px;
+}
+
+.subtitle {
+  max-width: 760px;
+}
