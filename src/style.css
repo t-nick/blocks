@@ -1,3 +1,22 @@
 @import "wireframe-zapdos-team/src/style.css";
 
 /* start here */
+.item {
+
+  @media (min-width: 992px) {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  &__inner {
+    width: 100%;
+    padding: 0 0 40px;
+    border-color: transparent;
+  }
+
+  &__pic {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+}
