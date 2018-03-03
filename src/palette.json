@@ -1,1 +1,10 @@
-{"name":"Sunny Field","color":{"lightShade":"#fff","lightAccent":"#01a6e2","brand":"#91cc3d","darkAccent":"#91cc3d","darkShade":"#1d1d1d"}}
+{
+  "name": "Sunny Field",
+  "color": {
+    "lightShade": "#fff",
+    "lightAccent": "#01a6e2",
+    "brand": "#91cc3d",
+    "darkAccent": "#91cc3d",
+    "darkShade": "#1d1d1d"
+  }
+}
