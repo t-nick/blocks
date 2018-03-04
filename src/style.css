@@ -11,23 +11,29 @@
 
 .item {
   background-color: #fff;
-  padding: 20px;
+  padding: 45px 30px;
   border-radius: 10px;
   box-sizing: border-box;
   margin-top: 20px;
   margin-bottom: 20px;
 
   &__title {
-    color: var(--ui-brand-color);
     font-weight: var(--ui-heading-lg-font-weight);
-    border-bottom-style: inherit;    ;
-    padding-bottom: 7px;
+    border-bottom-style: inherit;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .item__title {
+    color: var(--ui-brand-color);
+    font-weight: 600;
   }
 
   &__content {
     color: var(--ui-dark-shade-color);
     font-size: var(--ui-text-size);
-    padding-top: 5px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 0;
   }
-
 }
