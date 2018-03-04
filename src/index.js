@@ -18,7 +18,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: 'Yes, this service is available 7 days per week, even on weekends and bank holidays. ',
+        content:
+          'Yes, this service is available 7 days per week, even on weekends and bank holidays. ',
         type: 'text',
       },
     },
@@ -28,7 +29,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: 'Click Order button next to the service you want to purchase and leave your contacts in a follow-up form. We will get in touch with shortly to clarify all the details. ',
+        content:
+          'Click Order button next to the service you want to purchase and leave your contacts in a follow-up form. We will get in touch with shortly to clarify all the details. ',
         type: 'text',
       },
     },
@@ -38,7 +40,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: 'Click Order button next to the service you want to purchase and leave your contacts in a follow-up form. We will get in touch with shortly to clarify all the details. ',
+        content:
+          'Click Order button next to the service you want to purchase and leave your contacts in a follow-up form. We will get in touch with shortly to clarify all the details. ',
         type: 'text',
       },
     },
@@ -48,7 +51,8 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: 'Click Order button next to the service you want to purchase and leave your contacts in a follow-up form. We will get in touch with shortly to clarify all the details. ',
+        content:
+          'Click Order button next to the service you want to purchase and leave your contacts in a follow-up form. We will get in touch with shortly to clarify all the details. ',
         type: 'text',
       },
     },
@@ -58,17 +62,19 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       description: {
-        content: 'Click Order button next to the service you want to purchase and leave your contacts in a follow-up form. We will get in touch with shortly to clarify all the details. ',
+        content:
+          'Click Order button next to the service you want to purchase and leave your contacts in a follow-up form. We will get in touch with shortly to clarify all the details. ',
         type: 'text',
       },
     },
     {
       title: {
-        content: 'Can I get video consultation with your specialist?',
+        content: 'How are the prices for Deep Cleaning formed?',
         type: 'heading',
       },
       description: {
-        content: 'How are the prices for Deep Cleaning formed?',
+        content:
+          'Click Order button next to the service you want to purchase and leave your contacts in a follow-up form. We will get in touch with shortly to clarify all the details.',
         type: 'text',
       },
     },
