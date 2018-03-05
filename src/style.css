@@ -9,6 +9,11 @@
   display: flex;
   justify-content: flex-start;
 
+  @media (min-width: 768px) {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+  }
+
   &__title {
     order: 2;
     font-family: var(--ui-subheading-font-family);

@@ -113,10 +113,6 @@ ExtendedWireframe.defaultContent = {
     content: 'News',
     type: 'blockTitle',
   },
-  subtitle: {
-    content: 'Subtitle here',
-    type: 'subtitle',
-  },
   cta: {
     actionConfig: {
       action: 'link',
@@ -135,6 +131,11 @@ ExtendedWireframe.defaultContent = {
     type: 'color',
     color: '#fff',
   },
+}
+
+
+ExtendedWireframe.modifierScheme = {
+  ...Component.modifierScheme,
 }
 
 export default ExtendedWireframe
