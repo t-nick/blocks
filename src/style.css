@@ -20,3 +20,7 @@
     border-radius: 0;
   }
 }
+
+.item__position {
+  display: none;
+}
