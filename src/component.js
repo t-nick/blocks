@@ -60,6 +60,7 @@ class Block extends React.Component {
                 <Image
                   pictureClassName={style['main-article__picture']}
                   imgClassName={style['main-article__image']}
+                  bind="main-article-image"
                   size={
                     {
                       'min-width: 992px': 300,
@@ -227,6 +228,9 @@ Block.defaultContent = {
   'main-article-date': {
     content: 'October 21',
     type: 'text',
+  },
+  'main-article-image': {
+    alt: 'Marketing conference illustration',
   },
   'main-article-button': {
     actionConfig: {
