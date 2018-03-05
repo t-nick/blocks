@@ -1,6 +1,10 @@
 @import "wireframe-zapdos-blog/src/style.css";
 
 /* start here */
+.title {
+  margin-bottom: 50px;
+}
+
 .article {
   display: flex;
   justify-content: flex-start;
@@ -17,14 +21,17 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
+    opacity: 0.6;
   }
 
   &__picture {
     overflow: hidden;
     border-radius: 25px;
+    padding-top: 84%;
 
     &-wrapper {
       order: 1;
+      margin-bottom: 35px;
     }
   }
 
@@ -36,40 +43,20 @@
 
   &__text {
     order: 4;
-    color: #7d848d;
+    margin-bottom: 40px;
   }
 
   &__link {
     order: 5;
     text-align: left;
-    font-size: calc(var(--ui-text-size) * 1.066);
-    font-weight: var(--ui-hero-title-font-weight);
   }
 }
 
-.article .article__date {
+.article__date {
   padding-left: 0;
   padding-right: 7px;
-  color: #b6c0cd;
 }
 
 .article__category + .article__date::after {
   display: none;
-}
-
-@media (min-width: 768px) {
-  .article {
-    flex-basis: 100%;
-    max-width: 100%;
-  }
-
-  .article__picture {
-    padding-top: 35%;
-  }
-}
-
-@media (min-width: 992px) {
-  .article__picture {
-    padding-top: 84%;
-  }
 }
