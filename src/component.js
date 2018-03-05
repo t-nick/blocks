@@ -19,13 +19,15 @@ class Block extends React.Component {
         <Text className={style.article__date} tagName="time" bind={`events[${index}].date`} />
         <div className={style.article__content}>
           <Text className={style.article__title} tagName="h2" bind={`events[${index}].title`} />
-          <Button
-            className={style.article__button}
-            iconClassName={style['article__button-icon']}
-            buttonClassName={style.button}
-            linkClassName={style.link}
-            bind={`events[${index}].button`}
-          />
+          {_.get('icon')(modifier) && (
+            <Button
+              className={style.article__button}
+              iconClassName={style['article__button-icon']}
+              buttonClassName={style.button}
+              linkClassName={style.link}
+              bind={`events[${index}].button`}
+            />
+          )}
         </div>
       </article>
     )
@@ -78,13 +80,15 @@ class Block extends React.Component {
               }}
             />
           </div>
-          <div className={style['btns-group']}>
-            <Button
-              buttonClassName={style.button}
-              linkClassName={style.link}
-              bind="button"
-            />
-          </div>
+          {this.getModifierValue('button') && (
+            <div className={style['btns-group']}>
+              <Button
+                buttonClassName={style.button}
+                linkClassName={style.link}
+                bind="button"
+              />
+            </div>
+          )}
         </div>
       </section>
     )
