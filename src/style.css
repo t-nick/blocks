@@ -67,7 +67,7 @@
     @media(min-width: 768px) {
       position: relative;
       max-width: 540px;
-      padding: 15px;
+      padding: 12px;
     }
 
     @media(min-width: 992px) {
@@ -79,7 +79,6 @@
     font-size: calc(var(--ui-heading-lg-size) * 0.7143);
 
     @media(min-width: 768px) {
-      padding: 0;
       font-size: calc(var(--ui-heading-lg-size) * 0.8572);
     }
 
@@ -95,6 +94,7 @@
   &__button {
     margin-top: 45px;
     margin-bottom: 7px;
+    text-align: left;
 
     @media(min-width: 768px) {
       max-width: 40%;
@@ -121,15 +121,16 @@
     @media(min-width: 768px) {
       position: absolute;
       width: 360px;
-      height: 263px;
+      height: 264px;
       right: -64px;
-      transform: translateY(-73px);
+      transform: translateY(-56px);
+      margin-left: 0;
+      margin-right: 0;
     }
 
     @media(min-width: 992px) {
       width: 300px;
-      height: 219px;
-      right: -59px;
+      height: 220px;
     }
   }
 
@@ -180,16 +181,9 @@
   }
 
   &__title {
-    max-width: 236px;
+    width: 0;
+    flex: 1;
     font-size: calc(var(--ui-heading-size) * 0.8334);
-
-    @media(min-width: 768px) {
-      max-width: 575px;
-    }
-
-    @media(min-width: 992px) {
-      max-width: 246px;
-    }
   }
 
   &__button {
