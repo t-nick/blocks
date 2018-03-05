@@ -24,10 +24,12 @@ ExtendedWireframe.defaultContent = {
       category: {
         content: 'Kate Johnson',
         type: 'caption',
+        color: 'dark-shade-color',
       },
       date: {
         content: 'September 11th, 2017',
         type: 'caption',
+        brightness: 30,
       },
       picture: {
         src: 'img-1.png',
@@ -60,10 +62,12 @@ ExtendedWireframe.defaultContent = {
       category: {
         content: 'Ren Tinker',
         type: 'caption',
+        color: 'dark-shade-color',
       },
       date: {
         content: 'September 8th, 2017',
         type: 'caption',
+        brightness: 30,
       },
       picture: {
         src: 'img-2.png',
@@ -96,10 +100,12 @@ ExtendedWireframe.defaultContent = {
       category: {
         content: 'Kate Johnson',
         type: 'caption',
+        color: 'dark-shade-color',
       },
       date: {
         content: 'September 6th, 2017',
         type: 'caption',
+        brightness: 30,
       },
       picture: {
         src: 'img-3.png',
