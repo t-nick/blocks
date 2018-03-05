@@ -24,6 +24,7 @@ ExtendedWireframe.defaultContent = {
       date: {
         content: 'September 11th, 2017',
         type: 'caption',
+        brightness: 30,
       },
       picture: {
         src: 'img-1.png',
@@ -56,6 +57,7 @@ ExtendedWireframe.defaultContent = {
       date: {
         content: 'September 8th, 2017',
         type: 'caption',
+        brightness: 30,
       },
       picture: {
         src: 'img-2.png',
@@ -88,6 +90,7 @@ ExtendedWireframe.defaultContent = {
       date: {
         content: 'September 6th, 2017',
         type: 'caption',
+        brightness: 30,
       },
       picture: {
         src: 'img-3.png',
@@ -120,6 +123,7 @@ ExtendedWireframe.defaultContent = {
       date: {
         content: 'September 4th, 2017',
         type: 'caption',
+        brightness: 30,
       },
       picture: {
         src: 'img-4.png',
@@ -152,6 +156,7 @@ ExtendedWireframe.defaultContent = {
       date: {
         content: 'September 1st, 2017',
         type: 'caption',
+        brightness: 30,
       },
       picture: {
         src: 'img-5.png',
@@ -184,6 +189,7 @@ ExtendedWireframe.defaultContent = {
       date: {
         content: 'August 15th, 2017',
         type: 'caption',
+        brightness: 30,
       },
       picture: {
         src: 'img-6.png',
@@ -216,6 +222,7 @@ ExtendedWireframe.defaultContent = {
       date: {
         content: 'August 1st, 2017',
         type: 'caption',
+        brightness: 30,
       },
       picture: {
         src: 'img-7.png',
@@ -248,6 +255,7 @@ ExtendedWireframe.defaultContent = {
       date: {
         content: 'July 21st, 2017',
         type: 'caption',
+        brightness: 30,
       },
       picture: {
         src: 'img-8.png',
@@ -280,6 +288,7 @@ ExtendedWireframe.defaultContent = {
       date: {
         content: 'July 14th, 2017',
         type: 'caption',
+        brightness: 30,
       },
       picture: {
         src: 'img-9.png',

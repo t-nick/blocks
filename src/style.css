@@ -22,7 +22,6 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
-    opacity: 0.6;
   }
 
   &__picture {
