@@ -9,7 +9,10 @@
       "color": [
         "darkShade",
         "lightShade"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.43
+      }
     },
     "blockTitle": {
       "size": "66px",
