@@ -22,7 +22,10 @@
       "color": [
         "darkShade",
         "lightShade"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.7
+      }
     },
     "subtitle": {
       "size": "16px",
