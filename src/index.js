@@ -21,6 +21,7 @@ ExtendedWireframe.defaultContent = {
       title: {
         content: 'Choose the service you need & book it',
         type: 'heading',
+        color: 'light-accent-color',
       },
       description: {
         content: 'Make an appointment with the help of our handy online booking form.',
@@ -32,6 +33,7 @@ ExtendedWireframe.defaultContent = {
       title: {
         content: 'We send our workers to your location',
         type: 'heading',
+        color: 'light-accent-color',
       },
       description: {
         content: 'Our professionals will come to your property on time to make the dirty work for you.',
@@ -43,6 +45,7 @@ ExtendedWireframe.defaultContent = {
       title: {
         content: 'We meet your needs with care',
         type: 'heading',
+        color: 'light-accent-color',
       },
       description: {
         content: 'We guarantee you maximum satisfaction from service we provide.',
@@ -54,6 +57,7 @@ ExtendedWireframe.defaultContent = {
       title: {
         content: 'Enjoy your free time and excellent result',
         type: 'heading',
+        color: 'light-accent-color',
       },
       description: {
         content: 'Our cleaners will do their best to deliver you a premium cleaning service!',
