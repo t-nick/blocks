@@ -10,47 +10,29 @@ class Block extends React.Component {
   getModifierValue = path => _.get(['modifier', path], this.props.$block)
 
   collectionItem = ({index, children, className, modifier}) => {
-    const {components: {Text, Button, Image}, style} = this.props
+    const {components: {Text, Button}, style} = this.props
 
     return (
       <article className={classNames(style.article, className)}>
         {children}
 
-        {_.get('badge')(modifier) && (
-          <Text tagName="div" className={style.article__badge} bind={`events[${index}].badge`} />
-        )}
-        <div className={style.article__info}>
-          <div className={style.article__top}>
-            <Text tagName="time" className={style.article__date} bind={`events[${index}].date`} />
-            <Text tagName="time" className={style.article__time} bind={`events[${index}].time`} />
-          </div>
-          <Text tagName="h2" className={style.article__title} bind={`events[${index}].title`} />
-          <div className={style.article__bottom}>
-            {_.get('location')(modifier) && (
-              <Text tagName="p" className={style.article__location} bind={`events[${index}].location`} />
-            )}
-            {_.get('link')(modifier) && (
-              <Button
-                className={classNames(style.article__cta)}
-                buttonClassName={style.button}
-                linkClassName={style.link}
-                bind={`events[${index}].cta`}
-              />
-            )}
-          </div>
+        <Text className={style.article__date} tagName="time" bind={`events[${index}].date`} />
+        <div className={style.article__content}>
+          <Text className={style.article__title} tagName="h2" bind={`events[${index}].title`} />
+          <Button
+            className={style.article__button}
+            iconClassName={style['article__button-icon']}
+            buttonClassName={style.button}
+            linkClassName={style.link}
+            bind={`events[${index}].button`}
+          />
         </div>
-        <Image
-          wrapperClassName={style['article__picture-wrapper']}
-          pictureClassName={style.article__picture}
-          imgClassName={style.article__image}
-          bind={`events[${index}].picture`}
-        />
       </article>
     )
   }
 
   render() {
-    const {components: {Collection, Text, Button}, style, $block} = this.props
+    const {components: {Collection, Text, Button, Image}, style, $block} = this.props
 
     return (
       <section className={style.section}>
@@ -61,19 +43,46 @@ class Block extends React.Component {
               <Text tagName="p" className={style.subtitle} bind="subtitle" />
             )}
           </header>
-          <Collection
-            className={style['articles-wrapper']}
-            bind="events"
-            Item={this.collectionItem}
-            itemProps={{
-              modifier: $block.modifier,
-            }}
-          />
+          <div className={style.section__content}>
+            <article className={style['main-article']}>
+              <div className={style['main-article__content']}>
+                <Text className={style['main-article__title']} tagName="h2" bind="main-article-title" />
+                <Text className={style['main-article__date']} tagName="time" bind="main-article-date" />
+                <Button
+                  className={style['main-article__button']}
+                  iconClassName={style['main-article__button-icon']}
+                  linkClassName={style.link}
+                  buttonClassName={style.button}
+                  bind="main-article-button"
+                />
+                <Image
+                  pictureClassName={style['main-article__picture']}
+                  imgClassName={style['main-article__image']}
+                  size={
+                    {
+                      'min-width: 992px': 300,
+                      'min-width: 768px': 350,
+                      'min-width: 480px': 780,
+                      'min-width: 320px': 480,
+                    }
+                  }
+                />
+              </div>
+            </article>
+            <Collection
+              className={style['articles-wrapper']}
+              bind="events"
+              Item={this.collectionItem}
+              itemProps={{
+                modifier: $block.modifier,
+              }}
+            />
+          </div>
           <div className={style['btns-group']}>
             <Button
               buttonClassName={style.button}
               linkClassName={style.link}
-              bind="cta"
+              bind="button"
             />
           </div>
         </div>
@@ -88,150 +97,14 @@ Block.defaultContent = {
   events: [
     {
       title: {
-        content: 'Digital marketing workshop',
-        type: 'heading',
-      },
-      date: {
-        content: 'October 24, 2017',
-        type: 'text',
-      },
-      badge: {
-        content: 'members only',
-        type: 'caption',
-      },
-      time: {
-        content: '10:30am - 1:30pm',
-        type: 'text',
-      },
-      location: {
-        content: 'The station',
-        type: 'caption',
-      },
-      picture: {
-        src: 'https://weblium-prod.storage.googleapis.com/res/weblium/5a7074b3f73f3b0026754830.png',
-        alt: 'Digital marketing workshop illustration',
-      },
-      cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Know more',
-        type: 'link',
-      },
-    },
-    {
-      title: {
-        content: 'Blogging for beginners',
-        type: 'heading',
-      },
-      date: {
-        content: 'November 1, 2017',
-        type: 'text',
-      },
-      badge: {
-        content: 'members only',
-        type: 'caption',
-      },
-      time: {
-        content: '10:30am - 1:30pm',
-        type: 'text',
-      },
-      location: {
-        content: 'The station',
-        type: 'caption',
-      },
-      picture: {
-        src: 'https://weblium-prod.storage.googleapis.com/res/weblium/5a7074b3f73f3b0026754830.png',
-        alt: 'Blogging for beginners illustration',
-      },
-      cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Know more',
-        type: 'link',
-      },
-    },
-    {
-      title: {
-        content: 'How to find insight',
-        type: 'heading',
-      },
-      date: {
-        content: 'November 25, 2017',
-        type: 'text',
-      },
-      badge: {
-        content: 'members only',
-        type: 'caption',
-      },
-      time: {
-        content: '10:30am - 1:30pm',
-        type: 'text',
-      },
-      location: {
-        content: 'The station',
-        type: 'caption',
-      },
-      picture: {
-        src: 'https://weblium-prod.storage.googleapis.com/res/weblium/5a7074b3f73f3b0026754830.png',
-        alt: 'How to find insight illustration',
-      },
-      cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Know more',
-        type: 'link',
-      },
-    },
-    {
-      title: {
         content: 'UX workshop',
         type: 'heading',
       },
       date: {
-        content: 'December 3, 2017',
-        type: 'text',
-      },
-      badge: {
-        content: 'members only',
+        content: 'November 1',
         type: 'caption',
       },
-      time: {
-        content: '10:30am - 1:30pm',
-        type: 'text',
-      },
-      location: {
-        content: 'The station',
-        type: 'caption',
-      },
-      picture: {
-        src: 'https://weblium-prod.storage.googleapis.com/res/weblium/5a7074b3f73f3b0026754830.png',
-        alt: 'UX workshop illustration',
-      },
-      cta: {
+      button: {
         actionConfig: {
           action: 'link',
           actions: {
@@ -242,8 +115,96 @@ Block.defaultContent = {
             },
           },
         },
-        textValue: 'Know more',
+        textValue: '',
         type: 'link',
+        iconEnabled: true,
+        icon: {
+          svg: '<svg xmlns="http://www.w3.org/2000/svg"><path d="M8 0L6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8z"/></svg>',
+        },
+      },
+    },
+    {
+      title: {
+        content: 'Q&A with CEO',
+        type: 'heading',
+      },
+      date: {
+        content: 'November 3',
+        type: 'caption',
+      },
+      button: {
+        actionConfig: {
+          action: 'link',
+          actions: {
+            link: {
+              type: '',
+              innerPage: '',
+              url: '',
+            },
+          },
+        },
+        textValue: '',
+        type: 'link',
+        iconEnabled: true,
+        icon: {
+          svg: '<svg xmlns="http://www.w3.org/2000/svg"><path d="M8 0L6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8z"/></svg>',
+        },
+      },
+    },
+    {
+      title: {
+        content: 'SEO workshop',
+        type: 'heading',
+      },
+      date: {
+        content: 'November 5',
+        type: 'caption',
+      },
+      button: {
+        actionConfig: {
+          action: 'link',
+          actions: {
+            link: {
+              type: '',
+              innerPage: '',
+              url: '',
+            },
+          },
+        },
+        textValue: '',
+        type: 'link',
+        iconEnabled: true,
+        icon: {
+          svg: '<svg xmlns="http://www.w3.org/2000/svg"><path d="M8 0L6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8z"/></svg>',
+        },
+      },
+    },
+    {
+      title: {
+        content: 'Product release ',
+        type: 'heading',
+      },
+      date: {
+        content: 'November 15',
+        type: 'caption',
+      },
+      button: {
+        actionConfig: {
+          action: 'link',
+          actions: {
+            link: {
+              type: '',
+              innerPage: '',
+              url: '',
+            },
+          },
+        },
+        textValue: '',
+        type: 'link',
+        iconEnabled: true,
+        icon: {
+          svg: '<svg xmlns="http://www.w3.org/2000/svg"><path d="M8 0L6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8z"/></svg>',
+        },
       },
     },
   ],
@@ -255,7 +216,34 @@ Block.defaultContent = {
     content: 'Do you want to know more about our products or boost your knowledge of business planning? Feel free to join our events! Order tickets in advance not to miss the seminars and workshops that you want to visit.',
     type: 'subtitle',
   },
-  cta: {
+  'main-article-title': {
+    content: 'Marketing conference',
+    type: 'headingLg',
+  },
+  'main-article-date': {
+    content: 'October 21',
+    type: 'text',
+  },
+  'main-article-button': {
+    actionConfig: {
+      action: 'link',
+      actions: {
+        link: {
+          type: '',
+          innerPage: '',
+          url: '',
+        },
+      },
+    },
+    textValue: 'Learn more',
+    type: 'link',
+    iconEnabled: true,
+    iconAlignment: 'right',
+    icon: {
+      svg: '<svg xmlns="http://www.w3.org/2000/svg"><path d="M5.5.5l-.881.881 3.487 3.494H.5v1.25h7.606L4.62 9.619l.881.881 5-5z"/></svg>',
+    },
+  },
+  button: {
     actionConfig: {
       action: 'link',
       actions: {
