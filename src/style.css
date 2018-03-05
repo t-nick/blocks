@@ -33,9 +33,10 @@
       background-color: transparent;
       content: counter(steps)".";
       opacity: 0.21;
+      font-size: var(--ui-block-title-size);
 
       @media (min-width: 768px) {
-        font-size: 80px;
+        font-size: calc(var(--ui-hero-title-size) * 0.89);
         padding: 0;
         height: auto;
         line-height: 1;
