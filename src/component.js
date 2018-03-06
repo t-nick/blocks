@@ -53,6 +53,8 @@ class Block extends React.Component {
             />
             <Icon bind="icon" className={style.icon} />
             <Text tagName="p" className={style.item} bind="textCutomColor" />
+            <Text tagName="p" className={style.item} bind="textBrightness" />
+            <Text tagName="p" className={style.item} bind="textBrightnessD" />
           </section>
           <Background className={style.column} bind="darkBg" tagName="section">
             <h1 className={style.visuallyHidden}>Dark</h1>
@@ -94,6 +96,8 @@ class Block extends React.Component {
             />
             <Icon bind="icon" className={style.icon} />
             <Text tagName="p" className={style.item} bind="textCutomColor" />
+            <Text tagName="p" className={style.item} bind="textBrightness" />
+            <Text tagName="p" className={style.item} bind="textBrightnessD" />
           </Background>
         </div>
       </section>
@@ -104,6 +108,7 @@ class Block extends React.Component {
 Block.components = _.pick(['Text', 'Button', 'ContactForm', 'Icon', 'Background'])($editor.components)
 
 Block.defaultContent = {
+  theme: 'dark',
   heroTitle: {
     content: 'HEROTITLE',
     type: 'heroTitle',
@@ -301,6 +306,16 @@ Block.defaultContent = {
     content: 'TEXT WITH CUSTOM COLOR',
     type: 'headingLg',
     color: 'brand-color?spin=100',
+  },
+  textBrightness: {
+    content: 'TEXT WITH Brightness 10',
+    type: 'headingLg',
+    brightness: 10,
+  },
+  textBrightnessD: {
+    content: 'TEXT WITH Brightness -10',
+    type: 'headingLg',
+    brightness: -10,
   },
   darkBg: {
     type: 'color',
