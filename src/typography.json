@@ -9,7 +9,10 @@
       "color": [
         "darkShade",
         "lightShade"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.21
+      }
     },
     "blockTitle": {
       "size": "50px",
@@ -19,7 +22,10 @@
       "color": [
         "darkShade",
         "lightShade"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.47
+      }
     },
     "subtitle": {
       "size": "35px",
@@ -29,7 +35,10 @@
       "color": [
         "darkShade",
         "lightShade"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.66
+      }
     },
     "headingLg": {
       "size": "40px",
@@ -39,7 +48,10 @@
       "color": [
         "darkShade",
         "lightShade"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.58
+      }
     },
     "heading": {
       "size": "24px",
@@ -49,7 +61,10 @@
       "color": [
         "darkShade",
         "lightShade"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.97
+      }
     },
     "subheading": {
       "size": "20px",
