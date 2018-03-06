@@ -25,9 +25,7 @@
 }
 
 .subtitle {
-  opacity: .5;
-  font-weight: 500;
-  letter-spacing: 0.01px;
+  font-weight: calc(var(--ui-subtitle-font-weight) * 1.25);
 
   @media (min-width: 992px) {
     max-width: 900px;
@@ -65,7 +63,6 @@
 
   &__time {
     text-transform: uppercase;
-    opacity: .5;
 
     @media (min-width: 992px) {
       margin-bottom: 18px;
@@ -84,7 +81,6 @@
 
   &__position {
     text-transform: uppercase;
-    opacity: .5;
 
     @media (min-width: 992px) {
       font-size: var(--ui-caption-size);
