@@ -112,21 +112,21 @@
         }
       },
       "active": {
-      "color": [
-        "lightShade",
-        "brand"
-      ],
-      "bg": {
         "color": [
-          "brand",
-          "lightShade"
-        ]
-      },
-      "border": {
-        "color": [
-          "transparent"
-        ]
-      }
+          "lightShade",
+          "brand"
+        ],
+        "bg": {
+          "color": [
+            "brand",
+            "lightShade"
+          ]
+        },
+        "border": {
+          "color": [
+            "transparent"
+          ]
+        }
       }
     },
     "secondary": {
