@@ -7,15 +7,27 @@
       "fontFamily": "'Playfair Display', sans-serif",
       "fontWeight": 700,
       "letterSpacing": 2,
-      "color": ["darkShade", "lightShade"]
+      "color": [
+        "darkShade",
+        "lightShade"
+      ],
+      "coefficients": {
+        "320px": 0.24
+      }
     },
     "blockTitle": {
       "size": "48px",
       "lineHeight": 1,
       "fontFamily": "'Playfair Display', sans-serif",
       "fontWeight": 700,
-      "letterSpacing": 2,      
-      "color": ["darkShade", "lightShade"]
+      "letterSpacing": 2,
+      "color": [
+        "darkShade",
+        "lightShade"
+      ],
+      "coefficients": {
+        "320px": 0.42
+      }
     },
     "subtitle": {
       "size": "18px",
@@ -23,39 +35,57 @@
       "fontFamily": "'Rubik', sans-serif",
       "fontWeight": 400,
       "letterSpacing": 1,
-      "color": ["darkAccent?lighten=25.49&desaturate=4.36&spin=351", "lightShade?darken=33.33"]
+      "color": [
+        "darkAccent?lighten=25.49&desaturate=4.36&spin=351",
+        "lightShade?darken=33.33"
+      ]
     },
     "headingLg": {
       "size": "32px",
       "lineHeight": 1,
       "fontFamily": "'Rubik', sans-serif",
       "fontWeight": 500,
-      "letterSpacing": 2,      
-      "color": ["darkAccent", "lightShade"]
+      "letterSpacing": 2,
+      "color": [
+        "darkAccent",
+        "lightShade"
+      ],
+      "coefficients": {
+        "320px": 0.66
+      }
     },
     "heading": {
       "size": "22px",
       "lineHeight": 1.45,
       "fontFamily": "'Rubik', sans-serif",
       "fontWeight": 500,
-      "letterSpacing": 1,      
-      "color": ["darkShade", "lightShade"]
+      "letterSpacing": 1,
+      "color": [
+        "darkShade",
+        "lightShade"
+      ]
     },
     "subheading": {
       "size": "18px",
       "lineHeight": 1.67,
       "fontFamily": "'Rubik', sans-serif",
       "fontWeight": 400,
-      "letterSpacing": 1,      
-      "color": ["darkAccent?lighten=25.49&desaturate=4.36&spin=351", "lightShade?darken=33.33"]
+      "letterSpacing": 1,
+      "color": [
+        "darkAccent?lighten=25.49&desaturate=4.36&spin=351",
+        "lightShade?darken=33.33"
+      ]
     },
     "text": {
       "size": "16px",
       "lineHeight": 1.75,
       "fontFamily": "'Rubik', sans-serif",
       "fontWeight": 400,
-      "letterSpacing": 0.5,      
-      "color": ["darkAccent?lighten=25.49&desaturate=4.36&spin=351", "lightShade?darken=33.33"]
+      "letterSpacing": 0.5,
+      "color": [
+        "darkAccent?lighten=25.49&desaturate=4.36&spin=351",
+        "lightShade?darken=33.33"
+      ]
     },
     "small": {
       "size": "12px",
@@ -63,29 +93,47 @@
       "fontFamily": "'Rubik', sans-serif",
       "fontWeight": 500,
       "letterSpacing": 0.4,
-      "color": ["darkAccent?lighten=25.49&desaturate=4.36&spin=351", "lightShade?darken=33.33"]
+      "color": [
+        "darkAccent?lighten=25.49&desaturate=4.36&spin=351",
+        "lightShade?darken=33.33"
+      ]
     },
     "quote": {
       "size": "34px",
       "lineHeight": 1,
       "fontFamily": "'Playfair Display', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade", "lightShade"],
+      "color": [
+        "darkShade",
+        "lightShade"
+      ],
       "letterSpacing": 0.8,
-      "fontStyle": "italic"
+      "fontStyle": "italic",
+      "coefficients": {
+        "320px": 0.69
+      }
     },
     "caption": {
       "size": "12px",
       "lineHeight": 1.82,
       "fontFamily": "'Rubik', sans-serif",
       "fontWeight": 500,
-      "letterSpacing": 1.7,      
-      "color": ["darkAccent?lighten=25.49&desaturate=4.36&spin=351", "lightShade?darken=33.33"]
+      "letterSpacing": 1.7,
+      "color": [
+        "darkAccent?lighten=25.49&desaturate=4.36&spin=351",
+        "lightShade?darken=33.33"
+      ]
     },
     "link": {
-      "color": ["darkShade", "lightShade"],
+      "color": [
+        "darkShade",
+        "lightShade"
+      ],
       "hover": {
-        "color": ["darkShade", "lightShade"]
+        "color": [
+          "darkShade",
+          "lightShade"
+        ]
       }
     }
   }
