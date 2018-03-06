@@ -18,7 +18,7 @@
       "size": "35px",
       "lineHeight": 1.14,
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
+      "fontWeight": 400,
       "color": [
         "darkShade",
         "lightShade"
@@ -31,7 +31,7 @@
       "size": "16px",
       "lineHeight": 1.38,
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
+      "fontWeight": 400,
       "color": [
         "lightShade?darken=36.47",
         "darkShade?lighten=35.69"
@@ -41,7 +41,7 @@
       "size": "30px",
       "lineHeight": 1.2,
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
+      "fontWeight": 400,
       "color": [
         "darkShade",
         "lightShade"
@@ -54,17 +54,20 @@
       "size": "26px",
       "lineHeight": 1.23,
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
+      "fontWeight": 400,
       "color": [
         "lightShade?darken=36.47",
         "darkShade?lighten=35.69"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.95
+      }
     },
     "subheading": {
       "size": "24px",
       "lineHeight": 1.25,
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
+      "fontWeight": 400,
       "color": [
         "lightShade?darken=36.47",
         "darkShade?lighten=35.69"
@@ -74,7 +77,7 @@
       "size": "16px",
       "lineHeight": 1.56,
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 300,
+      "fontWeight": 400,
       "color": [
         "lightShade?darken=36.47",
         "darkShade?lighten=35.69"
@@ -94,7 +97,7 @@
       "size": "16px",
       "lineHeight": 1.56,
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 300,
+      "fontWeight": 400,
       "color": [
         "lightShade?darken=36.47",
         "darkShade?lighten=35.69"
