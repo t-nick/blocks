@@ -1,3 +1,50 @@
 @import "wireframe-series-2-contacts/src/style.css";
 
 /* start here */
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 21px;
+    height: 3px;
+    background-color: var(--ui-light-shade-color);
+  }
+}
+
+.section {
+  &__header {
+    margin-bottom: 53px;
+  }
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  padding: 0 48px;
+
+  &__picture {
+    order: -1;
+    padding-top: 100%;
+    margin-bottom: 34px;
+    background-color: transparent;
+  }
+
+  &__text {
+    max-width: 256px;
+    margin-left: auto;
+    margin-right: auto;
+
+    p {
+      margin-bottom: 1px;
+      font-size: var(--ui-subheading-size);
+    }
+  }
+}
