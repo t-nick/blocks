@@ -8,7 +8,10 @@
       "fontWeight": 700,
       "color": [
         "darkShade"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.58
+      }
     },
     "blockTitle": {
       "size": "32px",
@@ -18,7 +21,10 @@
       "color": [
         "darkShade",
         "lightShade"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.77
+      }
     },
     "subtitle": {
       "size": "20px",
@@ -38,7 +44,10 @@
       "color": [
         "darkShade",
         "lightShade"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.88
+      }
     },
     "heading": {
       "size": "24px",
