@@ -69,6 +69,7 @@ class Block extends React.Component {
                       'min-width: 320px': 480,
                     }
                   }
+                  resize={{disable: true}}
                 />
               </div>
             </article>
