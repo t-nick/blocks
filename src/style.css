@@ -50,6 +50,11 @@
 
   &__inner {
     background-color: transparent;
+
+    @media (min-width: 992px) {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
   }
 
   &__desc {
