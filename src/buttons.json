@@ -25,94 +25,156 @@
     "primary": {
       "default": {
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "brand"
+          ]
         },
-        "color": ["lightShade"],
+        "color": [
+          "lightShade"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand?darken=10.89&desaturate=18.76"]
+          "color": [
+            "brand?darken=10.89&desaturate=18.76"
+          ]
         }
       },
       "active": {
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "brand"
+          ]
         },
         "border": {
-          "color": ["brand?setAlpha=0.78"]
+          "color": [
+            "brand?setAlpha=0.78"
+          ]
         }
       }
     },
     "primaryAlt": {
       "default": {
         "bg": {
-          "color": ["darkAccent", "lightShade"]
+          "color": [
+            "darkAccent",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade", "darkShade"],
+        "color": [
+          "lightShade",
+          "darkShade"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand?darken=12.16&desaturate=0.27", "darkShade?lighten=15.29&desaturate=0.13"]
+          "color": [
+            "brand?darken=12.16&desaturate=0.27",
+            "darkShade?lighten=15.29&desaturate=0.13"
+          ]
         },
-        "color": ["lightShade", "lightShade"]
+        "color": [
+          "lightShade",
+          "lightShade"
+        ]
       },
       "active": {
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "brand"
+          ]
         },
         "border": {
-          "color": ["brand?setAlpha=0.78", "darkShade?lighten=15.29&desaturate=0.13?setAlpha=0.78"]
+          "color": [
+            "brand?setAlpha=0.78",
+            "darkShade?lighten=15.29&desaturate=0.13?setAlpha=0.78"
+          ]
         }
       }
     },
     "secondary": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade", "lightShade"],
+        "color": [
+          "darkShade",
+          "lightShade"
+        ],
         "border": {
-          "color": ["darkShade?lighten=44.51&desaturate=7.45&spin=38", "lightShade"]
+          "color": [
+            "darkShade?lighten=44.51&desaturate=7.45&spin=38",
+            "lightShade"
+          ]
         }
       },
       "hover": {
         "border": {
-          "color": ["brand", "brand"]
+          "color": [
+            "brand",
+            "brand"
+          ]
         }
       },
       "active": {
         "border": {
-          "color": ["brand?darken=21.76&desaturate=18.5", "darkShade?lighten=30.78&saturate=0.3"]
+          "color": [
+            "brand?darken=21.76&desaturate=18.5",
+            "darkShade?lighten=30.78&saturate=0.3"
+          ]
         }
       }
     },
     "secondaryAlt": {
       "default": {
         "bg": {
-          "color": ["transparent", "lightShade"]
+          "color": [
+            "transparent",
+            "lightShade"
+          ]
         },
-        "color": ["darkShade"],
+        "color": [
+          "darkShade"
+        ],
         "border": {
-          "color": ["brand", "transparent"]
+          "color": [
+            "brand",
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["transparent", "transparent"]
+          "color": [
+            "transparent",
+            "transparent"
+          ]
         },
         "border": {
-          "color": ["darkShade?lighten=44.51&desaturate=7.45&spin=38", "transparent"]
+          "color": [
+            "darkShade?lighten=44.51&desaturate=7.45&spin=38",
+            "transparent"
+          ]
         }
       },
       "active": {
         "border": {
-          "color": ["darkSHade", "lightShade"]
+          "color": [
+            "darkSHade",
+            "lightShade"
+          ]
         }
       }
     }
