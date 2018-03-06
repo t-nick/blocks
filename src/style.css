@@ -1,3 +1,44 @@
 @import "wireframe-series-2-contacts/src/style.css";
 
 /* start here */
+.subtitle {
+  max-width: 900px;
+  color: var(--ui-dark-shade-color );
+
+  @media  (min-width: 992px) {
+    margin-top: 30px;
+  }
+}
+
+.article {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 45px;
+
+  &__title {
+    order: 1;
+    margin-top: 20px;
+  }
+
+  &__picture {
+    order: 0;
+  }
+
+  &__text {
+    order: 2;
+
+    p {
+      margin-bottom: 0;
+      font-size: calc(var(--ui-text-size)*1.125);
+      font-weight: calc(var(--ui-subheading-font-weight)*1.6667);
+      font-family: var(--ui-subheading-font-family);
+    }
+  }
+}
+
+.btns-group {
+
+  @media (min-width: 768px) {
+    margin-top: 45px;
+  }
+}
