@@ -9,7 +9,10 @@
       "color": [
         "darkShade",
         "lightShade"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.25
+      }
     },
     "blockTitle": {
       "size": "28px",
@@ -19,7 +22,10 @@
       "color": [
         "darkShade",
         "lightShade"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.83
+      }
     },
     "subtitle": {
       "size": "20px",
@@ -39,7 +45,10 @@
       "color": [
         "darkShade",
         "lightShade"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.97
+      }
     },
     "heading": {
       "size": "22px",
