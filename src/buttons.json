@@ -28,7 +28,9 @@
       "default": {
         "fontWeight": 600,
         "bg": {
-          "color": ["brand"],
+          "color": [
+            "brand"
+          ],
           "gradient": {
             "angle": "90deg",
             "colors": [
@@ -39,9 +41,13 @@
             ]
           }
         },
-        "color": ["lightShade"],
+        "color": [
+          "lightShade"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
         "shadow": {
           "x": 0,
@@ -56,7 +62,9 @@
       },
       "hover": {
         "bg": {
-          "color": ["brand"],
+          "color": [
+            "brand"
+          ],
           "gradient": {
             "angle": "90deg",
             "colors": [
@@ -73,19 +81,30 @@
       "default": {
         "fontWeight": 600,
         "bg": {
-          "color": ["brand", "lightShade"]
+          "color": [
+            "brand",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade", "darkShade?lighten=28.24&desaturate=2.6&spin=355"],
+        "color": [
+          "lightShade",
+          "darkShade?lighten=28.24&desaturate=2.6&spin=355"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["darkAccent"]
+          "color": [
+            "darkAccent"
+          ]
         },
         "color": [
-          "lightShade", "brand"
+          "lightShade",
+          "brand"
         ]
       }
     },
@@ -93,16 +112,25 @@
       "default": {
         "fontWeight": 600,
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade"],
+        "color": [
+          "darkShade?lighten=28.24&desaturate=2.6&spin=355",
+          "lightShade"
+        ],
         "border": {
-          "color": ["brand"]
+          "color": [
+            "brand"
+          ]
         }
       },
       "hover": {
         "border": {
-          "color": ["brand?darken=10.98&desaturate=16.33"]
+          "color": [
+            "brand?darken=10.98&desaturate=16.33"
+          ]
         }
       }
     },
@@ -110,20 +138,37 @@
       "default": {
         "fontWeight": 600,
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade"],
+        "color": [
+          "darkShade?lighten=28.24&desaturate=2.6&spin=355",
+          "lightShade"
+        ],
         "border": {
-          "color": ["brand", "lightShade"]
+          "color": [
+            "brand",
+            "lightShade"
+          ]
         }
       },
       "hover": {
-        "color": ["darkShade", "darkShade"],
+        "color": [
+          "darkShade",
+          "darkShade"
+        ],
         "bg": {
-          "color": ["transparent", "lightShade"]
+          "color": [
+            "transparent",
+            "lightShade"
+          ]
         },
         "border": {
-          "color": ["brand?darken=10.98&desaturate=16.33", "transparent"]
+          "color": [
+            "brand?darken=10.98&desaturate=16.33",
+            "transparent"
+          ]
         }
       }
     }

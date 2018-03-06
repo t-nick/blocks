@@ -6,63 +6,99 @@
       "lineHeight": 1.11,
       "fontFamily": "'Open Sans', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade", "lightShade"]
+      "color": [
+        "darkShade",
+        "lightShade"
+      ],
+      "coefficients": {
+        "320px": 0.27
+      }
     },
     "blockTitle": {
       "size": "50px",
       "lineHeight": 1.2,
       "fontFamily": "'Open Sans', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade", "lightShade"]
+      "color": [
+        "darkShade",
+        "lightShade"
+      ],
+      "coefficients": {
+        "320px": 0.49
+      }
     },
     "subtitle": {
       "size": "17px",
       "lineHeight": 1.65,
       "fontFamily": "'Open Sans', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade"]
+      "color": [
+        "darkShade?lighten=28.24&desaturate=2.6&spin=355",
+        "lightShade"
+      ]
     },
     "headingLg": {
       "size": "30px",
       "lineHeight": 1.33,
       "fontFamily": "'Open Sans', sans-serif",
       "fontWeight": 400,
-      "color": ["darkAccent", "lightShade"]
+      "color": [
+        "darkAccent",
+        "lightShade"
+      ],
+      "coefficients": {
+        "320px": 0.82
+      }
     },
     "heading": {
       "size": "21px",
       "lineHeight": 1.43,
       "fontFamily": "'Open Sans', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade", "lightShade"]
+      "color": [
+        "darkShade",
+        "lightShade"
+      ]
     },
     "subheading": {
       "size": "19px",
       "lineHeight": 1.58,
       "fontFamily": "'Open Sans', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade"]
+      "color": [
+        "darkShade?lighten=28.24&desaturate=2.6&spin=355",
+        "lightShade"
+      ]
     },
     "text": {
       "size": "15px",
       "lineHeight": 1.73,
       "fontFamily": "'Open Sans', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade"]
+      "color": [
+        "darkShade?lighten=28.24&desaturate=2.6&spin=355",
+        "lightShade"
+      ]
     },
     "small": {
       "size": "11px",
       "lineHeight": 1.82,
       "fontFamily": "'Open Sans', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade?darken=10.2&saturate=30.77&spin=210"]
+      "color": [
+        "darkShade?lighten=28.24&desaturate=2.6&spin=355",
+        "lightShade?darken=10.2&saturate=30.77&spin=210"
+      ]
     },
     "quote": {
       "size": "21px",
       "lineHeight": 1.43,
       "fontFamily": "'Poppins', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade"],
+      "color": [
+        "darkShade?lighten=28.24&desaturate=2.6&spin=355",
+        "lightShade"
+      ],
       "fontStyle": "italic"
     },
     "caption": {
@@ -70,12 +106,21 @@
       "lineHeight": 1.85,
       "fontFamily": "'Open Sans', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade?darken=10.2&saturate=30.77&spin=210"]
+      "color": [
+        "darkShade?lighten=28.24&desaturate=2.6&spin=355",
+        "lightShade?darken=10.2&saturate=30.77&spin=210"
+      ]
     },
     "link": {
-      "color": ["darkShade?lighten=28.24&desaturate=2.6&spin=355", "lightShade"],
+      "color": [
+        "darkShade?lighten=28.24&desaturate=2.6&spin=355",
+        "lightShade"
+      ],
       "hover": {
-        "color": ["brand", "brand"]
+        "color": [
+          "brand",
+          "brand"
+        ]
       }
     }
   }
