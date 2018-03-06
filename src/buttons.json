@@ -15,82 +15,138 @@
       "padding": "15px 35px",
       "borderRadius": "27px",
       "fontSize": "16px",
-      "fontWight": 700      
+      "fontWight": 700
     },
     "lg": {
       "padding": "17px 33px",
       "borderRadius": "30px",
       "fontSize": "16px",
-      "fontWight": 700      
+      "fontWight": 700
     }
   },
   "settings": {
     "primary": {
       "default": {
         "bg": {
-          "color": ["brand", "lightAccent"]
+          "color": [
+            "brand",
+            "lightAccent"
+          ]
         },
-        "color": ["lightShade?lighten=7.45&desaturate=26.32"],
+        "color": [
+          "lightShade?lighten=7.45&desaturate=26.32"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["darkShade", "lightShade?lighten=7.45&desaturate=26.32"]
+          "color": [
+            "darkShade",
+            "lightShade?lighten=7.45&desaturate=26.32"
+          ]
         },
-        "color": ["lightShade?lighten=7.45&desaturate=26.32", "darkShade?lighten=5.1&desaturate=7.58"]
+        "color": [
+          "lightShade?lighten=7.45&desaturate=26.32",
+          "darkShade?lighten=5.1&desaturate=7.58"
+        ]
       }
     },
     "primaryAlt": {
       "default": {
         "bg": {
-          "color": ["brand", "lightAccent"]
+          "color": [
+            "brand",
+            "lightAccent"
+          ]
         },
-        "color": ["lightShade?lighten=7.45&desaturate=26.32"],
+        "color": [
+          "lightShade?lighten=7.45&desaturate=26.32"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["darkShade", "lightShade?lighten=7.45&desaturate=26.32"]
+          "color": [
+            "darkShade",
+            "lightShade?lighten=7.45&desaturate=26.32"
+          ]
         },
-        "color": ["lightShade?lighten=7.45&desaturate=26.32", "darkShade?lighten=5.1&desaturate=7.58"]
+        "color": [
+          "lightShade?lighten=7.45&desaturate=26.32",
+          "darkShade?lighten=5.1&desaturate=7.58"
+        ]
       }
     },
     "secondary": {
       "default": {
         "bg": {
-          "color": ["transparent", "lightShade?lighten=7.45&desaturate=26.32"]
+          "color": [
+            "transparent",
+            "lightShade?lighten=7.45&desaturate=26.32"
+          ]
         },
-        "color": ["brand", "lightAccent"],
+        "color": [
+          "brand",
+          "lightAccent"
+        ],
         "border": {
-          "color": ["brand", "transparent"]
+          "color": [
+            "brand",
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand", "lightShade"]
+          "color": [
+            "brand",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade?lighten=7.45&desaturate=26.32", "lightShade"]
+        "color": [
+          "lightShade?lighten=7.45&desaturate=26.32",
+          "lightShade"
+        ]
       }
     },
     "secondaryAlt": {
       "default": {
         "bg": {
-          "color": ["transparent", "lightShade?lighten=7.45&desaturate=26.32"]
+          "color": [
+            "transparent",
+            "lightShade?lighten=7.45&desaturate=26.32"
+          ]
         },
-        "color": ["brand", "lightAccent"],
+        "color": [
+          "brand",
+          "lightAccent"
+        ],
         "border": {
-          "color": ["brand", "transparent"]
+          "color": [
+            "brand",
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand", "lightShade"]
+          "color": [
+            "brand",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade?lighten=7.45&desaturate=26.32", "lightShade"]
+        "color": [
+          "lightShade?lighten=7.45&desaturate=26.32",
+          "lightShade"
+        ]
       }
     }
   }
