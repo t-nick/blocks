@@ -9,7 +9,10 @@
       "color": [
         "darkShade?lighten=5.88&desaturate=1.83",
         "lightShade"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.42
+      }
     },
     "blockTitle": {
       "size": "42px",
@@ -19,7 +22,10 @@
       "color": [
         "darkShade?lighten=5.88&desaturate=1.83",
         "lightShade"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.68
+      }
     },
     "subtitle": {
       "size": "16px",
@@ -89,7 +95,10 @@
       "color": [
         "darkShade?lighten=35.29&desaturate=9.52",
         "lightShade"
-      ]
+      ],
+      "coefficients": {
+        "320px": 0.89
+      }
     },
     "caption": {
       "size": "12px",
