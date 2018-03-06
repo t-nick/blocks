@@ -97,7 +97,10 @@
                 "brand?lighten=7.65&spin=3",
                 "brand?darken=8.63&desaturate=1.17&spin=354"
               ],
-              ["transparent", "transparent"]
+              [
+                "transparent",
+                "transparent"
+              ]
             ]
           }
         },
