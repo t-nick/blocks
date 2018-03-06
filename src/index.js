@@ -20,13 +20,21 @@ ExtendedWireframe.defaultContent = {
     color: '#fff',
   },
   title: 'Why choose us',
-  text: 'Industrial facilities are a blend of areas such as offices, labs, cafeterias, loading docks, storage, equipment rooms, childcare rooms, and restrooms – as well as assembly or manufacturing areas. Spacious hallways with carpeting or cement flooring are guaranteed to be cleaned efficiently with the appropriate equipment. Unlike other industrial cleaning contractors, ShinyHouse pays detailed attention to using the proper tools and cleaning process to achieve the best possible end result.',
+  text: {
+    content: 'Industrial facilities are a blend of areas such as offices, labs, cafeterias, loading docks, storage, equipment rooms, childcare rooms, and restrooms – as well as assembly or manufacturing areas. Spacious hallways with carpeting or cement flooring are guaranteed to be cleaned efficiently with the appropriate equipment.  ',
+    type: 'text',
+  },
+  'text-2': {
+    content: 'Unlike other industrial cleaning contractors, ShinyHouse pays detailed attention to using the proper tools and cleaning process to achieve the best possible end result.',
+    type: 'text',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   button: {defaultValue: false},
   'top-icon': {defaultValue: false},
+  'additional-text': {defaultValue: true},
 }
 
 export default ExtendedWireframe
