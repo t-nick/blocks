@@ -25,97 +25,164 @@
     "primary": {
       "default": {
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "brand"
+          ]
         },
-        "color": ["lightShade"],
+        "color": [
+          "lightShade"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         }
       },
       "hover": {
         "border": {
-          "color": ["brand?lighten=13.82&saturate=12.3"]
+          "color": [
+            "brand?lighten=13.82&saturate=12.3"
+          ]
         }
       },
       "active": {
         "bg": {
-          "color": ["brand?lighten=13.82&saturate=12.3"]
+          "color": [
+            "brand?lighten=13.82&saturate=12.3"
+          ]
         }
       }
     },
     "primaryAlt": {
       "default": {
         "bg": {
-          "color": ["darkShade", "lightShade"]
+          "color": [
+            "darkShade",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade", "darkShade"],
+        "color": [
+          "lightShade",
+          "darkShade"
+        ],
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["brand", "darkShade?lighten=31,76"]
+          "color": [
+            "brand",
+            "darkShade?lighten=31,76"
+          ]
         },
-        "color": ["lightShade", "lightShade"],
+        "color": [
+          "lightShade",
+          "lightShade"
+        ],
         "border": {
-          "color": ["darkShade?lighten=31,76", "transparent"]
+          "color": [
+            "darkShade?lighten=31,76",
+            "transparent"
+          ]
         }
       },
       "active": {
         "bg": {
-          "color": ["darkShade?lighten=15.88&desaturate=0.58&spin=356"]
+          "color": [
+            "darkShade?lighten=15.88&desaturate=0.58&spin=356"
+          ]
         },
         "border": {
-          "color": ["transparent", "transparent"]
+          "color": [
+            "transparent",
+            "transparent"
+          ]
         }
       }
     },
     "secondary": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade", "lightShade"],
+        "color": [
+          "darkShade",
+          "lightShade"
+        ],
         "border": {
-          "color": ["brand?lighten=28.82&saturate=44.8&spin=1", "lightShade"]
+          "color": [
+            "brand?lighten=28.82&saturate=44.8&spin=1",
+            "lightShade"
+          ]
         }
       },
       "hover": {
         "border": {
-          "color": ["brand?lighten=13.82&saturate=12.3", "brand?lighten=28.82&saturate=44.8&spin=1"]
+          "color": [
+            "brand?lighten=13.82&saturate=12.3",
+            "brand?lighten=28.82&saturate=44.8&spin=1"
+          ]
         }
       },
       "active": {
         "border": {
-          "color": ["brand", "brand"]
+          "color": [
+            "brand",
+            "brand"
+          ]
         }
       }
     },
     "secondaryAlt": {
       "default": {
         "bg": {
-          "color": ["lightShade?darken=3.92", "transparent"]
+          "color": [
+            "lightShade?darken=3.92",
+            "transparent"
+          ]
         },
-        "color": ["darkShade", "lightShade"],
+        "color": [
+          "darkShade",
+          "lightShade"
+        ],
         "border": {
-          "color": ["transparent", "brand"]
+          "color": [
+            "transparent",
+            "brand"
+          ]
         }
       },
       "hover": {
         "bg": {
-          "color": ["lightShade?darken=7.84", "transparent"]
+          "color": [
+            "lightShade?darken=7.84",
+            "transparent"
+          ]
         },
         "border": {
-          "color": ["transparent", "brand?lighten=28.82&saturate=44.8&spin=1"]
+          "color": [
+            "transparent",
+            "brand?lighten=28.82&saturate=44.8&spin=1"
+          ]
         }
       },
       "active": {
         "bg": {
-          "color": ["lightShade", "transparent"]
+          "color": [
+            "lightShade",
+            "transparent"
+          ]
         },
         "border": {
-          "color": ["transparent", "brand"]
+          "color": [
+            "transparent",
+            "brand"
+          ]
         }
       }
     }
