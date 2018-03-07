@@ -1,20 +1,23 @@
 @import "wireframe-zapdos-text/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  &__header {
+    margin-bottom: 70px;
+  }
+}
 
 .title {
   text-transform: uppercase;
 }
 
-.section {
-  &__header {
-    margin-bottom: 67px;
-  }
-}
-
 .subheading {
-  font-size: var(--ui-heading-size);
-  font-family: var(--ui-heading-font-family);
   max-width: 505px;
 }
 
