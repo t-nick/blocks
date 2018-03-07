@@ -55,6 +55,7 @@
 
   &__heading {
     display: none;
+    font-weight: 500;
 
     @media (min-width: 480px) {
       display: block;
