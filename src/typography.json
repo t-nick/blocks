@@ -73,7 +73,7 @@
     "text": {
       "size": "16px",
       "lineHeight": 1.5,
-      "fontFamily": "'Geogria', sans-serif",
+      "fontFamily": "'Georgia', sans-serif",
       "fontWeight": 400,
       "color": [
         "darkShade?lighten=27.84&desaturate=3.99&spin=150",
