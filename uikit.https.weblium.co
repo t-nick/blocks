@@ -1,0 +1,17 @@
+{
+  "palette": {
+    "id": "5a9fb9f6dcc92c0017c560a4",
+    "src": "palette.json",
+    "__v": 0
+  },
+  "typography": {
+    "id": "5a9fb9f6dcc92c0017c560a5",
+    "src": "typography.json",
+    "__v": 0
+  },
+  "button": {
+    "id": "5a9fb9f6dcc92c0017c560a6",
+    "src": "buttons.json",
+    "__v": 0
+  }
+}
