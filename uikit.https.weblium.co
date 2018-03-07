@@ -2,7 +2,7 @@
   "palette": {
     "id": "5a8454df0d65950017d84db6",
     "src": "palette.json",
-    "__v": 6
+    "__v": 7
   },
   "typography": {
     "id": "5a8454df0d65950017d84db7",
@@ -12,10 +12,6 @@
   "button": {
     "id": "5a8454e00d65950017d84db8",
     "src": "buttons.json",
-    "__v": 6
-  },
-  "template": {
-    "id": "5a9fab9b2983290017aa1e3a",
-    "__v": 0
+    "__v": 7
   }
 }
