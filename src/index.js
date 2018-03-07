@@ -19,7 +19,10 @@ ExtendedWireframe.defaultContent = {
     type: 'color',
     color: '#fff',
   },
-  title: 'Why choose us',
+  title: {
+    content: 'Why choose us',
+    type: 'blockTitle',
+  },
   text: {
     content: 'Industrial facilities are a blend of areas such as offices, labs, cafeterias, loading docks, storage, equipment rooms, childcare rooms, and restrooms – as well as assembly or manufacturing areas. Spacious hallways with carpeting or cement flooring are guaranteed to be cleaned efficiently with the appropriate equipment.  ',
     type: 'text',

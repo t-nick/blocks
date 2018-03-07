@@ -25,6 +25,13 @@
       width: 90%;
       margin: 0;
     }
+
+    img {
+      border-radius: 25px;
+      position: static;
+      background: none;
+      height: auto;
+    }
   }
 
   &__content {
@@ -38,24 +45,8 @@
   }
 
   &__title {
-    font-weight: 700;
-    font-family: var(--ui-block-title-font-family);
-    font-size: var(--ui-block-title-size);
     text-align: center;
     margin-bottom: 55px;
   }
-
-  &__text {
-    font-weight: 300;
-    font-family: var(--ui-text-font-family);
-    font-size: var(--ui-text-size );
-    line-height: var(--ui-text-line-height);
-  }
-}
-
-.article__picture img {
-  position: static;
-  background: none;
-  height: auto;
 }
 
