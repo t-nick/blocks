@@ -2,16 +2,20 @@
   "palette": {
     "id": "5a9fbef36ad2bd0018b39b82",
     "src": "palette.json",
-    "__v": 0
+    "__v": 1
   },
   "typography": {
     "id": "5a9fbef36ad2bd0018b39b83",
     "src": "typography.json",
-    "__v": 0
+    "__v": 1
   },
   "button": {
     "id": "5a9fbef36ad2bd0018b39b84",
     "src": "buttons.json",
+    "__v": 1
+  },
+  "template": {
+    "id": "5a9fbefc6ad2bd0018b39b86",
     "__v": 0
   }
 }
