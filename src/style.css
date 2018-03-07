@@ -1,3 +1,86 @@
 @import "wireframe-series-2-testimonials/src/style.css";
 
 /* start here */
+.title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--ui-hero-title-color);
+  position: relative;
+
+  @media (min-width: 992px) {
+    margin-bottom: 45px;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: calc(50% - 10px);
+    height: 3px;
+    width: 20px;
+    background: var(--ui-brand-color);
+  }
+}
+
+.section {
+
+  @media (min-width: 992px) {
+    padding: 80px 0 85px;
+  }
+
+  &__header {
+    margin-bottom: 45px;
+  }
+}
+
+.item {
+  &__inner {
+
+    @media (min-width: 992px) {
+      padding: 40px 35px;
+    }
+  }
+
+  &__desc {
+    color: var(--ui-text-color);
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    font-size: var(--ui-subtitle-size);
+    margin-bottom: 15px;
+  }
+
+  &__position {
+    font-size: var(--ui-text-size);
+    font-weight: var(--ui-text-font-weight);
+    color: var(--ui-caption-color);
+  }
+
+  &__time {
+    font-size: var(--ui-text-size);
+    color: var(--ui-caption-color);
+    font-weight: var(--ui-text-font-weight);
+    position: relative;
+    margin-bottom: 60px;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 55px;
+      left: calc(50% - 10px);
+      height: 3px;
+      width: 20px;
+      background: var(--ui-brand-color);
+    }
+  }
+}
+
+.btns-group {
+
+  @media (min-width: 768px) {
+    margin-top: 45px;
+  }
+}
