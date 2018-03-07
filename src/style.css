@@ -1,66 +1,52 @@
 @import "wireframe-zapdos-process/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+
+.title {
+  letter-spacing: -1.1px;
+}
 
 .article {
-  flex-basis: 100%;
-  max-width: 100%;
-  margin-top: 60px;
+
+  @media (min-width: 992px) {
+    min-width: 25%;
+    flex-basis: 25%;
+    margin-top: 41px;
+  }
 
   &__content {
-    padding-left: 0;
-    padding-top: 76px;
+
+    @media (min-width: 768px) {
+      padding-left: 0;
+      padding-top: 100px;
+    }
 
     &::before {
-      font-size: calc(var(--ui-hero-title-size ) * 0.8888888888888889);
-      font-weight: var(--ui-hero-title-font-weight);
-      font-family: var(--ui-subtitle-font-family);
-      color: var(--ui-light-shade-color);
+      font-weight: 700;
       background-color: transparent;
-      padding: 0;
-    }
+      content: counter(steps)".";
+      opacity: 0.21;
+      font-size: var(--ui-block-title-size);
 
-    &::after {
-      content: ".";
-      position: absolute;
-      top: -22px;
-      left: 48px;
-      display: flex;
-      font-size: calc(var(--ui-hero-title-size ) * 0.8888888888888889);
-      font-weight: var(--ui-hero-title-font-weight);
-      font-family: var(--ui-subtitle-font-family);
-      color: var(--ui-light-shade-color);
-    }
-  }
-
-  &:first-child {
-    .article__content {
-      &::after {
-        left: 32px;
+      @media (min-width: 768px) {
+        font-size: calc(var(--ui-hero-title-size) * 0.89);
+        padding: 0;
+        height: auto;
+        line-height: 1;
+        letter-spacing: -1.6px;
       }
     }
   }
 
-  &:nth-child(4) {
-    .article__content {
-      &::after {
-        left: 54px;
-      }
-    }
+  &__text {
+    letter-spacing: 0.13px;
   }
 }
 
-@media (min-width: 768px) {
-  .article {
-    flex-basis: 50%;
-    max-width: 50%;
-  }
-}
-
-@media (min-width: 992px) {
-  .article {
-    flex-basis: 25%;
-    max-width: 25%;
-    padding: 0 24px;
-  }
-}
