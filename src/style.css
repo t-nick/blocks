@@ -134,6 +134,10 @@
   text-align: left;
 }
 
+.form__description {
+  margin-left: 12px;
+}
+
 .form__field {
   display: block;
   width: 100%;

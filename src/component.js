@@ -46,6 +46,7 @@ class Block extends React.Component {
               className={style.form}
               labelClassName={style.form__item}
               fieldClassName={style.form__field}
+              descriptionClassName={style.form__description}
               button={{
                 type: 'primary',
                 className: style.form__button,
@@ -89,6 +90,7 @@ class Block extends React.Component {
               className={style.form}
               labelClassName={style.form__item}
               fieldClassName={style.form__field}
+              descriptionClassName={style.form__description}
               button={{
                 type: 'secondary',
                 className: style.form__button,
