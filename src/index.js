@@ -13,7 +13,20 @@ ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   background: {
     type: 'color',
-    color: '#272f3c',
+    color: 'dark-shade-color',
+  },
+  copyright: {
+    content: 'Produced by Weblium.com.',
+  },
+  additional: {
+    content: 'All rights Reserved',
+  },
+
+  title: 'Design title',
+  logo: {
+    text: {
+      value: 'asam.',
+    },
   },
 }
 

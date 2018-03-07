@@ -20,6 +20,9 @@
 
   &__meta {
     font-size: var(--ui-text-size);
+    font-weight: 400;
+    font-family: var(--ui-caption-font-family);
+    color: #7e8899;
   }
 }
 
@@ -43,7 +46,8 @@
       color: var(--ui-light-shade-color);
       opacity: 0.6;
       transition: opacity 0.2s ease-in, color 0.2s ease-in;
-      font-size: var(--ui-text-size);
+      text-decoration: none;
+      font-family: var(--ui-caption-font-family);
 
       &:hover {
         opacity: 1;
