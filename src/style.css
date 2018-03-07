@@ -38,16 +38,6 @@
     background-color: #424444;
   }
 
-  &__content {
-    .article__title {
-      color: var(--ui-light-shade-color);
-    }
-
-    .article__text {
-      color: var(--ui-light-shade-color);
-    }
-  }
-
   &__title {
     font-weight: 500;
     letter-spacing: -1px;
