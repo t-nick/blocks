@@ -1,6 +1,13 @@
 @import "wireframe-zapdos-text/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
 
 .title {
   text-transform: uppercase;
