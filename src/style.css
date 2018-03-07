@@ -4,7 +4,14 @@
 .section {
 
   @media (min-width: 768px) {
-    padding-bottom: 165px;
+    padding-bottom: 105px;
+  }
+
+  &__inner {
+
+    @media (min-width: 768px) {
+      margin-bottom: 60px;
+    }
   }
 }
 
@@ -20,8 +27,11 @@
 }
 
 .title {
-  margin-bottom: 24px;
   margin-top: 30px;
+}
+
+.subtitle {
+  margin-top: 24px;
 }
 
 .plans {
@@ -64,6 +74,7 @@
 
   &--main {
     padding-bottom: 39px;
+    margin-bottom: 50px;
     border-radius: 3px;
     z-index: 2;
 
@@ -93,9 +104,13 @@
         margin-top: 0;
 
         @media (min-width: 768px) {
-          position: static;
-          transform: none;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: 40px;
           margin-top: auto;
+          margin-right: auto;
+          margin-left: auto;
           max-width: 75%;
         }
       }
@@ -147,4 +162,8 @@
       transform: translate(-50%, 50%);
     }
   }
+}
+
+.button-border {
+  position: relative;
 }
