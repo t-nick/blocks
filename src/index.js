@@ -11,9 +11,33 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  background: {
+    type: 'color',
+    color: '#ffffff',
+  },
+  title: {
+    content: '404',
+    type: 'blockTitle',
+    brightness: 50,
+  },
   description: {
     content: "The page you are looking for couldn't be found",
-    type: 'text',
+    type: 'blockTitle',
+  },
+  cta: {
+    actionConfig: {
+      action: 'link',
+      actions: {
+        link: {
+          type: '',
+          innerPage: '',
+          url: '',
+        },
+      },
+    },
+    textValue: 'Go to Homepage',
+    type: 'primary',
+    size: 'lg',
   },
 }
 
