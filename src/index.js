@@ -37,13 +37,6 @@ ExtendedWireframe.defaultContent = {
         required: true,
       },
       {
-        type: 'phone',
-        id: 'contactForm_phoneNumber ',
-        title: '',
-        placeholder: '',
-        required: false,
-      },
-      {
         type: 'email',
         id: 'contactForm_email',
         title: 'Email',
@@ -53,6 +46,7 @@ ExtendedWireframe.defaultContent = {
     ],
     submitButton: {
       title: 'Subscribe',
+      type: 'primary',
     },
     className: 'form',
     buttonClassName: 'button button--size-md button--primary form__button',
