@@ -4,8 +4,8 @@
 .section {
 
   @media (min-width: 992px) {
-    padding-top: 10.416%;
-    padding-bottom: 10.208%;
+    padding-top: 190px;
+    padding-bottom: 190px;
   }
 
   &__inner {
