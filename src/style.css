@@ -1,3 +1,54 @@
 @import "wireframe-series-2-partners/src/style.css";
 
 /* start here */
+
+.title {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  
+  &:after {
+    content: "";
+    width: 22px;
+    height: 3px;
+    display: block;
+    margin: auto;
+    background-color: var(--ui-light-shade-color);
+    margin-top: 12px;
+  }
+}
+
+.subtitle {
+  max-width: 770px;
+}
+
+.item {
+  
+  @media (min-width: 992px) {
+    width: 33.3333%;
+    
+    &:nth-last-of-type(2n+3):first-of-type {
+      width: 33.3333%;
+    }
+    
+    &:nth-last-of-type(2n+3):first-of-type~.item {
+      width: 33.3333%;
+    }
+  }
+  
+  &__pic-wrapper {
+    width: 170px;
+    margin: 0 auto 30px;
+  }
+  
+  &__desc {
+      /* stylelint-disable  */
+    color: var(--ui-dark-shade-color) !important;
+    /* stylelint-enable */
+    font-size: var(--ui-text-size);
+  }
+  
+  &__container {
+    background-color: var(--ui-light-shade-color);
+  }
+}
