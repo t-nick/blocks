@@ -1,21 +1,17 @@
 {
   "palette": {
-    "id": "5a92fc2d8e75e20019fe28bd",
+    "id": "5a9fbf486ad2bd0018b39bb5",
     "src": "palette.json",
-    "__v": 3
+    "__v": 0
   },
   "typography": {
-    "id": "5a92fc2d8e75e20019fe28be",
+    "id": "5a9fbf486ad2bd0018b39bb6",
     "src": "typography.json",
-    "__v": 3
+    "__v": 0
   },
   "button": {
-    "id": "5a92fc2d8e75e20019fe28bf",
+    "id": "5a9fbf486ad2bd0018b39bb7",
     "src": "buttons.json",
-    "__v": 3
-  },
-  "template": {
-    "id": "5a955a5efef44d0016589ab2",
     "__v": 0
   }
 }
