@@ -11,6 +11,79 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  services: [
+    {
+      title: {
+        content: 'First Service',
+        type: 'heading',
+      },
+      text: {
+        content: 'The Emerald Buddha is a figurine sitting Budha, that is the is the palladium of the Kingdom of Thailand. The Buddha is made of green jade, suprisingly not of emerald, clothed in gold is approximately 45 cm tall.',
+        type: 'text',
+      },
+      picture: {
+        resourceRef: 'depositphotos-10545110-original.png',
+        alt: 'Quantum E-commerce illustration',
+      },
+      cta: {
+        actionConfig: {
+          action: 'link',
+          actions: {
+            link: {
+              type: '',
+              innerPage: '',
+              url: '',
+            },
+          },
+        },
+        textValue: 'Main button (M)',
+        type: 'primary',
+      },
+    },
+    {
+      title: {
+        content: 'Second Service',
+        type: 'heading',
+      },
+      text: {
+        content: 'The preservation of human life is the ultimate value, a pillar of ethics and the foundation of all morality. This held true in most cultures and societies throughout history. On first impression, the last sentence sounds',
+        type: 'text',
+      },
+      picture: {
+        resourceRef: 'depositphotos-173481506-original.png',
+        alt: 'Quantum Aftersales illustration',
+      },
+      cta: {
+        actionConfig: {
+          action: 'link',
+          actions: {
+            link: {
+              type: '',
+              innerPage: '',
+              url: '',
+            },
+          },
+        },
+        textValue: 'Main button (M)',
+        type: 'primary',
+      },
+    },
+  ],
+  cta: {
+    actionConfig: {
+      action: 'link',
+      actions: {
+        link: {
+          type: '',
+          innerPage: '',
+          url: '',
+        },
+      },
+    },
+    textValue: 'Additional button (L)',
+    type: 'secondary',
+    size: 'lg',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
