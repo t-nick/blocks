@@ -27,31 +27,39 @@ ExtendedWireframe.defaultContent = {
   },
   partners: [
     {
-      picture: {
-        ...Component.defaultContent.partners[0].picture,
-        resourceRef: '1.png',
-        size: {'min-width: 320px': 150, 'min-width: 992px': 250},
+      logo: {
+        image: {
+          resourceRef: '1.png',
+          width: 250,
+          height: 120,
+        },
       },
     },
     {
-      picture: {
-        ...Component.defaultContent.partners[1].picture,
-        resourceRef: '2.png',
-        size: {'min-width: 320px': 150, 'min-width: 992px': 250},
+      logo: {
+        image: {
+          resourceRef: '2.png',
+          width: 250,
+          height: 120,
+        },
       },
     },
     {
-      picture: {
-        ...Component.defaultContent.partners[2].picture,
-        resourceRef: '3.png',
-        size: {'min-width: 320px': 150, 'min-width: 992px': 250},
+      logo: {
+        image: {
+          resourceRef: '3.png',
+          width: 250,
+          height: 120,
+        },
       },
     },
     {
-      picture: {
-        ...Component.defaultContent.partners[3].picture,
-        resourceRef: '4.png',
-        size: {'min-width: 320px': 150, 'min-width: 992px': 250},
+      logo: {
+        image: {
+          resourceRef: '4.png',
+          width: 250,
+          height: 120,
+        },
       },
     },
   ],
