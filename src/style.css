@@ -5,7 +5,8 @@
 .section {
 
   @media (min-width: 992px) {
-    padding: 90px 0;
+    padding-top: 90px;
+    padding-bottom: 90px;
   }
 }
 
@@ -17,7 +18,7 @@
 
 .item {
 
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     flex-basis: 20%;
     max-width: 20%;
   }
