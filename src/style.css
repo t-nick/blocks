@@ -5,7 +5,7 @@
 }
 
 .section__inner {
-  max-width: 1920px;
+  max-width: none;
 }
 
 .title {
@@ -26,10 +26,6 @@
   &__item {
     font-size: 0;
     margin-bottom: 8px;
-
-    &:nth-child(2) {
-      display: none;
-    }
   }
 
   &__field {
@@ -37,6 +33,7 @@
     background-color: var(--ui-brand-color);
     border: 1px solid var(--ui-light-shade-color);
     border-radius: 0;
+    color: var(--ui-light-shade-color);
 
     &::placeholder {
       color: var(--ui-light-shade-color);

@@ -12,12 +12,16 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   background: {
-    type: 'color',
-    color: '#d8d8d8',
+    type: 'image',
+    position: {
+      type: 'cover',
+      cover: '50% 50%',
+    },
+    resourceRef: 'bg.png',
   },
   formBackground: {
     type: 'color',
-    color: 'brand-color',
+    color: 'transparent',
   },
   title: {
     content: 'Get your PDF instructions for a first jump!',
@@ -34,13 +38,6 @@ ExtendedWireframe.defaultContent = {
         id: 'contactForm_name',
         title: 'Name',
         placeholder: 'Name',
-        required: true,
-      },
-      {
-        type: 'phone',
-        id: 'contactForm_phoneNumber ',
-        title: 'Phone number ',
-        placeholder: '',
         required: true,
       },
       {
