@@ -39,7 +39,7 @@ ExtendedWireframe.defaultContent = {
       },
     },
     textValue: 'book a skydive now',
-    type: 'primary-alt',
+    type: 'primary',
     size: 'lg',
   },
 }
