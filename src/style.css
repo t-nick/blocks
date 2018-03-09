@@ -5,6 +5,13 @@
   &__inner {
     max-width: 800px;
   }
+
+  &__main {
+
+    @media (min-width: 768px) {
+      align-items: center;
+    }
+  }
 }
 
 .title {
@@ -33,7 +40,11 @@
   }
 
   &__title {
-    margin-bottom: 15px;
+    margin-bottom: 0;
+
+    @media (min-width: 768px) {
+      margin-bottom: 15px;
+    }
   }
 
   &__desc {
@@ -44,8 +55,13 @@
   }
 }
 
-@media (min-width: 768px) {
-  .contacts-list {
+.contacts-list {
+
+  @media (min-width: 992px) {
+    margin-top: 0;
+  }
+
+  @media (min-width: 768px) {
     &__item {
       margin-bottom: 36px;
     }

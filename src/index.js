@@ -43,25 +43,13 @@ ExtendedWireframe.defaultContent = {
     preset: 'default',
     height: '100%',
     center: {
-      lat: 50.4589633,
-      lng: 30.5247585,
+      lat: 40.710774,
+      lng: -74.006570,
     },
-    zoom: 18,
-    activeMarker: '2aceeb6f-623c-41f8-b0d3-6f0f085e8e48',
-    disableDefaultUI: true,
+    zoom: 11,
+    activeMarker: '',
+    disableDefaultUI: false,
     allowZoomOnScroll: false,
-    markers: [
-      {
-        position: {
-          lat: 50.4589633,
-          lng: 30.5247585,
-        },
-        name: 'Address',
-        description: 'This is marker description',
-        address: 'Head office in London - 36 Regent St.',
-        id: '2aceeb6f-623c-41f8-b0d3-6f0f085e8e48',
-      },
-    ],
   },
   socialIcons: {
     networks: [
@@ -103,8 +91,8 @@ ExtendedWireframe.defaultContent = {
     ],
     target: '_blank',
     design: {
-      border: 'circle',
-      innerFill: true,
+      border: 'null',
+      innerFill: false,
       preset: 'preset001',
       offset: 15,
       color: '#323435',
