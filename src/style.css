@@ -9,13 +9,6 @@
   }
 }
 
-.section__header {
-
-  @media (min-width: 992px) {
-    margin-bottom: 54px;
-  }
-}
-
 .title {
   letter-spacing: -1.78px;
 
@@ -28,6 +21,13 @@
 
   @media (min-width: 992px) {
     max-width: 880px;
+  }
+}
+
+.items-wrapper {
+
+  @media (min-width: 992px) {
+    margin-bottom: 40px;
   }
 }
 
@@ -45,7 +45,7 @@
   }
 
   @media (min-width: 992px) {
-    margin-bottom: 15px;
+    margin-bottom: 0;
   }
 
   &__inner {
@@ -54,6 +54,9 @@
     @media (min-width: 992px) {
       padding-left: 40px;
       padding-right: 40px;
+      padding-top: 0;
+      padding-bottom: 0;
+      min-height: auto;
     }
   }
 
