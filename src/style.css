@@ -3,12 +3,18 @@
 /* start here */
 .section {
 
-  @media (min-width: 480px) {
-    padding: 100px 0 150px;
+  @media (min-width: 320px) {
+    padding-top: 100px;
+    padding-right: 0;
+    padding-bottom: 250px;
+    padding-left: 0;
   }
 
   @media (min-width: 992px) {
-    padding: 200px 0 355px;
+    padding-top: 200px;
+    padding-right: 0;
+    padding-bottom: 355px;
+    padding-left: 0;
   }
 
   &__header {
@@ -30,5 +36,6 @@
 .text {
   max-width: 750px;
   text-align: center;
+  opacity: 0.7;
   font-size: var(--ui-subtitle-size);
 }
