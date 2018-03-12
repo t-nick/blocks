@@ -18,6 +18,10 @@
 
 .items-wrapper {
   justify-content: space-between;
+
+  @media (min-width: 992px) {
+    margin-bottom: 0;
+  }
 }
 
 .item {
@@ -27,20 +31,21 @@
   max-width: 100%;
   margin-bottom: 15px;
 
-  &__picture {
-    padding-top: 78%;
-  }
-}
-
-@media (min-width: 768px) {
-  .item {
+  @media (min-width: 768px) {
     padding: 0;
     flex-basis: 32.79%;
     max-width: 32.79%;
     margin-bottom: 15px;
   }
 
-  .items-wrapper {
-    justify-content: space-between;
+  &-wrapper {
+
+    @media (min-width: 768px) {
+      justify-content: space-between;
+    }
+  }
+
+  &__picture {
+    padding-top: 78%;
   }
 }
