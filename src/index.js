@@ -13,7 +13,7 @@ ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   background: {
     type: 'color',
-    color: '#fff',
+    color: 'light-shade-color',
   },
   formBackground: {
     type: 'color',
@@ -22,10 +22,6 @@ ExtendedWireframe.defaultContent = {
   title: {
     content: 'Reserve your skydive today!',
     type: 'blockTitle',
-  },
-  subtitle: {
-    content: 'Complete the form below and receive a full analysis of your business within 2 days!',
-    type: 'subtitle',
   },
   contactForm: {
     fields: [

@@ -4,7 +4,8 @@
 .section {
 
   @media (min-width: 992px) {
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   &__inner {
@@ -30,7 +31,9 @@
 .form {
 
   @media (min-width: 992px) {
-    padding: 0 2.5%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 0;
   }
 
   &__item {
@@ -47,5 +50,6 @@
 
   &__button {
     margin-top: 0;
+    border: 0;
   }
 }
