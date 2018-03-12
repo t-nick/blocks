@@ -9,8 +9,8 @@
 .item {
   &__top-element {
     height: 96px;
-    margin: 0 auto 25px;
-    
+    margin-bottom: 25px;
+
     &:after {
       content: "";
       display: block;
