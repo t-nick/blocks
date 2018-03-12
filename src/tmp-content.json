@@ -3,11 +3,11 @@
   {
     "title": {
       "content": "Our mission",
-      "type": "blockTitle"
+      "type": "headingLg"
     },
     "text": {
       "content": "SkydiveBirds’ team is committed to excellence in client service and safety. We strive to achieve our goals, make the impossible things possible, turn something ordinary into extraordinary, build long-term relationships and friendships, and create memories.",
-      "type": "text"
+      "type": "subtitle"
     },
     "background": {
       "type": "image",
@@ -21,11 +21,11 @@
   {
     "title": {
       "content": "Gallery",
-      "type": "blockTitle"
+      "type": "headingLg"
     },
     "text": {
       "content": "Enjoy our breathtaking skydiving videos and photos from SkydiveBirds Center! Choose from a diverse variety of images from hundreds of our skydiving guests from Chicago and local areas. View our favorite skydiving videos.",
-      "type": "text"
+      "type": "subtitle"
     }
   }
 ]
