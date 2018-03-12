@@ -19,7 +19,7 @@ ExtendedWireframe.defaultContent = {
       },
       position: {
         content: '13,000 jumps',
-        type: 'caption',
+        type: 'text',
       },
       picture: {
         resourceRef: 'marry.png',
@@ -33,7 +33,7 @@ ExtendedWireframe.defaultContent = {
       },
       position: {
         content: '16,000 jumps',
-        type: 'caption',
+        type: 'text',
       },
       picture: {
         resourceRef: 'stuart.png',
@@ -47,7 +47,7 @@ ExtendedWireframe.defaultContent = {
       },
       position: {
         content: '18,000 jumps',
-        type: 'caption',
+        type: 'text',
       },
       picture: {
         resourceRef: 'derrick.png',
@@ -58,10 +58,6 @@ ExtendedWireframe.defaultContent = {
   title: {
     content: 'Owners',
     type: 'blockTitle',
-  },
-  subtitle: {
-    content: 'Our team is our proud. Each of the team members is dedicated to delivering the best results to the clients. Meet some of our expert who will work on your case:',
-    type: 'subtitle',
   },
 }
 
