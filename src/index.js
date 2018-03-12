@@ -10,6 +10,7 @@ const {enhancers: {withProps}, hoistStatics} = $editor
 const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _.set('$block.options', options))))(Component)
 
 ExtendedWireframe.defaultContent = {
+  ...Component.defaultContent,
   background: {
     type: 'image',
     position: {
@@ -42,25 +43,10 @@ ExtendedWireframe.defaultContent = {
     type: 'primary',
     size: 'lg',
   },
-  'cta-2': {
-    actionConfig: {
-      action: 'link',
-      actions: {
-        link: {
-          type: '',
-          innerPage: '',
-          url: '',
-        },
-      },
-    },
-    textValue: 'Learn more',
-    type: 'secondary',
-    size: 'lg',
-  },
-  topCaption: 'welcome',
 }
 
 ExtendedWireframe.modifierScheme = {
+  ...Component.modifierScheme,
   align: {
     children: [
       {id: 'left', label: 'left'},
