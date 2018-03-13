@@ -176,7 +176,8 @@
     margin-left: 15px;
     margin-right: 15px;
   }
-
+  
+  &:nth-last-of-type(1):first-child,
   &:nth-last-of-type(2):first-child,
   &:nth-last-of-type(2):first-child ~ & {
     width: 100%;
