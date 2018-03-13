@@ -22,5 +22,6 @@
   },
   "dependencies": {
     "wireframe-zapdos-blog": "https://github.com/webliumteam/blocks#w/zapdos/blog/prod"
-  }
+  },
+  "category": "blog_3"
 }
