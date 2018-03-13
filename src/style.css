@@ -1,3 +1,50 @@
 @import "wireframe-series-2-about/src/style.css";
 
-/* start here */
+.article {
+  &__title {
+    font-size: calc(var(--ui-text-size) * 0.867);
+    font-weight: 700;
+    color: var(--text-color);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    @media (min-width: 1200px) {
+      margin-bottom: 12px;
+    }
+  }
+
+  &__heading {
+    text-transform: capitalize;
+    font-weight: 900;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 70px;
+      height: 3px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      background-color: var(--ui-brand-color);
+    }
+  }
+
+  &__text {
+    font-size: calc(var(--ui-text-size) / 0.882);
+    line-height: calc(var(--ui-text-line-height) * 0.955);
+  }
+}
+
+li:nth-child(2) g {
+  fill: var(--ui-brand-color);
+}
+
+.btns-group {
+
+  @media (min-width: 1200px) {
+    margin-top: 45px;
+  }
+}
+
+a:nth-child(2) .button__content {
+  color: var(--text-color);
+}
