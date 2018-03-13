@@ -13,7 +13,7 @@ ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   background: {
     type: 'color',
-    color: '#fff',
+    color: 'light-shade-color',
   },
   title: {
     content: 'Book a charity skydive',

@@ -2,10 +2,18 @@
 
 /* start here */
 .section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  @media (min-width: 992px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   &__inner {
 
     @media (min-width: 768px) {
-      max-width: 570px;
+      max-width: 600px;
       border-radius: 0;
     }
   }
@@ -27,7 +35,8 @@
 .form {
 
   @media (min-width: 480px) {
-    padding: 0;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   &__item {
@@ -37,23 +46,16 @@
   }
 
   &__field {
-    background-color: var(--ui-light-shade-color);
-    color: var(--ui-text-color);
     font-size: var(--ui-text-size);
-    padding: 12px 14px;
-    height: 44px;
+    background-color: var(--ui-light-shade-color);
+    border: 1px solid var(--ui-link-hover-color);
     margin-top: 0;
+    color: var(--ui-text-color);
     border-radius: 0;
-    border: 1px solid #ececec;
-
-    &::placeholder {
-      color: currentColor;
-    }
   }
 
   &__button {
     margin-top: 0;
-    box-shadow: none;
     border: 0;
   }
 }
