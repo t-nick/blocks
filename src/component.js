@@ -28,14 +28,16 @@ class Block extends React.Component {
                 />
               </div>
             )}
-            <nav className={css.nav}>
-              <Menu
-                className={css['nav-list']}
-                itemClassName={css['nav-list__item']}
-                linkClassName={css['nav-list__link']}
-                bind="menu"
-              />
-            </nav>
+            <div className={css['nav-wrapper']}>
+              <nav className={css.nav}>
+                <Menu
+                  className={css['nav-list']}
+                  itemClassName={css['nav-list__item']}
+                  linkClassName={css['nav-list__link']}
+                  bind="menu"
+                />
+              </nav>
+            </div>
           </div>
           {(this.getModifierValue('text-left') || this.getModifierValue('text-right')) && (
             <section className={css.footer__bottom}>
