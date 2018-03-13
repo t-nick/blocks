@@ -1,22 +1,23 @@
 {
-  "name": "Metapod",
+  "name": "Jolteon",
   "general": {
-    "fontFamily": "'Geogia', sans-serif",
-    "borderWidth": "2px"
+    "fontFamily": "'Poppins', sans-serif",
+    "borderWidth": "2px",
+    "textTransform": "uppercase"
   },
   "size": {
     "sm": {
-      "padding": "4.5px 17px",
+      "padding": "13px 30px",
       "borderRadius": 0,
       "fontSize": "14px"
     },
     "md": {
-      "padding": "7.5px 19px",
+      "padding": "16px 40px",
       "borderRadius": 0,
       "fontSize": "14px"
     },
     "lg": {
-      "padding": "13px 30px",
+      "padding": "21px 40px",
       "borderRadius": 0,
       "fontSize": "16px"
     }
@@ -30,25 +31,28 @@
           ]
         },
         "color": [
-          "lightShade"
+          "darkShade"
         ],
         "border": {
           "color": [
             "transparent"
           ]
-        }
+        },
+        "fontWeight": 600
       },
       "hover": {
-        "border": {
+        "bg": {
           "color": [
-            "brand?lighten=13.82&saturate=12.3"
+            "darkAccent",
+            "lightShade"
           ]
         }
       },
       "active": {
         "bg": {
           "color": [
-            "brand?lighten=13.82&saturate=12.3"
+            "brand",
+            "brand"
           ]
         }
       }
@@ -57,7 +61,7 @@
       "default": {
         "bg": {
           "color": [
-            "darkShade",
+            "darkAccent",
             "lightShade"
           ]
         },
@@ -69,38 +73,32 @@
           "color": [
             "transparent"
           ]
-        }
+        },
+        "fontWeight": 600
       },
       "hover": {
         "bg": {
           "color": [
             "brand",
-            "darkShade?lighten=31,76"
+            "brand"
           ]
         },
         "color": [
-          "lightShade",
-          "lightShade"
-        ],
-        "border": {
-          "color": [
-            "darkShade?lighten=31,76",
-            "transparent"
-          ]
-        }
+          "darkShade",
+          "darkShade"
+        ]
       },
       "active": {
         "bg": {
           "color": [
-            "darkShade?lighten=15.88&desaturate=0.58&spin=356"
+            "darkAccent",
+            "lightShade"
           ]
         },
-        "border": {
-          "color": [
-            "transparent",
-            "transparent"
-          ]
-        }
+        "color": [
+          "lightShade",
+          "darkShade"
+        ]
       }
     },
     "secondary": {
@@ -116,24 +114,25 @@
         ],
         "border": {
           "color": [
-            "brand?lighten=28.82&saturate=44.8&spin=1",
+            "darkShade",
             "lightShade"
           ]
-        }
+        },
+        "fontWeight": 600
       },
       "hover": {
         "border": {
           "color": [
-            "brand?lighten=13.82&saturate=12.3",
-            "brand?lighten=28.82&saturate=44.8&spin=1"
+            "brand",
+            "brand"
           ]
         }
       },
       "active": {
         "border": {
           "color": [
-            "brand",
-            "brand"
+            "darkShade",
+            "lightShade"
           ]
         }
       }
@@ -142,7 +141,6 @@
       "default": {
         "bg": {
           "color": [
-            "lightShade?darken=3.92",
             "transparent"
           ]
         },
@@ -152,35 +150,23 @@
         ],
         "border": {
           "color": [
-            "transparent",
             "brand"
           ]
-        }
+        },
+        "fontWeight": 600
       },
       "hover": {
-        "bg": {
-          "color": [
-            "lightShade?darken=7.84",
-            "transparent"
-          ]
-        },
         "border": {
           "color": [
-            "transparent",
-            "brand?lighten=28.82&saturate=44.8&spin=1"
+            "darkSHade",
+            "lightShade"
           ]
         }
       },
       "active": {
-        "bg": {
-          "color": [
-            "lightShade",
-            "transparent"
-          ]
-        },
         "border": {
           "color": [
-            "transparent",
+            "brand",
             "brand"
           ]
         }
