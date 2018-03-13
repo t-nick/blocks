@@ -83,39 +83,41 @@
     "small": {
       "size": "14px",
       "lineHeight": 1.71,
-      "fontFamily": "'Georgia', sans-serif",
+      "fontFamily": "'Poppins', sans-serif",
       "fontWeight": 400,
       "color": [
-        "darkShade?lighten=27.84&desaturate=3.99&spin=150",
-        "lightShade?darken=36.27&saturate=8.11&spin=208"
+        "darkShade?lighten=33.33",
+        "darkShade?lighten=33.33"
       ]
     },
     "quote": {
       "size": "16px",
       "lineHeight": 1.5,
-      "fontFamily": "'Georgia', sans-serif",
-      "fontWeight": 400,
+      "fontFamily": "'Poppins', sans-serif",
+      "fontWeight": "300",
       "color": [
-        "darkShade?lighten=50.2&desaturate=2.55&spin=150",
-        "lightShade"
+        "darkShade?lighten=33.33",
+        "lightAccent?lighten=-25.1"
       ]
     },
     "caption": {
-      "size": "14px",
-      "lineHeight": 1.71,
-      "fontFamily": "'Georgia', sans-serif",
-      "fontWeight": 400,
+      "size": "18px",
+      "lineHeight": "1.5",
+      "fontFamily": "'Poppins', sans-serif",
+      "fontWeight": "500",
       "color": [
-        "darkShade?lighten=27.84&desaturate=3.99&spin=150",
-        "lightShade?darken=36.27&saturate=8.11&spin=208"
+        "brand",
+        "brand"
       ]
     },
     "link": {
       "color": [
+        "brand",
         "brand"
       ],
       "hover": {
         "color": [
+          "brand",
           "brand"
         ]
       }
