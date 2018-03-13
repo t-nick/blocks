@@ -3,9 +3,9 @@
   "settings": {
     "heroTitle": {
       "size": "90px",
-      "lineHeight": "1.19",
+      "lineHeight": 1.19,
       "fontFamily": "'Poppins', sans-serif",
-      "fontWeight": "400",
+      "fontWeight": 400,
       "color": [
         "darkShade",
         "lightShade"
@@ -16,9 +16,9 @@
     },
     "blockTitle": {
       "size": "60px",
-      "lineHeight": "1.17",
+      "lineHeight": 1.17,
       "fontFamily": "'Poppins', sans-serif",
-      "fontWeight": "400",
+      "fontWeight": 400,
       "color": [
         "darkShade",
         "lightShade"
@@ -29,9 +29,9 @@
     },
     "subtitle": {
       "size": "18px",
-      "lineHeight": "1.72",
+      "lineHeight": 1.72,
       "fontFamily": "'Poppins', sans-serif",
-      "fontWeight": "300",
+      "fontWeight": 300,
       "color": [
         "darkShade?lighten=33.33",
         "lightShade?lighten=-46.67"
@@ -41,7 +41,7 @@
       "size": "48px",
       "lineHeight": 1.17,
       "fontFamily": "'Poppins', sans-serif",
-      "fontWeight": "300",
+      "fontWeight": 300,
       "color": [
         "brand",
         "brand"
@@ -52,9 +52,9 @@
     },
     "heading": {
       "size": "18px",
-      "lineHeight": "1.5",
+      "lineHeight": 1.5,
       "fontFamily": "'Poppins', sans-serif",
-      "fontWeight": "600",
+      "fontWeight": 600,
       "color": [
         "darkShade",
         "lightShade"
@@ -62,9 +62,9 @@
     },
     "subheading": {
       "size": "17px",
-      "lineHeight": "1.59",
+      "lineHeight": 1.59,
       "fontFamily": "'Poppins', sans-serif",
-      "fontWeight": "600",
+      "fontWeight": 600,
       "color": [
         "darkShade",
         "lightShade"
@@ -72,9 +72,9 @@
     },
     "text": {
       "size": "18px",
-      "lineHeight": "1.72",
+      "lineHeight": 1.72,
       "fontFamily": "'Poppins', sans-serif",
-      "fontWeight": "300",
+      "fontWeight": 300,
       "color": [
         "darkShade?lighten=33.33",
         "lightShade?lighten=-46.67"
@@ -94,7 +94,7 @@
       "size": "16px",
       "lineHeight": 1.5,
       "fontFamily": "'Poppins', sans-serif",
-      "fontWeight": "300",
+      "fontWeight": 300,
       "color": [
         "darkShade?lighten=33.33",
         "lightAccent?lighten=-25.1"
@@ -102,9 +102,9 @@
     },
     "caption": {
       "size": "18px",
-      "lineHeight": "1.5",
+      "lineHeight": 1.5,
       "fontFamily": "'Poppins', sans-serif",
-      "fontWeight": "500",
+      "fontWeight": 500,
       "color": [
         "brand",
         "brand"
