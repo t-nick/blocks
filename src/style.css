@@ -1,3 +1,39 @@
 @import "wireframe-zapdos-cover/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 768px) {
+    min-height: auto;
+  }
+
+  @media (min-width: 992px) {
+    padding-top: 190px;
+    padding-bottom: 190px;
+  }
+}
+
+.title {
+  font-weight: 700;
+
+  @media (min-width: 768px) {
+    padding: 0;
+    max-width: 800px;
+    margin-bottom: 64px;
+  }
+}
+
+.subtitle {
+  text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    padding: 0;
+  }
+}
+
+.btns-group {
+
+  @media (min-width: 768px) {
+    padding: 0;
+  }
+}
