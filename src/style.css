@@ -1,3 +1,66 @@
 @import "wireframe-series-2-cta/src/style.css";
 
 /* start here */
+
+.section {
+  &__inner {
+    background: transparent;
+
+    @media (min-width: 768px) {
+      max-width: 620px;
+    }
+  }
+
+  &__header {
+    padding: 0;
+  }
+}
+
+.title {
+  margin-bottom: 25px;
+}
+
+.subtitle {
+  color: var(--ui-light-shade-color);
+  margin-bottom: 70px;
+  font-size: calc(var(--ui-heading-lg-size) * 0.5);
+}
+
+.form {
+  padding: 0;
+
+  &__field {
+    background: transparent;
+    border-bottom: 2px solid var(--ui-light-shade-color);
+    color: #fff;
+    margin-top: 43px;
+    font-size: calc(var(--ui-text-size) * 0.8888);
+
+    &::-webkit-input-placeholder {
+      color: var(--ui-light-shade-color);
+    }
+
+    &::-moz-placeholder {
+      color: var(--ui-light-shade-color);
+    }
+
+    &:-ms-input-placeholder {
+      color: var(--ui-light-shade-color);
+    }
+
+    &:-moz-placeholder {
+      color: var(--ui-light-shade-color);
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__button {
+    max-width: 140px;
+    border: 0;
+    margin-top: 50px;
+  }
+}
+
