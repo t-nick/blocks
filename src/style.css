@@ -34,7 +34,7 @@
   }
 }
 
-li:nth-child(2) .innerFill .logo {
+li:nth-child(2) g {
   fill: var(--ui-brand-color);
 }
 
