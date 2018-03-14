@@ -79,6 +79,7 @@ ExtendedWireframe.defaultContent = {
         id: 'twitter',
         name: 'Twitter',
         url: 'http://twitter.com/',
+        fill: '#1e61f9',
       },
       {
         id: 'linkedin',
