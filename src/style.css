@@ -1,3 +1,17 @@
 @import "wireframe-series-2-footer/src/style.css";
 
 /* start here */
+.footer {
+  &__bottom {
+    border-top: 1px solid #35373c;
+  }
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  color: transparent;
+  border-radius: 50%;
+  opacity: 1;
+  border: 1px solid #676a73;
+}
