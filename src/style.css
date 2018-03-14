@@ -9,6 +9,7 @@
   width: 60px;
   height: 60px;
   padding: 20px;
+  padding-top: 23px;
   color: var(--ui-brand-color);
 
   > svg {
@@ -57,7 +58,7 @@
   }
 
   &__list {
-    margin-bottom: 25px;
+    margin-bottom: 33px;
   }
 }
 
