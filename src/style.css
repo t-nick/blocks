@@ -1,3 +1,81 @@
 @import "wireframe-series-2-contacts/src/style.css";
 
 /* start here */
+.caption-decorator {
+  text-transform: uppercase;
+  color: var(--ui-caption-color);
+  font-size: var(--ui-caption-size);
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--ui-brand-color);
+  }
+}
+
+.subtitle {
+  margin-top: 60px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+
+  &__text {
+    order: 3;
+    text-align: left;
+    padding-left: 90px;
+    position: relative;
+
+    p {
+      position: relative;
+
+      &::before {
+        content: "Address:";
+        position: absolute;
+        top: 0;
+        left: -90px;
+      }
+
+      &:nth-child(2) {
+        &::before {
+          content: "Phone:";
+        }
+      }
+
+      &:last-child {
+        &::before {
+          content: "Email:";
+        }
+      }
+    }
+  }
+
+  &__title {
+    order: 2;
+    text-align: left;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 40px;
+      height: 3px;
+      left: 0;
+      bottom: -5px;
+      background-color: var(--ui-caption-color);
+      opacity: .5;
+    }
+  }
+}
