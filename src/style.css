@@ -1,3 +1,92 @@
 @import "wireframe-zapdos-testimonials/src/style.css";
 
 /* start here */
+
+.title {
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 3px;
+    background: var(--ui-dark-shade-color);
+    left: -30px;
+    top: calc(50% - 1.5px );
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 3px;
+    background: var(--ui-dark-shade-color);
+    right: -30px;
+    top: calc(50% - 1.5px );
+  }
+}
+
+.subtitle {
+  font-size: calc( var(--ui-heading-lg-size) * 0.5 );
+}
+
+.item {
+  max-width: 1170px;
+
+  &__title {
+    text-transform: uppercase;
+  }
+
+  &__pic {
+    border-radius: 0;
+    background: none;
+    width: 147.2px;
+    height: 166.6px;
+    position: relative;
+    overflow: inherit;
+
+    @media (min-width: 480px) {
+      &:before {
+        content: "";
+        position: absolute;
+        width: 58px;
+        height: 2px;
+        background: var(--ui-dark-accent-color);
+        left: -145px;
+        top: calc(50% - 1.5px );
+        opacity: 0.8;
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        width: 58px;
+        height: 2px;
+        background: var(--ui-dark-accent-color);
+        right: -145px;
+        top: calc(50% - 1.5px );
+        opacity: 0.8;
+      }
+    }
+  }
+
+  &__position {
+    text-transform: uppercase;
+  }
+
+  &__desc {
+    font-size: var(--ui-text-size);
+    max-width: 770px;
+  }
+
+  &__time {
+    text-transform: uppercase;
+  }
+}
+
+.item__pic img {
+  -webkit-clip-path: polygon(47.5% 0.35%, 50% 0%, 52.5% 0.35%, 97% 23%, 98.5% 25%, 99% 27%, 99% 73%, 98.5% 75%, 97% 77%, 52.5% 99.65%, 50% 100%, 47.5% 99.65%, 3% 77%, 1% 75%, 0% 73%, 0% 27%, 1% 25%, 3% 23%);
+  clip-path: polygon(47.5% 0.35%, 50% 0%, 52.5% 0.35%, 97% 23%, 98.5% 25%, 99% 27%, 99% 73%, 98.5% 75%, 97% 77%, 52.5% 99.65%, 50% 100%, 47.5% 99.65%, 3% 77%, 1% 75%, 0% 73%, 0% 27%, 1% 25%, 3% 23%);
+}
