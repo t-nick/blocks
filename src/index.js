@@ -55,6 +55,7 @@ ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   logo: {defaultValue: false, label: 'Logo', type: 'hidden'},
   'top-icon': {defaultValue: true, label: 'Top icon decorator', type: 'checkbox'},
+  subtitle: {defaultValue: true, label: 'Subtitle', type: 'checkbox'},
 
 }
 
