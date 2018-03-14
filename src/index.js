@@ -236,22 +236,22 @@ ExtendedWireframe.defaultContent = {
     ],
     target: '_blank',
     design: {
-      border: 'softRect',
-      innerFill: true,
+      border: 'circle',
+      innerFill: false,
       preset: 'preset001',
       offset: 15,
-      color: '#9b9b9b',
+      color: '#676a73',
       sizes: [10, 20, 30, 40],
-      size: 30,
+      size: 40,
     },
   },
   copyright: {
     type: 'caption',
-    content: 'Produced by Weblium.com.',
+    content: 'Produced by <b>Weblium.com.</b> All rights Reserved',
   },
   additional: {
     type: 'caption',
-    content: 'All rights Reserved',
+    content: 'Demo preview for NOVA',
   },
 }
 
