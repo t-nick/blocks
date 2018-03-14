@@ -32,6 +32,5 @@
   "dependencies": {
     "stylefmt": "^6.0.0",
     "wireframe-series-2-cta": "https://github.com/webliumteam/blocks#w/series-2/cta/prod"
-  },
-  "category": "cta_4"
+  }
 }
