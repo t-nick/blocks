@@ -1,3 +1,35 @@
 @import "wireframe-zapdos-why/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 108px;
+    padding-bottom: 108px;
+  }
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.item {
+  padding-right: 15px;
+  margin-bottom: 20px;
+
+  &__title {
+    line-height: calc(var(--ui-heading-line-height) * 0.917);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 22px;
+
+    @media (min-width: 768px) {
+      font-size: calc(var(--ui-heading-size) * 1.33);
+    }
+  }
+
+  &__top-element {
+    height: 75px;
+    margin-bottom: 17px;
+  }
+}
