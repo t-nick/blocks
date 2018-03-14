@@ -3,7 +3,13 @@
 /* start here */
 
 .section {
-  padding: 200px 0;
+  padding-top: 50px;
+  padding-bottom: 200px;
+
+  @media (min-width: 992px) {
+    padding-top: 200px;
+    padding-bottom: 340px;
+  }
 
   &__inner {
     max-width: 865px;
@@ -12,12 +18,11 @@
 
 .title {
   text-transform: uppercase;
-  font-size: calc(var(--ui-block-title-size) * 1.75);
   margin-bottom: 60px;
-  line-height: calc(var(--ui-block-title-line-height) * 0.8);
 }
 
 .description {
   font-size: calc(var(--ui-text-size) * 1.125);
   opacity: 0.7;
+  max-width: 770px;
 }

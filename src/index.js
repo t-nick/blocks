@@ -21,7 +21,7 @@ ExtendedWireframe.defaultContent = {
   },
   title: {
     content: 'Enjoy the view on your way down!',
-    type: 'blockTitle',
+    type: 'headingLg',
   },
   description: {
     content: 'While enjoying the flow of adrenaline during a freefall at speed over 100mph, you will also have the opportunity to see the city and the neighborhoods from the bird\'s eye view. Drift in the sky savoring the majestic beauty of the picturesque surroundings.',
