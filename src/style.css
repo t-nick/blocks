@@ -1,3 +1,49 @@
 @import "wireframe-series-2-testimonials/src/style.css";
 
 /* start here */
+
+.section__header {
+  text-align: left;
+}
+
+.subtitle {
+  margin: 0;
+  padding-left: 100px;
+  position: relative;
+  color: var(--ui-dark-accent-color);
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    background: var(--ui-dark-shade-color);
+    top: 15px;
+    left: 0;
+  }
+}
+
+.item {
+  &__inner {
+    background: var(--ui-light-shade-color);
+    border: 5px solid var(--ui-light-accent-color);
+    padding-top: 125px;
+  }
+
+  &__desc {
+    color: var(--ui-dark-accent-color);
+  }
+
+  &__time {
+    font-weight: var(--ui-text-size);
+    color: var(--ui-dark-accent-color);
+    letter-spacing: var(--ui-text-letter-spacing);
+    margin-bottom: 10px;
+  }
+
+  &__position {
+    color: var(--ui-dark-accent-color);
+    margin-top: 5px;
+    text-transform: uppercase;
+  }
+}
