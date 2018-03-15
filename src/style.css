@@ -16,14 +16,25 @@
 }
 
 .top-icon {
-  display: block;
-  margin: 0 auto;
+  display: flex;
+  position: relative;
+  margin: 0 auto 30px;
   width: 60px;
   height: 60px;
   padding: 20px;
-  background-color: var(--ui-light-shade-color);
+  color: var(--ui-brand-color);
   border-radius: 50%;
+  background-color: var(--ui-light-shade-color);
   box-shadow: 0 2px 20px -6px var(--ui-link-color);
+
+  > svg {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.plan--main .plan__list {
+  margin-bottom: 60px;
 }
 
 .title {
