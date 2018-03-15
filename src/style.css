@@ -5,6 +5,7 @@
   text-transform: uppercase;
   color: var(--ui-caption-color);
   font-size: var(--ui-caption-size);
+  letter-spacing: 2px;
 }
 
 .title {
@@ -26,6 +27,7 @@
 
 .subtitle {
   margin-top: 60px;
+  max-width: 720px;
 }
 
 .article {
@@ -37,6 +39,7 @@
     text-align: left;
     padding-left: 90px;
     position: relative;
+    margin-top: 15px;
 
     p {
       position: relative;
@@ -46,6 +49,8 @@
         position: absolute;
         top: 0;
         left: -90px;
+        color: var(--ui-dark-shade-color);
+        font-weight: calc(var(--ui-caption-font-weight) * 1.5);
       }
 
       &:nth-child(2) {
@@ -66,6 +71,8 @@
     order: 2;
     text-align: left;
     position: relative;
+    margin-top: 15px;
+    color: var(--ui-dark-shade-color);
 
     &::after {
       content: "";
@@ -73,7 +80,7 @@
       width: 40px;
       height: 3px;
       left: 0;
-      bottom: -5px;
+      bottom: -15px;
       background-color: var(--ui-caption-color);
       opacity: .5;
     }
