@@ -3,14 +3,17 @@
 /* start here */
 
 .title {
-  font-size: calc(var(--ui-hero-title-size) * 0.55);
   text-transform: uppercase;
   margin-bottom: 48px;
-  margin-top: 100px;
+  margin-top: 140px;
+
+  @media (min-width: 480px) {
+    margin-bottom: 68px;
+    margin-top: 235px;
+  }
 }
 
 .description {
-  font-size: var(--ui-subtitle-size );
   max-width: 754px;
   margin-bottom: 57px;
   margin-left: auto;
@@ -20,16 +23,8 @@
 
 .button {
   margin-bottom: 50px;
-}
 
-@media (min-width: 479px) {
-  .title {
-    font-size: calc(var(--ui-hero-title-size) * 0.7);
-    margin-bottom: 68px;
-    margin-top: 235px;
-  }
-
-  .button {
+  @media (min-width: 480px) {
     margin-bottom: 125px;
   }
 }
