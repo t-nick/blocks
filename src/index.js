@@ -11,10 +11,49 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  theme: 'dark',
+  background: {
+    type: 'image',
+    position: {
+      type: 'cover',
+      cover: '50% 50%',
+    },
+    resourceRef: 'backgrund.png',
+  },
+  title: {
+    content: 'Save 10% OFF your home wiring!',
+    type: 'blockTitle',
+  },
+  description: {
+    content: 'The offer is valid till 31st October, 2017.',
+    type: 'text',
+  },
+  cta: {
+    actionConfig: {
+      action: 'link',
+      actions: {
+        link: {
+          type: '',
+          innerPage: '',
+          url: '',
+        },
+      },
+    },
+    textValue: 'Request a quote',
+    type: 'primary-alt',
+    size: 'lg',
+  },
+  picture: {
+    src: 'https://www.vms.ro/wp-content/uploads/2015/04/mobius-placeholder-2.png',
+    alt: 'Illustration photo',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  title: {defaultValue: true, label: 'Block title', type: 'checkbox'},
+  subtitle: {defaultValue: true, label: 'Title description', type: 'checkbox'},
+  picture: {defaultValue: false, label: 'Picture', type: 'hidden'},
 }
 
 export default ExtendedWireframe
