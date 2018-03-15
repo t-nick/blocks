@@ -1,3 +1,52 @@
 @import "wireframe-series-2-why/src/style.css";
 
 /* start here */
+
+.title {
+  margin-bottom: 20px;
+
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+.subtitle {
+
+  @media (min-width: 768px) {
+    text-align: left;
+    position: relative;
+    max-width: 920px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 70px;
+      height: 4px;
+      background-color: var(--ui-dark-shade-color);
+      left: -110px;
+      top: 13px;
+    }
+  }
+}
+
+.article {
+  &__title {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+
+    @media (min-width: 768px) {
+      &:before {
+        content: "";
+        position: absolute;
+        top: -19px;
+        left: -40px;
+        width: 70px;
+        height: 70px;
+        border: solid 6px var(--ui-light-accent-color);
+        z-index: -1;
+      }
+    }
+  }
+
+}

@@ -11,10 +11,14 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  subtitle: {defaultValue: true},
+  icon: {defaultValue: false},
+  'button-secondary': {defaultValue: true},
 }
 
 export default ExtendedWireframe
