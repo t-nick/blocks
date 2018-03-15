@@ -2,18 +2,30 @@
 
 /* start here */
 
+.section {
+  padding: 40px 0;
+
+  @media (min-width: 1200px) {
+    padding: 75px 0;
+  }
+}
+
 .article {
   flex-wrap: wrap;
 
   &__title {
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
+
+    @media (min-width: 1200px) {
+      margin-bottom: 60px;
+    }
   }
 
   &__picture-wrapper {
     max-width: 100%;
-    max-height: 470px;
+    min-height: 470px;
     flex-basis: 100%;
   }
 
