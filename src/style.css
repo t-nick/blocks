@@ -11,24 +11,26 @@
   &:nth-child(1),
   &:nth-child(2),
   &:nth-child(3) {
-    .item__picture {
-      padding-top: 70.8%;
-    }
 
     @media (min-width: 992px) {
       margin-top: 48px;
+
+      .item__picture {
+        padding-top: 70.8%;
+      }
     }
   }
 
   &:nth-child(4),
   &:nth-child(5),
   &:nth-child(6) {
-    .item__picture {
-      padding-top: 90%;
-    }
 
     @media (min-width: 992px) {
       margin-top: 55px;
+
+      .item__picture {
+        padding-top: 90%;
+      }
     }
   }
 
@@ -36,7 +38,7 @@
   &:nth-child(6) {
     .item__title {
 
-      @media (min-width: 992px) {
+      @media (min-width: 768px) {
         max-width: 320px;
         margin: 0 auto;
       }
@@ -56,6 +58,9 @@
   }
 
   .item__title {
-    font-size: var(--ui-heading-size);
+
+    @media (min-width: 768px) {
+      font-size: var(--ui-heading-size);
+    }
   }
 }
