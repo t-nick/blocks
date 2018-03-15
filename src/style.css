@@ -72,7 +72,8 @@
     }
 
     @media(min-width: 992px) {
-      top: -141px;
+      margin-top: -141px;
+      position: relative;
       margin-right: 0;
     }
   }
