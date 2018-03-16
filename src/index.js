@@ -30,6 +30,7 @@ ExtendedWireframe.defaultContent = {
         type: 'headingLg',
       },
       picture: {
+        resourceRef: 'numbers_01.jpg',
         alt: 'Illustration for number',
       },
     },
@@ -43,6 +44,7 @@ ExtendedWireframe.defaultContent = {
         type: 'headingLg',
       },
       picture: {
+        resourceRef: 'numbers_02.jpg',
         alt: 'Illustration for number',
       },
     },
@@ -56,6 +58,7 @@ ExtendedWireframe.defaultContent = {
         type: 'headingLg',
       },
       picture: {
+        resourceRef: 'numbers_03.jpg',
         alt: 'Illustration for number',
       },
     },

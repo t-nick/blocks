@@ -43,4 +43,8 @@
   &__inner {
     min-height: 220px;
   }
+
+  &__desc {
+    display: none;
+  }
 }
