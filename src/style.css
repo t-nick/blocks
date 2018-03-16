@@ -11,6 +11,13 @@
   }
 }
 
+.articles-wrapper {
+
+  @media (min-width: 992px) {
+    justify-content: flex-start;
+  }
+}
+
 .article {
   display: inline-flex;
   flex-direction: column;
