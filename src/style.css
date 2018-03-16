@@ -1,3 +1,79 @@
 @import "wireframe-series-2-about/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding: 155px 0;
+  }
+}
+
+.article {
+
+  @media (min-width: 992px) {
+    padding-left: 10px;
+  }
+
+  &__subheading {
+    margin-bottom: 25px;
+    line-height: 1.67;
+    letter-spacing: 1px;
+    font-size: var(--ui-subheading-size);
+  }
+
+  &__heading {
+    line-height: 1.45;
+    letter-spacing: 1px;
+
+    @media (min-width: 768px) {
+      margin-top: 87px;
+      margin-bottom: 15px;
+    }
+  }
+
+  &__title {
+    position: relative;
+    padding-left: 170px;
+    text-align: left;
+    z-index: 1;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 140px;
+      height: 140px;
+      bottom: -43px;
+      left: 100px;
+      border: solid 8px #f1f2f5;
+      z-index: -1;
+    }
+  }
+
+  &__text {
+    position: relative;
+    max-width: 470px;
+    margin-bottom: 30px;
+    line-height: 1.75;
+    letter-spacing: 0.5px;
+    margin-top: 18px;
+
+    @media (min-width: 768px) {
+      padding-left: 100px;
+    }
+
+    &::before {
+      content: "";
+      display: none;
+      position: absolute;
+      width: 70px;
+      height: 4px;
+      top: 13px;
+      left: 0;
+      background-color: #484a56;
+
+      @media (min-width: 768px) {
+        display: block;
+      }
+    }
+  }
+}
