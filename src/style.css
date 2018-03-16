@@ -1,3 +1,128 @@
 @import "wireframe-series-2-process/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 93px;
+    padding-bottom: 100px;
+  }
+
+  &__header {
+    text-align: left;
+    margin-bottom: 60px;
+  }
+}
+
+.title {
+  margin-bottom: 21px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.subtitle {
+  position: relative;
+  max-width: 740px;
+  letter-spacing: 1px;
+  margin-left: 100px;
+  color: var(--ui-dark-accent-color);
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    top: 23px;
+    left: -100px;
+    background-color: var(--ui-dark-shade-color);
+  }
+}
+
+.articles-wrapper {
+  counter-reset: steps;
+
+  @media (min-width: 768px) {
+    margin-left: 0;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 1170px;
+  }
+}
+
+.article {
+
+  @media (min-width: 992px) {
+    margin-bottom: 16px;
+  }
+
+  &::before {
+    width: 4px;
+    height: 98%;
+    top: 78px;
+    left: 44px;
+    z-index: 2;
+  }
+
+  @media (min-width: 768px) {
+    &::before {
+      height: 100%;
+      top: 75px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    &::before {
+      height: 87px;
+      top: 80px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 15px;
+    text-transform: capitalize;
+  }
+
+  &__picture {
+    display: none;
+  }
+
+  &__text {
+    color: var(--ui-dark-accent-color);
+    letter-spacing: 0.5px;
+  }
+
+  &__content {
+    padding-left: 140px;
+
+    @media (min-width: 992px) {
+      min-height: 140px;
+    }
+
+    &::before {
+      content: counter(steps, decimal-leading-zero);
+      display: block;
+      position: absolute;
+      width: 90px;
+      height: 90px;
+      top: 0;
+      left: 0;
+      counter-increment: steps;
+      border: 6px solid var(--ui-light-accent-color);
+      font-family: var(--ui-block-title-font-family);
+      font-weight: var(--ui-block-title-font-weight);
+      font-size: var(--ui-heading-lg-size);
+      color: var(--ui-dark-shade-color);
+      letter-spacing: 1.3px;
+      padding-top: 7px;
+      padding-left: 12px;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.btn-groups {
+  padding-top: 50px;
+}
