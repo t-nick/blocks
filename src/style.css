@@ -1,3 +1,46 @@
 @import "wireframe-series-2-numbers/src/style.css";
 
 /* start here */
+
+.title {
+  margin-bottom: 28px;
+}
+
+.subtitle {
+  position: relative;
+  max-width: 770px;
+  padding-left: 100px;
+}
+
+.subtitle::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 70px;
+  height: 4px;
+  top: 14px;
+  left: 0;
+  background-color: var(--ui-dark-shade-color);
+}
+
+.item {
+  margin-bottom: 90px;
+  padding-left: 70px;
+  
+  &__numbers {
+    width: 140px;
+    height: 120px;
+    bottom: -60px;
+    border-radius: 0;
+    background-color: var(--ui-brand-color);
+    font-family: var(--ui-hero-title-font-family);
+    font-size: calc(var(--ui-heading-lg-size)*1.1875);
+    /* stylelint-disable  */
+    color: var(--ui-light-shade-color) !important;
+    /* stylelint-enable */
+  }
+  
+  &__inner {
+    min-height: 220px;
+  }
+}
