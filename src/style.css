@@ -20,6 +20,10 @@
 .article {
   position: relative;
 
+  @media (min-width: 992px) {
+    align-items: center;
+  }
+
   &__picture {
 
     @media (min-width: 992px) {
