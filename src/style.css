@@ -19,13 +19,17 @@
   display: flex;
   align-items: flex-start;
 
+  &s-wrapper {
+    justify-content: center;
+  }
+
   &__picture {
     order: 1;
 
     @media (min-width: 992px) {
       padding-top: 74%;
     }
-    
+
     &-wrapper {
       width: 100%;
 
@@ -49,7 +53,7 @@
     order: 1;
     padding-left: 12px;
     padding-right: 0;
-    
+
     &::before {
       content: "|";
       position: absolute;
@@ -57,7 +61,6 @@
       left: 0;
       transform: translateY(-50%);
     }
-    
   }
 
   &__date {
@@ -94,11 +97,4 @@
 
 .link {
   order: 5;
-  font-family: var(--ui-heading-font-family);
-  font-size: calc(var(--ui-text-size) * 0.94);
-}
-
-.button {
-  line-height: 1.7;
-  letter-spacing: 0.6px;
 }
