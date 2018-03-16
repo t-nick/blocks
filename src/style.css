@@ -1,3 +1,56 @@
 @import "wireframe-series-2-partners/src/style.css";
 
-/* start here */
+.title {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.subtitle {
+  position: relative;
+  margin-left: 100px;
+  text-align: left;
+
+  @media (min-width: 1200px) {
+    width: 770px;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    top: 15px;
+    left: -100px;
+    background-color: #484a56;
+  }
+}
+
+.item {
+  &__container {
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    border: solid 8px #f1f2f5;
+  }
+}
+
+.link {
+  font-weight: 500;
+  letter-spacing: 2.8px;
+  font-size: var(--ui-small-size);
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:hover span {
+    color: #ecbf78;
+  }
+}
+
+.button {
+  font-weight: 500;
+  letter-spacing: 3px;
+}
