@@ -80,17 +80,17 @@
   }
 
   &:first-child::before {
-    border: 8px solid var(--ui-light-accent-color);
+    border: 8px solid #f1f2f5;
     background-color: var(--ui-light-shade-color);
   }
   
   &:last-child {
-    .article__text {
-      margin-bottom: 10px;
-    }
-
     &::before {
       background-color: var(--ui-dark-shade-color);
+    }
+
+    .article__text {
+      margin-bottom: 10px;
     }
   } 
 
@@ -110,8 +110,7 @@
   }
 
   &__button {
-    margin-top: 0;
-    letter-spacing: 2.8px;
+    letter-spacing: 2.4px;
   }
 }
 
