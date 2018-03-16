@@ -3,13 +3,11 @@
 /* start here */
 
 .top-icon {
-  display: flex;
   position: relative;
   margin: 0 auto 30px;
   width: 60px;
   height: 60px;
   padding: 20px;
-  padding-top: 23px;
   color: var(--ui-brand-color);
 
   > svg {
@@ -47,14 +45,13 @@
 
   @media (min-width: 992px) {
     width: 670px;
-    height: 410px;
+    height: auto;
   }
 }
 
 .contacts {
   width: 280px;
   padding-left: 60px;
-  display: block;
 
   &__title {
     font-size: var(--ui-subheading-size);
@@ -74,8 +71,8 @@
 }
 
 .contacts-list {
-  padding-bottom: 33px;
   padding-top: 34px;
+  margin-top: 0;
 
   &__item:nth-child(1) {
     margin-bottom: 19px;
@@ -91,6 +88,7 @@
 }
 
 .socials {
-  margin-top: 0;
+  margin-top: 25px;
+  padding-bottom: 60px;
   margin-left: -18px;
 }
