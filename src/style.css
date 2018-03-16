@@ -1,3 +1,44 @@
 @import "wireframe-zapdos-gallery/src/style.css";
 
 /* start here */
+
+.section {
+
+  @media (min-width: 992px) {
+    padding: 105px 0 120px;
+  }
+
+  &__header {
+    margin-bottom: 45px;
+  }
+}
+
+.title {
+  font-size: calc( var(--ui-block-title-size) * 0.45 );
+
+  @media (min-width: 480px) {
+    font-size: calc( var(--ui-block-title-size) * 0.7 );
+  }
+
+  @media (min-width: 992px) {
+    font-size: var(--ui-block-title-size);
+  }
+}
+
+.item {
+  margin-bottom: 30px;
+
+  &s-wrapper {
+    margin-bottom: -30px;
+  }
+
+  @media (min-width: 768px) {
+    &__picture {
+      padding-top: 85%;
+    }
+  }
+}
+
+.btns-group {
+  padding-top: 30px;
+}
