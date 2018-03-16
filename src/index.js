@@ -19,7 +19,7 @@ ExtendedWireframe.defaultContent = {
     {
       title: {
         content: 'Service 1',
-        type: 'heading',
+        type: 'blockTitle',
       },
       description: {
         content:
