@@ -52,7 +52,6 @@
 }
 
 .article {
-  max-width: 570px;
   margin: 0 auto;
   justify-content: flex-start;
 
@@ -64,6 +63,7 @@
   }
 
   @media (min-width: 992px) {
+    max-width: 570px;
     margin: 0;
   }
 
@@ -95,18 +95,33 @@
   } 
 
   &__content {
-    text-align: left;
+
+    @media (min-width: 992px) {
+      text-align: left;
+    }
   }
 
   &__title {
     margin-bottom: 20px;
     letter-spacing: 1px;
-    text-align: left;
+
+    @media (min-width: 992px) {
+      text-align: left;
+    }
   }
 
   &__text {
     max-width: 370px;
+    margin: 0 auto 40px;
     letter-spacing: 0.5px;
+
+    @media (max-width: 991px) {
+      text-align: center;
+    }
+
+    @media (min-width: 992px) {
+      margin: 0 0 40px;
+    }
   }
 
   &__button {
