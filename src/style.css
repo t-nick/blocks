@@ -1,3 +1,100 @@
 @import "wireframe-series-2-cta/src/style.css";
 
-/* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+
+  &__inner {
+    box-shadow: 0 5px 27px 3px rgba(34, 35, 40, 0.3);
+
+    @media (min-width: 768px) {
+      max-width: 500px;
+      margin-left: 9.12%;
+      border-radius: 6px;
+    }
+
+    @media (min-width: 992px) {
+      max-width: 570px;
+    }
+  }
+
+  &__header {
+
+    @media (min-width: 480px) {
+      padding-top: 13%;
+    }
+
+    @media (min-width: 992px) {
+      margin-bottom: 65px;
+    }
+  }
+}
+
+.title {
+  margin-bottom: 20px;
+  font-family: var(--ui-quote-font-family);
+  font-weight: 900;
+}
+
+.subtitle {
+  max-width: 320px;
+  margin: 0 auto;
+
+  @media (min-width: 768px) {
+    max-width: 100%;
+    font-size: var(--ui-subtitle-size);
+  }
+}
+
+.form {
+
+  @media (min-width: 480px) {
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 82px;
+  }
+
+  &__item {
+    margin-bottom: 17px;
+    font-weight: 600;
+  }
+
+  &__field {
+    height: auto;
+    margin-top: 10px;
+    padding: 0;
+    background-color: var(--ui-light-shade-color);
+    border-top: 2px solid #dde5ed;
+    border-radius: 0;
+    outline-color: transparent;
+    font-size: var(--ui-text-size);
+    font-weight: 600;
+    line-height: 26px;
+
+    &:required:valid {
+      margin-top: 5px;
+      padding-bottom: 5px;
+      border-top: 0;
+      border-bottom: 2px solid var(--ui-brand-color);
+    }
+
+    &:focus {
+      margin-top: 5px;
+      padding-bottom: 5px;
+      border-top: 0;
+      border-bottom: 2px solid var(--ui-brand-color);
+    }
+  }
+
+  &__button {
+    border: 0;
+
+    @media (min-width: 768px) {
+      margin-top: 25px;
+    }
+  }
+}
+
