@@ -28,12 +28,13 @@
   }
 
   &__picture {
-    padding-top: 75%;
+    padding-top: 66%;
   }
 
   &__title {
     order: 2;
     margin-bottom: 16px;
+    max-width: 260px;
   }
 
   &__meta {
@@ -81,8 +82,8 @@
 
 @media (min-width: 768px) {
   .article {
-    flex-basis: 33.333%;
-    max-width: 33.333%;
+    flex-basis: 37.333%;
+    max-width: 37.333%;
   }
 }
 
@@ -92,7 +93,7 @@
   .article:nth-last-of-type(2):first-child,
   .article:nth-last-of-type(4):first-child ~ .article,
   .article:nth-last-of-type(4):first-child {
-    flex-basis: 33.333%;
-    max-width: 33.333%;
+    flex-basis: 37.333%;
+    max-width: 37.333%;
   }
 }
