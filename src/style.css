@@ -5,6 +5,7 @@
 
   @media (min-width: 992px) {
     padding-top: 46px;
+    padding-bottom: 98px;
   }
 
   &__inner {
