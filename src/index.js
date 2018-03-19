@@ -11,10 +11,77 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  background: {
+    type: 'image',
+    resourceRef: 'bg.jpg',
+    position: {
+      type: 'cover',
+      cover: '50% 50%',
+    },
+  },
+  formBackground: {
+    type: 'color',
+    color: 'brand-color',
+  },
+  title: {
+    content: 'Ready to book?',
+    type: 'blockTitle',
+    color: '#fff',
+  },
+  subtitle: {
+    content:
+      'Request a quote!',
+    type: 'blockTitle',
+    color: '#fff',
+  },
+  contactForm: {
+    fields: [
+      {
+        type: 'text',
+        id: 'contactForm_name',
+        title: 'Name',
+        placeholder: 'Your Name',
+        required: true,
+      },
+      {
+        type: 'email',
+        id: 'contactForm_email',
+        title: 'Email',
+        placeholder: 'E-Mail',
+        required: true,
+      },
+      {
+        type: 'phone',
+        id: 'contactForm_phoneNumber ',
+        title: 'Phone number ',
+        placeholder: 'Phone Number',
+        required: true,
+      },
+      {
+        type: 'text',
+        id: 'contactForm_zip',
+        title: 'Zip Code',
+        placeholder: 'Zip Code',
+        required: true,
+      },
+    ],
+    submitButton: {
+      title: 'Request a Quote',
+      type: 'primary',
+    },
+    className: 'form',
+    buttonClassName: 'button button--size-md button--primary form__button',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  subtitle: {
+    defaultValue: true,
+    label: 'Title description',
+    type: 'checkbox',
+  },
+  title: {defaultValue: true, label: 'Block title', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
