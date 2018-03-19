@@ -1,1 +1,77 @@
-{}
+[
+  {},
+  {
+    "services": [
+      {
+        "title": {
+          "content": "Restaurants",
+          "type": "heading",
+          "color": "var(--ui-light-shade-color)"
+        },
+        "picture": {
+          "resourceRef": "services6.png",
+          "alt": "Quantum E-commerce illustration"
+        }
+      },
+      {
+        "title": {
+          "content": "Bars",
+          "type": "heading",
+          "color": "var(--ui-light-shade-color)"
+        },
+        "picture": {
+          "resourceRef": "services7.png",
+          "alt": "Quantum E-commerce illustration"
+        }
+      },
+      {
+        "title": {
+          "content": "Cafes",
+          "type": "heading",
+          "color": "var(--ui-light-shade-color)"
+        },
+        "picture": {
+          "resourceRef": "services8.png",
+          "alt": "Quantum E-commerce illustration"
+        }
+      }
+    ]
+  },
+  {
+    "services": [
+      {
+        "title": {
+          "content": "Hospitals & treatement centres",
+          "type": "heading",
+          "color": "var(--ui-light-shade-color)"
+        },
+        "picture": {
+          "resourceRef": "services9.png",
+          "alt": "Quantum E-commerce illustration"
+        }
+      },
+      {
+        "title": {
+          "content": "Health clinics",
+          "type": "heading",
+          "color": "var(--ui-light-shade-color)"
+        },
+        "picture": {
+          "resourceRef": "services10.png",
+          "alt": "Quantum E-commerce illustration"
+        }
+      },
+      {
+        "title": {
+          "content": "Senior living &<br> long-term care",
+          "type": "heading",
+          "color": "var(--ui-light-shade-color)"
+        },
+        "picture": {
+          "resourceRef": "services11.png",
+          "alt": "Quantum E-commerce illustration"
+        }
+      }
+    ]
+  }
+]

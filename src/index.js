@@ -11,10 +11,78 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  background: {
+    type: 'color',
+    color: '#fff',
+  },
+  title: {
+    ...Component.defaultContent.title,
+    content: 'What we clean',
+  },
+  services: [
+    {
+      title: {
+        content: 'Factories',
+        type: 'heading',
+        color: 'var(--ui-light-shade-color)',
+      },
+      picture: {
+        resourceRef: 'services1.png',
+        alt: 'Quantum E-commerce illustration',
+      },
+    },
+    {
+      title: {
+        content: 'Warehouses',
+        type: 'heading',
+        color: 'var(--ui-light-shade-color)',
+      },
+      picture: {
+        resourceRef: 'services2.png',
+        alt: 'Quantum E-commerce illustration',
+      },
+    },
+    {
+      title: {
+        content: 'Distribution centres',
+        type: 'heading',
+        color: 'var(--ui-light-shade-color)',
+      },
+      picture: {
+        resourceRef: 'services3.png',
+        alt: 'Quantum E-commerce illustration',
+      },
+    },
+    {
+      title: {
+        content: 'Constructions sites',
+        type: 'heading',
+        color: 'var(--ui-light-shade-color)',
+      },
+      picture: {
+        resourceRef: 'services4.png',
+        alt: 'Quantum E-commerce illustration',
+      },
+    },
+    {
+      title: {
+        content: 'Mine sites',
+        type: 'heading',
+        color: 'var(--ui-light-shade-color)',
+      },
+      picture: {
+        resourceRef: 'services5.png',
+        alt: 'Quantum E-commerce illustration',
+      },
+    },
+  ],
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  'body-text': {defaultValue: false, label: 'Service main text', type: 'checkbox'},
+  'service-button': {defaultValue: false, label: 'Service button', type: 'checkbox'},
+  button: {defaultValue: false, label: 'Button', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
