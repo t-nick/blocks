@@ -85,7 +85,6 @@
 
   &--main {
     padding-bottom: 39px;
-    margin-bottom: 50px;
     border-radius: 3px;
     z-index: 2;
 
@@ -94,9 +93,6 @@
       margin-bottom: -40px;
       max-width: 370px;
       box-shadow: 0 2px 20px -6px var(--ui-link-color);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
     }
 
     .plan {
