@@ -62,6 +62,11 @@
 
   &__picture {
     min-height: 490px;
+    border-radius: 3px;
+    box-shadow: 0 2px 12px 0 rgba(33, 67, 71, 0.35);
+    width: 100%;
+    height: auto;
+    margin: auto;
   }
 
   &__picture-wrapper {
@@ -108,18 +113,15 @@
   }
 }
 
-img {
-  border-radius: 3px;
-  box-shadow: 0 2px 12px 0 rgba(33, 67, 71, 0.35);
-  width: 100%;
-  height: auto;
-  margin: auto;
-}
-
 .btns-group {
   .link {
     color: var(--ui-brand-color);
     margin-top: 25px;
     text-align: left;
   }
+}
+
+.button__icon {
+  width: 22px;
+  height: 22px;
 }
