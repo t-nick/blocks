@@ -11,73 +11,63 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  background: {
+    type: 'color',
+    color: '#fff',
+  },
+  title: {
+    ...Component.defaultContent.title,
+    content: '- TESTIMONIALS -',
+  },
   testimonials: [
     {
-      id: 'bf40db18-b817-4a19-bd5b-b72cfacce814',
+      ...Component.defaultContent.testimonials[0],
       name: {
-        content: 'Amanda Peterson',
-        type: 'heading',
+        ...Component.defaultContent.testimonials[0].name,
+        content: 'AMANDA PETERSON',
       },
       position: {
-        content: 'Marketing Director at Fresh Food Co.',
-        type: 'caption',
-      },
-      description: {
-        content: '“I was happy to work with Quantum because their efficient solutions helped us improve plenty of business processes. As a result, our clients receive their products faster and are more satisfied with our services. They deserve the highest grade!”',
-        type: 'text',
+        ...Component.defaultContent.testimonials[0].position,
+        content: 'MARKETING DIRECTOR AT FRESH FOOD CO.',
       },
       date: {
-        content: 'December 15, 2017',
-        type: 'caption',
+        ...Component.defaultContent.testimonials[0].date,
+        content: 'DECEMBER 15, 2017',
       },
       image: {
+        ...Component.defaultContent.testimonials[0].image,
         resourceRef: 'testimonials.png',
-        alt: 'Amanda Peterson photo',
       },
     },
     {
-      id: '5ee25c3a-0026-4ab8-b291-238b72e1f6cc',
+      ...Component.defaultContent.testimonials[1],
       name: {
-        content: 'Amanda Peterson',
-        type: 'heading',
+        ...Component.defaultContent.testimonials[1].name,
+        content: 'AMANDA PETERSON',
       },
       position: {
-        content: 'Marketing Director at Fresh Food Co.',
-        type: 'caption',
-      },
-      description: {
-        content: '“I was happy to work with Quantum because their efficient solutions helped us improve plenty of business processes. As a result, our clients receive their products faster and are more satisfied with our services. They deserve the highest grade!”',
-        type: 'text',
+        ...Component.defaultContent.testimonials[1].position,
+        content: 'MARKETING DIRECTOR AT FRESH FOOD CO.',
       },
       date: {
-        content: 'December 15, 2017',
-        type: 'caption',
+        ...Component.defaultContent.testimonials[1].date,
+        content: 'DECEMBER 15, 2017',
       },
       image: {
+        ...Component.defaultContent.testimonials[1].image,
         resourceRef: 'testimonials.png',
-        alt: 'Amanda Peterson photo',
       },
     },
   ],
   cta: {
-    actionConfig: {
-      action: 'link',
-      actions: {
-        link: {
-          type: 'link',
-          innerPage: '',
-          url: '',
-        },
-      },
-    },
-    type: 'secondary',
-    textValue: 'All images',
+    ...Component.defaultContent.cta,
+    type: 'link',
   },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
-  subtitle: {defaultValue: true},
+  subtitle: {defaultValue: true, label: 'Testimonials description', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
