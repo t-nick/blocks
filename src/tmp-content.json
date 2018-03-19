@@ -1,1 +1,93 @@
-{}
+[
+  {},
+  {
+    "background": {
+      "type": "color",
+      "color": "#ffffff"
+    },
+    "title": {
+      "content": "What we clean",
+      "type": "blockTitle"
+    },
+    "services": [
+      {
+        "title": {
+          "content": "Churches",
+          "type": "heading",
+          "color": "#ffffff"
+        },
+        "picture": {
+          "resourceRef": "depositphotos-6318394-original.png",
+          "alt": "Churches illustration photo"
+        }
+      },
+      {
+        "title": {
+          "content": "Synagogues",
+          "type": "heading",
+          "color": "#ffffff"
+        },
+        "picture": {
+          "resourceRef": "depositphotos-10171275-original.png",
+          "alt": "Synagogues illustration photo"
+        }
+      },
+      {
+        "title": {
+          "content": "Mosques",
+          "type": "heading",
+          "color": "#ffffff"
+        },
+        "picture": {
+          "resourceRef": "depositphotos-23471738-original.png",
+          "alt": "Mosques illustration photo"
+        }
+      }
+    ]
+  },
+  {
+    "background": {
+      "type": "color",
+      "color": "#ffffff"
+    },
+    "title": {
+      "content": "What we clean",
+      "type": "blockTitle"
+    },
+    "services": [
+      {
+        "title": {
+          "content": "Malls",
+          "type": "heading",
+          "color": "#ffffff"
+        },
+        "picture": {
+          "resourceRef": "pexels-photo-264507.png",
+          "alt": "Malls illustration photo"
+        }
+      },
+      {
+        "title": {
+          "content": "Car Dealerships",
+          "type": "heading",
+          "color": "#ffffff"
+        },
+        "picture": {
+          "resourceRef": "depositphotos-64623991-original.png",
+          "alt": "Car Dealerships illustration photo"
+        }
+      },
+      {
+        "title": {
+          "content": "Retail Banking",
+          "type": "heading",
+          "color": "#ffffff"
+        },
+        "picture": {
+          "resourceRef": "depositphotos-124499108-original.png",
+          "alt": "Retail Banking illustration photo"
+        }
+      }
+    ]
+  }
+]

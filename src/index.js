@@ -11,10 +11,56 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  background: {
+    type: 'color',
+    color: '#ffffff',
+  },
+  title: {
+    content: 'What we clean',
+    type: 'blockTitle',
+  },
+  services: [
+    {
+      title: {
+        content: 'Hotels',
+        type: 'heading',
+        color: '#ffffff',
+      },
+      picture: {
+        resourceRef: 'depositphotos-2612375-original.png',
+        alt: 'Hotels illustration',
+      },
+    },
+    {
+      title: {
+        content: 'Motels',
+        type: 'heading',
+        color: '#ffffff',
+      },
+      picture: {
+        resourceRef: 'depositphotos-31239309-original.png',
+        alt: 'Motels illustration',
+      },
+    },
+    {
+      title: {
+        content: 'Resorts',
+        type: 'heading',
+        color: '#ffffff',
+      },
+      picture: {
+        resourceRef: 'depositphotos-1628938-original.png',
+        alt: 'Resorts illustration',
+      },
+    },
+  ],
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  'body-text': {defaultValue: false, label: 'Service main text', type: 'checkbox'},
+  'service-button': {defaultValue: false, label: 'Service button', type: 'checkbox'},
+  button: {defaultValue: false, label: 'Button', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
