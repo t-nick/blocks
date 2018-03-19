@@ -1,3 +1,65 @@
 @import "wireframe-series-2-services/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 90px;
+    padding-bottom: 45px;
+  }
+
+  &__header {
+    margin-bottom: 55px;
+  }
+}
+
+.article {
+
+  @media (min-width: 992px) {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 75px;
+  }
+
+  &__title {
+    max-width: 260px;
+    font-size: calc(var(--ui-block-title-size) * 1.273);
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__text {
+    max-width: 410px;
+    margin-bottom: 30px;
+    font-size: var(--ui-quote-size);
+    line-height: var(--ui-quote-line-height);
+    letter-spacing: 0.7px;
+  }
+
+  &__image {
+    border-radius: 25px;
+  }
+
+  &__button {
+    margin-top: 0;
+  }
+
+  &__picture {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: 25px;
+      background: rgba(18, 22, 26, 0.3);
+    }
+  }
+}

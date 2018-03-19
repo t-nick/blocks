@@ -11,10 +11,54 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  services: [
+    {
+      title: {
+        content: 'Referral offer',
+        type: 'heading',
+      },
+      text: {
+        content: 'Refer a friend and save 10% off your next deep cleaning service.',
+        type: 'text',
+      },
+      picture: {
+        resourceRef: 'referral-bg.png',
+        alt: 'Quantum E-commerce illustration',
+        overlay: {
+          type: 'color',
+          color: '#FFF',
+          opacity: 0.6,
+        },
+      },
+      cta: {
+        actionConfig: {
+          action: 'link',
+          actions: {
+            link: {
+              type: '',
+              innerPage: '',
+              url: '',
+            },
+          },
+        },
+        textValue: 'Learn More',
+        type: 'secondary',
+      },
+    },
+  ],
+  title: {
+    content: 'Special offer',
+    type: 'blockTitle',
+  },
+  background: {
+    type: 'color',
+    color: '#fff',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  button: {defaultValue: false, label: 'Button', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
