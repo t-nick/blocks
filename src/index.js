@@ -11,7 +11,6 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
-  theme: 'light',
   background: {
     type: 'image',
     position: {
@@ -19,7 +18,6 @@ ExtendedWireframe.defaultContent = {
       cover: '50% 50%',
     },
     resourceRef: 'bg.jpg',
-
     overlay: {
       type: 'color',
       color: '#fff',
