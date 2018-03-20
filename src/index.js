@@ -11,10 +11,117 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  services: [
+    {
+      title: {
+        content: 'Gutter Cleaning',
+        type: 'heading',
+      },
+      text: {
+        content: 'From $37',
+        type: 'text',
+      },
+      picture: {
+        resourceRef: 'back_1.png',
+        alt: 'Quantum E-commerce illustration',
+      },
+      cta: {
+        actionConfig: {
+          action: 'link',
+          actions: {
+            link: {
+              type: '',
+              innerPage: '',
+              url: '',
+            },
+          },
+        },
+        textValue: 'Learn More',
+        type: 'primary',
+      },
+    },
+    {
+      title: {
+        content: 'Carpet Cleaning',
+        type: 'heading',
+      },
+      text: {
+        content: 'From $27',
+        type: 'text',
+      },
+      picture: {
+        resourceRef: 'back_2.png',
+        alt: 'Quantum Aftersales illustration',
+      },
+      cta: {
+        actionConfig: {
+          action: 'link',
+          actions: {
+            link: {
+              type: '',
+              innerPage: '',
+              url: '',
+            },
+          },
+        },
+        textValue: 'Learn more',
+        type: 'primary',
+      },
+    },
+    {
+      title: {
+        content: 'Pressure Cleaning',
+        type: 'heading',
+      },
+      text: {
+        content: 'From $80',
+        type: 'text',
+      },
+      picture: {
+        resourceRef: 'back_3.png',
+        alt: 'Quantum Aftersales illustration',
+      },
+      cta: {
+        actionConfig: {
+          action: 'link',
+          actions: {
+            link: {
+              type: '',
+              innerPage: '',
+              url: '',
+            },
+          },
+        },
+        textValue: 'Learn more',
+        type: 'primary',
+      },
+    },
+  ],
+  title: {
+    content: 'Combine your Window Cleaning with',
+    type: 'blockTitle',
+  },
+  cta: {
+    actionConfig: {
+      action: 'link',
+      actions: {
+        link: {
+          type: '',
+          innerPage: '',
+          url: '',
+        },
+      },
+    },
+    textValue: 'More services',
+    type: 'secondary',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  'body-text': {defaultValue: true, label: 'Service main text', type: 'checkbox'},
+  'service-button': {defaultValue: true, label: 'Service button', type: 'checkbox'},
+  button: {defaultValue: true, label: 'Button', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
