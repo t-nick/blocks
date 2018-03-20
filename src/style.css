@@ -1,3 +1,39 @@
 @import "wireframe-series-2-services/src/style.css";
 
 /* start here */
+.section__header {
+  margin-bottom: 50px;
+}
+
+.article {
+  &__content {
+    text-align: left;
+  }
+
+  &__title {
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+    @media(min-width: 768px) {
+      font-size: calc(var(--ui-heading-size)*2.5);
+    }
+  }
+
+  &__text {
+
+    @media(min-width: 768px) {
+      font-size: calc(var(--ui-text-size)*1.26667);
+    }
+
+    margin-bottom: 20px;
+  }
+
+  &__image {
+    border-radius: 20px;
+  }
+}
+
+.title {
+  color: var(--ui-dark-shade-color);
+}
