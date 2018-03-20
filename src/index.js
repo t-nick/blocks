@@ -27,7 +27,7 @@ ExtendedWireframe.defaultContent = {
         color: 'var(--ui-light-shade-color)',
       },
       picture: {
-        resourceRef: 'services1.png',
+        resourceRef: 'services1.jpg',
         alt: 'Quantum E-commerce illustration',
       },
     },
@@ -38,7 +38,7 @@ ExtendedWireframe.defaultContent = {
         color: 'var(--ui-light-shade-color)',
       },
       picture: {
-        resourceRef: 'services2.png',
+        resourceRef: 'services2.jpg',
         alt: 'Quantum E-commerce illustration',
       },
     },
@@ -49,7 +49,7 @@ ExtendedWireframe.defaultContent = {
         color: 'var(--ui-light-shade-color)',
       },
       picture: {
-        resourceRef: 'services3.png',
+        resourceRef: 'services3.jpg',
         alt: 'Quantum E-commerce illustration',
       },
     },
@@ -60,7 +60,7 @@ ExtendedWireframe.defaultContent = {
         color: 'var(--ui-light-shade-color)',
       },
       picture: {
-        resourceRef: 'services4.png',
+        resourceRef: 'services4.jpg',
         alt: 'Quantum E-commerce illustration',
       },
     },
@@ -71,7 +71,7 @@ ExtendedWireframe.defaultContent = {
         color: 'var(--ui-light-shade-color)',
       },
       picture: {
-        resourceRef: 'services5.png',
+        resourceRef: 'services5.jpg',
         alt: 'Quantum E-commerce illustration',
       },
     },

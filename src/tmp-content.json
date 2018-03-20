@@ -9,7 +9,7 @@
           "color": "var(--ui-light-shade-color)"
         },
         "picture": {
-          "resourceRef": "services6.png",
+          "resourceRef": "services6.jpg",
           "alt": "Quantum E-commerce illustration"
         }
       },
@@ -20,7 +20,7 @@
           "color": "var(--ui-light-shade-color)"
         },
         "picture": {
-          "resourceRef": "services7.png",
+          "resourceRef": "services7.jpg",
           "alt": "Quantum E-commerce illustration"
         }
       },
@@ -31,7 +31,7 @@
           "color": "var(--ui-light-shade-color)"
         },
         "picture": {
-          "resourceRef": "services8.png",
+          "resourceRef": "services8.jpg",
           "alt": "Quantum E-commerce illustration"
         }
       }
@@ -46,7 +46,7 @@
           "color": "var(--ui-light-shade-color)"
         },
         "picture": {
-          "resourceRef": "services9.png",
+          "resourceRef": "services9.jpg",
           "alt": "Quantum E-commerce illustration"
         }
       },
@@ -57,7 +57,7 @@
           "color": "var(--ui-light-shade-color)"
         },
         "picture": {
-          "resourceRef": "services10.png",
+          "resourceRef": "services10.jpg",
           "alt": "Quantum E-commerce illustration"
         }
       },
@@ -68,7 +68,7 @@
           "color": "var(--ui-light-shade-color)"
         },
         "picture": {
-          "resourceRef": "services11.png",
+          "resourceRef": "services11.jpg",
           "alt": "Quantum E-commerce illustration"
         }
       }
