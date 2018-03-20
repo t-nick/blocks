@@ -1,3 +1,21 @@
 @import "wireframe-series-2-about/src/style.css";
 
 /* start here */
+
+.article {
+  display: flex;
+  max-width: 770px;
+  flex-direction: column;
+
+  &__title {
+    margin-bottom: 43px;
+  }
+
+  &__subheading {
+    order: 3;
+    font-family: var(--ui-text-font-family);
+    font-weight: var(--ui-text-font-weight);
+    font-size: var(--ui-subtitle-size);
+    line-height: var(--ui-subtitle-line-height );
+  }
+}
