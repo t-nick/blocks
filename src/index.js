@@ -11,10 +11,50 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  background: {
+    type: 'image',
+    position: {
+      type: 'cover',
+      cover: '50% 50%',
+    },
+    resourceRef: 'about_services-1.png',
+  },
+  title: {
+    content: 'Residential Cleaning',
+    type: 'blockTitle',
+    color: 'dark-shade-color',
+  },
+  text: {
+    content: '— One-off, weekly, or bi-weekly cleaning available <br> — Custom checklist - you tell us what to clean <br> — Regular Quality Control for excellent results <br> — Professional cleaners you can trust <br> — More free time for things you love to do',
+    type: 'quote',
+    color: 'dark-shade-color',
+  },
+  'button-2': {
+    actionConfig: {
+      action: 'link',
+      actions: {
+        link: {
+          type: '',
+          innerPage: '',
+          url: '',
+        },
+      },
+    },
+    textValue: 'Request a Quote',
+    type: 'secondary',
+    size: 'lg',
+  },
+  subheading: {
+    content: 'From $15/hour',
+    type: 'subheading',
+    color: 'dark-shade-color',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  'social-icons': {defaultValue: false, label: 'Social media buttons', type: 'checkbox'},
+  subheading: {defaultValue: true, label: 'Company description', type: 'checkbox'},
 }
 
 export default ExtendedWireframe

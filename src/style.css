@@ -1,3 +1,45 @@
 @import "wireframe-series-2-about/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 92px;
+    padding-bottom: 92px;
+  }
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    padding: 0;
+  }
+
+  &__title {
+    max-width: 560px;
+    order: 1;
+    margin-bottom: 45px;
+  }
+
+  &__text {
+    order: 2;
+    margin-bottom: 35px;
+    opacity: 0.6;
+
+    br {
+      line-height: 2;
+    }
+  }
+
+  &__subheading {
+    order: 3;
+    font-size: var(--ui-subheading-size);
+    margin-bottom: 74px;
+  }
+}
+
+.btns-group {
+  order: 4;
+}
