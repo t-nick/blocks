@@ -110,10 +110,12 @@
 
   &__title {
     margin-bottom: 9px;
+    word-break: break-word;
   }
 
   &__position {
     margin-bottom: 0;
+    word-break: break-word;
   }
 
   &__socials {
