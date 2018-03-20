@@ -159,3 +159,14 @@
     }
   }
 }
+
+@media (min-width: 992px) {
+  .item:nth-last-of-type(7):first-child,
+  .item:nth-last-of-type(7):first-child ~ .item {
+    &:nth-of-type(5n) {
+      &::after {
+        content: none;
+      }
+    }
+  }
+}
