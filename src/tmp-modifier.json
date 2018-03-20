@@ -1,1 +1,3 @@
-{}
+{
+  "button": {"defaultValue": false, "label": "Button", "type": "checkbox"}
+}

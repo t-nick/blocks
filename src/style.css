@@ -1,3 +1,93 @@
 @import "wireframe-series-2-services/src/style.css";
 
 /* start here */
+.section {
+  &__header {
+
+    @media (min-width: 992px) {
+      margin-bottom: 48px;
+    }
+  }
+  
+  .article {
+    &__title,
+    &__text,
+    &__button {
+      color: #fff;
+    }
+
+    &__button {
+      &:hover,
+      &:focus,
+      &:active {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.title {
+  letter-spacing: -0.9px;
+}
+
+.articles-wrapper {
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+
+.article {
+  width: 100%;
+  margin: 0 0 30px;
+  padding: 30px 15px 48px;
+  border: 0;
+
+  @media (min-width: 768px) {
+    max-width: 50%;
+    min-height: 370px;
+    flex-basis: 50%;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 33%;
+    flex-basis: 33%;
+  }
+
+  &__picture {
+    width: auto;
+    right: 15px;
+    left: 15px;
+    border-radius: 25px;
+    overflow: hidden;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: var(--ui-dark-shade-color);
+      opacity: 0.4;
+    }
+  }
+
+  &__title {
+    padding: 0 20px;
+    font-weight: var(--ui-heading-lg-font-weight);
+    margin-bottom: 26px;
+  }
+
+  &__text {
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: var(--ui-heading-font-weight);
+  }
+
+  &__button {
+    font-weight: var(--ui-heading-font-weight);
+  }
+}

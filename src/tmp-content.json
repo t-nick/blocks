@@ -1,1 +1,183 @@
-{}
+[
+{},
+  {
+  "background": {
+      "type": "color",
+      "color": "#ffffff"
+    },
+    "title": {
+      "content": "What we do",
+      "type": "blockTitle"
+    },
+    "services": [
+      {
+        "title": {
+          "content": "Residential Cleaning",
+          "type": "heading"
+        },
+        "text": {
+          "content": "From $15/hour",
+          "typ": "text"
+        },
+        "picture": {
+          "src": "img-1.jpg",
+          "alt": "Residential Cleaning"
+        },
+        "cta": {
+          "actionConfig": {
+            "action": "link",
+            "actions": {
+              "link": {
+                "type": "",
+                "innerPage":"",
+                "url": ""
+              }
+            }
+          },
+          "textValue": "Learn More",
+          "type": "link"
+        }
+      },
+      {
+        "title": {
+          "content": "Move In/Move Out Cleaning",
+          "type": "heading"
+        },
+        "text": {
+          "content": "From $95",
+          "typ": "text"
+        },
+        "picture": {
+          "src": "img-2.jpg",
+          "alt": "Move In/Move Out Cleaning"
+        },
+        "cta": {
+          "actionConfig": {
+            "action": "link",
+            "actions": {
+              "link": {
+                "type": "",
+                "innerPage":"",
+                "url": ""
+              }
+            }
+          },
+          "textValue": "Learn More",
+          "type": "link"
+        }
+      },
+      {
+        "title": {
+          "content": "Post-Construction Cleaning",
+          "type": "heading"
+        },
+        "text": {
+          "content": "From $20/hour",
+          "typ": "text"
+        },
+        "picture": {
+          "src": "img-3.jpg",
+          "alt": "Post-Construction Cleaning"
+        },
+        "cta": {
+          "actionConfig": {
+            "action": "link",
+            "actions": {
+              "link": {
+                "type": "",
+                "innerPage":"",
+                "url": ""
+              }
+            }
+          },
+          "textValue": "Learn More",
+          "type": "link"
+        }
+      },
+      {
+        "title": {
+          "content": "Deep Cleaning",
+          "type": "heading"
+        },
+        "text": {
+          "content": "From $25/hour",
+          "typ": "text"
+        },
+        "picture": {
+          "src": "img-4.jpg",
+          "alt": "Deep Cleaning"
+        },
+        "cta": {
+          "actionConfig": {
+            "action": "link",
+            "actions": {
+              "link": {
+                "type": "",
+                "innerPage":"",
+                "url": ""
+              }
+            }
+          },
+          "textValue": "Learn More",
+          "type": "link"
+        }
+      },
+      {
+        "title": {
+          "content": "Office Cleaning",
+          "type": "heading"
+        },
+        "text": {
+          "content": "From $13/hour",
+          "typ": "text"
+        },
+        "picture": {
+          "src": "img-5.jpg",
+          "alt": "Office Cleaning"
+        },
+        "cta": {
+          "actionConfig": {
+            "action": "link",
+            "actions": {
+              "link": {
+                "type": "",
+                "innerPage":"",
+                "url": ""
+              }
+            }
+          },
+          "textValue": "Learn More",
+          "type": "link"
+        }
+      },
+      {
+        "title": {
+          "content": "Commercial Cleaning",
+          "type": "heading"
+        },
+        "text": {
+          "content": "From $13/hour",
+          "typ": "text"
+        },
+        "picture": {
+          "src": "img-6.jpg",
+          "alt": "Commercial Cleaning"
+        },
+        "cta": {
+          "actionConfig": {
+            "action": "link",
+            "actions": {
+              "link": {
+                "type": "",
+                "innerPage":"",
+                "url": ""
+              }
+            }
+          },
+          "textValue": "Learn More",
+          "type": "link"
+        }
+      }
+    ]
+  }
+]
