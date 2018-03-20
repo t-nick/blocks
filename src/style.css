@@ -1,13 +1,11 @@
 @import "wireframe-series-2-about/src/style.css";
 
 /* start here */
-.section {
-  padding: 165px 0;
-}
 
 .article {
   display: flex;
   padding: 0;
+  flex-direction: column;
 
   @media (min-width: 992px) {
     margin-left: 600px;
