@@ -11,18 +11,15 @@
     },
     "title": {
       "content": "Office Cleaning",
-      "type": "blockTitle",
-      "color": "dark-shade-color"
+      "type": "blockTitle"
     },
     "text": {
       "content": "— The highest professional cleaning standards <br> — Cleaning Colour Coding System applied <br> — Always reliable and punctual <br> — Special prices on all other services we offer <br> — No disturbance of your work environment",
-      "type": "quote",
-      "color": "dark-shade-color"
+      "type": "quote"
     },
     "subheading": {
       "content": "From $13/hour",
-      "type": "subheading",
-      "color": "dark-shade-color"
+      "type": "subheading"
     }
   },
   {
@@ -36,18 +33,15 @@
     },
     "title": {
       "content": "For homes that need  some serious cleaning",
-      "type": "blockTitle",
-      "color": "dark-shade-color"
+      "type": "blockTitle"
     },
     "text": {
       "content": "— Sending as many cleaners as needed <br> — Includes hard to get places cleaning <br> — Performing all the extra tasks for flat rate",
-      "type": "quote",
-      "color": "dark-shade-color"
+      "type": "quote"
     },
     "subheading": {
       "content": "From $150",
-      "type": "subheading",
-      "color": "dark-shade-color"
+      "type": "subheading"
     }
   }
 ]

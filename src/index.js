@@ -22,12 +22,10 @@ ExtendedWireframe.defaultContent = {
   title: {
     content: 'Residential Cleaning',
     type: 'blockTitle',
-    color: 'dark-shade-color',
   },
   text: {
     content: '— One-off, weekly, or bi-weekly cleaning available <br> — Custom checklist - you tell us what to clean <br> — Regular Quality Control for excellent results <br> — Professional cleaners you can trust <br> — More free time for things you love to do',
     type: 'quote',
-    color: 'dark-shade-color',
   },
   'button-2': {
     actionConfig: {
@@ -47,7 +45,6 @@ ExtendedWireframe.defaultContent = {
   subheading: {
     content: 'From $15/hour',
     type: 'subheading',
-    color: 'dark-shade-color',
   },
 }
 

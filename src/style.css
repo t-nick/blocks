@@ -26,7 +26,6 @@
   &__text {
     order: 2;
     margin-bottom: 35px;
-    opacity: 0.6;
 
     br {
       line-height: 2;
