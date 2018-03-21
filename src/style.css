@@ -100,7 +100,7 @@
     word-break: break-word;
 
     @media(min-width: 992px) {
-      word-break: break-all;
+      word-break: break-word;
     }
   }
 
