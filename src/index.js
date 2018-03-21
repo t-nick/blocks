@@ -42,6 +42,9 @@ ExtendedWireframe.defaultContent = {
 ExtendedWireframe.modifierScheme = {
   ...ExtendedWireframe.modifierScheme,
   'top-icon': {defaultValue: true, label: 'Top icon decorator', type: 'checkbox'},
+  'additional-button': {defaultValue: false, label: 'Additional button', type: 'hidden'},
+  socialIcons: {defaultValue: false, label: 'Social media buttons', type: 'hidden'},
+  subtitle: {defaultValue: false, label: 'Subtitle', type: 'hidden'},
 }
 
 
