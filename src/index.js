@@ -55,32 +55,30 @@ ExtendedWireframe.defaultContent = {
   },
   'plan-price-text-1': {
     ...Component.defaultContent['plan-price-text-1'],
-    content: 'FOR ALL <br>PERIOD',
+    content: 'FOR ALL PERIOD',
   },
   'plan-price-text-2': {
     ...Component.defaultContent['plan-price-text-2'],
-    content: 'PER <br>MONTH',
-    type: 'caption',
+    content: 'PER MONTH',
   },
   'plan-price-text-3': {
     ...Component.defaultContent['plan-price-text-3'],
-    content: 'PER <br>MONTH',
-    type: 'caption',
+    content: 'PER MONTH',
   },
   'plan-cta-1': {
     ...Component.defaultContent['plan-cta-1'],
     type: 'primary',
-    size: 'md',
+    size: 'lg',
   },
   'plan-cta-2': {
     ...Component.defaultContent['plan-cta-2'],
     type: 'primary',
-    size: 'md',
+    size: 'lg',
   },
   'plan-cta-3': {
     ...Component.defaultContent['plan-cta-3'],
     type: 'primary',
-    size: 'md',
+    size: 'lg',
   },
 }
 

@@ -7,6 +7,11 @@
     padding-bottom: 105px;
   }
 
+  @media (min-width: 992px) {
+    padding-top: 120px;
+    padding-bottom: 160px;
+  }
+
   &__inner {
 
     @media (min-width: 768px) {
@@ -17,15 +22,19 @@
 
 .top-icon {
   display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  margin: 0 auto 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
   width: 60px;
   height: 60px;
   padding: 20px;
   color: var(--ui-brand-color);
   border-radius: 50%;
   background-color: var(--ui-light-shade-color);
-  box-shadow: 0 2px 20px -6px var(--ui-link-color);
+  box-shadow: 0 2px 12px 0 rgba(33, 67, 71, 0.08);
 
   > svg {
     max-width: 100%;
@@ -33,34 +42,26 @@
   }
 }
 
-.plan--main .plan__list {
-  margin-bottom: 60px;
-}
-
-.title {
-  margin-top: 30px;
-}
-
 .subtitle {
   margin-top: 24px;
 }
 
-.plans {
-  &-wrapper {
+.plans-wrapper {
 
-    @media (min-width: 768px) {
-      margin-top: 102px;
-    }
+  @media (min-width: 768px) {
+    margin-top: 102px;
   }
 }
 
 .plan {
   position: relative;
-  background-color: var(--ui-light-shade-color);
   z-index: 1;
 
   @media (min-width: 768px) {
-    box-shadow: 0 2px 20px -6px var(--ui-link-color);
+    box-shadow: 0 2px 12px 0 rgba(33, 67, 71, 0.08);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
   }
 
   &:nth-of-type(1) {
@@ -83,53 +84,15 @@
     }
   }
 
-  &--main {
-    padding-bottom: 39px;
-    border-radius: 3px;
-    z-index: 2;
-
-    @media (min-width: 768px) {
-      margin-top: -40px;
-      margin-bottom: -40px;
-      max-width: 370px;
-      box-shadow: 0 2px 20px -6px var(--ui-link-color);
-    }
-
-    .plan {
-      &__title {
-        margin-bottom: 40px;
-      }
-
-      &__icon {
-        &-wrapper {
-          width: 60px;
-          height: 60px;
-        }
-      }
-
-      &__button {
-        margin-top: 0;
-
-        @media (min-width: 768px) {
-          position: absolute;
-          left: 50%;
-          transform: translateX(-50%);
-          bottom: 40px;
-          margin-top: auto;
-          margin-right: auto;
-          margin-left: auto;
-          max-width: 75%;
-        }
-      }
-    }
-  }
-
   &__title {
     margin-bottom: 30px;
   }
 
   &__icon {
     &-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 50px;
       height: 50px;
       padding: 0;
@@ -143,30 +106,82 @@
   }
 
   &__price {
-    margin-bottom: 20px;
-    font-size: var(--ui-small-text-size);
-    color: var(--ui-text-color);
-    font-weight: 700;
+    margin-bottom: 29px;
+
+    &-count {
+      font-size: calc(var(--ui-heading-lg-size) * 0.8182);
+    }
   }
 
   &__list {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 
     &-item {
-      font-size: calc(var(--ui-small-text-size) * 1.166);
-      font-family: var(--ui-text-font-family);
-      font-weight: var(--ui-text-font-weight);
-      margin-bottom: 3px;
+      margin-bottom: 2px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+
+      &-text {
+        font-size: calc(var(--ui-text-size) * 0.875);
+      }
     }
   }
 
   &__button {
 
     @media (min-width: 768px) {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translate(-50%, 50%);
+      transform: translateY(50%);
+      margin-top: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &--main {
+    padding-top: 60px;
+    padding-bottom: 39px;
+    border-radius: 3px;
+    z-index: 2;
+
+    @media (min-width: 768px) {
+      margin-top: -40px;
+      margin-bottom: -40px;
+      max-width: 370px;
+      box-shadow: 0 2px 12px 0 rgba(33, 67, 71, 0.08);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .plan {
+      &__title {
+        margin-bottom: 40px;
+        font-weight: var(--ui-heading-font-weight);
+      }
+
+      &__icon {
+        &-wrapper {
+          width: 60px;
+          height: 60px;
+          margin-bottom: 40px;
+        }
+      }
+
+      &__list {
+        margin-bottom: 40px;
+      }
+
+      &__button {
+        margin-top: 0;
+
+        @media (min-width: 768px) {
+          margin-top: auto;
+          margin-right: auto;
+          margin-left: auto;
+          transform: none;
+        }
+      }
     }
   }
 }
