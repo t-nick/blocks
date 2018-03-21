@@ -3,6 +3,9 @@
 /* start here */
 
 .footer {
+  padding-top: 62px;
+  padding-bottom: 68px;
+
   &__main {
     display: flex;
     justify-content: flex-start;
@@ -10,8 +13,9 @@
 
   &__bottom {
     border-top: 0;
-    margin-top: 0;
-    padding-bottom: 17px;
+    margin-top: 40px;
+    padding-bottom: 0;
+    padding-top: 0;
 
     &:before {
       display: none;
@@ -27,23 +31,26 @@
 }
 
 .logo {
+  min-width: 118px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+
   a {
     text-decoration: none;
   }
 
-  &__title {
+  @media (min-width: 992px) {
     margin-right: 71px;
-    font-size: calc(var(--ui-sub-heading-size) * 2);
-    color: var(--ui-light-shade-color);
   }
 }
 
 .nav {
   align-items: flex-end;
+  min-height: 0;
 
   &-list {
     &__link {
-      color: var(--ui-light-shade-color);
       opacity: 0.6;
       transition: opacity 0.2s ease-in, color 0.2s ease-in;
       text-decoration: none;
@@ -52,6 +59,11 @@
       &:hover {
         opacity: 1;
       }
+    }
+
+    &__item {
+      margin-left: 22.5px;
+      margin-right: 22.5px;
     }
   }
 }

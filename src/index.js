@@ -21,11 +21,13 @@ ExtendedWireframe.defaultContent = {
   additional: {
     content: 'All rights Reserved',
   },
-
   title: 'Design title',
   logo: {
-    text: {
-      value: 'asam.',
+    image: {
+      resourceRef: 'asam.png',
+      alt: 'asam.',
+      width: 118,
+      height: 23,
     },
   },
 }
