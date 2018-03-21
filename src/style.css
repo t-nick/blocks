@@ -1,3 +1,140 @@
 @import "wireframe-series-2-services/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 7.55%;
+    padding-bottom: 7.29%;
+  }
+
+  &__header {
+    margin-bottom: 38px;
+
+    @media (min-width: 992px) {
+      margin-bottom: 68px;
+    }
+  }
+
+  .article {
+    &__title,
+    &__text,
+    &__button {
+      color: #fff;
+    }
+
+    &__button {
+      &:hover,
+      &:focus,
+      &:active {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.caption-decorator {
+  font-family: var(--ui-quote-font-family);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2.95px;
+  margin-bottom: 11px;
+
+  @media (min-width: 992px) {
+    font-size: calc(var(--ui-text-size) * 0.866);
+  }
+}
+
+.title {
+  position: relative;
+  font-family: var(--ui-quote-font-family);
+  text-transform: capitalize;
+  font-weight: 900;
+  margin-bottom: 63px;
+
+  &::after {
+    display: block;
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: var(--ui-brand-color);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 25px;
+  }
+}
+
+.subtitle {
+  max-width: 770px;
+}
+
+.articles-wrapper {
+  margin: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.article {
+  border: 0;
+  padding: 40px 30px;
+
+  @media (min-width: 1170px) {
+    padding: 20px 125px;
+  }
+
+  @media (min-width: 992px) {
+    padding: 20px 40px;
+    min-height: 470px;
+  }
+
+  &__title {
+    position: relative;
+    font-size: calc(var(--ui-heading-size) * 1.428);
+    font-family: var(--ui-quote-font-family);
+    font-weight: 600;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+
+    &::after {
+      display: block;
+      content: "";
+      width: 30px;
+      height: 3px;
+      background-color: var(--ui-light-shade-color);
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+    }
+  }
+
+  &__picture {
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: #393c41;
+      opacity: 0.95;
+    }
+  }
+
+  &:first-child {
+    .article__picture {
+      &::after {
+        background-color: #255ef7;
+      }
+    }
+  }
+
+  &__text {
+    text-align: center;
+  }
+}
+
+.btns-group {
+  padding-top: 60px;
+}
