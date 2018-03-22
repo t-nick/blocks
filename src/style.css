@@ -1,3 +1,96 @@
-@import "wireframe-default-master/src/style.css";
+@import "wireframe-lucario-cover/src/style.css";
 
 /* start here */
+
+.subtitle {
+  font-weight: var(--ui-heading-font-weight);
+  margin-top: 0;
+}
+
+.items {
+  &-wrapper {
+    .subtitle,
+    .item__inner h2 {
+      color: var(--ui-dark-shade-color);
+    }
+
+    :global {
+      .slick {
+        &-arrow-default {
+          width: 17px;
+          color: var(--ui-dark-shade-color);
+        }
+
+        &-prev-default {
+          left: 0;
+        }
+
+        &-next-default {
+          right: 0;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .slick-prev-default,
+        .slick-next-default {
+          top: 36%;
+        }
+      }
+    }
+  }
+}
+
+.slider {
+  &-dots {
+    li {
+      position: relative;
+      z-index: 1;
+
+      button {
+        width: 15px;
+        height: 15px;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 150%;
+        height: 150%;
+        top: -25%;
+        left: -25%;
+        z-index: -1;
+        border-radius: 50%;
+        opacity: 0.5;
+        background-color: var(--ui-light-shade-color);
+        transition: background-color 0.2s ease-in;
+      }
+    }
+
+    :global {
+      .slick-active {
+        &::after {
+          background-color: var(--ui-brand-color);
+        }
+      }
+    }
+  }
+}
+
+.button {
+  margin-top: 25px;
+}
+
+@media (min-width: 992px) {
+  .item {
+    &__inner {
+      max-width: 1095px;
+    }
+  }
+
+  .slider {
+    &-dots {
+      margin-top: 80px;
+      margin-bottom: 20px;
+    }
+  }
+}
