@@ -7,12 +7,7 @@
         "type": "cover",
         "cover": "50% 50%"
       },
-      "resourceRef": "layer-517.png",
-      "overlay": {
-        "type": "color",
-        "color": "#fff",
-        "opacity": "0.7"
-      }
+      "resourceRef": "layer-518.png"
     },
     "title": {
       "content": "Government",
@@ -49,12 +44,7 @@
         "type": "cover",
         "cover": "50% 50%"
       },
-      "resourceRef": "layer-519.png",
-      "overlay": {
-        "type": "color",
-        "color": "#fff",
-        "opacity": "0.7"
-      }
+      "resourceRef": "layer-519.png"
     },
     "title": {
       "content": "Entertainment & Sports",

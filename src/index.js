@@ -17,12 +17,7 @@ ExtendedWireframe.defaultContent = {
       type: 'cover',
       cover: '50% 50%',
     },
-    resourceRef: 'layer-518.png',
-    overlay: {
-      type: 'color',
-      color: '#fff',
-      opacity: 0.7,
-    },
+    resourceRef: 'layer-517.png',
   },
   title: {
     content: 'Healthcare',
