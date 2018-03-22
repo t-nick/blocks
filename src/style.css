@@ -10,9 +10,10 @@
 }
 
 .title {
+  letter-spacing: -2px;
 
   @media (min-width: 992px) {
-    margin-bottom: 25px;
+    margin-bottom: 34px;
   }
 }
 
@@ -22,7 +23,7 @@
 
   @media (min-width: 992px) {
     max-width: 900px;
-    margin-bottom: 57px;
+    margin-bottom: 50px;
   }
 }
 
@@ -35,16 +36,11 @@
 }
 
 .item {
-
-  @media (min-width: 992px) {
-    margin-bottom: 0;
-  }
-
   &:nth-of-type(1) {
 
     @media (min-width: 992px) {
       width: calc(33% - 10px);
-      border-right: 1px solid var(--ui-dark-shade-color);
+      border-right: 1px solid #d7dbdb;
       margin-right: 10px;
     }
   }
@@ -52,8 +48,8 @@
   &:nth-of-type(2) {
 
     @media (min-width: 992px) {
-      border-right: 1px solid var(--ui-dark-shade-color);
-      border-left: 1px solid var(--ui-dark-shade-color);
+      border-right: 1px solid #d7dbdb;
+      border-left: 1px solid #d7dbdb;
     }
   }
 
@@ -61,7 +57,7 @@
 
     @media (min-width: 992px) {
       width: calc(33% - 10px);
-      border-left: 1px solid var(--ui-dark-shade-color);
+      border-left: 1px solid #d7dbdb;
       margin-left: 10px;
     }
   }
@@ -78,20 +74,24 @@
   &__title {
 
     @media (min-width: 992px) {
-      margin-bottom: 45px;
+      margin-bottom: 38px;
     }
   }
 
   &__icon {
 
     @media (min-width: 992px) {
-      margin-bottom: 40px;
+      margin-bottom: 46px;
     }
+  }
+
+  &__price {
+    margin-bottom: 25px;
   }
 
   &__price-numbers {
     color: var(--ui-heading-color);
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   &__price-info {
@@ -103,6 +103,7 @@
 
     @media (min-width: 992px) {
       margin-bottom: 20px;
+      line-height: calc(var(--ui-text-line-height) * 1.4);
     }
   }
 }
@@ -111,6 +112,6 @@
 
   @media (min-width: 992px) {
     padding-top: 0;
-    margin-top: 50px;
+    margin-top: 54px;
   }
 }
