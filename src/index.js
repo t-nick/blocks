@@ -24,6 +24,7 @@ ExtendedWireframe.defaultContent = {
       value: {
         content: '128',
         type: 'blockTitle',
+        color: '#1e252f',
       },
     },
     {
@@ -38,6 +39,7 @@ ExtendedWireframe.defaultContent = {
       value: {
         content: '527',
         type: 'blockTitle',
+        color: '#1e252f',
       },
     },
     {
@@ -52,6 +54,7 @@ ExtendedWireframe.defaultContent = {
       value: {
         content: '92',
         type: 'blockTitle',
+        color: '#1e252f',
       },
     },
   ],
