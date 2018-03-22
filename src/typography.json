@@ -105,12 +105,12 @@
     },
     "caption": {
       "size": "14px",
-      "lineHeight": 1.71,
-      "fontFamily": "'Georgia', sans-serif",
+      "lineHeight": "1.5",
+      "fontFamily": "'PT Sans', sans-serif",
       "fontWeight": 400,
       "color": [
-        "darkShade?lighten=27.84&desaturate=3.99&spin=150",
-        "lightShade?darken=36.27&saturate=8.11&spin=208"
+        "darkShade?lighten=33.33",
+        "darkShade?lighten=33.33"
       ]
     },
     "link": {
