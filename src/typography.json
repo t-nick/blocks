@@ -3,7 +3,7 @@
   "settings": {
     "heroTitle": {
       "size": "70px",
-      "lineHeight": 0.78,
+      "lineHeight": "1.07",
       "fontFamily": "'Titillium Web', sans-serif",
       "fontWeight": 700,
       "color": [
@@ -12,20 +12,22 @@
       ],
       "coefficients": {
         "320px": 0.33
-      }
+      },
+      "letterSpacing": "0.7"
     },
     "blockTitle": {
-      "size": "28px",
+      "size": "60px",
       "lineHeight": 1.5,
-      "fontFamily": "'Rokkitt', sans-serif",
-      "fontWeight": 800,
+      "fontFamily": "'Titillium Web', sans-serif",
+      "fontWeight": 700,
       "color": [
         "darkShade",
         "lightShade?darken=36.27&saturate=8.11&spin=208"
       ],
       "coefficients": {
         "320px": 0.83
-      }
+      },
+      "letterSpacing": "0.6"
     },
     "subtitle": {
       "size": "20px",
