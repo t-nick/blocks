@@ -46,7 +46,7 @@ ExtendedWireframe.defaultContent = {
     },
   },
   topIcon: {
-    svg: '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><path d="M20 13.473V1.059l-6.896 6.207zM10 10.06L8.031 8.288l-6.896 6.207h17.73l-6.896-6.207zM18.865.037H1.135L10 8.017zM0 1.059v12.414l6.896-6.207z"/></svg>',
+    svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 15"><path d="M20 13.473V1.059l-6.896 6.207zM10 10.06L8.031 8.288l-6.896 6.207h17.73l-6.896-6.207zM18.865.037H1.135L10 8.017zM0 1.059v12.414l6.896-6.207z"/></svg>',
     fill: 'brand-color',
   },
 }
