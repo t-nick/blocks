@@ -2,10 +2,10 @@
   "name": "Metapod",
   "settings": {
     "heroTitle": {
-      "size": "92px",
+      "size": "70px",
       "lineHeight": 0.78,
       "fontFamily": "'Titillium Web', sans-serif",
-      "fontWeight": 800,
+      "fontWeight": 700,
       "color": [
         "darkShade",
         "lightShade"
