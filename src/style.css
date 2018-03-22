@@ -10,6 +10,7 @@
 
 .top-icon {
   position: relative;
+  display: flex;
   margin: 0 auto 30px;
   width: 60px;
   height: 60px;
