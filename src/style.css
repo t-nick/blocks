@@ -96,6 +96,7 @@
 
   &__price-info {
     text-transform: uppercase;
+    opacity: 0.5;
   }
 
   &__desc {

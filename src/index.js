@@ -46,7 +46,7 @@ ExtendedWireframe.defaultContent = {
             },
           },
         },
-        textValue: 'Main button',
+        textValue: 'Main button (M)',
         type: 'primary',
       },
     },
@@ -83,7 +83,7 @@ ExtendedWireframe.defaultContent = {
             },
           },
         },
-        textValue: 'Main button',
+        textValue: 'Main button (M)',
         type: 'primary',
       },
     },
@@ -121,7 +121,7 @@ ExtendedWireframe.defaultContent = {
             },
           },
         },
-        textValue: 'Main button',
+        textValue: 'Main button (M)',
         type: 'primary',
       },
     },
@@ -133,7 +133,7 @@ ExtendedWireframe.defaultContent = {
   },
   button: {
     ...Component.defaultContent.button,
-    textValue: 'Additional button',
+    textValue: 'Additional button (M)',
   },
 }
 
