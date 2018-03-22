@@ -2,8 +2,9 @@
   "name": "Metapod",
   "color": {
     "lightShade": "#fff",
-    "brand": "#988378",
-    "darkAccent": "#988378",
-    "darkShade": "#27292b"
+    "lightAccent": "#c62434",
+    "brand": "#ffbc36",
+    "darkAccent": "#13218f",
+    "darkShade": "#3a3a3a"
   }
 }
