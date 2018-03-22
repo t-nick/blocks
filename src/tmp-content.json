@@ -3,7 +3,7 @@
   {
     "background": {
       "type": "color",
-      "color": "#ffffff"
+      "color": "#fff"
     },
     "title": {
       "content": "What we clean",
@@ -14,7 +14,7 @@
         "title": {
           "content": "Churches",
           "type": "heading",
-          "color": "#ffffff"
+          "color": "#fff"
         },
         "picture": {
           "resourceRef": "depositphotos-6318394-original.png",
@@ -25,7 +25,7 @@
         "title": {
           "content": "Synagogues",
           "type": "heading",
-          "color": "#ffffff"
+          "color": "#fff"
         },
         "picture": {
           "resourceRef": "depositphotos-10171275-original.png",
@@ -36,7 +36,7 @@
         "title": {
           "content": "Mosques",
           "type": "heading",
-          "color": "#ffffff"
+          "color": "#fff"
         },
         "picture": {
           "resourceRef": "depositphotos-23471738-original.png",
@@ -48,7 +48,7 @@
   {
     "background": {
       "type": "color",
-      "color": "#ffffff"
+      "color": "#fff"
     },
     "title": {
       "content": "What we clean",
@@ -59,7 +59,7 @@
         "title": {
           "content": "Malls",
           "type": "heading",
-          "color": "#ffffff"
+          "color": "#fff"
         },
         "picture": {
           "resourceRef": "pexels-photo-264507.png",
@@ -70,7 +70,7 @@
         "title": {
           "content": "Car Dealerships",
           "type": "heading",
-          "color": "#ffffff"
+          "color": "#fff"
         },
         "picture": {
           "resourceRef": "depositphotos-64623991-original.png",
@@ -81,7 +81,7 @@
         "title": {
           "content": "Retail Banking",
           "type": "heading",
-          "color": "#ffffff"
+          "color": "#fff"
         },
         "picture": {
           "resourceRef": "depositphotos-124499108-original.png",

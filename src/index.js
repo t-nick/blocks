@@ -13,7 +13,7 @@ ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   background: {
     type: 'color',
-    color: '#ffffff',
+    color: '#fff',
   },
   title: {
     content: 'What we clean',
@@ -24,7 +24,7 @@ ExtendedWireframe.defaultContent = {
       title: {
         content: 'Hotels',
         type: 'heading',
-        color: '#ffffff',
+        color: '#fff',
       },
       picture: {
         resourceRef: 'depositphotos-2612375-original.png',
@@ -35,7 +35,7 @@ ExtendedWireframe.defaultContent = {
       title: {
         content: 'Motels',
         type: 'heading',
-        color: '#ffffff',
+        color: '#fff',
       },
       picture: {
         resourceRef: 'depositphotos-31239309-original.png',
@@ -46,7 +46,7 @@ ExtendedWireframe.defaultContent = {
       title: {
         content: 'Resorts',
         type: 'heading',
-        color: '#ffffff',
+        color: '#fff',
       },
       picture: {
         resourceRef: 'depositphotos-1628938-original.png',

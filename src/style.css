@@ -5,7 +5,7 @@
 
   @media (min-width: 1200px) {
     padding-top: 137px;
-    padding-bottom: 92px;
+    padding-bottom: 82px;
   }
 
   &__header {
@@ -22,8 +22,8 @@
 
 .articles-wrapper {
   margin: 0;
-
-  @media (min-width: 1200px) {
+  
+  @media (min-width: 992px) {
     justify-content: space-between;
     flex-wrap: nowrap;
   }
@@ -31,6 +31,7 @@
 
 .article {
   padding-bottom: 65px;
+  margin-bottom: 10px;
 
   &::after {
     content: "";
@@ -46,14 +47,17 @@
   }
 
   @media (min-width: 992px) {
-    max-width: 50%;
-    min-height: 380px;
-  }
-
-  @media (min-width: 1200px) {
     max-width: 370px;
     min-height: 270px;
+    margin-right: 10px;
     border-right: 0;
+  }
+
+  &:last-child {
+
+    @media (min-width: 992px) {
+      margin-right: 0;
+    }
   }
 
   &__title {
