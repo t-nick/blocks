@@ -2,23 +2,29 @@
   "name": "Metapod",
   "general": {
     "fontFamily": "'Geogia', sans-serif",
-    "borderWidth": "2px"
+    "borderWidth": "2px",
+    "textTransform": "uppercase",
+    "letterSpacing": "0.2px"
   },
   "size": {
     "sm": {
-      "padding": "4.5px 17px",
-      "borderRadius": 0,
-      "fontSize": "14px"
+      "padding": "14px 20px 14px 20px",
+      "borderRadius": "2px",
+      "fontSize": "15px",
+      "borderWidth": "2px"
     },
     "md": {
-      "padding": "7.5px 19px",
-      "borderRadius": 0,
-      "fontSize": "14px"
+      "padding": "16px 25px 16px 25px",
+      "borderRadius": "2px",
+      "fontSize": "15px",
+      "borderWidth": "2px"
     },
     "lg": {
-      "padding": "13px 30px",
-      "borderRadius": 0,
-      "fontSize": "16px"
+      "padding": "18px 26px 18px 26px",
+      "borderRadius": "2px",
+      "fontSize": "15px",
+      "lineHeight": 1.2,
+      "borderWidth": "2px"
     }
   },
   "settings": {
