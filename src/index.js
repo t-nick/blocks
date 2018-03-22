@@ -32,7 +32,7 @@ ExtendedWireframe.defaultContent = {
     type: 'text',
   },
   'email-link': {
-    content: 'Monday to Saturday<br> 8 A.M. - 5 P.M.',
+    content: 'Monday to Saturday<br>8 A.M. - 5 P.M.',
     type: 'text',
   },
   map: {
