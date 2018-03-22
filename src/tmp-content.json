@@ -1,1 +1,57 @@
-{}
+[
+  {},
+  {
+    "background": {
+      "type": "image",
+      "position": {
+        "type": "cover",
+        "cover": "50% 50%"
+      },
+      "resourceRef": "educational-img-2.png"
+    },
+    "title": {
+      "content": "Cafes & Restaurants",
+      "type": "blockTitle"
+    },
+    "subheading": {
+      "content": "Customized solutions for cafes and restaurants",
+      "type": "subheading"
+    }
+  },
+  {
+    "background": {
+      "type": "image",
+      "position": {
+        "type": "cover",
+        "cover": "50% 50%"
+      },
+      "resourceRef": "educational-img-3.png"
+    },
+    "title": {
+      "content": "Industrial",
+      "type": "blockTitle"
+    },
+    "subheading": {
+      "content": "Cleaning solutions for the industrial sector",
+      "type": "subheading"
+    }
+  },
+  {
+    "background": {
+      "type": "image",
+      "position": {
+        "type": "cover",
+        "cover": "50% 50%"
+      },
+      "resourceRef": "educational-img-4.png"
+    },
+    "title": {
+      "content": "Religious Facilities",
+      "type": "blockTitle"
+    },
+    "subheading": {
+      "content": "Customized solutions for Churches",
+      "type": "subheading"
+    }
+  }
+]

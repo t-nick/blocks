@@ -11,10 +11,46 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  background: {
+    type: 'image',
+    position: {
+      type: 'cover',
+      cover: '50% 50%',
+    },
+    resourceRef: 'educational-img-1.png',
+  },
+  title: {
+    content: 'Educational',
+    type: 'blockTitle',
+  },
+  subheading: {
+    content: 'Customized solutions for Educational Facilities',
+    type: 'subheading',
+  },
+  text: {
+    content: '— We work as efficiently as you do <br> — We care about your products and processes  <br>— We are flexible and able to scale our operations to match your business cycle',
+    type: 'quote',
+  },
+  'button-2': {
+    actionConfig: {
+      action: 'link',
+      actions: {
+        link: {
+          type: '',
+          innerPage: '',
+          url: '',
+        },
+      },
+    },
+    textValue: 'Send Us a Message',
+    type: 'secondary',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  'social-icons': {defaultValue: false, label: 'Social media buttons', type: 'checkbox'},
+  subheading: {defaultValue: true, label: 'Company description', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
