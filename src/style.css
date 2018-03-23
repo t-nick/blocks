@@ -1,3 +1,45 @@
 @import "wireframe-series-2-partners/src/style.css";
 
 /* start here */
+
+.section {
+  &__header {
+    margin-bottom: 40px;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 25px;
+  }
+}
+
+.subtitle {
+  max-width: 770px;
+  font-size: calc( var(--ui-sibtitle-size) * 16/20 );
+  line-height: calc( var(--ui-subtitle-line-height) * 28/24 );
+  letter-spacing: 1.2px;
+}
+
+.item {
+  &__container {
+    padding: 0;
+    border: 0;
+  }
+
+  &__desc {
+    margin-bottom: 12px;
+    font-size: var(--ui-text-size);
+    letter-spacing: 1.4px;
+  }
+}
+
+.logo {
+
+  @media (min-width: 768px) {
+    margin-bottom: 20px;
+  }
+}
