@@ -1,10 +1,10 @@
 {
-  "name": "Lightning yellow",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
-  }
+    "brand": "#0fc4a8",
+    "darkAccent": "#0fc4a8",
+    "darkShade": "#313131",
+    "lightAccent": "#0fc4a8",
+    "lightShade": "#fff"
+  },
+  "name": "Golurk palette"
 }

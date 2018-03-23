@@ -1,94 +1,149 @@
 {
-  "name": "Buttons 1",
   "general": {
-    "fontFamily": "'Lato', sans-serif",
-    "borderWidth": "1px"
+    "fontFamily": "'Montserrat', sans-serif"
   },
-  "size": {
-    "sm": {
-      "padding": "10px 16px",
-      "borderRadius": 0,
-      "fontSize": "14px"
-    },
-    "md": {
-      "padding": "14px 40px",
-      "borderRadius": 0,
-      "fontSize": "14px"
-    },
-    "lg": {
-      "padding": "20px 56px",
-      "borderRadius": 0,
-      "fontSize": "16px"
-    }
-  },
+  "name": "Golurk buttons",
   "settings": {
     "primary": {
       "default": {
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "brand"
+          ]
         },
-        "color": ["lightShade"],
         "border": {
-          "color": ["transparent"]
-        }
+          "color": [
+            "transparent"
+          ]
+        },
+        "color": [
+          "lightShade"
+        ]
       },
       "hover": {
         "bg": {
-          "color": ["darkShade", "lightShade"]
+          "color": [
+            "darkShade",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
+        "color": [
+          "lightShade",
+          "darkShade"
+        ]
       }
     },
     "primaryAlt": {
       "default": {
         "bg": {
-          "color": ["darkShade", "lightShade"]
+          "color": [
+            "darkShade",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade", "darkShade"],
         "border": {
-          "color": ["transparent"]
-        }
+          "color": [
+            "transparent"
+          ]
+        },
+        "color": [
+          "lightShade",
+          "darkShade"
+        ]
       },
       "hover": {
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "brand",
+            "brand"
+          ]
         },
-        "color": ["lightShade"]
+        "color": [
+          "lightShade",
+          "lightShade"
+        ]
       }
     },
     "secondary": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade?lighten=20.9", "lightShade"],
         "border": {
-          "color": ["darkShade?lighten=20.9", "lightShade"]
-        }
+          "color": [
+            "darkShade?lighten=32.55",
+            "lightShade"
+          ]
+        },
+        "color": [
+          "darkShade?lighten=32.55",
+          "lightShade"
+        ]
       },
       "hover": {
         "bg": {
-          "color": ["darkShade?lighten=20.9", "lightShade"]
+          "color": [
+            "darkShade?lighten=32.55",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
+        "color": [
+          "lightShade",
+          "darkShade"
+        ]
       }
     },
     "secondaryAlt": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade?lighten=20.9", "lightShade"],
         "border": {
-          "color": ["brand", "lightShade"]
-        }
+          "color": [
+            "brand"
+          ]
+        },
+        "color": [
+          "darkShade?lighten=32.55",
+          "lightShade"
+        ]
       },
       "hover": {
         "bg": {
-          "color": ["brand", "lightShade"]
+          "color": [
+            "brand",
+            "brand"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
+        "color": [
+          "lightShade",
+          "lightShade"
+        ]
       }
+    }
+  },
+  "size": {
+    "lg": {
+      "borderRadius": "5px",
+      "borderWidth": "1px",
+      "fontSize": "16px",
+      "padding": "18px 30px"
+    },
+    "md": {
+      "borderRadius": "5px",
+      "borderWidth": "1px",
+      "fontSize": "14px",
+      "padding": "14px 20px"
+    },
+    "sm": {
+      "borderRadius": "5px",
+      "borderWidth": "1px",
+      "fontSize": "14px",
+      "padding": "10px 16px"
     }
   }
 }
