@@ -1,10 +1,10 @@
 {
-  "name": "Lightning yellow",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
-  }
+    "brand": "#8fbb2c",
+    "darkAccent": "#33a9d0",
+    "darkShade": "#282c3b",
+    "lightAccent": "#f5f9fa",
+    "lightShade": "#fff"
+  },
+  "name": "Amaura palette"
 }
