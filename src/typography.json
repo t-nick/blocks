@@ -1,9 +1,9 @@
 {
-  "name": "Metapod",
+  "name": "Croconaw typography",
   "settings": {
     "heroTitle": {
-      "size": "70px",
-      "lineHeight": "1.07",
+      "size": 70,
+      "lineHeight": 1.07,
       "fontFamily": "'Titillium Web', sans-serif",
       "fontWeight": 700,
       "color": [
@@ -13,10 +13,10 @@
       "coefficients": {
         "320px": 0.33
       },
-      "letterSpacing": "0.7"
+      "letterSpacing": 0.7
     },
     "blockTitle": {
-      "size": "60px",
+      "size": 60,
       "lineHeight": 1.5,
       "fontFamily": "'Titillium Web', sans-serif",
       "fontWeight": 700,
@@ -27,10 +27,10 @@
       "coefficients": {
         "320px": 0.83
       },
-      "letterSpacing": "0.6"
+      "letterSpacing": 0.6
     },
     "subtitle": {
-      "size": "20px",
+      "size": 20,
       "lineHeight": 1.5,
       "fontFamily": "'PT Sans', sans-serif",
       "fontWeight": 400,
@@ -40,7 +40,7 @@
       ]
     },
     "headingLg": {
-      "size": "24px",
+      "size": 24,
       "lineHeight": 1.17,
       "fontFamily": "'Titillium Web', sans-serif",
       "fontWeight": 700,
@@ -53,7 +53,7 @@
       }
     },
     "heading": {
-      "size": "22px",
+      "size": 22,
       "lineHeight": 1.09,
       "fontFamily": "'Titillium Web', sans-serif",
       "fontWeight": 700,
@@ -63,7 +63,7 @@
       ]
     },
     "subheading": {
-      "size": "20px",
+      "size": 20,
       "lineHeight": 1.1,
       "fontFamily": "'Titillium Web', sans-serif",
       "fontWeight": 700,
@@ -73,7 +73,7 @@
       ]
     },
     "text": {
-      "size": "16px",
+      "size": 16,
       "lineHeight": 1.5,
       "fontFamily": "'PT Sans', sans-serif",
       "fontWeight": 400,
@@ -83,7 +83,7 @@
       ]
     },
     "small": {
-      "size": "14px",
+      "size": 14,
       "lineHeight": 1.71,
       "fontFamily": "'PT Sans', sans-serif",
       "fontWeight": 400,
@@ -93,7 +93,7 @@
       ]
     },
     "quote": {
-      "size": "14px",
+      "size": 14,
       "lineHeight": 1.5,
       "fontFamily": "'PT Sans', sans-serif",
       "fontWeight": 400,
@@ -104,8 +104,8 @@
       "fontStyle": "italic"
     },
     "caption": {
-      "size": "14px",
-      "lineHeight": "1.5",
+      "size": 14,
+      "lineHeight": 1.5,
       "fontFamily": "'PT Sans', sans-serif",
       "fontWeight": 400,
       "color": [
@@ -115,11 +115,13 @@
     },
     "link": {
       "color": [
-        "brand"
+        "darkAccent",
+        "lightShade"
       ],
       "hover": {
         "color": [
-          "brand"
+          "darkAccent",
+          "lightShade"
         ]
       }
     }
