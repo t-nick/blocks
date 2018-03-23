@@ -2,35 +2,37 @@
   "name": "Metapod",
   "settings": {
     "heroTitle": {
-      "size": "92px",
-      "lineHeight": 0.78,
-      "fontFamily": "'Rokkitt', sans-serif",
-      "fontWeight": 800,
+      "size": "70px",
+      "lineHeight": "1.07",
+      "fontFamily": "'Titillium Web', sans-serif",
+      "fontWeight": 700,
       "color": [
         "darkShade",
         "lightShade"
       ],
       "coefficients": {
         "320px": 0.33
-      }
+      },
+      "letterSpacing": "0.7"
     },
     "blockTitle": {
-      "size": "28px",
+      "size": "60px",
       "lineHeight": 1.5,
-      "fontFamily": "'Rokkitt', sans-serif",
-      "fontWeight": 800,
+      "fontFamily": "'Titillium Web', sans-serif",
+      "fontWeight": 700,
       "color": [
         "darkShade",
         "lightShade?darken=36.27&saturate=8.11&spin=208"
       ],
       "coefficients": {
         "320px": 0.83
-      }
+      },
+      "letterSpacing": "0.6"
     },
     "subtitle": {
       "size": "20px",
       "lineHeight": 1.5,
-      "fontFamily": "'Georgia', sans-serif",
+      "fontFamily": "'PT Sans', sans-serif",
       "fontWeight": 400,
       "color": [
         "darkShade?lighten=27.84&desaturate=3.99&spin=150",
@@ -40,7 +42,7 @@
     "headingLg": {
       "size": "24px",
       "lineHeight": 1.17,
-      "fontFamily": "'Rokkitt', sans-serif",
+      "fontFamily": "'Titillium Web', sans-serif",
       "fontWeight": 700,
       "color": [
         "darkShade",
@@ -53,7 +55,7 @@
     "heading": {
       "size": "22px",
       "lineHeight": 1.09,
-      "fontFamily": "'Rokkitt', sans-serif",
+      "fontFamily": "'Titillium Web', sans-serif",
       "fontWeight": 700,
       "color": [
         "darkShade",
@@ -63,7 +65,7 @@
     "subheading": {
       "size": "20px",
       "lineHeight": 1.1,
-      "fontFamily": "'Rokkitt', sans-serif",
+      "fontFamily": "'Titillium Web', sans-serif",
       "fontWeight": 700,
       "color": [
         "darkShade",
@@ -73,7 +75,7 @@
     "text": {
       "size": "16px",
       "lineHeight": 1.5,
-      "fontFamily": "'Georgia', sans-serif",
+      "fontFamily": "'PT Sans', sans-serif",
       "fontWeight": 400,
       "color": [
         "darkShade?lighten=27.84&desaturate=3.99&spin=150",
@@ -83,7 +85,7 @@
     "small": {
       "size": "14px",
       "lineHeight": 1.71,
-      "fontFamily": "'Georgia', sans-serif",
+      "fontFamily": "'PT Sans', sans-serif",
       "fontWeight": 400,
       "color": [
         "darkShade?lighten=27.84&desaturate=3.99&spin=150",
@@ -91,23 +93,24 @@
       ]
     },
     "quote": {
-      "size": "16px",
+      "size": "14px",
       "lineHeight": 1.5,
-      "fontFamily": "'Georgia', sans-serif",
+      "fontFamily": "'PT Sans', sans-serif",
       "fontWeight": 400,
       "color": [
         "darkShade?lighten=50.2&desaturate=2.55&spin=150",
         "lightShade"
-      ]
+      ],
+      "fontStyle": "italic"
     },
     "caption": {
       "size": "14px",
-      "lineHeight": 1.71,
-      "fontFamily": "'Georgia', sans-serif",
+      "lineHeight": "1.5",
+      "fontFamily": "'PT Sans', sans-serif",
       "fontWeight": 400,
       "color": [
-        "darkShade?lighten=27.84&desaturate=3.99&spin=150",
-        "lightShade?darken=36.27&saturate=8.11&spin=208"
+        "darkShade?lighten=33.33",
+        "darkShade?lighten=33.33"
       ]
     },
     "link": {
