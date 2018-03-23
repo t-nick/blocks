@@ -1,7 +1,7 @@
 {
   "name": "Croconaw buttons",
   "general": {
-    "fontFamily": "'Geogia', sans-serif",
+    "fontFamily": "'Titillium Web', sans-serif",
     "borderWidth": "2px",
     "textTransform": "uppercase",
     "letterSpacing": "0.2px"
@@ -10,21 +10,17 @@
     "sm": {
       "padding": "14px 20px 14px 20px",
       "borderRadius": "2px",
-      "fontSize": "15px",
-      "borderWidth": "2px"
+      "fontSize": "15px"
     },
     "md": {
       "padding": "16px 25px 16px 25px",
       "borderRadius": "2px",
-      "fontSize": "15px",
-      "borderWidth": "2px"
+      "fontSize": "15px"
     },
     "lg": {
       "padding": "18px 26px 18px 26px",
       "borderRadius": "2px",
-      "fontSize": "15px",
-      "lineHeight": 1.2,
-      "borderWidth": "2px"
+      "fontSize": "15px"
     }
   },
   "settings": {
@@ -180,13 +176,7 @@
           "color": [
             "darkAccent",
             "lightShade"
-          ],
-          "border": {
-            "color": [
-              "darkAccent",
-              "lightShade"
-            ]
-          }
+          ]
         }
       },
       "active": {
