@@ -40,19 +40,23 @@
 
 .map-wrapper {
 
-  @media (min-width: 768px) {
-    width: 100%;
-  }
-
   @media (min-width: 992px) {
-    width: 670px;
+    width: 633px;
     height: auto;
   }
 }
 
 .contacts {
-  width: 280px;
-  padding-left: 60px;
+
+  @media (min-width: 768px) {
+    padding-left: 30px;
+    width: 34%;
+  }
+
+  @media (min-width: 992px) {
+    width: 280px;
+    padding-left: 60px;
+  }
 
   &__title {
     font-size: var(--ui-subheading-size);
