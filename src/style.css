@@ -1,3 +1,39 @@
 @import "wireframe-series-2-about/src/style.css";
 
 /* start here */
+.article {
+  &__subheading {
+    font-size: calc(var(--ui-subheading-size) * 0.791);
+    font-family: var(--ui-small-font-family);
+    font-weight: var(--ui-text-font-weight);
+    line-height: 35px;
+    margin-top: 13px;
+    margin-bottom: 25px;
+  }
+
+  &__title {
+    margin-bottom: 45px;
+  }
+
+  &__text {
+    font-family: var( --ui-block-title-font-family);
+    font-size: var(--ui-subheading-size);
+    font-weight: var(--ui-subheading-font-weight);
+  }
+
+  &__heading {
+    font-size: var(--ui-subheading-size);
+    font-weight: var(--ui-subheading-font-weight);
+  }
+
+  @media (min-width: 992px) {
+    padding-left: 0;
+  }
+}
+
+.section {
+
+  @media (min-width: 992px) {
+    padding: 138px 0;
+  }
+}

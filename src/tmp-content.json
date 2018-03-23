@@ -1,1 +1,11 @@
-{}
+[
+  {},
+  {
+    "background":{"type":"image","position":{"type":"cover","cover":"50% 50%"},"resourceRef":"back-2.png"},
+    "title":{"content":"Office Buildings","type":"blockTitle"},"heading":{"content":"Customized solutions for commercial and facility managers","type":"heading"},"subheading":{"content":" — We work as efficiently as you do <br> — We care about your products and processes <br> — We are flexible and able to scale our operations to match your business cycle","type":"subheading"}
+  },
+  {
+    "background":{"type":"image","position":{"type":"cover","cover":"50% 50%"},"resourceRef":"back-3.png"},
+    "title":{"content":"Hotels & Resorts","type":"blockTitle"},"heading":{"content":"Customized solutions for hotels and resorts","type":"heading"},"subheading":{"content":"— We work as efficiently as you do <br>— We care about your products and processes <br>— We are flexible and able to scale our operations to match your business cycle","type":"subheading"}
+  }
+]
