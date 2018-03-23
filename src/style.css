@@ -47,6 +47,8 @@
 }
 
 .contacts {
+  padding-bottom: 60px;
+  padding-top: 34px;
 
   @media (min-width: 768px) {
     padding-left: 30px;
@@ -76,8 +78,8 @@
 }
 
 .contacts-list {
-  padding-top: 34px;
   margin-top: 0;
+  margin-bottom: 33px;
 
   &__item:nth-child(1) {
     margin-bottom: 19px;
@@ -96,8 +98,5 @@
 }
 
 .socials {
-  padding-top: 25px;
-  padding-bottom: 60px;
-  margin-left: -18px;
   margin-top: 0;
 }
