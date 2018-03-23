@@ -11,9 +11,9 @@
       ],
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 700,
-      "lineHeight": "1.43",
-      "size": "28px",
-      "letterSpacing": "-0.6"
+      "lineHeight": 1.43,
+      "size": 28,
+      "letterSpacing": -0.6
     },
     "caption": {
       "color": [
@@ -22,8 +22,8 @@
       ],
       "fontFamily": "'Lato', sans-serif",
       "fontWeight": 400,
-      "lineHeight": "2",
-      "size": "12px",
+      "lineHeight": 2,
+      "size": 12,
       "letterSpacing": 0
     },
     "heading": {
@@ -33,8 +33,8 @@
       ],
       "fontFamily": "'Poppins', sans-serif",
       "fontWeight": 700,
-      "lineHeight": "1.36",
-      "size": "22px"
+      "lineHeight": 1.36,
+      "size": 22
     },
     "headingLg": {
       "coefficients": {
@@ -46,8 +46,8 @@
       ],
       "fontFamily": "'Poppins', sans-serif",
       "fontWeight": 700,
-      "lineHeight": "1.36",
-      "size": "22px"
+      "lineHeight": 1.36,
+      "size": 22
     },
     "heroTitle": {
       "coefficients": {
@@ -59,9 +59,9 @@
       ],
       "fontFamily": "'Poppins', sans-serif",
       "fontWeight": 700,
-      "lineHeight": "0.94",
-      "size": "192px",
-      "letterSpacing": "-3.8"
+      "lineHeight": 0.94,
+      "size": 192,
+      "letterSpacing": -3.8
     },
     "link": {
       "color": [
@@ -82,8 +82,8 @@
       ],
       "fontFamily": "'Lato', sans-serif",
       "fontWeight": 300,
-      "lineHeight": "1.5",
-      "size": "16px"
+      "lineHeight": 1.5,
+      "size": 16
     },
     "small": {
       "color": [
@@ -92,8 +92,8 @@
       ],
       "fontFamily": "'Lato', sans-serif",
       "fontWeight": 400,
-      "lineHeight": "2",
-      "size": "12px"
+      "lineHeight": 2,
+      "size": 12
     },
     "subheading": {
       "color": [
@@ -102,8 +102,8 @@
       ],
       "fontFamily": "'Lato', sans-serif",
       "fontWeight": 400,
-      "lineHeight": "1.5",
-      "size": "20px"
+      "lineHeight": 1.5,
+      "size": 20
     },
     "subtitle": {
       "color": [
@@ -113,7 +113,7 @@
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
       "lineHeight": 1.5,
-      "size": "20px"
+      "size": 20
     },
     "text": {
       "color": [
@@ -123,7 +123,7 @@
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 300,
       "lineHeight": 1.5,
-      "size": "16px"
+      "size": 16
     }
   }
 }
