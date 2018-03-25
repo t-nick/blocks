@@ -1,3 +1,89 @@
 @import "wireframe-zapdos-team/src/style.css";
 
 /* start here */
+.title {
+  text-transform: uppercase;
+  line-height: calc(var(--ui-block-title-line-height) / 1.28);
+}
+
+.subtitle {
+  font-size: var(--ui-subtitle-size);
+  line-height: var(--ui-subtitle-line-height);
+
+  @media (min-width: 768px) {
+    max-width: 568px;
+  }
+
+  @media (min-width: 992px) {
+    margin: 30px auto 0;
+  }
+}
+
+.section {
+
+  @media (min-width: 768px) {
+    padding: 110px 0;
+  }
+}
+
+.items-wrapper {
+
+  @media (min-width: 992px) {
+    margin-top: 50px;
+  }
+}
+
+.item {
+  &__pic {
+    width: 102px;
+    height: 102px;
+    box-shadow: 0 0 81px 0 rgba(0, 0, 0, 0.04), inset 0 0 68px 0 rgba(0, 0, 0, 0.11);
+  }
+
+  &__inner {
+    background-color: #f8f8f7;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  &__position {
+    text-transform: none;
+    margin-bottom: 30px;
+    font-size: var(--ui-small-size);
+    line-height: var(--ui-small-line-height);
+  }
+
+  &__desc {
+    margin-bottom: 30px;
+  }
+
+  &__email {
+    margin-bottom: 5px;
+    text-decoration: none;
+
+    a {
+      text-decoration: none;
+    }
+
+    span {
+      text-decoration: none;
+    }
+
+    :global {
+      .typography__link {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .link {
+    font-size: var(--ui-text-size);
+    line-height: var(--ui-text-line-height);
+    text-transform: capitalize;
+    border-bottom: 1px solid var(--ui-link-color);
+  }
+}
+
+.btns-group {
+  padding-top: 40px;
+}
