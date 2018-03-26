@@ -24,7 +24,8 @@
 .title {
   text-align: center;
   text-transform: uppercase;
-  font-size: calc(var(--ui-block-title-size) * 0.75);
+
+  /* font-size: calc(var(--ui-block-title-size) * 0.75); */
   color: var(--ui-block-title-color);
   line-height: var(--ui-block-title-line-height);
   font-family: var(--ui-block-title-font-family);
@@ -90,16 +91,18 @@
 
   &__text {
     max-width: 100%;
-    font-size: calc(var(--ui-text-size) * 0.9);
 
-    @media (--ui-tablet-devices) {
+    /* font-size: calc(var(--ui-text-size) * 0.9); */
+
+    /* @media (--ui-tablet-devices) {
       font-size: var(--ui-text-size);
-    }
+    } */
   }
 
   &__number {
     display: block;
-    font-size: calc(var(--ui-block-title-size) * 0.75);
+
+    /* font-size: calc(var(--ui-block-title-size) * 0.75); */
     color: var(--ui-block-title-color);
     line-height: var(--ui-block-title-line-height);
     font-family: var(--ui-block-title-font-family);
@@ -131,11 +134,16 @@
 
   &__text {
     max-width: 100%;
-    font-size: calc(var(--ui-text-size) * 1.25);
+
+    /* font-size: calc(var(--ui-text-size) * 1.25); */
     text-align: center;
 
     &:first-child {
       margin-top: 40px;
+    }
+
+    @media (min-width: 768px) {
+      font-size: calc(var(--ui-text-size) * 1.25);
     }
   }
 
@@ -144,7 +152,8 @@
     margin-top: 40px;
     margin-bottom: 0;
     text-align: center;
-    font-size: calc(var(--ui-heading-size) * 0.8334);
+
+    /* font-size: calc(var(--ui-heading-size) * 0.8334); */
     color: var(--ui-heading-color);
     line-height: var(--ui-heading-line-height);
     font-family: var(--ui-heading-font-family);
