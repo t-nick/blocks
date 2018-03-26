@@ -76,7 +76,8 @@
   }
 
   &__title {
-    font-size: calc(var(--ui-heading-lg-size) * 0.7143);
+
+    /* font-size: calc(var(--ui-heading-lg-size) * 0.7143); */
 
     @media(min-width: 768px) {
       font-size: calc(var(--ui-heading-lg-size) * 0.8572);
@@ -176,7 +177,7 @@
     margin-left: 15px;
     margin-right: 15px;
   }
-  
+
   &:nth-last-of-type(1):first-child,
   &:nth-last-of-type(2):first-child,
   &:nth-last-of-type(2):first-child ~ & {
@@ -197,7 +198,12 @@
   &__title {
     min-width: 1px;
     flex: 1;
-    font-size: calc(var(--ui-heading-size) * 0.8334);
+
+    /* font-size: calc(var(--ui-heading-size) * 0.8334); */
+
+    @media (min-width: 768px) {
+      font-size: calc(var(--ui-heading-size) * 0.8334);
+    }
   }
 
   &__button {
