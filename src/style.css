@@ -26,6 +26,7 @@
 
   @media (min-width: 992px) {
     align-items: flex-start;
+    padding-left: 0;
   }
 
   &__icon {
@@ -34,9 +35,11 @@
     text-align: center;
 
     @media (min-width: 992px) {
-      margin-right: 0;
+      display: flex;
+      margin-right: 15px;
       margin-left: 0;
-      text-align: left;
+      justify-content: center;
+      align-items: center;
     }
   }
 
@@ -68,4 +71,3 @@
     font-size: var(--ui-block-title-size);
   }
 }
-
