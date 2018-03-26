@@ -73,24 +73,26 @@ class Block extends React.Component {
                 />
               </div>
             </article>
-            <Collection
-              className={style['articles-wrapper']}
-              bind="events"
-              Item={this.collectionItem}
-              itemProps={{
-                modifier: $block.modifier,
-              }}
-            />
-          </div>
-          {this.getModifierValue('button') && (
-            <div className={style['btns-group']}>
-              <Button
-                buttonClassName={style.button}
-                linkClassName={style.link}
-                bind="button"
+            <div className={style['articles-wrapper']}>
+              <Collection
+                className={style['articles-wrapper__inner']}
+                bind="events"
+                Item={this.collectionItem}
+                itemProps={{
+                  modifier: $block.modifier,
+                }}
               />
+              {this.getModifierValue('button') && (
+                <div className={style['btns-group']}>
+                  <Button
+                    buttonClassName={style.button}
+                    linkClassName={style.link}
+                    bind="button"
+                  />
+                </div>
+              )}
             </div>
-          )}
+          </div>
         </div>
       </section>
     )
