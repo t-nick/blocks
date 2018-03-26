@@ -1,10 +1,10 @@
 {
-  "name": "Lightning yellow",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
-  }
+    "brand": "#ecd6dc",
+    "darkAccent": "#676767",
+    "darkShade": "#141414",
+    "lightAccent": "#676767",
+    "lightShade": "#fff"
+  },
+  "name": "Slurpuff palette"
 }
