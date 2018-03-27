@@ -71,7 +71,7 @@
       "default": {
         "bg": {
           "color": [
-            "lightShade?saturate=4.88&lighten=-16.08&spin=225",
+            "lightShade?saturate=4.88&lighten=-16.08&spin=225&setAlpha=0.2",
             "darkShade?saturate=-11.5&lighten=16.27&spin=4"
           ]
         },
@@ -94,7 +94,7 @@
         },
         "border": {
           "color": [
-            "lightShade?saturate=4.88&lighten=-16.08&spin=225",
+            "lightShade?saturate=4.88&lighten=-16.08&spin=225&setAlpha=0.2",
             "darkShade?saturate=-11.5&lighten=16.27&spin=4"
           ]
         }
@@ -102,7 +102,7 @@
       "active": {
         "bg": {
           "color": [
-            "lightShade?saturate=4.88&lighten=-16.08&spin=225",
+            "lightShade?saturate=4.88&lighten=-16.08&spin=225&setAlpha=0.2",
             "darkShade?saturate=-11.5&lighten=16.27&spin=4"
           ]
         },
