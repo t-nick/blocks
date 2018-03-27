@@ -12,7 +12,7 @@
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 700,
       "lineHeight": 1.43,
-      "size": 28,
+      "size": "28,px",
       "letterSpacing": -0.6
     },
     "caption": {
@@ -23,7 +23,7 @@
       "fontFamily": "'Lato', sans-serif",
       "fontWeight": 400,
       "lineHeight": 2,
-      "size": 12,
+      "size": "12,px",
       "letterSpacing": 0
     },
     "heading": {
@@ -34,7 +34,7 @@
       "fontFamily": "'Poppins', sans-serif",
       "fontWeight": 700,
       "lineHeight": 1.36,
-      "size": 22
+      "size": "22px"
     },
     "headingLg": {
       "coefficients": {
@@ -47,7 +47,7 @@
       "fontFamily": "'Poppins', sans-serif",
       "fontWeight": 700,
       "lineHeight": 1.36,
-      "size": 22
+      "size": "22px"
     },
     "heroTitle": {
       "coefficients": {
@@ -60,7 +60,7 @@
       "fontFamily": "'Poppins', sans-serif",
       "fontWeight": 700,
       "lineHeight": 0.94,
-      "size": 192,
+      "size": "192,px",
       "letterSpacing": -3.8
     },
     "link": {
@@ -83,7 +83,7 @@
       "fontFamily": "'Lato', sans-serif",
       "fontWeight": 300,
       "lineHeight": 1.5,
-      "size": 16
+      "size": "16px"
     },
     "small": {
       "color": [
@@ -93,7 +93,7 @@
       "fontFamily": "'Lato', sans-serif",
       "fontWeight": 400,
       "lineHeight": 2,
-      "size": 12
+      "size": "12px"
     },
     "subheading": {
       "color": [
@@ -103,7 +103,7 @@
       "fontFamily": "'Lato', sans-serif",
       "fontWeight": 400,
       "lineHeight": 1.5,
-      "size": 20
+      "size": "20px"
     },
     "subtitle": {
       "color": [
@@ -113,7 +113,7 @@
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
       "lineHeight": 1.5,
-      "size": 20
+      "size": "20px"
     },
     "text": {
       "color": [
@@ -123,7 +123,7 @@
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 300,
       "lineHeight": 1.5,
-      "size": 16
+      "size": "16px"
     }
   }
 }
