@@ -35,7 +35,7 @@ ExtendedWireframe.defaultContent = {
   },
   text: {
     content: 'Tandem skydiving is the ideal flight method for the beginners without previous skydiving experience. You don\'t have to worry because you will be strapped to our expert tandem coach. <br> The experienced professional will instruct you about safety and teach you all the necessary things to get you ready to start skydiving. On your pre-boarding call, you will be met by the instructor who will equip you for your jump, fitting your headgear, jumpsuit, goggles (fit for contact lenses/glasses), harness, and gloves. <br> You will encounter speeds of about 120mph during the Freefall. While falling nearly 2 miles you will feel the air on your face. This is an unforgettable moment. Enjoy high adrenaline and the best experience of a lifetime! <br> Once the canopy opened you will experience the unexpected calmness because your speed drastically reduces. This gives you a possibility to speak with your instructor, immerse in surrounding scenery as you parachute ride nearly 5 minutes, and make a safe landing. Help your instructor direct the parachute around the sky before sailing back to the airdrome.',
-    type: 'subheading',
+    type: 'text',
   },
 }
 
