@@ -21,75 +21,24 @@ ExtendedWireframe.defaultContent = {
   },
   cover: [
     {
-      title: {
-        content: 'Perfect Choice',
-        type: 'heroTitle',
-      },
-      subtitle: {
-        content: '25 years of business achievements',
-        type: 'subtitle',
-      },
+      ...Component.defaultContent.cover[0],
       cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Read More',
-        type: 'primary',
+        ...Component.defaultContent.cover[0].cta,
+        size: 'lg',
       },
     },
     {
-      title: {
-        content: 'Perfect Choice',
-        type: 'heroTitle',
-      },
-      subtitle: {
-        content: '25 years of business achievements',
-        type: 'subtitle',
-      },
+      ...Component.defaultContent.cover[1],
       cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Read More',
-        type: 'primary',
+        ...Component.defaultContent.cover[1].cta,
+        size: 'lg',
       },
     },
     {
-      title: {
-        content: 'Perfect Choice',
-        type: 'heroTitle',
-      },
-      subtitle: {
-        content: '25 years of business achievements',
-        type: 'subtitle',
-      },
+      ...Component.defaultContent.cover[2],
       cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Read More',
-        type: 'primary',
+        ...Component.defaultContent.cover[2].cta,
+        size: 'lg',
       },
     },
   ],
