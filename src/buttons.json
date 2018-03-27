@@ -71,7 +71,7 @@
       "default": {
         "bg": {
           "color": [
-            "lightShade&setAlpha=0.2"
+            "lightShade?setAlpha=0.2"
           ]
         },
         "border": {
