@@ -24,9 +24,13 @@
     background: linear-gradient(
       to right,
       var(--ui-light-accent-color) 60%,
-      var(--ui-light-accent-color) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0) 70%,
+      var(--ui-light-accent-color) 0%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0) 70%,
       var(--ui-light-accent-color) 70%,
-      var(--ui-light-accent-color) 80%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0) 90%,
+      var(--ui-light-accent-color) 80%,
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0) 90%,
       var(--ui-light-accent-color) 90%,
       var(--ui-light-accent-color) 100%
     );
