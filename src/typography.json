@@ -12,7 +12,7 @@
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 700,
       "lineHeight": 1.43,
-      "size": "28,px",
+      "size": "28px",
       "letterSpacing": -0.6
     },
     "caption": {
@@ -59,8 +59,8 @@
       ],
       "fontFamily": "'Poppins', sans-serif",
       "fontWeight": 700,
-      "lineHeight": 0.94,
-      "size": "192,px",
+      "lineHeight": 1.1,
+      "size": "192px",
       "letterSpacing": -3.8
     },
     "link": {
