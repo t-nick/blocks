@@ -3,7 +3,7 @@
   "settings": {
     "heroTitle": {
       "size": "69px",
-      "lineHeight": "2",
+      "lineHeight": 2,
       "fontFamily": "'Teko', sans-serif",
       "fontWeight": 600,
       "color": [
@@ -13,7 +13,7 @@
       "coefficients": {
         "320px": 0.46
       },
-      "letterSpacing": "1.488",
+      "letterSpacing": 1.337,
       "fontStyle": "italic",
       "textDecoration": "underline"
     },
