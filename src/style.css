@@ -1,3 +1,96 @@
 @import "wireframe-zapdos-services/src/style.css";
 
-/* start here */
+.title {
+  position: relative;
+  margin-bottom: 70px;
+  text-align: left;
+  letter-spacing: 1px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 5px;
+    bottom: -5px;
+    left: 0;
+    transform: skewX(-25deg);
+    background: linear-gradient(
+      to right,
+      var(--ui-light-accent-color) 0%,
+      var(--ui-light-accent-color) 60%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0) 70%,
+      var(--ui-light-accent-color) 70%,
+      var(--ui-light-accent-color) 80%,
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0) 90%,
+      var(--ui-light-accent-color) 90%,
+      var(--ui-light-accent-color) 100%
+    );
+
+  }
+}
+
+.articles-wrapper {
+  margin: 0;
+}
+
+.article {
+  max-width: 370px;
+  margin-right: 30px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 55px;
+  padding-left: 45px;
+  padding-right: 30px;
+  padding-bottom: 45px;
+  flex-basis: 33.33%;
+  border: 3px solid #f5f5f5;
+
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  &__picture {
+    display: none;
+  }
+
+  &__title {
+    position: relative;
+    font-size: calc(var(--ui-heading-size) / 1.158);
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 53px;
+      height: 5px;
+      top: -25px;
+      left: 0;
+      transform: skewX(-25deg);
+      background: linear-gradient(
+        to right,
+        var(--ui-light-accent-color) 0%,
+        var(--ui-light-accent-color) 60%,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0) 70%,
+        var(--ui-light-accent-color) 70%,
+        var(--ui-light-accent-color) 80%,
+        rgba(0, 0, 0, 0) 80%,
+        rgba(0, 0, 0, 0) 90%,
+        var(--ui-light-accent-color) 90%,
+        var(--ui-light-accent-color) 100%
+      );
+
+    }
+  }
+
+  &__text {
+    margin-bottom: 25px;
+    font-size: calc(var(--ui-text-size) / 1.067);
+  }
+}
+
+.link {
+  font-weight: var(--ui-heading-font-weight);
+  font-size: var(--ui-text-size);
+}
