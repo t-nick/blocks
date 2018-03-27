@@ -1,7 +1,7 @@
 {
   "name": "photographer",
   "general": {
-    "fontFamily": "'WorkSans', sans-serif",
+    "fontFamily": "'Work Sans', sans-serif",
     "borderWidth": 0,
     "textTransform": "uppercase",
     "letterSpacing": "2.3px"
