@@ -11,10 +11,41 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  background: {
+    type: 'color',
+    color: 'var(--ui-dark-shade-color)',
+  },
+  subtitle: {
+    content: 'There are advances',
+    type: 'subtitle',
+  },
+  gallery: [
+    {
+      picture: {
+        resourceRef: 'depositphotos-46803805-original.png',
+      },
+    },
+    {
+      picture: {
+        resourceRef: 'depositphotos-114382428-original.png',
+      },
+    },
+    {
+      picture: {
+        resourceRef: 'depositphotos-46808163-original.png',
+      },
+    },
+  ],
+  cta: {
+    textValue: 'Medium button (M)',
+    type: 'secondary',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  subtitle: {defaultValue: true, label: 'Gallery description', type: 'checkbox'},
+  'secondary-button': {defaultValue: true, label: 'Button', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
