@@ -2,10 +2,10 @@
   "name": "Tatoo",
   "settings": {
     "heroTitle": {
-      "size": "72px",
+      "size": "69px",
       "lineHeight": 1,
       "fontFamily": "'Teko', sans-serif",
-      "fontWeight": 700,
+      "fontWeight": 600,
       "color": [
         "brand"
       ],
