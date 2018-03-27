@@ -11,10 +11,23 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  title: {
+    content: 'Our Mission',
+    type: 'blockTitle',
+  },
+  text: {
+    content: 'Our mission is to ensure global expertise in logistics and transportation management, offering clients the highest quality services with improved visibility and actionable data across all modes, delivering better platforms for capturing and supporting supply chain competitive advantage.',
+    type: 'text',
+  },
+  picture: {
+    resourceRef: 'track.png',
+    alt: 'Picture about the company',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  button: {defaultValue: false, label: 'Button', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
