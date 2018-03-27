@@ -1,3 +1,74 @@
 @import "wireframe-zapdos-services/src/style.css";
 
 /* start here */
+
+.title {
+  position: relative;
+  text-align: left;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 5px;
+    bottom: -5px;
+    left: 0;
+    transform: skewX(-25deg);
+    background: linear-gradient(
+      to right,
+      var(--ui-light-accent-color) 0%,
+      var(--ui-light-accent-color) 60%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0) 70%,
+      var(--ui-light-accent-color) 70%,
+      var(--ui-light-accent-color) 80%,
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0) 90%,
+      var(--ui-light-accent-color) 90%,
+      var(--ui-light-accent-color) 100%
+    );
+  }
+}
+
+.article {
+  margin-bottom: 10px;
+
+  &__title {
+    position: relative;
+    font-size: calc(var(--ui-subtitle-size) * 1.25);
+    margin-top: 38px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 53px;
+      height: 5px;
+      top: -20px;
+      left: 0;
+      transform: skewX(-25deg);
+      background: linear-gradient(
+        to right,
+        var(--ui-light-accent-color) 0%,
+        var(--ui-light-accent-color) 60%,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0) 70%,
+        var(--ui-light-accent-color) 70%,
+        var(--ui-light-accent-color) 80%,
+        rgba(0, 0, 0, 0) 80%,
+        rgba(0, 0, 0, 0) 90%,
+        var(--ui-light-accent-color) 90%,
+        var(--ui-light-accent-color) 100%
+      );
+    }
+  }
+
+  &__picture {
+    padding-top: 61%;
+  }
+}
+
+@media (min-width: 768px) {
+  .section__header {
+    margin-bottom: 42px;
+  }
+}
