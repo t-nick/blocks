@@ -51,7 +51,7 @@
     },
     "heroTitle": {
       "coefficients": {
-        "320px": 0.77
+        "320px": 0.18
       },
       "color": [
         "darkShade?saturate=-15.19&lighten=-9.61&spin=13",
