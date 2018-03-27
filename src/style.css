@@ -1,3 +1,77 @@
 @import "wireframe-zapdos-about/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+}
+
+.article {
+
+  @media (min-width: 768px) {
+    flex-direction: row-reverse;
+  }
+
+  &__title {
+    position: relative;
+    margin-bottom: 90px;
+
+    &::after {
+      position: absolute;
+      content: "";
+      bottom: -5px;
+      left: 0;
+      width: 53px;
+      height: 5px;
+      background: linear-gradient(
+        to right,
+        var(--ui-light-accent-color) 0%,
+        var(--ui-light-accent-color) 60%,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0) 70%,
+        var(--ui-light-accent-color) 70%,
+        var(--ui-light-accent-color) 80%,
+        rgba(0,0,0,0) 80%,
+        rgba(0,0,0,0) 90%,
+        var(--ui-light-accent-color) 90%,
+        var(--ui-light-accent-color) 100%
+      );
+      transform: skewX(-25deg);
+    }
+  }
+
+  &__picture {
+    min-height: 400px;
+  }
+
+  &__text {
+    padding-right: 50px;
+    color: var(--ui-dark-shade-color);
+    font-size: var(--ui-small-size);
+  }
+
+  &__content {
+
+    @media (min-width: 992px) {
+      padding-left: 0;
+      max-width: 60%;
+      flex-basis: 60%;
+    }
+
+  }
+}
+
+.article__picture-wrapper {
+
+  @media (min-width: 768px) {
+    margin-top: 155px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 40%;
+    flex-basis: 40%;
+  }
+}
