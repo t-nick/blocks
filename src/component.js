@@ -4,18 +4,30 @@ class Wireframe extends React.Component {
   static propTypes = {
     components: PropTypes.object.isRequired,
     style: PropTypes.object.isRequired,
+    $block: PropTypes.object.isRequired,
   }
 
   render() {
-    const {components: {Text, Button}, style} = this.props
+    const {components: {Text, Button}, style, $block} = this.props
 
     return (
       <section className={style.section}>
         <div className={style.section__inner}>
           <Text bind="title" className={style.title} tagName="h1" />
           <Text bind="description" className={style.description} tagName="p" />
-          <div className={style['button-wrapper']}>
-            <Button bind="button" buttonClassName={style.button} />
+          <div className={style['btns-group']}>
+            <Button
+              bind="button"
+              className={style['action-control']}
+              buttonClassName={style.button}
+            />
+            {_.get(['modifier', 'additionalButton'], $block) && (
+              <Button
+                bind="additionalButton"
+                className={style['action-control']}
+                buttonClassName={style.button}
+              />
+            )}
           </div>
         </div>
       </section>
@@ -42,6 +54,14 @@ Wireframe.defaultContent = {
     textValue: 'Main button (M)',
     type: 'primary',
   },
+  additionalButton: {
+    textValue: 'Additional button (M)',
+    type: 'secondary',
+  },
+}
+
+Wireframe.modifierScheme = {
+  additionalButton: {defaultValue: true, label: 'Additional button', type: 'checkbox'},
 }
 
 export default Wireframe
