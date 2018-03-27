@@ -1,6 +1,14 @@
 @import "wireframe-zapdos-blog/src/style.css";
 
 /* start here */
+.section {
+  .article {
+    &__text {
+      color: #5d5f67;
+    }
+  }
+}
+
 .title {
   position: relative;
   text-align: left;
@@ -113,7 +121,6 @@
     padding: 0 30px;
     order: 2;
     font-size: calc(var(--ui-text-size ) * 0.875);
-    color: #5d5f67;
     margin-bottom: 18px;
 
     @media (min-width: 992px) {
