@@ -1,3 +1,79 @@
 @import "wireframe-zapdos-numbers/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+}
+
+.title {
+  position: relative;
+  margin-bottom: 50px;
+  text-align: left;
+
+  &::after {
+    content: " ";
+    position: absolute;
+    width: 53px;
+    height: 5px;
+    bottom: -5px;
+    left: 0;
+    transform: skewX(-25deg);
+    background: linear-gradient(
+      to right,
+      var(--ui-light-accent-color) 0%,
+      var(--ui-light-accent-color) 60%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0) 70%,
+      var(--ui-light-accent-color) 70%,
+      var(--ui-light-accent-color) 80%,
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0) 90%,
+      var(--ui-light-accent-color) 90%,
+      var(--ui-light-accent-color) 100%
+    );
+  }
+}
+
+.item {
+  display: flex;
+  max-width: 50%;
+  flex-basis: 50%;
+  flex-direction: column;
+  text-align: left;
+
+  &__title {
+    max-width: 200px;
+    order: 1;
+    font-size: var(--ui-text-size);
+
+    @media (min-width: 768px) {
+      font-size: calc(var(--ui-subtitle-size) * 1.25);
+    }
+  }
+
+  &__content {
+    margin-bottom: 10px;
+    justify-content: left;
+  }
+
+  &__number {
+    text-transform: uppercase;
+    font-size: var(--ui-heading-lg-size);
+
+    @media (min-width: 768px) {
+      font-size: var(--ui-block-title-size);
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .item:nth-last-of-type(4):first-child,
+  .item:nth-last-of-type(4):first-child ~ .item {
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+}
