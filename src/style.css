@@ -88,9 +88,22 @@
     margin-bottom: 25px;
     font-size: calc(var(--ui-text-size) / 1.067);
   }
-}
 
-.link {
-  font-weight: var(--ui-heading-font-weight);
-  font-size: var(--ui-text-size);
+  &__link {
+    font-weight: var(--ui-heading-font-weight);
+    font-size: var(--ui-text-size);
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      top: 6px;
+      right: -15px;
+      transform: rotate(-45deg);
+      border-right: 2px solid var(--ui-link-color);
+      border-bottom: 2px solid var(--ui-link-color);
+    }
+  }
 }
