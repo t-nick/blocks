@@ -10,8 +10,8 @@
     }
 
     @media (min-width: 992px) {
-      max-width: 32%;
-      flex-basis: 32%;
+      max-width: 31%;
+      flex-basis: 31%;
     }
 
     &--center {
@@ -23,15 +23,15 @@
       }
 
       @media (min-width: 992px) {
-        max-width: 54%;
-        flex-basis: 54%;
-        padding-left: 26px;
+        max-width: 56%;
+        flex-basis: 56%;
+        padding-left: 30px;
       }
     }
   }
 
   &__bottom {
-    padding-top: 45px;
+    padding-top: 70px;
   }
 }
 
@@ -45,6 +45,7 @@
   .nav-list__link {
     color: var(--ui-heading-lg-color);
     text-decoration: none;
+    transition: color .2s ease-in;
 
     &:hover {
       color: var(--ui-brand-color);
