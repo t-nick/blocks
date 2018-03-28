@@ -2,8 +2,6 @@
 
 /* start here */
 .footer {
-  padding-top: 71px;
-
   &__part {
 
     @media (min-width: 768px) {
@@ -32,31 +30,13 @@
     }
   }
 
-  &__text {
-    font-size: var(--ui-text-size);
-    letter-spacing: 0.5px;
-  }
-
   &__bottom {
-    justify-content: flex-start;
-    padding-top: 23px;
-    padding-bottom: 25px;
-    margin-top: 30px;
-  }
-
-  &__meta {
-    text-transform: uppercase;
-    letter-spacing: 0.4px;
-    padding-right: 3px;
+    padding-top: 45px;
   }
 }
 
 .logo {
-  margin-bottom: 33px;
-
-  &__title {
-    text-transform: uppercase;
-  }
+  margin-bottom: 25px;
 }
 
 .nav-list__item {
