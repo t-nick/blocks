@@ -1,3 +1,121 @@
-@import "wireframe-default-master/src/style.css";
+@import "wireframe-zapdos-footer/src/style.css";
 
 /* start here */
+
+.footer {
+  padding-top: 62px;
+  padding-bottom: 68px;
+
+  &__inner {
+    display: block;
+  }
+
+  &__main {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    @media (min-width: 992px) {
+      flex-direction: row;
+    }
+  }
+
+  &__bottom {
+    border-top: 0;
+    margin-top: 40px;
+    padding-bottom: 0;
+    padding-top: 0;
+
+    &:before {
+      display: none;
+    }
+  }
+
+  &__meta {
+    font-size: var(--ui-text-size);
+    font-weight: 400;
+    font-family: var(--ui-caption-font-family);
+    color: #7e8899;
+  }
+}
+
+.logo {
+  min-width: 118px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+
+  > div {
+    max-width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  @media (min-width: 992px) {
+    margin-right: 71px;
+  }
+
+  &__title {
+
+    @media (min-width: 992px) {
+      margin-right: 0;
+    }
+  }
+}
+
+.nav-wrapper {
+  max-width: 100%;
+
+  @media (min-width: 992px) {
+    display: block;
+    min-width: 0;
+  }
+}
+
+.logo + .nav-wrapper .nav-list {
+
+  @media (min-width: 992px) {
+    justify-content: flex-start;
+  }
+}
+
+.nav {
+  align-items: flex-end;
+  min-height: 0;
+
+  @media (min-width: 992px) {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &-list {
+
+    @media (min-width: 992px) {
+      justify-content: flex-start;
+      min-width: 0;
+    }
+
+    &__link {
+      opacity: 0.6;
+      transition: opacity 0.2s ease-in, color 0.2s ease-in;
+      text-decoration: none;
+      font-family: var(--ui-caption-font-family);
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &__item {
+      margin-left: 22.5px;
+      margin-right: 22.5px;
+      max-width: 100%;
+
+      @media (min-width: 992px) {
+        min-width: 0;
+      }
+    }
+  }
+}
