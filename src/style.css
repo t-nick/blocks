@@ -1,3 +1,59 @@
 @import "wireframe-series-3-header/src/style.css";
 
-/* start here */
+.header {
+  &__top-line {
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(138, 148, 159, 0.3);
+
+    @media (min-width: 992px) {
+      padding-top: 12px;
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 16px;
+      margin-right: 12px;
+    }
+  }
+  
+  &__main {
+
+    @media (min-width: 992px) {
+      padding-top: 20px;
+      padding-left: 16px;
+      padding-right: 15px;
+    }
+  }
+
+  .header__text {
+    padding-top: 10px;
+    font-family: var(--ui-small-font-family);
+
+    > a {
+      color: var(--ui-text-color);
+    }
+  }
+}
+
+.nav {
+  .nav__list {
+
+    @media (min-width: 992px) {
+      width: 100%;
+      max-width: 812px;
+      justify-content: space-between;
+    }
+
+  }
+
+  &__item {
+    
+    @media (min-width: 922px) {
+      margin-top: 0;
+      margin-left: 15px;
+    }
+  }
+
+  &__link {
+    font-family: var(--ui-small-font-family);
+    text-transform: uppercase;
+  }
+}
