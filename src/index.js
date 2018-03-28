@@ -21,75 +21,36 @@ ExtendedWireframe.defaultContent = {
   },
   cover: [
     {
-      title: {
-        content: 'Type Something',
-        type: 'heroTitle',
-      },
+      ...Component.defaultContent.cover[0],
       subtitle: {
-        content: 'Type Something',
-        type: 'subtitle',
+        ...Component.defaultContent.cover[0].subtitle,
+        content: '<span style="font-weight: bold;">We implement Innovative Projects</span>',
       },
       cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Main button (L)',
-        type: 'primary',
+        ...Component.defaultContent.cover[0].cta,
+        size: 'lg',
       },
     },
     {
-      title: {
-        content: 'Type Something',
-        type: 'heroTitle',
-      },
+      ...Component.defaultContent.cover[0],
       subtitle: {
-        content: 'Type Something',
-        type: 'subtitle',
+        ...Component.defaultContent.cover[0].subtitle,
+        content: '<span style="font-weight: bold;">We implement Innovative Projects</span>',
       },
       cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Main button (L)',
-        type: 'primary',
+        ...Component.defaultContent.cover[0].cta,
+        size: 'lg',
       },
     },
     {
-      title: {
-        content: 'Type Something',
-        type: 'heroTitle',
-      },
+      ...Component.defaultContent.cover[0],
       subtitle: {
-        content: 'Type Something',
-        type: 'subtitle',
+        ...Component.defaultContent.cover[0].subtitle,
+        content: '<span style="font-weight: bold;">We implement Innovative Projects</span>',
       },
       cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Main button (L)',
-        type: 'primary',
+        ...Component.defaultContent.cover[0].cta,
+        size: 'lg',
       },
     },
   ],

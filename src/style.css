@@ -2,95 +2,90 @@
 
 /* start here */
 
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 69px;
+    padding-bottom: 69px;
+  }
+}
+
 .subtitle {
-  font-weight: var(--ui-heading-font-weight);
-  margin-top: 0;
+  margin-top: 15px;
 }
 
-.items {
-  &-wrapper {
-    .subtitle,
-    .item__inner h2 {
-      color: var(--ui-dark-shade-color);
-    }
-
-    :global {
-      .slick {
-        &-arrow-default {
-          width: 17px;
-          color: var(--ui-dark-shade-color);
-        }
-
-        &-prev-default {
-          left: 0;
-        }
-
-        &-next-default {
-          right: 0;
-        }
+.items-wrapper {
+  :global {
+    .slick {
+      &-arrow-default {
+        width: 17px;
+        color: var(--ui-dark-shade-color);
       }
 
-      @media (min-width: 768px) {
-        .slick-prev-default,
-        .slick-next-default {
-          top: 36%;
-        }
+      &-prev-default {
+        left: 0;
+      }
+
+      &-next-default {
+        right: 0;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .slick-prev-default,
+      .slick-next-default {
+        top: 36%;
       }
     }
   }
 }
 
-.slider {
-  &-dots {
-    li {
-      position: relative;
-      z-index: 1;
+.item {
+  &__inner {
+    max-width: 889px;
+    padding-top: 131px;
+    padding-bottom: 215px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
-      button {
-        width: 15px;
-        height: 15px;
-      }
+.slider-dots {
+  li {
+    position: relative;
+    z-index: 1;
 
+    button {
+      width: 16px;
+      height: 16px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: -1;
+      border-radius: 50%;
+      opacity: 0.34;
+      color: var(--ui-light-shade-color);
+      background-color: currentColor;
+      transition: color 0.2s ease-in;
+    }
+  }
+
+  :global {
+    .slick-active {
       &::after {
-        content: "";
-        position: absolute;
-        width: 150%;
-        height: 150%;
-        top: -25%;
-        left: -25%;
-        z-index: -1;
-        border-radius: 50%;
-        opacity: 0.5;
-        background-color: var(--ui-light-shade-color);
-        transition: background-color 0.2s ease-in;
-      }
-    }
-
-    :global {
-      .slick-active {
-        &::after {
-          background-color: var(--ui-brand-color);
-        }
+        color: var(--ui-brand-color);
       }
     }
   }
 }
 
-.button {
-  margin-top: 25px;
-}
-
-@media (min-width: 992px) {
-  .item {
-    &__inner {
-      max-width: 1095px;
-    }
-  }
-
-  .slider {
-    &-dots {
-      margin-top: 80px;
-      margin-bottom: 20px;
-    }
-  }
+.btns-group {
+  margin-top: 24px;
 }
