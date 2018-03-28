@@ -42,6 +42,10 @@ ExtendedWireframe.defaultContent = {
     src: 'Depositphotos_47582699_original.jpg',
     alt: 'Picture about the company',
   },
+  background: {
+    type: 'color',
+    color: '#f5f5f5',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
