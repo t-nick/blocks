@@ -1,3 +1,40 @@
-@import "wireframe-default-master/src/style.css";
+@import "wireframe-series-2-footer/src/style.css";
 
 /* start here */
+.footer {
+  &__part {
+
+    @media (min-width: 992px) {
+      max-width: 30%;
+      flex-basis: 30%;
+    }
+  }
+
+  &__part--center {
+
+    @media (min-width: 992px) {
+      max-width: 70%;
+      flex-basis: 70%;
+      padding-left: 250px;
+    }
+  }
+
+  &__bottom {
+
+    @media (min-width: 768px) {
+      padding-top: 40px;
+    }
+
+    @media (min-width: 992px) {
+      padding-top: 80px;
+    }
+  }
+}
+
+.logo {
+  margin-bottom: 30px;
+}
+
+.nav-list__item {
+  margin-bottom: 10px;
+}
