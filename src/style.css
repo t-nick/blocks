@@ -1,3 +1,80 @@
 @import "wireframe-series-2-footer/src/style.css";
 
 /* start here */
+.footer {
+
+  @media (min-width: 992px) {
+    padding-top: 122px;
+    padding-bottom: 60px;
+  }
+
+  &__text {
+    font-size: var(--ui-small-size);
+    line-height: calc(var(--ui-text-line-height) * 0.85);
+
+    @media (min-width: 992px) {
+      padding-right: 30px;
+    }
+  }
+
+  &__part--center {
+    letter-spacing: 0.1em;
+
+    @media (min-width: 992px) {
+      max-width: 52%;
+      flex-basis: 52%;
+      padding-left: 12px;
+      padding-top: 8px;
+    }
+  }
+
+  &__part--last {
+
+    @media (min-width: 992px) {
+      max-width: 23%;
+      flex-basis: 23%;
+    }
+  }
+
+  &__bottom {
+
+    @media (min-width: 992px) {
+      padding-top: 110px;
+    }
+  }
+
+  &__meta {
+    font-size: calc(var(--ui-caption-size) * 1.08);
+    opacity: 0.6;
+
+    @media (min-width: 768px) {
+      max-width: 49%;
+    }
+  }
+}
+
+.logo {
+  margin-bottom: 0;
+
+  &__title {
+    font-weight: 700;
+    letter-spacing: -0.04em;
+  }
+}
+
+.nav-list__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  opacity: 0.4;
+  font-size: calc(var(--ui-small-size) * 1.08);
+}
+
+.socials {
+  &__title {
+    display: none;
+  }
+
+  &__icons {
+    padding-top: 10px;
+  }
+}
