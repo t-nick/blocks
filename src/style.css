@@ -49,6 +49,10 @@
 }
 
 .socials {
-  margin-left: 50px;
-  align-items: flex-start;
+  margin-left: 0;
+
+  @media (min-width: 768px) {
+    margin-left: 50px;
+    align-items: flex-start;
+  }
 }
