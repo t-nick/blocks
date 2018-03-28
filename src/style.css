@@ -13,8 +13,11 @@
 
 .items-wrapper {
   max-width: inherit;
-  padding-left: 95px;
-  padding-right: 95px;
+
+  @media (min-width: 992px) {
+    padding-left: 95px;
+    padding-right: 95px;
+  }
 
   :global {
     /* stylelint-disable */
