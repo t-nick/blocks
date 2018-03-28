@@ -39,8 +39,7 @@
 
   &__text {
     padding-top: 4px;
-    font-family: Georgia, sans-serif;
-    font-size: var(--ui-subheading-size);
+    font-size: calc(var(--ui-text-size) * 1.19);
   }
 }
 
@@ -71,12 +70,12 @@
 
     @media (min-width: 992px) {
       margin-top: 0;
-      margin-left: 28px;
+      margin-left: 16px;
     }
   }
 
   &__link {
-    font-family: Georgia, sans-serif;
+
     line-height: 32px;
   }
 
