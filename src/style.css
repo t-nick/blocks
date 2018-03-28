@@ -37,4 +37,5 @@
 
 .nav-list__item {
   margin-bottom: 10px;
+  word-break: break-word;
 }
