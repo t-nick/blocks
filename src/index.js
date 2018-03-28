@@ -11,6 +11,52 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  background: {
+    type: 'gradient',
+    gradient: {
+      angle: 90,
+      firstColor: '#002455',
+      secondColor: '#003d85',
+    },
+  },
+  logo: {
+    text: {
+      value: 'Company Logo',
+      tagName: 'h2',
+      fontSize: 21,
+      maxWidth: 200,
+      maxHeight: 80,
+    },
+  },
+  socialIcons: {
+    networks: [
+      {
+        id: 'twitter',
+        name: 'Twitter',
+        url: 'http://twitter.com/',
+      },
+      {
+        id: 'facebook',
+        name: 'Facebook',
+        url: 'http://facebook.com/',
+      },
+      {
+        id: 'linkedin',
+        name: 'LinkedIn',
+        url: 'http://linkedin.com/',
+      },
+    ],
+    target: '_blank',
+    design: {
+      border: 'circle',
+      innerFill: true,
+      preset: 'preset001',
+      offset: 5,
+      color: '#ffffff',
+      sizes: [10, 20, 30, 40],
+      size: 27,
+    },
+  },
 }
 
 ExtendedWireframe.modifierScheme = {

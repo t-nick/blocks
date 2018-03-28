@@ -1,3 +1,32 @@
 @import "wireframe-series-3-header/src/style.css";
 
 /* start here */
+.header {
+  &__text {
+    font-family: var(--ui-subtitle-font-family);
+    font-size: calc(var(--ui-subtitle-size) * 0.812);
+    line-height: var(--ui-subtitle-line-height);
+    color: var(--ui-light-shade-color);
+    font-weight: 600;
+    padding-top: 6px;
+  }
+
+  &__main {
+
+    @media (min-width: 992px) {
+      padding-bottom: 74px;
+      padding-top: 15px;
+    }
+  }
+
+  &__top-line {
+    padding-top: 10px;
+  }
+}
+
+.logo {
+  &__title {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
