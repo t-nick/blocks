@@ -11,90 +11,57 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
-  background: {
-    type: 'image',
-    position: {
-      type: 'cover',
-      cover: '50% 50%',
-    },
-    resourceRef: 'cover.jpg',
-    overlay: {
-      type: 'color',
-      color: 'var(--ui-light-shade-color)',
-      opacity: 0.7,
-    },
-  },
+  // background: {
+  //   type: 'image',
+  //   position: {
+  //     type: 'cover',
+  //     cover: '50% 50%',
+  //   },
+  //   resourceRef: 'cover.jpg',
+  //   overlay: {
+  //     type: 'color',
+  //     color: 'var(--ui-light-shade-color)',
+  //     opacity: 0.7,
+  //   },
+  // },
   cover: [
     {
-      title: {
-        content: 'The only journey is the one within',
-        type: 'heroTitle',
-      },
-      subtitle: {
-        content: 'We implement Innovative Projects',
-        type: 'subtitle',
-      },
+      ...Component.defaultContent.cover[0],
       cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'SIGN UP',
+        ...Component.defaultContent.cover[0].cta,
         type: 'primary',
+        size: 'lg',
+      },
+      'cta-2': {
+        ...Component.defaultContent.cover[0]['cta-2'],
+        type: 'secondary',
+        size: 'lg',
       },
     },
     {
-      title: {
-        content: 'Quantum Company',
-        type: 'heroTitle',
-      },
-      subtitle: {
-        content: 'We implement Innovative Projects',
-        type: 'subtitle',
-      },
+      ...Component.defaultContent.cover[0],
       cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Request a quote',
+        ...Component.defaultContent.cover[0].cta,
         type: 'primary',
+        size: 'lg',
+      },
+      'cta-2': {
+        ...Component.defaultContent.cover[0]['cta-2'],
+        type: 'primary',
+        size: 'lg',
       },
     },
     {
-      title: {
-        content: 'Quantum Company',
-        type: 'heroTitle',
-      },
-      subtitle: {
-        content: 'We implement Innovative Projects',
-        type: 'subtitle',
-      },
+      ...Component.defaultContent.cover[0],
       cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Request a quote',
+        ...Component.defaultContent.cover[0].cta,
         type: 'primary',
+        size: 'lg',
+      },
+      'cta-2': {
+        ...Component.defaultContent.cover[0]['cta-2'],
+        type: 'primary',
+        size: 'lg',
       },
     },
   ],
@@ -104,9 +71,10 @@ ExtendedWireframe.defaultContent = {
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   arrows: {defaultValue: true, label: 'Navigation arrows', type: 'checkbox'},
-  dots: {defaultValue: false, label: 'Navigation indicators', type: 'checkbox'},
+  dots: {defaultValue: false, label: 'Navigation indicators', type: 'hidden'},
   'primary-button': {defaultValue: true, label: 'Button', type: 'checkbox'},
-  subtitle: {defaultValue: false, label: 'Title description', type: 'checkbox'},
+  'secondary-button': {defaultValue: true, label: 'Button', type: 'checkbox'},
+  subtitle: {defaultValue: false, label: 'Title description', type: 'hidden'},
 }
 
 export default ExtendedWireframe
