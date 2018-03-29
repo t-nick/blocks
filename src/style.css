@@ -1,3 +1,28 @@
 @import "wireframe-series-2-contacts/src/style.css";
 
 /* start here */
+.article {
+  display: flex;
+  flex-direction: column;
+
+  &__picture {
+    order: -1;
+    margin-bottom: 25px;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    margin-bottom: 23px;
+  }
+
+  &__text {
+    color: var(--ui-dark-accent-color);
+  }
+}
+
+.section {
+
+  @media (min-width: 992px) {
+    padding: 95px 0;
+  }
+}
