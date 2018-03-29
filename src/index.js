@@ -15,7 +15,7 @@ ExtendedWireframe.defaultContent = {
     type: 'image',
     position: {
       type: 'cover',
-      cover: '50% 50%',
+      cover: '20% 50%',
     },
     resourceRef: 'bg.jpg',
   },
