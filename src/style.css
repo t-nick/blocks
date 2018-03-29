@@ -34,6 +34,14 @@
     }
   }
 
+  &__picture-wrapper {
+    margin-bottom: 0;
+
+    @media (min-width: 768px) {
+      margin-bottom: 21px;
+    }
+  }
+
   &__picture {
     background-color: transparent;
 
@@ -43,13 +51,10 @@
   }
 
   &__image {
-
-    @media (min-width: 992px) {
-      width: 40%;
-      height: auto;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
+    width: 40%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
