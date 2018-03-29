@@ -17,6 +17,10 @@ ExtendedWireframe.defaultContent = {
       fontSize: 34,
     },
   },
+  linkColor: {
+    color: 'dark-accent-color',
+    hover: 'brand-color',
+  },
   description: {
     ...Component.defaultContent.description,
     type: 'text',
