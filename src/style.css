@@ -1,3 +1,42 @@
 @import "wireframe-series-3-about/src/style.css";
 
-/* start here */
+.article {
+  &__picture {
+    margin: 0;
+  }
+
+  &__content {
+    max-width: 1170px;
+    text-align: left;
+  }
+
+  &__title {
+    font-size: 0;
+  }
+
+  &__heading {
+    padding-right: 115px;
+    font-size: calc(var(--ui-heading-size) / 1.083);
+    text-transform: uppercase;
+  }
+
+  &__subheading {
+    padding-right: 115px;
+    font-style: italic;
+  }
+
+  &__text {
+    padding-right: 115px;
+    margin-bottom: 45px;
+    font-family: var(--ui-caption-font-family);
+    color: #929ca9;
+  }
+}
+
+.socials-wrapper {
+  height: 75px;
+  padding-top: 20px;
+  justify-content: flex-start;
+  border-top: 1px solid #273040;
+  border-bottom: 1px solid #273040;
+}
