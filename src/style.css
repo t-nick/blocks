@@ -14,7 +14,7 @@
     bottom: -5px;
     left: 0;
     transform: skewX(-25deg);
-    background: linear-gradient(to right, var(--ui-brand-color) 0%, var(--ui-brand-color) 60%, rgba(0,0,0,0) 60%,    rgba(0,0,0,0) 70%, var(--ui-brand-color) 70%, var(--ui-brand-color) 80%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 90%, var(--ui-brand-color) 90%, var(--ui-brand-color) 100%);
+    background: linear-gradient(to right, var(--ui-brand-color) 0%, var(--ui-brand-color) 60%, rgba(0,0,0,0) 60%, rgba(0,0,0,0) 70%, var(--ui-brand-color) 70%, var(--ui-brand-color) 80%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 90%, var(--ui-brand-color) 90%, var(--ui-brand-color) 100%);
   }
   /*stylelint-enable*/
 }
