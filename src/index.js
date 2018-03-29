@@ -24,7 +24,7 @@ ExtendedWireframe.defaultContent = {
   description: {
     ...Component.defaultContent.description,
     type: 'text',
-    brightness: -25,
+    color: 'dark-accent-color',
   },
   copyright: {
     type: 'caption',
