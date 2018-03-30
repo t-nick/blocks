@@ -1,3 +1,22 @@
 @import "wireframe-series-3-header/src/style.css";
 
 /* start here */
+
+.header {
+  &__top-line {
+    background: var(--ui-dark-shade-color);
+  }
+
+  &__main {
+
+    @media (max-width: 991px) {
+      background: var(--ui-dark-accent-color);
+    }
+  }
+
+}
+
+.nav__link {
+  color: var(--ui-light-shade-color);
+}
+
