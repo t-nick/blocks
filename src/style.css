@@ -41,4 +41,14 @@
 
 .nav-list__item {
   margin-bottom: 15px;
+
+  .nav-list__link {
+    // color: var(--ui-heading-lg-color);
+    text-decoration: none;
+    transition: color .2s ease-in;
+
+    &:hover {
+      // color: var(--ui-brand-color);
+    }
+  }
 }
