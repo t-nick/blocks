@@ -36,7 +36,6 @@
 
 .subtitle {
   max-width: 770px;
-  font-size: var(--ui-subtitle-size);
 
   @media (min-width: 992px) {
     margin-left: 100px;
@@ -53,7 +52,7 @@
     background-color: transparent;
     transition: border-color 0.2s ease-in;
 
-    @media (min-width: 992px) {
+    @media (min-width: 768px) {
       border-width: 8px;
       border-style: solid;
       border-color: #f1f2f5;
