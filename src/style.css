@@ -8,27 +8,26 @@
   }
   
   &__email {
-    color: var(--ui-light-accent-color);
-  }
+    a {
+      color: var(--ui-light-accent-color);
+    }
+  } 
 }
 
 .logo__title {
   text-transform: uppercase;
 }
 
-.nav__item {
-  text-transform: uppercase;
-  font-size: calc(var(--ui-text-size)*0.75);
-  font-family: var(--ui-text-font-family);
-  font-weight: 500;
-  letter-spacing: 2.8px;
-    
-  .nav__link {
+.nav {
+  &__item {
     position: relative;
-    text-decoration: none;
-    color: var(--ui-dark-shade-color);
-
-    &::hover {
+    text-transform: uppercase;
+    font-size: calc(var(--ui-text-size)*0.75);
+    font-family: var(--ui-text-font-family);
+    font-weight: 500;
+    letter-spacing: 2.8px;
+   
+    &:hover {
       color: var(--ui-dark-accent-color);
 
       &::after {
@@ -37,9 +36,15 @@
         position: absolute;
         width: 40px;
         height: 2px;
+        bottom: -5px;
         background-color: var(--ui-brand-color);
-        
-      }        
-    }
+      }  
+    } 
+  }
+  
+  &__link {
+    position: relative;
+    text-decoration: none;
+    color: var(--ui-dark-shade-color);
   }
 }
