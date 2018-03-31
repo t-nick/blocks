@@ -1,3 +1,45 @@
 @import "wireframe-series-2-header/src/style.css";
 
 /* start here */
+
+.header {  
+  &__slogan {
+    color: var(--ui-light-accent-color);
+  }
+  
+  &__email {
+    color: var(--ui-light-accent-color);
+  }
+}
+
+.logo__title {
+  text-transform: uppercase;
+}
+
+.nav__item {
+  text-transform: uppercase;
+  font-size: calc(var(--ui-text-size)*0.75);
+  font-family: var(--ui-text-font-family);
+  font-weight: 500;
+  letter-spacing: 2.8px;
+    
+  .nav__link {
+    position: relative;
+    text-decoration: none;
+    color: var(--ui-dark-shade-color);
+
+    &::hover {
+      color: var(--ui-dark-accent-color);
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 40px;
+        height: 2px;
+        background-color: var(--ui-brand-color);
+        
+      }        
+    }
+  }
+}
