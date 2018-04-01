@@ -1,15 +1,17 @@
 {
   "general": {
-    "fontFamily": "'Montserrat', sans-serif"
+    "fontFamily": "'Ubuntu', sans-serif",
+    "textTransform": "uppercase"
   },
   "name": "Rayquaza buttons",
   "settings": {
     "primary": {
       "default": {
         "bg": {
-          "color": [
-            "brand"
-          ]
+          "color": {
+            "0": "brand",
+            "1": "darkShade?lighten=26.67"
+          }
         },
         "border": {
           "color": [
@@ -18,19 +20,21 @@
         },
         "color": [
           "lightShade"
-        ]
+        ],
+        "fontWeight": 700
       },
       "hover": {
         "bg": {
-          "color": [
-            "darkShade",
-            "lightShade"
-          ]
+          "color": {
+            "0": "darkAccent",
+            "1": "lightShade"
+          }
         },
         "color": [
           "lightShade",
           "darkShade"
-        ]
+        ],
+        "fontWeight": 700
       }
     },
     "primaryAlt": {
@@ -128,22 +132,25 @@
   },
   "size": {
     "lg": {
-      "borderRadius": "5px",
-      "borderWidth": "1px",
-      "fontSize": "16px",
-      "padding": "18px 30px"
+      "borderRadius": "0px",
+      "borderWidth": "2px",
+      "fontSize": "13px",
+      "padding": "18px 35px 18px 35px",
+      "lineHeight": 1.54
     },
     "md": {
-      "borderRadius": "5px",
-      "borderWidth": "1px",
-      "fontSize": "14px",
-      "padding": "14px 20px"
+      "borderRadius": "0px",
+      "borderWidth": "2px",
+      "fontSize": "13px",
+      "padding": "13px 30px 13px 30px",
+      "lineHeight": 1.54
     },
     "sm": {
-      "borderRadius": "5px",
-      "borderWidth": "1px",
-      "fontSize": "14px",
-      "padding": "10px 16px"
+      "borderRadius": "0px",
+      "borderWidth": "2px",
+      "fontSize": "13px",
+      "padding": "8.5px 23px 8.5px 23px",
+      "lineHeight": 1.54
     }
   }
 }
