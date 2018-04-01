@@ -1,9 +1,9 @@
 {
   "color": {
-    "brand": "#676767",
-    "darkAccent": "#676767",
-    "darkShade": "#141414",
-    "lightAccent": "#d8d8d8",
+    "brand": "#90b914",
+    "darkAccent": "#6f8e0f",
+    "darkShade": "#232323",
+    "lightAccent": "#90b914",
     "lightShade": "#fff"
   },
   "name": "Rayquaza palette"

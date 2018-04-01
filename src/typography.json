@@ -9,19 +9,20 @@
         "darkShade",
         "lightShade"
       ],
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "lineHeight": 1.4375,
-      "size": "32px"
+      "fontFamily": "'Ubuntu', sans-serif",
+      "fontWeight": 500,
+      "lineHeight": 1.25,
+      "size": "32px",
+      "letterSpacing": -0.6
     },
     "caption": {
       "color": [
-        "darkShade?lighten=32.55",
-        "lightShade"
+        "darkShade?lighten=33.33",
+        "lightShade?lighten=-52.94"
       ],
-      "fontFamily": "'Montserrat', sans-serif",
+      "fontFamily": "'Ubuntu', sans-serif",
       "fontWeight": 400,
-      "lineHeight": 1.4285,
+      "lineHeight": 1.43,
       "size": "14px"
     },
     "heading": {
@@ -31,7 +32,7 @@
       ],
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
-      "lineHeight": 1.5,
+      "lineHeight": 1.42,
       "size": "24px"
     },
     "headingLg": {
@@ -42,83 +43,86 @@
         "darkShade",
         "lightShade"
       ],
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "lineHeight": 1.4285,
-      "size": "28px"
+      "fontFamily": "'Ubuntu', sans-serif",
+      "fontWeight": 500,
+      "lineHeight": 1.31,
+      "size": "26px",
+      "letterSpacing": -0.5
     },
     "heroTitle": {
       "coefficients": {
-        "320px": 0.77
+        "320px": 0.44
       },
-      "color": [
-        "darkShade"
-      ],
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 700,
-      "lineHeight": 1.4,
-      "size": "40px"
-    },
-    "link": {
       "color": [
         "darkShade",
         "lightShade"
       ],
+      "fontFamily": "'Montserrat', sans-serif",
+      "fontWeight": 600,
+      "lineHeight": 1.03,
+      "size": "70px"
+    },
+    "link": {
+      "color": [
+        "brand",
+        "brand"
+      ],
       "hover": {
         "color": [
-          "brand",
-          "brand"
+          "darkShade",
+          "lightShade"
         ]
       }
     },
     "quote": {
       "color": [
-        "darkShade?lighten=32.55",
-        "lightShade"
+        "darkShade?lighten=33.33",
+        "lightShade?lighten=-52.94"
       ],
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "lineHeight": 1.4545,
-      "size": "22px"
+      "fontFamily": "'Ubuntu', sans-serif",
+      "fontWeight": 300,
+      "lineHeight": 1.44,
+      "size": "18px",
+      "fontStyle": "italic"
     },
     "small": {
       "color": [
-        "darkShade?lighten=32.55",
-        "lightShade"
+        "darkShade?lighten=33.33",
+        "lightShade?lighten=-52.94"
       ],
-      "fontFamily": "'Montserrat', sans-serif",
+      "fontFamily": "'Ubuntu', sans-serif",
       "fontWeight": 400,
       "lineHeight": 1.4,
-      "size": "10px"
+      "size": "14px"
     },
     "subheading": {
       "color": [
-        "darkShade?lighten=32.55",
-        "lightShade"
+        "darkShade?lighten=33.33",
+        "lightShade?lighten=-52.94"
       ],
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "lineHeight": 1.4444,
-      "size": "18px"
+      "fontFamily": "'Ubuntu', sans-serif",
+      "fontWeight": 300,
+      "lineHeight": 1.67,
+      "size": "15px"
     },
     "subtitle": {
       "color": [
-        "darkShade?lighten=32.55",
-        "lightShade"
+        "darkShade?lighten=33.33",
+        "lightShade?lighten=-52.94"
       ],
-      "fontFamily": "'Montserrat', sans-serif",
+      "fontFamily": "'Ubuntu', sans-serif",
       "fontWeight": 400,
-      "lineHeight": 1.5,
-      "size": "20px"
+      "lineHeight": 1.32,
+      "size": "19px"
     },
     "text": {
       "color": [
-        "darkShade?lighten=32.55",
-        "lightShade"
+        "darkShade?lighten=33.33",
+        "lightShade?lighten=-52.94"
       ],
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "lineHeight": 1.5,
+      "fontFamily": "'Ubuntu', sans-serif",
+      "fontWeight": 300,
+      "lineHeight": 1.6,
       "size": "16px"
     }
   }
