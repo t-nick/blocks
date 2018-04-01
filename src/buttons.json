@@ -35,6 +35,23 @@
           "darkShade"
         ],
         "fontWeight": 700
+      },
+      "active": {
+        "bg": {
+          "color": {
+            "0": "brand",
+            "1": "darkShade?lighten=26.67"
+          }
+        },
+        "border": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "color": [
+          "lightShade"
+        ],
+        "fontWeight": 700
       }
     },
     "primaryAlt": {
@@ -65,6 +82,23 @@
         "color": [
           "lightShade",
           "lightShade"
+        ]
+      },
+      "active": {
+        "bg": {
+          "color": [
+            "darkShade",
+            "lightShade"
+          ]
+        },
+        "border": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "color": [
+          "lightShade",
+          "darkShade"
         ]
       }
     },
@@ -97,6 +131,23 @@
           "lightShade",
           "darkShade"
         ]
+      },
+      "active": {
+        "bg": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "border": {
+          "color": [
+            "darkShade?lighten=32.55",
+            "lightShade"
+          ]
+        },
+        "color": [
+          "darkShade?lighten=32.55",
+          "lightShade"
+        ]
       }
     },
     "secondaryAlt": {
@@ -125,6 +176,22 @@
         },
         "color": [
           "lightShade",
+          "lightShade"
+        ]
+      },
+      "active": {
+        "bg": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "border": {
+          "color": [
+            "brand"
+          ]
+        },
+        "color": [
+          "darkShade?lighten=32.55",
           "lightShade"
         ]
       }
