@@ -1,3 +1,29 @@
 @import "wireframe-series-3-faq/src/style.css";
 
 /* start here */
+.title {
+  color: var(--ui-light-shade-color);
+}
+
+.items__title {
+  color: var(--ui-light-shade-color);
+}
+
+.item__title {
+  background: var(--ui-dark-shade-color);
+  border-width: 0;
+
+  &:active {
+    background: var(--ui-brand-color);
+  }
+
+  &:hover {
+    background: var(--ui-brand-color);
+    color: var(--ui-light-shade-color);
+  }
+
+  &__content {
+    background: #363636;
+    border-width: 0;
+  }
+}
