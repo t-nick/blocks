@@ -8,7 +8,7 @@
     "primary": {
       "default": {
         "bg": {
-          "color": ["brand", "darkShade?lighten=26.67"]
+          "color": ["brand", "brand"]
         },
         "border": {
           "color": [
@@ -22,14 +22,14 @@
       },
       "hover": {
         "bg": {
-          "color": ["darkAccent", "lightShade"]
+          "color": ["darkAccent", "darkAccent"]
         },
         "color": ["lightShade", "lightShade"],
         "fontWeight": 700
       },
       "active": {
         "bg": {
-          "color": ["brand", "darkShade?lighten=26.67"]
+          "color": ["brand", "brand"]
         },
         "border": {
           "color": [
@@ -45,7 +45,7 @@
     "primaryAlt": {
       "default": {
         "bg": {
-          "color": ["darkAccent", "lightShade"]
+          "color": ["darkAccent", "darkAccent"]
         },
         "border": {
           "color": [
@@ -70,7 +70,7 @@
       },
       "active": {
         "bg": {
-          "color": ["darkAccent", "lightShade"]
+          "color": ["darkAccent", "darkAccent"]
         },
         "border": {
           "color": [
@@ -96,7 +96,7 @@
       },
       "hover": {
         "bg": {
-          "color": ["darkShade?lighten=32.55", "transparent"]
+          "color": ["transparent", "transparent"]
         },
         "color": ["darkShade", "lightShade"],
         "border": {
@@ -128,12 +128,12 @@
       },
       "hover": {
         "bg": {
-          "color": ["brand", "transparent"]
+          "color": ["transparent", "transparent"]
         },
         "color": ["darkShade", "lightShade"],
         "fontWeight": 700,
         "border": {
-          "color": ["transparent", "brand"]
+          "color": ["brand", "brand"]
         }
       },
       "active": {
@@ -141,7 +141,7 @@
           "color": ["transparent", "transparent"]
         },
         "border": {
-          "color": ["darkAccent", "darkAccent"]
+          "color": ["transparent", "transparent"]
         },
         "color": ["darkShade", "lightShade"],
         "fontWeight": 700
