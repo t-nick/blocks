@@ -30,7 +30,7 @@
         "darkShade",
         "lightShade"
       ],
-      "fontFamily": "'Montserrat', sans-serif",
+      "fontFamily": "'Ubuntu', sans-serif",
       "fontWeight": 400,
       "lineHeight": 1.42,
       "size": "24px"
@@ -57,7 +57,7 @@
         "darkShade",
         "lightShade"
       ],
-      "fontFamily": "'Montserrat', sans-serif",
+      "fontFamily": "'Ubuntu', sans-serif",
       "fontWeight": 600,
       "lineHeight": 1.03,
       "size": "70px"
