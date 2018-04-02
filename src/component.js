@@ -31,6 +31,31 @@ Wireframe.defaultContent = {
 
 Wireframe.modifierScheme = {
   title: {defaultValue: true, label: 'Title', type: 'checkbox'},
+  align: {
+    children: [
+      {id: 'left2', label: 'Left'},
+      {id: 'center2', label: 'Center'},
+      {id: 'right2', label: 'Right'},
+    ],
+    defaultValue: 'left2',
+    title: 'Aligning buttons',
+    type: 'checkbox-group',
+  },
+  align2: {
+    children: [
+      {id: 'left', label: 'Left'},
+      {id: 'center', label: 'Center'},
+      {id: 'right', label: 'Right'},
+    ],
+    defaultValue: 'left',
+    name: 'Aligning',
+    type: 'radio-button-group',
+  },
+  align3: {
+    defaultValue: 'left',
+    label: 'Aligning',
+    type: 'checkbox',
+  },
 }
 
 export default Wireframe
