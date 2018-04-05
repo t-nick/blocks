@@ -46,9 +46,9 @@
 
   &__field {
     background-color: transparent;
-    border: 1px solid #ececec;
+    border: 1px solid var(--ui-link-hover-color);
     border-radius: 0;
-    font-size: 16px;
+    font-size: var(--ui-text-size);
 
     @media (min-width: 992px) {
       margin-top: 0;
