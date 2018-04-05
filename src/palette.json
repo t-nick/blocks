@@ -1,10 +1,10 @@
 {
-  "name": "Lightning yellow",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
-  }
+    "brand": "#2377ff",
+    "darkAccent": "#206be5",
+    "darkShade": "#02211c",
+    "lightAccent": "#3d87ff",
+    "lightShade": "#fff"
+  },
+  "name": "Poliwag palette"
 }
