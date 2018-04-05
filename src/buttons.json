@@ -54,7 +54,8 @@
         "color": [
           "darkShade",
           "lightShade"
-        ]
+        ],
+        "fontWeight": 600
       },
       "hover": {
         "bg": {
@@ -72,7 +73,8 @@
             "brand",
             "brand"
           ]
-        }
+        },
+        "fontWeight": 600
       }
     },
     "secondary": {
@@ -110,7 +112,8 @@
             "darkAccent?saturate=-45.78&lighten=43.53&spin=50",
             "darkAccent?saturate=-45.78&lighten=43.53&spin=50"
           ]
-        }
+        },
+        "fontWeight": 600
       }
     },
     "secondaryAlt": {
@@ -158,14 +161,14 @@
     "md": {
       "borderRadius": "0px",
       "borderWidth": "2px",
-      "fontSize": "12px",
-      "padding": "18px 35px 18px 35px"
+      "fontSize": "11px",
+      "padding": "18px 39px 18px 39px"
     },
     "sm": {
       "borderRadius": "0px",
       "borderWidth": "2px",
       "fontSize": "10px",
-      "padding": "12px 20px 12px 20px"
+      "padding": "15px 30px 15px 30px"
     }
   }
 }
