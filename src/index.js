@@ -39,7 +39,7 @@ ExtendedWireframe.defaultContent = {
         type: 'phone',
         id: 'contactForm_phoneNumber ',
         title: 'Phone number ',
-        placeholder: 'Phone',
+        placeholder: 'Phone number',
         required: true,
       },
     ],
