@@ -1,3 +1,30 @@
 @import "wireframe-series-3-cta/src/style.css";
 
-/* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.title {
+  font-size: calc(var(--ui-heading-size) * 1.275);
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: calc(var(--ui-subheading-size ) * 0.8);
+
+  @media (min-width: 768px) {
+    max-width: 430px;
+  }
+}
+
+.form {
+
+  @media (min-width: 768px) {
+    max-width: 575px;
+    margin-top: 30px;
+  }
+}
