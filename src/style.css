@@ -1,3 +1,131 @@
 @import "wireframe-series-1-partners/src/style.css";
 
 /* start here */
+
+.section {
+  &__header {
+    margin-bottom: 43px;
+  }
+
+  @media (min-width: 992px) {
+    padding-top: 125px;
+    padding-bottom: 140px;
+  }
+}
+
+.title {
+  position: relative;
+  font-size: calc(var(--ui-block-title-size) * 0.7);
+  line-height: calc( var(--ui-block-title-line-height) * 0.7);
+  
+  &::after {
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 5px;
+    bottom: -20px;
+    left: 50%;
+    transform: skewX(-25deg) translate(-50%);
+    background: linear-gradient(
+      to right,
+      var(--ui-light-accent-color) 0%,
+      var(--ui-light-accent-color) 60%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0) 70%,
+      var(--ui-light-accent-color) 70%,
+      var(--ui-light-accent-color) 80%,
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0) 90%,
+      var(--ui-light-accent-color) 90%,
+      var(--ui-light-accent-color) 100%
+    );
+
+    @media (min-width: 768px) {
+      bottom: -5px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    font-size: var(--ui-block-title-size);
+    line-height: var(--ui-block-title-line-height);
+  }
+}
+
+.item {
+  width: 100%;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 30px;
+  text-align: center;
+  background-color: var(--ui-light-shade-color);
+
+  @media (min-width: 992px) {
+    width: calc( 100%/3 - 20px );
+
+  }
+
+  &s-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: 0;
+
+    @media (min-width: 992px) {
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__title {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: calc( var(--ui-heading-size) * 19/22 );
+    text-align: center;
+  }
+
+  &__picture {
+    padding-top: 53%;
+    background-color: transparent;
+  }
+
+  &__content {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 27px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+
+    @media (min-width: 992px) {
+      margin-bottom: 47px;
+    }
+  }
+
+  &__desc {
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto;
+  }
+}
+
+.logo {
+  display: flex;
+  width: 100%;
+  height: 196px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+  border-bottom: 2px solid var(--ui-quote-color);
+
+  @media (min-width: 992px) {
+    margin-bottom: 50px;
+  }
+}
