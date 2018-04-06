@@ -26,6 +26,6 @@
   }
 
   &__position {
-    font-size: 16px;
+    font-size: var(--ui-text-size);
   }
 }
