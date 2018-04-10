@@ -9,7 +9,7 @@ class Wireframe extends React.Component {
     const {components: {RawHTML}} = this.props
     return (
       <section>
-        <RawHTML bind="rawHtml" />
+        <RawHTML bind="html" />
       </section>
     )
   }
@@ -18,7 +18,7 @@ class Wireframe extends React.Component {
 Wireframe.components = _.pick(['RawHTML'])($editor.components)
 
 Wireframe.defaultContent = {
-  rawHtml: {
+  html: {
     html:
       '<!-- Here you can add your custom html code -->\n\n<div class="my-custom-block-9B8B8E4">Hello there!</div>\n',
     css:
