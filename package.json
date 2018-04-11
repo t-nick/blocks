@@ -25,10 +25,10 @@
         "eslint-plugin-react": "^7.5.1",
         "husky": "^0.14.3",
         "lint-staged": "^6.0.0",
-        "stylelint": "^8.4.0",
+        "stylelint": "^9.2.0",
+        "stylelint-order": "latest",
         "stylelint-scss": "^2.2.0",
-        "stylelint-selector-bem-pattern": "^2.0.0",
-        "stylelint-order": "latest"
+        "stylelint-selector-bem-pattern": "^2.0.0"
     },
     "dependencies": {
         "wireframe-series-2-testimonials": "https://github.com/webliumteam/blocks#w/series-2/testimonials/prod"
