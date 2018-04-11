@@ -1,3 +1,76 @@
 @import "wireframe-zapdos-about/src/style.css";
 
 /* start here */
+
+.article {
+  &__title {
+    position: relative;
+    margin-bottom: 45px;
+    line-height: var(--ui-hero-title-line-height);
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 53px;
+      height: 5px;
+      bottom: -17px;
+      left: 0;
+      transform: skewX(-25deg);
+      background: linear-gradient(
+        to right,
+        var(--ui-light-accent-color) 0%,
+        var(--ui-light-accent-color) 60%,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0) 70%,
+        var(--ui-light-accent-color) 70%,
+        var(--ui-light-accent-color) 80%,
+        rgba(0, 0, 0, 0) 80%,
+        rgba(0, 0, 0, 0) 90%,
+        var(--ui-light-accent-color) 90%,
+        var(--ui-light-accent-color) 100%
+      );
+    }
+  }
+
+  &__picture {
+    min-height: 600px;
+  }
+
+  &__text {
+    max-width: 454px;
+    font-size: var(--ui-heading-size);
+  }
+}
+
+@media (min-width: 768px) {
+  .article {
+    align-items: center;
+    flex-direction: column;
+
+    &__picture-wrapper {
+      max-width: 100%;
+      flex-basis: 100%;
+    }
+
+    &__content {
+      max-width: 100%;
+      padding-left: 50px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .article {
+    flex-direction: row;
+
+    &__picture-wrapper {
+      max-width: 54%;
+      flex-basis: 54%;
+    }
+
+    &__content {
+      max-width: 46%;
+      flex-basis: 46%;
+    }
+  }
+}

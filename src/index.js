@@ -11,6 +11,33 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  title: {
+    content: 'Ask Our Experts <br>About Your Freight',
+    type: 'blockTitle',
+  },
+  text: {
+    content: 'Our experts are always ready to help. Get in touch with us and we\'ll find the right solution to meet your needs.',
+    type: 'text',
+  },
+  picture: {
+    resourceRef: 'about-girl.png',
+    alt: 'Picture about the company',
+  },
+  'button-1': {
+    actionConfig: {
+      action: 'link',
+      actions: {
+        link: {
+          type: '',
+          innerPage: '',
+          url: '',
+        },
+      },
+    },
+    textValue: 'Get a Quote',
+    type: 'primary',
+    size: 'md',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
