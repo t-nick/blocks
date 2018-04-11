@@ -46,7 +46,7 @@
       "fontFamily": "'Noto Sans', sans-serif",
       "fontWeight": 400,
       "color": [
-        "darkShade?darken=19.41&saturate=0.1",
+        "darkShade?spin=-60",
         "lightShade"
       ],
       "coefficients": {
