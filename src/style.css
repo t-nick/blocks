@@ -1,3 +1,72 @@
 @import "wireframe-zapdos-why/src/style.css";
 
-/* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 115px;
+    padding-bottom: 115px;
+  }
+}
+
+.title {
+  position: relative;
+  letter-spacing: 0.6px;
+  text-align: left;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 5px;
+    bottom: -3px;
+    left: 0;
+    transform: skewX(-25deg);
+    background: linear-gradient(
+      to right,
+      var(--ui-light-accent-color) 0%,
+      var(--ui-light-accent-color) 60%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0) 70%,
+      var(--ui-light-accent-color) 70%,
+      var(--ui-light-accent-color) 80%,
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0) 90%,
+      var(--ui-light-accent-color) 90%,
+      var(--ui-light-accent-color) 100%
+    );
+  }
+}
+
+.item {
+  margin-top: 55px;
+  padding-top: 105px;
+  padding-bottom: 115px;
+  background-color: #f5f5f5;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 49%;
+    flex-basis: 49%;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 31.33333%;
+    flex-basis: 31.33333%;
+  }
+
+  &s-wrapper {
+    justify-content: space-between;
+  }
+
+  &__top-element {
+    margin-bottom: 20px;
+    letter-spacing: 0.3px;
+  }
+
+  &__title {
+    font-size: calc(var(--ui-heading-size) * 1.23);
+  }
+}
