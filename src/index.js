@@ -13,57 +13,25 @@ ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   services: [
     {
+      ...Component.defaultContent.services[0],
       title: {
         content: 'OMS: Key to the Optimal Omnichannel Customer Experience (2017)',
         type: 'heading',
       },
-      text: {
-        content: '',
-        type: 'text',
-      },
-      picture: {
-        src: 'https://weblium-prod.storage.googleapis.com/res/5a4b747cd294a10025a2a530/5a4baf9cd294a10025a2b305.png',
-        alt: 'Quantum E-commerce illustration',
-      },
       cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
+        ...Component.defaultContent.services[0].cta,
         textValue: 'Download PDF File',
         type: 'secondary',
       },
     },
     {
+      ...Component.defaultContent.services[1],
       title: {
         content: 'Top Business Drives for Integrated Logistics Outsourcing (2017)',
         type: 'heading',
       },
-      text: {
-        content: '',
-        type: 'text',
-      },
-      picture: {
-        src: 'https://weblium-prod.storage.googleapis.com/res/5a4b747cd294a10025a2a530/5a4baf9cd294a10025a2b305.png',
-        alt: 'Quantum E-commerce illustration',
-      },
       cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
+        ...Component.defaultContent.services[1].cta,
         textValue: 'Download PDF File',
         type: 'secondary',
       },
@@ -74,12 +42,12 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       text: {
-        content: 'Aftersales assistance that includes marketing campaigns, additional digital solutions, and educational courses. Our specialists will help to find out what will work for your business and decide on the steps that are to be taken immediately. ',
+        content: 'Multipurpose program that will perfectly suit online stores and online retail business. You can add up to 2000 items with a detailed description, characteristics, and photos. Also, the shopping cart, clients’ feedback, rating, and related items option are available.',
         type: 'text',
       },
       picture: {
         src: 'https://weblium-prod.storage.googleapis.com/res/5a4b747cd294a10025a2a530/5a4baf9cd294a10025a2b305.png',
-        alt: 'Quantum Aftersales illustration',
+        alt: 'Quantum E-commerce illustration',
       },
       cta: {
         actionConfig: {
@@ -98,8 +66,8 @@ ExtendedWireframe.defaultContent = {
     },
   ],
   title: {
+    ...Component.defaultContent.title,
     content: 'White Papers',
-    type: 'blockTitle',
   },
   subtitle: {
     content: 'Our whitepaper series gives you valuable market intelligence on the state of today’s logistics industry. These research-based reports identify common practices, emerging trends and challenges in the industry. ',
@@ -110,8 +78,8 @@ ExtendedWireframe.defaultContent = {
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   subtitle: {defaultValue: true, label: 'Service description', type: 'checkbox'},
-  'body-text': {defaultValue: false, label: 'Service main text', type: 'checkbox'},
-  button: {defaultValue: false, label: 'Button', type: 'checkbox'},
+  'body-text': {defaultValue: false, label: 'Service main text', type: 'hidden'},
+  button: {defaultValue: false, label: 'Button', type: 'hidden'},
 }
 
 export default ExtendedWireframe
