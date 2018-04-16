@@ -4,7 +4,6 @@
   &__title {
     font-size: calc(var(--ui-text-size) * 0.867);
     font-weight: 700;
-    color: var(--text-color);
     text-transform: uppercase;
     letter-spacing: 3px;
 
@@ -39,8 +38,4 @@
   @media (min-width: 1200px) {
     margin-top: 45px;
   }
-}
-
-a:nth-child(2) .button__content {
-  color: var(--text-color);
 }
