@@ -1,3 +1,14 @@
 @import "wireframe-zapdos-gallery/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+}
+
+.item__image {
+  border-radius: 2px;
+}

@@ -1,1 +1,52 @@
-{}
+[
+  {},
+  {
+    "gallery": [
+      {
+        "title": {
+          "content": "Quantum CEO & our partners",
+          "type": "text"
+        },
+        "picture": {
+          "resourceRef": "gallery-img-4.png",
+          "alt": "Quantum CEO & our partners",
+          "galleryId": "gallery"
+        },
+        "caption": {
+          "content": "Design & build",
+          "type": "caption"
+        }
+      },
+      {
+        "title": {
+          "content": "Quantum CEO & our partners",
+          "type": "text"
+        },
+        "picture": {
+          "resourceRef": "gallery-img-5.png",
+          "alt": "Quantum CEO & our partners",
+          "galleryId": "gallery"
+        },
+        "caption": {
+          "content": "Design & build",
+          "type": "caption"
+        }
+      },
+      {
+        "title": {
+          "content": "Quantum CEO & our partners",
+          "type": "text"
+        },
+        "picture": {
+          "resourceRef": "gallery-img-6.png",
+          "alt": "Quantum CEO & our partners",
+          "galleryId": "gallery"
+        },
+        "caption": {
+          "content": "Design & build",
+          "type": "caption"
+        }
+      }
+    ]
+  }
+]
