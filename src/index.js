@@ -30,12 +30,12 @@ ExtendedWireframe.defaultContent = {
   subheading: {
     content: 'Our Company is the world’s leading manufacturer. We are also a leading financial services provider.',
     type: 'subtitle',
-    brightness: 70,
+    brightness: 50,
   },
   text: {
     content: 'We are in it for the long haul—for our customers and for our world. Our customers can be found in virtually every corner of the earth, and we realize our success comes directly from helping our customers be successful.',
     type: 'text',
-    brightness: 70,
+    brightness: 50,
   },
   'social-icons': {
     networks: [
@@ -67,10 +67,20 @@ ExtendedWireframe.defaultContent = {
       innerFill: true,
       preset: 'preset001',
       offset: 5,
-      color: 'var(--ui-light-shade-color)',
+      color: 'light-shade-color',
       sizes: [10, 20, 30, 40],
       size: 23,
     },
+  },
+  'button-1': {
+    textValue: 'Main button (M)',
+    type: 'primary',
+    size: 'lg',
+  },
+  'button-2': {
+    textValue: 'Additional button (M)',
+    type: 'secondary',
+    size: 'lg',
   },
 }
 
