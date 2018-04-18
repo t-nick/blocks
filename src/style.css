@@ -1,6 +1,8 @@
 @import "wireframe-series-2-about/src/style.css";
 
 .article {
+  padding-left: 0;
+
   &__title {
     font-size: calc(var(--ui-text-size) * 0.867);
     font-weight: 700;

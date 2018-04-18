@@ -31,12 +31,13 @@ ExtendedWireframe.defaultContent = {
   },
   subheading: {
     content:
-      'We provide a whole bulk of services to ensure stable growth of the company',
+      'Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,<br/>quis gravida magna mi a libero. Fusce vulputate eieifend sapien.',
     type: 'subheading',
+    color: '#676a73',
   },
   text: {
     content:
-      'We provide a whole bulk of services to ensure stable growth of the company. The profound expertise of our team, deep understanding of all business aspects, ideal knowledge of processes will help to deal with various issues.<br><br><br> We create unique and innovative solutions for our customers along with the high-quality support services and personal approach to any case. Feel free to entrust your business to our experts, and you’ll see the difference! ',
+      'Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum<br/>volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum.<br/>Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed<br/>lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque<br/>facilisis. Etiam imperdiet imperdiet orci.',
     type: 'text',
     color: '#676a73',
   },
@@ -122,7 +123,7 @@ ExtendedWireframe.modifierScheme = {
   },
   heading: {defaultValue: true, label: 'Company title', type: 'checkbox'},
   subheading: {
-    defaultValue: false,
+    defaultValue: true,
     label: 'Company description',
     type: 'checkbox',
   },
