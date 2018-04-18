@@ -11,12 +11,9 @@
 }
 
 .title {
-  font-size: calc( var(--ui-block-title-size) * 0.8 );
-  letter-spacing: -1.1px;
 
   @media (min-width: 992px) {
     font-size: var(--ui-block-title-size);
-    line-height: calc( var(--ui-block-title-line-height) * 88/68.75 );
   }
 }
 
@@ -50,6 +47,10 @@
   }
 
   &__pic-link {
+    width: 100%;
+    max-width: 270px;
+    margin-left: auto;
+    margin-right: auto;
     order: 1;
     margin-bottom: 16px;
 
@@ -59,24 +60,22 @@
   }
 
   &__pic {
-    max-width: 270px;
-    max-height: 270px;
     width: 100%;
-    height: auto;
+    padding-top: 100%;
     border-radius: 23px;
   }
 
   &__title {
+    max-width: 100%;
     order: 2;
     margin-bottom: 10px;
-    font-weight: var(--ui-heading-lg-font-weight);
-    letter-spacing: -0.56px;
+    font-weight: 700;
   }
 
   &__position {
+    max-width: 100%;
     order: 3;
     margin-bottom: 18px;
-    letter-spacing: 0.13px;
   }
 
   &__socials {
@@ -88,7 +87,6 @@
     order: 5;
     max-width: 260px;
     margin-bottom: 0;
-    letter-spacing: 0.13px;
     white-space: pre-wrap;
 
     @media (min-width: 992px) {
