@@ -27,7 +27,7 @@ ExtendedWireframe.defaultContent = {
         brightness: 30,
       },
       picture: {
-        src: 'img-1.png',
+        resourceRef: 'img-1.png',
         alt: 'Article illustration photo',
       },
       link: {
@@ -60,7 +60,7 @@ ExtendedWireframe.defaultContent = {
         brightness: 30,
       },
       picture: {
-        src: 'img-2.png',
+        resourceRef: 'img-2.png',
         alt: 'Article illustration photo',
       },
       link: {
@@ -93,7 +93,7 @@ ExtendedWireframe.defaultContent = {
         brightness: 30,
       },
       picture: {
-        src: 'img-3.png',
+        resourceRef: 'img-3.png',
         alt: 'Article illustration photo',
       },
       link: {
@@ -126,7 +126,7 @@ ExtendedWireframe.defaultContent = {
         brightness: 30,
       },
       picture: {
-        src: 'img-4.png',
+        resourceRef: 'img-4.png',
         alt: 'Article illustration photo',
       },
       link: {
@@ -159,7 +159,7 @@ ExtendedWireframe.defaultContent = {
         brightness: 30,
       },
       picture: {
-        src: 'img-5.png',
+        resourceRef: 'img-5.png',
         alt: 'Article illustration photo',
       },
       link: {
@@ -192,7 +192,7 @@ ExtendedWireframe.defaultContent = {
         brightness: 30,
       },
       picture: {
-        src: 'img-6.png',
+        resourceRef: 'img-6.png',
         alt: 'Article illustration photo',
       },
       link: {
@@ -225,7 +225,7 @@ ExtendedWireframe.defaultContent = {
         brightness: 30,
       },
       picture: {
-        src: 'img-7.png',
+        resourceRef: 'img-7.png',
         alt: 'Article illustration photo',
       },
       link: {
@@ -258,7 +258,7 @@ ExtendedWireframe.defaultContent = {
         brightness: 30,
       },
       picture: {
-        src: 'img-8.png',
+        resourceRef: 'img-8.png',
         alt: 'Article illustration photo',
       },
       link: {
@@ -291,7 +291,7 @@ ExtendedWireframe.defaultContent = {
         brightness: 30,
       },
       picture: {
-        src: 'img-9.png',
+        resourceRef: 'img-9.png',
         alt: 'Article illustration photo',
       },
       link: {

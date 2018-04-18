@@ -12,9 +12,6 @@
 
   &__title {
     order: 2;
-    font-family: var(--ui-subheading-font-family);
-    font-weight: var(--ui-subheading-font-weight);
-    letter-spacing: -1px;
   }
 
   &__meta {
@@ -43,7 +40,6 @@
   &__category {
     padding-right: 0;
     padding-left: 7px;
-    color: var(--ui-dark-shade-color);
   }
 
   &__link {
