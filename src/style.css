@@ -1,3 +1,61 @@
 @import "wireframe-series-2-gallery/src/style.css";
 
 /* start here */
+
+.title {
+  text-transform: uppercase;
+}
+
+.items-wrapper {
+  :global {
+    .slick-center.picture {
+      box-shadow: none;
+    }
+
+    .slick-arrow-default {
+
+      @media(--ui-tablet-devices) {
+        width: 19px;
+        height: 31px;
+      }
+
+      @media(--ui-medium-devices) {
+        width: 19px;
+        height: 31px;
+        top: 166px;
+      }
+    }
+
+    .slick-arrow-default.slick-prev-default {
+
+      @media(min-width: 1300px) {
+        left: -35px;
+      }
+    }
+
+    .slick-arrow-default.slick-next-default {
+
+      @media(min-width: 1300px) {
+        right: -35px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .title {
+    margin-bottom: 63px;
+  }
+
+  .item__picture {
+    min-height: 294px;
+  }
+
+  .items-wrapper {
+    :global {
+      .slick-center.picture {
+        box-shadow: none;
+      }
+    }
+  }
+}
