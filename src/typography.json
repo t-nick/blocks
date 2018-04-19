@@ -3,26 +3,27 @@
   "settings": {
     "blockTitle": {
       "coefficients": {
-        "320px": 0.77
+        "320px": 0.69
       },
       "color": [
         "darkShade",
         "lightShade"
       ],
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "lineHeight": 1.4375,
-      "size": "32px"
+      "fontWeight": 500,
+      "lineHeight": 1.33,
+      "size": "30px",
+      "letterSpacing": -0.6
     },
     "caption": {
       "color": [
-        "darkShade?lighten=32.55",
+        "lightShade?lighten=-36.47",
         "lightShade"
       ],
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
-      "lineHeight": 1.4285,
-      "size": "14px"
+      "lineHeight": 2,
+      "size": "10px"
     },
     "heading": {
       "color": [
@@ -30,96 +31,105 @@
         "lightShade"
       ],
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "lineHeight": 1.5,
-      "size": "24px"
+      "fontWeight": 500,
+      "lineHeight": 1.25,
+      "size": "24px",
+      "coefficients": {
+        "320px": 0.91
+      }
     },
     "headingLg": {
       "coefficients": {
-        "320px": 0.88
+        "320px": 0.78
       },
       "color": [
         "darkShade",
-        "lightShade"
+        "brand"
       ],
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "lineHeight": 1.4285,
+      "fontWeight": 600,
+      "lineHeight": 2.21,
       "size": "28px"
     },
     "heroTitle": {
       "coefficients": {
-        "320px": 0.77
+        "320px": 0.44
       },
-      "color": [
-        "darkShade"
-      ],
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 700,
-      "lineHeight": 1.4,
-      "size": "40px"
-    },
-    "link": {
       "color": [
         "darkShade",
         "lightShade"
       ],
+      "fontFamily": "'Montserrat', sans-serif",
+      "fontWeight": 500,
+      "lineHeight": 1.14,
+      "size": "70px",
+      "letterSpacing": -1.4
+    },
+    "link": {
+      "color": [
+        "darkShade?lighten=0.39",
+        "lightShade"
+      ],
       "hover": {
         "color": [
-          "brand",
-          "brand"
+          "darkShade?lighten=0.39",
+          "lightShade"
         ]
       }
     },
     "quote": {
       "color": [
-        "darkShade?lighten=32.55",
-        "lightShade"
+        "darkShade?lighten=16.47",
+        "lightShade?lighten=-36.47"
       ],
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "lineHeight": 1.4545,
-      "size": "22px"
+      "fontWeight": 300,
+      "lineHeight": 1.33,
+      "size": "15px"
     },
     "small": {
       "color": [
-        "darkShade?lighten=32.55",
+        "lightShade?lighten=-36.47",
         "lightShade"
       ],
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 2,
       "size": "10px"
     },
     "subheading": {
       "color": [
-        "darkShade?lighten=32.55",
-        "lightShade"
+        "lightShade?lighten=-36.47",
+        "lightShade?lighten=-36.47"
       ],
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
-      "lineHeight": 1.4444,
+      "lineHeight": 1.44,
       "size": "18px"
     },
     "subtitle": {
       "color": [
-        "darkShade?lighten=32.55",
-        "lightShade"
+        "lightShade?lighten=-36.47",
+        "lightShade?lighten=-36.47"
       ],
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 400,
-      "lineHeight": 1.5,
-      "size": "20px"
+      "lineHeight": 1.44,
+      "size": "18px",
+      "letterSpacing": -0.6,
+      "coefficients": {
+        "320px": 0.75
+      }
     },
     "text": {
       "color": [
-        "darkShade?lighten=32.55",
-        "lightShade"
+        "darkShade?lighten=16.47",
+        "lightShade?lighten=-36.47"
       ],
       "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "lineHeight": 1.5,
-      "size": "16px"
+      "fontWeight": 300,
+      "lineHeight": 1.33,
+      "size": "15px"
     }
   }
 }

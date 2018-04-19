@@ -1,6 +1,7 @@
 {
   "general": {
-    "fontFamily": "'Montserrat', sans-serif"
+    "fontFamily": "'Montserrat', sans-serif",
+    "textTransform": "uppercase"
   },
   "name": "Poipole buttons",
   "settings": {
@@ -13,14 +14,15 @@
           "gradient": {
             "colors": [
               [
-                "brand?saturate=100&lighten=9.61",
-                "brand?saturate=100&lighten=9.61&spin=60"
+                "darkAccent",
+                "brand?saturate=20.71&lighten=1.96"
               ],
               [
-                "transparent",
-                "transparent"
+                "darkAccent",
+                "brand?saturate=20.71&lighten=1.96"
               ]
-            ]
+            ],
+            "angle": "90deg"
           }
         },
         "border": {
@@ -32,78 +34,226 @@
           "lightShade"
         ],
         "shadow": {
-          "y": "-1px"
-        }
+          "y": "10px",
+          "blur": "36px",
+          "spread": "1.1px",
+          "color": [
+            "darkAccent?saturate=-21.27&lighten=44.9&spin=5",
+            "transparent"
+          ]
+        },
+        "fontWeight": 500
       },
       "hover": {
         "bg": {
           "color": [
-            "darkShade",
-            "lightShade"
+            "brand?spin=-44",
+            "brand?spin=-44"
           ]
         },
         "color": [
           "lightShade",
-          "darkShade"
-        ]
+          "lightShade"
+        ],
+        "fontWeight": 500,
+        "shadow": {
+          "y": "10px",
+          "blur": "36px",
+          "spread": "1.1px",
+          "color": [
+            "darkAccent?saturate=-21.27&lighten=44.9&spin=5",
+            "transparent"
+          ]
+        }
       }
     },
     "secondary": {
       "default": {
         "bg": {
           "color": [
+            "transparent",
             "transparent"
           ]
         },
         "border": {
           "color": [
-            "darkShade?lighten=32.55",
+            "lightShade?lighten=-19.61",
             "lightShade"
           ]
         },
         "color": [
-          "darkShade?lighten=32.55",
+          "darkShade?lighten=33.33",
           "lightShade"
         ],
+        "fontWeight": 500,
         "shadow": {
-          "y": "1px",
-          "blur": "1px",
-          "spread": "1px"
-        },
-        "fontWeight": 200
+          "blur": "36px",
+          "spread": "1.1px",
+          "y": "10px",
+          "color": [
+            "lightShade",
+            "darkAccent?saturate=-49.32&lighten=-30&spin=-6"
+          ]
+        }
       },
       "hover": {
         "bg": {
           "color": [
-            "darkShade?lighten=32.55",
+            "lightShade",
             "lightShade"
           ]
         },
         "color": [
+          "darkShade?lighten=33.33",
+          "darkShade?lighten=33.33"
+        ],
+        "border": {
+          "color": [
+            "transparent",
+            "lightShade"
+          ]
+        },
+        "fontWeight": 500,
+        "shadow": {
+          "y": "10px",
+          "blur": "36px",
+          "spread": "1.1px",
+          "color": [
+            "lightShade?saturate=4.55&lighten=-8.63&spin=270",
+            "darkAccent?saturate=-49.32&lighten=-30&spin=-6"
+          ]
+        }
+      }
+    },
+    "primaryAlt": {
+      "default": {
+        "bg": {
+          "color": [
+            "brand"
+          ]
+        },
+        "border": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "color": [
+          "lightShade"
+        ],
+        "shadow": {
+          "y": "10px",
+          "blur": "0px",
+          "spread": "1.1px",
+          "color": [
+            "darkAccent?saturate=-21.27&lighten=44.9&spin=5",
+            "transparent"
+          ]
+        },
+        "fontWeight": 500
+      },
+      "hover": {
+        "bg": {
+          "color": [
+            "brand?spin=-44",
+            "brand?spin=-44"
+          ]
+        },
+        "color": [
           "lightShade",
-          "darkShade"
-        ]
+          "lightShade"
+        ],
+        "fontWeight": 500,
+        "shadow": {
+          "y": "0px",
+          "blur": "0px",
+          "spread": "0px",
+          "color": [
+            "darkAccent?saturate=-21.27&lighten=44.9&spin=5",
+            "transparent"
+          ]
+        }
+      }
+    },
+    "secondaryAlt": {
+      "default": {
+        "bg": {
+          "color": [
+            "transparent",
+            "transparent"
+          ]
+        },
+        "border": {
+          "color": [
+            "lightShade?lighten=-19.61",
+            "lightShade"
+          ]
+        },
+        "color": [
+          "darkShade?lighten=33.33",
+          "lightShade"
+        ],
+        "fontWeight": 500,
+        "shadow": {
+          "blur": "0px",
+          "spread": "0px",
+          "y": "0px",
+          "color": [
+            "lightShade",
+            "darkAccent?saturate=-49.32&lighten=-30&spin=-6"
+          ]
+        }
+      },
+      "hover": {
+        "bg": {
+          "color": [
+            "lightShade",
+            "lightShade"
+          ]
+        },
+        "color": [
+          "darkShade?lighten=33.33",
+          "darkShade?lighten=33.33"
+        ],
+        "border": {
+          "color": [
+            "transparent",
+            "lightShade"
+          ]
+        },
+        "fontWeight": 500,
+        "shadow": {
+          "y": "10px",
+          "blur": "36px",
+          "spread": "1.1px",
+          "color": [
+            "lightShade?saturate=4.55&lighten=-8.63&spin=270",
+            "darkAccent?saturate=-49.32&lighten=-30&spin=-6"
+          ]
+        }
       }
     }
   },
   "size": {
     "lg": {
-      "borderRadius": "5px",
-      "borderWidth": "1px",
-      "fontSize": "16px",
-      "padding": "18px 30px"
+      "borderRadius": "40px",
+      "borderWidth": "0px",
+      "fontSize": "12px",
+      "padding": "23px 40px 23px 40px",
+      "lineHeight": 1.67
     },
     "md": {
-      "borderRadius": "5px",
-      "borderWidth": "1px",
-      "fontSize": "14px",
-      "padding": "14px 20px"
+      "borderRadius": "28px",
+      "borderWidth": "0px",
+      "fontSize": "12px",
+      "padding": "13px 24px 13px 24px",
+      "lineHeight": 1.67
     },
     "sm": {
-      "borderRadius": "5px",
-      "borderWidth": "1px",
-      "fontSize": "14px",
-      "padding": "10px 16px"
+      "borderRadius": "20px",
+      "borderWidth": "0px",
+      "fontSize": "12px",
+      "padding": "8.5px 20px 8.5px 20px",
+      "lineHeight": 1.67
     }
   }
 }

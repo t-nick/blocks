@@ -1,10 +1,10 @@
 {
   "color": {
-    "brand": "#676767",
-    "darkAccent": "#676767",
-    "darkShade": "#141414",
-    "lightAccent": "#d8d8d8",
-    "lightShade": "#fff"
+    "brand": "#e528ac",
+    "darkAccent": "#5d2d9d",
+    "darkShade": "#232323",
+    "lightAccent": "#e528ac",
+    "lightShade": "#ffffff"
   },
   "name": "Poipole palette"
 }
