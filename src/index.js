@@ -5,7 +5,10 @@ import style from './style.css'
 
 import options from './options.json'
 
-const {enhancers: {withProps}, hoistStatics} = $editor
+const {
+  enhancers: {withProps},
+  hoistStatics,
+} = $editor
 
 const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _.set('$block.options', options))))(Component)
 
@@ -18,8 +21,17 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       desc: {
-        content: 'There are advances being made in science and technology everyday, and a good example of this is the LCD monitor.',
+        content:
+          'There are advances being made in science and technology everyday, and a good example of this is the LCD monitor.',
         type: 'text',
+      },
+      logo: {
+        image: {
+          resourceRef: 'robot.svg',
+          alt: 'robot',
+          width: 100,
+          height: 110,
+        },
       },
       picture: {
         src: 'robot.svg',
@@ -46,8 +58,17 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       desc: {
-        content: 'There are advances being made in science and technology everyday, and a good example of this is the LCD monitor.',
+        content:
+          'There are advances being made in science and technology everyday, and a good example of this is the LCD monitor.',
         type: 'text',
+      },
+      logo: {
+        image: {
+          resourceRef: 'camera.svg',
+          alt: 'camera',
+          width: 103,
+          height: 103,
+        },
       },
       picture: {
         src: 'camera.svg',
@@ -74,8 +95,17 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       desc: {
-        content: 'There are advances being made in science and technology everyday, and a good example of this is the LCD monitor.',
+        content:
+          'There are advances being made in science and technology everyday, and a good example of this is the LCD monitor.',
         type: 'text',
+      },
+      logo: {
+        image: {
+          resourceRef: 'eye.svg',
+          alt: 'eye',
+          width: 114,
+          height: 114,
+        },
       },
       picture: {
         src: 'eye.svg',
@@ -102,8 +132,17 @@ ExtendedWireframe.defaultContent = {
         type: 'heading',
       },
       desc: {
-        content: 'There are advances being made in science and technology everyday, and a good example of this is the LCD monitor.',
+        content:
+          'There are advances being made in science and technology everyday, and a good example of this is the LCD monitor.',
         type: 'text',
+      },
+      logo: {
+        image: {
+          resourceRef: 'doughnut.svg',
+          alt: 'doughnut',
+          width: 114,
+          height: 114,
+        },
       },
       picture: {
         src: 'doughnut.svg',
@@ -130,7 +169,8 @@ ExtendedWireframe.defaultContent = {
     type: 'blockTitle',
   },
   subtitle: {
-    content: 'There are advances being made in science and technology everyday, and a good example<br />of this is the LCD monitor. LCD monitors have several benefits over the old chunky<br />computer monitors that most users are familiar with. Old computer monitors,<br />take up quite a bit of desktop space.',
+    content:
+      'There are advances being made in science and technology everyday, and a good example<br />of this is the LCD monitor. LCD monitors have several benefits over the old chunky<br />computer monitors that most users are familiar with. Old computer monitors,<br />take up quite a bit of desktop space.',
     type: 'subtitle',
   },
   button: {
@@ -156,16 +196,17 @@ ExtendedWireframe.defaultContent = {
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   logo: {
-    children: [
-      {id: 'image', label: 'Image'},
-      {id: 'text', label: 'Text'},
-    ],
+    children: [{id: 'image', label: 'Image'}, {id: 'text', label: 'Text'}],
     defaultValue: 'image',
     style: 'column',
     name: 'Logo',
     type: 'radio-button-group',
   },
-  subtitle: {defaultValue: true, label: 'Partner description', type: 'checkbox'},
+  subtitle: {
+    defaultValue: true,
+    label: 'Partner description',
+    type: 'checkbox',
+  },
   body: {defaultValue: true, label: 'About partner', type: 'checkbox'},
   link: {defaultValue: true, label: 'Partner link', type: 'checkbox'},
   button: {defaultValue: true, label: 'Button', type: 'checkbox'},

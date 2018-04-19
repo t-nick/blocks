@@ -1,5 +1,9 @@
 @import "wireframe-series-2-partners/src/style.css";
 
+.logo {
+  margin-top: -100px;
+}
+
 .section .subtitle {
   color: #939696;
   font-weight: 500;
@@ -52,11 +56,18 @@
 .item .item__desc {
 
   @media (min-width: 992px) {
-    margin-top: 45px;
+    margin-top: 20px;
     margin-bottom: 25px;
     font-size: var(--ui-text-size);
     font-weight: 400;
     color: #4d4f4f;
+  }
+}
+
+.item:nth-child(2) .item__desc {
+
+  @media (min-width: 992px) {
+    margin-top: 27px;
   }
 }
 
