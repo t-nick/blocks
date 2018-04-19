@@ -11,10 +11,41 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  background: {
+    type: 'image',
+    position: {
+      type: 'cover',
+      cover: '50% 50%',
+    },
+    resourceRef: 'bg.jpg',
+  },
+  title: {
+    ...Component.defaultContent.title,
+  },
+  subtitle: {
+    ...Component.defaultContent.subtitle,
+    color: 'light-shade-color',
+  },
+  'cta-2': {
+    ...Component.defaultContent['cta-2'],
+    type: 'secondary',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  align: {
+    children: [
+      {id: 'left', label: 'left'},
+      {id: 'center', label: 'center'},
+      {id: 'right', label: 'right'},
+    ],
+    defaultValue: 'center',
+    name: 'Aligning',
+    type: 'radio-button-group',
+    style: 'buttons',
+  },
+  'primary-btn': {defaultValue: false, label: 'Button', type: 'hidden'},
 }
 
 export default ExtendedWireframe
