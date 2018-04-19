@@ -1,3 +1,45 @@
 @import "wireframe-series-2-gallery/src/style.css";
 
 /* start here */
+.section__header {
+  margin-bottom: 50px;
+}
+
+.item__picture {
+  border-radius: 24px;
+
+  @media (min-width: 992px) {
+    max-width: 270px;
+    min-height: 180px;
+  }
+}
+
+.items-wrapper {
+  :global {
+    .slick-arrow {
+      width: 20px;
+
+      &.slick-next {
+        right: -25px;
+      }
+
+      &::before {
+        content: none;
+      }
+
+      &.slick-prev {
+        left: -25px;
+      }
+
+      &::after {
+        content: none;
+      }
+    }
+
+    .slick-center {
+      &.picture {
+        box-shadow: none;
+      }
+    }
+  }
+}
