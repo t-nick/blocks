@@ -2,7 +2,7 @@
 
 /* start here */
 .section {
-  border: 1px solid var(--ui-light-shade-color);
+  border-bottom: 1px solid var(--ui-light-shade-color);
 
   @media (min-width: 992px) {
     padding-top: 135px;
