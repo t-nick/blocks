@@ -11,6 +11,44 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  formBackground: {
+    type: 'color',
+    color: '#fff',
+  },
+  socialIcons: {
+    networks: [
+      {
+        id: 'facebook',
+        name: 'Facebook',
+        url: 'http://facebook.com/',
+      },
+      {
+        id: 'instagram',
+        name: 'Instagram',
+        url: 'http://instagram.com/',
+      },
+      {
+        id: 'twitter',
+        name: 'Twitter',
+        url: 'http://twitter.com/',
+      },
+      {
+        id: 'linkedin',
+        name: 'LinkedIn',
+        url: 'http://linkedin.com/',
+      },
+    ],
+    target: '_blank',
+    design: {
+      border: 'circle',
+      innerFill: true,
+      preset: 'preset001',
+      offset: 3,
+      color: '#cdcdcd',
+      sizes: [10, 20, 30, 40],
+      size: 27,
+    },
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
