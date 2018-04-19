@@ -11,10 +11,34 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  gallery: [
+    {
+      ...Component.defaultContent.gallery[0],
+      picture: {
+        ...Component.defaultContent.gallery[0].picture,
+        resourceRef: 'img1.jpg',
+      },
+    },
+    {
+      ...Component.defaultContent.gallery[1],
+      picture: {
+        ...Component.defaultContent.gallery[1].picture,
+        resourceRef: 'img2.jpg',
+      },
+    },
+    {
+      ...Component.defaultContent.gallery[3],
+      picture: {
+        ...Component.defaultContent.gallery[3].picture,
+        resourceRef: 'img3.jpg',
+      },
+    },
+  ],
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  title: {defaultValue: false, label: 'Gallery title', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
