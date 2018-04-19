@@ -16,30 +16,19 @@ ExtendedWireframe.defaultContent = {
       title: {
         content: 'First Service',
         type: 'heading',
-        color: 'var(--ui-light-shade-color)',
-        brightness: 20,
+        color: 'light-shade-color',
       },
       text: {
         content: 'The Emerald Buddha is a figurine sitting Budha, that is the is the palladium of the Kingdom of Thailand. The Buddha is made of green jade, suprisingly not of emerald, clothed in gold is approximately 45 cm tall.',
         type: 'text',
-        brightness: 80,
-        color: 'var(--ui-light-shade-color)',
+        color: 'light-shade-color',
       },
       picture: {
         resourceRef: 'depositphotos-10545110-original.png',
         alt: 'Quantum E-commerce illustration',
       },
       cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
+        ...Component.defaultContent.services[0].cta,
         textValue: 'Main button (M)',
         type: 'primary',
       },
@@ -48,45 +37,26 @@ ExtendedWireframe.defaultContent = {
       title: {
         content: 'Second Service',
         type: 'heading',
-        color: 'var(--ui-light-shade-color)',
+        color: 'light-shade-color',
       },
       text: {
         content: 'The preservation of human life is the ultimate value, a pillar of ethics and the foundation of all morality. This held true in most cultures and societies throughout history. On first impression, the last sentence sounds',
         type: 'text',
-        brightness: 80,
-        color: 'var(--ui-light-shade-color)',
+        color: 'light-shade-color',
       },
       picture: {
         resourceRef: 'depositphotos-173481506-original.png',
         alt: 'Quantum Aftersales illustration',
       },
       cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
+        ...Component.defaultContent.services[0].cta,
         textValue: 'Main button (M)',
         type: 'primary',
       },
     },
   ],
   cta: {
-    actionConfig: {
-      action: 'link',
-      actions: {
-        link: {
-          type: '',
-          innerPage: '',
-          url: '',
-        },
-      },
-    },
+    ...Component.defaultContent.cta,
     textValue: 'Additional button (L)',
     type: 'secondary',
     size: 'lg',
