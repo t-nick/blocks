@@ -1,5 +1,13 @@
 @import "wireframe-series-2-about/src/style.css";
 
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+}
+
 .article {
   padding-left: 0;
 
@@ -27,6 +35,10 @@
       margin-bottom: 30px;
       background-color: var(--ui-brand-color);
     }
+  }
+
+  &__subheading {
+    margin-bottom: 60px;
   }
 
   &__text {

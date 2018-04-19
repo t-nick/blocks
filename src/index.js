@@ -22,50 +22,26 @@ ExtendedWireframe.defaultContent = {
   title: {
     content: 'Sed cursus feugiat',
     type: 'heading',
-    color: '#676a73',
   },
   heading: {
     content: "Let's talk about us",
     type: 'blockTitle',
-    color: '#222328',
   },
   subheading: {
     content:
       'Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,<br/>quis gravida magna mi a libero. Fusce vulputate eieifend sapien.',
     type: 'subheading',
-    color: '#676a73',
   },
   text: {
     content:
       'Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum<br/>volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum.<br/>Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed<br/>lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque<br/>facilisis. Etiam imperdiet imperdiet orci.',
     type: 'text',
-    color: '#676a73',
   },
   'button-1': {
-    actionConfig: {
-      action: 'link',
-      actions: {
-        link: {
-          type: '',
-          innerPage: '',
-          url: '',
-        },
-      },
-    },
     textValue: 'Read more',
     type: 'primary',
   },
   'button-2': {
-    actionConfig: {
-      action: 'link',
-      actions: {
-        link: {
-          type: '',
-          innerPage: '',
-          url: '',
-        },
-      },
-    },
     textValue: 'Read more',
     type: 'secondary',
   },
@@ -111,35 +87,9 @@ ExtendedWireframe.defaultContent = {
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
-  align: {
-    children: [
-      {id: 'left', label: 'Left'},
-      {id: 'center', label: 'Center'},
-      {id: 'right', label: 'Right'},
-    ],
-    defaultValue: 'left',
-    name: 'Aligning',
-    type: 'radio-button-group',
-  },
   heading: {defaultValue: true, label: 'Company title', type: 'checkbox'},
-  subheading: {
-    defaultValue: true,
-    label: 'Company description',
-    type: 'checkbox',
-  },
-  text: {defaultValue: true, label: 'Company main text', type: 'checkbox'},
-  'social-icons': {
-    defaultValue: true,
-    label: 'Social media buttons',
-    type: 'checkbox',
-  },
+  subheading: {defaultValue: true, label: 'Company description', type: 'checkbox'},
   button: {defaultValue: true, label: 'Button', type: 'checkbox'},
-  'additional-button': {
-    defaultValue: true,
-    label: 'Additional button',
-    type: 'checkbox',
-  },
-  'top-caption': {defaultValue: false, label: 'Top caption', type: 'hidden'},
 }
 
 export default ExtendedWireframe
