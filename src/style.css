@@ -44,7 +44,10 @@
 
     p {
       margin-bottom: 1px;
-      font-size: var(--ui-subheading-size);
+
+      @media (min-width: 992px) {
+        font-size: var(--ui-subheading-size);
+      }
     }
   }
 }

@@ -96,6 +96,7 @@ ExtendedWireframe.defaultContent = {
     },
     textValue: 'More Info',
     type: 'secondary-alt',
+    size: 'lg',
   },
   background: {
     type: 'gradient',
