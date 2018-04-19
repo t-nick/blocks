@@ -1,3 +1,7 @@
 @import "wireframe-series-2-gallery/src/style.css";
 
 /* start here */
+
+.item__picture img {
+  width: 100%;
+}
