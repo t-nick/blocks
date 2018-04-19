@@ -16,13 +16,15 @@ ExtendedWireframe.defaultContent = {
     color: 'dark-shade-color',
   },
   copyright: {
+    ...Component.defaultContent.copyright,
     content: 'Produced by Weblium.com.',
   },
   additional: {
+    ...Component.defaultContent.additional,
     content: 'All rights Reserved',
   },
-  title: 'Design title',
   logo: {
+    ...Component.defaultContent.logo,
     image: {
       resourceRef: 'asam.png',
       alt: 'asam.',
