@@ -15,7 +15,7 @@ ExtendedWireframe.defaultContent = {
     {
       title: {
         content: 'Insured and Professional Cleaners',
-        type: 'heading',
+        type: 'subheading',
       },
       description: {
         content: 'We have an extensive experience and successfully completed more than 10 000 projects.',
@@ -28,7 +28,7 @@ ExtendedWireframe.defaultContent = {
     {
       title: {
         content: 'No Contracts, No Admin Fees',
-        type: 'heading',
+        type: 'subheading',
       },
       description: {
         content: 'We appreciate each client and consider all demands throughout our cooperation.',
@@ -41,7 +41,7 @@ ExtendedWireframe.defaultContent = {
     {
       title: {
         content: 'Eco-Friendly Detergents',
-        type: 'heading',
+        type: 'subheading',
       },
       description: {
         content: 'We use modern technologies and advanced solutions to develop our products.',
@@ -54,7 +54,7 @@ ExtendedWireframe.defaultContent = {
     {
       title: {
         content: 'Same-Day Booking Available',
-        type: 'heading',
+        type: 'subheading',
       },
       description: {
         content: 'We offer multifunctional programs that include the needed set of features and support services.',
@@ -67,7 +67,7 @@ ExtendedWireframe.defaultContent = {
     {
       title: {
         content: 'Superior Customer Service',
-        type: 'heading',
+        type: 'subheading',
       },
       description: {
         content: 'We offer multifunctional programs that include the needed set of features and support services.',
@@ -80,7 +80,7 @@ ExtendedWireframe.defaultContent = {
     {
       title: {
         content: '100% Satisfaction Guarantee',
-        type: 'heading',
+        type: 'subheading',
       },
       description: {
         content: 'We offer multifunctional programs that include the needed set of features and support services.',
