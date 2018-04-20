@@ -28,23 +28,11 @@ ExtendedWireframe.defaultContent = {
   },
   'cta-2': {
     ...Component.defaultContent['cta-2'],
-    type: 'secondary',
   },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
-  align: {
-    children: [
-      {id: 'left', label: 'left'},
-      {id: 'center', label: 'center'},
-      {id: 'right', label: 'right'},
-    ],
-    defaultValue: 'center',
-    name: 'Aligning',
-    type: 'radio-button-group',
-    style: 'buttons',
-  },
   'primary-btn': {defaultValue: false, label: 'Button', type: 'hidden'},
 }
 
