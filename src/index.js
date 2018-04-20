@@ -89,31 +89,13 @@ ExtendedWireframe.defaultContent = {
     },
   ],
   'button-1': {
-    actionConfig: {
-      action: 'link',
-      actions: {
-        link: {
-          type: '',
-          innerPage: '',
-          url: '',
-        },
-      },
-    },
+    ...Component.defaultContent['button-1'],
     textValue: 'Learn more',
     type: 'secondary',
     size: 'lg',
   },
   'button-2': {
-    actionConfig: {
-      action: 'link',
-      actions: {
-        link: {
-          type: '',
-          innerPage: '',
-          url: '',
-        },
-      },
-    },
+    ...Component.defaultContent['button-2'],
     textValue: 'CONTACT US',
     type: 'primary',
     size: 'lg',
@@ -123,11 +105,8 @@ ExtendedWireframe.defaultContent = {
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   subtitle: {defaultValue: true, label: 'Contacts description', type: 'checkbox'},
-  phone: {defaultValue: true, label: 'Phone', type: 'checkbox'},
-  email: {defaultValue: true, label: 'E-mail', type: 'checkbox'},
   button: {defaultValue: true, label: 'Button', type: 'checkbox'},
   'button-secondary': {defaultValue: true, label: 'Additional button', type: 'checkbox'},
-  'top-caption': {defaultValue: false, label: 'Top caption', type: 'hidden'},
 }
 
 export default ExtendedWireframe

@@ -2,6 +2,12 @@
 
 /* start here */
 .section {
+
+  @media (min-width: 992px) {
+    padding-top: 56px;
+    padding-bottom: 110px;
+  }
+
   &__header {
     margin-bottom: 44px;
   }
@@ -16,7 +22,11 @@
 .title {
   text-align: left;
   margin-bottom: 30px;
-  letter-spacing: 1px;
+  letter-spacing: 1.8px;
+
+  @media (min-width: 480px) {
+    font-size: var(--ui-block-title-size);
+  }
 }
 
 .subtitle {
@@ -38,7 +48,7 @@
   }
 }
 
-.article {  
+.article {
   &__title {
     text-align: left;
     margin-bottom: 22px;
@@ -54,6 +64,7 @@
   }
 
   &__text {
+    letter-spacing: 0.5px;
     text-align: left;
 
     p {
