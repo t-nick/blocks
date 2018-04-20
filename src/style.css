@@ -1,3 +1,57 @@
 @import "wireframe-series-1-partners/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.title {
+  margin-bottom: 35px;
+}
+
+.subtitle {
+  max-width: 570px;
+}
+
+.item {
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 768px) {
+    width: 170px;
+    height: 170px;
+    background-color: #383838;
+    border-radius: 50px;
+  }
+}
+
+.logo {
+  display: flex;
+  height: 140px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--ui-dark-shade-color);
+  border-radius: 10px;
+
+  @media (min-width: 768px) {
+    width: 140px;
+  }
+}
+
+.items-wrapper--only-logo .item--logo {
+
+  @media (min-width: 992px) {
+    margin: 0 15px;
+  }
+}
+
+.btns-group--offset-sm {
+
+  @media (min-width: 992px) {
+    padding-top: 40px;
+  }
+}
