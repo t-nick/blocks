@@ -11,12 +11,14 @@
 
 .preview-slider {
   :global {
-    .slick-initialized .slick-slide {
-      img {
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 20px;
+    .slick-initialized {
+      .slick-slide {
+        img {
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+          border-bottom-right-radius: 20px;
+          border-bottom-left-radius: 20px;
+        }
       }
     }
   }
@@ -30,6 +32,18 @@
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 20px;
+      }
+    }
+
+    .slick-arrow.slick-prev {
+      &::before {
+        content: " ";
+      }
+    }
+
+    .slick-arrow.slick-next {
+      &::before {
+        content: " ";
       }
     }
   }
