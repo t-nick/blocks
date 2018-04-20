@@ -5,14 +5,14 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   position: relative;
-  margin-bottom: 45px;
+  margin-bottom: 37px;
 
   &::after {
     content: "";
     display: block;
     position: absolute;
     top: 100%;
-    margin-top: 20px;
+    margin-top: 12px;
     left: calc(50% - 10px);
     height: 3px;
     width: 20px;
@@ -23,7 +23,10 @@
 .section {
 
   @media (min-width: 992px) {
-    padding: 80px 0 85px;
+    padding-top: 80px;
+    padding-bottom: 85px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   &__header {
@@ -32,33 +35,40 @@
 }
 
 .item {
-  padding: 0 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 15px;
+  padding-left: 15px;
 
   &__inner {
+    min-height: auto;
 
     @media (min-width: 992px) {
-      padding: 40px 35px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      padding-right: 35px;
+      padding-left: 35px;
     }
   }
 
   &__desc {
-    margin-bottom: 15px;
+    margin-bottom: 8px;
   }
 
   &__title {
-    margin-bottom: 15px;
+    margin-bottom: 7px;
   }
 
   &__time {
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 
     &::after {
       content: "";
       display: block;
       position: absolute;
       top: 100%;
-      margin-top: 27px;
+      margin-top: 25px;
       left: calc(50% - 10px);
       height: 3px;
       width: 20px;
