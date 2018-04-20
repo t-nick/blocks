@@ -16,13 +16,10 @@
 
   &__subheading {
     margin-bottom: 25px;
-    line-height: 1.67;
     letter-spacing: 1px;
-    font-size: var(--ui-subheading-size);
   }
 
   &__heading {
-    line-height: 1.45;
     letter-spacing: 1px;
 
     @media (min-width: 768px) {
@@ -52,6 +49,7 @@
       bottom: -20px;
       left: 75px;
       border: solid 5px var(--ui-light-accent-color);
+      opacity: 0.8;
       z-index: -1;
 
       @media (min-width: 768px) {
@@ -68,7 +66,6 @@
     position: relative;
     max-width: 470px;
     margin-bottom: 30px;
-    line-height: 1.75;
     letter-spacing: 0.5px;
     margin-top: 18px;
 
