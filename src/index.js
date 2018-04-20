@@ -11,6 +11,42 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  background: {
+    type: 'color',
+    color: '#ffffff',
+  },
+  gallery: [{
+    image: {
+      resourceRef: 'gallery-img-1.png',
+      alt: 'Gallery image',
+    },
+  },
+  {
+    image: {
+      resourceRef: 'gallery-img-2.png',
+      alt: 'Gallery image',
+    },
+  },
+  {
+    image: {
+      resourceRef: 'gallery-img-3.png',
+      alt: 'Gallery image',
+    },
+  },
+  {
+    image: {
+      resourceRef: 'gallery-img-4.png',
+      alt: 'Gallery image',
+    },
+  }],
+  button: {
+    type: 'secondary',
+    textValue: 'View All Team',
+  },
+  title: {
+    content: 'Our team',
+    type: 'blockTitle',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {

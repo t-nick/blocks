@@ -42,7 +42,7 @@
     "at-rule-no-vendor-prefix": true,
     "max-nesting-depth": 4,
     "declaration-no-important": true,
-    "selector-max-compound-selectors": 3,
+    "selector-max-compound-selectors": 6,
     "selector-no-qualifying-type": true,
     "selector-combinator-space-after": "always",
     "selector-attribute-quotes": "always",

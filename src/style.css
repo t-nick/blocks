@@ -1,3 +1,56 @@
 @import "wireframe-series-3-gallery/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+}
+
+.preview-slider {
+  :global {
+    .slick-initialized .slick-slide {
+      img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+      }
+    }
+  }
+}
+
+.items-wrapper {
+  :global {
+    .slick-slide {
+      img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    margin: 0;
+  }
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.item {
+  padding: 0 12px;
+
+  &__picture {
+    background-color: transparent;
+  }
+}
+
+.btns-group {
+  padding-top: 60px;
+}
