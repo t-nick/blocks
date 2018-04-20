@@ -33,19 +33,34 @@
 
   &__title {
     position: relative;
-    padding-left: 170px;
+    margin-bottom: 35px;
+    padding-left: 110px;
+    letter-spacing: 1.8px;
     text-align: left;
     z-index: 1;
+
+    @media (min-width: 768px) {
+      margin-bottom: 20px;
+      padding-left: 170px;
+    }
 
     &::before {
       content: "";
       position: absolute;
-      width: 140px;
-      height: 140px;
-      bottom: -43px;
-      left: 100px;
-      border: solid 8px #f1f2f5;
+      width: 65px;
+      height: 65px;
+      bottom: -20px;
+      left: 75px;
+      border: solid 5px var(--ui-light-accent-color);
       z-index: -1;
+
+      @media (min-width: 768px) {
+        width: 140px;
+        height: 140px;
+        bottom: -47px;
+        left: 98px;
+        border-width: 8px;
+      }
     }
   }
 
@@ -69,11 +84,18 @@
       height: 4px;
       top: 13px;
       left: 0;
-      background-color: #484a56;
+      background-color: var(--ui-dark-shade-color);
 
       @media (min-width: 768px) {
         display: block;
       }
     }
+  }
+}
+
+.btns-group {
+
+  @media (min-width: 768px) {
+    padding-left: 100px;
   }
 }
