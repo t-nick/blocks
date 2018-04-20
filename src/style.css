@@ -4,18 +4,15 @@
 .title {
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: var(--ui-hero-title-color);
   position: relative;
-
-  @media (min-width: 992px) {
-    margin-bottom: 45px;
-  }
+  margin-bottom: 45px;
 
   &::after {
     content: "";
     display: block;
     position: absolute;
-    top: 40px;
+    top: 100%;
+    margin-top: 20px;
     left: calc(50% - 10px);
     height: 3px;
     width: 20px;
@@ -35,6 +32,8 @@
 }
 
 .item {
+  padding: 0 15px;
+
   &__inner {
 
     @media (min-width: 992px) {
@@ -43,25 +42,14 @@
   }
 
   &__desc {
-    color: var(--ui-text-color);
     margin-bottom: 15px;
   }
 
   &__title {
-    font-size: var(--ui-subtitle-size);
     margin-bottom: 15px;
   }
 
-  &__position {
-    font-size: var(--ui-text-size);
-    font-weight: var(--ui-text-font-weight);
-    color: var(--ui-caption-color);
-  }
-
   &__time {
-    font-size: var(--ui-text-size);
-    color: var(--ui-caption-color);
-    font-weight: var(--ui-text-font-weight);
     position: relative;
     margin-bottom: 60px;
 
@@ -69,7 +57,8 @@
       content: "";
       display: block;
       position: absolute;
-      top: 55px;
+      top: 100%;
+      margin-top: 27px;
       left: calc(50% - 10px);
       height: 3px;
       width: 20px;

@@ -110,12 +110,7 @@ ExtendedWireframe.defaultContent = {
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
-  title: {defaultValue: true, label: 'Block title', type: 'checkbox'},
   subtitle: {defaultValue: true, label: 'Testimonials description', type: 'checkbox'},
-  heading: {defaultValue: true, label: 'Reviewer name', type: 'checkbox'},
-  position: {defaultValue: true, label: 'Reviewer job position', type: 'checkbox'},
-  date: {defaultValue: true, label: 'Date of publishing', type: 'checkbox'},
-  button: {defaultValue: true, label: 'Button', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
