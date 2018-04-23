@@ -49,7 +49,20 @@
           "color": [
             "brand?spin=-44",
             "brand?spin=-44"
-          ]
+          ],
+          "gradient": {
+            "colors": [
+              [
+                "brand?spin=-44",
+                "brand?spin=-44"
+              ],
+              [
+                "brand?spin=-44",
+                "transparent"
+              ]
+            ],
+            "angle": "90deg"
+          }
         },
         "color": [
           "lightShade",
@@ -72,7 +85,20 @@
         "bg": {
           "color": [
             "brand"
-          ]
+          ],
+          "gradient": {
+            "colors": [
+              [
+                "brand",
+                "brand"
+              ],
+              [
+                "transparent",
+                "transparent"
+              ]
+            ],
+            "angle": "90deg"
+          }
         },
         "border": {
           "color": [
