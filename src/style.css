@@ -1,3 +1,30 @@
 @import "wireframe-series-3-header/src/style.css";
 
 /* start here */
+
+.header__text a {
+  color: var(--ui-dark-shade-color);
+  text-decoration: none;
+  font-size: calc( var(--ui-subheading-size) * 0.778 );
+}
+
+.header {
+  &__main {
+    padding: 30px 10px;
+  }
+
+  &__top-line {
+    padding: 3px 10px 18px;
+  }
+}
+
+.nav {
+  &__link {
+    font-size: calc( var(--ui-subheading-size) * 0.68 );
+  }
+
+  &__item {
+    margin-left: 25px;
+    margin-top: 0;
+  }
+}
