@@ -51,6 +51,7 @@
             "brand?spin=-44"
           ],
           "gradient": {
+            "angle": "90deg",
             "colors": [
               [
                 "brand?spin=-44",
@@ -60,8 +61,7 @@
                 "brand?spin=-44",
                 "brand?spin=-44"
               ]
-            ],
-            "angle": "90deg"
+            ]
           }
         },
         "color": [
@@ -134,34 +134,6 @@
         "bg": {
           "color": [
             "transparent",
-            "transparent"
-          ]
-        },
-        "border": {
-          "color": [
-            "lightShade?lighten=-19.61",
-            "lightShade"
-          ]
-        },
-        "color": [
-          "darkShade?lighten=33.33",
-          "lightShade"
-        ],
-        "fontWeight": 500,
-        "shadow": {
-          "blur": "36px",
-          "color": [
-            "lightShade",
-            "darkAccent?saturate=-49.32&lighten=-30&spin=-6"
-          ],
-          "spread": "1.1px",
-          "y": "10px"
-        }
-      },
-      "hover": {
-        "bg": {
-          "color": [
-            "lightShade",
             "lightShade"
           ]
         },
@@ -179,7 +151,35 @@
         "shadow": {
           "blur": "36px",
           "color": [
-            "lightShade?saturate=4.55&lighten=-8.63&spin=270",
+            "lightShade?lighten=-8.63",
+            "darkAccent?saturate=-49.32&lighten=-30&spin=-6"
+          ],
+          "spread": "1.1px",
+          "y": "10px"
+        }
+      },
+      "hover": {
+        "bg": {
+          "color": [
+            "lightShade",
+            "transparent"
+          ]
+        },
+        "border": {
+          "color": [
+            "lightShade?lighten=-19.61",
+            "lightShade"
+          ]
+        },
+        "color": [
+          "darkShade?lighten=33.33",
+          "lightShade"
+        ],
+        "fontWeight": 500,
+        "shadow": {
+          "blur": "36px",
+          "color": [
+            "transparent",
             "darkAccent?saturate=-49.32&lighten=-30&spin=-6"
           ],
           "spread": "1.1px",
