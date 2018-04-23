@@ -90,13 +90,11 @@
   }
 
   &__price-numbers {
-    color: var(--ui-heading-color);
     margin-bottom: 8px;
   }
 
   &__price-info {
     text-transform: uppercase;
-    opacity: 0.5;
   }
 
   &__desc {
