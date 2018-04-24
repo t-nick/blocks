@@ -85,14 +85,14 @@ ExtendedWireframe.defaultContent = {
     ...Component.defaultContent['button-secondary'],
     textValue: 'Read more',
   },
-  background: {
-    type: 'image',
-    position: {
-      type: 'cover',
-      cover: '50% 50%',
-    },
-    resourceRef: 'bg.jpg',
-  },
+  // background: {
+  //   type: 'image',
+  //   position: {
+  //     type: 'cover',
+  //     cover: '50% 50%',
+  //   },
+  //   resourceRef: 'bg.jpg',
+  // },
 }
 
 ExtendedWireframe.modifierScheme = {

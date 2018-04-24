@@ -29,7 +29,6 @@
   margin-bottom: 63px;
 
   &::after {
-    display: block;
     content: "";
     width: 70px;
     height: 3px;
@@ -58,7 +57,6 @@
     }
 
     &::after {
-      display: block;
       content: "";
       width: 30px;
       height: 3px;
