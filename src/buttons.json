@@ -132,13 +132,48 @@
       "active": {
         "bg": {
           "color": [
+            "transparent",
             "transparent"
           ]
-        }
+        },
+        "color": [
+          "darkShade?lighten=2.35",
+          "lightShade"
+        ]
       }
     },
     "secondaryAlt": {
       "default": {
+        "bg": {
+          "color": [
+            "lightShade?lighten=-7.84",
+            "lightShade"
+          ]
+        },
+        "color": [
+          "darkShade?lighten=2.35",
+          "darkShade?lighten=2.35"
+        ],
+        "border": {
+          "color": [
+            "lightShade?lighten=-19.61",
+            "darkShade?lighten=35.69"
+          ]
+        }
+      },
+      "hover": {
+        "bg": {
+          "color": [
+            "transparent",
+            "transparent"
+          ]
+        },
+        "color": [
+          "darkShade?lighten=2.35",
+          "lightShade"
+        ]
+      },
+      "active": {
         "bg": {
           "color": [
             "lightShade?darken=7.84",
@@ -151,23 +186,8 @@
         ],
         "border": {
           "color": [
-            "lightShade?darken=19.61",
+            "lightShade?lighten=-19.61",
             "darkShade?lighten=35.69"
-          ]
-        }
-      },
-      "hover": {
-        "bg": {
-          "color": [
-            "transparent"
-          ]
-        }
-      },
-      "active": {
-        "bg": {
-          "color": [
-            "lightShade?darken=7.84",
-            "lightShade"
           ]
         }
       }
