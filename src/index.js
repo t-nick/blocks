@@ -24,55 +24,48 @@ ExtendedWireframe.defaultContent = {
   },
   awards: [
     {
+      ...Component.defaultContent.awards[0],
       title: {
+        ...Component.defaultContent.awards[0].title,
         content: 'Most Innovative<br/>Solutions for<br/>Companies (2016)',
-        type: 'heading',
       },
       picture: {
-        resourceRef: 'icon-1.svg',
-        alt: '',
+        ...Component.defaultContent.awards[0].picture,
+        resourceRef: 'icon-1.png',
       },
     },
     {
+      ...Component.defaultContent.awards[1],
       title: {
+        ...Component.defaultContent.awards[1].title,
         content: 'Best Customer<br/>Approach<br/>at the World<br/>Conference (2014)',
-        type: 'heading',
       },
       picture: {
-        resourceRef: 'icon-2.svg',
-        alt: 'Award "Best Service Provider"',
+        ...Component.defaultContent.awards[1].picture,
+        resourceRef: 'icon-2.png',
       },
     },
     {
+      ...Component.defaultContent.awards[2],
       title: {
-        content: 'Comfortable and<br/>Modern Office<br/> Design (2012)',
-        type: 'heading',
+        ...Component.defaultContent.awards[2].title,
+        content: 'Comfortable and<br/>Modern Office<br/>Design (2012)',
       },
       picture: {
-        resourceRef: 'icon-3.svg',
-        alt: 'Award "Comfortable and Modern Office Design"',
+        ...Component.defaultContent.awards[2].picture,
+        resourceRef: 'icon-3.png',
       },
     },
   ],
-  title: {
-    content: 'Awards',
-    type: 'blockTitle',
-  },
   subtitle: {
-    content: 'We’re proud of our awards! Look, what we’ve already won:',
-    type: 'subtitle',
+    ...Component.defaultContent.subtitle,
+    type: 'blockTitle',
   },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
-  title: {defaultValue: true, label: 'Block title', type: 'checkbox'},
-  subtitle: {
-    defaultValue: true,
-    label: 'Awards description',
-    type: 'checkbox',
-  },
-  heading: {defaultValue: true, label: 'Award title', type: 'checkbox'},
+
 }
 
 export default ExtendedWireframe
