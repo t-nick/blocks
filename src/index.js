@@ -24,7 +24,7 @@ ExtendedWireframe.defaultContent = {
       value: {
         content: '128',
         type: 'blockTitle',
-        color: '#1e252f',
+        color: 'darkShadeColor',
       },
     },
     {
@@ -39,7 +39,7 @@ ExtendedWireframe.defaultContent = {
       value: {
         content: '527',
         type: 'blockTitle',
-        color: '#1e252f',
+        color: 'darkShadeColor',
       },
     },
     {
@@ -54,7 +54,7 @@ ExtendedWireframe.defaultContent = {
       value: {
         content: '92',
         type: 'blockTitle',
-        color: '#1e252f',
+        color: 'darkShadeColor',
       },
     },
   ],
@@ -85,15 +85,13 @@ ExtendedWireframe.defaultContent = {
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
-  body: {defaultValue: true, label: 'Numbers description', type: 'checkbox'},
-  button: {defaultValue: false, label: 'Button', type: 'checkbox'},
+  button: {defaultValue: false, label: 'Button', type: 'hidden'},
   'number-title': {
     defaultValue: false,
     label: 'Additional information on numbers',
-    type: 'checkbox',
+    type: 'hidden',
   },
-  title: {defaultValue: false, label: 'Block title', type: 'checkbox'},
-  'top-icon': {defaultValue: false, label: 'Top icon decorator', type: 'hidden'},
+  title: {defaultValue: false, label: 'Block title', type: 'hidden'},
 }
 
 export default ExtendedWireframe
