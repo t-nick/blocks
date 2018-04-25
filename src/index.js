@@ -15,7 +15,6 @@ ExtendedWireframe.defaultContent = {
     content: 'Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had ',
     type: 'subtitle',
   },
-
   gallery: [
     {
       ...Component.defaultContent.gallery[0],
@@ -39,7 +38,6 @@ ExtendedWireframe.defaultContent = {
       },
     },
   ],
-
 }
 
 ExtendedWireframe.modifierScheme = {
