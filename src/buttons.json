@@ -1,94 +1,188 @@
 {
-  "name": "Buttons 1",
   "general": {
-    "fontFamily": "'Lato', sans-serif",
-    "borderWidth": "1px"
+    "fontFamily": "'Poppins', sans-serif",
+    "textTransform": "uppercase",
+    "letterSpacing": "2px"
   },
-  "size": {
-    "sm": {
-      "padding": "10px 16px",
-      "borderRadius": 0,
-      "fontSize": "14px"
-    },
-    "md": {
-      "padding": "14px 40px",
-      "borderRadius": 0,
-      "fontSize": "14px"
-    },
-    "lg": {
-      "padding": "20px 56px",
-      "borderRadius": 0,
-      "fontSize": "16px"
-    }
-  },
+  "name": "Wailmer buttons",
   "settings": {
     "primary": {
       "default": {
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "brand",
+            "brand"
+          ],
+          "gradient": {
+            "colors": [
+              [
+                "transparent",
+                "transparent"
+              ],
+              [
+                "lightAccent",
+                "brand?saturate=14.17&lighten=5.88"
+              ]
+            ],
+            "angle": "90deg"
+          }
         },
-        "color": ["lightShade"],
         "border": {
-          "color": ["transparent"]
-        }
+          "color": [
+            "transparent"
+          ]
+        },
+        "color": [
+          "lightShade"
+        ],
+        "fontWeight": 700
       },
       "hover": {
         "bg": {
-          "color": ["darkShade", "lightShade"]
+          "color": [
+            "brand?saturate=-31.91&lighten=-21.96",
+            "brand?saturate=-31.91&lighten=-21.96"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
-      }
-    },
-    "primaryAlt": {
-      "default": {
-        "bg": {
-          "color": ["darkShade", "lightShade"]
-        },
-        "color": ["lightShade", "darkShade"],
-        "border": {
-          "color": ["transparent"]
-        }
-      },
-      "hover": {
-        "bg": {
-          "color": ["brand"]
-        },
-        "color": ["lightShade"]
+        "color": [
+          "lightShade",
+          "lightShade"
+        ],
+        "fontWeight": 700
       }
     },
     "secondary": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade?lighten=20.9", "lightShade"],
         "border": {
-          "color": ["darkShade?lighten=20.9", "lightShade"]
-        }
+          "color": [
+            "brand",
+            "lightShade"
+          ]
+        },
+        "color": [
+          "brand?saturate=-30.83&lighten=-10.98",
+          "lightShade"
+        ],
+        "fontWeight": 700
       },
       "hover": {
         "bg": {
-          "color": ["darkShade?lighten=20.9", "lightShade"]
+          "color": [
+            "transparent",
+            "transparent"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
+        "color": [
+          "darkShade",
+          "darkShade?saturate=-3.15&lighten=40.39"
+        ],
+        "border": {
+          "color": [
+            "brand",
+            "darkShade?saturate=-3.15&lighten=40.39"
+          ]
+        },
+        "fontWeight": 700
+      }
+    },
+    "primaryAlt": {
+      "default": {
+        "bg": {
+          "color": [
+            "brand",
+            "brand"
+          ]
+        },
+        "border": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "color": [
+          "lightShade"
+        ],
+        "fontWeight": 700
+      },
+      "hover": {
+        "bg": {
+          "color": [
+            "brand?saturate=-31.91&lighten=-21.96",
+            "brand?saturate=-31.91&lighten=-21.96"
+          ]
+        },
+        "color": [
+          "lightShade",
+          "lightShade"
+        ],
+        "fontWeight": 700
       }
     },
     "secondaryAlt": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade?lighten=20.9", "lightShade"],
         "border": {
-          "color": ["brand", "lightShade"]
-        }
+          "color": [
+            "brand",
+            "lightShade"
+          ]
+        },
+        "color": [
+          "brand?saturate=-30.83&lighten=-10.98",
+          "lightShade"
+        ],
+        "fontWeight": 700
       },
       "hover": {
         "bg": {
-          "color": ["brand", "lightShade"]
+          "color": [
+            "transparent",
+            "transparent"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
+        "color": [
+          "darkShade",
+          "darkShade?saturate=-3.15&lighten=40.39"
+        ],
+        "border": {
+          "color": [
+            "brand",
+            "darkShade?saturate=-3.15&lighten=40.39"
+          ]
+        },
+        "fontWeight": 700
       }
+    }
+  },
+  "size": {
+    "lg": {
+      "borderRadius": "0px",
+      "borderWidth": "2px",
+      "fontSize": "15px",
+      "padding": "17px 35px 17px 35px",
+      "lineHeight": 1.75
+    },
+    "md": {
+      "borderRadius": "0px",
+      "borderWidth": "2px",
+      "fontSize": "14px",
+      "padding": "11px 30px 11px 30px",
+      "lineHeight": 2
+    },
+    "sm": {
+      "borderRadius": "0px",
+      "borderWidth": "2px",
+      "fontSize": "14px",
+      "padding": "5px 25px 5px 25px",
+      "lineHeight": 2
     }
   }
 }
