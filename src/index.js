@@ -24,14 +24,21 @@ ExtendedWireframe.defaultContent = {
       ...Component.defaultContent.gallery[0],
       image: {
         ...Component.defaultContent.gallery[0].image,
-        resourceRef: 'raphael-koh-117599.jpg',
+        resourceRef: 'samuel-zeller-241197.jpg',
       },
     },
     {
       ...Component.defaultContent.gallery[1],
       image: {
         ...Component.defaultContent.gallery[1].image,
-        resourceRef: 'samuel-zeller-241197.jpg',
+        resourceRef: 'raphael-koh-117599.jpg',
+      },
+    },
+    {
+      ...Component.defaultContent.gallery[2],
+      image: {
+        ...Component.defaultContent.gallery[2].image,
+        resourceRef: 'scott-webb-176434.jpg',
       },
     },
     {
