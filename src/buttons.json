@@ -35,12 +35,12 @@
           ]
         },
         "color": [
-          "darkShade",
+          "brand?saturate=-3.33&lighten=-11.76&spin=-30",
           "lightAccent"
         ],
         "border": {
           "color": [
-            "darkShade",
+            "brand?saturate=-3.33&lighten=-11.76&spin=-30",
             "lightAccent"
           ]
         }
@@ -48,12 +48,12 @@
       "hover": {
         "bg": {
           "color": [
-            "darkShade",
+            "brand?saturate=-3.33&lighten=-11.76&spin=-30",
             "lightAccent"
           ]
         },
         "color": [
-          "lightShade",
+          "lightShade?lighten=-1.96",
           "darkShade"
         ],
         "border": {
@@ -71,12 +71,12 @@
           ]
         },
         "color": [
-          "darkShade",
+          "brand?saturate=-3.33&lighten=-11.76&spin=-30",
           "lightAccent"
         ],
         "border": {
           "color": [
-            "darkShade",
+            "brand?saturate=-3.33&lighten=-11.76&spin=-30",
             "lightAccent"
           ]
         }
@@ -91,12 +91,12 @@
           ]
         },
         "color": [
-          "darkShade",
+          "brand?saturate=-3.33&lighten=-11.76&spin=-30",
           "lightAccent"
         ],
         "border": {
           "color": [
-            "darkShade",
+            "brand?saturate=-3.33&lighten=-11.76&spin=-30",
             "lightAccent"
           ]
         }
@@ -104,12 +104,12 @@
       "hover": {
         "bg": {
           "color": [
-            "darkShade",
+            "brand?saturate=-3.33&lighten=-11.76&spin=-30",
             "lightAccent"
           ]
         },
         "color": [
-          "lightShade",
+          "lightShade?lighten=-1.96",
           "darkShade"
         ],
         "border": {
@@ -127,12 +127,12 @@
           ]
         },
         "color": [
-          "darkShade",
+          "brand?saturate=-3.33&lighten=-11.76&spin=-30",
           "lightAccent"
         ],
         "border": {
           "color": [
-            "darkShade",
+            "brand?saturate=-3.33&lighten=-11.76&spin=-30",
             "lightAccent"
           ]
         }
@@ -148,25 +148,25 @@
         },
         "color": [
           "darkShade",
-          "lightAccent"
+          "lightShade"
         ],
         "border": {
           "color": [
-            "lightAccent?darken=10.2",
-            "darkShade?lighten=10.2"
+            "darkAccent?lighten=48.24",
+            "darkAccent?lighten=-31.37"
           ]
         }
       },
       "hover": {
         "bg": {
           "color": [
-            "lightAccent?darken=10.2",
-            "darkShade?lighten=10.2"
+            "darkAccent?lighten=48.24",
+            "darkAccent?lighten=-31.37"
           ]
         },
         "color": [
           "darkShade",
-          "lightAccent"
+          "lightShade"
         ],
         "border": {
           "color": [
@@ -184,12 +184,12 @@
         },
         "color": [
           "darkShade",
-          "lightAccent"
+          "lightShade"
         ],
         "border": {
           "color": [
-            "lightAccent?darken=10.2",
-            "darkShade?lighten=10.2"
+            "darkAccent?lighten=48.24",
+            "darkAccent?lighten=-31.37"
           ]
         }
       }
@@ -204,25 +204,25 @@
         },
         "color": [
           "darkShade",
-          "lightAccent"
+          "lightShade"
         ],
         "border": {
           "color": [
-            "lightAccent?darken=10.2",
-            "darkShade?lighten=10.2"
+            "darkAccent?lighten=48.24",
+            "darkAccent?lighten=-31.37"
           ]
         }
       },
       "hover": {
         "bg": {
           "color": [
-            "lightAccent?darken=10.2",
-            "darkShade?lighten=10.2"
+            "darkAccent?lighten=48.24",
+            "darkAccent?lighten=-31.37"
           ]
         },
         "color": [
           "darkShade",
-          "lightAccent"
+          "lightShade"
         ],
         "border": {
           "color": [
@@ -240,12 +240,12 @@
         },
         "color": [
           "darkShade",
-          "lightAccent"
+          "lightShade"
         ],
         "border": {
           "color": [
             "lightAccent?darken=10.2",
-            "darkShade?lighten=10.2"
+            "darkAccent?lighten=-31.37"
           ]
         }
       }
