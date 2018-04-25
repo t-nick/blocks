@@ -80,7 +80,7 @@ ExtendedWireframe.defaultContent = {
   subtitle: {
     ...Component.defaultContent.subtitle,
     content: 'The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence, and upturning of the natural chain of',
-    color: 'var(--ui-dark-shade-color)',
+    color: 'dark-shade-color',
   },
   button: {
     ...Component.defaultContent.button,
