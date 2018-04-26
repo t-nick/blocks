@@ -1,3 +1,110 @@
 @import "wireframe-series-2-cta/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding: 124px 0;
+  }
+
+  &__header {
+
+    @media (min-width: 480px) {
+      padding: 13% 14% 0;
+    }
+  }
+
+  .title {
+
+    @media (min-width: 768px) {
+      font-size: calc(var(--ui-block-title-size) * 0.875);
+      font-weight: 600;
+    }
+  }
+
+  &__inner {
+    position: relative;
+
+    &::before {
+
+      @media (min-width: 768px) {
+        content: "";
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        bottom: -20px;
+        left: -20px;
+        border: 20px solid rgba(255, 255, 255, 0.8);
+      }
+    }
+
+    @media (min-width: 768px) {
+      max-width: 530px;
+      border-radius: 0;
+    }
+  }
+}
+
+.form {
+  padding: 20px;
+
+  @media (min-width: 768px) {
+    padding: 10px 20px 80px;
+  }
+
+  > div,
+  &__item {
+    position: relative;
+    width: 100%;
+    font-size: 0;
+    margin-bottom: 10px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 170px;
+      bottom: 0;
+      left: 50%;
+      margin-left: -85px;
+      border-bottom: 1px solid #cdcdcd;
+    }
+  }
+
+  > div {
+    margin: 60px 0 5px;
+  }
+
+  &__field {
+    position: relative;
+    height: 40px;
+    padding: 12px 30px;
+    text-align: center;
+    font-size: calc(var(--ui-text-size) * 0.75);
+    font-family: var(--ui-heading-font-family);
+    color: var(--ui-text-color);
+    text-transform: uppercase;
+    background: none;
+    margin-top: 0;
+    outline: none;
+
+    @media (min-width: 768px) {
+      max-height: 316px;
+    }
+
+    &::placeholder {
+      color: currentColor;
+    }
+  }
+
+  textarea {
+    min-height: 40px;
+  }
+
+  &__button {
+    text-transform: uppercase;
+
+    @media (min-width: 992px) {
+      width: auto;
+    }
+  }
+}
