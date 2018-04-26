@@ -18,9 +18,14 @@ ExtendedWireframe.defaultContent = {
   map: {
     ...Component.defaultContent.map,
     preset: 'dark',
+    center: {
+      lat: 34.690959,
+      lng: -92.347134,
+    },
     markers: [
 
     ],
+    zoom: 6,
   },
 }
 
