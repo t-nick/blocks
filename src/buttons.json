@@ -10,8 +10,8 @@
       "default": {
         "bg": {
           "color": [
-            "lightShade?lighten=-83.53",
-            "lightShade"
+            "brand",
+            "lightAccent"
           ]
         },
         "border": {
@@ -21,15 +21,15 @@
         },
         "color": [
           "lightShade",
-          "darkShade?saturate=-1.79&lighten=-3.33&spin=-247"
+          "lightShade"
         ],
         "fontWeight": 500
       },
       "hover": {
         "bg": {
           "color": [
-            "lightShade?lighten=-66.67",
-            "lightShade?lighten=-16.86"
+            "darkAccent",
+            "darkAccent"
           ]
         },
         "color": [
@@ -44,13 +44,13 @@
         "bg": {
           "color": [
             "lightShade?lighten=-9.02",
-            "lightShade?saturate=22.34&lighten=-63.14"
+            "brand?saturate=-69.66&lighten=-14.12&spin=-355"
           ]
         },
         "border": {
           "color": [
             "lightShade?lighten=-33.33",
-            "lightShade"
+            "lightShade?lighten=-100"
           ]
         },
         "color": [
@@ -63,7 +63,7 @@
         "bg": {
           "color": [
             "lightShade",
-            "lightShade?saturate=22.53&lighten=-49.61"
+            "lightAccent?saturate=-69.47&lighten=-0.59&spin=-355"
           ]
         },
         "color": [
@@ -77,8 +77,8 @@
       "default": {
         "bg": {
           "color": [
-            "lightShade?lighten=-83.53",
-            "lightShade"
+            "brand",
+            "lightAccent"
           ]
         },
         "border": {
@@ -88,15 +88,15 @@
         },
         "color": [
           "lightShade",
-          "darkShade?saturate=-1.79&lighten=-3.33&spin=-247"
+          "lightShade"
         ],
         "fontWeight": 500
       },
       "hover": {
         "bg": {
           "color": [
-            "lightShade?lighten=-66.67",
-            "lightShade?lighten=-16.86"
+            "darkAccent",
+            "darkAccent"
           ]
         },
         "color": [
@@ -111,13 +111,13 @@
         "bg": {
           "color": [
             "lightShade?lighten=-9.02",
-            "lightShade?saturate=22.34&lighten=-63.14"
+            "brand?saturate=-69.66&lighten=-14.12&spin=-355"
           ]
         },
         "border": {
           "color": [
             "lightShade?lighten=-33.33",
-            "lightShade"
+            "lightShade?lighten=-100"
           ]
         },
         "color": [
@@ -130,7 +130,7 @@
         "bg": {
           "color": [
             "lightShade",
-            "lightShade?saturate=22.53&lighten=-49.61"
+            "lightAccent?saturate=-69.47&lighten=-0.59&spin=-355"
           ]
         },
         "color": [
