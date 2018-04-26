@@ -1,3 +1,75 @@
 @import "wireframe-zapdos-text/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 115px;
+    padding-bottom: 135px;
+  }
+
+  &__inner {
+    display: flex;
+    max-width: 1190px;
+    flex-direction: column;
+  }
+
+  &__header {
+    margin-bottom: 60px;
+  }
+}
+
+.text {
+  max-width: 100%;
+  margin-right: 0;
+  margin-bottom: 15px;
+  padding-left: 5px;
+  order: 1;
+  font-size: calc(var(--ui-text-size) * 0.875);
+  word-break: break-all;
+}
+
+.heading {
+  max-width: 100%;
+  padding-left: 5px;
+  order: 2;
+  font-size: calc(var(--ui-caption-size) * 1.357);
+  font-weight: 700;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.title {
+  position: relative;
+  max-width: 100%;
+  letter-spacing: 0.01em;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 5px;
+    bottom: -3px;
+    left: 5px;
+    transform: skewX(-25deg);
+    background: linear-gradient(
+      to right,
+      var(--ui-brand-color) 0%,
+      var(--ui-brand-color) 60%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0) 70%,
+      var(--ui-brand-color) 70%,
+      var(--ui-brand-color) 80%,
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0) 90%,
+      var(--ui-brand-color) 90%,
+      var(--ui-brand-color) 100%
+    );
+  }
+}
+
+:root {
+  --ui-brand-color: rgba(198, 36, 52);
+}
