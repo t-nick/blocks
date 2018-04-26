@@ -18,6 +18,9 @@ ExtendedWireframe.defaultContent = {
   map: {
     ...Component.defaultContent.map,
     preset: 'dark',
+    markers: [
+
+    ],
   },
 }
 
