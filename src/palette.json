@@ -1,10 +1,10 @@
 {
-  "name": "Lightning yellow",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
-  }
+    "brand": "#f50f24",
+    "darkAccent": "#ca0c1e",
+    "darkShade": "#1b1929",
+    "lightAccent": "#f50f24",
+    "lightShade": "#fff"
+  },
+  "name": "Сharmeleon palette"
 }
