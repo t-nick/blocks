@@ -2,8 +2,8 @@
 
 /* start here */
 .title {
-  display: inline-block;
   position: relative;
+  text-align: left;
 
   &::after {
     content: "";
@@ -83,5 +83,9 @@
   &__title {
     font-family: var(--ui-text-font-family );
     font-size: calc(var(--ui-heading-size ) * 0.86);
+  }
+
+  &__picture img {
+    border-radius: 3px;
   }
 }
