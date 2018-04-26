@@ -3,7 +3,7 @@
   "settings": {
     "blockTitle": {
       "coefficients": {
-        "320px": 0.77
+        "320px": 0.67
       },
       "color": [
         "darkShade?saturate=-1.79&lighten=-3.33&spin=-247",
@@ -32,11 +32,14 @@
       "fontFamily": "'Ubuntu', sans-serif",
       "fontWeight": 500,
       "lineHeight": 1.307,
-      "size": "26px"
+      "size": "26px",
+      "coefficients": {
+        "320px": 0.93
+      }
     },
     "headingLg": {
       "coefficients": {
-        "320px": 0.88
+        "320px": 0.8
       },
       "color": [
         "darkShade?saturate=-1.79&lighten=-3.33&spin=-247",
@@ -49,7 +52,7 @@
     },
     "heroTitle": {
       "coefficients": {
-        "320px": 0.77
+        "320px": 0.54
       },
       "color": [
         "darkShade?saturate=-1.79&lighten=-3.33&spin=-247",
