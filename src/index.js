@@ -43,7 +43,7 @@ ExtendedWireframe.defaultContent = {
     ],
     submitButton: {
       title: 'subscribe',
-      textValue: 'subscribe',
+      textValue: 'Subscribe',
       type: 'primary',
       size: 'md',
     },
