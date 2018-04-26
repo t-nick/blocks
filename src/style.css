@@ -67,8 +67,9 @@
   }
 }
 
-@media (min-width: 768px) {
-  .section__header {
+.section__header {
+
+  @media (min-width: 768px) {
     margin-bottom: 42px;
   }
 }
