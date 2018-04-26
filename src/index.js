@@ -10,6 +10,7 @@ const {enhancers: {withProps}, hoistStatics} = $editor
 const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _.set('$block.options', options))))(Component)
 
 ExtendedWireframe.defaultContent = {
+  ...Component.defaultContent,
   title: {
     content: 'Our Customers',
     type: 'blockTitle',
@@ -599,6 +600,7 @@ ExtendedWireframe.defaultContent = {
 }
 
 ExtendedWireframe.modifierScheme = {
+  ...Component.modifierScheme,
   subtitle: {defaultValue: true, label: 'Partner description', type: 'checkbox'},
   heading: {defaultValue: false, label: 'Partner title', type: 'checkbox'},
   body: {defaultValue: false, label: 'About partner', type: 'checkbox'},
