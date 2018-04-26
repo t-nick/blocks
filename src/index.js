@@ -37,29 +37,13 @@ ExtendedWireframe.defaultContent = {
       },
     },
     {
+      ...Component.defaultContent.services[1],
       title: {
         content: 'Cross-Docking <br/> Trends Report (2017)',
         type: 'heading',
       },
-      text: {
-        content: 'Multipurpose program that will perfectly suit online stores and online retail business. You can add up to 2000 items with a detailed description, characteristics, and photos. Also, the shopping cart, clients’ feedback, rating, and related items option are available.',
-        type: 'text',
-      },
-      picture: {
-        src: 'https://weblium-prod.storage.googleapis.com/res/5a4b747cd294a10025a2a530/5a4baf9cd294a10025a2b305.png',
-        alt: 'Quantum E-commerce illustration',
-      },
       cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
+        ...Component.defaultContent.services[1].cta,
         textValue: 'Download PDF File',
         type: 'secondary',
       },
