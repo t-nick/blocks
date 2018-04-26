@@ -1,14 +1,6 @@
 @import "wireframe-zapdos-blog/src/style.css";
 
 /* start here */
-.section {
-  .article {
-    &__text {
-      color: #5d5f67;
-    }
-  }
-}
-
 .title {
   position: relative;
   text-align: left;
@@ -55,9 +47,16 @@
   background: #f5f5f5;
   margin-bottom: 30px;
 
+  @media (min-width: 768px) {
+    max-width: calc(50% - 30px);
+    flex-basis: calc(50% - 30px);
+  }
+
   @media (min-width: 992px) {
+    max-width: calc(33.333% - 30px);
     padding-left: 50px;
     padding-right: 88px;
+    flex-basis: calc(33.333% - 30px);
   }
 
   &__title {
@@ -93,38 +92,22 @@
   }
 
   &__meta {
-    display: flex;
     order: 1;
     font-size: calc(var(--ui-text-size ) * 0.875);
     margin-bottom: 24px;
   }
 
   &__text {
-    display: flex;
     order: 2;
     font-size: calc(var(--ui-text-size ) * 0.875);
     margin-bottom: 18px;
   }
 
   .link {
-    display: flex;
     order: 3;
     font-weight: 700;
     line-height: 24px;
-  }
-}
-
-@media (min-width: 768px) {
-  .article {
-    max-width: calc(50% - 30px);
-    flex-basis: calc(50% - 30px);
-  }
-}
-
-@media (min-width: 992px) {
-  .article {
-    max-width: calc(33.333% - 30px);
-    flex-basis: calc(33.333% - 30px);
+    text-align: left;
   }
 }
 
@@ -149,10 +132,6 @@
 
 .btns-group {
   padding-top: 30px;
-
-  .button {
-    font-weight: 700;
-  }
 
   @media (min-width: 992px) {
     padding-top: 40px;
