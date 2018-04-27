@@ -21,135 +21,51 @@ ExtendedWireframe.defaultContent = {
   },
   partners: [
     {
+      ...Component.defaultContent.partners[0],
       logo: {
         image: {
           resourceRef: 'logo-1.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
-      },
-      title: {
-        content: 'Samsung',
-        type: 'heading',
-      },
-      desc: {
-        content: 'Back in 1995, we started cooperation with this brand. Samsung became our main supplier of high-quality tech products. Today, Samsung is our main partner who supports each initiative and actively participates in company development.',
-        type: 'text',
-      },
-      button: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Partner’s website',
-        type: 'link',
       },
     },
     {
+      ...Component.defaultContent.partners[1],
       logo: {
         image: {
           resourceRef: 'logo-2.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
-      },
-      title: {
-        content: 'Ford ',
-        type: 'heading',
-      },
-      desc: {
-        content: 'The company that has always put reliability first. We started to work with Ford in 2002, and now this is one of the partners who’ve been with us for more than 15 years! We believe that this partnership is one of the achievements we can be proud of.',
-        type: 'text',
-      },
-      button: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Partner’s website',
-        type: 'link',
       },
     },
     {
+      ...Component.defaultContent.partners[2],
       logo: {
         image: {
           resourceRef: 'logo-3.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
-      },
-      title: {
-        content: 'Medical Family',
-        type: 'heading',
-      },
-      desc: {
-        content: 'Health of our team members is a top priority for us. Therefore, we work with the best clinics only, like Medical Family. We entrust our health to them and we entrust our business as well.',
-        type: 'text',
-      },
-      button: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Partner’s website',
-        type: 'link',
       },
     },
     {
+      ...Component.defaultContent.partners[3],
       logo: {
         image: {
           resourceRef: 'logo-4.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
-      },
-      title: {
-        content: 'Coffee Break Now',
-        type: 'heading',
-      },
-      desc: {
-        content: 'Coffee and cakes won’t sell themselves. Whenever we are hungry or just need to restore energy, Coffee Break Now saves us. Also, they cater all our events, from workshops and seminars to everyday meals for our team members.',
-        type: 'text',
-      },
-      button: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Partner’s website',
-        type: 'link',
       },
     },
     {
       logo: {
         image: {
           resourceRef: 'logo-5.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
       },
       title: {
@@ -179,8 +95,8 @@ ExtendedWireframe.defaultContent = {
       logo: {
         image: {
           resourceRef: 'logo-6.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
       },
       title: {
@@ -210,8 +126,8 @@ ExtendedWireframe.defaultContent = {
       logo: {
         image: {
           resourceRef: 'logo-7.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
       },
       title: {
@@ -241,8 +157,8 @@ ExtendedWireframe.defaultContent = {
       logo: {
         image: {
           resourceRef: 'logo-8.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
       },
       title: {
@@ -272,8 +188,8 @@ ExtendedWireframe.defaultContent = {
       logo: {
         image: {
           resourceRef: 'logo-9.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
       },
       title: {
@@ -303,8 +219,8 @@ ExtendedWireframe.defaultContent = {
       logo: {
         image: {
           resourceRef: 'logo-10.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
       },
       title: {
@@ -334,8 +250,8 @@ ExtendedWireframe.defaultContent = {
       logo: {
         image: {
           resourceRef: 'logo-11.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
       },
       title: {
@@ -365,8 +281,8 @@ ExtendedWireframe.defaultContent = {
       logo: {
         image: {
           resourceRef: 'logo-12.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
       },
       title: {
@@ -396,8 +312,8 @@ ExtendedWireframe.defaultContent = {
       logo: {
         image: {
           resourceRef: 'logo-13.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
       },
       title: {
@@ -427,8 +343,8 @@ ExtendedWireframe.defaultContent = {
       logo: {
         image: {
           resourceRef: 'logo-14.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
       },
       title: {
@@ -458,8 +374,8 @@ ExtendedWireframe.defaultContent = {
       logo: {
         image: {
           resourceRef: 'logo-15.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
       },
       title: {
@@ -489,8 +405,8 @@ ExtendedWireframe.defaultContent = {
       logo: {
         image: {
           resourceRef: 'logo-16.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
       },
       title: {
@@ -520,8 +436,8 @@ ExtendedWireframe.defaultContent = {
       logo: {
         image: {
           resourceRef: 'logo-17.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
       },
       title: {
@@ -551,8 +467,8 @@ ExtendedWireframe.defaultContent = {
       logo: {
         image: {
           resourceRef: 'logo-18.jpg',
-          width: 170,
-          height: 170,
+          width: 130,
+          height: 137,
         },
       },
       title: {
@@ -579,24 +495,6 @@ ExtendedWireframe.defaultContent = {
       },
     },
   ],
-  button: {
-    actionConfig: {
-      action: 'link',
-      actions: {
-        link: {
-          type: '',
-          innerPage: '',
-          url: '',
-        },
-      },
-    },
-    textValue: 'Learn more',
-    type: 'secondary',
-  },
-  topIcon: {
-    svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42"><path d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"/></svg>',
-    fill: 'red',
-  },
 }
 
 ExtendedWireframe.modifierScheme = {
@@ -606,7 +504,6 @@ ExtendedWireframe.modifierScheme = {
   body: {defaultValue: false, label: 'About partner', type: 'checkbox'},
   link: {defaultValue: false, label: 'Partner link', type: 'checkbox'},
   button: {defaultValue: false, label: 'Button', type: 'checkbox'},
-  'top-icon': {defaultValue: false, label: 'Top icon decorator', type: 'hidden'},
 }
 
 export default ExtendedWireframe

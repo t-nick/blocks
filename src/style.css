@@ -29,12 +29,8 @@
 
 .logo {
   display: block;
-  width: 270px;
+  width: auto;
   margin: 0 auto;
-
-  @media (min-width: 992px) {
-    width: 170px;
-  }
 }
 
 .item--logo {
@@ -49,10 +45,31 @@
 }
 
 .items-wrapper--column {
-  justify-content: space-around;
+  justify-content: space-between;
 
-  @media (min-width: 992px) {
+  @media (min-width: 1200px) {
     justify-content: space-between;
+  }
+}
+
+.items-wrapper--only-logo {
+  .item--logo {
+    padding: 0 15px;
+    margin-bottom: 30px;
+    flex-basis: 48%;
+
+    @media (min-width: 768px) {
+      flex-basis: 23%;
+    }
+
+    @media (min-width: 992px) {
+      padding: 15px 20px;  
+      flex-basis: 19%;
+    }
+
+    @media (min-width: 1200px) {
+      flex-basis: 15%;
+    }
   }
 }
 
