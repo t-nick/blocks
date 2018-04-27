@@ -24,8 +24,8 @@ ExtendedWireframe.defaultContent = {
     image: {
       resourceRef: 'logo.png',
       alt: 'LOGO',
-      width: 203, // ширина
-      height: 48, // высота
+      width: 203,
+      height: 48,
     },
   },
   description: {
@@ -267,21 +267,9 @@ ExtendedWireframe.defaultContent = {
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
-  title: {
-    defaultValue: true,
-    label: 'Company name',
-    type: 'checkbox',
-  },
-  description: {
-    defaultValue: true,
-    label: 'Company main text',
-    type: 'checkbox',
-  },
-  social: {
-    defaultValue: true,
-    label: 'Social media Icons',
-    type: 'checkbox',
-  },
+  title: {defaultValue: true, label: 'Company name', type: 'checkbox'},
+  description: {defaultValue: true, label: 'Company main text', type: 'checkbox'},
+  social: {defaultValue: true, label: 'Social media Icons', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
