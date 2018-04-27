@@ -9,24 +9,29 @@ class Block extends React.Component {
 
   getModifierValue = path => _.get(['modifier', path], this.props.$block)
 
+  getOptionValue = (path, defaultValue = false) =>
+    _.getOr(defaultValue, ['options', path], this.props.$block)
+
   collectionItem = ({index, children, className, modifier}) => {
     const {components: {Text, Button, Image}, style} = this.props
     return (
       <article className={classNames(style.article, className)}>
         {children}
-        <Image
-          pictureClassName={style.article__picture}
-          imgClassName={style.article__image}
-          bind={`services[${index}].picture`}
-          size={{
-            'min-width: 992px': 600,
-            'min-width: 768px': 1000,
-            'min-width: 480px': 800,
-          }}
-          resize={{disable: true}}
-        />
+        {!this.getOptionValue('image-hidden') && (
+          <Image
+            pictureClassName={style.article__picture}
+            imgClassName={style.article__image}
+            bind={`services[${index}].picture`}
+            size={{
+              'min-width: 992px': 600,
+              'min-width: 768px': 1000,
+              'min-width: 480px': 800,
+            }}
+            resize={{disable: true}}
+          />
+        )}
         <div className={style.article__content}>
-          <Text bind={`services[${index}].title`} className={style.article__title} tagName="h2" />
+          <Text bind={`services[${index}].title`} className={style.article__title} tagName="h3" />
           {_.get('item-desc')(modifier) && (
             <Text bind={`services[${index}].subtitle`} className={style.article__subtitle} tagName="p" />
           )}
@@ -55,7 +60,7 @@ class Block extends React.Component {
             {this.getModifierValue('top-caption') && (
               <Text bind="top-caption" className={style['caption-decorator']} tagName="div" />
             )}
-            <Text bind="title" className={style.title} tagName="h1" />
+            <Text bind="title" className={style.title} tagName="h2" />
             {this.getModifierValue('subtitle') && <Text bind="subtitle" className={style.subtitle} tagName="p" />}
           </header>
           <Collection
