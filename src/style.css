@@ -25,6 +25,7 @@
 
   &__link {
     display: block;
+    margin: 0 auto;
   }
 
   &__text {
@@ -36,4 +37,12 @@
     padding: 0 25px;
   }
 
+}
+
+.articles-wrapper {
+  text-align: center;
+}
+
+.btns-group {
+  padding: 10px 0 30px;
 }
