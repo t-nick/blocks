@@ -31,6 +31,7 @@ ExtendedWireframe.defaultContent = {
   subtitle: {
     content: 'Enter your email and get our latest news, special offers, and useful content about our products and services.',
     type: 'subheading',
+    color: 'light-shade-color',
   },
   contactForm: {
     fields: [
