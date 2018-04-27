@@ -16,10 +16,7 @@ ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   partners: [
     {
-      title: {
-        content: 'Samsung',
-        type: 'heading',
-      },
+      ...Component.defaultContent.partners[0],
       desc: {
         content:
           'There are advances being made in science and technology everyday, and a good example of this is the LCD monitor.',
@@ -33,10 +30,6 @@ ExtendedWireframe.defaultContent = {
           height: 110,
         },
       },
-      picture: {
-        src: 'robot.svg',
-        alt: 'Robot',
-      },
       cta: {
         actionConfig: {
           action: 'link',
@@ -53,10 +46,7 @@ ExtendedWireframe.defaultContent = {
       },
     },
     {
-      title: {
-        content: 'Ford',
-        type: 'heading',
-      },
+      ...Component.defaultContent.partners[1],
       desc: {
         content:
           'There are advances being made in science and technology everyday, and a good example of this is the LCD monitor.',
@@ -70,10 +60,6 @@ ExtendedWireframe.defaultContent = {
           height: 103,
         },
       },
-      picture: {
-        src: 'camera.svg',
-        alt: 'Camera',
-      },
       cta: {
         actionConfig: {
           action: 'link',
@@ -90,10 +76,7 @@ ExtendedWireframe.defaultContent = {
       },
     },
     {
-      title: {
-        content: 'Medical Family',
-        type: 'heading',
-      },
+      ...Component.defaultContent.partners[2],
       desc: {
         content:
           'There are advances being made in science and technology everyday, and a good example of this is the LCD monitor.',
@@ -107,10 +90,6 @@ ExtendedWireframe.defaultContent = {
           height: 114,
         },
       },
-      picture: {
-        src: 'eye.svg',
-        alt: 'Eye',
-      },
       cta: {
         actionConfig: {
           action: 'link',
@@ -127,10 +106,7 @@ ExtendedWireframe.defaultContent = {
       },
     },
     {
-      title: {
-        content: 'Coffee Break Now',
-        type: 'heading',
-      },
+      ...Component.defaultContent.partners[3],
       desc: {
         content:
           'There are advances being made in science and technology everyday, and a good example of this is the LCD monitor.',
@@ -143,10 +119,6 @@ ExtendedWireframe.defaultContent = {
           width: 114,
           height: 114,
         },
-      },
-      picture: {
-        src: 'doughnut.svg',
-        alt: 'Doughnut',
       },
       cta: {
         actionConfig: {
@@ -172,24 +144,12 @@ ExtendedWireframe.defaultContent = {
     content:
       'There are advances being made in science and technology everyday, and a good example<br />of this is the LCD monitor. LCD monitors have several benefits over the old chunky<br />computer monitors that most users are familiar with. Old computer monitors,<br />take up quite a bit of desktop space.',
     type: 'subtitle',
+    color: 'dark-shade-color',
   },
   button: {
-    actionConfig: {
-      action: 'link',
-      actions: {
-        link: {
-          type: '',
-          innerPage: '',
-          url: '',
-        },
-      },
-    },
+    ...Component.defaultContent.button,
     textValue: 'Medium button',
     type: 'secondary',
-  },
-  'top-caption': {
-    content: 'vitae sapien ut libero',
-    type: 'text',
   },
 }
 
@@ -202,15 +162,8 @@ ExtendedWireframe.modifierScheme = {
     name: 'Logo',
     type: 'radio-button-group',
   },
-  subtitle: {
-    defaultValue: true,
-    label: 'Partner description',
-    type: 'checkbox',
-  },
-  body: {defaultValue: true, label: 'About partner', type: 'checkbox'},
-  link: {defaultValue: true, label: 'Partner link', type: 'checkbox'},
+  subtitle: {defaultValue: true, label: 'Partner description', type: 'checkbox'},
   button: {defaultValue: true, label: 'Button', type: 'checkbox'},
-  'top-caption': {defaultValue: false, label: 'Top caption', type: 'hidden'},
 }
 
 export default ExtendedWireframe
