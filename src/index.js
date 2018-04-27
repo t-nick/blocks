@@ -28,7 +28,7 @@ ExtendedWireframe.defaultContent = {
     type: 'text',
   },
   'phone-link': {
-    content: '+ 1-687-704-2511<br>plugin@a.weblium.com',
+    content: '<a href="tel:16877042511">+ 1-687-704-2511<a/><br><a href="mailto:plugin@a.weblium.com">plugin@a.weblium.com</a>',
     type: 'text',
   },
   'email-link': {
