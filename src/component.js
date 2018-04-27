@@ -15,6 +15,7 @@ class Wireframe extends React.Component {
   render() {
     const {components: {Logo, Text, Map, SocialIcons}, style} = this.props
     const arrangeElements = this.getModifierValue('swap')
+    console.log(arrangeElements)
 
     return (
       <section className={style.section}>
