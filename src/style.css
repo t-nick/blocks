@@ -1,3 +1,50 @@
 @import "wireframe-series-2-pricing/src/style.css";
 
 /* start here */
+.section {
+  &__inner {
+
+    @media (min-width: 992px) {
+      padding: 114px 0 208px;
+      padding-top: 114px;
+      padding-bottom: 208px;
+    }
+  }
+
+  &__header {
+    margin-bottom: 10px;
+  }
+}
+
+.item {
+  &__title {
+    position: relative;
+    margin-bottom: 49px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 31px;
+      height: 2px;
+      right: 0;
+      bottom: -23px;
+      left: 0;
+      margin: 0 auto;
+      background: #2095f4;
+    }
+  }
+
+  &__price {
+    margin-bottom: 35px;
+  }
+
+  &__container {
+    background-color: transparent;
+  }
+
+  &__desc {
+    max-width: 206px;
+    margin: 0 auto;
+  }
+}
+
