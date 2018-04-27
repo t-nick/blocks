@@ -52,6 +52,7 @@ ExtendedWireframe.defaultContent = {
   cta: {
     ...Component.defaultContent.cta,
     textValue: '- All Images -',
+    type: 'link',
   },
 }
 
