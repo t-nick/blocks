@@ -21,6 +21,10 @@
 
   &__picture {
     order: 0;
+    
+    @media (min-width: 768px) {
+      padding-top: 92%;
+    }
   }
 
   &__text {
@@ -40,3 +44,4 @@
     margin-top: 45px;
   }
 }
+

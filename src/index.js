@@ -20,17 +20,17 @@ ExtendedWireframe.defaultContent = {
       address: {
         content: '3611 Silas Trail Suite 927<br>Port Yasmeenland, PY 20061 ',
         type: 'subtitle',
-        color: 'dark-shade-color',
+        color: '#939696',
       },
       phone: {
         content: '<a href="tel:2221111111">(222) 111 11 11</a>',
         type: 'subtitle',
-        color: 'dark-shade-color',
+        color: '#939696',
       },
       email: {
         content: '<a href="mailto:mywebsite@a.weblium.com">mywebsite@a.weblium.com</a>',
         type: 'subtitle',
-        color: 'dark-shade-color',
+        color: '#939696',
       },
       picture: {
         resourceRef: 'location-2.jpg',
@@ -45,17 +45,17 @@ ExtendedWireframe.defaultContent = {
       address: {
         content: '3611 Silas Trail Suite 927<br>Port Yasmeenland, PY 20061',
         type: 'subtitle',
-        color: 'dark-shade-color',
+        color: '#939696',
       },
       phone: {
         content: '<a href="tel:2221111111">(222) 111 11 11</a>',
         type: 'subtitle',
-        color: 'dark-shade-color',
+        color: '#939696',
       },
       email: {
         content: '<a href="mailto:mywebsite@a.weblium.com">mywebsite@a.weblium.com</a>',
         type: 'subtitle',
-        color: 'dark-shade-color',
+        color: '#939696',
       },
       picture: {
         resourceRef: 'location-1.jpg',
@@ -70,17 +70,17 @@ ExtendedWireframe.defaultContent = {
       address: {
         content: '3611 Silas Trail Suite 927<br>Port Yasmeenland, PY 20061',
         type: 'subtitle',
-        color: 'dark-shade-color',
+        color: '#939696',
       },
       phone: {
         content: '<a href="tel:2221111111">(222) 111 11 11</a>',
         type: 'subtitle',
-        color: 'dark-shade-color',
+        color: '#939696',
       },
       email: {
         content: '<a href="mailto:mywebsite@a.weblium.com">mywebsite@a.weblium.com</a>',
         type: 'subtitle',
-        color: 'dark-shade-color',
+        color: '#939696',
       },
       picture: {
         resourceRef: 'location-3.jpg',
