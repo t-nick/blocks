@@ -40,7 +40,7 @@
   flex-basis: 100%;
   margin-top: 0;
   margin-bottom: 30px;
-  padding-top: 55px;
+  padding-top: 50px;
   padding-left: 45px;
   padding-right: 30px;
   padding-bottom: 45px;
@@ -78,6 +78,7 @@
 
   &__title {
     position: relative;
+    margin-bottom: 25px;
     font-size: calc(var(--ui-heading-size) / 1.158);
 
     &::before {
@@ -106,7 +107,7 @@
   }
 
   &__text {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-size: calc(var(--ui-text-size) / 1.067);
   }
 
