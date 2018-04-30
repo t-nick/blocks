@@ -20,10 +20,12 @@ ExtendedWireframe.defaultContent = {
       label: {
         content: 'Experience in Transportation',
         type: 'text',
+        color: '#3a3a3a',
       },
       value: {
         content: '32 yrs',
         type: 'blockTitle',
+        color: '#c62434',
       },
     },
     {
@@ -34,10 +36,12 @@ ExtendedWireframe.defaultContent = {
       label: {
         content: 'Offices and Logistics Facilities',
         type: 'text',
+        color: '#3a3a3a',
       },
       value: {
         content: '1000',
         type: 'blockTitle',
+        color: '#c62434',
       },
     },
     {
@@ -48,10 +52,12 @@ ExtendedWireframe.defaultContent = {
       label: {
         content: 'Skilled Drivers in Our Fleet',
         type: 'text',
+        color: '#3a3a3a',
       },
       value: {
         content: '22,000',
         type: 'blockTitle',
+        color: '#c62434',
       },
     },
     {
@@ -62,10 +68,12 @@ ExtendedWireframe.defaultContent = {
       label: {
         content: 'Miles Driven Per Year',
         type: 'text',
+        color: '#3a3a3a',
       },
       value: {
         content: '2 Billion',
         type: 'blockTitle',
+        color: '#c62434',
       },
     },
   ],
