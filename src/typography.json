@@ -12,17 +12,19 @@
       "fontFamily": "'Ubuntu', sans-serif",
       "fontWeight": 500,
       "lineHeight": 1.22,
-      "size": "36px"
+      "size": "36px",
+      "letterSpacing": -0.7
     },
     "caption": {
       "color": [
-        "lightShade?saturate=2.04&lighten=-61.57",
-        "lightShade?saturate=5.31&lighten=-48.04"
+        "darkShade?saturate=-22.2&lighten=25.49&spin=-247",
+        "darkShade?saturate=-18.94&lighten=39.02&spin=-247"
       ],
       "fontFamily": "'Ubuntu', sans-serif",
       "fontWeight": 500,
       "lineHeight": 1.44,
-      "size": "18px"
+      "size": "18px",
+      "letterSpacing": -0.4
     },
     "heading": {
       "color": [
@@ -31,11 +33,12 @@
       ],
       "fontFamily": "'Ubuntu', sans-serif",
       "fontWeight": 500,
-      "lineHeight": 1.307,
+      "lineHeight": 1.31,
       "size": "26px",
       "coefficients": {
         "320px": 0.93
-      }
+      },
+      "letterSpacing": -0.5
     },
     "headingLg": {
       "coefficients": {
@@ -47,8 +50,9 @@
       ],
       "fontFamily": "'Ubuntu', sans-serif",
       "fontWeight": 500,
-      "lineHeight": 1.266,
-      "size": "30px"
+      "lineHeight": 1.27,
+      "size": "30px",
+      "letterSpacing": -0.6
     },
     "heroTitle": {
       "coefficients": {
@@ -60,8 +64,9 @@
       ],
       "fontFamily": "'Ubuntu', sans-serif",
       "fontWeight": 500,
-      "lineHeight": 1.333,
-      "size": "60px"
+      "lineHeight": 1.33,
+      "size": "60px",
+      "letterSpacing": -1.2
     },
     "link": {
       "color": [
@@ -81,19 +86,19 @@
         "lightShade?saturate=5.31&lighten=-48.04"
       ],
       "fontFamily": "'Ubuntu', sans-serif",
-      "fontWeight": 500,
+      "fontWeight": 400,
       "lineHeight": 1.5,
       "size": "20px",
       "fontStyle": "italic"
     },
     "small": {
       "color": [
-        "lightShade?saturate=2.04&lighten=-61.57",
+        "darkShade?saturate=-22.2&lighten=25.49&spin=-247",
         "lightShade?saturate=5.31&lighten=-48.04"
       ],
       "fontFamily": "'Ubuntu', sans-serif",
-      "fontWeight": 400,
-      "lineHeight": 1.466,
+      "fontWeight": 500,
+      "lineHeight": 1.47,
       "size": "15px"
     },
     "subheading": {
@@ -109,7 +114,7 @@
     "subtitle": {
       "color": [
         "lightShade?saturate=2.04&lighten=-61.57",
-        "lightShade?saturate=5.31&lighten=-48.04"
+        "darkShade?saturate=-18.94&lighten=39.02&spin=-247"
       ],
       "fontFamily": "'Ubuntu', sans-serif",
       "fontWeight": 400,
@@ -118,11 +123,11 @@
     },
     "text": {
       "color": [
-        "lightShade?saturate=5.36&lighten=-56.08",
+        "darkShade?saturate=-18.89&lighten=30.98&spin=-247",
         "lightShade?saturate=5.31&lighten=-48.04"
       ],
       "fontFamily": "'Ubuntu', sans-serif",
-      "fontWeight": 400,
+      "fontWeight": 300,
       "lineHeight": 1.6,
       "size": "15px"
     }
