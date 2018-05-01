@@ -1,8 +1,8 @@
 {
   "general": {
     "fontFamily": "'Poppins', sans-serif",
-    "textTransform": "uppercase",
-    "letterSpacing": "2px"
+    "letterSpacing": "2px",
+    "textTransform": "uppercase"
   },
   "name": "Wailmer buttons",
   "settings": {
@@ -16,15 +16,14 @@
           "gradient": {
             "colors": [
               [
-                "transparent",
-                "transparent"
+                "brand",
+                "brand"
               ],
               [
                 "lightAccent",
-                "brand?saturate=14.17&lighten=5.88"
+                "brand?saturate=15.38&lighten=5.88"
               ]
-            ],
-            "angle": "90deg"
+            ]
           }
         },
         "border": {
@@ -42,10 +41,56 @@
           "color": [
             "brand?saturate=-31.91&lighten=-21.96",
             "brand?saturate=-31.91&lighten=-21.96"
-          ]
+          ],
+          "gradient": {
+            "colors": [
+              [
+                "brand?saturate=-31.91&lighten=-21.96",
+                "brand?saturate=-31.91&lighten=-21.96"
+              ],
+              [
+                "brand",
+                "brand"
+              ]
+            ],
+            "angle": "0deg"
+          }
         },
         "color": [
           "lightShade",
+          "lightShade"
+        ],
+        "fontWeight": 700
+      }
+    },
+    "primaryAlt": {
+      "default": {
+        "bg": {
+          "color": [
+            "lightAccent",
+            "brand"
+          ]
+        },
+        "border": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "color": [
+          "darkShade",
+          "lightShade"
+        ],
+        "fontWeight": 700
+      },
+      "hover": {
+        "bg": {
+          "color": [
+            "lightAccent?saturate=-61.42&lighten=-24.71",
+            "brand?saturate=-31.91&lighten=-21.96"
+          ]
+        },
+        "color": [
+          "darkShade",
           "lightShade"
         ],
         "fontWeight": 700
@@ -60,13 +105,13 @@
         },
         "border": {
           "color": [
-            "brand",
-            "lightShade"
+            "darkShade?saturate=-3.15&lighten=40.39",
+            "darkShade?saturate=-3.15&lighten=40.39"
           ]
         },
         "color": [
-          "brand?saturate=-30.83&lighten=-10.98",
-          "lightShade"
+          "darkShade?saturate=-3.15&lighten=40.39",
+          "darkShade?saturate=-3.15&lighten=40.39"
         ],
         "fontWeight": 700
       },
@@ -77,46 +122,14 @@
             "transparent"
           ]
         },
+        "border": {
+          "color": [
+            "darkShade",
+            "lightShade"
+          ]
+        },
         "color": [
           "darkShade",
-          "darkShade?saturate=-3.15&lighten=40.39"
-        ],
-        "border": {
-          "color": [
-            "brand",
-            "darkShade?saturate=-3.15&lighten=40.39"
-          ]
-        },
-        "fontWeight": 700
-      }
-    },
-    "primaryAlt": {
-      "default": {
-        "bg": {
-          "color": [
-            "brand",
-            "brand"
-          ]
-        },
-        "border": {
-          "color": [
-            "transparent"
-          ]
-        },
-        "color": [
-          "lightShade"
-        ],
-        "fontWeight": 700
-      },
-      "hover": {
-        "bg": {
-          "color": [
-            "brand?saturate=-31.91&lighten=-21.96",
-            "brand?saturate=-31.91&lighten=-21.96"
-          ]
-        },
-        "color": [
-          "lightShade",
           "lightShade"
         ],
         "fontWeight": 700
@@ -148,16 +161,16 @@
             "transparent"
           ]
         },
-        "color": [
-          "darkShade",
-          "darkShade?saturate=-3.15&lighten=40.39"
-        ],
         "border": {
           "color": [
             "brand",
             "darkShade?saturate=-3.15&lighten=40.39"
           ]
         },
+        "color": [
+          "darkShade",
+          "darkShade?saturate=-3.15&lighten=40.39"
+        ],
         "fontWeight": 700
       }
     }
@@ -167,22 +180,22 @@
       "borderRadius": "0px",
       "borderWidth": "2px",
       "fontSize": "15px",
-      "padding": "17px 35px 17px 35px",
-      "lineHeight": 1.75
+      "lineHeight": 1.75,
+      "padding": "17px 35px 17px 35px"
     },
     "md": {
       "borderRadius": "0px",
       "borderWidth": "2px",
       "fontSize": "14px",
-      "padding": "11px 30px 11px 30px",
-      "lineHeight": 2
+      "lineHeight": 2,
+      "padding": "11px 30px 11px 30px"
     },
     "sm": {
       "borderRadius": "0px",
       "borderWidth": "2px",
       "fontSize": "14px",
-      "padding": "5px 25px 5px 25px",
-      "lineHeight": 2
+      "lineHeight": 2,
+      "padding": "5px 25px 5px 25px"
     }
   }
 }
