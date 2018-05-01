@@ -11,6 +11,7 @@
   max-width: 1170px;
 
   &__pic {
+    display: block;
     border-radius: 0;
     background: none;
     width: 147.2px;
