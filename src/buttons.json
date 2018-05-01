@@ -20,8 +20,8 @@
                 "brand"
               ],
               [
-                "lightAccent",
-                "brand?saturate=15.38&lighten=5.88"
+                "darkAccent?saturate=10.94&lighten=11.76&spin=-214",
+                "darkShade?saturate=89.16&lighten=51.37"
               ]
             ]
           }
@@ -40,7 +40,7 @@
         "bg": {
           "color": [
             "brand?saturate=-31.91&lighten=-21.96",
-            "brand?saturate=-31.91&lighten=-21.96"
+            "brand"
           ],
           "gradient": {
             "colors": [
