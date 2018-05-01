@@ -1,3 +1,105 @@
 @import "wireframe-series-2-gallery/src/style.css";
 
-/* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  &__header {
+    margin-bottom: 10px;
+
+    @media (min-width: 992px) {
+      margin-bottom: 41px;
+    }
+  }
+}
+
+.title {
+  position: relative;
+  margin-bottom: 35px;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 4px;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--ui-dark-shade-color);
+  }
+
+  @media (min-width: 992px) {
+    margin-bottom: 60px;
+  }
+}
+
+.subtitle {
+  letter-spacing: 0.5px;
+
+  @media (min-width: 992px) {
+    max-width: 870px;
+  }
+}
+
+.item {
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: linear-gradient( 45deg, rgba(252, 179, 123, 0.2) 0%, rgba(252, 179, 123, 0.2) 25%, rgba(75, 75, 240, 0.2) 75%, rgba(75, 75, 240, 0.2) 100%);
+  }
+
+  &s-wrapper {
+
+    @media (min-width: 992px) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &__picture {
+    min-height: 250px;
+
+    @media (min-width: 992px) {
+      min-height: 407px;
+    }
+  }
+}
+
+.btns-group {
+
+  @media (min-width: 768px) {
+    margin-top: 40px;
+    margin-left: 0;
+  }
+}
+
+.items-wrapper :global {
+  .slick-arrow-default {
+    width: 30px;
+    height: 60px;
+    top: 50%;
+    color: var(--ui-dark-shade-color);
+  }
+}
+
+@media (min-width: 1360px) {
+  .items-wrapper :global {
+    .slick-arrow-default.slick-prev-default {
+      left: -70px;
+    }
+
+    .slick-arrow-default.slick-next-default {
+      right: -70px;
+    }
+  }
+}
