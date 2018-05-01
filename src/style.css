@@ -1,3 +1,24 @@
 @import "wireframe-series-3-header/src/style.css";
 
 /* start here */
+
+.header {
+  &__inner {
+    padding-top: 50px;
+  }
+
+  &__top-line {
+    background: rgba(255, 255, 255, 0.3);
+    align-items: center;
+  }
+
+  &__top-line-inner {
+    align-items: center;}
+}
+
+.header__text a {
+  color: var(--ui-light-shade-color);
+  text-decoration: none;
+  font-size: calc(var(--ui-heading-size) / 1.5);
+  line-height: 1;
+}
