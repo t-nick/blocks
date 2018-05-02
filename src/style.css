@@ -1,3 +1,66 @@
 @import "wireframe-series-7-why/src/style.css";
 
 /* start here */
+.section {
+  max-width: none;
+
+  @media (min-width: 768px) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+.collection-wrapper {
+  margin: 0 -15px;
+  padding-top: 60px;
+}
+
+.title {
+  position: relative;
+  margin-bottom: 68px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 4px;
+    bottom: -17px;
+    left: 45.5%;
+    background-color: var(--ui-dark-shade-color);
+  }
+}
+
+.subtitle {
+
+  @media (min-width: 768px) {
+    max-width: none;
+  }
+}
+
+.item {
+  box-shadow: 0 4px 14px -7px var(--ui-dark-shade-color);
+
+  &:nth-last-of-type(4n):first-of-type,
+  &:nth-last-of-type(4n):first-of-type ~ .item {
+
+    @media (min-width: 992px) {
+      max-width: 22%;
+      flex-basis: 22%;
+      margin-right: 20px;
+      margin-left: 20px;
+      border-top: 3px solid var(--ui-brand-color);
+    }
+  }
+
+  &__icon {
+
+    @media (min-width: 992px) {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
