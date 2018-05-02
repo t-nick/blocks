@@ -1,10 +1,10 @@
 {
-  "name": "Lightning yellow",
   "color": {
-    "lightShade": "#ffffff",
-    "lightAccent": "#f9b91e",
-    "brand": "#f9b91e",
-    "darkAccent": "#f9b91e",
-    "darkShade": "#242424"
-  }
+    "brand": "#58c56f",
+    "darkAccent": "#75c3e4",
+    "darkShade": "#434345",
+    "lightAccent": "#d4bf61",
+    "lightShade": "#fff"
+  },
+  "name": "Chikorita palette"
 }

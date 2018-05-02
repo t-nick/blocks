@@ -1,94 +1,128 @@
 {
-  "name": "Buttons 1",
   "general": {
-    "fontFamily": "'Lato', sans-serif",
-    "borderWidth": "1px"
+    "fontFamily": "'Montserrat', sans-serif"
   },
-  "size": {
-    "sm": {
-      "padding": "10px 16px",
-      "borderRadius": 0,
-      "fontSize": "14px"
-    },
-    "md": {
-      "padding": "14px 40px",
-      "borderRadius": 0,
-      "fontSize": "14px"
-    },
-    "lg": {
-      "padding": "20px 56px",
-      "borderRadius": 0,
-      "fontSize": "16px"
-    }
-  },
+  "name": "Chikorita buttons",
   "settings": {
     "primary": {
       "default": {
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "darkShade",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade"],
         "border": {
-          "color": ["transparent"]
-        }
+          "color": [
+            "transparent"
+          ]
+        },
+        "color": [
+          "lightShade",
+          "brand"
+        ],
+        "fontWeight": 700
       },
       "hover": {
         "bg": {
-          "color": ["darkShade", "lightShade"]
+          "color": [
+            "brand?saturate=-10.33&lighten=-12.16",
+            "darkShade?saturate=-1.47&lighten=56.47&spin=-240"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
-      }
-    },
-    "primaryAlt": {
-      "default": {
-        "bg": {
-          "color": ["darkShade", "lightShade"]
-        },
-        "color": ["lightShade", "darkShade"],
-        "border": {
-          "color": ["transparent"]
-        }
-      },
-      "hover": {
-        "bg": {
-          "color": ["brand"]
-        },
-        "color": ["lightShade"]
+        "color": [
+          "lightShade",
+          "darkShade"
+        ],
+        "fontWeight": 700
       }
     },
     "secondary": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent"
+          ]
         },
-        "color": ["darkShade?lighten=20.9", "lightShade"],
         "border": {
-          "color": ["darkShade?lighten=20.9", "lightShade"]
-        }
+          "color": [
+            "darkShade?lighten=32.55",
+            "lightShade"
+          ]
+        },
+        "color": [
+          "darkShade?lighten=32.55",
+          "lightShade"
+        ]
       },
       "hover": {
         "bg": {
-          "color": ["darkShade?lighten=20.9", "lightShade"]
+          "color": [
+            "darkShade?lighten=32.55",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
+        "color": [
+          "lightShade",
+          "darkShade"
+        ]
       }
     },
-    "secondaryAlt": {
+    "primaryAlt": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "darkShade",
+            "lightShade"
+          ]
         },
-        "color": ["darkShade?lighten=20.9", "lightShade"],
         "border": {
-          "color": ["brand", "lightShade"]
-        }
+          "color": [
+            "transparent"
+          ]
+        },
+        "color": [
+          "lightShade",
+          "brand"
+        ],
+        "fontWeight": 700
       },
       "hover": {
         "bg": {
-          "color": ["brand", "lightShade"]
+          "color": [
+            "brand?saturate=-10.33&lighten=-12.16",
+            "darkShade?saturate=-1.47&lighten=56.47&spin=-240"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
+        "color": [
+          "lightShade",
+          "darkShade"
+        ],
+        "fontWeight": 700
       }
+    }
+  },
+  "size": {
+    "lg": {
+      "borderRadius": "4px",
+      "borderWidth": "1px",
+      "fontSize": "14px",
+      "padding": "14px 43px 14px 43px",
+      "lineHeight": 1.71
+    },
+    "md": {
+      "borderRadius": "4px",
+      "borderWidth": "1px",
+      "fontSize": "14px",
+      "padding": "11px 34px 11px 34px",
+      "lineHeight": 1.71
+    },
+    "sm": {
+      "borderRadius": "4px",
+      "borderWidth": "1px",
+      "fontSize": "14px",
+      "padding": "7px 30px 10px 30px",
+      "lineHeight": 1.71
     }
   }
 }
