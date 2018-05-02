@@ -43,6 +43,7 @@
             "brand"
           ],
           "gradient": {
+            "angle": "0deg",
             "colors": [
               [
                 "brand?saturate=-31.91&lighten=-21.96",
@@ -52,8 +53,7 @@
                 "brand",
                 "brand"
               ]
-            ],
-            "angle": "0deg"
+            ]
           }
         },
         "color": [
