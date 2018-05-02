@@ -11,10 +11,71 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  collection: {
+    background: {
+      'nth-child': [
+        [1, {
+          ...Component.defaultContent.collection.background['nth-child'][1],
+          resourceRef: '1.png',
+        }],
+        [2, {
+          type: 'image',
+          position: {
+            type: 'cover',
+            cover: '50% 50%',
+          },
+          src: '2.png',
+        }],
+        [3, {
+          type: 'image',
+          position: {
+            type: 'cover',
+            cover: '50% 50%',
+          },
+          src: '3.png',
+        }],
+      ],
+    },
+    items: [
+      {
+        heading: {
+          type: 'heading',
+          content: 'Open-minded',
+        },
+        text: {
+          type: 'text',
+          content: 'We always look for new ideas, explore various spheres, and apply a positive approach',
+        },
+      },
+      {
+        heading: {
+          type: 'heading',
+          content: 'Long-term cooperation',
+        },
+        text: {
+          type: 'text',
+          content: 'We believe that effective cooperation should last for ages',
+        },
+      },
+      {
+        heading: {
+          type: 'heading',
+          content: 'Turnkey solutions',
+        },
+        text: {
+          type: 'text',
+          content: 'Every good or service we provide is empowered with the top-notch features to deliver the best result to our customers',
+        },
+      },
+    ],
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  subtitle: {defaultValue: true, label: 'Why us description', type: 'checkbox'},
+  'main-button': {defaultValue: true, label: 'Primary button', type: 'checkbox'},
+  'additional-button': {defaultValue: true, label: 'Secondary button', type: 'checkbox'},
 }
 
 export default ExtendedWireframe

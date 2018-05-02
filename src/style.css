@@ -1,3 +1,82 @@
 @import "wireframe-series-3-why/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 120px;
+  }
+}
+
+.title {
+  position: relative;
+  margin-bottom: 57px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 4px;
+    top: 100%;
+    left: calc(50% - 65px);
+    margin-top: 20px;
+    background-color: var(--ui-dark-shade-color);
+  }
+}
+
+.items-wrapper {
+  margin-top: 64px;
+}
+
+.item {
+  justify-content: center;
+
+  @media (min-width: 992px) {
+    &:hover {
+      .item__description {
+        display: block;
+        padding-top: 40px;
+        transition: display 0.2s ease-in;
+      }
+
+      .item__text {
+        transform: translateY(-105px);
+        transition: transform 0.2s ease-in;
+      }
+
+      .item__inner {
+        background: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+
+  &__inner {
+    min-height: 463px;
+  }
+
+  &__description {
+    max-width: 90%;
+    color: var(--ui-light-shade-color);
+    text-align: center;
+
+    @media (min-width: 992px) {
+      display: none;
+    }
+  }
+
+  &__heading {
+    position: relative;
+    margin-bottom: 15px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 130px;
+      height: 4px;
+      top: 100%;
+      left: calc(50% - 65px);
+      margin-top: 9px;
+      background-color: var(--ui-light-shade-color);
+    }
+  }
+}
