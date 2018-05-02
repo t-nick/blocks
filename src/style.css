@@ -16,17 +16,19 @@
     padding: 0 46px;
   }
 
-  @media (min-width: 1170px) {
+  @media (min-width: 1200px) {
     padding: 0 15px;
   }
 
   &__inner {
+    width: 100%;
     min-height: 250px;
     text-align: left;
     justify-content: flex-start;
 
     @media (min-width: 768px) {
       min-height: 396px;
+      padding: 0;
     }
 
     @media (min-width: 992px) {
@@ -49,15 +51,22 @@
 
 :global .ui-heroTitle {
   position: relative;
-  margin-bottom: 30px;
-  line-height: calc(var(--ui-hero-title-line-height) * 0.6);
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+  line-height: calc(var(--ui-hero-title-line-height) * 0.8);
+  font-size: calc(var(--ui-hero-title-size) * 0.5);
   letter-spacing: 0;
+
+  @media (min-width: 480px) {
+    line-height: calc(var(--ui-hero-title-line-height) * 0.6);
+    font-size: calc(var(--ui-hero-title-size) * 0.7);
+  }
 
   @media (min-width: 992px) {
     font-size: var(--ui-hero-title-size);
   }
 
-  @media (min-width: 1170px) {
+  @media (min-width: 1200px) {
     font-size: calc(var(--ui-hero-title-size) * 1.66);
   }
 
@@ -66,15 +75,27 @@
     position: absolute;
     width: 130px;
     height: 4px;
-    bottom: -14px;
+    bottom: 0;
     left: 0;
     background-color: var(--ui-light-shade-color);
   }
 }
 
 :global  .slick-dots {
+  margin: 20px 0 0 16px;
   text-align: left;
-  margin-left: 16px;
+
+  @media (min-width: 768px) {
+    margin-top: 0;
+  }
+
+  @media (min-width: 992px) {
+    margin-left: 46px;
+  }
+
+  @media (min-width: 1200px) {
+    margin-left: 16px;
+  }
 
   li {
     position: relative;
@@ -119,29 +140,39 @@
 }
 
 .btns-group {
-  margin-top: 30px;
+  margin-top: 28px;
 }
 
 .items-wrapper {
   :global {
-    .slick-prev-default,
-    .slick-next-default {
-      color: #7e7e81;
+    .slick-arrow {
+      width: 30px;
+      height: 55px;
     }
 
-    .slick-prev-default {
-      left: 0;
+    .slick-prev,
+    .slick-next {
+      color: rgba(255, 255, 255, 0.5);
 
-      @media (min-width: 1170px) {
+      &::before {
+        display: none;
+      }
+    }
+
+    .slick-prev {
+      left: 10px;
+      transform: rotate(180deg);
+
+      @media (min-width: 1200px) {
         left: -17%;
       }
     }
 
-    .slick-next-default {
-      right: 0;
+    .slick-next {
+      right: 10px;
       left: auto;
 
-      @media (min-width: 1170px) {
+      @media (min-width: 1200px) {
         right: -17%;
       }
     }

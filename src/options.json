@@ -1,1 +1,5 @@
-{}
+{
+  "custom-arrows": true,
+  "prev-arrow": "<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'><path fill-rule='evenodd' fill='currentColor' clip-rule='evenodd' d='M19.176 1.996L18 3.201l25.647 26.297L18 55.791l1.176 1.207L46 29.498z'/></svg>",
+  "next-arrow": "<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'><path fill-rule='evenodd' fill='currentColor' clip-rule='evenodd' d='M19.176 1.996L18 3.201l25.647 26.297L18 55.791l1.176 1.207L46 29.498z'/></svg>"
+}
