@@ -8,6 +8,39 @@
       "default": {
         "bg": {
           "color": [
+            "brand",
+            "lightShade"
+          ]
+        },
+        "border": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "color": [
+          "lightShade",
+          "brand"
+        ],
+        "fontWeight": 700
+      },
+      "hover": {
+        "bg": {
+          "color": [
+            "brand?saturate=-10.33&lighten=-12.16",
+            "darkShade?saturate=-1.47&lighten=56.47&spin=-240"
+          ]
+        },
+        "color": [
+          "lightShade",
+          "darkShade"
+        ],
+        "fontWeight": 700
+      }
+    },
+    "primaryAlt": {
+      "default": {
+        "bg": {
+          "color": [
             "darkShade",
             "lightShade"
           ]
@@ -67,39 +100,6 @@
           "darkShade"
         ]
       }
-    },
-    "primaryAlt": {
-      "default": {
-        "bg": {
-          "color": [
-            "darkShade",
-            "lightShade"
-          ]
-        },
-        "border": {
-          "color": [
-            "transparent"
-          ]
-        },
-        "color": [
-          "lightShade",
-          "brand"
-        ],
-        "fontWeight": 700
-      },
-      "hover": {
-        "bg": {
-          "color": [
-            "brand?saturate=-10.33&lighten=-12.16",
-            "darkShade?saturate=-1.47&lighten=56.47&spin=-240"
-          ]
-        },
-        "color": [
-          "lightShade",
-          "darkShade"
-        ],
-        "fontWeight": 700
-      }
     }
   },
   "size": {
@@ -107,22 +107,22 @@
       "borderRadius": "4px",
       "borderWidth": "1px",
       "fontSize": "14px",
-      "padding": "14px 43px 14px 43px",
-      "lineHeight": 1.71
+      "lineHeight": 1.71,
+      "padding": "14px 43px 14px 43px"
     },
     "md": {
       "borderRadius": "4px",
       "borderWidth": "1px",
       "fontSize": "14px",
-      "padding": "11px 34px 11px 34px",
-      "lineHeight": 1.71
+      "lineHeight": 1.71,
+      "padding": "11px 34px 11px 34px"
     },
     "sm": {
       "borderRadius": "4px",
       "borderWidth": "1px",
       "fontSize": "14px",
-      "padding": "7px 30px 10px 30px",
-      "lineHeight": 1.71
+      "lineHeight": 1.71,
+      "padding": "7px 30px 10px 30px"
     }
   }
 }

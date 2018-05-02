@@ -25,6 +25,9 @@
       "size": "14px"
     },
     "heading": {
+      "coefficients": {
+        "320px": 0.98
+      },
       "color": [
         "darkShade",
         "lightShade"
@@ -32,10 +35,7 @@
       "fontFamily": "'Open Sans', sans-serif",
       "fontWeight": 700,
       "lineHeight": 1.36,
-      "size": "22px",
-      "coefficients": {
-        "320px": 0.99
-      }
+      "size": "22px"
     },
     "headingLg": {
       "coefficients": {
