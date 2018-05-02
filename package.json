@@ -29,8 +29,5 @@
     "stylelint-scss": "^2.2.0",
     "stylelint-selector-bem-pattern": "^2.0.0",
     "stylelint-order": "latest"
-  },
-  "dependencies": {
-    "wireframe-series-2-about": "https://github.com/webliumteam/blocks#w/series-2/about/prod"
   }
 }
