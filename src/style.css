@@ -1,3 +1,148 @@
 @import "wireframe-lucario-cover/src/style.css";
 
 /* start here */
+.section {
+  padding: 50px 0 80px;
+
+  @media (min-width: 992px) {
+    padding: 26px 0 256px;
+  }
+}
+
+.item {
+
+  @media (min-width: 992px) {
+    padding: 0 46px;
+  }
+
+  @media (min-width: 1170px) {
+    padding: 0 15px;
+  }
+
+  &__inner {
+    min-height: 250px;
+    text-align: left;
+    justify-content: flex-start;
+
+    @media (min-width: 768px) {
+      min-height: 396px;
+    }
+
+    @media (min-width: 992px) {
+      width: 100%;
+      max-width: 1170px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+.subtitle {
+  margin: 15px 0;
+
+  @media (min-width: 768px) {
+    font-size: var(--ui-subtitle-size);
+    color: var(--ui-subtitle-color);
+  }
+}
+
+:global .ui-heroTitle {
+  position: relative;
+  margin-bottom: 30px;
+  line-height: calc(var(--ui-hero-title-line-height) * 0.6);
+  letter-spacing: 0;
+
+  @media (min-width: 992px) {
+    font-size: var(--ui-hero-title-size);
+  }
+
+  @media (min-width: 1170px) {
+    font-size: calc(var(--ui-hero-title-size) * 1.66);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 4px;
+    bottom: -14px;
+    left: 0;
+    background-color: var(--ui-light-shade-color);
+  }
+}
+
+:global  .slick-dots {
+  text-align: left;
+  margin-left: 16px;
+
+  li {
+    position: relative;
+    margin: 0 42px 0 0;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #9e9ea4;
+      border-radius: 10px;
+      opacity: 0;
+    }
+
+    &.slick-active {
+      /* stylelint-disable */
+      button {
+        background-color: var(--ui-text-color);
+      }
+
+      &::after {
+        opacity: 1;
+      }
+      /* stylelint-enable */
+    }
+
+    /* stylelint-disable */
+    button {
+      position: relative;
+      width: 19px;
+      height: 19px;
+      background-color: var(--ui-text-color);
+      opacity: 0.25;
+      overflow: hidden;
+    }
+    /* stylelint-enable */
+  }
+}
+
+.btns-group {
+  margin-top: 30px;
+}
+
+.items-wrapper {
+  :global {
+    .slick-prev-default,
+    .slick-next-default {
+      color: #7e7e81;
+    }
+
+    .slick-prev-default {
+      left: 0;
+
+      @media (min-width: 1170px) {
+        left: -17%;
+      }
+    }
+
+    .slick-next-default {
+      right: 0;
+      left: auto;
+
+      @media (min-width: 1170px) {
+        right: -17%;
+      }
+    }
+  }
+}
