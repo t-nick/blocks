@@ -13,37 +13,37 @@ ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   services: [
     {
-      ...Component.defaultContent.services[0],
+      ...Component.defaultContent.services.items[0],
       title: {
         content: 'OMS: Key to the Optimal Omnichannel Customer Experience (2017)',
         type: 'heading',
       },
       cta: {
-        ...Component.defaultContent.services[0].cta,
+        ...Component.defaultContent.services.items[0].cta,
         textValue: 'Download PDF File',
         type: 'secondary',
       },
     },
     {
-      ...Component.defaultContent.services[1],
+      ...Component.defaultContent.services.items[1],
       title: {
         content: 'Top Business Drives for Integrated Logistics Outsourcing (2017)',
         type: 'heading',
       },
       cta: {
-        ...Component.defaultContent.services[1].cta,
+        ...Component.defaultContent.services.items[1].cta,
         textValue: 'Download PDF File',
         type: 'secondary',
       },
     },
     {
-      ...Component.defaultContent.services[1],
+      ...Component.defaultContent.services.items[1],
       title: {
         content: 'Cross-Docking <br/> Trends Report (2017)',
         type: 'heading',
       },
       cta: {
-        ...Component.defaultContent.services[1].cta,
+        ...Component.defaultContent.services.items[1].cta,
         textValue: 'Download PDF File',
         type: 'secondary',
       },
