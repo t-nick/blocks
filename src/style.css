@@ -3,6 +3,7 @@
 /* start here */
 .section {
   padding: 50px 0 80px;
+  overflow: hidden;
 
   @media (min-width: 992px) {
     padding: 26px 0 256px;
