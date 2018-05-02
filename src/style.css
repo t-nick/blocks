@@ -55,12 +55,12 @@
   }
 
   &__description {
-    max-width: 90%;
     color: var(--ui-light-shade-color);
     text-align: center;
 
     @media (min-width: 992px) {
       display: none;
+      max-width: 90%;
     }
   }
 

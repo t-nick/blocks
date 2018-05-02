@@ -15,57 +15,35 @@ ExtendedWireframe.defaultContent = {
     background: {
       'nth-child': [
         [1, {
-          ...Component.defaultContent.collection.background['nth-child'][1],
-          resourceRef: '1.png',
+          ...Component.defaultContent.collection.background['nth-child'][0][1],
+          src: '1.png',
+          imageColor: [0, 0, 0],
         }],
         [2, {
-          type: 'image',
-          position: {
-            type: 'cover',
-            cover: '50% 50%',
-          },
+          ...Component.defaultContent.collection.background['nth-child'][0][1],
           src: '2.png',
+          imageColor: [0, 0, 0],
         }],
         [3, {
-          type: 'image',
-          position: {
-            type: 'cover',
-            cover: '50% 50%',
-          },
+          ...Component.defaultContent.collection.background['nth-child'][0][1],
           src: '3.png',
+          imageColor: [0, 0, 0],
         }],
       ],
     },
     items: [
       {
+        ...Component.defaultContent.collection.items[0],
         heading: {
-          type: 'heading',
-          content: 'Open-minded',
-        },
-        text: {
-          type: 'text',
-          content: 'We always look for new ideas, explore various spheres, and apply a positive approach',
+          ...Component.defaultContent.collection.items[0].heading,
+          content: 'Open-mindedness',
         },
       },
       {
-        heading: {
-          type: 'heading',
-          content: 'Long-term cooperation',
-        },
-        text: {
-          type: 'text',
-          content: 'We believe that effective cooperation should last for ages',
-        },
+        ...Component.defaultContent.collection.items[1],
       },
       {
-        heading: {
-          type: 'heading',
-          content: 'Turnkey solutions',
-        },
-        text: {
-          type: 'text',
-          content: 'Every good or service we provide is empowered with the top-notch features to deliver the best result to our customers',
-        },
+        ...Component.defaultContent.collection.items[2],
       },
     ],
   },
