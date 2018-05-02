@@ -1,5 +1,5 @@
 {
-  "name": "Poipole Typography",
+  "name": "Poipole typography",
   "settings": {
     "blockTitle": {
       "coefficients": {
@@ -27,7 +27,7 @@
     },
     "heading": {
       "coefficients": {
-        "320px": 0.91
+        "320px": 0.9
       },
       "color": [
         "darkShade",
@@ -40,7 +40,7 @@
     },
     "headingLg": {
       "coefficients": {
-        "320px": 0.78
+        "320px": 0.76
       },
       "color": [
         "darkShade",

@@ -3,7 +3,7 @@
     "fontFamily": "'Montserrat', sans-serif",
     "textTransform": "uppercase"
   },
-  "name": "Poipole Buttons",
+  "name": "Poipole buttons",
   "settings": {
     "primary": {
       "default": {
@@ -51,6 +51,7 @@
             "brand?spin=-44"
           ],
           "gradient": {
+            "angle": "90deg",
             "colors": [
               [
                 "brand?spin=-44",
@@ -60,8 +61,7 @@
                 "brand?spin=-44",
                 "transparent"
               ]
-            ],
-            "angle": "90deg"
+            ]
           }
         },
         "color": [
@@ -87,6 +87,7 @@
             "brand"
           ],
           "gradient": {
+            "angle": "90deg",
             "colors": [
               [
                 "brand",
@@ -96,8 +97,7 @@
                 "transparent",
                 "transparent"
               ]
-            ],
-            "angle": "90deg"
+            ]
           }
         },
         "border": {
