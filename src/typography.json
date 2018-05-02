@@ -63,7 +63,7 @@
         "lightShade"
       ],
       "fontFamily": "'Ubuntu', sans-serif",
-      "fontWeight": 700,
+      "fontWeight": 500,
       "letterSpacing": -1.2,
       "lineHeight": 1.33,
       "size": "60px"
