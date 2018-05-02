@@ -75,6 +75,7 @@
 
     @media (min-width: 768px) {
       margin-right: 7px;
+      margin-left: 90px;
     }
 
     &::before {
