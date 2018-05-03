@@ -17,7 +17,8 @@
 
   &__title {
     position: relative;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
+    letter-spacing: 0.6px;
 
     &::after {
       content: "";
@@ -31,12 +32,12 @@
         to right,
         var(--ui-light-accent-color) 0%,
         var(--ui-light-accent-color) 60%,
-        rgba(0,0,0,0) 60%,
-        rgba(0,0,0,0) 70%,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0) 70%,
         var(--ui-light-accent-color) 70%,
         var(--ui-light-accent-color) 80%,
-        rgba(0,0,0,0) 80%,
-        rgba(0,0,0,0) 90%,
+        rgba(0, 0, 0, 0) 80%,
+        rgba(0, 0, 0, 0) 90%,
         var(--ui-light-accent-color) 90%,
         var(--ui-light-accent-color) 100%
       );
@@ -44,11 +45,15 @@
   }
 
   &__picture {
-    min-height: 500px;
+
+    @media (min-width: 768px) {
+      min-height: 500px;
+    }
   }
 
   &__text {
-    font-size: var(--ui-small-size);
+    font-size: calc(var(--ui-text-size) * 0.875);
+    margin-bottom: 20px;
   }
 
   &__content {
