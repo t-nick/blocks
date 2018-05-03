@@ -21,7 +21,8 @@
           "lightShade",
           "brand"
         ],
-        "fontWeight": 700
+        "fontWeight": 700,
+        "textTransform": "uppercase"
       },
       "hover": {
         "bg": {
@@ -41,31 +42,33 @@
       "default": {
         "bg": {
           "color": [
-            "darkShade",
-            "lightShade"
+            "darkAccent",
+            "lightAccent"
           ]
         },
         "border": {
           "color": [
-            "transparent"
+            "darkAccent",
+            "lightAccent"
           ]
         },
         "color": [
           "lightShade",
-          "brand"
+          "lightShade"
         ],
-        "fontWeight": 700
+        "fontWeight": 700,
+        "textTransform": "uppercase"
       },
       "hover": {
         "bg": {
           "color": [
-            "brand?saturate=-10.33&lighten=-12.16",
-            "darkShade?saturate=-1.47&lighten=56.47&spin=-240"
+            "darkAccent?saturate=-1.47&lighten=-16.47&spin=-240",
+            "lightAccent?saturate=-20.37&lighten=-12.16"
           ]
         },
         "color": [
           "lightShade",
-          "darkShade"
+          "lightShade"
         ],
         "fontWeight": 700
       }
@@ -106,7 +109,8 @@
             "lightShade"
           ]
         },
-        "fontWeight": 700
+        "fontWeight": 700,
+        "textTransform": "uppercase",
       }
     },
     "secondaryAlt": {
