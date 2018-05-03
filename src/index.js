@@ -148,14 +148,6 @@ ExtendedWireframe.defaultContent = {
       },
     },
   ],
-  copyright: {
-    ...Component.defaultContent.copyright,
-    content: 'Produced by Weblium.com. All rights Reserved',
-  },
-  additional: {
-    ...Component.defaultContent.additional,
-    content: 'Demo preview for car cleaning car wash concept',
-  },
 }
 
 ExtendedWireframe.modifierScheme = {
