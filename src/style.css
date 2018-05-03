@@ -25,8 +25,16 @@
     width: 130px;
     height: 4px;
     bottom: -17px;
-    left: 45.5%;
+    left: 29.5%;
     background-color: var(--ui-dark-shade-color);
+
+    @media (min-width: 480px) {
+      left: 40%;
+    }
+
+    @media (min-width: 1200px) {
+      left: 45.5%;
+    }
   }
 }
 
@@ -39,6 +47,10 @@
 
 .item {
   box-shadow: 0 4px 14px -7px var(--ui-dark-shade-color);
+  margin-top: 20px;
+  border-top: 3px solid var(--ui-brand-color);
+  margin-right: 20px;
+  margin-left: 20px;
 
   &:nth-last-of-type(4n):first-of-type,
   &:nth-last-of-type(4n):first-of-type ~ .item {
@@ -46,9 +58,6 @@
     @media (min-width: 992px) {
       max-width: 22%;
       flex-basis: 22%;
-      margin-right: 20px;
-      margin-left: 20px;
-      border-top: 3px solid var(--ui-brand-color);
     }
   }
 
