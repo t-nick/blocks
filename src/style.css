@@ -6,7 +6,20 @@
   &__picture-wrapper {
     position: relative;
     width: 100%;
-    top: 0;
+  }
+
+  &__picture {
+    padding-top: 44%;
+    background-color: transparent;
+    box-shadow: 0 15px 15px 0 #c5c5c5;
+
+    @media (min-width: 768px) {
+      box-shadow: 0 30px 30px 0 #c5c5c5;
+    }
+
+    @media (min-width: 992px) {
+      box-shadow: 0 50px 50px 0 #c5c5c5;
+    }
   }
 
   &__image {
@@ -16,7 +29,7 @@
 
 .title {
   position: absolute;
-  top: calc(50% - 50px);
+  top: 40%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -27,7 +40,7 @@
     position: absolute;
     width: 270px;
     height: 1px;
-    top: 55px;
+    top: 130%;
     left: calc(50% - 135px);
     background-color: #e6e6e6;
     opacity: 0.2;
@@ -38,17 +51,25 @@
     position: absolute;
     width: 60px;
     height: 4px;
-    top: 52px;
+    top: 116%;
     left: calc(50% - 30px);
     background-color: var(--ui-brand-color);
-  }
 
+    @media (min-width: 480px) {
+      top: 122%;
+    }
+  }
 }
 
 .button {
   position: absolute;
-  top: calc(50% + 40px);
+  width: auto;
+  top: 57%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
+
+  @media (min-width: 480px) {
+    top: 54%;
+  }
 }
