@@ -42,13 +42,13 @@
       "default": {
         "bg": {
           "color": [
-            "darkAccent",
+            "darkShade",
             "lightAccent"
           ]
         },
         "border": {
           "color": [
-            "darkAccent",
+            "darkShade",
             "lightAccent"
           ]
         },
@@ -56,13 +56,12 @@
           "lightShade",
           "lightShade"
         ],
-        "fontWeight": 700,
-        "textTransform": "uppercase"
+        "fontWeight": 700
       },
       "hover": {
         "bg": {
           "color": [
-            "darkAccent?saturate=-1.47&lighten=-16.47&spin=-240",
+            "darkShade?saturate=-1.47&lighten=-16.47&spin=-240",
             "lightAccent?saturate=-20.37&lighten=-12.16"
           ]
         },
@@ -109,8 +108,7 @@
             "lightShade"
           ]
         },
-        "fontWeight": 700,
-        "textTransform": "uppercase",
+        "fontWeight": 700
       }
     },
     "secondaryAlt": {
