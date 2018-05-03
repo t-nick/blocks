@@ -142,8 +142,7 @@
         ],
         "border": {
           "color": [
-            "brand",
-            "lightShade"
+            "transparent"
           ]
         },
         "fontWeight": 700
