@@ -23,6 +23,10 @@ ExtendedWireframe.defaultContent = {
     resourceRef: 'track.png',
     alt: 'Picture about the company',
   },
+  background: {
+    type: 'color',
+    color: '#f5f5f5',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
