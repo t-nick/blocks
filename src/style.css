@@ -1,3 +1,115 @@
 @import "wireframe-series-4-contacts/src/style.css";
 
 /* start here */
+
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 110px;
+  }
+
+  &__inner {
+    letter-spacing: 0.025em;
+
+    @media (min-width: 992px) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}
+
+.contacts {
+  padding-top: 10px;
+
+  @media (min-width: 992px) {
+    max-width: calc(100% - 610px);
+  }
+
+  &-list {
+    margin-top: 57px;
+
+    &__item {
+      margin-bottom: 25px;
+    }
+  }
+
+  &__desc {
+    line-height: 2;
+
+    &--phone {
+      padding-top: 5px;
+
+      @media (min-width: 768px) {
+        margin-bottom: 5px;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.title,
+.contacts__title {
+  position: relative;
+  height: 100%;
+  padding-bottom: 15px;
+  margin-right: 13%;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 135px;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--ui-block-title-color);
+  }
+}
+
+.subtitle {
+  margin-top: 45px;
+  letter-spacing: 0.025em;
+}
+
+.form {
+
+  @media (min-width: 992px) {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  &__wrapper {
+
+    @media (min-width: 992px) {
+      margin-left: 45px;
+    }
+  }
+
+  &__field {
+    height: 60px;
+    padding-left: 23px;
+    border-radius: 0;
+    background-color: var(--ui-light-shade-color);
+    letter-spacing: 0.05em;
+
+    @media (min-width: 992px) {
+      margin-top: 9px;
+    }
+  }
+
+  &__button {
+    margin-top: 30px;
+    letter-spacing: 0.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  textarea {
+    min-height: 130px;
+    background-color: var(--ui-light-shade-color);
+    padding-top: 20px;
+    letter-spacing: 0.05em;
+  }
+}
