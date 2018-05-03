@@ -1,6 +1,7 @@
 {
   "general": {
-    "fontFamily": "'Montserrat', sans-serif"
+    "fontFamily": "'Montserrat', sans-serif",
+    "textTransform": "uppercase"
   },
   "name": "Chikorita buttons",
   "settings": {
@@ -21,8 +22,7 @@
           "lightShade",
           "brand"
         ],
-        "fontWeight": 700,
-        "textTransform": "uppercase"
+        "fontWeight": 700
       },
       "hover": {
         "bg": {
@@ -48,8 +48,7 @@
         },
         "border": {
           "color": [
-            "darkShade",
-            "lightAccent"
+            "transparent"
           ]
         },
         "color": [
@@ -120,12 +119,12 @@
         },
         "border": {
           "color": [
-            "brand",
-            "lightShade"
+            "darkShade",
+            "lightAccent"
           ]
         },
         "color": [
-          "brand",
+          "darkShade",
           "lightShade"
         ],
         "fontWeight": 700
@@ -133,13 +132,13 @@
       "hover": {
         "bg": {
           "color": [
-            "brand",
-            "lightShade"
+            "darkShade",
+            "lightAccent"
           ]
         },
         "color": [
           "lightShade",
-          "brand"
+          "lightShade"
         ],
         "border": {
           "color": [
