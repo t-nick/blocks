@@ -79,47 +79,94 @@
         },
         "border": {
           "color": [
-            "darkShade?lighten=32.55",
+            "brand",
             "lightShade"
           ]
         },
         "color": [
-          "darkShade?lighten=32.55",
+          "brand",
           "lightShade"
-        ]
+        ],
+        "fontWeight": 700
       },
       "hover": {
         "bg": {
           "color": [
-            "darkShade?lighten=32.55",
+            "brand",
             "lightShade"
           ]
         },
         "color": [
           "lightShade",
-          "darkShade"
-        ]
+          "brand"
+        ],
+        "border": {
+          "color": [
+            "brand",
+            "lightShade"
+          ]
+        },
+        "fontWeight": 700
+      }
+    },
+    "secondaryAlt": {
+      "default": {
+        "bg": {
+          "color": [
+            "transparent"
+          ]
+        },
+        "border": {
+          "color": [
+            "brand",
+            "lightShade"
+          ]
+        },
+        "color": [
+          "brand",
+          "lightShade"
+        ],
+        "fontWeight": 700
+      },
+      "hover": {
+        "bg": {
+          "color": [
+            "brand",
+            "lightShade"
+          ]
+        },
+        "color": [
+          "lightShade",
+          "brand"
+        ],
+        "border": {
+          "color": [
+            "brand",
+            "lightShade"
+          ]
+        },
+        "fontWeight": 700
       }
     }
   },
   "size": {
     "lg": {
       "borderRadius": "4px",
-      "borderWidth": "1px",
+      "borderWidth": "2px",
       "fontSize": "14px",
       "lineHeight": 1.71,
       "padding": "14px 43px 14px 43px"
     },
     "md": {
       "borderRadius": "4px",
-      "borderWidth": "1px",
+      "borderWidth": "2px",
       "fontSize": "14px",
       "lineHeight": 1.71,
-      "padding": "11px 34px 11px 34px"
+      "padding": "13px 34px 13px 34px"
     },
     "sm": {
       "borderRadius": "4px",
-      "borderWidth": "1px",
+      "borderWidth": "2px",
       "fontSize": "14px",
       "lineHeight": 1.71,
       "padding": "7px 30px 10px 30px"
