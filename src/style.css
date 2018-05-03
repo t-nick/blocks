@@ -1,3 +1,54 @@
-@import "wireframe-default-master/src/style.css";
+@import "wireframe-zapdos-cta/src/style.css";
 
-/* start here */
+.section {
+  position: relative;
+
+  &__picture-wrapper {
+    position: relative;
+    width: 100%;
+    top: 0;
+  }
+
+  &__image {
+    object-fit: contain;
+  }
+}
+
+.title {
+  position: absolute;
+  top: calc(50% - 50px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  letter-spacing: -2px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 270px;
+    height: 1px;
+    top: 55px;
+    left: calc(50% - 135px);
+    background-color: #e6e6e6;
+    opacity: 0.2;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    top: 52px;
+    left: calc(50% - 30px);
+    background-color: var(--ui-brand-color);
+  }
+
+}
+
+.button {
+  position: absolute;
+  top: calc(50% + 40px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
