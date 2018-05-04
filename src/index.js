@@ -11,6 +11,37 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  background: {
+    type: 'image',
+    position: {
+      type: 'cover',
+      cover: '50% 50%',
+    },
+    resourceRef: 'bg.jpg',
+  },
+  title: {
+    content: 'Fresh Organic Food',
+    type: 'heroTitle',
+  },
+  subtitle: {
+    content: 'We enable people to enjoy locally grown eco-friendly and healthy food that are reasonably priced and conveniently delivered.',
+    type: 'subtitle',
+  },
+  'cta-1': {
+    actionConfig: {
+      action: 'link',
+      actions: {
+        link: {
+          type: '',
+          innerPage: '',
+          url: '',
+        },
+      },
+    },
+    textValue: 'shop now',
+    type: 'primary',
+    size: 'lg',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {

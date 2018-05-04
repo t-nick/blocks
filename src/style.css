@@ -1,3 +1,9 @@
 @import "wireframe-zapdos-cover/src/style.css";
 
 /* start here */
+
+.section {
+  &__inner {
+    text-align: center;
+  }
+}
