@@ -1,3 +1,43 @@
 @import "wireframe-zapdos-text/src/style.css";
 
 /* start here */
+
+.title {
+  margin: 0 auto 8px;
+}
+
+.subtitle {
+  position: relative;
+  max-width: 420px;
+  margin: 0 auto 83px;
+  font-size: var(--ui-subtitle-size);
+  line-height: 1.5;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 4px;
+    bottom: -24px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: var(--ui-brand-color);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 268px;
+    height: 1px;
+    bottom: -24px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: var(--ui-dark-shade-color);
+  }
+
+}
+
+.text {
+  max-width: 625px ;
+  text-align: center;
+}
