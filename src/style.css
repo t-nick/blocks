@@ -14,8 +14,12 @@
   &__inner {
 
     @media (min-width: 992px) {
-      max-width: 650px;
+      max-width: 570px;
       margin-left: 0;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 48px;
+      padding-bottom: 48px;
     }
   }
 
@@ -23,8 +27,8 @@
 
     @media (min-width: 992px) {
       padding-left: 0;
-      padding-right: 105px;
-      padding-top: 55px;
+      padding-right: 0;
+      padding-top: 0;
     }
   }
 }
@@ -70,8 +74,10 @@
 .form {
 
   @media (min-width: 992px) {
+    max-width: 448px;
     padding-left: 0;
-    padding-right: 31.05%;
+    padding-right: 0;
+    padding-bottom: 0;
   }
 
   &__item {
@@ -102,7 +108,6 @@
 
   &__button {
     border: 0;
-    font-weight: 600;
 
     @media (min-width: 992px) {
       margin-top: 0;
