@@ -2,10 +2,6 @@
 
 /* start here */
 
-.title {
-  color: var(--ui-light-shade-color);
-}
-
 .list {
   &__item-icon {
     width: 100px;
@@ -55,7 +51,15 @@
   }
 
   &__item-text {
-    color: var(--ui-light-shade-color);
-    font-size: calc(var(--ui-heading-size) * 0.615);
+
+    @media (min-width: 768px) {
+      font-size: calc(var(--ui-heading-size) * 0.615);
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .list__item .list__item-icon + .list__item-text {
+    max-width: calc(100% - 120px);
   }
 }
