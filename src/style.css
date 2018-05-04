@@ -33,17 +33,20 @@
   }
 
   &__picture {
-    min-height: 600px;
+    padding-top: 94.33333%;
+
+    &-wrapper {
+      margin-top: 18px;
+    }
   }
 
   &__text {
     max-width: 454px;
+    margin-bottom: 37px;
     font-size: var(--ui-heading-size);
   }
-}
 
-@media (min-width: 768px) {
-  .article {
+  @media (min-width: 768px) {
     align-items: center;
     flex-direction: column;
 
@@ -57,10 +60,8 @@
       padding-left: 50px;
     }
   }
-}
 
-@media (min-width: 992px) {
-  .article {
+  @media (min-width: 992px) {
     flex-direction: row;
 
     &__picture-wrapper {
