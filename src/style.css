@@ -2,8 +2,11 @@
 
 /* start here */
 .section {
-  padding-top: 0;
-  padding-bottom: 0;
+
+  @media (min-width: 1200px) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 
   &__inner {
     max-width: 100%;
@@ -13,33 +16,38 @@
 }
 
 .article {
-  &__picture-wrapper {
 
-    @media (min-width: 768px) {
-      min-height: 653px;
-      order: 2;
-    }
+  @media (min-width: 768px) {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
   }
 
   &__picture {
 
     @media (min-width: 768px) {
-      min-height: 653px;
+      padding-top: 100%;
+    }
+
+    @media (min-width: 1200px) {
+      padding-top: 68%;
     }
   }
 
   &__content {
     padding-left: 15px;
+    padding-right: 15px;
 
     @media (min-width: 768px) {
-      align-self: center;
-      order: 1;
       padding-right: 30px;
       padding-bottom: 30px;
     }
 
-    @media (min-width: 992px) {
-      padding-left: 75px;
+    @media (min-width: 1200px) {
+      padding-left: 19%;
+      margin-right: 0.5%;
+      padding-top: 30px;
+      padding-bottom: 55px;
     }
   }
 
@@ -83,6 +91,7 @@
 
   &__additional-text {
     margin-bottom: 12px;
+    font-family: var(--ui-subheading-font-family);
     font-size: calc(var(--ui-small-size) * 1.57);
     font-style: italic;
   }
