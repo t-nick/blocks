@@ -27,7 +27,7 @@
 .item {
   &__title {
     font-family: var(--ui-caption-font-family);
-    font-weight: 400;
+    font-weight: var(--ui-caption-font-weight);
 
     @media (min-width: 992px) {
       font-size: calc(var(--ui-heading-size) * 0.91);
