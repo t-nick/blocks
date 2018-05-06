@@ -28,7 +28,7 @@ ExtendedWireframe.defaultContent = {
       title: {
         content: 'International Fitness<br> Awards',
         type: 'heading',
-        color: 'var(--ui-subtitle-color-dark)',
+        color: 'light-accent-color',
       },
       picture: {
         alt: 'R&D Leader in Tech photo',
@@ -39,7 +39,7 @@ ExtendedWireframe.defaultContent = {
       title: {
         content: 'Fit Awards<br> Asia',
         type: 'heading',
-        color: 'var(--ui-subtitle-color-dark)',
+        color: 'light-accent-color',
       },
       picture: {
         alt: 'Most Innovative B2B Solutions photo',
@@ -50,7 +50,7 @@ ExtendedWireframe.defaultContent = {
       title: {
         content: '2017 Employer<br> Support Freedom Award',
         type: 'heading',
-        color: 'var(--ui-subtitle-color-dark)',
+        color: 'light-accent-color',
       },
       picture: {
         alt: 'Best Service Provider',
@@ -61,7 +61,7 @@ ExtendedWireframe.defaultContent = {
       title: {
         content: 'America\'s Most Admired<br> Companies 2016',
         type: 'heading',
-        color: 'var(--ui-subtitle-color-dark)',
+        color: 'light-accent-color',
       },
       picture: {
         alt: 'Leader of Innovation photo',
