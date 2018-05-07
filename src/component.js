@@ -1,4 +1,5 @@
 import $editor from 'weblium/editor'
+// import MediaQuery from 'react-responsive'
 
 class Block extends React.Component {
   static propTypes = {
@@ -7,162 +8,388 @@ class Block extends React.Component {
     style: PropTypes.object.isRequired,
   }
 
+  state = {
+    active: 0,
+  }
+
   getModifierValue = path => _.get(['modifier', path], this.props.$block)
 
-  getOptionValue = (path, defaultValue = false) =>
-    _.getOr(defaultValue, ['options', path], this.props.$block)
+  toggleItemVisible = item => () => {
+    const index = +item.match(/\d+$/)[0]
+    if (index !== this.state.active) this.setState({active: index})
+  }
 
-  getImageSize = fullWidth =>
-    fullWidth
-      ? {'min-width: 320px': 480, 'min-width: 480px': 768, 'min-width: 768px': 1170}
-      : {'min-width: 320px': 480, 'min-width: 480px': 768, 'min-width: 768px': 570}
+  collectionItem = ({index, children, className}) => {
+    const {components: {Text, Image}, style} = this.props
+    const activeTab = +index.match(/\d+$/)[0]
 
-  wrapImage = Component => <div className={this.props.style.image__wrapper}>{Component}</div>
+    return (
+      <li className={classNames(style['tabs-item'], className, {[style['tabs-item--active']]: activeTab === this.state.active})} onClick={this.toggleItemVisible(index)} role="presentation">
+        {children}
+
+        <button type="button" role="tab" className={style['tabs-item__button']}>
+          <Image
+            pictureClassName={style['tabs-item__picture']}
+            imgClassName={style['tabs-item__image']}
+            bind={`collection[${index}].itemPicture`}
+            size={
+              {
+              'min-width: 320px': 80,
+              }
+            }
+            resize={{disable: true}}
+          />
+          <div className={style['tabs-item__content']}>
+            <Text bind={`collection[${index}].itemTitle`} tagName="h3" className={style['tabs-item__title']} />
+            <Text bind={`collection[${index}].itemPosition`} tagName="small" className={style['tabs-item__position']} />
+          </div>
+        </button>
+      </li>
+    )
+  }
 
   render() {
-    const {components: {Text, Image, Button, SocialIcons}, style: css} = this.props
-    const columnLayout = !(
-      this.getModifierValue('title') ||
-      this.getModifierValue('subtitle') ||
-      this.getModifierValue('text') ||
-      this.getModifierValue('socialIcons')
-    )
-    const showButtonGroups = this.getModifierValue('link') || this.getModifierValue('button')
-    const ImageComponent = (
-      <Image
-        pictureClassName={css.article__picture}
-        bind="picture"
-        size={this.getImageSize(columnLayout)}
-      />
-    )
+    const {components: {Text, Image, Collection, Button, SocialIcons}, style, $block} = this.props
+    const bindActive = `collection.items[${this.state.active}]`
+
     return (
-      <section className={classNames(css.section, {[css['section--column']]: columnLayout})}>
-        <div className={css.section__inner}>
-          <article className={css.article}>
-            {this.getOptionValue('image_wrapper')
-              ? this.wrapImage(ImageComponent)
-              : ImageComponent}
-            <div className={css.article__content}>
-              {this.getModifierValue('title') && (
-                <h1 className={css.article__title}>
-                  <Text bind="title" />
-                </h1>
-              )}
-              {this.getModifierValue('subtitle') && (
-                <p className={css.article__subtitle}>
-                  <Text bind="subtitle" />
-                </p>
-              )}
-              {this.getModifierValue('text') && (
-                <p className={css.article__text}>
-                  <Text bind="text" />
-                </p>
-              )}
-              {this.getModifierValue('socialIcons') && (
-                <div className={css.article__socials}>
-                  <h2 className={css['social-title']}>Follow us: </h2>
-                  <SocialIcons bind="socialIcons" />
+      <section className={style.section}>
+        <div className={style.section__inner}>
+          <Image
+            wrapperClassName={classNames(style['item__picture-wrapper'], style['item__picture-wrapper--desktop'])}
+            pictureClassName={style.item__picture}
+            imgClassName={style.item__image}
+            bind={`${bindActive}.itemPicture`}
+            size={
+              {
+              'min-width: 992px': 470,
+              'min-width: 768px': 300,
+              'min-width: 480px': 800,
+              'min-width: 320px': 480,
+              }
+            }
+            attributes={{'aria-hidden': true}}
+          />
+          <div className={style['item-wrapper']}>
+            <div className={style.item} role="tabpanel">
+              <Image
+                wrapperClassName={classNames(style['item__picture-wrapper'], style['item__picture-wrapper--tablet'])}
+                pictureClassName={style.item__picture}
+                imgClassName={style.item__image}
+                bind={`${bindActive}.itemPicture`}
+                size={
+                  {
+                  'min-width: 992px': 470,
+                  'min-width: 768px': 300,
+                  'min-width: 480px': 800,
+                  'min-width: 320px': 480,
+                  }
+                }
+              />
+              <div className={style.item__content}>
+                <Text bind={`${bindActive}.itemPosition`} className={style.item__position} tagName="small" />
+                <Text bind={`${bindActive}.itemTitle`} className={style.item__title} tagName="h2" />
+                <Text bind={`${bindActive}.itemContent`} className={style.item__text} tagName="p" />
+
+                <div className={style.item__bottom}>
+                  <div className={style['item__bottom-side']}>
+                    <div className={style['item__email-wrapper']}>
+                      <Text bind={`${bindActive}.itemEmail`} className={style.item__email} />
+                    </div>
+                    <SocialIcons className={style.socials} bind={`${bindActive}.itemSocialIcons`} />
+                  </div>
+                  <Button
+                    buttonClassName={style.button}
+                    linkClassName={style.link}
+                    className={style.item__button}
+                    bind={`${bindActive}.itemLink`}
+                  />
                 </div>
-              )}
-              {showButtonGroups && (
-                <div className={css['btns-group']}>
-                  {this.getModifierValue('link') && <Button className={css.link} bind="link" />}
-                  {this.getModifierValue('button') && (
-                    <Button
-                      className={classNames(
-                        css.button,
-                        css['button--primary'],
-                        css['button--size-md'],
-                      )}
-                      bind="button"
-                    />
-                  )}
-                </div>
-              )}
+              </div>
             </div>
-          </article>
+            <Collection
+              className={style.tabs}
+              TagName="ul"
+              attributes={{role: 'tablist'}}
+              bind="collection"
+              Item={this.collectionItem}
+              itemProps={{
+                modifier: $block.modifier,
+              }}
+            />
+          </div>
         </div>
       </section>
     )
   }
 }
 
-Block.components = _.pick(['Text', 'Image', 'Button', 'SocialIcons'])($editor.components)
+Block.components = _.pick(['Text', 'Image', 'Collection', 'Button', 'SocialIcons'])($editor.components)
 
 Block.defaultContent = {
-  title: 'About The Company',
-  'text-1': 'Follow us:',
-  subtitle:
-    'Our Company is the world’s leading manufacturer. We are also a leading financial services provider.',
-  text:
-    'We are in it for the long haul—for our customers and for our world. Our customers can be found in virtually every corner of the earth, and we realize our success comes directly from helping our customers be successful. We take seriously our responsibility to give back to the communities in which we work and live.',
-  picture: {
-    src: 'https://www.vms.ro/wp-content/uploads/2015/04/mobius-placeholder-2.png',
-    alt: 'Picture about the company',
-  },
-  button: {
-    actionConfig: {
-      action: 'link',
-      actions: {
-        link: {
-          type: '',
-          innerPage: '',
-          url: '',
+  collection: {
+    items: [
+      {
+        itemTitle: {
+          content: 'Andrew Shimmer',
+          type: 'heading',
+        },
+        itemContent: {
+          content: 'Andrew Shimmer has a 15-year experience in IT and marketing. He’s been successfully running companies specializing in high technologies. He won a bunch of international awards due to the excellent leadership skills and prominent achievements in business.',
+          type: 'text',
+        },
+        itemPosition: {
+          content: 'CEO',
+          type: 'caption',
+        },
+        itemEmail: {
+          content: '<a href="mailto:mysite@weblium.com">mysite@weblium.com</a>',
+          type: 'caption',
+        },
+        itemPicture: {
+          alt: 'Andrew Shimmer photo',
+        },
+        itemLink: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
+            },
+          },
+          textValue: 'Learn more',
+          type: 'link',
+        },
+        itemSocialIcons: {
+          networks: [
+            {
+              id: 'facebook',
+              name: 'Facebook',
+              url: 'http://facebook.com/',
+            },
+            {
+              id: 'instagram',
+              name: 'Instagram',
+              url: 'http://instagram.com/',
+            },
+            {
+              id: 'youtube',
+              name: 'YouTube',
+              url: 'http://youtube.com/',
+            },
+          ],
+          target: '_blank',
+          design: {
+            border: 'circle',
+            innerFill: true,
+            preset: 'preset001',
+            offset: 15,
+            color: '#9b9b9b',
+            sizes: [15, 25, 35, 45],
+            size: 25,
+          },
         },
       },
-    },
-    textValue: 'Contact us',
-  },
-  link: {
-    actionConfig: {
-      action: 'link',
-      actions: {
-        link: {
-          type: '',
-          innerPage: '',
-          url: '',
+      {
+        itemTitle: {
+          content: 'Amanda Trainer',
+          type: 'heading',
+        },
+        itemContent: {
+          content: 'Andrew Shimmer has a 15-year experience in IT and marketing. He’s been successfully running companies specializing in high technologies. He won a bunch of international awards due to the excellent leadership skills and prominent achievements in business.',
+          type: 'text',
+        },
+        itemPosition: {
+          content: 'Office Manager',
+          type: 'caption',
+        },
+        itemEmail: {
+          content: '<a href="mailto:mysite@weblium.com">mysite@weblium.com</a>',
+          type: 'caption',
+        },
+        itemPicture: {
+          alt: 'Amanda Trainer  photo',
+        },
+        itemLink: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
+            },
+          },
+          textValue: 'Learn more',
+          type: 'link',
+        },
+        itemSocialIcons: {
+          networks: [
+            {
+              id: 'facebook',
+              name: 'Facebook',
+              url: 'http://facebook.com/',
+            },
+            {
+              id: 'instagram',
+              name: 'Instagram',
+              url: 'http://instagram.com/',
+            },
+            {
+              id: 'youtube',
+              name: 'YouTube',
+              url: 'http://youtube.com/',
+            },
+          ],
+          target: '_blank',
+          design: {
+            border: 'circle',
+            innerFill: true,
+            preset: 'preset001',
+            offset: 15,
+            color: '#9b9b9b',
+            sizes: [15, 25, 35, 45],
+            size: 25,
+          },
         },
       },
-    },
-    textValue: 'More about us',
-  },
-  socialIcons: {
-    networks: [
       {
-        id: 'facebook',
-        name: 'Facebook',
-        url: 'http://facebook.com/',
+        itemTitle: {
+          content: 'Tomas Abbar',
+          type: 'heading',
+        },
+        itemContent: {
+          content: 'Andrew Shimmer has a 15-year experience in IT and marketing. He’s been successfully running companies specializing in high technologies. He won a bunch of international awards due to the excellent leadership skills and prominent achievements in business.',
+          type: 'text',
+        },
+        itemPosition: {
+          content: 'Product Manager',
+          type: 'caption',
+        },
+        itemEmail: {
+          content: '<a href="mailto:mysite@weblium.com">mysite@weblium.com</a>',
+          type: 'caption',
+        },
+        itemPicture: {
+          alt: 'Tomas Abbar photo',
+        },
+        itemLink: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
+            },
+          },
+          textValue: 'Learn more',
+          type: 'link',
+        },
+        itemSocialIcons: {
+          networks: [
+            {
+              id: 'facebook',
+              name: 'Facebook',
+              url: 'http://facebook.com/',
+            },
+            {
+              id: 'instagram',
+              name: 'Instagram',
+              url: 'http://instagram.com/',
+            },
+            {
+              id: 'youtube',
+              name: 'YouTube',
+              url: 'http://youtube.com/',
+            },
+          ],
+          target: '_blank',
+          design: {
+            border: 'circle',
+            innerFill: true,
+            preset: 'preset001',
+            offset: 15,
+            color: '#9b9b9b',
+            sizes: [15, 25, 35, 45],
+            size: 25,
+          },
+        },
       },
       {
-        id: 'instagram',
-        name: 'Instagram',
-        url: 'http://instagram.com/',
-      },
-      {
-        id: 'youtube',
-        name: 'YouTube',
-        url: 'http://youtube.com/',
+        itemTitle: {
+          content: 'Jeff Bin',
+          type: 'heading',
+        },
+        itemContent: {
+          content: 'Andrew Shimmer has a 15-year experience in IT and marketing. He’s been successfully running companies specializing in high technologies. He won a bunch of international awards due to the excellent leadership skills and prominent achievements in business.',
+          type: 'text',
+        },
+        itemPosition: {
+          content: 'Accounting Officer',
+          type: 'caption',
+        },
+        itemEmail: {
+          content: '<a href="mailto:mysite@weblium.com">mysite@weblium.com</a>',
+          type: 'caption',
+        },
+        itemPicture: {
+          alt: 'Jeff Bin photo',
+        },
+        itemLink: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
+            },
+          },
+          textValue: 'Learn more',
+          type: 'link',
+        },
+        itemSocialIcons: {
+          networks: [
+            {
+              id: 'facebook',
+              name: 'Facebook',
+              url: 'http://facebook.com/',
+            },
+            {
+              id: 'instagram',
+              name: 'Instagram',
+              url: 'http://instagram.com/',
+            },
+            {
+              id: 'youtube',
+              name: 'YouTube',
+              url: 'http://youtube.com/',
+            },
+          ],
+          target: '_blank',
+          design: {
+            border: 'circle',
+            innerFill: true,
+            preset: 'preset001',
+            offset: 15,
+            color: '#9b9b9b',
+            sizes: [15, 25, 35, 45],
+            size: 25,
+          },
+        },
       },
     ],
-    target: '_blank',
-    design: {
-      border: 'circle',
-      innerFill: true,
-      preset: 'preset001',
-      padding: 20,
-      color: '',
-      sizes: [10, 20, 30, 40],
-      size: '40px',
-    },
   },
 }
 
 Block.modifierScheme = {
-  button: {defaultValue: true, label: 'Contact us button', type: 'checkbox'},
-  link: {defaultValue: false, label: 'About us link', type: 'checkbox'},
-  socialIcons: {defaultValue: false, label: 'Social media buttons', type: 'checkbox'},
-  subtitle: {defaultValue: false, label: 'Subtitle', type: 'checkbox'},
-  text: {defaultValue: true, label: 'Company main text', type: 'checkbox'},
   title: {defaultValue: true, label: 'Block title', type: 'checkbox'},
 }
 
