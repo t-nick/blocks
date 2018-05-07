@@ -20,10 +20,10 @@
         "lightShade"
       ],
       "fontFamily": "'Libre Franklin', sans-serif",
+      "fontStyle": "italic",
       "fontWeight": 300,
       "lineHeight": 1.43,
-      "size": "14px",
-      "fontStyle": "italic"
+      "size": "14px"
     },
     "heading": {
       "color": [
