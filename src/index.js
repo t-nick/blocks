@@ -13,77 +13,48 @@ ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
   services: [
     {
+      ...Component.defaultContent.services[0],
       title: {
+        ...Component.defaultContent.services[0].title,
         content: 'Rodney Bailey',
-        type: 'heading',
       },
       description: {
+        ...Component.defaultContent.services[0].description,
         content: 'Magothy Electric, CEO',
-        type: 'text',
       },
       picture: {
-        src: 'man1.jpg',
-        alt: 'Service illustration photo',
-      },
-      link: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Learn more',
-        type: 'link',
+        ...Component.defaultContent.services[0].picture,
+        resourceRef: 'man1.jpg',
       },
     },
     {
+      ...Component.defaultContent.services[1],
       title: {
+        ...Component.defaultContent.services[1].title,
         content: 'Theodore Daniel',
-        type: 'heading',
       },
       description: {
+        ...Component.defaultContent.services[1].description,
         content: 'Skydivers, Inc., CEO',
-        type: 'text',
       },
       picture: {
-        src: 'man2.jpg',
-        alt: 'Service illustration photo',
-      },
-      link: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Learn more',
-        type: 'link',
+        ...Component.defaultContent.services[1].picture,
+        resourceRef: 'man2.jpg',
       },
     },
   ],
   title: {
+    ...Component.defaultContent.title,
     content: 'What my clients say',
-    type: 'blockTitle',
   },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
-  body: {defaultValue: true, label: 'Service main text', type: 'checkbox'},
-  'button-primary': {defaultValue: false, label: 'Additional button', type: 'checkbox'},
-  'button-secondary': {defaultValue: false, label: 'Button', type: 'checkbox'},
-  heading: {defaultValue: true, label: 'Service title', type: 'checkbox'},
-  link: {defaultValue: false, label: 'Link', type: 'checkbox'},
-  subtitle: {defaultValue: false, label: 'Services description', type: 'checkbox'},
-  'top-icon': {defaultValue: false, label: 'Top icon decorator', type: 'hidden'},
+  'button-primary': {defaultValue: false, label: 'Additional button', type: 'hidden'},
+  'button-secondary': {defaultValue: false, label: 'Button', type: 'hidden'},
+  link: {defaultValue: false, label: 'Link', type: 'hidden'},
+  subtitle: {defaultValue: false, label: 'Services description', type: 'hidden'},
 }
 
 export default ExtendedWireframe
