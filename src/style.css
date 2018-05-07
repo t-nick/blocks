@@ -19,3 +19,8 @@
     padding: var(--ui-content-gutter);
   }
 }
+
+.slider-controls {
+  width: 20px;
+  height: 20px;
+}
