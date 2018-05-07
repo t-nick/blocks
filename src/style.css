@@ -15,11 +15,24 @@
 }
 
 .title {
-  text-align: left;
+  text-align: center;
   margin-bottom: 21px;
 
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+.subtitle {
+  padding-left: 0;
+  text-align: center;
+
+  @media (min-width: 768px) {
     position: relative;
+    padding-left: 100px;
+    margin-right: 0;
+    text-align: left;
+    margin-left: 0;
 
     &::before {
       content: "";
@@ -27,20 +40,10 @@
       position: absolute;
       width: 70px;
       height: 4px;
-      bottom: -35px;
+      top: 12px;
       left: 0;
-      background-color: currentColor;
+      background-color: var(--ui-dark-shade-color);
     }
-  }
-}
-
-.subtitle {
-  max-width: 770px;
-
-  @media (min-width: 992px) {
-    margin-left: 100px;
-    margin-right: 0;
-    text-align: left;
   }
 }
 
@@ -51,13 +54,15 @@
   &__container {
     background-color: transparent;
     transition: border-color 0.2s ease-in;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
     @media (min-width: 768px) {
       border-width: 8px;
       border-style: solid;
       border-color: #f1f2f5;
-      padding-top: 64px;
-      padding-bottom: 57px;
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
 
     &:hover {
@@ -83,5 +88,9 @@
 }
 
 .btns-group {
-  padding-top: 40px;
+  padding-top: 20px;
+
+  @media (min-width: 768px) {
+    padding-top: 40px;
+  }
 }
