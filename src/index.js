@@ -32,7 +32,7 @@ ExtendedWireframe.defaultContent = {
     type: 'text',
   },
   picture: {
-    src: 'img-1.jpg',
+    resourceRef: 'img-1.jpg',
     alt: 'Picture about the company',
   },
   'button-1': {
@@ -93,7 +93,7 @@ ExtendedWireframe.defaultContent = {
       innerFill: true,
       preset: 'preset001',
       offset: 10,
-      color: '#6f777c',
+      color: '#9b9b9b',
       sizes: [10, 20, 30, 40],
       size: 34,
     },
