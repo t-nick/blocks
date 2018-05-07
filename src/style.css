@@ -11,7 +11,7 @@
     height: 100px;
     bottom: 0;
     left: 0;
-    background-color: var(--ui-dark-shade-color);
+    background-color: transparent;
     border-top: 1px solid #8c8e96;
     z-index: 0;
 
