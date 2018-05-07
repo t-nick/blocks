@@ -1,81 +1,127 @@
 {
-  "name": "Typography 1",
+  "name": "Golett typography",
   "settings": {
-    "heroTitle": {
-      "size": "70px",
-      "lineHeight": 1.2857,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade", "lightShade"]
-    },
     "blockTitle": {
-      "size": "46px",
-      "lineHeight": 1.3043,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
-    },
-    "subtitle": {
-      "size": "18px",
-      "lineHeight": 1.7777,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
-    },
-    "headingLg": {
-      "size": "36px",
-      "lineHeight": 1.5555,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
-    },
-    "heading": {
-      "size": "24px",
-      "lineHeight": 1.4166,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 500,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
-    },
-    "subheading": {
-      "size": "20px",
-      "lineHeight": 1.5555,
-      "fontFamily": "'Montserrat', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
-    },
-    "text": {
-      "size": "16px",
-      "lineHeight": 1.5,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
-    },
-    "small": {
-      "size": "12px",
-      "lineHeight": 1.6666,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
-    },
-    "quote": {
-      "size": "14px",
-      "lineHeight": 1.2,
-      "fontFamily": "'Lato', sans-serif",
-      "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "coefficients": {
+        "320px": 0.65
+      },
+      "color": [
+        "darkShade",
+        "lightShade"
+      ],
+      "fontFamily": "'Libre Franklin', sans-serif",
+      "fontWeight": 200,
+      "lineHeight": 1.35,
+      "size": "40px"
     },
     "caption": {
+      "color": [
+        "darkShade?lighten=32.55",
+        "lightShade"
+      ],
+      "fontFamily": "'Libre Franklin', sans-serif",
+      "fontWeight": 300,
+      "lineHeight": 1.43,
       "size": "14px",
-      "lineHeight": 1.7142,
-      "fontFamily": "'Lato', sans-serif",
+      "fontStyle": "italic"
+    },
+    "heading": {
+      "color": [
+        "darkShade",
+        "lightShade"
+      ],
+      "fontFamily": "'Libre Franklin', sans-serif",
+      "fontWeight": 300,
+      "lineHeight": 1.5,
+      "size": "24px"
+    },
+    "headingLg": {
+      "coefficients": {
+        "320px": 0.86
+      },
+      "color": [
+        "darkShade",
+        "lightShade"
+      ],
+      "fontFamily": "'Libre Franklin', sans-serif",
+      "fontWeight": 300,
+      "lineHeight": 1.33,
+      "size": "30px"
+    },
+    "heroTitle": {
+      "coefficients": {
+        "320px": 0.42
+      },
+      "color": [
+        "darkShade",
+        "lightShade"
+      ],
+      "fontFamily": "'Libre Franklin', sans-serif",
       "fontWeight": 400,
-      "color": ["darkShade?lighten=20.9", "lightShade"]
+      "lineHeight": 1.25,
+      "size": "80px"
     },
     "link": {
-      "color": ["lightShade"],
+      "color": [
+        "darkShade",
+        "lightShade"
+      ],
       "hover": {
-        "color": ["brand"]
+        "color": [
+          "brand",
+          "brand"
+        ]
       }
+    },
+    "quote": {
+      "color": [
+        "lightShade?lighten=-47.06",
+        "lightShade"
+      ],
+      "fontFamily": "'Libre Franklin', sans-serif",
+      "fontWeight": 300,
+      "lineHeight": 1.89,
+      "size": "18px"
+    },
+    "small": {
+      "color": [
+        "lightShade?lighten=-46.67",
+        "lightShade"
+      ],
+      "fontFamily": "'Libre Franklin', sans-serif",
+      "fontWeight": 300,
+      "lineHeight": 1.43,
+      "size": "14px"
+    },
+    "subheading": {
+      "color": [
+        "lightShade?lighten=-47.06",
+        "lightShade"
+      ],
+      "fontFamily": "'Libre Franklin', sans-serif",
+      "fontWeight": 300,
+      "lineHeight": 1.8,
+      "size": "20px"
+    },
+    "subtitle": {
+      "color": [
+        "darkShade",
+        "lightShade"
+      ],
+      "fontFamily": "'Libre Franklin', sans-serif",
+      "fontWeight": 300,
+      "lineHeight": 1.8,
+      "size": "20px"
+    },
+    "text": {
+      "color": [
+        "lightShade?lighten=-47.06",
+        "lightShade"
+      ],
+      "fontFamily": "'Libre Franklin', sans-serif",
+      "fontWeight": 300,
+      "lineHeight": 1.89,
+      "size": "18px"
     }
   }
 }

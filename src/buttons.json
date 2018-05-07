@@ -1,94 +1,183 @@
 {
-  "name": "Buttons 1",
   "general": {
-    "fontFamily": "'Lato', sans-serif",
-    "borderWidth": "1px"
+    "fontFamily": "'Libre Franklin', sans-serif",
+    "textTransform": "uppercase"
   },
-  "size": {
-    "sm": {
-      "padding": "10px 16px",
-      "borderRadius": 0,
-      "fontSize": "14px"
-    },
-    "md": {
-      "padding": "14px 40px",
-      "borderRadius": 0,
-      "fontSize": "14px"
-    },
-    "lg": {
-      "padding": "20px 56px",
-      "borderRadius": 0,
-      "fontSize": "16px"
-    }
-  },
+  "name": "Golett buttons",
   "settings": {
     "primary": {
       "default": {
         "bg": {
-          "color": ["brand"]
+          "color": [
+            "transparent",
+            "transparent"
+          ]
         },
-        "color": ["lightShade"],
         "border": {
-          "color": ["transparent"]
-        }
+          "color": [
+            "brand",
+            "brand"
+          ]
+        },
+        "color": [
+          "brand",
+          "brand"
+        ],
+        "fontWeight": 600
       },
       "hover": {
         "bg": {
-          "color": ["darkShade", "lightShade"]
+          "color": [
+            "transparent",
+            "transparent"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
-      }
-    },
-    "primaryAlt": {
-      "default": {
-        "bg": {
-          "color": ["darkShade", "lightShade"]
-        },
-        "color": ["lightShade", "darkShade"],
+        "color": [
+          "brand?saturate=-1.31&lighten=-10.2",
+          "lightShade"
+        ],
+        "fontWeight": 600,
         "border": {
-          "color": ["transparent"]
+          "color": [
+            "brand?saturate=-1.31&lighten=-10.2",
+            "lightShade"
+          ]
         }
-      },
-      "hover": {
-        "bg": {
-          "color": ["brand"]
-        },
-        "color": ["lightShade"]
       }
     },
     "secondary": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent",
+            "lightShade"
+          ]
         },
-        "color": ["darkShade?lighten=20.9", "lightShade"],
         "border": {
-          "color": ["darkShade?lighten=20.9", "lightShade"]
-        }
+          "color": [
+            "darkShade?saturate=3.33&lighten=88.24&spin=240",
+            "transparent"
+          ]
+        },
+        "color": [
+          "darkShade",
+          "brand"
+        ],
+        "fontWeight": 600
       },
       "hover": {
         "bg": {
-          "color": ["darkShade?lighten=20.9", "lightShade"]
+          "color": [
+            "transparent",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
+        "color": [
+          "darkShade?lighten=52.94",
+          "darkShade"
+        ],
+        "fontWeight": 600
+      }
+    },
+    "primaryAlt": {
+      "default": {
+        "bg": {
+          "color": [
+            "transparent",
+            "transparent"
+          ]
+        },
+        "border": {
+          "color": [
+            "brand",
+            "brand"
+          ]
+        },
+        "color": [
+          "brand",
+          "brand"
+        ],
+        "fontWeight": 600
+      },
+      "hover": {
+        "bg": {
+          "color": [
+            "transparent",
+            "transparent"
+          ]
+        },
+        "color": [
+          "brand?saturate=-1.31&lighten=-10.2",
+          "lightShade"
+        ],
+        "fontWeight": 600,
+        "border": {
+          "color": [
+            "brand?saturate=-1.31&lighten=-10.2",
+            "lightShade"
+          ]
+        }
       }
     },
     "secondaryAlt": {
       "default": {
         "bg": {
-          "color": ["transparent"]
+          "color": [
+            "transparent",
+            "lightShade"
+          ]
         },
-        "color": ["darkShade?lighten=20.9", "lightShade"],
         "border": {
-          "color": ["brand", "lightShade"]
-        }
+          "color": [
+            "darkShade?saturate=3.33&lighten=88.24&spin=240",
+            "transparent"
+          ]
+        },
+        "color": [
+          "darkShade",
+          "brand"
+        ],
+        "fontWeight": 600
       },
       "hover": {
         "bg": {
-          "color": ["brand", "lightShade"]
+          "color": [
+            "transparent",
+            "lightShade"
+          ]
         },
-        "color": ["lightShade", "darkShade"]
+        "color": [
+          "darkShade?lighten=52.94",
+          "darkShade"
+        ],
+        "border": {
+          "color": [
+            "darkShade?lighten=52.94",
+            "transparent"
+          ]
+        },
+        "fontWeight": 600
       }
+    }
+  },
+  "size": {
+    "lg": {
+      "borderRadius": "3px",
+      "borderWidth": "1px",
+      "fontSize": "16px",
+      "padding": "18px 29px 18px 29px"
+    },
+    "md": {
+      "borderRadius": "3px",
+      "borderWidth": "1px",
+      "fontSize": "14px",
+      "padding": "15px 20px 15px 20px"
+    },
+    "sm": {
+      "borderRadius": "3px",
+      "borderWidth": "1px",
+      "fontSize": "14px",
+      "padding": "12px 16px 12px 16px"
     }
   }
 }
