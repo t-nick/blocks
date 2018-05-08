@@ -89,32 +89,32 @@
       "default": {
         "bg": {
           "color": [
-            "transparent",
+            "darkShade",
             "lightShade"
           ]
         },
         "border": {
           "color": [
-            "darkShade?saturate=3.33&lighten=88.24&spin=240",
+            "transparent",
             "transparent"
           ]
         },
         "color": [
-          "darkShade",
-          "brand"
+          "lightShade",
+          "darkShade"
         ],
         "fontWeight": 600
       },
       "hover": {
         "bg": {
           "color": [
-            "transparent",
-            "lightShade"
+            "lightShade?lighten=-47.06",
+            "darkShade?lighten=52.94"
           ]
         },
         "color": [
-          "darkShade?lighten=52.94",
-          "darkShade"
+          "lightShade",
+          "lightShade"
         ],
         "fontWeight": 600
       }
