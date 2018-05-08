@@ -1,3 +1,39 @@
 @import "wireframe-zapdos-contacts/src/style.css";
 
 /* start here */
+
+.title {
+  margin-bottom: 38px;
+}
+
+.logo-wrapper {
+  min-height: 110px;
+  margin-bottom: 0;
+}
+
+.logo {
+  justify-content: flex-start;
+  padding-left: 0;
+}
+
+.contacts {
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__desc {
+    font-size: var(--ui-text-size);
+    line-height: 1.8;
+  }
+
+}
+
+.contacts-list__item {
+  margin-bottom: 34px;
+}
+
+.contacts__desc a {
+  font-size: var(--ui-text-size);
+  color: var(--ui-text-color);
+  text-decoration: none;
+}
