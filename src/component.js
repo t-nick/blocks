@@ -47,7 +47,7 @@ class Block extends React.Component {
     const arrange = this.getModifierValue('arrange-elements')
 
     return (
-      <section className={classNames(css.section, {[css['section--column']]: columnLayout}, css[`section--${arrange}`])}>
+      <section className={classNames(css.section, {[css['section--column']]: columnLayout}, arrange && css['section--reverse'])}>
         <div className={css.section__inner}>
           {this.getOptionValue('icon-decorator-in-top') && getIconDecorator}
           {this.getOptionValue('title-in-top') && getTitle}
@@ -188,7 +188,7 @@ Block.defaultContent = {
       preset: 'preset001',
       offset: 15,
       color: '#9b9b9b',
-      sizes: [10, 20, 30, 40],
+      sizes: [20, 30, 40],
       size: 30,
     },
   },
@@ -200,22 +200,18 @@ Block.defaultContent = {
 
 Block.modifierScheme = {
   'arrange-elements': {
-    children: [
-      {id: 'default', label: 'Default'},
-      {id: 'reverse', label: 'Reverse'},
-    ],
-    defaultValue: 'Default',
+    defaultValue: false,
     name: 'Arrange elements',
-    type: 'radio-button-group',
+    type: 'swap',
   },
-  'article-picture': {defaultValue: true, label: 'Article picture', type: 'hidden'},
-  'button': {defaultValue: true, label: 'Button', type: 'checkbox'},
-  'additional-button': {defaultValue: false, label: 'Additional button', type: 'checkbox'},
-  'socialIcons': {defaultValue: false, label: 'Social media buttons', type: 'checkbox'},
+  'title': {defaultValue: true, label: 'Block title', type: 'checkbox'},
   'subtitle': {defaultValue: false, label: 'Subtitle', type: 'checkbox'},
   'text': {defaultValue: true, label: 'Company main text', type: 'checkbox'},
-  'title': {defaultValue: true, label: 'Block title', type: 'checkbox'},
+  'socialIcons': {defaultValue: false, label: 'Social media buttons', type: 'checkbox'},
+  'button': {defaultValue: true, label: 'Secondary button', type: 'checkbox'},
+  'additional-button': {defaultValue: false, label: 'Primary button', type: 'checkbox'},
   'top-icon': {defaultValue: false, label: 'Top icon decorator', type: 'hidden'},
+  'article-picture': {defaultValue: true, label: 'Article picture', type: 'hidden'},
   'additional-text': {defaultValue: false, label: 'Additional text', type: 'hidden'},
 }
 
