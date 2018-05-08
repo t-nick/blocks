@@ -25,10 +25,11 @@
 
   &__header {
 
-    @media (min-width: 992px) {
+    @media (min-width: 768px) {
       padding-left: 0;
       padding-right: 0;
       padding-top: 0;
+      text-align: left;
     }
   }
 }
@@ -64,7 +65,7 @@
       var(--ui-light-accent-color) 100%
     );
 
-    @media (min-width: 992px) {
+    @media (min-width: 768px) {
       left: 0;
       transform: skewX(-25deg);
     }
@@ -73,11 +74,12 @@
 
 .form {
 
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     max-width: 100%;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
+
   }
 
   &__item {
