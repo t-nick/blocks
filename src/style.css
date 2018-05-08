@@ -1,3 +1,45 @@
 @import "wireframe-zapdos-about/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding: 0;
+  }
+
+  &__inner {
+    max-width: none;
+
+    @media (min-width: 768px) {
+      padding: 0;
+    }
+  }
+}
+
+.article {
+
+  @media (min-width: 768px) {
+    align-items: center;
+  }
+
+  &__picture {
+    padding-top: 65.33333%;
+
+    &-wrapper {
+
+      @media (min-width: 768px) {
+        order: 2;
+      }
+    }
+  }
+
+  &__content {
+
+    @media (min-width: 1200px) {
+      max-width: 925px;
+      order: 1;
+      padding-left: 240px;
+      padding-right: 100px;
+    }
+  }
+}

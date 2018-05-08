@@ -11,10 +11,15 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  picture: {
+    resourceRef: 'about-img.png',
+    alt: 'Picture about the company',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  button: {defaultValue: false, label: 'Button', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
