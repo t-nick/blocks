@@ -1,3 +1,20 @@
 @import "wireframe-zapdos-why/src/style.css";
 
 /* start here */
+
+.item {
+  &__title {
+    font-size: var(--ui-block-title-size);
+    line-height: 1;
+    margin-bottom: 21px;
+  }
+
+  &__top-element {
+    margin: 0 auto 17px;
+
+    @media (min-width: 768px) {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}
