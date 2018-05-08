@@ -1,3 +1,41 @@
 @import "wireframe-zapdos-why/src/style.css";
 
 /* start here */
+.section {
+  &__inner {
+
+    @media (min-width: 992px) {
+      max-width: 1200px;
+    }
+  }
+}
+
+.item {
+
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+
+  @media (min-width: 992px) {
+    margin-top: 0;
+    margin-bottom: 34px;
+  }
+
+  &__top-element {
+    margin-bottom: 15px;
+
+    @media (min-width: 768px) {
+      width: 70px;
+      height: 70px;
+      margin-left: 0;
+      margin-bottom: 13px;
+    }
+  }
+
+  &__title {
+
+    @media (min-width: 992px) {
+      margin-bottom: 17px;
+    }
+  }
+}
