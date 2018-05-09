@@ -84,25 +84,25 @@
 
   &__item {
     font-size: 0;
-  }
 
-  &__field {
-    font-size: var(--ui-text-size);
-    font-family: var(--ui-subheading-font-family);
-    font-weight: 600;
+    .form__field {
+      font-size: var(--ui-text-size);
+      font-family: var(--ui-subheading-font-family);
+      font-weight: 600;
 
-    @media (min-width: 992px) {
-      font-size: calc(var(--ui-text-size) * 0.875);
-      margin-top: 0;
-      margin-bottom: 22px;
-      padding-left: 30px;
-      padding-top: 24px;
-      padding-bottom: 24px;
-    }
+      @media (min-width: 992px) {
+        font-size: calc(var(--ui-text-size) * 0.875);
+        margin-top: 0;
+        margin-bottom: 22px;
+        padding-left: 30px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+      }
 
-    &::placeholder {
-      text-transform: uppercase;
-      color: currentColor;
+      &::placeholder {
+        text-transform: uppercase;
+        color: currentColor;
+      }
     }
   }
 
