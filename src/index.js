@@ -25,35 +25,38 @@ ExtendedWireframe.defaultContent = {
     fields: [
       {
         ...Component.defaultContent.contactForm.fields[0],
+        title: '',
         placeholder: 'Full name *',
       },
       {
         ...Component.defaultContent.contactForm.fields[2],
+        title: '',
         placeholder: 'E-mail *',
       },
       {
         ...Component.defaultContent.contactForm.fields[1],
+        title: '',
         placeholder: 'Phone *',
       },
       {
         ...Component.defaultContent.contactForm.fields[0],
         placeholder: 'Type of driver',
         id: 'contactForm_driver-type',
-        title: 'Type of driver',
+        title: '',
         required: false,
       },
       {
         ...Component.defaultContent.contactForm.fields[0],
         placeholder: 'Valid cdl \'a\' class',
         id: 'contactForm_cdl-class',
-        title: 'Valid cdl \'a\' class',
+        title: '',
         required: false,
       },
       {
         ...Component.defaultContent.contactForm.fields[0],
         placeholder: 'Years of driver\'s solo experience',
         id: 'contactForm_drive-experience',
-        title: 'Years of driver\'s solo experience',
+        title: '',
         required: false,
       },
     ],

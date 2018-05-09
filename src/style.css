@@ -83,7 +83,7 @@
   }
 
   &__item {
-    font-size: 0;
+    // font-size: 0;
 
     .form__field {
       font-size: var(--ui-text-size);
