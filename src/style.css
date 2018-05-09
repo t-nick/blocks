@@ -90,7 +90,6 @@
     font-size: var(--ui-text-size);
     font-family: var(--ui-subheading-font-family);
     font-weight: 600;
-    background-color: #f5f5f5;
 
     @media (min-width: 992px) {
       font-size: calc(var(--ui-text-size) * 0.875);
@@ -99,12 +98,11 @@
       padding-left: 30px;
       padding-top: 24px;
       padding-bottom: 24px;
-      color: var(--ui-quote-color);
     }
 
     &::placeholder {
       text-transform: uppercase;
-      color: var(--ui-quote-color);
+      color: currentColor;
     }
   }
 
