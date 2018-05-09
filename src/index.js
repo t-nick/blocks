@@ -11,19 +11,27 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  background: {
+    type: 'image',
+    position: {
+      type: 'cover',
+      cover: '50% 50%',
+    },
+    resourceRef: 'bg.jpg',
+  },
   projects: [
     {
       ...Component.defaultContent.projects[0],
       picture: {
         ...Component.defaultContent.projects[0].picture[0],
-        resourceRef: '01.png',
+        resourceRef: '1.jpg',
       },
     },
     {
       ...Component.defaultContent.projects[1],
       picture: {
         ...Component.defaultContent.projects[1].picture[1],
-        resourceRef: '02.png',
+        resourceRef: '2.jpg',
       },
     },
     {
@@ -36,7 +44,7 @@ ExtendedWireframe.defaultContent = {
         type: 'text',
       },
       picture: {
-        resourceRef: '03.png',
+        resourceRef: '3.jpg',
       },
     },
     {
@@ -49,7 +57,7 @@ ExtendedWireframe.defaultContent = {
         type: 'text',
       },
       picture: {
-        resourceRef: '04.png',
+        resourceRef: '4.jpg',
       },
     },
   ],
