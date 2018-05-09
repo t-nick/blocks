@@ -24,19 +24,17 @@ ExtendedWireframe.defaultContent = {
   },
   title: {
     ...Component.defaultContent.title,
-    content: 'Pre-order Book Now!',
     type: 'blockTitle',
     color: 'lightShadeColor',
   },
   cta: {
     ...Component.defaultContent.cta,
-    textValue: 'Pre order a book',
     type: 'primary',
     size: 'md',
   },
   picture: {
     ...Component.defaultContent.picture,
-    src: 'img.png',
+    src: 'CTA.jpg',
     alt: 'Illustration photo',
   },
 }
