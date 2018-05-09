@@ -1,3 +1,63 @@
 @import "wireframe-series-2-schedule/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 90px;
+    padding-bottom: 100px;
+  }
+}
+
+.title {
+  letter-spacing: -0.05em;
+  margin-bottom: 35px;
+}
+
+.subtitle {
+  opacity: 0.6;
+  font-weight: 600;
+}
+
+.section__header {
+  margin-bottom: 40px;
+}
+
+.item {
+  text-align: center;
+  padding-top: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 42px;
+
+  &__title {
+    margin-bottom: 35px;
+    letter-spacing: -0.05em;
+
+    &::after {
+      width: 240px;
+      bottom: -12px;
+      background-color: var(--ui-dark-shade-color);
+      opacity: 0.1;
+    }
+  }
+}
+
+.schedule {
+  &__item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  &__time {
+    font-size: calc(var(--ui-text-size) * 0.875);
+    text-align: right;
+    margin-right: 5px;
+  }
+
+  &__event {
+    font-size: calc(var(--ui-text-size) * 0.875);
+    text-align: left;
+  }
+}
