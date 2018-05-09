@@ -34,7 +34,7 @@ ExtendedWireframe.defaultContent = {
   },
   picture: {
     ...Component.defaultContent.picture,
-    src: 'CTA.jpg',
+    resourceRef: 'CTA.jpg',
     alt: 'Illustration photo',
   },
 }
