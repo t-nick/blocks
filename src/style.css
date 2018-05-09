@@ -32,7 +32,7 @@
     bottom: -24px;
     left: 50%;
     transform: translate(-50%);
-    background-color: var(--ui-dark-shade-color);
+    background-color: #e8e5e5;
   }
 
 }

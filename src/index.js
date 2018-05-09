@@ -22,24 +22,20 @@ ExtendedWireframe.defaultContent = {
   },
 
   title: {
-    content: 'Our Values',
+    ...Component.defaultContent.title,
     type: 'blockTitle',
-    color: '#1e1313',
   },
   subtitle: {
-    content: 'We are a customer-oriented company, and our  values drive us to achieve more.',
+    ...Component.defaultContent.subtitle,
     type: 'subheading',
-    color: '#646060',
-  },
-  text: {
-    content: 'We always work hard to improve our goods and services to achieve higher results for our clients. We love challenging tasks that require an innovative approach. Thus, if your business needs a unique solution, we are ready to fine-tune our existing products to meet all your demands.',
-    type: 'text',
   },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   subtitle: {defaultValue: true, label: 'Description', type: 'checkbox'},
+  heading: {defaultValue: false, label: 'Title', type: 'hidden'},
+  subheading: {defaultValue: false, label: 'Subtitle', type: 'hidden'},
 }
 
 export default ExtendedWireframe
