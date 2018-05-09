@@ -17,7 +17,7 @@ ExtendedWireframe.defaultContent = {
       type: 'cover',
       cover: '50% 50%',
     },
-    resourceRef: 'bg-img.png',
+    resourceRef: 'bg.jpg',
   },
   partners: [
     {
@@ -65,10 +65,10 @@ ExtendedWireframe.defaultContent = {
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
-  heading: {defaultValue: false, label: 'Partner title', type: 'checkbox'},
-  body: {defaultValue: false, label: 'About partner', type: 'checkbox'},
-  link: {defaultValue: false, label: 'Partner link', type: 'checkbox'},
-  button: {defaultValue: false, label: 'Button', type: 'checkbox'},
+  heading: {defaultValue: false, label: 'Partner title', type: 'hidden'},
+  body: {defaultValue: false, label: 'About partner', type: 'hidden'},
+  link: {defaultValue: false, label: 'Partner link', type: 'hidden'},
+  button: {defaultValue: false, label: 'Button', type: 'hidden'},
 }
 
 export default ExtendedWireframe
