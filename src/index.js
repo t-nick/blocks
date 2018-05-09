@@ -36,7 +36,7 @@ ExtendedWireframe.defaultContent = {
         image: {
           resourceRef: 'partners-img-2.png',
           width: 130,
-          height: 40,
+          height: 44,
         },
       },
     },
