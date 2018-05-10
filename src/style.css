@@ -1,3 +1,33 @@
 @import "wireframe-lucario-cover/src/style.css";
 
-/* start here */
+.subtitle {
+
+  @media (min-width: 992px) {
+    margin-top: 5px;
+  }
+}
+
+.btns-group {
+  margin-top: 43px;
+}
+
+.items-wrapper .slick-arrow-default {
+  width: 50px;
+  height: 50px;
+  padding: 15px 19px;
+  background-color: var(--ui-light-shade-color);
+}
+
+.slick-arrow-default.slick-prev-default {
+
+  @media (min-width: 992px) {
+    left: -90px;
+  }
+}
+
+.items-wrapper .slick-next-default {
+
+  @media (min-width: 992px) {
+    right: -90px;
+  }
+}

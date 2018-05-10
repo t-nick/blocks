@@ -21,10 +21,58 @@ ExtendedWireframe.defaultContent = {
     },
     resourceRef: 'bg.png',
   },
+  cover: [
+    {
+      ...Component.defaultContent.cover[0],
+      title: {
+        ...Component.defaultContent.cover[0].title,
+        color: '#000',
+      },
+      cta: {
+        ...Component.defaultContent.cover[0].cta,
+        type: 'secondary',
+      },
+      'cta-2': {
+        ...Component.defaultContent.cover[0].cta,
+        type: 'primary',
+      },
+    },
+    {
+      ...Component.defaultContent.cover[1],
+      title: {
+        ...Component.defaultContent.cover[1].title,
+        color: '#000',
+      },
+      cta: {
+        ...Component.defaultContent.cover[1].cta,
+        type: 'secondary',
+      },
+      'cta-2': {
+        ...Component.defaultContent.cover[1].cta,
+        type: 'primary',
+      },
+    },
+    {
+      ...Component.defaultContent.cover[2],
+      title: {
+        ...Component.defaultContent.cover[2].title,
+        color: '#000',
+      },
+      cta: {
+        ...Component.defaultContent.cover[2].cta,
+        type: 'secondary',
+      },
+      'cta-2': {
+        ...Component.defaultContent.cover[2].cta,
+        type: 'primary',
+      },
+    },
+  ],
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  'secondary-button': {defaultValue: true, label: 'Secondary button', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
