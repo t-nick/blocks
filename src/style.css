@@ -4,7 +4,7 @@
 .title {
   position: relative;
   text-align: left;
-    
+
   &::after {
     content: "";
     position: absolute;
@@ -37,6 +37,8 @@
   &__image {
     position: relative;
     object-fit: contain;
+    padding-top: 73%;
+    background-size: contain;
 
     @media (min-width: 992px) {
       width: 100%;
@@ -48,7 +50,7 @@
     background-color: transparent;
     padding-top: 0;
   }
-  
+
   @media (min-width: 450px) {
     max-width: 50%;
     flex-basis: 50%;
