@@ -1,3 +1,26 @@
 @import "wireframe-series-2-about/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding: 142px 0 150px;
+  }
+}
+
+.article {
+  padding: 0;
+
+  @media (min-width: 992px) {
+    max-width: 630px;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  &__text {
+    margin-bottom: 48px;
+  }
+}
