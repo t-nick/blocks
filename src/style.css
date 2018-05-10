@@ -1,3 +1,100 @@
 @import "wireframe-series-2-schedule/src/style.css";
 
 /* start here */
+.section {
+  &__header {
+    margin-bottom: 40px;
+
+    @media (min-width: 1170px) {
+      display: flex;
+      margin-bottom: 68px;
+    }
+  }
+}
+
+.title {
+  display: flex;
+  position: relative;
+  margin-bottom: 50px;
+  font-weight: var(--ui-block-title-font-weight);
+  color: var(--dark-blue-grey);
+  padding-right: 30px;
+  line-height: 1.38;
+  letter-spacing: 2px;
+
+  @media (min-width: 1170px) {
+    width: 400px;
+    margin-bottom: 0;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 170px;
+    height: 2px;
+    bottom: -24px;
+    left: 0;
+    background-color: var(--ui-brand-color);
+  }
+
+  &::after {
+    content: "";
+    width: 9px;
+    height: 9px;
+    transform: translateY(20px);
+    background-color: var(--ui-brand-color);
+    border-radius: 6px;
+
+    @media (min-width: 768px) {
+      transform: translateY(40px);
+    }
+  }
+}
+
+.subtitle {
+  max-width: none;
+  padding: 0;
+  text-align: left;
+  letter-spacing: 0.9px;
+  color: var(--ui-text-color);
+
+  @media (min-width: 1170px) {
+    max-width: 770px;
+    margin: 0 auto;
+  }
+}
+
+.item {
+  padding: 46px 40px 35px;
+  border-radius: 11px;
+
+  &__title {
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 26px;
+
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.schedule {
+  &__item {
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  &__time {
+    font-weight: 600;
+    font-size: calc(var(--ui-text-size) * 0.75);
+    color: var(--ui-brand-color);
+
+  }
+
+  &__event {
+    display: block;
+    max-width: none;
+    margin-top: -4px;
+  }
+}
