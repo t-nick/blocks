@@ -1,6 +1,14 @@
 @import "wireframe-zapdos-why/src/style.css";
 
 /* start here */
+
+.section {
+  svg {
+    color: var(--ui-brand-color);
+    width: 70%;
+  }
+}
+
 .title {
   font-weight: 700;
   margin-bottom: 4px;
@@ -60,9 +68,4 @@
 
     }
   }
-}
-
-svg {
-  color: var(--ui-brand-color);
-  width: 70%;
 }
