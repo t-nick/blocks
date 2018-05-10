@@ -1,3 +1,39 @@
 @import "wireframe-zapdos-services/src/style.css";
 
 /* start here */
+
+.section {
+  &__header {
+
+    @media (min-width: 768px) {
+      margin-bottom: 55px;
+    }
+  }
+}
+
+.title {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    bottom: -29px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--ui-brand-color);
+  }
+}
+
+.article {
+  &__text {
+    font-size: var(--ui-heading-size);
+    font-weight: var(--ui-heading-font-weight);
+    color: var(--ui-brand-color);
+  }
+}
+
+.btns-group {
+  padding-top: 12px;
+}
