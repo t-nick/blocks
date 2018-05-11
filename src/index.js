@@ -11,10 +11,17 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  background: {
+    type: 'color',
+    color: '#f3f3f6',
+  },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  button: {defaultValue: true, label: 'Secondary button', type: 'checkbox'},
+  'additional-button': {defaultValue: false, label: 'Button', type: 'hidden'},
+  'top-icon': {defaultValue: false, label: 'Top icon decorator', type: 'hidden'},
 }
 
 export default ExtendedWireframe

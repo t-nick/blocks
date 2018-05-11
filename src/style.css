@@ -1,3 +1,100 @@
 @import "wireframe-zapdos-process/src/style.css";
 
 /* start here */
+.section {
+  &__inner {
+    max-width: none;
+  }
+
+  @media (min-width: 768px) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+.articles-wrapper {
+  margin: 0;
+  padding-top: 14px;
+}
+
+.title {
+  position: relative;
+  margin-bottom: 58px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 4px;
+    bottom: -17px;
+    left: 50%;
+    background-color: var(--ui-dark-shade-color);
+    margin-left: -65px;
+  }
+}
+
+.article {
+  padding: 0;
+
+  @media (min-width: 768px) {
+    padding: 0 20px;
+  }
+
+  &__content {
+    padding: 62px 23% 50px 22%;
+    background-color: var(--ui-light-shade-color);
+    box-shadow: 0 9px 16px 0 rgba(37, 37, 46, 0.08);
+
+    @media (min-width: 768px) {
+      min-height: 304px;
+    }
+
+    &::before {
+      content: "";
+      width: 0;
+      height: 0;
+      padding: 0;
+      border-radius: 0;
+      border-style: solid;
+      border-width: 96px 96px 0 0;
+      border-color: var(--ui-brand-color) transparent  transparent  transparent;
+      background: none;
+      font-size: 0;
+      line-height: 0;
+      counter-increment: nan;
+    }
+
+    &::after {
+      content: counter(steps);
+      position: absolute;
+      top: 6px;
+      left: 34px;
+      counter-increment: steps;
+      color: var(--ui-light-shade-color);
+      font-family: var(--ui-block-title-font-family);
+      font-size: calc(var(--ui-text-size) * 3);
+      line-height: var(--ui-text-line-height);
+      font-weight: var(--ui-block-title-font-weight);
+    }
+
+  }
+
+  &__title {
+    position: relative;
+    margin-bottom: 56px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 130px;
+      height: 4px;
+      bottom: -14px;
+      left: 0;
+      background-color: var(--ui-dark-shade-color);
+    }
+  }
+}
+
+.btns-group {
+  margin-top: 70px;
+}
