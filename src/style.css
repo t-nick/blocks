@@ -1,3 +1,25 @@
 @import "wireframe-zapdos-cover/src/style.css";
 
 /* start here */
+.title {
+
+  @media (min-width: 768px) {
+    padding: 0;
+  }
+}
+
+.subtitle {
+
+  @media (min-width: 768px) {
+    padding: 0;
+    font-size: var(--ui-quote-size);
+  }
+}
+
+.btns-group {
+  margin-top: 5px;
+
+  @media (min-width: 768px) {
+    padding: 0;
+  }
+}
