@@ -1,6 +1,6 @@
 {
   "name": "wireframe-series-2-events",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "category": "events",
   "main": "src/index.js",
