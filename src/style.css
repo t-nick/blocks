@@ -1,3 +1,38 @@
 @import "wireframe-zapdos-services/src/style.css";
 
 /* start here */
+.section {
+
+  @media (min-width: 992px) {
+    padding-top: 100px;
+    padding-bottom: 112px;
+  }
+
+  &__header {
+    display: none;
+  }
+}
+
+.article {
+  margin-bottom: 27px;
+
+  @media (min-width: 992px) {
+    max-width: 33.333%;
+    flex-basis: 33.333%;
+  }
+
+  &__title {
+    margin-bottom: 17px;
+  }
+
+  &__picture {
+
+    @media (min-width: 992px) {
+      min-height: 315px;
+    }
+  }
+
+  &__picture-wrapper {
+    margin-bottom: 27px;
+  }
+}
