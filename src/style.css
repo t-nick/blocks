@@ -33,6 +33,7 @@
     margin-right: 0;
     text-align: left;
     margin-left: 0;
+    color: var(--ui-heading-lg-color);
 
     &::before {
       content: "";
@@ -57,7 +58,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
 
-    @media (min-width: 768px) {
+    @media (min-width: 320px) {
       border-width: 8px;
       border-style: solid;
       border-color: #f1f2f5;
@@ -66,7 +67,7 @@
     }
 
     &:hover {
-      border-color: #dadbdd;
+      border-color: var(--ui-light-accent-color);
     }
   }
 
@@ -84,6 +85,7 @@
 
   &__desc {
     margin-bottom: 32px;
+    color: var(--ui-heading-lg-color);
   }
 }
 
