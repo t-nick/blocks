@@ -1,3 +1,101 @@
 @import "wireframe-series-2-pricing/src/style.css";
 
-/* start here */
+.title {
+  position: relative;
+  margin-bottom: 43px;
+  padding-bottom: 15px;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 4px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--ui-dark-shade-color);
+  }
+}
+
+.item {
+  max-width: 387px;
+  margin: 0 auto;
+  flex-basis: 100%;
+
+  @media (min-width: 768px) {
+    flex-basis: 50%;
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: 992px) {
+    flex-basis: 33.33%;
+  }
+
+  &__container {
+    position: relative;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      padding-top: 100%;
+      background: linear-gradient(135deg, rgba(75, 75, 240, 1) 0%, rgba(75, 75, 240, 1) 50%, rgba(75, 75, 240, 0) 50%);
+      z-index: 0;
+    }
+  }
+
+  &__title {
+    position: relative;
+    padding-bottom: 10px;
+    z-index: 3;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 130px;
+      height: 4px;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: var(--ui-light-shade-color);
+    }
+  }
+
+  &__icon {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    padding-top: 20px;
+    background-color: var(--ui-light-shade-color);
+    border-radius: 50%;
+    z-index: 3;
+  }
+
+  &__price {
+    position: relative;
+    padding-bottom: 15px;
+    z-index: 3;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 130px;
+      height: 4px;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: var(--ui-dark-shade-color);
+    }
+  }
+
+}
+
+.item:first-child .item__icon {
+  transform: rotate(45deg);
+}
