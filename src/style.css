@@ -4,7 +4,8 @@
 .section {
 
   @media (min-width: 992px) {
-    padding-top: 100px;
+    padding-top: 95px;
+    padding-bottom: 55px;
   }
 
   &__header {
@@ -41,6 +42,7 @@
 
 .title {
   position: relative;
+  letter-spacing: -1px;
 
   &::before {
 
