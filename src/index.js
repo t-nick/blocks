@@ -20,82 +20,19 @@ ExtendedWireframe.defaultContent = {
     resourceRef: 'cover.jpg',
     overlay: {
       type: 'color',
-      color: 'var(--ui-light-shade-color)',
+      color: 'light-shade-color',
       opacity: 0.7,
     },
   },
   cover: [
     {
-      title: {
-        content: 'The only journey is the one within',
-        type: 'heroTitle',
-      },
-      subtitle: {
-        content: 'We implement Innovative Projects',
-        type: 'subtitle',
-      },
-      cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'SIGN UP',
-        type: 'primary',
-      },
+      ...Component.defaultContent.cover[0],
     },
     {
-      title: {
-        content: 'Quantum Company',
-        type: 'heroTitle',
-      },
-      subtitle: {
-        content: 'We implement Innovative Projects',
-        type: 'subtitle',
-      },
-      cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Request a quote',
-        type: 'primary',
-      },
+      ...Component.defaultContent.cover[1],
     },
     {
-      title: {
-        content: 'Quantum Company',
-        type: 'heroTitle',
-      },
-      subtitle: {
-        content: 'We implement Innovative Projects',
-        type: 'subtitle',
-      },
-      cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Request a quote',
-        type: 'primary',
-      },
+      ...Component.defaultContent.cover[2],
     },
   ],
 
@@ -103,10 +40,8 @@ ExtendedWireframe.defaultContent = {
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
-  arrows: {defaultValue: true, label: 'Navigation arrows', type: 'checkbox'},
-  dots: {defaultValue: false, label: 'Navigation indicators', type: 'checkbox'},
-  'primary-button': {defaultValue: true, label: 'Button', type: 'checkbox'},
-  subtitle: {defaultValue: false, label: 'Title description', type: 'checkbox'},
+  dots: {defaultValue: false, label: 'Navigation indicators', type: 'hidden'},
+  subtitle: {defaultValue: false, label: 'Title description', type: 'hidden'},
 }
 
 export default ExtendedWireframe
