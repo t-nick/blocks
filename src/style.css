@@ -1,10 +1,23 @@
 @import "wireframe-zapdos-cover/src/style.css";
 
 /* start here */
+
+.section {
+  align-items: start;
+  justify-content: start;
+
+  @media (min-width: 768px) {
+    min-height: 772px;
+  }
+}
+
 .title {
+  letter-spacing: -2px;
 
   @media (min-width: 768px) {
     padding: 0;
+    margin-top: 110px;
+    margin-bottom: 0;
   }
 }
 
@@ -17,7 +30,7 @@
 }
 
 .btns-group {
-  margin-top: 5px;
+  margin-top: 0;
 
   @media (min-width: 768px) {
     padding: 0;
