@@ -16,12 +16,9 @@ ExtendedWireframe.defaultContent = {
     type: 'color',
     color: 'dark-shade-color',
   },
-  subtitle: {
-    content: 'They were significantly bigger than him, especially the second man, who frequently slapped him on the shoulder.',
-    type: 'subtitle',
-  },
   partners: [
     {
+      ...Component.defaultContent.partners[0],
       logo: {
         image: {
           resourceRef: 'logo-img-1.png',
@@ -31,6 +28,7 @@ ExtendedWireframe.defaultContent = {
       },
     },
     {
+      ...Component.defaultContent.partners[1],
       logo: {
         image: {
           resourceRef: 'logo-img-2.png',
@@ -40,6 +38,7 @@ ExtendedWireframe.defaultContent = {
       },
     },
     {
+      ...Component.defaultContent.partners[2],
       logo: {
         image: {
           resourceRef: 'logo-img-3.png',
@@ -49,6 +48,7 @@ ExtendedWireframe.defaultContent = {
       },
     },
     {
+      ...Component.defaultContent.partners[2],
       logo: {
         image: {
           resourceRef: 'logo-img-4.png',
@@ -58,6 +58,7 @@ ExtendedWireframe.defaultContent = {
       },
     },
     {
+      ...Component.defaultContent.partners[2],
       logo: {
         image: {
           resourceRef: 'logo-img-5.png',
@@ -67,6 +68,7 @@ ExtendedWireframe.defaultContent = {
       },
     },
     {
+      ...Component.defaultContent.partners[2],
       logo: {
         image: {
           resourceRef: 'logo-img-6.png',
@@ -81,9 +83,9 @@ ExtendedWireframe.defaultContent = {
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   subtitle: {defaultValue: true, label: 'Partner description', type: 'checkbox'},
-  heading: {defaultValue: false, label: 'Partner title', type: 'checkbox'},
-  body: {defaultValue: false, label: 'About partner', type: 'checkbox'},
-  link: {defaultValue: false, label: 'Partner link', type: 'checkbox'},
+  heading: {defaultValue: false, label: 'Partner title', type: 'hidden'},
+  body: {defaultValue: false, label: 'About partner', type: 'hidden'},
+  link: {defaultValue: false, label: 'Partner link', type: 'hidden'},
 }
 
 export default ExtendedWireframe

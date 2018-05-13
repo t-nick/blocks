@@ -44,6 +44,10 @@
 
 .items-wrapper--only-logo .item--logo {
 
+  @media (min-width: 768px) {
+    margin: 10px;
+  }
+
   @media (min-width: 992px) {
     margin: 0 15px;
   }
@@ -52,6 +56,6 @@
 .btns-group--offset-sm {
 
   @media (min-width: 992px) {
-    padding-top: 40px;
+    padding-top: 30px;
   }
 }
