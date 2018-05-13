@@ -1,3 +1,58 @@
 @import "wireframe-series-2-footer/src/style.css";
 
-/* start here */
+.footer {
+  position: relative;
+  background-color: #f8f8f8;
+
+  &__text {
+    font-size: var(--ui-small-size);
+    font-weight: var(--ui-small-line-height);
+  }
+
+  &__bottom {
+    position: relative;
+    z-index: 3;
+  }
+
+  &__bottom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: -1;
+  }
+}
+
+.nav-list__item:nth-child(7),
+.nav-list__item:nth-child(8),
+.nav-list__item:nth-child(9),
+.nav-list__item:nth-child(10),
+.nav-list__item:nth-child(11),
+.nav-list__item:nth-child(12) {
+  display: none;
+}
+
+.socials__icons {
+  display: flex;
+}
+
+.socials__icons li:nth-child(1) {
+  order: 2;
+}
+
+.socials__icons li:nth-child(2) {
+  order: 1;
+}
+
+.socials__icons li:nth-child(4) {
+  order: 3;
+}
+
+.socials__icons li:nth-child(3) {
+  display: none;
+  order: 4;
+}
