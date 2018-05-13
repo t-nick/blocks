@@ -16,49 +16,49 @@ ExtendedWireframe.defaultContent = {
     color: 'dark-shade-color',
   },
   subtitle: {
-    content: 'Browse through our photos to see who we are, what drives our work, what inspires us, and pushes to continuous growth to make a difference in the world.',
+    ...Component.defaultContent.subtitle,
     type: 'subheading',
   },
   gallery: [{
     image: {
       ...Component.defaultContent.gallery[0].image,
-      src: 'image1.jpg',
+      resourceRef: 'image1.jpg',
     },
   },
   {
     image: {
       ...Component.defaultContent.gallery[1].image,
-      src: 'image2.jpg',
+      resourceRef: 'image2.jpg',
     },
   },
   {
     image: {
       ...Component.defaultContent.gallery[2].image,
-      src: 'image3.jpg',
+      resourceRef: 'image3.jpg',
     },
   },
   {
     image: {
       ...Component.defaultContent.gallery[3].image,
-      src: 'image4.jpg',
+      resourceRef: 'image4.jpg',
     },
   },
   {
     image: {
       ...Component.defaultContent.gallery[4].image,
-      src: 'image5.jpg',
+      resourceRef: 'image5.jpg',
     },
   },
   {
     image: {
       ...Component.defaultContent.gallery[5].image,
-      src: 'image6.jpg',
+      resourceRef: 'image6.jpg',
     },
   },
   {
     image: {
       ...Component.defaultContent.gallery[6].image,
-      src: 'image7.jpg',
+      resourceRef: 'image7.jpg',
     },
   }],
   button: {

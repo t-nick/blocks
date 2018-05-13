@@ -12,7 +12,7 @@
 .title {
   text-transform: uppercase;
   font-family: var(--ui-heading-font-family);
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .subtitle {
@@ -20,29 +20,30 @@
   @media (min-width: 768px) {
     max-width: 860px;
     font-weight: 300;
-    margin-bottom: 25px;
   }
 }
 
-.item__picture img {
-  object-fit: cover;
-}
+.preview-slider {
 
-.preview-slider .item__picture {
+  margin-top: 45px;
 
-  @media (min-width: 992px) {
-    padding-top: 45%;
+  .item__picture {
+
+    @media (min-width: 992px) {
+      padding-top: 45%;
+    }
   }
 }
 
 .items-wrapper .item__picture {
 
   @media (min-width: 992px) {
-    padding-top: 48%;
+    padding-top: 50%;
   }
 }
 
 .items-wrapper {
+  margin-top: 15px;
 
   @media (min-width: 992px) {
     margin-left: 70px;
@@ -60,15 +61,15 @@
     .slick-arrow-default {
       width: 7px;
       height: 7px;
-      padding: 18px;
+      padding: 17px;
       border-radius: 50px;
       border: 2px solid rgba(255, 255, 255, 0.3);
       color: var(--ui-light-shade-color);
 
       @media (min-width: 992px) {
-        top: 32%;
+        top: 50%;
       }
-/* stylelint-disable*/
+    /* stylelint-disable*/
       svg {
         position: absolute;
         width: 7px;
@@ -82,19 +83,19 @@
     .slick-arrow-default.slick-prev-default {
 
       @media (min-width: 992px) {
-        left: -67px;
+        left: -70px;
       }
     }
 
     .slick-arrow-default.slick-next-default {
 
       @media (min-width: 992px) {
-        right: -73px;
+        right: -70px;
       }
     }
   }
 }
 
 .btns-group {
-  padding-top: 12px;
+  padding-top: 50px;
 }
