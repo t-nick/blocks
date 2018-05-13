@@ -5,7 +5,7 @@
 
   @media (min-width: 992px) {
     padding-top: 88px;
-    padding-bottom: 121px;
+    padding-bottom: 125px;
   }
 
   &__header {
@@ -15,9 +15,10 @@
 
 .title {
   position: relative;
+  color: var(--ui-block-title-color);
 
   @media (min-width: 992px) {
-    max-width: 532px;
+    max-width: 470px;
     margin-left: auto;
   }
 
@@ -36,7 +37,7 @@
 .articles-wrapper {
 
   @media (min-width: 992px) {
-    max-width: 525px;
+    max-width: 495px;
     margin-left: auto;
     flex-direction: column;
   }
@@ -54,12 +55,17 @@
   &__content {
 
     @media (min-width: 992px) {
-      max-width: calc(100% - 120px);
+      max-width: 100%;
     }
   }
 
   &__title {
-    margin-bottom: 14px;
+    margin-bottom: 15px;
+    color: var(--ui-heading-color);
+  }
+
+  &__text {
+    color: var(--ui-text-color);
   }
 
   &__icon {
