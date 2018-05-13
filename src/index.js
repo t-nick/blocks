@@ -64,9 +64,7 @@ ExtendedWireframe.defaultContent = {
   }],
   button: {
     ...Component.defaultContent.button,
-    type: 'secondary',
     size: 'sm',
-    textValue: 'View More',
   },
 }
 
