@@ -2,8 +2,11 @@
 
 /* start here */
 .section {
-  padding-top: 295px;
-  padding-bottom: 200px;
+
+  @media (min-width: 992px) {
+    padding-top: 295px;
+    padding-bottom: 200px;
+  }
 
   &__header {
     margin-bottom: 25px;
