@@ -25,9 +25,9 @@ ExtendedWireframe.defaultContent = {
     design: {
       ...Component.defaultContent.socialIcons.design,
       border: null,
-      offset: 0,
+      offset: -11,
       color: 'dark-shade-color',
-      size: 50,
+      size: 40,
     },
   },
 }
