@@ -11,6 +11,10 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
+  background: {
+    type: 'color',
+    color: '#f8f8f8',
+  },
   logo: {
     ...Component.defaultContent.logo,
     image: {

@@ -1,9 +1,6 @@
 @import "wireframe-series-2-footer/src/style.css";
 
 .footer {
-  position: relative;
-  background-color: #f8f8f8;
-
   &__text {
     padding-left: 7px;
     font-size: var(--ui-small-size);
@@ -68,6 +65,14 @@
 
 .logo {
   margin-bottom: 8px;
+}
+
+.logo img {
+  margin: 0 auto;
+
+  @media (min-width: 768px) {
+    margin-left: 0;
+  }
 }
 
 .nav-list__link {
