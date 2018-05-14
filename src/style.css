@@ -18,13 +18,13 @@
     &__text {
       p {
         font-size: calc(var(--ui-text-size) * 0.875);
-        line-height: calc(var(--ui-text-line-height) * 1.5);
+        line-height: calc(var(--ui-text-line-height) * 1.35);
         margin-bottom: 0;
       }
 
       a {
         text-decoration: none;
-        color: #767676;
+        color: var(--ui-text-color);
 
         &:hover,
         &:active,
@@ -62,7 +62,7 @@
 
 .article:first-child:last-of-type {
   .article__picture {
-    margin-bottom: 38px;
+    margin-bottom: 40px;
 
     @media (min-width: 480px) {
       padding-top: 49.5%;
