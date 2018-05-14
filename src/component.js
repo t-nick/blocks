@@ -83,7 +83,6 @@ class Wireframe extends React.Component {
               <ContactForm
                 bind="contactForm"
                 className={css.form}
-                labelClassName={css.form__item}
                 descriptionClassName={css['form__item-description']}
                 fieldClassName={css.form__field}
                 buttonClassName={css.form__button}
@@ -104,7 +103,7 @@ Wireframe.defaultContent = {
     color: '#F0F0F0',
   },
   title: {
-    content: 'Contacts Us',
+    content: 'Contacts',
     type: 'blockTitle',
   },
   subtitle: {
