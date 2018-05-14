@@ -11,29 +11,13 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
-  subtitle: {
-    content: 'Feel free to contact me with any kitchen remodeling inquiries',
-    type: 'subtitle',
-  },
   contacts: [
+    ...Component.defaultContent,
     {
-      title: {
-        ...Component.defaultContent.contacts[0].title,
-      },
-      address: {
-        ...Component.defaultContent.contacts[0].address,
-      },
-      phone: {
-        content: '<a href="tel:+12221111111">+1(222) 111 11 11</a>',
-        type: 'text',
-      },
-      email: {
-        content: '<a href="quentin.loboo@a.weblium.com">quentin.loboo@a.weblium.com</a>',
-        type: 'text',
-      },
+      ...Component.defaultContent.contacts[0],
       picture: {
         alt: 'Location illustration photo',
-        src: 'img-map.jpg',
+        resourceRef: 'img-map.jpg',
       },
     },
   ],
@@ -42,6 +26,9 @@ ExtendedWireframe.defaultContent = {
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   subtitle: {defaultValue: true, label: 'Contacts description', type: 'checkbox'},
+  button: {defaultValue: false, label: 'Button', type: 'hidden'},
+  'button-secondary': {defaultValue: false, label: 'Additional button', type: 'hidden'},
+  'top-caption': {defaultValue: false, label: 'Top caption', type: 'hidden'},
 }
 
 export default ExtendedWireframe
