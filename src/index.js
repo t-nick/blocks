@@ -26,7 +26,7 @@ ExtendedWireframe.defaultContent = {
       ...Component.defaultContent.cover[0],
       title: {
         ...Component.defaultContent.cover[0].title,
-        color: '#000',
+        color: 'dark-shade-color',
       },
       cta: {
         ...Component.defaultContent.cover[0].cta,
@@ -41,7 +41,7 @@ ExtendedWireframe.defaultContent = {
       ...Component.defaultContent.cover[1],
       title: {
         ...Component.defaultContent.cover[1].title,
-        color: '#000',
+        color: 'dark-shade-color',
       },
       cta: {
         ...Component.defaultContent.cover[1].cta,
@@ -56,7 +56,7 @@ ExtendedWireframe.defaultContent = {
       ...Component.defaultContent.cover[2],
       title: {
         ...Component.defaultContent.cover[2].title,
-        color: '#000',
+        color: 'dark-shade-color',
       },
       cta: {
         ...Component.defaultContent.cover[2].cta,
