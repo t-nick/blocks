@@ -5,6 +5,7 @@
 
   @media (min-width: 992px) {
     padding-top: 40px;
+    padding-bottom: 65px;
   }
 
   &__header {
@@ -14,6 +15,7 @@
 
 .title {
   position: relative;
+  color: var(--ui-block-title-color);
 
   &::before {
     content: "";
@@ -22,7 +24,7 @@
     height: 1px;
     top: 57px;
     left: calc(50% - 134px);
-    background-color: var(--ui-small-color);
+    background-color: #e8e5e5;
   }
 
   &::after {
@@ -51,6 +53,7 @@
 
   &__title {
     margin-bottom: 6px;
+    color: var(--ui-heading-color);
   }
 
   &__content {
@@ -65,18 +68,28 @@
 
   &__text {
     position: relative;
+
+    @media (min-width: 992px) {
+      max-width: 265px;
+    }
   }
 }
 
 @media (min-width: 992px) {
   .article:nth-child(even) .article__content {
-    padding-left: 300px;
+    padding-left: 26%;
     padding-right: 100px;
   }
 
   .article:nth-child(odd) .article__content {
-    padding-right: 300px;
+    padding-right: 22%;
     padding-left: 130px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .article:nth-child(odd) .article__content {
+    padding-right: 26%;
   }
 }
 
@@ -89,7 +102,7 @@
       height: 1px;
       top: calc(50% - 2px);
       left: -83px;
-      background-color: var(--ui-quote-color);
+      background-color: #eee;
       z-index: -1;
     }
 
@@ -113,7 +126,7 @@
       height: 1px;
       top: calc(50% - 2px);
       right: -89px;
-      background-color: var(--ui-quote-color);
+      background-color: #eee;
       z-index: -1;
     }
 
