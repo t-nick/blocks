@@ -129,8 +129,9 @@ ExtendedWireframe.defaultContent = {
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
-  link: {defaultValue: false, label: 'Link', type: 'checkbox'},
-  'button-secondary': {defaultValue: false, label: 'Secondary button', type: 'checkbox'},
+  link: {defaultValue: false, label: 'Link', type: 'hidden'},
+  'button-secondary': {defaultValue: false, label: 'Secondary button', type: 'hidden'},
+  subtitle: {defaultValue: false, label: 'Services description', type: 'hidden'},
   'button-primary': {defaultValue: true, label: 'Primary button', type: 'checkbox'},
 }
 

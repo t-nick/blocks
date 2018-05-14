@@ -4,6 +4,7 @@
 
 .section {
   &__header {
+    margin-bottom: 40px;
 
     @media (min-width: 768px) {
       margin-bottom: 55px;
