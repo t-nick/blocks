@@ -128,19 +128,19 @@
   },
   "size": {
     "lg": {
-      "borderRadius": "5px",
+      "borderRadius": "29.5px",
       "borderWidth": "1px",
       "fontSize": "16px",
       "padding": "18px 30px"
     },
     "md": {
-      "borderRadius": "5px",
+      "borderRadius": "23px",
       "borderWidth": "1px",
       "fontSize": "14px",
       "padding": "14px 20px"
     },
     "sm": {
-      "borderRadius": "5px",
+      "borderRadius": "16.5px",
       "borderWidth": "1px",
       "fontSize": "14px",
       "padding": "10px 16px"

@@ -52,7 +52,8 @@
         "320px": 0.77
       },
       "color": [
-        "darkShade"
+        "darkShade",
+        "lightShade"
       ],
       "fontFamily": "'Montserrat', sans-serif",
       "fontWeight": 700,
