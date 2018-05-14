@@ -11,9 +11,22 @@
   }
 
   &__inner {
-    
+
     @media (min-width: 992px) {
       justify-content: space-between;
+    }
+  }
+
+  .form {
+    &__field {
+      height: 46px;
+      margin-bottom: 14px;
+      margin-top: 0;
+      text-align: center;
+      background: none;
+      border: 1px solid #cdcdcd;
+      border-radius: 30px;
+      font-size: calc(var(--ui-text-size) * 0.8);
     }
   }
 }
@@ -69,8 +82,10 @@
   @media (min-width: 992px) {
     display: flex;
     max-width: 350px;
-    margin: 0 50px 0 auto;
-    padding: 74px 0 30px;
+    margin-left: auto;
+    margin-right: 50px;
+    padding-top: 74px;
+    padding-bottom: 30px;
   }
 
   &__item {
@@ -79,22 +94,11 @@
     }
   }
 
-  &__field {
-    height: 46px;
-    margin: 0 0 14px;
-    text-align: center;
-    background: none;
-    border: 1px solid #cdcdcd;
-    border-radius: 30px;
-    font-size: calc(var(--ui-text-size) * 0.8);
+  textarea {
+    padding-top: 14px;
   }
 
   &__button {
     margin-top: 0;
-    border: 0;
-
-    .button__border {
-      border: 0;
-    }
   }
 }
