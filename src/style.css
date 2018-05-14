@@ -12,7 +12,8 @@
   margin-top: 37px;
 }
 
-.items-wrapper .slick-arrow-default {
+/* stylelint-disable */
+.items-wrapper :global .slick-arrow-default {
 
   @media (min-width: 992px) {
     position: fixed;
@@ -23,24 +24,25 @@
   }
 }
 
-.slick-arrow-default.slick-prev-default {
+:global .slick-arrow-default.slick-prev-default {
 
   @media (min-width: 992px) {
     left: 0;
   }
 }
 
-.items-wrapper .slick-next-default {
+.items-wrapper :global .slick-next-default {
 
   @media (min-width: 992px) {
     right: 0;
   }
 }
 
-.slider-dots li button {
+.slider-dots :global li button {
 
   @media (min-width: 992px) {
     width: 15px;
     height: 15px;
   }
 }
+ /* stylelint-enable */
