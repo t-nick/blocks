@@ -83,6 +83,7 @@
   }
 }
 
+/* stylelint-disable */
 .items-wrapper :global {
   .slick-arrow {
     width: 30px;
@@ -94,6 +95,10 @@
     &::before {
       content: "";
     }
+  }
+
+  .slick-center .picture {
+    box-shadow: none;
   }
 }
 
