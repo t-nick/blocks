@@ -19,20 +19,16 @@ ExtendedWireframe.defaultContent = {
     },
     resourceRef: 'bg.jpg',
   },
-  title: {
-    content: 'Services.',
-    type: 'heroTitle',
-  },
   subtitle: {
-    content: 'Let\'s Keep in Touch.',
-    type: 'subtitle',
+    ...Component.defaultContent.subtitle,
+    type: 'subheading',
   },
 }
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
-  'primary-btn': {defaultValue: false, label: 'Primary button', type: 'checkbox'},
-  'secondary-btn': {defaultValue: false, label: 'Secondary button', type: 'checkbox'},
+  'primary-btn': {defaultValue: false, label: 'Primary button', type: 'hidden'},
+  'secondary-btn': {defaultValue: false, label: 'Secondary button', type: 'hidden'},
 }
 
 export default ExtendedWireframe
