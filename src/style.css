@@ -23,5 +23,4 @@
 .subtitle {
   font-size: var(--ui-subheading-size);
   font-weight: var(--ui-hero-title-font-weight);
-  opacity: 0.6;
 }
