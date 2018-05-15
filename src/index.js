@@ -55,6 +55,7 @@ ExtendedWireframe.defaultContent = {
   },
 }
 
+
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   subtitle: {defaultValue: true, label: 'Gallery description', type: 'checkbox'},

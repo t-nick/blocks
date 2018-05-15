@@ -84,21 +84,26 @@
 }
 
 .items-wrapper :global {
-  .slick-arrow-default {
+  .slick-arrow {
     width: 30px;
     height: 60px;
     top: 50%;
     color: var(--ui-dark-shade-color);
+    z-index: 9;
+
+    &::before {
+      content: "";
+    }
   }
 }
 
 @media (min-width: 1360px) {
   .items-wrapper :global {
-    .slick-arrow-default.slick-prev-default {
+    .slick-arrow.slick-prev {
       left: -70px;
     }
 
-    .slick-arrow-default.slick-next-default {
+    .slick-arrow.slick-next {
       right: -70px;
     }
   }
