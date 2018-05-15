@@ -22,7 +22,7 @@
 
 .subtitle {
   max-width: 700px;
-  font-size: calc( var(--ui-subtitle-size) * 18/20 );
+  font-size: calc(var(--ui-subtitle-size) * 18/20);
   letter-spacing: -0.36px;
 }
 
@@ -71,7 +71,7 @@
     max-width: 330px;
     margin-right: auto;
     margin-left: auto;
-    font-size: calc( var(--ui-text-size) * 14/16 );
+    font-size: calc(var(--ui-text-size) * 14/16);
     font-weight: 300;
     line-height: 1.785;
 
