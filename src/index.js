@@ -3,12 +3,20 @@ import $editor from 'weblium/editor'
 import Component from 'wireframe-series-2-about/src/component'
 import style from './style.css'
 
+<<<<<<< HEAD
+=======
+import defaultOptions from 'wireframe-series-2-about/src/options.json'
+>>>>>>> 736fe7196113f273f311590e4e3e9f08e6b7c265
 import options from './options.json'
 
 const {enhancers: {withProps}, hoistStatics} = $editor
 
 
+<<<<<<< HEAD
 const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _.set('$block.options', options))))(Component)
+=======
+const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _.set('$block.options', {...defaultOptions, ...options}))))(Component)
+>>>>>>> 736fe7196113f273f311590e4e3e9f08e6b7c265
 
 
 ExtendedWireframe.defaultContent = {
