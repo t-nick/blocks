@@ -12,10 +12,6 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
-  subtitle: {
-    content: 'Browse through our gallery to see who we are, how we work, and what inspires us.',
-    type: 'subtitle',
-  },
   gallery: [
     {
       ...Component.defaultContent.gallery[0],
@@ -63,6 +59,7 @@ ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   subtitle: {defaultValue: true, label: 'Gallery description', type: 'checkbox'},
   'secondary-button': {defaultValue: true, label: 'Secondary button', type: 'checkbox'},
+  'item-heading': {defaultValue: false, label: 'Image description', type: 'hidden'},
 }
 
 export default ExtendedWireframe
