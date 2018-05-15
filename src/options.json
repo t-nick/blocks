@@ -1,5 +1,5 @@
 {
   "custom-arrows": true,
-  "prev-arrow": "<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'><path fill-rule='evenodd' fill='currentColor' clip-rule='evenodd' d='M19.176 1.996L18 3.201l25.647 26.297L18 55.791l1.176 1.207L46 29.498z'/></svg>",
-  "next-arrow": "<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'><path fill-rule='evenodd' fill='currentColor' clip-rule='evenodd' d='M19.176 1.996L18 3.201l25.647 26.297L18 55.791l1.176 1.207L46 29.498z'/></svg>"
+  "prev-arrow": "<svg xmlns='http://www.w3.org/2000/svg' width='28' height='55' viewBox='0 0 28 55'><defs><style>.cls-1 {fill: #fff;fill-rule: evenodd;}</style></defs><path id='Rectangle-p.svg' class='cls-1' d='M196.824,294L198,292.791,172.352,266.5,198,240.2l-1.176-1.2L170,266.5Z' transform='translate(-170 -239)'/></svg>",
+  "next-arrow": "<svg xmlns='http://www.w3.org/2000/svg' width='28' height='55' viewBox='0 0 28 55'><defs><style>.cls-1 {fill: #fff;fill-rule: evenodd;}</style></defs><path id='Rectangle.svg' class='cls-1' d='M1723.18,294l-1.18-1.207,25.65-26.293L1722,240.2l1.18-1.2L1750,266.5Z' transform='translate(-1722 -239)'/></svg>"
 }
