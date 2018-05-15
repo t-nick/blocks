@@ -32,11 +32,11 @@ ExtendedWireframe.defaultContent = {
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
-  address: {defaultValue: false, label: 'Address text block', type: 'checkbox'},
-  email: {defaultValue: false, label: 'E-mail text block', type: 'checkbox'},
-  logo: {defaultValue: false, label: 'Logo', type: 'checkbox'},
-  phone: {defaultValue: false, label: 'Phone text block', type: 'checkbox'},
-  social: {defaultValue: false, label: 'Social Media Buttons', type: 'checkbox'},
+  address: {defaultValue: false, label: 'Address text block', type: 'hidden'},
+  email: {defaultValue: false, label: 'E-mail text block', type: 'hidden'},
+  logo: {defaultValue: false, label: 'Logo', type: 'hidden'},
+  phone: {defaultValue: false, label: 'Phone text block', type: 'hidden'},
+  social: {defaultValue: false, label: 'Social Media Buttons', type: 'hidden'},
 }
 
 export default ExtendedWireframe
