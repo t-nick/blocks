@@ -1,14 +1,16 @@
+@import "media.css";
+
 .section {
   min-width: 320px;
   padding: 50px 0;
   text-align: center;
   word-wrap: break-word;
 
-  @media (min-width: 768px) {
+  @media (--ui-tablet-devices) {
     padding: 60px 0;
   }
 
-  @media (min-width: 992px) {
+  @media (--ui-medium-devices) {
     padding: 75px 0;
   }
 }
@@ -30,23 +32,25 @@
 
 .preview-slider {
 
-  @media (min-width: 768px) {
-    margin-top: 40px;
+  @media (--ui-tablet-devices) {
+    margin-top: 20px;
   }
 
   :global {
-    .slick-track {
-      padding: 10px 0;
+    .slick-slider {
+      padding: 10px;
     }
   }
 }
 
 .testimonial {
+  padding: 10px;
+
   &__text {
     margin-bottom: 10px;
     font-size: calc(var(--ui-heading-size) * 0.6666);
 
-    @media (min-width: 768px) {
+    @media (--ui-tablet-devices) {
       margin-bottom: 10px;
       font-size: var(--ui-heading-size);
     }
@@ -113,6 +117,10 @@
       transition: opacity 0.2s ease-in;
     }
 
+    .slick-slider {
+      padding: 10px;
+    }
+
     .slick-center {
       opacity: 1;
     }
@@ -120,14 +128,14 @@
     /* stylelint-disable */
     .slick-center .item__picture--global {
 
-      @media (min-width: 768px) {
+      @media (--ui-tablet-devices) {
         transform: scale(1) translateY(0);
       }
     }
 
     .item__person-info--global {
 
-      @media (min-width: 768px) {
+      @media (--ui-tablet-devices) {
         transform: translateY(-10px);
         transition: transform 0.2s ease-in;
       }
@@ -135,7 +143,7 @@
 
     .slick-center .item__person-info--global {
 
-      @media (min-width: 768px) {
+      @media (--ui-tablet-devices) {
         transform: translateY(0);
       }
     }
@@ -166,8 +174,8 @@
   outline: none;
   cursor: pointer;
 
-  @media (min-width: 768px) {
-    padding: 0 15px;
+  @media (--ui-tablet-devices) {
+    padding: 10px 15px;
   }
 
   &__inner {
@@ -175,11 +183,11 @@
     margin: 0 auto;
     flex: 1;
 
-    @media (min-width: 768px) {
+    @media (--ui-tablet-devices) {
       padding: 0 20px;
     }
 
-    @media (min-width: 992px) {
+    @media (--ui-medium-devices) {
       padding: 0 30px;
     }
   }
@@ -197,7 +205,7 @@
     overflow: hidden;
     background-color: var(--ui-media-bg);
 
-    @media (min-width: 768px) {
+    @media (--ui-tablet-devices) {
       width: 120px;
       height: 120px;
       transform: scale(0.75) translateY(15px);
@@ -232,7 +240,7 @@
 .button {
   width: 100%;
 
-  @media (min-width: 480px) {
+  @media (--ui-phone-devices) {
     width: auto;
   }
 }
