@@ -27,6 +27,7 @@
 }
 
 .articles-wrapper {
+  margin-bottom: 0;
 
   @media (min-width: 992px) {
     margin-bottom: 0;
