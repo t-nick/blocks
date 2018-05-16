@@ -28,7 +28,7 @@
   &__picture {
 
     @media (min-width: 992px) {
-      min-height: 315px;
+      padding-bottom: 22.145%;
     }
   }
 
