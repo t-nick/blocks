@@ -36,9 +36,13 @@
   }
 }
 
-.typography__text {
+&__text {
 
   @media (min-width: 992px) {
     max-width: 270px;
   }
+}
+
+.article__content--icon-none {
+  padding-left: 0;
 }
