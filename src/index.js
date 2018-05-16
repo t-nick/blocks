@@ -23,16 +23,8 @@ ExtendedWireframe.defaultContent = {
       secondColor: '#4b4bf0',
     },
   },
-  title: {
-    ...Component.defaultContent.title,
-    content: 'Contact us',
-  },
-  subtitle: {
-    ...Component.defaultContent.subtitle,
-    content: 'We are always ready to help. There are many ways to contact us. You may drop us a line, give us a call, or send an email, choose what suits you most.',
-  },
   'address-content': {
-    content: '45 Rockefeller Plaza, New York, <br/> NY 10111, USA',
+    ...Component.defaultContent['address-content'],
     type: 'subheading',
   },
   'hours-content': {
@@ -49,28 +41,6 @@ ExtendedWireframe.defaultContent = {
   },
   socialIcons: {
     ...Component.defaultContent.socialIcons,
-    networks: [
-      {
-        id: 'twitter',
-        name: 'Twitter',
-        url: 'http://twitter.com/',
-      },
-      {
-        id: 'facebook',
-        name: 'Facebook',
-        url: 'http://facebook.com/',
-      },
-      {
-        id: 'linkedin',
-        name: 'LinkedIn',
-        url: 'http://linkedin.com/',
-      },
-      {
-        id: 'instagram',
-        name: 'Instagram',
-        url: 'http://instagram.com/',
-      },
-    ],
     design: {
       ...Component.defaultContent.socialIcons.design,
       border: null,
@@ -81,23 +51,6 @@ ExtendedWireframe.defaultContent = {
   },
   contactForm: {
     ...Component.defaultContent.contactForm,
-    fields: [
-      {
-        ...Component.defaultContent.contactForm.fields[0],
-        placeholder: 'Enter your full name',
-      },
-      {
-        ...Component.defaultContent.contactForm.fields[1],
-        placeholder: 'Enter your phone number',
-      },
-      {
-        ...Component.defaultContent.contactForm.fields[2],
-        placeholder: 'Enter your email',
-      },
-      {
-        ...Component.defaultContent.contactForm.fields[3],
-      },
-    ],
     submitButton: {
       ...Component.defaultContent.contactForm.submitButton,
       size: 'lg',
