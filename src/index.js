@@ -35,7 +35,7 @@ ExtendedWireframe.defaultContent = {
       border: null,
       innerFill: true,
       color: 'light-shade-color',
-      offset: 35,
+      offset: 32,
     },
     networks: [
       {
