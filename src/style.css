@@ -1,1 +1,5 @@
 @import "wireframe-zapdos-cta/src/style.css";
+
+.section__inner {
+  min-height: 450px;
+}
