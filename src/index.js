@@ -24,29 +24,13 @@ ExtendedWireframe.defaultContent = {
   logo: {
     image: {
       resourceRef: 'logo.png',
-      alt: 'альтернативный текст',
+      alt: 'logo',
       width: 186,
       height: 58,
     },
   },
   socialIcons: {
-    networks: [
-      {
-        id: 'twitter',
-        name: 'Twitter',
-        url: 'http://twitter.com/',
-      },
-      {
-        id: 'facebook',
-        name: 'Facebook',
-        url: 'http://facebook.com/',
-      },
-      {
-        id: 'linkedin',
-        name: 'LinkedIn',
-        url: 'http://linkedin.com/',
-      },
-    ],
+    ...Component.defaultContent.socialIcons,
     target: '_blank',
     design: {
       border: null,
@@ -57,6 +41,10 @@ ExtendedWireframe.defaultContent = {
       sizes: [30, 40],
       size: 35,
     },
+  },
+  topLineText: {
+    ...Component.defaultContent.topLineText,
+    type: 'subheading',
   },
 }
 
