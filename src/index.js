@@ -29,7 +29,7 @@ ExtendedWireframe.defaultContent = {
       type: 'cover',
       cover: '50% 50%',
     },
-    src: 'CTA.jpg',
+    resourceRef: 'CTA.jpg',
   },
   title: {
     ...Component.defaultContent.title,
