@@ -2,18 +2,21 @@
 
 /* start here */
 .section {
-  padding: 50px 0 80px;
+  padding-top: 50px;
+  padding-bottom: 80px;
   overflow: hidden;
 
   @media (min-width: 992px) {
-    padding: 26px 0 234px;
+    padding-top: 26px;
+    padding-bottom: 234px;
   }
 }
 
 .item {
 
   @media (min-width: 992px) {
-    padding: 0 46px;
+    padding-left: 46px;
+    padding-right: 46px;
   }
 
   @media (min-width: 1200px) {
@@ -82,11 +85,12 @@
 }
 
 :global  .slick-dots {
-  margin: 20px 0 0 16px;
+  margin-top: 40px;
+  margin-left: 16px;
   text-align: left;
 
   @media (min-width: 768px) {
-    margin-top: 0;
+    margin-top: 68px;
   }
 
   @media (min-width: 992px) {
@@ -99,7 +103,7 @@
 
   li {
     position: relative;
-    margin: 0 42px 0 0;
+    margin-right: 42px;
 
     &::after {
       content: "";
@@ -180,11 +184,10 @@
 
     .slick-prev {
       left: -8px;
-      transform: rotateY(180deg);
-      margin-top: -29px;
+      margin-top: 2px;
 
       @media (min-width: 1200px) {
-        left: -18%;
+        left: -12%;
       }
     }
 
@@ -193,7 +196,7 @@
       left: auto;
 
       @media (min-width: 1200px) {
-        right: -18%;
+        right: -12%;
       }
     }
   }

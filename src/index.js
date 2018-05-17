@@ -22,10 +22,6 @@ ExtendedWireframe.defaultContent = {
   cover: [
     {
       ...Component.defaultContent.cover[0],
-      title: {
-        ...Component.defaultContent.cover[0].title,
-        content: 'Car Cleaning',
-      },
       cta: {
         ...Component.defaultContent.cover[0].cta,
         textValue: 'Get callback',
@@ -34,10 +30,6 @@ ExtendedWireframe.defaultContent = {
     },
     {
       ...Component.defaultContent.cover[1],
-      title: {
-        ...Component.defaultContent.cover[1].title,
-        content: 'Car Cleaning',
-      },
       cta: {
         ...Component.defaultContent.cover[1].cta,
         textValue: 'Get callback',
@@ -46,10 +38,6 @@ ExtendedWireframe.defaultContent = {
     },
     {
       ...Component.defaultContent.cover[2],
-      title: {
-        ...Component.defaultContent.cover[2].title,
-        content: 'Car Cleaning',
-      },
       cta: {
         ...Component.defaultContent.cover[2].cta,
         textValue: 'Get callback',
