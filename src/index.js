@@ -29,7 +29,7 @@ ExtendedWireframe.defaultContent = {
       type: 'cover',
       cover: '50% 50%',
     },
-    resourceRef: 'CTA.jpg',
+    src: 'CTA.jpg',
   },
   title: {
     ...Component.defaultContent.title,
@@ -45,7 +45,7 @@ ExtendedWireframe.defaultContent = {
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
-  picture: {defaultValue: true, label: 'Picture', type: 'checkbox'},
+  picture: {defaultValue: false, label: 'Picture', type: 'hidden'},
   subtitle: {defaultValue: false, label: 'Title description', type: 'hidden'},
 }
 
