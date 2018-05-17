@@ -23,6 +23,14 @@ ExtendedWireframe.defaultContent = {
     },
     resourceRef: 'ukraine.png',
   },
+  contentBackground: {
+    type: 'image',
+    position: {
+      type: 'cover',
+      cover: '50% 50%',
+    },
+    resourceRef: 'CTA.jpg',
+  },
   title: {
     ...Component.defaultContent.title,
     type: 'blockTitle',
@@ -32,11 +40,6 @@ ExtendedWireframe.defaultContent = {
     ...Component.defaultContent.cta,
     type: 'primary',
     size: 'md',
-  },
-  picture: {
-    ...Component.defaultContent.picture,
-    resourceRef: 'CTA.jpg',
-    alt: 'Illustration photo',
   },
 }
 
