@@ -20,22 +20,13 @@ ExtendedWireframe.defaultContent = {
     },
     resourceRef: 'Depositphotos_163608264_original1.jpg',
   },
-  title: {
-    content: 'About us',
-    type: 'blockTitle',
-  },
-  heading: {
-    content: 'Heading about us',
-    type: 'heading',
-  },
   subheading: {
-    content: 'Our Company is the world’s leading manufacturer. We are also a leading financial services provider.',
+    ...Component.defaultContent.subheading,
     type: 'subtitle',
     brightness: 50,
   },
   text: {
-    content: 'We are in it for the long haul—for our customers and for our world. Our customers can be found in virtually every corner of the earth, and we realize our success comes directly from helping our customers be successful.',
-    type: 'text',
+    ...Component.defaultContent.text,
     brightness: 50,
   },
   'social-icons': {
@@ -64,22 +55,23 @@ ExtendedWireframe.defaultContent = {
     ],
     target: '_blank',
     design: {
+      ...Component.defaultContent['social-icons'].networks.design,
       border: 'circle',
       innerFill: true,
       preset: 'preset001',
       offset: 5,
       color: 'light-shade-color',
       sizes: [10, 20, 30, 40],
-      size: 23,
+      size: 25,
     },
   },
   'button-1': {
-    textValue: 'Main button (M)',
+    ...Component.defaultContent['button-1'],
     type: 'primary',
     size: 'lg',
   },
   'button-2': {
-    textValue: 'Additional button (M)',
+    ...Component.defaultContent['button-2'],
     type: 'secondary',
     size: 'lg',
   },
