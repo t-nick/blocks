@@ -25,7 +25,7 @@ ExtendedWireframe.defaultContent = {
   },
   subtitle: {
     ...Component.defaultContent.subtitle,
-    color: 'light-shade-color',
+    type: 'heading',
   },
   'cta-2': {
     ...Component.defaultContent['cta-2'],
@@ -35,6 +35,10 @@ ExtendedWireframe.defaultContent = {
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   'primary-btn': {defaultValue: false, label: 'Button', type: 'hidden'},
+  align: {
+    ...Component.modifierScheme.align,
+    type: 'hidden',
+  },
 }
 
 export default ExtendedWireframe
