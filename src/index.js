@@ -15,7 +15,7 @@ ExtendedWireframe.defaultContent = {
     type: 'image',
     position: {
       type: 'cover',
-      cover: '50% 40%',
+      cover: '50% 30%',
     },
     resourceRef: 'bg.jpg',
   },
@@ -27,6 +27,17 @@ ExtendedWireframe.defaultContent = {
 
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
+  align: {
+    children: [
+      {id: 'left', label: 'left'},
+      {id: 'center', label: 'center'},
+      {id: 'right', label: 'right'},
+    ],
+    defaultValue: 'left',
+    name: 'Aligning',
+    type: 'hidden',
+    style: 'buttons',
+  },
   'primary-btn': {defaultValue: false, label: 'Primary button', type: 'hidden'},
   'secondary-btn': {defaultValue: false, label: 'Secondary button', type: 'hidden'},
 }
