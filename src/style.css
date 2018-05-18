@@ -1,23 +1,35 @@
+@import "media.css";
+
 .section {
   min-width: 320px;
   padding: 50px 0;
   word-wrap: break-word;
 
-  @media (min-width: 768px) {
+  @media (--ui-tablet-devices) {
     padding: 60px 0;
   }
 
-  @media (min-width: 992px) {
+  @media (--ui-medium-devices) {
     padding: 75px 0;
   }
 
   &--reverse {
     .article__content {
 
-      @media (min-width: 992px) {
+      @media (--ui-medium-devices) {
         order: -1;
         padding-left: 0;
         padding-right: 30px;
+      }
+    }
+
+    &.section--column {
+      .article__content {
+
+        @media (min-width: 992px) {
+          order: 1;
+          padding-right: 0;
+        }
       }
     }
   }
@@ -29,7 +41,7 @@
 }
 
 .section--column .article__picture-wrapper {
-  max-width: none;
+  max-width: 100%;
   flex-basis: auto;
 }
 
@@ -38,7 +50,7 @@
 }
 
 .section--column .article__content {
-  max-width: none;
+  max-width: 100%;
   margin-bottom: 40px;
   padding-left: 0;
 }
@@ -66,7 +78,7 @@
   align-items: center;
 }
 
-@media (min-width: 768px) {
+@media (--ui-tablet-devices) {
   .article {
     flex-direction: row;
     justify-content: space-between;
@@ -76,7 +88,7 @@
 
 .article__picture {
   display: block;
-  min-height: 270px;
+  padding-top: 46%;
   order: -1;
 }
 
@@ -85,7 +97,7 @@
   width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (--ui-tablet-devices) {
   .article__picture {
     order: unset;
   }
@@ -113,7 +125,7 @@
   max-width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (--ui-tablet-devices) {
   .article__content {
     max-width: 50%;
     padding-top: 0;
@@ -128,7 +140,7 @@
   text-align: left;
 }
 
-@media (min-width: 992px) {
+@media (--ui-medium-devices) {
   .article__title {
     margin-top: 0;
   }
@@ -162,7 +174,12 @@
   align-items: center;
 }
 
+.socials {
+  max-width: 150px;
+}
+
 .social-title {
+  max-width: calc(100% - 160px);
   margin-right: 10px;
   flex-shrink: 0;
 }
@@ -233,7 +250,7 @@
   margin: 10px;
 }
 
-@media (min-width: 480px) {
+@media (--ui-phone-devices) {
   .button {
     width: auto;
   }
@@ -244,23 +261,13 @@
   width: 100%;
   max-width: 100%;
   text-align: center;
-  color: var(--ui-link-color);
   word-wrap: break-word;
   margin: 10px;
 }
 
-@media (min-width: 480px) {
+@media (--ui-phone-devices) {
   .link {
     width: auto;
-  }
-}
-
-.link {
-  a:hover,
-  a:focus,
-  a:active {
-    color: var(--ui-link-hover-color);
-    text-decoration: none;
   }
 }
 
