@@ -17,10 +17,16 @@
       padding-right: 15px;
     }
   }
+
+  &--reverse  .contacts {
+
+    @media (min-width: 992px) {
+      padding-left: 40px;
+    }
+  }
 }
 
 .contacts {
-  padding-top: 15px;
 
   @media (min-width: 992px) {
     max-width: calc(100% - 610px);
@@ -31,11 +37,16 @@
 
     &__item {
       margin-bottom: 25px;
+      justify-content: space-between;
     }
   }
 
   &__desc {
     line-height: 2;
+
+    @media (min-width: 768px) {
+      max-width: calc(100% - 222px);
+    }
 
     &--phone {
       padding-top: 5px;
@@ -55,8 +66,13 @@
 .contacts__title {
   position: relative;
   height: 100%;
-  padding-bottom: 15px;
+
   margin-right: 13%;
+  line-height: calc(var(--ui-block-title-line-height) * 1.55);
+
+  @media (min-width: 992px) {
+    padding-bottom: 0;
+  }
 
   &::after {
     content: "";
