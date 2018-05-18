@@ -2,9 +2,7 @@
 
 /* start here */
 .section {
-  .subtitle {
-    color: #cdcdcd;
-  }
+  overflow: hidden;
 
   &__header {
     margin-bottom: 36px;
@@ -16,6 +14,9 @@
     }
 
     &__text {
+      padding-left: 15px;
+      padding-right: 15px;
+
       p {
         font-size: calc(var(--ui-text-size) * 0.875);
         line-height: calc(var(--ui-text-line-height) * 1.35);
