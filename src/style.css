@@ -5,6 +5,10 @@
 .section {
   &__inner {
     text-align: center;
+
+    @media (min-width: 992px) {
+      padding: 200px 0;
+    }
   }
 
   @media (min-width: 768px) {
@@ -15,7 +19,6 @@
 .title {
 
   @media (min-width: 768px) {
-    margin-top: -20px;
     margin-bottom: 21px;
   }
 }
