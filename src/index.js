@@ -26,10 +26,6 @@ ExtendedWireframe.defaultContent = {
   awards: [
     {
       ...Component.defaultContent.awards[0],
-      title: {
-        ...Component.defaultContent.awards[0].title,
-        content: 'Most Innovative<br/>Solutions for<br/>Companies (2016)',
-      },
       picture: {
         ...Component.defaultContent.awards[0].picture,
         resourceRef: 'icon-1.png',
@@ -37,10 +33,6 @@ ExtendedWireframe.defaultContent = {
     },
     {
       ...Component.defaultContent.awards[1],
-      title: {
-        ...Component.defaultContent.awards[1].title,
-        content: 'Best Customer<br/>Approach<br/>at the World<br/>Conference (2014)',
-      },
       picture: {
         ...Component.defaultContent.awards[1].picture,
         resourceRef: 'icon-2.png',
@@ -48,10 +40,6 @@ ExtendedWireframe.defaultContent = {
     },
     {
       ...Component.defaultContent.awards[2],
-      title: {
-        ...Component.defaultContent.awards[2].title,
-        content: 'Comfortable and<br/>Modern Office<br/>Design (2012)',
-      },
       picture: {
         ...Component.defaultContent.awards[2].picture,
         resourceRef: 'icon-3.png',
