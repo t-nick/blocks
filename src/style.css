@@ -2,6 +2,7 @@
 
 .article {
   &__picture {
+    padding-top: 45.83%;
 
     @media (min-width: 1200px) {
       margin-left: 0;
@@ -17,11 +18,17 @@
   }
 
   &__title {
-    font-size: 0;
+
+    @media (min-width: 1200px) {
+      display: none;
+    }
   }
 
   &__text {
-    font-size: var(--ui-small-size);
-    text-align: left;
+
+    @media (min-width: 1200px) {
+      font-size: var(--ui-small-size);
+      text-align: left;
+    }
   }
 }
