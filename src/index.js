@@ -22,8 +22,7 @@ ExtendedWireframe.defaultContent = {
       value: {
         ...Component.defaultContent.numbers[0].value,
         content: '128',
-        type: 'blockTitle',
-        color: 'dark-shade-color',
+        type: 'heading',
       },
     },
     {
@@ -35,8 +34,7 @@ ExtendedWireframe.defaultContent = {
       value: {
         ...Component.defaultContent.numbers[1].value,
         content: '527',
-        type: 'blockTitle',
-        color: 'dark-shade-color',
+        type: 'heading',
       },
     },
     {
@@ -48,8 +46,7 @@ ExtendedWireframe.defaultContent = {
       value: {
         ...Component.defaultContent.numbers[2].value,
         content: '92',
-        type: 'blockTitle',
-        color: 'dark-shade-color',
+        type: 'heading',
       },
     },
   ],
