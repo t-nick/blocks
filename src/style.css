@@ -103,6 +103,10 @@
     background-color: var(--ui-light-shade-color);
     border-radius: 0;
     letter-spacing: 0.3px;
+
+    small {
+      color: var(--ui-dark-shade-color);
+    }
   }
 
   &__button {
