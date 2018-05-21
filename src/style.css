@@ -12,13 +12,6 @@
   margin: 15px auto 0;
 }
 
-@media (--ui-tablet-devices) {
-  .subtitle {
-    font-size: calc(var(--ui-subtitle-size) * 1.6);
-    color: var(--ui-heading-color);
-  }
-}
-
 .items-wrapper {
   position: relative;
 
