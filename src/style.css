@@ -95,20 +95,6 @@
     }
   }
 
-  &__field {
-    width: 100%;
-    height: 60px;
-    margin-top: 10px;
-    padding-left: 24px;
-    background-color: var(--ui-light-shade-color);
-    border-radius: 0;
-    letter-spacing: 0.3px;
-
-    small {
-      color: var(--ui-dark-shade-color);
-    }
-  }
-
   &__button {
     margin-top: 30px;
     letter-spacing: 1.5px;
@@ -128,6 +114,20 @@
   }
 
   label {
+    color: var(--ui-dark-shade-color);
+  }
+}
+
+.form .form__field {
+  width: 100%;
+  height: 60px;
+  margin-top: 10px;
+  padding-left: 24px;
+  background-color: var(--ui-light-shade-color);
+  border-radius: 0;
+  letter-spacing: 0.3px;
+
+  small {
     color: var(--ui-dark-shade-color);
   }
 }
