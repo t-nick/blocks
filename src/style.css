@@ -97,6 +97,10 @@
 
   &__field {
     letter-spacing: 0.3px;
+
+    small {
+      color: var(--ui-dark-shade-color);
+    }
   }
 
   &__button {
@@ -129,9 +133,5 @@
     padding-left: 24px;
     background-color: var(--ui-light-shade-color);
     border-radius: 0;
-  }
-
-  small .description {
-    color: var(--ui-dark-shade-color);
   }
 }
