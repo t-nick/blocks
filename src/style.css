@@ -37,7 +37,7 @@
       transform: translateX(-200%);
 
       @media (--ui-tablet-devices) {
-        left: calc(50% - 540px);
+        left: calc(50% - 340px);
       }
 
       @media (--ui-large-devices) {
@@ -49,7 +49,7 @@
       right: 50%;
       transform: translateX(200%);
 
-      @media (--tablet-devices) {
+      @media (--ui-tablet-devices) {
         right: calc(50% - 340px);
       }
 
