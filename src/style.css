@@ -34,7 +34,6 @@
 }
 
 .text {
-  color: var(--ui-dark-accent-color);
   letter-spacing: 0.5px;
 
   &::after {
