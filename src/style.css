@@ -130,4 +130,8 @@
     background-color: var(--ui-light-shade-color);
     border-radius: 0;
   }
+
+  small .description {
+    color: var(--ui-dark-shade-color);
+  }
 }
