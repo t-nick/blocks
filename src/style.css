@@ -96,6 +96,12 @@
   }
 
   &__field {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    padding-left: 24px;
+    background-color: var(--ui-light-shade-color);
+    border-radius: 0;
     letter-spacing: 0.3px;
   }
 
@@ -119,14 +125,5 @@
 
   label {
     color: var(--ui-dark-shade-color);
-  }
-
-  .form__field {
-    width: 100%;
-    height: 60px;
-    margin-top: 10px;
-    padding-left: 24px;
-    background-color: var(--ui-light-shade-color);
-    border-radius: 0;
   }
 }
