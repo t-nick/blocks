@@ -121,11 +121,10 @@
     color: var(--ui-dark-shade-color);
   }
 
-  input {
+  .form__field {
     width: 100%;
     height: 60px;
     margin-top: 10px;
-    padding-top: 20px;
     padding-left: 24px;
     background-color: var(--ui-light-shade-color);
     border-radius: 0;
