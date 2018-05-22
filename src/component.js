@@ -12,188 +12,206 @@ class Block extends React.Component {
   getOptionValue = (path, defaultValue = false) =>
     _.getOr(defaultValue, ['options', path], this.props.$block)
 
-  getImageSize = fullWidth =>
-    fullWidth
-      ? {'min-width: 320px': 480, 'min-width: 480px': 768, 'min-width: 768px': 1170}
-      : {'min-width: 320px': 480, 'min-width: 480px': 768, 'min-width: 768px': 570}
-
-  wrapImage = Component => <div className={this.props.style.image__wrapper}>{Component}</div>
-
-  render() {
-    const {components: {Text, Image, Button, SocialIcons}, style: css} = this.props
-    const columnLayout = !(
-      this.getModifierValue('title') ||
-      this.getModifierValue('subtitle') ||
-      this.getModifierValue('text') ||
-      this.getModifierValue('socialIcons')
-    )
-    const showButtonGroups = this.getModifierValue('link') || this.getModifierValue('button')
-    const ImageComponent = (
-      <Image
-        pictureClassName={css.article__picture}
-        bind="picture"
-        size={this.getImageSize(columnLayout)}
-      />
-    )
+  collectionItem = ({index, modifier}) => {
+    const {components: {Text, Button}, style} = this.props
     return (
-      <section className={classNames(css.section, {[css['section--column']]: columnLayout})}>
-        <div className={css.section__inner}>
-          <article className={css.article}>
-            {this.getOptionValue('image_wrapper')
-              ? this.wrapImage(ImageComponent)
-              : ImageComponent}
-            <div className={css.article__content}>
-              {this.getModifierValue('title') && (
-                <h1 className={css.article__title}>
-                  <Text bind="title" />
-                </h1>
+      <article className={style.item}>
+        <div className={style.item__inner}>
+          <Text tagName="h2" className={style.item__title} bind={`collection[${index}].item_heading`} />
+          {_.get('subtitle')(modifier) && <Text tagName="p" className={style.subtitle} bind={`collection[${index}].item_subheading`} />}
+          {(_.get('item_button')(modifier) || _.get('item_button_additional')(modifier)) && (
+            <div className={style['btns-group']}>
+              {_.get('item_button')(modifier) && (
+                <Button
+                  buttonClassName={style.button}
+                  linkClassName={style.link}
+                  bind={`collection[${index}].item_button`}
+                />
               )}
-              {this.getModifierValue('subtitle') && (
-                <p className={css.article__subtitle}>
-                  <Text bind="subtitle" />
-                </p>
-              )}
-              {this.getModifierValue('text') && (
-                <p className={css.article__text}>
-                  <Text bind="text" />
-                </p>
-              )}
-              {this.getModifierValue('socialIcons') && (
-                <div className={css.article__socials}>
-                  <h2 className={css['social-title']}>Follow us: </h2>
-                  <SocialIcons bind="socialIcons" />
-                </div>
-              )}
-              {showButtonGroups && (
-                <div className={css['btns-group']}>
-                  {this.getModifierValue('link') && <Button className={css.link} bind="link" />}
-                  {this.getModifierValue('button') && (
-                    <Button
-                      className={classNames(
-                        css.button,
-                        css['button--primary'],
-                        css['button--size-md'],
-                      )}
-                      bind="button"
-                    />
-                  )}
-                </div>
+              {_.get('item_button_additional')(modifier) && (
+                <Button
+                  buttonClassName={style.button}
+                  linkClassName={style.link}
+                  bind={`collection[${index}].item_button_additional`}
+                />
               )}
             </div>
-          </article>
+          )}
+        </div>
+      </article>
+    )
+  }
+
+  render() {
+    const {components: {Slider, Icon}, style, $block} = this.props
+    const customArrows = this.getOptionValue('custom-arrows') ? {
+      nextArrow: <button dangerouslySetInnerHTML={{__html: this.getOptionValue('next-arrow')}} />,
+      prevArrow: <button dangerouslySetInnerHTML={{__html: this.getOptionValue('prev-arrow')}} />,
+    } : {}
+    return (
+      <section className={style.section}>
+        <div className={style.section__inner}>
+          <Slider
+            className={style['items-wrapper']}
+            bind="collection"
+            Item={this.collectionItem}
+            settings={{
+              dots: this.getModifierValue('dots'),
+              dotsClass: classNames('slick-dots', style['slider-dots']),
+              arrows: this.getModifierValue('arrows'),
+              responsive: [
+                {
+                  breakpoint: 992,
+                  settings: {
+                    arrows: false,
+                  },
+                },
+              ],
+              ...customArrows,
+            }}
+            itemProps={{
+              modifier: $block.modifier,
+            }}
+          />
         </div>
       </section>
     )
   }
 }
 
-Block.components = _.pick(['Text', 'Image', 'Button', 'SocialIcons'])($editor.components)
+Block.components = _.pick(['Slider', 'Text', 'Button', 'Icon'])($editor.components)
 
 Block.defaultContent = {
-  title: 'About The Company',
-  'text-1': 'Follow us:',
-  subtitle:
-    'Our Company is the world’s leading manufacturer. We are also a leading financial services provider.',
-  text:
-    'We are in it for the long haul—for our customers and for our world. Our customers can be found in virtually every corner of the earth, and we realize our success comes directly from helping our customers be successful. We take seriously our responsibility to give back to the communities in which we work and live.',
-  picture: {
-    src: 'https://www.vms.ro/wp-content/uploads/2015/04/mobius-placeholder-2.png',
-    alt: 'Picture about the company',
+  background: {
+    type: 'color',
+    color: '#d8d8d8',
   },
-  button: {
-    actionConfig: {
-      action: 'link',
-      actions: {
-        link: {
-          type: '',
-          innerPage: '',
-          url: '',
+  collection: {
+    items: [
+      {
+        item_heading: {
+          content: 'Quantum Company',
+          type: 'heroTitle',
+        },
+        item_subheading: {
+          content: 'We implement Innovative Projects',
+          type: 'subtitle',
+        },
+        item_button: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
+            },
+          },
+          textValue: 'Request a quote',
+          type: 'primary',
+        },
+        item_button_additional: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
+            },
+          },
+          textValue: 'Learn more',
+          type: 'secondary',
         },
       },
-    },
-    textValue: 'Contact us',
-  },
-  link: {
-    actionConfig: {
-      action: 'link',
-      actions: {
-        link: {
-          type: '',
-          innerPage: '',
-          url: '',
+      {
+        item_heading: {
+          content: 'Quantum Company',
+          type: 'heroTitle',
+        },
+        item_subheading: {
+          content: 'We implement Innovative Projects',
+          type: 'subtitle',
+        },
+        item_button: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
+            },
+          },
+          textValue: 'Request a quote',
+          type: 'primary',
+        },
+        item_button_additional: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
+            },
+          },
+          textValue: 'Learn more',
+          type: 'secondary',
         },
       },
-    },
-    textValue: 'More about us',
-  },
-  socialIcons: {
-    networks: [
       {
-        id: 'facebook',
-        name: 'Facebook',
-        url: 'http://facebook.com/',
-      },
-      {
-        id: 'instagram',
-        name: 'Instagram',
-        url: 'http://instagram.com/',
-      },
-      {
-        id: 'youtube',
-        name: 'YouTube',
-        url: 'http://youtube.com/',
+        item_heading: {
+          content: 'Quantum Company',
+          type: 'heroTitle',
+        },
+        item_subheading: {
+          content: 'We implement Innovative Projects',
+          type: 'subtitle',
+        },
+        item_button: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
+            },
+          },
+          textValue: 'Request a quote',
+          type: 'primary',
+        },
+        item_button_additional: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
+            },
+          },
+          textValue: 'Learn more',
+          type: 'secondary',
+        },
       },
     ],
-    target: '_blank',
-    design: {
-      border: 'circle',
-      innerFill: true,
-      preset: 'preset001',
-      padding: 20,
-      color: '',
-      sizes: [10, 20, 30, 40],
-      size: '40px',
-    },
   },
 }
 
-Block.modifierScheme = [
-  {
-    id: 'text',
-    type: 'checkbox',
-    label: 'Company main text',
-    defaultValue: true,
-  },
-  {
-    id: 'link',
-    type: 'checkbox',
-    label: 'About us link',
-    defaultValue: false,
-  },
-  {
-    id: 'button',
-    type: 'checkbox',
-    label: 'Contact us button',
-    defaultValue: true,
-  },
-  {
-    id: 'socialIcons',
-    type: 'checkbox',
-    label: 'Social media buttons',
-    defaultValue: false,
-  },
-  {
-    id: 'subtitle',
-    type: 'checkbox',
-    label: 'Subtitle',
-    defaultValue: false,
-  },
-  {
-    id: 'title',
-    type: 'checkbox',
-    label: 'Block title',
-    defaultValue: true,
-  },
-]
+Block.modifierScheme = {
+  subtitle: {defaultValue: true, label: 'Title description', type: 'checkbox'},
+  arrows: {defaultValue: true, label: 'Navigation arrows', type: 'checkbox'},
+  item_button: {defaultValue: true, label: 'Primary button', type: 'checkbox'},
+  item_button_additional: {defaultValue: false, label: 'Secondary button', type: 'hidden'},
+  dots: {defaultValue: true, label: 'Navigation indicators', type: 'checkbox'},
+}
 
 export default Block

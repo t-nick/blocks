@@ -1,7 +1,8 @@
 {
-  "name": "wireframe-default-master",
-  "version": "0.0.1",
+  "name": "wireframe-lucario-cover",
+  "version": "0.0.26",
   "description": "",
+  "category": "cover",
   "main": "src/index.js",
   "scripts": {
     "precommit": "lint-staged"
@@ -28,5 +29,9 @@
     "stylelint": "^8.4.0",
     "stylelint-scss": "^2.2.0",
     "stylelint-selector-bem-pattern": "^2.0.0"
-  }
+  },
+  "roles": [
+    "cover"
+  ],
+  "editorVersion": "4.13.0"
 }
