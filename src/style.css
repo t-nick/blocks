@@ -138,16 +138,6 @@
   }
 }
 
-/* .item__title {
-  font-size: calc(var(--ui-hero-title-size) * .8);
-}
-
-@media (--ui-tablet-devices) {
-  .item__title {
-    font-size: var(--ui-hero-title-size);
-  }
-} */
-
 .slider-dots {
   margin-top: auto;
   bottom: 25px;
