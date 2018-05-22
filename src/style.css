@@ -2,6 +2,8 @@
 
 /* start here */
 .section {
+  min-width: auto;
+
   &__inner {
     max-width: none;
   }
@@ -40,19 +42,33 @@
     padding: 0 20px;
   }
 
+  @media (min-width: 992px) {
+    max-width: 30.333%;
+    flex-basis: 30.333%;
+  }
+
   &__content {
     padding: 62px 23% 50px 22%;
     background-color: var(--ui-light-shade-color);
     box-shadow: 0 9px 16px 0 rgba(37, 37, 46, 0.08);
 
     @media (min-width: 768px) {
-      min-height: 304px;
+      min-height: 290px;
+    }
+
+    @media (min-width: 992px) {
+      min-height: 310px;
+    }
+
+    @media (min-width: 1200px) {
+      min-height: 265px;
     }
 
     &::before {
       content: "";
       width: 0;
       height: 0;
+      min-width: auto;
       padding: 0;
       border-radius: 0;
       border-style: solid;
@@ -97,4 +113,8 @@
 
 .btns-group {
   margin-top: 70px;
+}
+
+.button {
+  width: auto;
 }
