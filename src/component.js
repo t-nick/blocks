@@ -17,22 +17,22 @@ class Block extends React.Component {
     return (
       <article className={style.item}>
         <div className={style.item__inner}>
-          <Text tagName="h2" className={style.item__title} bind={`cover[${index}].item_heading`} />
-          {_.get('subtitle')(modifier) && <Text tagName="p" className={style.subtitle} bind={`cover[${index}].item_subheading`} />}
+          <Text tagName="h2" className={style.item__title} bind={`collection[${index}].item_heading`} />
+          {_.get('subtitle')(modifier) && <Text tagName="p" className={style.subtitle} bind={`collection[${index}].item_subheading`} />}
           {(_.get('primary-button')(modifier) || _.get('secondary-button')(modifier)) && (
             <div className={style['btns-group']}>
               {_.get('item_button')(modifier) && (
                 <Button
                   buttonClassName={style.button}
                   linkClassName={style.link}
-                  bind={`cover[${index}].item_button`}
+                  bind={`collection[${index}].item_button`}
                 />
               )}
               {_.get('item_button_additional')(modifier) && (
                 <Button
                   buttonClassName={style.button}
                   linkClassName={style.link}
-                  bind={`cover[${index}].item_button_additional`}
+                  bind={`collection[${index}].item_button_additional`}
                 />
               )}
             </div>
@@ -86,122 +86,124 @@ Block.defaultContent = {
     type: 'color',
     color: '#d8d8d8',
   },
-  collection: [
-    {
-      item_heading: {
-        content: 'Quantum Company',
-        type: 'heroTitle',
-      },
-      item_subheading: {
-        content: 'We implement Innovative Projects',
-        type: 'subtitle',
-      },
-      item_button: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
+  collection: {
+    items: [
+      {
+        item_heading: {
+          content: 'Quantum Company',
+          type: 'heroTitle',
+        },
+        item_subheading: {
+          content: 'We implement Innovative Projects',
+          type: 'subtitle',
+        },
+        item_button: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
             },
           },
+          textValue: 'Request a quote',
+          type: 'primary',
         },
-        textValue: 'Request a quote',
-        type: 'primary',
-      },
-      item_button_additional: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
+        item_button_additional: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
             },
           },
+          textValue: 'Learn more',
+          type: 'secondary',
         },
-        textValue: 'Learn more',
-        type: 'secondary',
       },
-    },
-    {
-      item_heading: {
-        content: 'Quantum Company',
-        type: 'heroTitle',
-      },
-      item_subheading: {
-        content: 'We implement Innovative Projects',
-        type: 'subtitle',
-      },
-      item_button: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
+      {
+        item_heading: {
+          content: 'Quantum Company',
+          type: 'heroTitle',
+        },
+        item_subheading: {
+          content: 'We implement Innovative Projects',
+          type: 'subtitle',
+        },
+        item_button: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
             },
           },
+          textValue: 'Request a quote',
+          type: 'primary',
         },
-        textValue: 'Request a quote',
-        type: 'primary',
-      },
-      item_button_additional: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
+        item_button_additional: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
             },
           },
+          textValue: 'Learn more',
+          type: 'secondary',
         },
-        textValue: 'Learn more',
-        type: 'secondary',
       },
-    },
-    {
-      item_heading: {
-        content: 'Quantum Company',
-        type: 'heroTitle',
-      },
-      item_subheading: {
-        content: 'We implement Innovative Projects',
-        type: 'subtitle',
-      },
-      item_button: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
+      {
+        item_heading: {
+          content: 'Quantum Company',
+          type: 'heroTitle',
+        },
+        item_subheading: {
+          content: 'We implement Innovative Projects',
+          type: 'subtitle',
+        },
+        item_button: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
             },
           },
+          textValue: 'Request a quote',
+          type: 'primary',
         },
-        textValue: 'Request a quote',
-        type: 'primary',
-      },
-      item_button_additional: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
+        item_button_additional: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
             },
           },
+          textValue: 'Learn more',
+          type: 'secondary',
         },
-        textValue: 'Learn more',
-        type: 'secondary',
       },
-    },
-  ],
+    ],
+  },
 }
 
 Block.modifierScheme = {
