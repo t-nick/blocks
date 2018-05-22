@@ -17,22 +17,22 @@ class Block extends React.Component {
     return (
       <article className={style.item}>
         <div className={style.item__inner}>
-          <Text tagName="h2" className={style.item__title} bind={`cover[${index}].title`} />
-          {_.get('subtitle')(modifier) && <Text tagName="p" className={style.subtitle} bind={`cover[${index}].subtitle`} />}
+          <Text tagName="h2" className={style.item__title} bind={`cover[${index}].item_heading`} />
+          {_.get('subtitle')(modifier) && <Text tagName="p" className={style.subtitle} bind={`cover[${index}].item_subheading`} />}
           {(_.get('primary-button')(modifier) || _.get('secondary-button')(modifier)) && (
             <div className={style['btns-group']}>
-              {_.get('primary-button')(modifier) && (
+              {_.get('item_button')(modifier) && (
                 <Button
                   buttonClassName={style.button}
                   linkClassName={style.link}
-                  bind={`cover[${index}].cta`}
+                  bind={`cover[${index}].item_button`}
                 />
               )}
-              {_.get('secondary-button')(modifier) && (
+              {_.get('item_button_additional')(modifier) && (
                 <Button
                   buttonClassName={style.button}
                   linkClassName={style.link}
-                  bind={`cover[${index}]cta-2]`}
+                  bind={`cover[${index}].item_button_additional`}
                 />
               )}
             </div>
@@ -53,7 +53,7 @@ class Block extends React.Component {
         <div className={style.section__inner}>
           <Slider
             className={style['items-wrapper']}
-            bind="cover"
+            bind="collection"
             Item={this.collectionItem}
             settings={{
               dots: this.getModifierValue('dots'),
@@ -86,17 +86,17 @@ Block.defaultContent = {
     type: 'color',
     color: '#d8d8d8',
   },
-  cover: [
+  collection: [
     {
-      title: {
+      item_heading: {
         content: 'Quantum Company',
         type: 'heroTitle',
       },
-      subtitle: {
+      item_subheading: {
         content: 'We implement Innovative Projects',
         type: 'subtitle',
       },
-      cta: {
+      item_button: {
         actionConfig: {
           action: 'link',
           actions: {
@@ -110,7 +110,7 @@ Block.defaultContent = {
         textValue: 'Request a quote',
         type: 'primary',
       },
-      'cta-2': {
+      item_button_additional: {
         actionConfig: {
           action: 'link',
           actions: {
@@ -126,15 +126,15 @@ Block.defaultContent = {
       },
     },
     {
-      title: {
+      item_heading: {
         content: 'Quantum Company',
         type: 'heroTitle',
       },
-      subtitle: {
+      item_subheading: {
         content: 'We implement Innovative Projects',
         type: 'subtitle',
       },
-      cta: {
+      item_button: {
         actionConfig: {
           action: 'link',
           actions: {
@@ -148,7 +148,7 @@ Block.defaultContent = {
         textValue: 'Request a quote',
         type: 'primary',
       },
-      'cta-2': {
+      item_button_additional: {
         actionConfig: {
           action: 'link',
           actions: {
@@ -164,15 +164,15 @@ Block.defaultContent = {
       },
     },
     {
-      title: {
+      item_heading: {
         content: 'Quantum Company',
         type: 'heroTitle',
       },
-      subtitle: {
+      item_subheading: {
         content: 'We implement Innovative Projects',
         type: 'subtitle',
       },
-      cta: {
+      item_button: {
         actionConfig: {
           action: 'link',
           actions: {
@@ -186,7 +186,7 @@ Block.defaultContent = {
         textValue: 'Request a quote',
         type: 'primary',
       },
-      'cta-2': {
+      item_button_additional: {
         actionConfig: {
           action: 'link',
           actions: {
@@ -207,9 +207,9 @@ Block.defaultContent = {
 Block.modifierScheme = {
   subtitle: {defaultValue: true, label: 'Title description', type: 'checkbox'},
   arrows: {defaultValue: true, label: 'Navigation arrows', type: 'checkbox'},
-  'primary-button': {defaultValue: true, label: 'Primary button', type: 'checkbox'},
+  item_button: {defaultValue: true, label: 'Primary button', type: 'checkbox'},
+  item_button_additional: {defaultValue: false, label: 'Secondary button', type: 'hidden'},
   dots: {defaultValue: true, label: 'Navigation indicators', type: 'checkbox'},
-  'secondary-button': {defaultValue: false, label: 'Secondary button', type: 'hidden'},
 }
 
 export default Block
