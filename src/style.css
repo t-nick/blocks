@@ -41,10 +41,7 @@
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-
-    @media (min-width: 320px) {
-      align-items: center;
-    }
+    align-items: center;
 
     @media (min-width: 768px) {
       align-items: start;
