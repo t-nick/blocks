@@ -23,14 +23,7 @@ ExtendedWireframe.defaultContent = {
     },
     items: [
       {
-        title: {
-          content: 'Samsung',
-          type: 'heading',
-        },
-        desc: {
-          content: '<span style="font-weight: bold">Samsung.</span> It doesn’t need a lot of words. High-quality tech products with superior design.',
-          type: 'text',
-        },
+        ...Component.defaultContent.partners.items[0],
         logo: {
           image: {
             resourceRef: 'partners-img-1.png',
@@ -39,33 +32,14 @@ ExtendedWireframe.defaultContent = {
             height: 117,
           },
         },
-        picture: {
-          alt: 'Samsung logo',
-        },
         cta: {
-          actionConfig: {
-            action: 'link',
-            actions: {
-              link: {
-                type: '',
-                innerPage: '',
-                url: '',
-              },
-            },
-          },
+          ...Component.defaultContent.cta,
           textValue: 'Case study',
           type: 'link',
         },
       },
       {
-        title: {
-          content: 'Ford',
-          type: 'heading',
-        },
-        desc: {
-          content: '<span style="font-weight: bold">Ford.</span> This is our moving force, literally! 100% reliable and credible.',
-          type: 'text',
-        },
+        ...Component.defaultContent.partners.items[1],
         logo: {
           image: {
             resourceRef: 'partners-img-2.png',
@@ -75,29 +49,13 @@ ExtendedWireframe.defaultContent = {
           },
         },
         cta: {
-          actionConfig: {
-            action: 'link',
-            actions: {
-              link: {
-                type: '',
-                innerPage: '',
-                url: '',
-              },
-            },
-          },
+          ...Component.defaultContent.cta,
           textValue: 'Case study',
           type: 'link',
         },
       },
       {
-        title: {
-          content: 'Medical Family',
-          type: 'heading',
-        },
-        desc: {
-          content: '<span style="font-weight: bold">Medical Family.</span> Ensuring good health and medical care for our team for 5 years.',
-          type: 'text',
-        },
+        ...Component.defaultContent.partners.items[2],
         logo: {
           image: {
             resourceRef: 'partners-img-3.png',
@@ -107,29 +65,13 @@ ExtendedWireframe.defaultContent = {
           },
         },
         cta: {
-          actionConfig: {
-            action: 'link',
-            actions: {
-              link: {
-                type: '',
-                innerPage: '',
-                url: '',
-              },
-            },
-          },
+          ...Component.defaultContent.cta,
           textValue: 'Case study',
           type: 'link',
         },
       },
       {
-        title: {
-          content: 'Coffee Break Now',
-          type: 'heading',
-        },
-        desc: {
-          content: '<span style="font-weight: bold">Coffee Break Now.</span> We love their delicious coffee and flavored cakes!',
-          type: 'text',
-        },
+        ...Component.defaultContent.partners.items[3],
         logo: {
           image: {
             resourceRef: 'partners-img-4.png',
@@ -139,25 +81,12 @@ ExtendedWireframe.defaultContent = {
           },
         },
         cta: {
-          actionConfig: {
-            action: 'link',
-            actions: {
-              link: {
-                type: '',
-                innerPage: '',
-                url: '',
-              },
-            },
-          },
+          ...Component.defaultContent.cta,
           textValue: 'Case study',
           type: 'link',
         },
       },
     ],
-  },
-  button: {
-    textValue: 'Medium Button',
-    type: 'secondary',
   },
   background: {
     type: 'color',
@@ -168,6 +97,7 @@ ExtendedWireframe.defaultContent = {
 ExtendedWireframe.modifierScheme = {
   ...Component.modifierScheme,
   subtitle: {defaultValue: true, label: 'Partner description', type: 'checkbox'},
+  button: {defaultValue: true, label: 'Secondary button', type: 'checkbox'},
 }
 
 export default ExtendedWireframe
