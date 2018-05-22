@@ -27,8 +27,10 @@
     padding-top: 75px;
     padding-bottom: 75px;
 
-    .article__picture-wrapper {
-      max-width: 50%;
+    @media (min-width: 768px) {
+      .article__picture-wrapper {
+        max-width: 50%;
+      }
     }
 
     .article__content {
