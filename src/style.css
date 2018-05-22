@@ -15,10 +15,11 @@
 .items-wrapper {
   position: relative;
 
+  /* stylelint-disable */
   :global {
 
-    /* styles for default arrows */
-    .slick-arrow-default {
+    /* styles for custom arrows */
+    .slick-arrow {
       position: absolute;
       width: 23px;
       height: 40px;
@@ -29,15 +30,33 @@
       background-color: transparent;
       color: var(--ui-brand-color);
       cursor: pointer;
+      opacity: 1;
       transition: opacity .2s ease-in;
+
+      svg {
+        fill: currentColor;
+      }
+
+      &::before {
+        content: none;
+      }
+
+      &:hover {
+        opacity: 0.8;
+      }
     }
 
-    .slick-prev-default {
+    .slick-prev {
       left: 50%;
       transform: translateX(-200%);
 
       @media (--ui-tablet-devices) {
         left: calc(50% - 340px);
+        transform: translateY(-50%) translateX(-200%);
+      }
+
+      @media (--ui-medium-devices) {
+        left: calc(50% - 430px);
       }
 
       @media (--ui-large-devices) {
@@ -45,12 +64,17 @@
       }
     }
 
-    .slick-next-default {
+    .slick-next {
       right: 50%;
       transform: translateX(200%);
 
       @media (--ui-tablet-devices) {
         right: calc(50% - 340px);
+        transform: translateY(-50%) translateX(200%);
+      }
+
+      @media (--ui-medium-devices) {
+        right: calc(50% - 430px);
       }
 
       @media (--ui-large-devices) {
@@ -58,37 +82,16 @@
       }
     }
 
-    .slick-prev-default,
-    .slick-next-default {
-
-      @media (--ui-tablet-devices) {
-        top: 50%;
-        transform: translateY(-50%);
-      }
-    }
-
-    /* styles for custom arrows */
-    .slick-arrow {
-      width: 17px;
-      color: var(--ui-brand-color);
-    }
-
-    .slick-prev {
-      transform: translateX(-200%);
-    }
-
-    .slick-next {
-      transform: translateY(200%);
-    }
-
     .slick-prev,
     .slick-next {
 
       @media (--ui-tablet-devices) {
-        transform: translateY(-50%);
+        top: 50%;
       }
     }
   }
+
+  /* stylelint-enable */
 }
 
 @media (--ui-tablet-devices) {
@@ -99,7 +102,7 @@
 
 .item {
   margin: 0;
-  padding: 30px 15px 50px;
+  padding: 30px 15px 60px;
   outline: none;
   display: flex;
   flex-direction: column;
@@ -117,7 +120,7 @@
 
 .item__inner {
   display: flex;
-  max-width: var(--ui-content-container);
+  max-width: 100%;
   min-height: 310px;
   margin: 0 auto;
   flex-direction: column;
@@ -127,6 +130,7 @@
 @media (--ui-tablet-devices) {
   .item__inner {
     min-height: 500px;
+    max-width: calc(100% - 96px);
     padding: 0 48px;
   }
 }
