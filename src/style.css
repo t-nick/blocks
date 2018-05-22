@@ -2,6 +2,8 @@
 
 /* start here */
 .section {
+  min-width: auto;
+
   &__inner {
 
     @media (min-width: 992px) {
@@ -17,6 +19,8 @@
   }
 
   @media (min-width: 992px) {
+    max-width: 29.333333%;
+    flex-basis: 29.333333%;
     margin-top: 0;
     margin-bottom: 34px;
   }
