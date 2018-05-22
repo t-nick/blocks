@@ -13,31 +13,34 @@ class Wireframe extends React.Component {
   getOptionValue = (path, defaultValue = false) =>
     _.getOr(defaultValue, ['options', path], this.props.$block)
 
-  collectionItem = ({index}) => {
+  collectionItem = ({index, itemIndex}) => {
     const {components: {Text, Button, Background}, style, content} = this.props
     const showButton = this.getModifierValue('primary-button') || this.getModifierValue('secondary-button')
+    const itemsLength = content.cover.items.length
+    const currentItem = itemIndex < 9 ? `0${itemIndex + 1}` : `${itemIndex + 1}`
+    const itemsCount = itemsLength < 10 ? `/0${itemsLength}` : `/${itemsLength}`
 
     return (
       <div className={style.item}>
         <div className={style.item__inner}>
-          <Background bind={`cover[${index}].background`} tagName="div" className={style.item__content}>
-            {this.getModifierValue('subtitle') && <Text tagName="p" className={style.item__subtitle} bind={`cover[${index}].subtitle`} />}
-            {this.getModifierValue('title') && <Text tagName="h2" className={style.item__title} bind={`cover[${index}].title`} />}
-            {this.getModifierValue('body') && <Text tagName="p" className={style.item__body} bind={`cover[${index}].body`} />}
+          <Background bind={`cover[${index}].item_card_background`} tagName="div" className={style.item__content}>
+            {this.getModifierValue('subtitle') && <Text tagName="p" className={style.item__subtitle} bind={`cover[${index}].item_subheading`} />}
+            {this.getModifierValue('title') && <Text tagName="h2" className={style.item__title} bind={`cover[${index}].item_heading`} />}
+            {this.getModifierValue('body') && <Text tagName="p" className={style.item__body} bind={`cover[${index}].item_body`} />}
             {showButton && (
               <div className={style['btns-group']}>
                 {this.getModifierValue('primary-button') && (
                   <Button
                     className={style.button}
                     linkClassName={style.link}
-                    bind={`cover[${index}].cta`}
+                    bind={`cover[${index}].item_button`}
                   />
                 )}
                 {this.getModifierValue('secondary-button') && (
                   <Button
                     className={style.button}
                     linkClassName={style.link}
-                    bind={`cover[${index}].['cta-2']`}
+                    bind={`cover[${index}].item_button_additional`}
                   />
                 )}
               </div>
@@ -45,8 +48,8 @@ class Wireframe extends React.Component {
           </Background>
           {this.getModifierValue('counter') && (
             <div className={style.counter}>
-              <span className={style.counter__current}>{`0${index + 1}`}</span>
-              <span className={style.counter__count}>&nbsp;/{`0${content.cover.length}`}</span>
+              <span className={style.counter__current}>{currentItem}</span>
+              <span className={style.counter__count}>&nbsp;{itemsCount}</span>
             </div>
           )}
         </div>
@@ -84,150 +87,160 @@ class Wireframe extends React.Component {
 Wireframe.components = _.pick(['Text', 'Background', 'Button', 'Slider'])($editor.components)
 
 Wireframe.defaultContent = {
-  background: {
-    type: 'color',
-    color: '#D8D8D8',
+  cover: {
+    items: [
+      {
+        background: {
+          type: 'color',
+          color: 'dark-accent-color',
+        },
+        item_card_background: {
+          type: 'color',
+          color: 'light-shade-color',
+        },
+        item_heading: {
+          content: 'FOR WEEDING',
+          type: 'heroTitle',
+        },
+        item_subheading: {
+          content: 'Spring flowers',
+          type: 'subtitle',
+        },
+        item_body: {
+          content: 'Take a look at our best collection of beautiful flowers from all over the world',
+          type: 'text',
+        },
+        item_button: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
+            },
+          },
+          textValue: 'Request a quote',
+          type: 'primary',
+        },
+        item_button_additional: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
+            },
+          },
+          textValue: 'Learn more',
+          type: 'secondary',
+        },
+      },
+      {
+        background: {
+          type: 'color',
+          color: 'dark-accent-color',
+        },
+        item_card_background: {
+          type: 'color',
+          color: 'light-shade-color',
+        },
+        item_heading: {
+          content: 'FOR WEDDING',
+          type: 'heroTitle',
+        },
+        item_subheading: {
+          content: 'Spring flowers',
+          type: 'subtitle',
+        },
+        item_body: {
+          content: 'Take a look at our best collection of beautiful flowers from all over the world',
+          type: 'text',
+        },
+        item_button: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
+            },
+          },
+          textValue: 'Request a quote',
+          type: 'primary',
+        },
+        item_button_additional: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
+            },
+          },
+          textValue: 'Learn more',
+          type: 'secondary',
+        },
+      },
+      {
+        background: {
+          type: 'color',
+          color: 'dark-accent-color',
+        },
+        item_card_background: {
+          type: 'color',
+          color: 'light-shade-color',
+        },
+        item_heading: {
+          content: 'FOR WEEDING',
+          type: 'heroTitle',
+        },
+        item_subheading: {
+          content: 'Spring flowers',
+          type: 'subtitle',
+        },
+        item_body: {
+          content: 'Take a look at our best collection of beautiful flowers from all over the world',
+          type: 'text',
+        },
+        item_button: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
+            },
+          },
+          textValue: 'Request a quote',
+          type: 'primary',
+        },
+        item_button_additional: {
+          actionConfig: {
+            action: 'link',
+            actions: {
+              link: {
+                type: '',
+                innerPage: '',
+                url: '',
+              },
+            },
+          },
+          textValue: 'Learn more',
+          type: 'secondary',
+        },
+      },
+    ],
   },
-  cover: [
-    {
-      background: {
-        type: 'color',
-        color: '#fff',
-      },
-      title: {
-        content: 'FOR WEEDING',
-        type: 'heroTitle',
-      },
-      subtitle: {
-        content: 'Spring flowers',
-        type: 'subtitle',
-      },
-      body: {
-        content: 'Take a look at our best collection of beautiful flowers from all over the world',
-        type: 'text',
-      },
-      cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Request a quote',
-        type: 'primary',
-      },
-      'cta-2': {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Learn more',
-        type: 'secondary',
-      },
-    },
-    {
-      background: {
-        type: 'color',
-        color: '#fff',
-      },
-      title: {
-        content: 'FOR WEEDING',
-        type: 'heroTitle',
-      },
-      subtitle: {
-        content: 'Spring flowers',
-        type: 'subtitle',
-      },
-      body: {
-        content: 'Take a look at our best collection of beautiful flowers from all over the world',
-        type: 'text',
-      },
-      cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Request a quote',
-        type: 'primary',
-      },
-      'cta-2': {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Learn more',
-        type: 'secondary',
-      },
-    },
-    {
-      background: {
-        type: 'color',
-        color: '#fff',
-      },
-      title: {
-        content: 'FOR WEEDING',
-        type: 'heroTitle',
-      },
-      subtitle: {
-        content: 'Spring flowers',
-        type: 'subtitle',
-      },
-      body: {
-        content: 'Take a look at our best collection of beautiful flowers from all over the world',
-        type: 'text',
-      },
-      cta: {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Request a quote',
-        type: 'primary',
-      },
-      'cta-2': {
-        actionConfig: {
-          action: 'link',
-          actions: {
-            link: {
-              type: '',
-              innerPage: '',
-              url: '',
-            },
-          },
-        },
-        textValue: 'Learn more',
-        type: 'secondary',
-      },
-    },
-  ],
 }
 
 Wireframe.modifierScheme = {
