@@ -62,6 +62,8 @@
 
   &__inner {
     min-height: 463px;
+    padding-top: 120px;
+    padding-bottom: 0;
   }
 
   &__description {
@@ -94,5 +96,10 @@
 
   @media (min-width: 992px) {
     padding-top: 55px;
+  }
+
+  &__button,
+  &__link {
+    width: auto;
   }
 }

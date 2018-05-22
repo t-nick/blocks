@@ -12,10 +12,6 @@ const ExtendedWireframe = hoistStatics(withProps(_.pipe(_.set('style', style), _
 
 ExtendedWireframe.defaultContent = {
   ...Component.defaultContent,
-  title: {
-    ...Component.defaultContent.title,
-    content: 'Why choose us',
-  },
   collection: {
     background: {
       'nth-child': [
@@ -41,7 +37,6 @@ ExtendedWireframe.defaultContent = {
         ...Component.defaultContent.collection.items[0],
         heading: {
           ...Component.defaultContent.collection.items[0].heading,
-          content: 'Open-mindedness',
         },
       },
       {
