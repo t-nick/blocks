@@ -78,7 +78,8 @@
       "fontFamily": "'Libre Baskerville', serif",
       "fontWeight": 400,
       "color": [
-        "darkShade?lighten=42&desaturate=45.1"
+        "darkShade?saturate=-40.32&lighten=51.57",
+        "darkShade?saturate=-40.21&lighten=51.96&spin=-5"
       ]
     },
     "small": {
