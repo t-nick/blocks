@@ -2,9 +2,11 @@
 
 /* start here */
 .section {
+  min-width: auto;
 
   @media (min-width: 992px) {
-    padding: 208px 0 180px;
+    padding-top: 208px;
+    padding-bottom: 180px;
   }
 }
 

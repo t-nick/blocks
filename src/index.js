@@ -32,7 +32,7 @@ ExtendedWireframe.modifierScheme = {
     defaultValue: 'center',
   },
   heading: {defaultValue: false, label: 'Company title', type: 'hidden'},
-  subheading: {defaultValue: false, label: 'Company description', type: 'checkbox'},
+  subheading: {defaultValue: false, label: 'Company description', type: 'hidden'},
   text: {defaultValue: true, label: 'Company main text', type: 'checkbox'},
   'social-icons': {defaultValue: false, label: 'Social media buttons', type: 'hidden'},
   button: {defaultValue: false, label: 'Button', type: 'hidden'},
