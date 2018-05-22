@@ -19,7 +19,7 @@ class Block extends React.Component {
         <div className={style.item__inner}>
           <Text tagName="h2" className={style.item__title} bind={`collection[${index}].item_heading`} />
           {_.get('subtitle')(modifier) && <Text tagName="p" className={style.subtitle} bind={`collection[${index}].item_subheading`} />}
-          {(_.get('primary-button')(modifier) || _.get('secondary-button')(modifier)) && (
+          {(_.get('item_button')(modifier) || _.get('item_button_additional')(modifier)) && (
             <div className={style['btns-group']}>
               {_.get('item_button')(modifier) && (
                 <Button
