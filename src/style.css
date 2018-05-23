@@ -1,3 +1,76 @@
-@import "wireframe-default-master/src/style.css";
+@import "wireframe-series-2-contacts/src/style.css";
 
 /* start here */
+.section {
+  overflow: hidden;
+
+  &__header {
+    margin-bottom: 36px;
+  }
+
+  .article {
+    &__title {
+      font-weight: 500;
+    }
+
+    &__text {
+      padding-left: 15px;
+      padding-right: 15px;
+
+      p {
+        font-size: calc(var(--ui-text-size) * 0.875);
+        line-height: calc(var(--ui-text-line-height) * 1.35);
+        margin-bottom: 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: var(--ui-text-color);
+
+        &:hover,
+        &:active,
+        &:focus {
+          color: var(--ui-brand-color);
+        }
+      }
+    }
+  }
+}
+
+.title {
+  font-weight: 600;
+  font-size: calc(var(--ui-block-title-size) * 0.875);
+  margin-bottom: 34px;
+}
+
+.subtitle {
+  font-size: calc(var(--ui-subtitle-size) * 0.9);
+}
+
+.article {
+  padding: 0;
+
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  &__text p:nth-child(2) a {
+    font-weight: 500;
+    font-size: var(--ui-text-size);
+    color: var(--ui-dark-shade-color);
+  }
+}
+
+.article:first-child:last-of-type {
+  .article__picture {
+    margin-bottom: 40px;
+
+    @media (min-width: 480px) {
+      padding-top: 49.5%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    max-width: 770px;
+  }
+}
